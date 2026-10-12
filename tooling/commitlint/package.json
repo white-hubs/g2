@@ -1,0 +1,12 @@
+{
+  "name": "@g2-tooling/commitlint",
+  "version": "0.0.0",
+  "private": true,
+  "bin": {
+    "g2-commitlint": "./src/cli.ts"
+  },
+  "type": "module",
+  "scripts": {
+    "test": "bun test"
+  }
+}

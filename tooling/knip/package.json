@@ -1,0 +1,16 @@
+{
+  "name": "@g2-tooling/knip",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "check": "bun ./src/cli.ts",
+    "test": "bun test"
+  },
+  "dependencies": {
+    "knip": "catalog:tooling"
+  },
+  "devDependencies": {
+    "typescript": "catalog:typescript"
+  }
+}

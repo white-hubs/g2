@@ -1,0 +1,12 @@
+{
+  "baseline": ["vue", "vue-router", "pinia", "vite", "typescript", "zod", "yaml", "qiankun"],
+  "encapsulatedBy": {
+    "dayjs": ["@g2-platform/date"],
+    "crypto-js": ["@g2-platform/pc-auth"],
+    "pinyin-pro": ["@g2-platform/pc-chrome"],
+    "echarts": ["@g2-platform/pc-chart"]
+  },
+  "exposedBy": {
+    "ant-design-vue": ["@g2-platform/pc-ui"]
+  }
+}

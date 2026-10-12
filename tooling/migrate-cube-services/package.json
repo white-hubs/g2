@@ -1,0 +1,10 @@
+{
+  "name": "@g2-tooling/migrate-cube-services",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "migrate": "bun cli.ts all",
+    "generate-clients": "bun generate-clients.ts"
+  }
+}

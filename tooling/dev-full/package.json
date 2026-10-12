@@ -1,0 +1,9 @@
+{
+  "name": "@g2-tooling/dev-full",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "run": "bun ./cli.ts"
+  }
+}

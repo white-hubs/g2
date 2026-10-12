@@ -1,0 +1,20 @@
+{
+  "name": "@g2-tooling/release",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "cli": "bun ./src/cli.ts",
+    "test": "bun test"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.750.0",
+    "@g2-composition/registry": "workspace:*",
+    "@g2-tooling/mf-vite": "workspace:*",
+    "yaml": "catalog:libs",
+    "zod": "catalog:libs"
+  },
+  "devDependencies": {
+    "typescript": "catalog:typescript"
+  }
+}

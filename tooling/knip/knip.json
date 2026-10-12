@@ -1,0 +1,49 @@
+{
+  "$schema": "https://unpkg.com/knip@5/schema.json",
+  "workspaces": {
+    ".": {
+      "entry": ["package.json"],
+      "project": ["package.json"]
+    },
+    "apps/*/*": {
+      "entry": [
+        "src/main.ts!",
+        "src/platform.ts!",
+        "src/platform-module.ts!",
+        "src/domain.ts!",
+        "src/index.ts!",
+        "vite.config.ts!",
+        "vitest.config.ts!",
+        "vitest.setup.ts!"
+      ],
+      "project": ["src/**/*.{ts,tsx}"]
+    },
+    "packages/*": {
+      "entry": ["src/index.ts!", "src/cli.ts!", "package.json"],
+      "project": ["src/**/*.{ts,tsx}"]
+    },
+    "contracts/*": {
+      "entry": ["src/index.ts!", "package.json"],
+      "project": ["src/**/*.{ts,tsx}"]
+    },
+    "apps/clients/*": {
+      "entry": ["src/main.ts!", "src/client.ts!", "vite.config.ts!"],
+      "project": ["src/**/*.{ts,tsx}"]
+    },
+    "tooling/*": {
+      "entry": ["src/cli.ts!", "src/index.ts!", "package.json", "dependency-cruiser.config.mjs!"],
+      "project": ["src/**/*.{ts,tsx}", "*.mjs"]
+    }
+  },
+  "ignore": ["tooling/deps-graph/fixtures/**"],
+  "ignoreDependencies": [
+    "bun-types",
+    "@types/bun",
+    "tailwindcss",
+    "vue-router",
+    "@g2-composition/schema",
+    "@g2-composition/registry",
+    "@module-federation/runtime"
+  ],
+  "ignoreBinaries": ["turbo", "oxlint", "oxfmt", "docker", "docker-compose"]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "@g2-tooling/dev-filter",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "run": "bun ./cli.ts"
+  },
+  "devDependencies": {
+    "typescript": "catalog:typescript",
+    "yaml": "catalog:libs"
+  }
+}

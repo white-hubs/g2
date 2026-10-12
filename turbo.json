@@ -1,0 +1,29 @@
+{
+  "$schema": "https://turbo.build/schema.json",
+  "cacheMaxAge": "7d",
+  "cacheMaxSize": "10GB",
+  // dev:full starts every remote declared by the PC composition, plus Turbo's scheduler.
+  "concurrency": "63",
+  "tasks": {
+    "build": {
+      "dependsOn": ["^build"],
+      "outputs": ["dist/**"],
+      // ADR-0054: remote Vite builds bake G2_MF_RUNTIME_BASE into external URLs; must bust cache per base.
+      // Shell bakes VITE_RESOLVED_PROFILE_URL; NODE_ENV affects Bun .env.* loading for that package.
+      "env": ["G2_MF_RUNTIME_BASE", "G2_MF_RUNTIME_MODE", "G2_MF_RUNTIME_SLIM", "VITE_RESOLVED_PROFILE_URL", "NODE_ENV"]
+    },
+    "dev": {
+      "cache": false,
+      "persistent": true
+    },
+    "typecheck": {
+      "dependsOn": ["^build"]
+    },
+    "test": {
+      "dependsOn": ["^build"]
+    },
+    "test:ui": {
+      "dependsOn": ["^build"]
+    }
+  }
+}

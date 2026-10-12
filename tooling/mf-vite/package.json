@@ -1,0 +1,20 @@
+{
+  "name": "@g2-tooling/mf-vite",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "test": "bun test",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  },
+  "dependencies": {
+    "@module-federation/vite": "catalog:vite"
+  },
+  "devDependencies": {
+    "typescript": "catalog:typescript",
+    "vite": "catalog:vite"
+  }
+}

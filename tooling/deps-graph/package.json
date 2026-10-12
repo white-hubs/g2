@@ -1,0 +1,16 @@
+{
+  "name": "@g2-tooling/deps-graph",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "check": "bun ./src/cli.ts",
+    "test": "bun test"
+  },
+  "dependencies": {
+    "dependency-cruiser": "catalog:tooling"
+  },
+  "devDependencies": {
+    "typescript": "catalog:typescript"
+  }
+}
