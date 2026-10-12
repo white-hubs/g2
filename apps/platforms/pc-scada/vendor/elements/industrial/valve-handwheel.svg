@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:scada="http://cube-scada.io/ns/v1" viewBox="0 0 100 60">
+  <metadata>
+    <scada:element>
+      <scada:meta type="valve-handwheel" label="手轮阀" category="工业设备" version="1.0.0"/>
+      <scada:props>
+        <scada:prop name="open" type="boolean" label="开启" default="false" domain="observe" semantic="status.open" required="false" bindable="true" controllable="false"/>
+        <scada:prop name="color" type="color" label="阀体颜色" default="#90A4AE" domain="observe" semantic="style.color" required="false" bindable="true" controllable="false"/>
+        <scada:prop name="handwheelColor" type="color" label="手轮颜色" default="#D32F2F" domain="observe" semantic="style.handwheelColor" required="false" bindable="true" controllable="false"/>
+      </scada:props>
+      <scada:mappings>
+        <scada:map prop="color" selector=".valve-body-part" attr="fill"/>
+        <scada:map prop="handwheelColor" selector=".handwheel-part" attr="stroke"/>
+      </scada:mappings>
+      <scada:animations>
+        <scada:animation id="handwheel-spin" triggerProp="open" triggerCondition="value === true" target="#handwheel-group" 
+          keyframes='[{"transform":"rotate(0deg)"},{"transform":"rotate(360deg)"}]' duration="2000" iterations="Infinity" easing="linear"/>
+      </scada:animations>
+    </scada:element>
+  </metadata>
+
+  <!-- Valve Body -->
+  <g class="valve-body-group">
+    <!-- Flanges -->
+    <rect class="valve-body-part" x="5" y="10" width="12" height="40" rx="2" fill="#78909C" stroke="#455A64" stroke-width="1"/>
+    <rect class="valve-body-part" x="83" y="10" width="12" height="40" rx="2" fill="#78909C" stroke="#455A64" stroke-width="1"/>
+    
+    <!-- Main Pipe Section -->
+    <rect class="valve-body-part" x="17" y="15" width="66" height="30" fill="#90A4AE" stroke="#455A64" stroke-width="1"/>
+    
+    <!-- Central Housing -->
+    <rect class="valve-body-part" x="35" y="10" width="30" height="40" rx="4" fill="#78909C" stroke="#455A64" stroke-width="1"/>
+  </g>
+
+  <!-- Handwheel Group -->
+  <g id="handwheel-group" style="transform-origin: 50px 30px">
+    <!-- Handwheel Outer Ring -->
+    <circle class="handwheel-part" cx="50" cy="30" r="15" fill="none" stroke="#D32F2F" stroke-width="3"/>
+    
+    <!-- Handwheel Spokes -->
+    <line class="handwheel-part" x1="50" y1="15" x2="50" y2="30" stroke="#D32F2F" stroke-width="2"/>
+    <line class="handwheel-part" x1="50" y1="30" x2="37" y2="37.5" stroke="#D32F2F" stroke-width="2"/>
+    <line class="handwheel-part" x1="50" y1="30" x2="63" y2="37.5" stroke="#D32F2F" stroke-width="2"/>
+    
+    <!-- Center Hub -->
+    <circle cx="50" cy="30" r="3" fill="#455A64"/>
+  </g>
+</svg>

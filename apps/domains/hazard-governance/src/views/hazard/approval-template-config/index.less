@@ -1,0 +1,146 @@
+.hazard-approval-template-config {
+  width: 100%;
+}
+
+.hazard-approval-template-config .hazard-icon-action {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  min-width: 24px;
+  height: 24px;
+  padding: 0 !important;
+  font-size: 14px;
+  line-height: 1;
+}
+
+.hazard-template-chain {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  min-width: 0;
+  overflow: hidden;
+}
+
+.hazard-template-chain-node {
+  max-width: 170px;
+  overflow: hidden;
+  padding: 3px 8px;
+  border: 1px solid #bfdbfe;
+  border-radius: 999px;
+  background: #eff6ff;
+  color: #1d4ed8;
+  font-size: 12px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.hazard-template-chain-arrow {
+  color: #9ca3af;
+}
+
+.hazard-template-form-modal {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.hazard-template-form-field {
+  display: grid;
+  grid-template-columns: 88px minmax(0, 1fr);
+  gap: 12px;
+  align-items: center;
+}
+
+.hazard-template-form-field > span {
+  color: #6b7280;
+  font-size: 13px;
+}
+
+.hazard-template-form-preview {
+  display: grid;
+  grid-template-columns: 88px minmax(0, 1fr);
+  gap: 12px;
+  align-items: start;
+  padding: 10px 0;
+}
+
+.hazard-template-form-preview > span,
+.hazard-template-form-toolbar > span {
+  color: #6b7280;
+  font-size: 13px;
+}
+
+.hazard-template-form-chain {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  min-width: 0;
+  overflow-x: auto;
+  padding-bottom: 2px;
+}
+
+.hazard-template-form-chain strong,
+.hazard-template-form-chain em {
+  flex: 0 0 auto;
+  max-width: 160px;
+  overflow: hidden;
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-style: normal;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.hazard-template-form-chain strong {
+  border: 1px solid #bfdbfe;
+  background: #eff6ff;
+  color: #1d4ed8;
+}
+
+.hazard-template-form-chain em {
+  border: 1px solid #bbf7d0;
+  background: #f0fdf4;
+  color: #16a34a;
+}
+
+.hazard-template-form-toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.hazard-template-form-nodes {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-top: 4px;
+}
+
+.hazard-template-form-node {
+  display: grid;
+  grid-template-columns: 48px minmax(0, 1fr) 28px;
+  gap: 10px;
+  align-items: center;
+  padding: 8px;
+  border: 1px solid #edf0f5;
+  border-radius: 6px;
+  background: #fff;
+}
+
+.hazard-template-form-drag {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3px;
+  color: #6b7280;
+  cursor: grab;
+  font-size: 13px;
+  text-align: center;
+}
+
+.hazard-template-form-drag:active {
+  cursor: grabbing;
+}

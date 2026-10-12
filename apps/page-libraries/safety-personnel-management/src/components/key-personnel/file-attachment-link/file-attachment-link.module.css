@@ -1,0 +1,64 @@
+.imagePreview {
+  display: inline-flex;
+  flex: 0 0 auto;
+  width: 72px;
+  height: 72px;
+  overflow: hidden;
+  border-radius: 6px;
+
+  /* 仅命中 Image 根节点（xxx-image），勿用 [class*='-image'] 误伤 mask */
+  :global([class$="-image"]) {
+    position: relative;
+    display: inline-block;
+    width: 72px;
+    height: 72px;
+    line-height: 0;
+    border-radius: 6px;
+    overflow: hidden;
+  }
+
+  :global([class$="-image-img"]),
+  :global(img) {
+    display: block;
+    width: 72px !important;
+    height: 72px !important;
+    max-width: 72px !important;
+    max-height: 72px !important;
+    border-radius: 6px;
+    object-fit: cover;
+  }
+
+  :global([class*="-image-mask"]) {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    inset: 0 !important;
+  }
+
+  :global([class*="-image-mask-info"]) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.link {
+  align-items: flex-start;
+  color: #2563eb;
+  cursor: pointer;
+  display: inline-flex;
+  font-size: 13px;
+  gap: 6px;
+  text-decoration: none;
+  word-break: break-all;
+
+  &:hover {
+    text-decoration: underline;
+  }
+
+  :global(.anticon) {
+    flex-shrink: 0;
+    font-size: 14px;
+    margin-top: 2px;
+  }
+}

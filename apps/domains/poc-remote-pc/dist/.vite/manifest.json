@@ -1,0 +1,147 @@
+{
+  "__virtual_mf___mfe_internal__pocRemotePc__loadShare__vue__loadShare__.js-LGfStR7y.js": {
+    "file": "assets/_virtual_mf___mfe_internal__pocRemotePc__loadShare__vue__loadShare__.js-LGfStR7y.js",
+    "name": "_virtual_mf___mfe_internal__pocRemotePc__loadShare__vue__loadShare__.js",
+    "imports": [
+      "_rolldown-runtime-DK3Fl9T5.js"
+    ]
+  },
+  "_rolldown-runtime-DK3Fl9T5.js": {
+    "file": "assets/rolldown-runtime-DK3Fl9T5.js",
+    "name": "rolldown-runtime"
+  },
+  "_virtual_mf-REMOTE_ENTRY_ID___mfe_internal__pocRemotePc__remoteEntry_js-De6mr1I3.js": {
+    "file": "assets/virtual_mf-REMOTE_ENTRY_ID___mfe_internal__pocRemotePc__remoteEntry_js-De6mr1I3.js",
+    "name": "virtual_mf-REMOTE_ENTRY_ID___mfe_internal__pocRemotePc__remoteEntry_js",
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "virtual:mf-localSharedImportMap:__mfe_internal__pocRemotePc",
+      "_virtual_mf-exposes___mfe_internal__pocRemotePc__remoteEntry_js-CSoFDwfy.js"
+    ]
+  },
+  "_virtual_mf-exposes___mfe_internal__pocRemotePc__remoteEntry_js-CSoFDwfy.js": {
+    "file": "assets/virtual_mf-exposes___mfe_internal__pocRemotePc__remoteEntry_js-CSoFDwfy.js",
+    "name": "virtual_mf-exposes___mfe_internal__pocRemotePc__remoteEntry_js",
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "src/domain.ts"
+    ]
+  },
+  "_vite-preload-helper-7P2xnrDv.js": {
+    "file": "assets/vite-preload-helper-7P2xnrDv.js",
+    "name": "vite-preload-helper"
+  },
+  "index.html": {
+    "file": "assets/index-DmiFQWl4.js",
+    "name": "index",
+    "src": "index.html",
+    "isEntry": true,
+    "imports": [
+      "_virtual_mf-exposes___mfe_internal__pocRemotePc__remoteEntry_js-CSoFDwfy.js",
+      "_virtual_mf-REMOTE_ENTRY_ID___mfe_internal__pocRemotePc__remoteEntry_js-De6mr1I3.js",
+      "__virtual_mf___mfe_internal__pocRemotePc__loadShare__vue__loadShare__.js-LGfStR7y.js"
+    ]
+  },
+  "src/domain.ts": {
+    "file": "assets/domain-D9k0QGGC.js",
+    "name": "domain",
+    "src": "src/domain.ts",
+    "isEntry": true,
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "src/poc-remote-view.tsx"
+    ]
+  },
+  "src/poc-remote-view.tsx": {
+    "file": "assets/poc-remote-view-DJ6qgrSf.js",
+    "name": "poc-remote-view",
+    "src": "src/poc-remote-view.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__pocRemotePc__loadShare__vue__loadShare__.js-LGfStR7y.js"
+    ],
+    "css": [
+      "assets/poc-remote-view-C2vXnYmr.css"
+    ]
+  },
+  "virtual:mf-REMOTE_ENTRY_ID:__mfe_internal__pocRemotePc__remoteEntry_js": {
+    "file": "remoteEntry.js",
+    "name": "remoteEntry",
+    "src": "virtual:mf-REMOTE_ENTRY_ID:__mfe_internal__pocRemotePc__remoteEntry_js",
+    "imports": [
+      "_virtual_mf-REMOTE_ENTRY_ID___mfe_internal__pocRemotePc__remoteEntry_js-De6mr1I3.js"
+    ]
+  },
+  "virtual:mf-REMOTE_ENTRY_SSR_ID:__mfe_internal__pocRemotePc__remoteEntry_js": {
+    "file": "remoteEntry.ssr.js",
+    "name": "ssrRemoteEntry",
+    "src": "virtual:mf-REMOTE_ENTRY_SSR_ID:__mfe_internal__pocRemotePc__remoteEntry_js",
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "virtual:mf-exposes-ssr:__mfe_internal__pocRemotePc__remoteEntry_js"
+    ]
+  },
+  "virtual:mf-exposes-ssr:__mfe_internal__pocRemotePc__remoteEntry_js": {
+    "file": "assets/virtual_mf-exposes-ssr___mfe_internal__pocRemotePc__remoteEntry_js-CJtU0hcv.js",
+    "name": "virtual_mf-exposes-ssr___mfe_internal__pocRemotePc__remoteEntry_js",
+    "src": "virtual:mf-exposes-ssr:__mfe_internal__pocRemotePc__remoteEntry_js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "src/domain.ts"
+    ]
+  },
+  "virtual:mf-exposes:__mfe_internal__pocRemotePc__remoteEntry_js": {
+    "file": "assets/virtualExposes-BafQUEBg.js",
+    "name": "virtualExposes",
+    "src": "virtual:mf-exposes:__mfe_internal__pocRemotePc__remoteEntry_js",
+    "imports": [
+      "_virtual_mf-exposes___mfe_internal__pocRemotePc__remoteEntry_js-CSoFDwfy.js"
+    ]
+  },
+  "virtual:mf-localSharedImportMap:__mfe_internal__pocRemotePc": {
+    "file": "assets/_virtual_mf-localSharedImportMap___mfe_internal__pocRemotePc-BmcQjfYl.js",
+    "name": "_virtual_mf-localSharedImportMap___mfe_internal__pocRemotePc",
+    "src": "virtual:mf-localSharedImportMap:__mfe_internal__pocRemotePc",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "__virtual_mf___mfe_internal__pocRemotePc__loadShare__vue__loadShare__.js-LGfStR7y.js",
+      "virtual:mf:__mfe_internal__pocRemotePc__prebuild__vue_mf_2_router__prebuild__.js"
+    ]
+  },
+  "virtual:mf:__mfe_internal__pocRemotePc__H_A_I__hostAutoInit__H_A_I__.js": {
+    "file": "assets/hostInit-DRf0WMk7.js",
+    "name": "hostInit",
+    "src": "virtual:mf:__mfe_internal__pocRemotePc__H_A_I__hostAutoInit__H_A_I__.js",
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "_virtual_mf-REMOTE_ENTRY_ID___mfe_internal__pocRemotePc__remoteEntry_js-De6mr1I3.js",
+      "virtual:mf-localSharedImportMap:__mfe_internal__pocRemotePc"
+    ]
+  },
+  "virtual:mf:__mfe_internal__pocRemotePc__prebuild__vue_mf_2_router__prebuild__.js": {
+    "file": "assets/_virtual_mf___mfe_internal__pocRemotePc__prebuild__vue_mf_2_router__prebuild__-DK6aY3s8.js",
+    "name": "_virtual_mf___mfe_internal__pocRemotePc__prebuild__vue_mf_2_router__prebuild__",
+    "src": "virtual:mf:__mfe_internal__pocRemotePc__prebuild__vue_mf_2_router__prebuild__.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-DK3Fl9T5.js",
+      "__virtual_mf___mfe_internal__pocRemotePc__loadShare__vue__loadShare__.js-LGfStR7y.js"
+    ]
+  }
+}

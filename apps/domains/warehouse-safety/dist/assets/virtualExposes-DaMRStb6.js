@@ -1,0 +1,1 @@
+import{t as e}from"./virtual_mf-exposes___mfe_internal__warehouseSafety__remoteEntry_js-KWCZ-3ig.js";export{e as default};

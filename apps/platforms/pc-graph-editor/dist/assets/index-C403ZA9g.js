@@ -1,0 +1,1 @@
+import"./virtual_mf-exposes___mfe_internal__pcGraphEditor__remoteEntry_js-BJjeX4fW.js";import"./virtual_mf-REMOTE_ENTRY_ID___mfe_internal__pcGraphEditor__remoteEntry_js-B0EYfExM.js";document.querySelector(`#app`).textContent=`@g2-platform/pc-graph-editor build shell`;

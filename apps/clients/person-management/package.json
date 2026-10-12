@@ -1,0 +1,26 @@
+{
+  "name": "@g2-client/person-management",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    "./client": "./src/client.ts"
+  },
+  "scripts": {
+    "dev": "bun ../../../tooling/dev-link/cli.ts",
+    "dev:serve": "bun --bun vite --port 5128 --strictPort",
+    "build": "bun --bun vite build",
+    "preview": "bun --bun vite preview --port 5128 --strictPort",
+    "test": "bun test",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  },
+  "dependencies": {
+    "@g2-composition/contract": "workspace:*",
+    "@g2-contract/person-management": "workspace:*"
+  },
+  "devDependencies": {
+    "@g2-tooling/mf-vite": "workspace:*",
+    "typescript": "catalog:typescript",
+    "vite": "catalog:vite"
+  }
+}

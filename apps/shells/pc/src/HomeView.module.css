@@ -1,0 +1,4 @@
+.root {
+  /* 首页占位，保持与原 HomeView 无额外样式时的默认文档流表现 */
+  display: block;
+}

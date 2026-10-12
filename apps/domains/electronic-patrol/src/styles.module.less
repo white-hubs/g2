@@ -1,0 +1,127 @@
+.tablePage {
+  display: flex;
+  min-height: 0;
+  height: 100%;
+  flex-direction: column;
+  gap: 12px;
+  background: #fff;
+}
+
+.tablePage :global(.pc-table-wrap),
+.tablePage :global(.vxe-grid) {
+  min-height: 0;
+  flex: 1;
+}
+
+.actionSpace {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2px;
+}
+
+.formCard {
+  padding: 20px 24px;
+  background: #fff;
+  border: 1px solid #edf0f5;
+  border-radius: 6px;
+}
+
+.formGrid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(260px, 1fr));
+  column-gap: 28px;
+}
+
+.fullRow {
+  grid-column: 1 / -1;
+}
+
+.detailSection {
+  margin-bottom: 16px;
+  padding: 16px 20px;
+  background: #fff;
+  border: 1px solid #edf0f5;
+  border-radius: 6px;
+}
+
+.detailSectionTitle {
+  margin-bottom: 16px;
+  color: #1f2937;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.messageCard {
+  position: relative;
+  width: min(760px, 100%);
+  margin-top: 12px;
+  padding: 18px 20px;
+  border: 1px dashed #cfd6e4;
+  border-radius: 6px;
+  background: #fafcff;
+}
+
+.messageRow {
+  display: flex;
+  align-items: center;
+  min-height: 36px;
+  gap: 8px;
+}
+
+.messageExample {
+  margin-top: 10px;
+  padding: 10px 12px;
+  color: #5f6b7a;
+  background: #f3f6fa;
+  border-radius: 4px;
+}
+
+.pointPicker {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: 16px;
+}
+
+.selectedPanel {
+  min-height: 360px;
+  padding: 12px;
+  border: 1px solid #e5e7eb;
+  border-radius: 6px;
+}
+
+.selectedItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 10px;
+  margin-bottom: 8px;
+  background: #f7f9fc;
+  border-radius: 4px;
+}
+
+.footerActions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+}
+
+.muted {
+  color: #8c96a5;
+}
+
+.danger {
+  color: #ff4d4f;
+}
+
+.statTabs {
+  min-height: 0;
+  flex: 1;
+}
+
+@media (max-width: 1100px) {
+  .formGrid,
+  .pointPicker {
+    grid-template-columns: 1fr;
+  }
+}

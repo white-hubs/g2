@@ -1,0 +1,20 @@
+.nameCell {
+  display: inline-block;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  vertical-align: middle;
+}
+
+.urlCell {
+  display: inline-block;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  vertical-align: middle;
+  font-family: "JetBrains Mono", monospace;
+  font-size: 12px;
+  color: #64748b;
+}

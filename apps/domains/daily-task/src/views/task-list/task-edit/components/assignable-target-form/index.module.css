@@ -1,0 +1,12 @@
+.formContainer {
+  width: 100%;
+}
+.searchBar {
+  margin-bottom: 16px;
+}
+.tableContainer {
+  margin-top: 12px;
+}
+.wide-select {
+  width: 200px;
+}

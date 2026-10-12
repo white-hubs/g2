@@ -1,0 +1,22 @@
+{
+  "name": "@g2-domain/poc-inline-pc",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/domain.ts",
+    "./domain": "./src/domain.ts"
+  },
+  "scripts": {
+    "build": "bun build ./src/domain.ts --outdir ./dist --target browser",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "bun test"
+  },
+  "dependencies": {
+    "@g2-composition/contract": "workspace:*",
+    "vue": "catalog:vue"
+  },
+  "devDependencies": {
+    "typescript": "catalog:typescript"
+  }
+}

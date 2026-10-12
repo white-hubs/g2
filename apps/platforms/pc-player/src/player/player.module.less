@@ -1,0 +1,64 @@
+.device-switcher {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 100;
+
+  &-btn {
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 5px;
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+
+    .swap-icon {
+      margin-right: 5px;
+    }
+  }
+
+  .device-list {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    margin-top: 5px;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 4px;
+    padding: 5px;
+    width: 120px;
+    max-height: 200px;
+    overflow-y: auto;
+    color: white;
+
+    .device-item {
+      padding: 5px 10px;
+      cursor: pointer;
+      color: white;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+
+      &.active {
+        background: rgba(24, 144, 255, 0.5);
+      }
+    }
+  }
+}
+
+.native-play {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 100;
+  .device-switcher-btn {
+    padding: 4px 8px;
+    font-size: 12px;
+    line-height: 20px;
+    background: rgba(0, 0, 0, 0.45);
+    border-radius: 4px;
+  }
+  .device-count {
+    font-size: 12px;
+  }
+}

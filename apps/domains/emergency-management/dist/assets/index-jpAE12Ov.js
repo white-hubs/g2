@@ -1,0 +1,1 @@
+import"./virtual_mf-exposes___mfe_internal__emergencyManagement__remoteEntry_js-OhSrycjo.js";import"./virtual_mf-REMOTE_ENTRY_ID___mfe_internal__emergencyManagement__remoteEntry_js-DbdgScau.js";document.querySelector(`#app`).textContent=`@g2-domain/emergency-management build shell`;

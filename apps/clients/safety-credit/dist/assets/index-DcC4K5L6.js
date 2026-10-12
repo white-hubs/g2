@@ -1,0 +1,1 @@
+import"./virtual_mf-exposes___mfe_internal__safetyCreditClient__remoteEntry_js-DUl3PVCP.js";import"./virtual_mf-REMOTE_ENTRY_ID___mfe_internal__safetyCreditClient__remoteEntry_js-DcT9tXUq.js";var e=document.querySelector(`#app`);e&&(e.textContent=`@g2-client/safety-credit`);

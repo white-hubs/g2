@@ -1,0 +1,10 @@
+{
+  "latestErrorEvent": {
+    "code": "TYPE-001",
+    "message": "Failed to generate type declaration. Execute the below cmd to reproduce and fix the error. #TYPE-001\nargs: {\"cmd\":\"/Users/quan/.bun/bin/bun /Users/quan/.bun/install/cache/links/typescript@6.0.3-80d147ac8c0f24d2/node_modules/typescript/bin/tsc --project /Users/quan/Desktop/主应用/g2/apps/platforms/pc-ui/node_modules/.federation/tsconfig.505600740a8def1da9c0fb0e9897337a.json\"}\nView the docs to see how to solve: https://module-federation.io/guide/troubleshooting/type#type-001",
+    "args": {
+      "cmd": "/Users/quan/.bun/bin/bun /Users/quan/.bun/install/cache/links/typescript@6.0.3-80d147ac8c0f24d2/node_modules/typescript/bin/tsc --project /Users/quan/Desktop/主应用/g2/apps/platforms/pc-ui/node_modules/.federation/tsconfig.505600740a8def1da9c0fb0e9897337a.json"
+    },
+    "timestamp": 1791509726323
+  }
+}

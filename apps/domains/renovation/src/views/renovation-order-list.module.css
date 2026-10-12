@@ -1,0 +1,41 @@
+.filterForm :global(.pc-query-form-container) {
+  display: flex !important;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px 16px;
+  padding: 12px 0 4px !important;
+  grid-template-columns: none !important;
+}
+
+.filterForm :global(.pc-query-form-container > .pc-design-form-item) {
+  flex: 0 0 auto;
+  max-width: none;
+  margin-bottom: 8px !important;
+  margin-inline-end: 0 !important;
+}
+
+.filterForm :global(.pc-query-form-container > .pc-design-form-item:first-child .ant-form-item-label) {
+  display: none;
+}
+
+.statusDot {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.dotAudit,
+.dotNormal {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+}
+
+.dotAudit {
+  background: #faad14;
+}
+
+.dotNormal {
+  background: #52c41a;
+}

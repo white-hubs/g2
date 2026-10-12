@@ -1,0 +1,35 @@
+{
+  "name": "@g2-platform/pc-graph-editor",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts",
+    "./LineLoss": "./src/LineLoss.ts",
+    "./platform": "./src/platform-module.ts"
+  },
+  "scripts": {
+    "dev": "bun ../../../tooling/dev-link/cli.ts",
+    "dev:serve": "bun --bun vite --port 5058 --strictPort",
+    "build": "bun --bun vite build",
+    "preview": "bun --bun vite preview --port 5058 --strictPort",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "bun test"
+  },
+  "dependencies": {
+    "@antv/x6": "3.1.7",
+    "@g2-composition/contract": "workspace:*",
+    "@g2-platform/pc-ui": "workspace:*",
+    "ant-design-vue": "catalog:antdv",
+    "dayjs": "catalog:libs",
+    "pinia": "catalog:vue",
+    "tslib": "^2.8.1",
+    "vue": "catalog:vue"
+  },
+  "devDependencies": {
+    "@g2-tooling/mf-vite": "workspace:*",
+    "@vitejs/plugin-vue-jsx": "catalog:vite",
+    "typescript": "catalog:typescript",
+    "vite": "catalog:vite"
+  }
+}

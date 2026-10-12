@@ -1,0 +1,31 @@
+{
+  "name": "@g2-domain/safety-management-head",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "bun ../../../tooling/dev-link/cli.ts",
+    "dev:serve": "bun --bun vite --port 5091 --strictPort",
+    "build": "bun --bun vite build",
+    "preview": "bun --bun vite preview --port 5091 --strictPort",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "bun test"
+  },
+  "dependencies": {
+    "@g2-client/dictionary": "workspace:*",
+    "@g2-client/safety-management": "workspace:*",
+    "@g2-composition/contract": "workspace:*",
+    "@g2-contract/file": "workspace:*",
+    "@g2-contract/ouaa": "workspace:*",
+    "@g2-contract/safety-management": "workspace:*",
+    "@g2-pages/safety-management": "workspace:*",
+    "vue": "catalog:vue",
+    "vue-router": "catalog:vue"
+  },
+  "devDependencies": {
+    "@g2-tooling/mf-vite": "workspace:*",
+    "@vitejs/plugin-vue-jsx": "catalog:vite",
+    "typescript": "catalog:typescript",
+    "vite": "catalog:vite"
+  }
+}

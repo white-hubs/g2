@@ -1,0 +1,1 @@
+import{n as e}from"./domain-context-DPn2BKeO.js";import{a as t}from"./utils-P2U17EQn.js";import{t as n}from"./category-page-oQevlJan.js";var r=n({tableCode:`EMERGENCY_CENTER_FILE_TYPE`,api:{list:async n=>t(await e().listFileTypes(n)),create:t=>e().createFileType(t),update:t=>e().updateFileType(t),remove:t=>e().deleteFileType(t)}});export{r as FileTypes};

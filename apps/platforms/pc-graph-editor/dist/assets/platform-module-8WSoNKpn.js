@@ -1,0 +1,1 @@
+var e={label:`pc-graph-editor`};export{e as default,e as platformModule};

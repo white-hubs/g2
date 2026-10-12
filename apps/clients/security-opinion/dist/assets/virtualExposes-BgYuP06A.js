@@ -1,0 +1,1 @@
+import{t as e}from"./virtual_mf-exposes___mfe_internal__securityOpinionClient__remoteEntry_js-ExR94_kl.js";export{e as default};

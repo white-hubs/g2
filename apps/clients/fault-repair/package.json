@@ -1,0 +1,25 @@
+{
+  "name": "@g2-client/fault-repair",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    "./client": "./src/client.ts"
+  },
+  "scripts": {
+    "dev": "bun ../../../tooling/dev-link/cli.ts",
+    "dev:serve": "bun --bun vite --port 5111 --strictPort",
+    "build": "bun --bun vite build",
+    "preview": "bun --bun vite preview --port 5111 --strictPort",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "bun test"
+  },
+  "dependencies": {
+    "@g2-composition/contract": "workspace:*"
+  },
+  "devDependencies": {
+    "@g2-tooling/mf-vite": "workspace:*",
+    "typescript": "catalog:typescript",
+    "vite": "catalog:vite"
+  }
+}

@@ -1,0 +1,259 @@
+{
+  "__virtual_mf___mfe_internal__meetRoom__loadShare__vue__loadShare__.js-Dn2_z_se.js": {
+    "file": "assets/_virtual_mf___mfe_internal__meetRoom__loadShare__vue__loadShare__.js-Dn2_z_se.js",
+    "name": "_virtual_mf___mfe_internal__meetRoom__loadShare__vue__loadShare__.js",
+    "imports": [
+      "_rolldown-runtime-DK3Fl9T5.js"
+    ]
+  },
+  "__virtual_mf___mfe_internal__meetRoom__loadShare__vue_mf_2_router__loadShare__.js-BvXH5AoT.js": {
+    "file": "assets/_virtual_mf___mfe_internal__meetRoom__loadShare__vue_mf_2_router__loadShare__.js-BvXH5AoT.js",
+    "name": "_virtual_mf___mfe_internal__meetRoom__loadShare__vue_mf_2_router__loadShare__.js",
+    "imports": [
+      "_rolldown-runtime-DK3Fl9T5.js",
+      "__virtual_mf___mfe_internal__meetRoom__loadShare__vue__loadShare__.js-Dn2_z_se.js"
+    ]
+  },
+  "_device-picker-modal-D3Mu2smS.js": {
+    "file": "assets/device-picker-modal-D3Mu2smS.js",
+    "name": "device-picker-modal",
+    "imports": [
+      "_domain-ZwOXp1Vn.js",
+      "__virtual_mf___mfe_internal__meetRoom__loadShare__vue__loadShare__.js-Dn2_z_se.js",
+      "_styles.module-Xlgm6crf.js"
+    ]
+  },
+  "_domain-ZwOXp1Vn.js": {
+    "file": "assets/domain-ZwOXp1Vn.js",
+    "name": "domain",
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js",
+      "__virtual_mf___mfe_internal__meetRoom__loadShare__vue__loadShare__.js-Dn2_z_se.js",
+      "__virtual_mf___mfe_internal__meetRoom__loadShare__vue_mf_2_router__loadShare__.js-BvXH5AoT.js"
+    ],
+    "dynamicImports": [
+      "src/views/meet-room-page.tsx",
+      "src/views/reservation-page.tsx",
+      "src/views/reservation-log-page.tsx",
+      "src/views/statistics-page.tsx",
+      "src/views/goods-page.tsx",
+      "src/views/type-page.tsx",
+      "src/views/field-settings-page.tsx",
+      "src/views/screen-settings-page.tsx"
+    ]
+  },
+  "_person-scope-picker-BCyv1tpY.js": {
+    "file": "assets/person-scope-picker-BCyv1tpY.js",
+    "name": "person-scope-picker",
+    "imports": [
+      "_domain-ZwOXp1Vn.js",
+      "__virtual_mf___mfe_internal__meetRoom__loadShare__vue__loadShare__.js-Dn2_z_se.js",
+      "_styles.module-Xlgm6crf.js"
+    ]
+  },
+  "_rolldown-runtime-DK3Fl9T5.js": {
+    "file": "assets/rolldown-runtime-DK3Fl9T5.js",
+    "name": "rolldown-runtime"
+  },
+  "_styles-B1OBTA-0.css": {
+    "file": "assets/styles-B1OBTA-0.css",
+    "src": "_styles-B1OBTA-0.css"
+  },
+  "_styles.module-Xlgm6crf.js": {
+    "file": "assets/styles.module-Xlgm6crf.js",
+    "name": "styles.module",
+    "css": [
+      "assets/styles-B1OBTA-0.css"
+    ]
+  },
+  "_virtual_mf-REMOTE_ENTRY_ID___mfe_internal__meetRoom__remoteEntry_js-DPIM-eMM.js": {
+    "file": "assets/virtual_mf-REMOTE_ENTRY_ID___mfe_internal__meetRoom__remoteEntry_js-DPIM-eMM.js",
+    "name": "virtual_mf-REMOTE_ENTRY_ID___mfe_internal__meetRoom__remoteEntry_js",
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "virtual:mf-localSharedImportMap:__mfe_internal__meetRoom",
+      "_virtual_mf-exposes___mfe_internal__meetRoom__remoteEntry_js-k3603QOc.js"
+    ]
+  },
+  "_virtual_mf-exposes___mfe_internal__meetRoom__remoteEntry_js-k3603QOc.js": {
+    "file": "assets/virtual_mf-exposes___mfe_internal__meetRoom__remoteEntry_js-k3603QOc.js",
+    "name": "virtual_mf-exposes___mfe_internal__meetRoom__remoteEntry_js",
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "_domain-ZwOXp1Vn.js"
+    ]
+  },
+  "_vite-preload-helper-7P2xnrDv.js": {
+    "file": "assets/vite-preload-helper-7P2xnrDv.js",
+    "name": "vite-preload-helper"
+  },
+  "src/domain.ts": {
+    "file": "assets/domain-BaQIL9Jb.js",
+    "name": "domain",
+    "src": "src/domain.ts",
+    "isEntry": true,
+    "imports": [
+      "_domain-ZwOXp1Vn.js"
+    ]
+  },
+  "src/views/field-settings-page.tsx": {
+    "file": "assets/field-settings-page-Bvl0WfyN.js",
+    "name": "field-settings-page",
+    "src": "src/views/field-settings-page.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_domain-ZwOXp1Vn.js",
+      "__virtual_mf___mfe_internal__meetRoom__loadShare__vue__loadShare__.js-Dn2_z_se.js",
+      "_styles.module-Xlgm6crf.js"
+    ]
+  },
+  "src/views/goods-page.tsx": {
+    "file": "assets/goods-page-60LhCE77.js",
+    "name": "goods-page",
+    "src": "src/views/goods-page.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_domain-ZwOXp1Vn.js",
+      "__virtual_mf___mfe_internal__meetRoom__loadShare__vue__loadShare__.js-Dn2_z_se.js",
+      "_styles.module-Xlgm6crf.js"
+    ]
+  },
+  "src/views/meet-room-page.tsx": {
+    "file": "assets/meet-room-page-TeDqeIcF.js",
+    "name": "meet-room-page",
+    "src": "src/views/meet-room-page.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_domain-ZwOXp1Vn.js",
+      "__virtual_mf___mfe_internal__meetRoom__loadShare__vue__loadShare__.js-Dn2_z_se.js",
+      "_styles.module-Xlgm6crf.js",
+      "_device-picker-modal-D3Mu2smS.js",
+      "_person-scope-picker-BCyv1tpY.js"
+    ]
+  },
+  "src/views/reservation-log-page.tsx": {
+    "file": "assets/reservation-log-page-DZl_iS4Y.js",
+    "name": "reservation-log-page",
+    "src": "src/views/reservation-log-page.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_domain-ZwOXp1Vn.js",
+      "__virtual_mf___mfe_internal__meetRoom__loadShare__vue__loadShare__.js-Dn2_z_se.js",
+      "_styles.module-Xlgm6crf.js"
+    ]
+  },
+  "src/views/reservation-page.tsx": {
+    "file": "assets/reservation-page-C2IXPYPP.js",
+    "name": "reservation-page",
+    "src": "src/views/reservation-page.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_domain-ZwOXp1Vn.js",
+      "__virtual_mf___mfe_internal__meetRoom__loadShare__vue__loadShare__.js-Dn2_z_se.js",
+      "_styles.module-Xlgm6crf.js",
+      "_person-scope-picker-BCyv1tpY.js"
+    ]
+  },
+  "src/views/screen-settings-page.tsx": {
+    "file": "assets/screen-settings-page-BF7NaQHJ.js",
+    "name": "screen-settings-page",
+    "src": "src/views/screen-settings-page.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_domain-ZwOXp1Vn.js",
+      "__virtual_mf___mfe_internal__meetRoom__loadShare__vue__loadShare__.js-Dn2_z_se.js",
+      "_styles.module-Xlgm6crf.js",
+      "_device-picker-modal-D3Mu2smS.js"
+    ]
+  },
+  "src/views/statistics-page.tsx": {
+    "file": "assets/statistics-page-BnRfVYek.js",
+    "name": "statistics-page",
+    "src": "src/views/statistics-page.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_domain-ZwOXp1Vn.js",
+      "__virtual_mf___mfe_internal__meetRoom__loadShare__vue__loadShare__.js-Dn2_z_se.js",
+      "_styles.module-Xlgm6crf.js"
+    ]
+  },
+  "src/views/type-page.tsx": {
+    "file": "assets/type-page-C1wDBOSj.js",
+    "name": "type-page",
+    "src": "src/views/type-page.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_domain-ZwOXp1Vn.js",
+      "__virtual_mf___mfe_internal__meetRoom__loadShare__vue__loadShare__.js-Dn2_z_se.js",
+      "_styles.module-Xlgm6crf.js"
+    ]
+  },
+  "virtual:mf-REMOTE_ENTRY_ID:__mfe_internal__meetRoom__remoteEntry_js": {
+    "file": "remoteEntry.js",
+    "name": "remoteEntry",
+    "src": "virtual:mf-REMOTE_ENTRY_ID:__mfe_internal__meetRoom__remoteEntry_js",
+    "imports": [
+      "_virtual_mf-REMOTE_ENTRY_ID___mfe_internal__meetRoom__remoteEntry_js-DPIM-eMM.js"
+    ]
+  },
+  "virtual:mf-REMOTE_ENTRY_SSR_ID:__mfe_internal__meetRoom__remoteEntry_js": {
+    "file": "remoteEntry.ssr.js",
+    "name": "ssrRemoteEntry",
+    "src": "virtual:mf-REMOTE_ENTRY_SSR_ID:__mfe_internal__meetRoom__remoteEntry_js",
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "virtual:mf-exposes-ssr:__mfe_internal__meetRoom__remoteEntry_js"
+    ]
+  },
+  "virtual:mf-exposes-ssr:__mfe_internal__meetRoom__remoteEntry_js": {
+    "file": "assets/virtual_mf-exposes-ssr___mfe_internal__meetRoom__remoteEntry_js-C8a0qtVE.js",
+    "name": "virtual_mf-exposes-ssr___mfe_internal__meetRoom__remoteEntry_js",
+    "src": "virtual:mf-exposes-ssr:__mfe_internal__meetRoom__remoteEntry_js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "_domain-ZwOXp1Vn.js"
+    ]
+  },
+  "virtual:mf-exposes:__mfe_internal__meetRoom__remoteEntry_js": {
+    "file": "assets/virtualExposes-CBVx-WSc.js",
+    "name": "virtualExposes",
+    "src": "virtual:mf-exposes:__mfe_internal__meetRoom__remoteEntry_js",
+    "imports": [
+      "_virtual_mf-exposes___mfe_internal__meetRoom__remoteEntry_js-k3603QOc.js"
+    ]
+  },
+  "virtual:mf-localSharedImportMap:__mfe_internal__meetRoom": {
+    "file": "assets/_virtual_mf-localSharedImportMap___mfe_internal__meetRoom-dr4onh8A.js",
+    "name": "_virtual_mf-localSharedImportMap___mfe_internal__meetRoom",
+    "src": "virtual:mf-localSharedImportMap:__mfe_internal__meetRoom",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "__virtual_mf___mfe_internal__meetRoom__loadShare__vue__loadShare__.js-Dn2_z_se.js",
+      "__virtual_mf___mfe_internal__meetRoom__loadShare__vue_mf_2_router__loadShare__.js-BvXH5AoT.js"
+    ]
+  },
+  "virtual:mf:__mfe_internal__meetRoom__H_A_I__hostAutoInit__H_A_I__.js": {
+    "file": "assets/hostInit-BVAkxmNY.js",
+    "name": "hostInit",
+    "src": "virtual:mf:__mfe_internal__meetRoom__H_A_I__hostAutoInit__H_A_I__.js",
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "_virtual_mf-REMOTE_ENTRY_ID___mfe_internal__meetRoom__remoteEntry_js-DPIM-eMM.js",
+      "virtual:mf-localSharedImportMap:__mfe_internal__meetRoom"
+    ]
+  }
+}

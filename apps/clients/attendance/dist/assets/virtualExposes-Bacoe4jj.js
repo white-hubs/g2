@@ -1,0 +1,1 @@
+import{t as e}from"./virtual_mf-exposes___mfe_internal__attendanceClient__remoteEntry_js-DV7WbhE3.js";export{e as default};

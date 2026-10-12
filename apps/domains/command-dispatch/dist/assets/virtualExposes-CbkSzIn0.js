@@ -1,0 +1,1 @@
+import{t as e}from"./virtual_mf-exposes___mfe_internal__commandDispatch__remoteEntry_js-C0IjwJv0.js";export{e as default};

@@ -1,0 +1,1 @@
+import{t as e}from"./virtual_mf-exposes___mfe_internal__intelligentGrainClient__remoteEntry_js-oH5c1j2X.js";export{e as default};

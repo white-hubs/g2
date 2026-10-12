@@ -1,0 +1,1 @@
+{"version":3,"file":"pc-table-ui.d.ts","sourceRoot":"","sources":["../../../../src/pc-table-ui.ts"],"names":[],"mappings":"AACA,OAAO,EAAgC,KAAK,SAAS,EAAE,MAAM,KAAK,CAAC;AAGnE,OAAO,KAAK,EAAE,UAAU,EAAE,MAAM,gBAAgB,CAAC;AACjD,OAAO,KAAK,EAAE,iBAAiB,EAAE,MAAM,kBAAkB,CAAC;AAI1D,wBAAgB,sBAAsB,CAAC,QAAQ,EAAE,UAAU,EAAE,OAAO,EAAE,iBAAiB,GAAG,SAAS,CA8ClG"}

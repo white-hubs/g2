@@ -1,0 +1,1 @@
+import{t as e}from"./virtual_mf-exposes___mfe_internal__headquartersMarketClient__remoteEntry_js-Bx_R-Jvg.js";export{e as default};

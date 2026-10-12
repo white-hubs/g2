@@ -1,0 +1,82 @@
+.listContent {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+.detailContent {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 16px 0 24px;
+}
+
+.infoCard,
+.recordSection {
+  min-width: 0;
+  padding: 20px;
+  border: 1px solid var(--g2-color-border-secondary, #e8edf2);
+  border-radius: 8px;
+  background: var(--g2-color-page-layout-bg, #fff);
+  box-shadow: 0 2px 8px rgb(28 42 64 / 4%);
+}
+
+.infoGrid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 24px 20px;
+}
+
+.infoItem {
+  display: flex;
+  min-width: 0;
+  gap: 16px;
+  line-height: 22px;
+}
+
+.infoLabel {
+  flex: none;
+  min-width: 108px;
+  color: var(--g2-color-text-secondary, #667085);
+  text-align: right;
+}
+
+.infoLabel::after {
+  content: "：";
+}
+
+.infoValue {
+  overflow-wrap: anywhere;
+  color: var(--g2-color-text, #202936);
+}
+
+.recordSection {
+  padding-top: 16px;
+}
+
+.sectionHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 36px;
+  margin-bottom: 12px;
+}
+
+.sectionHeader h2 {
+  margin: 0;
+  color: var(--g2-color-text, #202936);
+  font-size: 16px;
+  font-weight: 600;
+}
+
+@media (max-width: 1100px) {
+  .infoGrid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 720px) {
+  .infoGrid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}

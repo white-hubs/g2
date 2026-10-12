@@ -1,0 +1,1 @@
+import{r as e}from"./domain-context-DM6SCpNv.js";var t=async(...t)=>(await e()).getOrganizationTree(...t),n=async(...t)=>(await e()).listUsers(...t),r=async(...t)=>(await e()).getUsersByIds(...t);export{r as n,n as r,t};

@@ -1,0 +1,1 @@
+import{t as e}from"./virtual_mf-exposes___mfe_internal__metadataClient__remoteEntry_js-CYWJdSTy.js";export{e as default};

@@ -1,0 +1,1 @@
+import{n as e}from"./domain-context-DPn2BKeO.js";import{a as t}from"./utils-P2U17EQn.js";import{t as n}from"./category-page-oQevlJan.js";var r=n({tableCode:`EMERGENCY_CENTER_EVENT_TYPE`,api:{list:async n=>t(await e().listEventTypes(n)),create:t=>e().createEventType(t),update:t=>e().updateEventType(t),remove:t=>e().deleteEventType(t)}});export{r as EventTypes};

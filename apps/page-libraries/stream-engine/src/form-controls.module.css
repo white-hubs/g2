@@ -1,0 +1,28 @@
+.groupList { width: 100%; min-width: 0; }
+.groupHeader { display: flex; align-items: center; justify-content: space-between; padding: 10px 0; }
+.groupHeader strong { border-left: 3px solid #2781f2; padding-left: 9px; }
+.groupRow { display: flex; align-items: flex-start; border: 1px solid #e4e7ed; margin-bottom: 12px; padding: 12px; }
+.groupFields { display: flex; flex-wrap: wrap; width: 100%; min-width: 0; }
+.groupField { box-sizing: border-box; padding: 4px 8px; min-width: 0; }
+.groupField label { display: block; color: #333; margin-bottom: 6px; }
+.groupField em { color: #e14f50; font-style: normal; }
+.amountControl { width: 100%; }
+.amountUppercase { margin-top: 8px; color: #8c8c8c; font-size: 13px; }
+.rangeDuration { margin-top: 5px; color: #8c8c8c; }
+.userPicker { min-width: 0; }
+.userPickerSelection { display: flex; align-items: center; gap: 10px; }
+.userPickerSelection > span { color: #999; font-size: 12px; }
+.userPickerTags { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 6px; }
+.userPickerTag { display: inline-flex; align-items: center; gap: 8px; border: 1px solid #d9d9d9; padding: 2px 7px; }
+.userPickerTag button { border: 0; background: transparent; cursor: pointer; color: #666; }
+.userPickerFilters { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; margin-bottom: 18px; }
+.fileHint { margin-left: 8px; color: #8c8c8c; }
+.fileList { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 10px; }
+.fileItem { box-sizing: border-box; width: 120px; min-height: 128px; display: flex; flex-direction: column; align-items: center; border: 1px solid #d9d9d9; border-radius: 4px; padding: 6px; }
+.fileThumbnail { display: block; width: 100%; height: 62px; object-fit: contain; }
+.fileFallback { display: flex; align-items: center; justify-content: center; width: 100%; height: 62px; background: #f5f7fa; color: #596579; font-size: 14px; }
+.fileName { display: block; width: 100%; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; text-align: center; font-size: 12px; line-height: 22px; }
+.fileActions { display: flex; justify-content: center; width: 100%; }
+.fileActions :global(.ant-btn) { width: 30px; height: 30px; padding: 0; }
+.previewMedia { display: block; max-width: 100%; max-height: 70vh; margin: auto; }
+.consumableImage { display: block; max-width: 100px; max-height: 100px; margin: auto; }

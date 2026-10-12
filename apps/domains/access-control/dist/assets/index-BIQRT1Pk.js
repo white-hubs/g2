@@ -1,0 +1,1 @@
+import"./virtual_mf-exposes___mfe_internal__accessControl__remoteEntry_js-D7meMvnC.js";import"./virtual_mf-REMOTE_ENTRY_ID___mfe_internal__accessControl__remoteEntry_js-BqAc8e72.js";document.querySelector(`#app`).textContent=`@g2-domain/access-control build shell`;

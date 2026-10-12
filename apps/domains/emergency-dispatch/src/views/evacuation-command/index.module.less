@@ -1,0 +1,62 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  max-height: 100%;
+  min-height: 0;
+  overflow: hidden;
+  background: #f5f6f8;
+}
+
+.eventBar {
+  flex-shrink: 0;
+}
+
+:global(#pc-layout-content.evacuation-command-layout-lock) {
+  overflow: hidden !important;
+}
+
+.body {
+  flex: 1;
+  display: flex;
+  min-height: 0;
+  overflow: hidden;
+}
+
+.colEvents {
+  width: 16%;
+  min-width: 160px;
+  height: 100%;
+  flex-shrink: 0;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.colCameras {
+  width: 14%;
+  min-width: 180px;
+  height: 100%;
+  flex-shrink: 0;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.colMap {
+  flex: 1;
+  min-width: 0;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  border-left: 1px solid #e5e7eb;
+  border-right: 1px solid #e5e7eb;
+}
+
+.colRoutes {
+  width: 25%;
+  min-width: 220px;
+  flex-shrink: 0;
+}

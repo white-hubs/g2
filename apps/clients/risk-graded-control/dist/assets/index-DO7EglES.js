@@ -1,0 +1,1 @@
+import"./virtual_mf-exposes___mfe_internal__riskGradedControlClient__remoteEntry_js-Bnc0DtoN.js";import"./virtual_mf-REMOTE_ENTRY_ID___mfe_internal__riskGradedControlClient__remoteEntry_js-duNvcCuU.js";var e=document.querySelector(`#app`);e&&(e.textContent=`@g2-client/risk-graded-control`);

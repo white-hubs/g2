@@ -1,0 +1,1 @@
+import"./virtual_mf-exposes___mfe_internal__gasManagement__remoteEntry_js-BNtLrBbd.js";import"./virtual_mf-REMOTE_ENTRY_ID___mfe_internal__gasManagement__remoteEntry_js-BGfUOLns.js";document.querySelector(`#app`).textContent=`@g2-domain/gas-management build shell`;

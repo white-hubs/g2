@@ -1,0 +1,1 @@
+import{t as e}from"./virtual_mf-exposes___mfe_internal__dailyInspection__remoteEntry_js-De8DIRvV.js";export{e as default};

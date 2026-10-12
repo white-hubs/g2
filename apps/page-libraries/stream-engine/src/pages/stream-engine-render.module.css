@@ -1,0 +1,88 @@
+.processForm {
+  display: inline-flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.processForm :global(.ant-form-item) {
+  margin-bottom: 16px;
+}
+
+.processForm :global(.ant-form-item-label) {
+  min-width: 130px;
+}
+
+.processForm :global(.ant-form-item-label > label) {
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.85);
+}
+
+.fieldCol {
+  max-width: 100%;
+  display: inline-block;
+  box-sizing: border-box;
+  vertical-align: top;
+}
+
+.loading {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  min-height: min(60vh, 480px);
+}
+
+.readonlyValue {
+  color: rgba(0, 0, 0, 0.85);
+  line-height: 32px;
+  min-height: 32px;
+  word-break: break-all;
+}
+
+.timeline { list-style: none; margin: 24px 12px; padding: 0; width: min(100% - 24px, 1000px); }
+.timelineItem { display: grid; grid-template-columns: 72px minmax(0, 1fr); gap: 20px; position: relative; padding-bottom: 30px; }
+.timelineItem::after { content: ""; position: absolute; left: 81px; top: 26px; bottom: 0; border-left: 1px dashed #ccd5e4; }
+.timelineItem > strong { font-weight: 500; text-align: right; white-space: nowrap; }
+.timelineContent { min-height: 48px; padding: 0 0 0 16px; background: #fff; }
+.operationGroup { margin-bottom: 18px; }
+.operation { display: flex; align-items: flex-start; gap: 12px; padding: 8px 0; }
+.operationInfo { min-width: 0; flex: 1; }
+.operationMeta { display: flex; flex-wrap: wrap; align-items: center; column-gap: 24px; row-gap: 8px; min-height: 32px; margin-top: 6px; color: #788596; }
+.operationMeta > span:first-child { min-width: min(180px, 100%); }
+.operationSignature { display: inline-flex; flex-wrap: wrap; align-items: center; gap: 8px; min-width: 0; max-width: 100%; }
+.operationSignature > span { flex: none; }
+.operationSignature :global(.ant-image) { display: flex; align-items: center; justify-content: center; width: 140px; max-width: 100%; height: 72px; }
+.operationSignature :global(.ant-image-img) { width: 140px; max-width: 100%; height: 72px; object-fit: contain; }
+.operationInfo p { min-height: 60px; margin: 12px 0 0; padding: 10px 12px; background: #f5f8ff; border-radius: 4px; overflow-wrap: anywhere; }
+.accepted { color: #1677ff; }
+.rejected { color: #d9363e; }
+.avatar { flex: none; display: inline-grid; place-items: center; width: 42px; height: 42px; color: #fff; background: #2781f2; border-radius: 4px; }
+.feedback { margin: 12px 0 12px 54px; padding: 12px; background: #f5f8ff; }
+.feedback > span { margin-left: 10px; color: #788596; }
+.feedback p { margin: 8px 0; }
+.feedbackFiles { display: flex; flex-wrap: wrap; gap: 12px; }
+.feedbackFile { padding: 0; border: 0; color: #1677ff; background: transparent; cursor: pointer; }
+.assigneeList { display: flex; align-items: center; justify-content: flex-end; gap: 10px; min-height: 48px; }
+.assignee { position: relative; }
+.assignee button { position: absolute; top: -8px; right: -8px; border: 0; background: #fff; cursor: pointer; }
+.selfSelect { display: flex; align-items: center; gap: 12px; max-width: 480px; }
+.selfSelect > span { flex: none; }
+.signaturePad { max-width: 100%; border: 1px solid #d9d9d9; touch-action: none; cursor: crosshair; }
+.signatureEditor { display: flex; flex-direction: column; gap: 8px; width: 100%; min-width: 0; }
+.signatureArea { display: grid; place-items: center; width: 100%; max-width: 392px; aspect-ratio: 392 / 200; }
+.signatureArea :global(.ant-image-img) { width: 100%; height: 100%; object-fit: contain; }
+.signatureToolbar { display: flex; align-items: center; justify-content: space-between; gap: 8px; flex: none; }
+.signatureFullscreenModal :global(.ant-modal) { margin: 0; }
+.signatureFullscreenModal :global(.ant-modal-content) { display: flex; flex-direction: column; height: 100vh; height: 100dvh; border-radius: 0; }
+.signatureFullscreenModal :global(.ant-modal-header),
+.signatureFullscreenModal :global(.ant-modal-footer) { flex: none; }
+.signatureFullscreenModal :global(.ant-modal-body) { display: flex; flex: 1; min-height: 0; overflow: hidden; }
+.signatureFullscreenModal .approvalForm { display: flex; flex-direction: column; flex: 1; min-height: 0; }
+.signatureFullscreenModal .signatureField { display: flex; flex-direction: column; flex: 1; min-height: 0; margin: 0; }
+.signatureFullscreenModal .signatureField :global(.ant-form-item-label) { display: none; }
+.signatureFullscreenModal .signatureField :global(.ant-form-item-row),
+.signatureFullscreenModal .signatureField :global(.ant-form-item-control),
+.signatureFullscreenModal .signatureField :global(.ant-form-item-control-input),
+.signatureFullscreenModal .signatureField :global(.ant-form-item-control-input-content) { display: flex; align-items: stretch; flex: 1; min-width: 0; min-height: 0; }
+.signatureFullscreenModal .signatureEditor { flex: 1; min-height: 0; }
+.signatureFullscreenModal .signatureArea { flex: 1; min-height: 0; max-width: none; aspect-ratio: auto; }

@@ -1,0 +1,1 @@
+import{r as e}from"./_virtual_mf___mfe_internal__pcAiAssistant__loadShare__vue__loadShare__.js-Bryv3hEk.js";import"./virtual_mf-exposes___mfe_internal__pcAiAssistant__remoteEntry_js-CXaC1HLs.js";import"./virtual_mf-REMOTE_ENTRY_ID___mfe_internal__pcAiAssistant__remoteEntry_js-DMhHyoRH.js";import{t}from"./AiChatEntry-CFQf_NTQ.js";e(t).mount(`#app`);

@@ -1,0 +1,132 @@
+/* 仅分区费用页灰底，避免污染全局 layout-container 白底 */
+.district-fee-page {
+  background-color: #f0f2f5 !important;
+}
+
+.flex {
+  display: flex;
+}
+
+.w-278 {
+  width: 278px;
+  background: #fff;
+}
+
+.p-10 {
+  padding: 10px;
+}
+
+.ml-15 {
+  margin-left: 15px;
+}
+
+.right-panel {
+  width: calc(100% - 278px);
+}
+
+.mt-15 {
+  margin-top: 15px;
+}
+
+.h-460 {
+  height: 460px;
+}
+
+.tabs {
+  :deep(.ant-tabs-tab) {
+    width: 50%;
+    justify-content: center;
+  }
+
+  :deep(.ant-tabs-nav-list) {
+    width: 99%;
+  }
+}
+
+.mult {
+  flex: 1;
+
+  &:last-of-type::after {
+    display: none;
+  }
+}
+
+.mult-wrap {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &::after {
+    content: "";
+    display: inline-block;
+    width: 1px;
+    height: 40px;
+    border-right: 1px dashed #d8d8d8;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+  }
+}
+
+.mult-bootom {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-end;
+}
+
+.flex_top {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  align-items: center;
+  color: #86909c;
+  font-size: 12px;
+}
+
+.color-muted {
+  color: #646566;
+  font-weight: 400;
+}
+
+.color-sub {
+  color: #979899;
+}
+
+.text-32 {
+  font-size: 32px;
+}
+
+.font-700 {
+  font-weight: 700;
+}
+
+.mt-5 {
+  margin-top: 5px;
+}
+
+.my-10 {
+  margin: 10px 0;
+}
+
+.ml-10 {
+  margin-left: 10px;
+}
+
+.ml-3 {
+  margin-left: 3px;
+}
+
+.text-12 {
+  font-size: 12px;
+}
+
+.justify-around {
+  justify-content: space-around;
+}
+
+.text-center {
+  text-align: center;
+}

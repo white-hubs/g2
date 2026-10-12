@@ -1,0 +1,26 @@
+.container {
+  padding: 0;
+}
+
+.itemContent {
+  display: flex;
+  align-items: center;
+}
+
+.itemContent label {
+  flex-shrink: 0;
+  width: 120px;
+  margin-right: 10px;
+  color: #000000d9;
+  font-size: 14px;
+  text-align: right;
+}
+
+.itemContent span {
+  color: #000000d9;
+  font-size: 14px;
+}
+
+.personSelectWrap {
+  width: min(685px, 100%);
+}

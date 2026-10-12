@@ -1,0 +1,25 @@
+{
+  "name": "@g2-client/ouaa",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    "./client": "./src/client.ts"
+  },
+  "scripts": {
+    "dev": "bun --bun vite --port 5022 --strictPort",
+    "build": "bun --bun vite build",
+    "preview": "bun --bun vite preview --port 5022 --strictPort",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "bun test"
+  },
+  "dependencies": {
+    "@g2-composition/contract": "workspace:*",
+    "@g2-contract/ouaa": "workspace:*"
+  },
+  "devDependencies": {
+    "@g2-tooling/mf-vite": "workspace:*",
+    "typescript": "catalog:typescript",
+    "vite": "catalog:vite"
+  }
+}

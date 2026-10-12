@@ -1,0 +1,45 @@
+.verticalLine {
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+.verticalLine::before {
+  content: "";
+  width: 3px;
+  height: 16px;
+  background: var(--primary-color, #1677ff);
+}
+.attendance-message-panel {
+  min-height: 260px;
+  padding: 16px 0;
+}
+.attendance-message-rule {
+  position: relative;
+  border: 1px dotted #ccc;
+  padding: 16px;
+  margin-top: 12px;
+  max-width: 900px;
+}
+.attendance-message-delete {
+  position: absolute;
+  right: 8px;
+  top: 8px;
+  color: #ff4d4f;
+  cursor: pointer;
+}
+.attendance-message-single {
+  padding: 0 14px;
+}
+.classes-Summary-form {
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+  flex: 1;
+}
+.classes-Summary-form > .search:last-child {
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+  flex: 1;
+}

@@ -1,0 +1,1 @@
+import"./virtual_mf-exposes___mfe_internal__alarmCenterClient__remoteEntry_js-x_1PrudP.js";import"./virtual_mf-REMOTE_ENTRY_ID___mfe_internal__alarmCenterClient__remoteEntry_js-K173-7RT.js";var e=document.querySelector(`#app`);e&&(e.textContent=`@g2-client/alarm-center`);

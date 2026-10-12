@@ -1,0 +1,1 @@
+import{t as e}from"./virtual_mf-exposes___mfe_internal__assetManagement__remoteEntry_js-DYNZ3qnR.js";export{e as default};

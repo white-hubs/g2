@@ -1,0 +1,46 @@
+export type PageResult<T> = { records?: T[]; list?: T[]; content?: T[]; total?: number; totalElements?: number };
+export type EmergencyRecord = Record<string, unknown> & { id?: string; name?: string; remark?: string };
+
+export interface EmergencyManagementClient {
+  listPlanDocuments(params?: Record<string, unknown>): Promise<unknown>;
+  getPlanDocument(id: string): Promise<unknown>;
+  createPlanDocument(data: EmergencyRecord): Promise<unknown>;
+  updatePlanDocument(data: EmergencyRecord): Promise<unknown>;
+  deletePlanDocument(id: string): Promise<unknown>;
+  uploadFile(data: FormData): Promise<unknown>;
+  deleteFile(id: string): Promise<unknown>;
+  listRules(params?: Record<string, unknown>): Promise<unknown>;
+  getRuleDetail(id: string): Promise<unknown>;
+  createRule(data: EmergencyRecord): Promise<unknown>;
+  updateRule(data: EmergencyRecord): Promise<unknown>;
+  setRuleEnabled(data: EmergencyRecord): Promise<unknown>;
+  deleteRule(id: string): Promise<unknown>;
+  listEmergencyTypes(params?: Record<string, unknown>): Promise<unknown>;
+  listEmergencyTypeDevices(params?: Record<string, unknown>): Promise<unknown>;
+  listDeviceGenres(params?: Record<string, unknown>): Promise<unknown>;
+  listDeviceModels(params?: Record<string, unknown>): Promise<unknown>;
+  listDeviceAttributes(params?: Record<string, unknown>): Promise<unknown>;
+  listDeviceInstances(params?: Record<string, unknown>): Promise<unknown>;
+  listSecurityDevices(applicationCode?: string, params?: Record<string, unknown>): Promise<unknown>;
+  listAreas(params?: Record<string, unknown>): Promise<unknown>;
+  listEventTypes(params?: Record<string, unknown>): Promise<unknown>;
+  getEventTypes(params?: Record<string, unknown>): Promise<unknown>;
+  createEventType(data: EmergencyRecord): Promise<unknown>;
+  updateEventType(data: EmergencyRecord): Promise<unknown>;
+  deleteEventType(id: string): Promise<unknown>;
+  listFileTypes(params?: Record<string, unknown>): Promise<unknown>;
+  getFileTypes(params?: Record<string, unknown>): Promise<unknown>;
+  createFileType(data: EmergencyRecord): Promise<unknown>;
+  updateFileType(data: EmergencyRecord): Promise<unknown>;
+  deleteFileType(id: string): Promise<unknown>;
+  getFlowDictionary(params: Record<string, unknown>): Promise<unknown>;
+  runWorkflow(flowId: string, data: unknown): Promise<unknown>;
+  getAlarmNoticeConfig(businessType: string): Promise<unknown>;
+  saveAlarmNoticeConfig(data: unknown): Promise<unknown>;
+  getEmergencyFileNotice(): Promise<unknown>;
+  saveEmergencyFileNotice(data: unknown): Promise<unknown>;
+  getNoticeMethods(sceneCode: string): Promise<unknown>;
+  getChannelConfigs(sceneCode: string): Promise<unknown>;
+  listTenantUsers(params?: Record<string, unknown>): Promise<unknown>;
+  getTenantUsersByIds(ids: Array<string | number>): Promise<unknown>;
+}

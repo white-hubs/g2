@@ -1,0 +1,1 @@
+import"./virtual_mf-exposes___mfe_internal__templateDemoClient__remoteEntry_js-B_erYrkY.js";import"./virtual_mf-REMOTE_ENTRY_ID___mfe_internal__templateDemoClient__remoteEntry_js-DR7QojBn.js";var e=document.querySelector(`#app`);e&&(e.textContent=`@g2-client/template-demo`);

@@ -1,0 +1,130 @@
+.detailHeader {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 10px;
+  margin-bottom: 16px;
+}
+.detailCell {
+  border: 1px solid #edf0f5;
+  border-radius: 4px;
+  padding: 10px 12px;
+}
+.label {
+  color: #6b7280;
+  font-size: 12px;
+}
+.value {
+  margin-top: 4px;
+  color: #1f2937;
+  font-size: 15px;
+  font-weight: 600;
+}
+.group {
+  margin-bottom: 18px;
+}
+.groupTitle {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+.recordList {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.recordItem {
+  border: 1px solid #edf0f5;
+  border-radius: 4px;
+  padding: 10px 12px;
+}
+.periodSwitcher {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
+.roleGroups {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 14px;
+  min-height: 0;
+  overflow: auto;
+}
+.roleGroup {
+  border: 1px solid #edf0f5;
+  border-radius: 6px;
+  background: #fff;
+}
+.roleGroupHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 12px 16px;
+  border-bottom: 1px solid #edf0f5;
+  background: #f9fafb;
+}
+.roleGroupTitle {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.roleBadge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: var(--cube-theme-var--primary-color, #3b82f6);
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+}
+.roleName {
+  color: #1f2937;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.4;
+}
+.roleMeta {
+  color: #6b7280;
+  font-size: 12px;
+}
+.completionCell {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.completionTrack {
+  width: 72px;
+  height: 6px;
+  overflow: hidden;
+  border-radius: 999px;
+  background: #e5e7eb;
+}
+.completionBar {
+  height: 100%;
+  border-radius: inherit;
+  background: var(--cube-theme-var--primary-color, #3b82f6);
+}
+.emptyState {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 260px;
+  border: 1px solid #edf0f5;
+  border-radius: 6px;
+  background: #fff;
+}
+@media (max-width: 1200px) {
+  .detailHeader {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .roleGroupHeader {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}

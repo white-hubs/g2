@@ -1,0 +1,65 @@
+/*
+ * 预案管理域通用样式：统一间距与操作区观感。
+ */
+
+#pc-layout-content .ant-btn:not(.ant-btn-sm):not(.ant-btn-lg):not(.ant-btn-link),
+#cube-layout-content .ant-btn:not(.ant-btn-sm):not(.ant-btn-lg):not(.ant-btn-link) {
+  height: 32px;
+  padding-inline: 15px;
+  font-size: 14px;
+}
+
+.em-search-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  align-items: center;
+}
+
+.em-header-actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-left: auto;
+}
+
+.em-header-actions :global(.ant-btn) {
+  margin-left: 0;
+}
+
+.em-search-row .ant-input,
+.em-search-row .ant-select {
+  min-width: 180px;
+}
+
+.em-hint {
+  color: #96981d;
+  font-size: 13px;
+}
+
+.em-file-txt {
+  display: block;
+  margin-top: 8px;
+  color: #8c8c8c;
+  font-size: 12px;
+}
+
+.em-msg-box {
+  width: 100%;
+  max-width: 1000px;
+  margin-bottom: 16px;
+  padding: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background: #fff;
+}
+
+.em-add-config {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1000px;
+  margin-bottom: 12px;
+}

@@ -1,0 +1,52 @@
+.pc-auth-phone-login__title {
+  margin: 0 0 4px;
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.pc-auth-phone-login__bind-hint {
+  display: block;
+  margin-bottom: 16px;
+  text-align: center;
+  color: #666;
+  font-size: 13px;
+}
+
+.pc-auth-phone-login__code-row {
+  display: flex;
+  gap: 8px;
+}
+
+.pc-auth-phone-login__code-input {
+  flex: 1;
+}
+
+.pc-auth-phone-login__code-btn {
+  flex: 0 0 auto;
+  white-space: nowrap;
+}
+
+.pc-auth-phone-login__captcha {
+  margin-bottom: 16px;
+}
+
+.pc-auth-phone-login__remember {
+  margin-bottom: 12px;
+}
+
+.pc-auth-phone-login__agreement {
+  margin-bottom: 16px;
+}
+
+.pc-auth-phone-login__submit {
+  margin-bottom: 0;
+}
+
+.pc-auth-phone-login__back {
+  margin-top: 12px;
+  text-align: right;
+  color: #1578ff;
+  cursor: pointer;
+  font-size: 14px;
+}

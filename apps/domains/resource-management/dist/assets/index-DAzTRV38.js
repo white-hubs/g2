@@ -1,0 +1,1 @@
+import"./virtual_mf-exposes___mfe_internal__resourceManagement__remoteEntry_js-DK_GzELZ.js";import"./virtual_mf-REMOTE_ENTRY_ID___mfe_internal__resourceManagement__remoteEntry_js-Caqi1lIp.js";var e=document.querySelector(`#app`);e&&(e.textContent=`@g2-domain/resource-management`);

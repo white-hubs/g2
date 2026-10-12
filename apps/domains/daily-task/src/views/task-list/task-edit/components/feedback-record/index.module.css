@@ -1,0 +1,23 @@
+.feedback-record .feedback-progress {
+  color: #333;
+}
+.feedback-record .feedback-action {
+  padding: 0;
+}
+.feedback-detail-row {
+  display: flex;
+  margin-bottom: 16px;
+  line-height: 22px;
+}
+.feedback-detail-label {
+  width: 120px;
+  color: #333;
+  text-align: right;
+  padding-right: 8px;
+  flex-shrink: 0;
+}
+.feedback-detail-value {
+  flex: 1;
+  color: #333;
+  word-break: break-all;
+}

@@ -1,0 +1,1 @@
+[class*=hasTableScroll] .ant-table-body,[class*=has-table-scroll] .ant-table-body{scrollbar-width:none;overflow-x:hidden!important}[class*=hasTableScroll] .ant-table-body::-webkit-scrollbar{width:8px;height:0}[class*=has-table-scroll] .ant-table-body::-webkit-scrollbar{width:8px;height:0}

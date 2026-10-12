@@ -1,0 +1,1 @@
+import{n as e,t}from"./assets/virtual_mf-REMOTE_ENTRY_ID___mfe_internal__rotatingManagement__remoteEntry_js-xSSwU-GG.js";export{t as get,e as init};

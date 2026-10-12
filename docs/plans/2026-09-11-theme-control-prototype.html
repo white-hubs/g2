@@ -1,0 +1,857 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>主题控制台原型</title>
+    <style>
+      :root {
+        --primary: #1677ff;
+        --page: #f5f7fa;
+        --surface: #fff;
+        --text: #172033;
+        --border: #d9e1ec;
+        --on-primary: #fff;
+        --header-bg: #1677ff;
+        --header-text: #fff;
+        --soft: #e8f1ff;
+        --muted: #6b7788;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        min-width: 980px;
+        background: #eef2f7;
+        color: #172033;
+        font:
+          14px/1.5 -apple-system,
+          BlinkMacSystemFont,
+          "Segoe UI",
+          "PingFang SC",
+          "Microsoft YaHei",
+          sans-serif;
+      }
+      .app {
+        display: grid;
+        grid-template-columns: 390px 1fr;
+        min-height: 100vh;
+      }
+      .panel {
+        padding: 30px;
+        background: #fff;
+        border-right: 1px solid #dfe5ee;
+      }
+      h1 {
+        margin: 0 0 6px;
+        font-size: 24px;
+      }
+      h2 {
+        margin: 0;
+        font-size: 16px;
+      }
+      p {
+        margin: 0;
+      }
+      .subtitle {
+        color: #687587;
+      }
+      .section {
+        padding: 22px 0;
+        border-bottom: 1px solid #e8edf3;
+      }
+      .preset-list {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+        margin-top: 14px;
+      }
+      .preset {
+        position: relative;
+        padding: 11px;
+        border: 1px solid #dce4ed;
+        border-radius: 8px;
+        background: #fff;
+        cursor: pointer;
+        text-align: left;
+      }
+      .preset:hover,
+      .preset.active {
+        border-color: var(--primary);
+        background: #f7faff;
+      }
+      .dot {
+        display: inline-block;
+        width: 9px;
+        height: 9px;
+        margin-right: 4px;
+        border-radius: 999px;
+        vertical-align: 1px;
+      }
+      .field {
+        display: grid;
+        grid-template-columns: 88px 42px 1fr;
+        align-items: center;
+        gap: 10px;
+        margin: 13px 0;
+      }
+      .field label {
+        color: #364152;
+      }
+      input[type="color"] {
+        width: 42px;
+        height: 32px;
+        padding: 2px;
+        border: 1px solid #d5dde8;
+        border-radius: 6px;
+        background: #fff;
+        cursor: pointer;
+      }
+      .hex {
+        width: 100%;
+        padding: 7px 9px;
+        border: 1px solid #d5dde8;
+        border-radius: 6px;
+        color: #344054;
+        font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+      }
+      .tip {
+        margin-top: 12px;
+        padding: 10px 12px;
+        border-radius: 7px;
+        background: #f5f8fc;
+        color: #66758b;
+        font-size: 12px;
+      }
+      details {
+        margin-top: 18px;
+      }
+      summary {
+        color: #1677ff;
+        cursor: pointer;
+        user-select: none;
+      }
+      .derived {
+        margin-top: 12px;
+        padding: 12px;
+        border: 1px dashed #ccd7e6;
+        border-radius: 7px;
+        color: #617086;
+        font-size: 12px;
+      }
+      .derived span {
+        display: inline-flex;
+        align-items: center;
+        margin: 3px 12px 3px 0;
+      }
+      .derived i {
+        width: 13px;
+        height: 13px;
+        margin-right: 5px;
+        border: 1px solid #c5cbd4;
+        border-radius: 3px;
+      }
+      .actions {
+        display: flex;
+        gap: 10px;
+        padding-top: 22px;
+      }
+      button {
+        padding: 8px 15px;
+        border: 1px solid #d5dde8;
+        border-radius: 6px;
+        background: #fff;
+        color: #344054;
+        cursor: pointer;
+        font: inherit;
+      }
+      button.primary {
+        border-color: var(--primary);
+        background: var(--primary);
+        color: var(--on-primary);
+      }
+      button:hover {
+        filter: brightness(0.98);
+      }
+      .preview-wrap {
+        padding: 38px;
+        background: #e8edf5;
+      }
+      .preview-label {
+        margin-bottom: 12px;
+        color: #5f6f82;
+        font-weight: 650;
+      }
+      .preview {
+        min-height: 670px;
+        overflow: hidden;
+        border: 1px solid var(--border);
+        border-radius: 12px;
+        background: var(--page);
+        color: var(--text);
+        box-shadow: 0 12px 30px rgb(31 45 61 / 12%);
+      }
+      .topbar {
+        display: flex;
+        align-items: center;
+        height: 58px;
+        padding: 0 24px;
+        background: var(--header-bg);
+        border-bottom: 1px solid color-mix(in srgb, var(--header-bg) 80%, var(--border));
+      }
+      .brand {
+        color: var(--header-text);
+        font-size: 18px;
+        font-weight: 750;
+      }
+      .tabs {
+        display: flex;
+        gap: 24px;
+        margin-left: 46px;
+        height: 100%;
+      }
+      .tabs span {
+        display: flex;
+        align-items: center;
+        color: color-mix(in srgb, var(--header-text) 78%, transparent);
+      }
+      .tabs .active {
+        border-bottom: 2px solid var(--header-text);
+        color: var(--header-text);
+        font-weight: 650;
+      }
+      .content {
+        display: grid;
+        grid-template-columns: 190px 1fr;
+        gap: 18px;
+        padding: 20px;
+      }
+      .side,
+      .card {
+        border: 1px solid var(--border);
+        border-radius: 8px;
+        background: var(--surface);
+      }
+      .side {
+        padding: 12px;
+      }
+      .side p {
+        padding: 9px 10px;
+        color: var(--muted);
+      }
+      .side .chosen {
+        border-radius: 5px;
+        background: var(--soft);
+        color: var(--primary);
+        font-weight: 650;
+      }
+      .main {
+        min-width: 0;
+      }
+      .title-row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 14px;
+      }
+      .title-row h2 {
+        font-size: 19px;
+      }
+      .filter {
+        display: flex;
+        gap: 10px;
+        padding: 14px;
+        margin-bottom: 14px;
+      }
+      .fake-input {
+        min-width: 170px;
+        padding: 8px 10px;
+        border: 1px solid var(--border);
+        border-radius: 6px;
+        background: var(--surface);
+        color: var(--muted);
+      }
+      .query {
+        padding: 8px 14px;
+        border-radius: 6px;
+        background: var(--primary);
+        color: var(--on-primary);
+        border: 0;
+      }
+      .table {
+        overflow: hidden;
+      }
+      .tr {
+        display: grid;
+        grid-template-columns: 1.3fr 1fr 1.1fr 0.8fr;
+        min-height: 46px;
+        border-bottom: 1px solid var(--border);
+      }
+      .tr:last-child {
+        border-bottom: 0;
+      }
+      .tr span {
+        display: flex;
+        align-items: center;
+        padding: 0 13px;
+      }
+      .tr.head {
+        background: color-mix(in srgb, var(--surface) 86%, var(--page));
+        color: var(--muted);
+        font-weight: 650;
+      }
+      .link {
+        color: var(--primary);
+      }
+      .status {
+        color: #108a57;
+      }
+      .modal {
+        position: absolute;
+        right: 78px;
+        bottom: 68px;
+        width: 315px;
+        padding: 18px;
+        border: 1px solid var(--border);
+        border-radius: 10px;
+        background: var(--surface);
+        box-shadow: 0 10px 30px rgb(20 31 48 / 18%);
+      }
+      .modal h3 {
+        margin: 0 0 14px;
+      }
+      .modal .fake-input {
+        width: 100%;
+        margin-bottom: 10px;
+      }
+      .modal-footer {
+        display: flex;
+        justify-content: flex-end;
+        gap: 8px;
+      }
+      .relative {
+        position: relative;
+      }
+      .component-showcase {
+        display: grid;
+        grid-template-columns: 1.1fr 0.9fr;
+        gap: 14px;
+        margin-bottom: 14px;
+      }
+      .showcase-card {
+        padding: 14px;
+      }
+      .showcase-card h3 {
+        margin: 0 0 12px;
+        font-size: 14px;
+      }
+      .field-row {
+        display: grid;
+        grid-template-columns: 92px 1fr;
+        align-items: center;
+        gap: 8px;
+        margin: 9px 0;
+        color: var(--muted);
+      }
+      .control {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        min-height: 34px;
+        padding: 6px 9px;
+        border: 1px solid var(--border);
+        border-radius: 6px;
+        background: var(--surface);
+        color: var(--text);
+        text-align: left;
+        font: inherit;
+      }
+      .control.action {
+        cursor: pointer;
+      }
+      .control.action:hover {
+        border-color: var(--primary);
+        filter: none;
+      }
+      .control .chevron {
+        margin-left: auto;
+        color: var(--muted);
+      }
+      .control.focused {
+        border-color: var(--primary);
+        box-shadow: 0 0 0 2px color-mix(in srgb, var(--primary) 18%, transparent);
+      }
+      .control .tag {
+        margin-right: 4px;
+        padding: 1px 6px;
+        border-radius: 4px;
+        background: var(--soft);
+        color: var(--primary);
+        font-size: 12px;
+      }
+      .control-input {
+        outline: 0;
+      }
+      .control-input:focus {
+        border-color: var(--primary);
+        box-shadow: 0 0 0 2px color-mix(in srgb, var(--primary) 18%, transparent);
+      }
+      .placeholder {
+        color: var(--muted);
+      }
+      .popup {
+        position: absolute;
+        z-index: 5;
+        display: none;
+        min-width: 210px;
+        padding: 5px;
+        border: 1px solid var(--border);
+        border-radius: 7px;
+        background: var(--surface);
+        box-shadow: 0 8px 20px rgb(20 31 48 / 18%);
+      }
+      .popup.open {
+        display: block;
+      }
+      .popup button {
+        display: block;
+        width: 100%;
+        padding: 7px 9px;
+        border: 0;
+        border-radius: 4px;
+        background: transparent;
+        color: var(--text);
+        text-align: left;
+      }
+      .popup button:hover {
+        background: var(--soft);
+        color: var(--primary);
+      }
+      .control-anchor {
+        position: relative;
+      }
+      .cascade {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        min-width: 260px;
+        padding: 0;
+        overflow: hidden;
+      }
+      .cascade div {
+        padding: 5px;
+        border-right: 1px solid var(--border);
+      }
+      .cascade div:last-child {
+        border-right: 0;
+      }
+      .date-popup {
+        width: 240px;
+        padding: 10px;
+      }
+      .date-head {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 8px;
+        color: var(--text);
+        font-weight: 650;
+      }
+      .date-grid {
+        display: grid;
+        grid-template-columns: repeat(7, 1fr);
+        gap: 3px;
+      }
+      .date-grid button {
+        display: grid;
+        width: 26px;
+        height: 26px;
+        padding: 0;
+        place-items: center;
+        text-align: center;
+      }
+      .date-grid button.selected {
+        background: var(--primary);
+        color: var(--on-primary);
+      }
+      .tree {
+        padding: 6px 0 2px;
+      }
+      .tree div {
+        padding: 5px 8px;
+        color: var(--muted);
+        cursor: pointer;
+      }
+      .tree div:hover {
+        color: var(--primary);
+      }
+      .tree .branch {
+        padding-left: 26px;
+      }
+      .tree .tree-active {
+        border-radius: 4px;
+        background: var(--soft);
+        color: var(--primary);
+        font-weight: 650;
+      }
+      .checkbox {
+        display: inline-grid;
+        width: 14px;
+        height: 14px;
+        place-items: center;
+        margin-right: 7px;
+        border: 1px solid var(--border);
+        border-radius: 3px;
+        background: var(--surface);
+        color: var(--on-primary);
+        font-size: 11px;
+      }
+      .checkbox.checked {
+        border-color: var(--primary);
+        background: var(--primary);
+      }
+      .calendar {
+        display: flex;
+        gap: 5px;
+        color: var(--muted);
+        font-size: 12px;
+      }
+      .calendar b {
+        display: grid;
+        width: 22px;
+        height: 22px;
+        place-items: center;
+        border-radius: 4px;
+        color: var(--text);
+        font-weight: 500;
+      }
+      .calendar b.selected {
+        background: var(--primary);
+        color: var(--on-primary);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="app">
+      <aside class="panel">
+        <h1>主题设置</h1>
+        <p class="subtitle">仅配置 5 个基础色，其余组件与状态颜色由系统派生。</p>
+        <section class="section">
+          <h2>基础模式</h2>
+          <div class="preset-list">
+            <button class="preset active" data-preset="light"><span class="dot" style="background: #1677ff"></span>开河蓝</button
+            ><button class="preset" data-preset="dark"><span class="dot" style="background: #5aa4ff"></span>夜幕黑</button
+            ><button class="preset" data-preset="custom"><span class="dot" style="background: #8b5cf6"></span>自定义</button>
+          </div>
+        </section>
+        <section class="section">
+          <h2>可编辑颜色 <span class="badge" style="font-size: 12px; color: #6b7788; font-weight: 400">最小配置</span></h2>
+          <div class="field">
+            <label for="primary">品牌主色</label><input id="primary" type="color" value="#1677ff" /><input
+              class="hex"
+              data-for="primary"
+              value="#1677FF"
+            />
+          </div>
+          <div class="field">
+            <label for="page">页面背景</label><input id="page" type="color" value="#f5f7fa" /><input
+              class="hex"
+              data-for="page"
+              value="#F5F7FA"
+            />
+          </div>
+          <div class="field">
+            <label for="surface">容器背景</label><input id="surface" type="color" value="#ffffff" /><input
+              class="hex"
+              data-for="surface"
+              value="#FFFFFF"
+            />
+          </div>
+          <div class="field">
+            <label for="text">主文字</label><input id="text" type="color" value="#172033" /><input
+              class="hex"
+              data-for="text"
+              value="#172033"
+            />
+          </div>
+          <div class="field">
+            <label for="border">边框与分割线</label><input id="border" type="color" value="#d9e1ec" /><input
+              class="hex"
+              data-for="border"
+              value="#D9E1EC"
+            />
+          </div>
+          <p class="tip">基础配置仅保留：品牌、页面、容器、文字、边框。输入框、表格、Modal、Tabs、分页、悬浮态均由它们推导。</p>
+          <details>
+            <summary>高频扩展色（按钮与顶部菜单）</summary>
+            <div class="field">
+              <label for="onPrimary">按钮文字</label><input id="onPrimary" type="color" value="#ffffff" /><input
+                class="hex"
+                data-for="onPrimary"
+                value="#FFFFFF"
+              />
+            </div>
+            <div class="field">
+              <label for="headerText">导航菜单文字</label><input id="headerText" type="color" value="#ffffff" /><input
+                class="hex"
+                data-for="headerText"
+                value="#FFFFFF"
+              />
+            </div>
+            <p class="tip">顶部导航背景始终跟随品牌主色，无需单独维护，避免主题颜色失去一致性。</p>
+          </details>
+          <details>
+            <summary>查看系统自动派生的颜色</summary>
+            <div class="derived">
+              <span><i id="soft-swatch"></i>主色浅底 / 选中态</span><span><i style="background: #00a870"></i>成功状态</span
+              ><span><i style="background: #f79009"></i>警告状态</span><span><i style="background: #e5484d"></i>错误与一级告警</span
+              ><br />状态色与告警等级默认保持业务语义，不与主色绑定。
+            </div>
+          </details>
+        </section>
+        <div class="actions"><button id="reset">恢复预设</button><button class="primary" id="save">保存主题</button></div>
+      </aside>
+      <main class="preview-wrap">
+        <div class="preview-label">实时预览 · 将应用到 Chrome、通用组件和子应用</div>
+        <section class="preview relative">
+          <header class="topbar">
+            <div class="brand">G2 安全平台</div>
+            <div class="tabs"><span class="active">工作台</span><span>安全管理</span><span>设备中心</span></div>
+          </header>
+          <div class="content">
+            <aside class="side">
+              <p>安防监控</p>
+              <p class="chosen">报警记录</p>
+              <p>报警配置</p>
+              <p>统计分析</p>
+              <p>消息配置</p>
+            </aside>
+            <div class="main">
+              <div class="title-row">
+                <h2>报警记录</h2>
+                <button class="query">新增</button>
+              </div>
+              <div class="card filter">
+                <input class="fake-input" aria-label="设备名称" placeholder="请输入设备名称" />
+                <div class="fake-input">报警级别</div>
+                <button class="query">查询</button>
+              </div>
+              <div class="component-showcase">
+                <section class="card showcase-card">
+                  <h3>表单控件（可点击）</h3>
+                  <div class="field-row"><span>普通输入</span><input class="control control-input" placeholder="请输入设备名称" /></div>
+                  <div class="field-row">
+                    <span>下拉选择</span>
+                    <div class="control-anchor">
+                      <button class="control action focused" data-popup="select-popup" aria-expanded="false">
+                        视频监控 <span class="chevron">⌄</span>
+                      </button>
+                      <div class="popup" id="select-popup">
+                        <button data-select="视频监控">视频监控</button><button data-select="报警中心">报警中心</button
+                        ><button data-select="巡逻管理">巡逻管理</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="field-row">
+                    <span>级联选择</span>
+                    <div class="control-anchor">
+                      <button class="control action" data-popup="cascade-popup" aria-expanded="false">
+                        <span class="tag">安防监控</span><span class="tag" data-cascade-result>视频监控</span><span class="chevron">⌄</span>
+                      </button>
+                      <div class="popup cascade" id="cascade-popup">
+                        <div><button>安防监控</button><button>消防管理</button></div>
+                        <div><button data-cascade="视频监控">视频监控</button><button data-cascade="报警中心">报警中心</button></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="field-row">
+                    <span>日期选择</span>
+                    <div class="control-anchor">
+                      <button class="control action" data-popup="date-popup" aria-expanded="false">
+                        <span data-date-result>2026-09-11</span><span class="chevron">▣</span>
+                      </button>
+                      <div class="popup date-popup" id="date-popup">
+                        <div class="date-head"><span>‹</span><span>2026 年 9 月</span><span>›</span></div>
+                        <div class="date-grid">
+                          <button data-date="2026-09-08">8</button><button data-date="2026-09-09">9</button
+                          ><button data-date="2026-09-10">10</button><button class="selected" data-date="2026-09-11">11</button
+                          ><button data-date="2026-09-12">12</button><button data-date="2026-09-13">13</button
+                          ><button data-date="2026-09-14">14</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+                <section class="card showcase-card">
+                  <h3>树形选择与日期面板</h3>
+                  <div class="tree">
+                    <div data-tree-item><span class="checkbox checked">✓</span>安防监控</div>
+                    <div class="branch tree-active" data-tree-item><span class="checkbox checked">✓</span>视频监控</div>
+                    <div class="branch" data-tree-item><span class="checkbox"></span>报警中心</div>
+                  </div>
+                  <div class="calendar"><b>一</b><b>二</b><b>三</b><b class="selected">四</b><b>五</b><b>六</b><b>日</b></div>
+                </section>
+              </div>
+              <div class="card table">
+                <div class="tr head"><span>报警事件</span><span>报警设备</span><span>处理状态</span><span>操作</span></div>
+                <div class="tr">
+                  <span>视频报警</span><span>研发中心 7 号</span><span class="status">正常</span><span class="link">详情</span>
+                </div>
+                <div class="tr">
+                  <span>入侵报警</span><span>地下室 B1F</span><span class="link">处理中</span><span class="link">详情</span>
+                </div>
+                <div class="tr">
+                  <span>消防报警</span><span>消防主机</span><span style="color: #e5484d">待接收</span><span class="link">详情</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal">
+            <h3>编辑分组</h3>
+            <input class="fake-input" placeholder="请输入分组名称" /><input class="fake-input" placeholder="请输入描述" />
+            <div class="modal-footer"><button>取消</button><button class="query">确定</button></div>
+          </div>
+        </section>
+      </main>
+    </div>
+    <script>
+      const presets = {
+        light: {
+          primary: "#1677ff",
+          page: "#f5f7fa",
+          surface: "#ffffff",
+          text: "#172033",
+          border: "#d9e1ec",
+          onPrimary: "#ffffff",
+          headerText: "#ffffff",
+        },
+        dark: {
+          primary: "#5aa4ff",
+          page: "#071426",
+          surface: "#0d2039",
+          text: "#edf5ff",
+          border: "#29425f",
+          onPrimary: "#071426",
+          headerText: "#edf5ff",
+        },
+        custom: {
+          primary: "#7c5cff",
+          page: "#f7f6ff",
+          surface: "#ffffff",
+          text: "#24213d",
+          border: "#ddd9f3",
+          onPrimary: "#ffffff",
+          headerText: "#ffffff",
+        },
+      };
+      const ids = Object.keys(presets.light);
+      const root = document.documentElement;
+      const contrastText = (hex) => {
+        const value = parseInt(hex.slice(1), 16);
+        const r = value >> 16,
+          g = (value >> 8) & 255,
+          b = value & 255;
+        return (r * 299 + g * 587 + b * 114) / 1000 > 155 ? "#172033" : "#ffffff";
+      };
+      const mix = (a, b, amount) => {
+        const toRgb = (h) => [1, 3, 5].map((i) => parseInt(h.slice(i, i + 2), 16));
+        const [ar, ag, ab] = toRgb(a),
+          [br, bg, bb] = toRgb(b);
+        const c = (x, y) =>
+          Math.round(x + (y - x) * amount)
+            .toString(16)
+            .padStart(2, "0");
+        return `#${c(ar, br)}${c(ag, bg)}${c(ab, bb)}`;
+      };
+      function apply(values) {
+        ids.forEach((id) => {
+          const value = values[id];
+          document.getElementById(id).value = value;
+          document.querySelector(`[data-for="${id}"]`).value = value.toUpperCase();
+          const variable = id.replace(/[A-Z]/g, (char) => `-${char.toLowerCase()}`);
+          root.style.setProperty(`--${variable}`, value);
+        });
+        root.style.setProperty("--header-bg", values.primary);
+        const soft = mix(values.primary, values.surface, 0.89);
+        root.style.setProperty("--soft", soft);
+        document.getElementById("soft-swatch").style.background = soft;
+      }
+      document
+        .querySelectorAll('input[type="color"]')
+        .forEach((input) =>
+          input.addEventListener("input", () => apply(Object.fromEntries(ids.map((id) => [id, document.getElementById(id).value])))),
+        );
+      document.querySelectorAll(".hex").forEach((input) =>
+        input.addEventListener("change", () => {
+          const value = input.value.trim();
+          if (/^#[0-9a-fA-F]{6}$/.test(value)) {
+            const current = Object.fromEntries(ids.map((id) => [id, document.getElementById(id).value]));
+            current[input.dataset.for] = value;
+            apply(current);
+          } else {
+            input.value = document.getElementById(input.dataset.for).value.toUpperCase();
+          }
+        }),
+      );
+      document.querySelectorAll("[data-preset]").forEach((button) =>
+        button.addEventListener("click", () => {
+          document.querySelectorAll("[data-preset]").forEach((item) => item.classList.remove("active"));
+          button.classList.add("active");
+          apply(presets[button.dataset.preset]);
+        }),
+      );
+      document.getElementById("reset").addEventListener("click", () => apply(presets.light));
+      document.getElementById("save").addEventListener("click", () => {
+        const button = document.getElementById("save");
+        button.textContent = "已保存";
+        setTimeout(() => {
+          button.textContent = "保存主题";
+        }, 1200);
+      });
+      function closePopups() {
+        document.querySelectorAll(".popup.open").forEach((popup) => popup.classList.remove("open"));
+        document.querySelectorAll("[data-popup]").forEach((button) => button.setAttribute("aria-expanded", "false"));
+      }
+      document.querySelectorAll("[data-popup]").forEach((button) =>
+        button.addEventListener("click", (event) => {
+          event.stopPropagation();
+          const popup = document.getElementById(button.dataset.popup);
+          const opened = popup.classList.contains("open");
+          closePopups();
+          if (!opened) {
+            popup.classList.add("open");
+            button.setAttribute("aria-expanded", "true");
+          }
+        }),
+      );
+      document.querySelectorAll("[data-select]").forEach((option) =>
+        option.addEventListener("click", () => {
+          document.querySelector('[data-popup="select-popup"]').firstChild.textContent = option.dataset.select + " ";
+          closePopups();
+        }),
+      );
+      document.querySelectorAll("[data-cascade]").forEach((option) =>
+        option.addEventListener("click", () => {
+          document.querySelector("[data-cascade-result]").textContent = option.dataset.cascade;
+          closePopups();
+        }),
+      );
+      document.querySelectorAll("[data-date]").forEach((day) =>
+        day.addEventListener("click", () => {
+          document.querySelector("[data-date-result]").textContent = day.dataset.date;
+          document.querySelectorAll("[data-date]").forEach((item) => item.classList.remove("selected"));
+          day.classList.add("selected");
+          closePopups();
+        }),
+      );
+      document.querySelectorAll("[data-tree-item]").forEach((item) =>
+        item.addEventListener("click", () => {
+          const box = item.querySelector(".checkbox");
+          const checked = box.classList.toggle("checked");
+          box.textContent = checked ? "✓" : "";
+        }),
+      );
+      document.addEventListener("click", closePopups);
+      apply(presets.light);
+    </script>
+  </body>
+</html>

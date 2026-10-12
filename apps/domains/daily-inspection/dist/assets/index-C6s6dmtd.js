@@ -1,0 +1,1 @@
+import"./virtual_mf-exposes___mfe_internal__dailyInspection__remoteEntry_js-De8DIRvV.js";import"./virtual_mf-REMOTE_ENTRY_ID___mfe_internal__dailyInspection__remoteEntry_js-CJG5svUs.js";var e=document.querySelector(`#app`);e&&(e.textContent=`@g2-domain/daily-inspection build shell`);

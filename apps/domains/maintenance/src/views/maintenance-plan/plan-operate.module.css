@@ -1,0 +1,118 @@
+.detailForm {
+  width: 100%;
+  text-align: left;
+}
+
+.itemTitle {
+  position: relative;
+  width: 100%;
+  margin: 8px 0 16px;
+  padding-left: 10px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.itemTitle::before {
+  position: absolute;
+  top: 3px;
+  left: 0;
+  width: 3px;
+  height: 16px;
+  background: var(--pc-primary-color, #00ba8b);
+  content: "";
+}
+
+.flexBetween {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.fullBlock {
+  width: 100%;
+}
+
+.formRow {
+  width: 100%;
+}
+
+.formCol :global(.ant-form-item) {
+  width: 100%;
+  margin-inline-end: 0;
+  margin-bottom: 16px;
+}
+
+.formCol :global(.ant-form-item-row) {
+  flex-wrap: nowrap;
+}
+
+.formCol :global(.ant-form-item-control) {
+  min-width: 0;
+}
+
+.deviceTable {
+  width: 100%;
+  margin-bottom: 8px;
+}
+
+.responsibilityGroup {
+  display: flex;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.responsibilityToggle {
+  display: flex;
+  flex: none;
+}
+
+.responsibilityControl {
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+  gap: 8px;
+  min-width: 0;
+  padding-left: 8px;
+}
+
+.responsibilityControl > * {
+  flex: 1 1 calc(50% - 4px);
+  min-width: 0;
+}
+
+.cycleGroup {
+  display: flex;
+  width: 100%;
+}
+
+.cycleGroup > :first-child {
+  flex: 0 0 70%;
+  min-width: 0;
+}
+
+.cycleGroup > :last-child {
+  flex: 0 0 30%;
+  min-width: 0;
+}
+
+.ruleHeader {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.ruleList {
+  max-height: 200px;
+  overflow: auto;
+}
+
+.normal {
+  color: var(--pc-success-color, #00ba8b);
+}
+
+.abnormal {
+  color: var(--pc-error-color, #f5222d);
+}

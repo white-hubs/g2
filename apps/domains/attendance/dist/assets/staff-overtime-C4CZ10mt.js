@@ -1,0 +1,1 @@
+import{t as e}from"./client-DtOTO6As.js";var t=async t=>(await e()).overtimeRulesPage(t),n=async t=>(await e()).overtimeDetailPage(t),r=async t=>(await e()).overtimeDetailExport(t),i=async t=>(await e()).overtimeRulesDelete(t),a=async t=>(await e()).overtimeRulesPost(t),o=async t=>(await e()).overtimeRulesDetail(t);export{t as a,o as i,n,a as o,i as r,r as t};

@@ -1,0 +1,30 @@
+{
+  "name": "@g2-platform/pc-alarm-charts",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts",
+    "./platform": "./src/platform-module.ts"
+  },
+  "scripts": {
+    "dev": "bun ../../../tooling/dev-link/cli.ts",
+    "dev:serve": "bun --bun vite --port 5055 --strictPort",
+    "build": "bun --bun vite build",
+    "preview": "bun --bun vite preview --port 5055 --strictPort",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "bun test"
+  },
+  "dependencies": {
+    "@g2-composition/contract": "workspace:*",
+    "echarts": "catalog:libs",
+    "vue": "catalog:vue"
+  },
+  "devDependencies": {
+    "@g2-tooling/mf-vite": "workspace:*",
+    "@vitejs/plugin-vue-jsx": "catalog:vite",
+    "less": "^4.8.1",
+    "typescript": "catalog:typescript",
+    "vite": "catalog:vite"
+  }
+}

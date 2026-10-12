@@ -1,0 +1,1 @@
+import"./virtual_mf-exposes___mfe_internal__fileClient__remoteEntry_js-0t6maOc6.js";import"./virtual_mf-REMOTE_ENTRY_ID___mfe_internal__fileClient__remoteEntry_js-CS9pX7XZ.js";var e=document.querySelector(`#app`);e&&(e.textContent=`@g2-client/file (service client remote, no UI)`);

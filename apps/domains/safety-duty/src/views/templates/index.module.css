@@ -1,0 +1,90 @@
+.summary {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+  margin-bottom: 14px;
+}
+.summaryItem {
+  padding: 12px 14px;
+  border: 1px solid #edf0f5;
+  border-radius: 4px;
+  background: #fff;
+}
+.summaryItem span {
+  display: block;
+  color: #6b7280;
+  font-size: 13px;
+}
+.summaryItem strong {
+  display: block;
+  margin-top: 6px;
+  color: #111827;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.2;
+}
+.emptyWrap {
+  padding: 24px 0;
+}
+.itemEditor {
+  padding-top: 4px;
+}
+.editorHelp {
+  margin: 0 0 12px;
+  color: #9ca3af;
+  font-size: 12px;
+  line-height: 1.5;
+}
+.clauseLoader {
+  margin-bottom: 14px;
+  padding: 12px;
+  border: 1px solid #bfdbfe;
+  border-radius: 4px;
+  background: #eff6ff;
+}
+.loaderRow {
+  display: grid;
+  grid-template-columns: 160px 220px auto;
+  gap: 12px;
+  align-items: flex-end;
+}
+.loaderRow :global(.ant-form-item) {
+  margin-bottom: 0;
+}
+.loaderResults {
+  margin-top: 12px;
+}
+.loaderResultHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 8px;
+  color: #1e40af;
+  font-size: 12px;
+  font-weight: 500;
+}
+.loaderActions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+  color: #9ca3af;
+  font-size: 12px;
+}
+.manualSection {
+  padding-top: 12px;
+  border-top: 1px solid #edf0f5;
+}
+.formRow {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 160px;
+  gap: 12px;
+  align-items: flex-start;
+}
+@media (max-width: 900px) {
+  .summary,
+  .formRow,
+  .loaderRow {
+    grid-template-columns: 1fr;
+  }
+}

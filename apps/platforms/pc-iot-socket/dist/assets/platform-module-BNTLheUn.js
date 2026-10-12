@@ -1,0 +1,1 @@
+var e={label:`pc-iot-socket`};export{e as default,e as platformModule};

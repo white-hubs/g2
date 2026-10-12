@@ -1,0 +1,10 @@
+export { installSafetyPersonnelPages } from "./api/safety-personnel";
+export { PersonnelPage } from "./views/personnel";
+export { CommitteePage } from "./views/committee";
+export { CertificatesPage } from "./views/certificates";
+export { CertConfigPage } from "./views/config/cert";
+export { OrgConfigPage } from "./views/config/org";
+export { HomePage } from "./views/home";
+export { KeyPersonnelPage } from "./views/key-personnel/personnel";
+export { KeyPersonnelTrackPage } from "./views/key-personnel/track";
+export { KeyPersonnelStatisticsPage } from "./views/key-personnel/statistics";

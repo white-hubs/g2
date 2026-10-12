@@ -1,0 +1,148 @@
+.electrical-editor {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.electrical-editor__minimap {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  z-index: 10;
+  border: 1px solid #e5e5e5;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  background-color: #ffffff;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.electrical-editor__left-panel {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background-color: #ffffff;
+}
+
+.electrical-element-lib {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background-color: #ffffff;
+}
+
+.electrical-element-lib__header {
+  padding: 16px 16px 12px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #333333;
+}
+
+.electrical-element-lib__search {
+  padding: 0 16px 12px;
+}
+
+.electrical-element-lib__search-input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 6px 32px 6px 12px;
+  border-radius: 16px;
+  border: 1px solid #e5e5e5;
+  font-size: 12px;
+  outline: none;
+}
+
+.electrical-element-lib__search-input::placeholder {
+  color: #bfbfbf;
+}
+
+.electrical-element-lib__section {
+  padding: 8px 16px 16px;
+}
+
+.electrical-element-lib__section-title {
+  font-size: 12px;
+  font-weight: 500;
+  color: #999999;
+  margin-bottom: 8px;
+}
+
+.electrical-element-lib__grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px 8px;
+}
+
+.electrical-element-lib__grid--other {
+  grid-template-columns: repeat(4, 1fr);
+}
+.electrical-element-lib__grid--other .electrical-element-lib__item-icon {
+  width: 58px !important;
+}
+.electrical-element-lib__item-icon.electrical-element-lib__item-icon--text-label {
+  width: 38px;
+}
+.electrical-element-lib__item-icon--text-label-text {
+  width: 58px;
+}
+.electrical-element-lib__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: move;
+}
+
+.electrical-element-lib__item-icon {
+  width: 48px;
+  height: 48px;
+  border: 1px dashed #d9d9d9;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  margin-bottom: 4px;
+}
+
+.electrical-element-lib__item-icon img {
+  max-width: 28px;
+  max-height: 28px;
+  object-fit: contain;
+}
+.electrical-element-lib__item-icon-img {
+  max-width: 38px !important;
+  width: 38px;
+  height: 28px;
+  object-fit: fill !important;
+}
+.electrical-element-lib__item-label {
+  font-size: 12px;
+  color: #333333;
+  text-align: center;
+}
+
+.electrical-editor__section {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid #e5e5e5;
+  overflow: hidden;
+}
+
+.electrical-editor__section:last-child {
+  border-bottom: none;
+}
+
+.electrical-editor__section-title {
+  padding: 12px;
+  font-size: 13px;
+  font-weight: 600;
+  color: #333;
+  background-color: #fafafa;
+  border-bottom: 1px solid #e5e5e5;
+  flex-shrink: 0;
+}
+
+.electrical-editor__section > div:not(.electrical-editor__section-title) {
+  flex: 1;
+  overflow: hidden;
+}

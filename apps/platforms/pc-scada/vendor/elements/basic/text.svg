@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:scada="http://cube-scada.io/ns/v1"
+     viewBox="0 0 120 40">
+  <metadata>
+    <scada:element>
+      <scada:meta type="text" label="文本" category="基础图形" version="1.0.0"/>
+      <scada:props>
+        <scada:prop name="content"  type="string" label="文本内容" default="文本" domain="observe" semantic="display.content" required="false" bindable="true" controllable="false"/>
+        <scada:prop name="fill"     type="color"  label="颜色" default="#333333" domain="observe" semantic="style.fill" required="false" bindable="true" controllable="false"/>
+        <scada:prop name="fontSize" type="number" label="字号" default="14" min="8" max="72" domain="observe" semantic="display.fontSize" required="false" bindable="true" controllable="false"/>
+      </scada:props>
+      <scada:mappings>
+        <scada:map prop="content"  selector="#text-body" attr="textContent"/>
+        <scada:map prop="fill"     selector="#text-body" attr="fill"/>
+        <scada:map prop="fontSize" selector="#text-body" attr="font-size"/>
+      </scada:mappings>
+      <scada:animations/>
+    </scada:element>
+  </metadata>
+  <text id="text-body" x="60" y="26" text-anchor="middle" font-size="14" fill="#333">文本</text>
+</svg>

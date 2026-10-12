@@ -1,0 +1,438 @@
+{
+  "__virtual_mf___mfe_internal__electricalSafety__loadShare__vue__loadShare__.js-B2WJ3nXp.js": {
+    "file": "assets/_virtual_mf___mfe_internal__electricalSafety__loadShare__vue__loadShare__.js-B2WJ3nXp.js",
+    "name": "_virtual_mf___mfe_internal__electricalSafety__loadShare__vue__loadShare__.js",
+    "imports": [
+      "_rolldown-runtime-QTnfLwEv.js"
+    ]
+  },
+  "__virtual_mf___mfe_internal__electricalSafety__loadShare__vue_mf_2_router__loadShare__.js-Cl76fQpU.js": {
+    "file": "assets/_virtual_mf___mfe_internal__electricalSafety__loadShare__vue_mf_2_router__loadShare__.js-Cl76fQpU.js",
+    "name": "_virtual_mf___mfe_internal__electricalSafety__loadShare__vue_mf_2_router__loadShare__.js",
+    "imports": [
+      "_rolldown-runtime-QTnfLwEv.js",
+      "__virtual_mf___mfe_internal__electricalSafety__loadShare__vue__loadShare__.js-B2WJ3nXp.js"
+    ]
+  },
+  "_dayjs.min-DwFf_CCC.js": {
+    "file": "assets/dayjs.min-DwFf_CCC.js",
+    "name": "dayjs.min",
+    "imports": [
+      "_rolldown-runtime-QTnfLwEv.js"
+    ]
+  },
+  "_domain-context-DOCR1LtJ.js": {
+    "file": "assets/domain-context-DOCR1LtJ.js",
+    "name": "domain-context"
+  },
+  "_electrical-safety-Cw2RQPfJ.js": {
+    "file": "assets/electrical-safety-Cw2RQPfJ.js",
+    "name": "electrical-safety",
+    "imports": [
+      "_pc-ui-proxy-DnBdTBKL.js",
+      "_domain-context-DOCR1LtJ.js"
+    ]
+  },
+  "_graph-editor-uLKj_d2V.css": {
+    "file": "assets/graph-editor-uLKj_d2V.css",
+    "src": "_graph-editor-uLKj_d2V.css"
+  },
+  "_installCanvasRenderer-BNv0opBV.js": {
+    "file": "assets/installCanvasRenderer-BNv0opBV.js",
+    "name": "installCanvasRenderer",
+    "imports": [
+      "_rolldown-runtime-QTnfLwEv.js"
+    ]
+  },
+  "_page-COaMRTfE.css": {
+    "file": "assets/page-COaMRTfE.css",
+    "src": "_page-COaMRTfE.css"
+  },
+  "_page-name-C5EqfMtm.js": {
+    "file": "assets/page-name-C5EqfMtm.js",
+    "name": "page-name",
+    "imports": [
+      "__virtual_mf___mfe_internal__electricalSafety__loadShare__vue__loadShare__.js-B2WJ3nXp.js",
+      "__virtual_mf___mfe_internal__electricalSafety__loadShare__vue_mf_2_router__loadShare__.js-Cl76fQpU.js"
+    ]
+  },
+  "_pc-graph-editor-runtime-CCJDUCkS.js": {
+    "file": "assets/pc-graph-editor-runtime-CCJDUCkS.js",
+    "name": "pc-graph-editor-runtime",
+    "imports": [
+      "__virtual_mf___mfe_internal__electricalSafety__loadShare__vue__loadShare__.js-B2WJ3nXp.js"
+    ]
+  },
+  "_pc-scada-runtime-CUXtd_me.js": {
+    "file": "assets/pc-scada-runtime-CUXtd_me.js",
+    "name": "pc-scada-runtime",
+    "imports": [
+      "__virtual_mf___mfe_internal__electricalSafety__loadShare__vue__loadShare__.js-B2WJ3nXp.js"
+    ]
+  },
+  "_pc-ui-proxy-DnBdTBKL.js": {
+    "file": "assets/pc-ui-proxy-DnBdTBKL.js",
+    "name": "pc-ui-proxy"
+  },
+  "_references-B-jOpymn.js": {
+    "file": "assets/references-B-jOpymn.js",
+    "name": "references",
+    "imports": [
+      "_domain-context-DOCR1LtJ.js"
+    ]
+  },
+  "_rolldown-runtime-QTnfLwEv.js": {
+    "file": "assets/rolldown-runtime-QTnfLwEv.js",
+    "name": "rolldown-runtime"
+  },
+  "_use-page-fullscreen-BAeTE2Sk.js": {
+    "file": "assets/use-page-fullscreen-BAeTE2Sk.js",
+    "name": "use-page-fullscreen",
+    "imports": [
+      "__virtual_mf___mfe_internal__electricalSafety__loadShare__vue__loadShare__.js-B2WJ3nXp.js",
+      "_pc-ui-proxy-DnBdTBKL.js",
+      "_domain-context-DOCR1LtJ.js",
+      "_installCanvasRenderer-BNv0opBV.js",
+      "_pc-scada-runtime-CUXtd_me.js"
+    ]
+  },
+  "_virtual_mf-REMOTE_ENTRY_ID___mfe_internal__electricalSafety__remoteEntry_js-xQE4z5C2.js": {
+    "file": "assets/virtual_mf-REMOTE_ENTRY_ID___mfe_internal__electricalSafety__remoteEntry_js-xQE4z5C2.js",
+    "name": "virtual_mf-REMOTE_ENTRY_ID___mfe_internal__electricalSafety__remoteEntry_js",
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "virtual:mf-localSharedImportMap:__mfe_internal__electricalSafety",
+      "_virtual_mf-exposes___mfe_internal__electricalSafety__remoteEntry_js-CcRvGIqN.js"
+    ]
+  },
+  "_virtual_mf-exposes___mfe_internal__electricalSafety__remoteEntry_js-CcRvGIqN.js": {
+    "file": "assets/virtual_mf-exposes___mfe_internal__electricalSafety__remoteEntry_js-CcRvGIqN.js",
+    "name": "virtual_mf-exposes___mfe_internal__electricalSafety__remoteEntry_js",
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "src/domain.ts"
+    ]
+  },
+  "_vite-preload-helper-7P2xnrDv.js": {
+    "file": "assets/vite-preload-helper-7P2xnrDv.js",
+    "name": "vite-preload-helper"
+  },
+  "index.html": {
+    "file": "assets/index-l0gQJ5uK.js",
+    "name": "index",
+    "src": "index.html",
+    "isEntry": true,
+    "imports": [
+      "_virtual_mf-exposes___mfe_internal__electricalSafety__remoteEntry_js-CcRvGIqN.js",
+      "_virtual_mf-REMOTE_ENTRY_ID___mfe_internal__electricalSafety__remoteEntry_js-xQE4z5C2.js"
+    ]
+  },
+  "src/domain.ts": {
+    "file": "assets/domain-CybdrRLN.js",
+    "name": "domain",
+    "src": "src/domain.ts",
+    "isEntry": true,
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js",
+      "__virtual_mf___mfe_internal__electricalSafety__loadShare__vue__loadShare__.js-B2WJ3nXp.js",
+      "__virtual_mf___mfe_internal__electricalSafety__loadShare__vue_mf_2_router__loadShare__.js-Cl76fQpU.js",
+      "_domain-context-DOCR1LtJ.js",
+      "_pc-scada-runtime-CUXtd_me.js",
+      "_pc-graph-editor-runtime-CCJDUCkS.js"
+    ],
+    "dynamicImports": [
+      "src/views/electrical-center/electrical-center.tsx",
+      "src/views/device-monitoring/device-monitoring.tsx",
+      "src/views/deep-analysis/deep-analysis.tsx",
+      "src/views/facility-management/facility-management.tsx",
+      "src/views/remote-inspection-config/remote-inspection-config.tsx",
+      "src/views/remote-inspection-view/remote-inspection-view.tsx",
+      "src/views/graph-editor/graph-editor.tsx",
+      "src/views/line-loss-management/line-loss-management.tsx",
+      "src/views/collection-cycle/collection-cycle.tsx",
+      "src/views/collection-record/collection-record.tsx",
+      "src/views/loss-statistics/loss-statistics.tsx"
+    ]
+  },
+  "src/views/collection-cycle/collection-cycle.tsx": {
+    "file": "assets/collection-cycle-CMYDh-to.js",
+    "name": "collection-cycle",
+    "src": "src/views/collection-cycle/collection-cycle.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__electricalSafety__loadShare__vue__loadShare__.js-B2WJ3nXp.js",
+      "_pc-ui-proxy-DnBdTBKL.js",
+      "_domain-context-DOCR1LtJ.js",
+      "_page-name-C5EqfMtm.js"
+    ],
+    "css": [
+      "assets/collection-cycle-C9fqNJlE.css"
+    ]
+  },
+  "src/views/collection-record/collection-record.tsx": {
+    "file": "assets/collection-record-BpwiX8Ls.js",
+    "name": "collection-record",
+    "src": "src/views/collection-record/collection-record.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-QTnfLwEv.js",
+      "__virtual_mf___mfe_internal__electricalSafety__loadShare__vue__loadShare__.js-B2WJ3nXp.js",
+      "_pc-ui-proxy-DnBdTBKL.js",
+      "_domain-context-DOCR1LtJ.js",
+      "_page-name-C5EqfMtm.js",
+      "_dayjs.min-DwFf_CCC.js"
+    ],
+    "css": [
+      "assets/collection-record-BhtuHc6x.css"
+    ]
+  },
+  "src/views/deep-analysis/deep-analysis.tsx": {
+    "file": "assets/deep-analysis-Cl0M9tGb.js",
+    "name": "deep-analysis",
+    "src": "src/views/deep-analysis/deep-analysis.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-QTnfLwEv.js",
+      "__virtual_mf___mfe_internal__electricalSafety__loadShare__vue__loadShare__.js-B2WJ3nXp.js",
+      "__virtual_mf___mfe_internal__electricalSafety__loadShare__vue_mf_2_router__loadShare__.js-Cl76fQpU.js",
+      "_pc-ui-proxy-DnBdTBKL.js",
+      "_page-name-C5EqfMtm.js",
+      "_dayjs.min-DwFf_CCC.js"
+    ],
+    "css": [
+      "assets/deep-analysis-BdexxmGl.css",
+      "assets/page-COaMRTfE.css"
+    ]
+  },
+  "src/views/device-monitoring/device-monitoring.tsx": {
+    "file": "assets/device-monitoring-BddSGh6m.js",
+    "name": "device-monitoring",
+    "src": "src/views/device-monitoring/device-monitoring.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-QTnfLwEv.js",
+      "__virtual_mf___mfe_internal__electricalSafety__loadShare__vue__loadShare__.js-B2WJ3nXp.js",
+      "__virtual_mf___mfe_internal__electricalSafety__loadShare__vue_mf_2_router__loadShare__.js-Cl76fQpU.js",
+      "_pc-ui-proxy-DnBdTBKL.js",
+      "_domain-context-DOCR1LtJ.js",
+      "_page-name-C5EqfMtm.js",
+      "_dayjs.min-DwFf_CCC.js",
+      "_electrical-safety-Cw2RQPfJ.js",
+      "_use-page-fullscreen-BAeTE2Sk.js"
+    ],
+    "css": [
+      "assets/device-monitoring-pVVtL4eD.css",
+      "assets/page-COaMRTfE.css"
+    ]
+  },
+  "src/views/electrical-center/electrical-center.tsx": {
+    "file": "assets/electrical-center-Dl6899yu.js",
+    "name": "electrical-center",
+    "src": "src/views/electrical-center/electrical-center.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-QTnfLwEv.js",
+      "__virtual_mf___mfe_internal__electricalSafety__loadShare__vue__loadShare__.js-B2WJ3nXp.js",
+      "__virtual_mf___mfe_internal__electricalSafety__loadShare__vue_mf_2_router__loadShare__.js-Cl76fQpU.js",
+      "_pc-ui-proxy-DnBdTBKL.js",
+      "_page-name-C5EqfMtm.js",
+      "_dayjs.min-DwFf_CCC.js",
+      "_electrical-safety-Cw2RQPfJ.js",
+      "_use-page-fullscreen-BAeTE2Sk.js",
+      "_references-B-jOpymn.js"
+    ],
+    "css": [
+      "assets/electrical-center-Br_73jwW.css",
+      "assets/page-COaMRTfE.css"
+    ]
+  },
+  "src/views/facility-management/facility-management.tsx": {
+    "file": "assets/facility-management-Dgh0nwfB.js",
+    "name": "facility-management",
+    "src": "src/views/facility-management/facility-management.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__electricalSafety__loadShare__vue__loadShare__.js-B2WJ3nXp.js",
+      "_pc-ui-proxy-DnBdTBKL.js",
+      "_page-name-C5EqfMtm.js",
+      "_electrical-safety-Cw2RQPfJ.js",
+      "_references-B-jOpymn.js"
+    ],
+    "css": [
+      "assets/facility-management-CePgTdSQ.css",
+      "assets/page-COaMRTfE.css"
+    ]
+  },
+  "src/views/graph-editor/graph-editor.tsx": {
+    "file": "assets/graph-editor-C9vCIyGo.js",
+    "name": "graph-editor",
+    "src": "src/views/graph-editor/graph-editor.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__electricalSafety__loadShare__vue__loadShare__.js-B2WJ3nXp.js",
+      "_pc-ui-proxy-DnBdTBKL.js",
+      "_domain-context-DOCR1LtJ.js",
+      "_pc-graph-editor-runtime-CCJDUCkS.js"
+    ],
+    "css": [
+      "assets/graph-editor-uLKj_d2V.css"
+    ]
+  },
+  "src/views/line-loss-management/line-loss-management.tsx": {
+    "file": "assets/line-loss-management-LfqsTg-R.js",
+    "name": "line-loss-management",
+    "src": "src/views/line-loss-management/line-loss-management.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-QTnfLwEv.js",
+      "__virtual_mf___mfe_internal__electricalSafety__loadShare__vue__loadShare__.js-B2WJ3nXp.js",
+      "_pc-ui-proxy-DnBdTBKL.js",
+      "_domain-context-DOCR1LtJ.js",
+      "_dayjs.min-DwFf_CCC.js",
+      "_installCanvasRenderer-BNv0opBV.js",
+      "_pc-graph-editor-runtime-CCJDUCkS.js"
+    ],
+    "css": [
+      "assets/line-loss-management-BZeQOJFT.css",
+      "assets/graph-editor-uLKj_d2V.css"
+    ]
+  },
+  "src/views/loss-statistics/loss-statistics.tsx": {
+    "file": "assets/loss-statistics-CPrXpeHH.js",
+    "name": "loss-statistics",
+    "src": "src/views/loss-statistics/loss-statistics.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-QTnfLwEv.js",
+      "__virtual_mf___mfe_internal__electricalSafety__loadShare__vue__loadShare__.js-B2WJ3nXp.js",
+      "_pc-ui-proxy-DnBdTBKL.js",
+      "_domain-context-DOCR1LtJ.js",
+      "_page-name-C5EqfMtm.js",
+      "_dayjs.min-DwFf_CCC.js"
+    ]
+  },
+  "src/views/remote-inspection-config/remote-inspection-config.tsx": {
+    "file": "assets/remote-inspection-config-DlFcHi5I.js",
+    "name": "remote-inspection-config",
+    "src": "src/views/remote-inspection-config/remote-inspection-config.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-QTnfLwEv.js",
+      "__virtual_mf___mfe_internal__electricalSafety__loadShare__vue__loadShare__.js-B2WJ3nXp.js",
+      "__virtual_mf___mfe_internal__electricalSafety__loadShare__vue_mf_2_router__loadShare__.js-Cl76fQpU.js",
+      "_pc-ui-proxy-DnBdTBKL.js",
+      "_page-name-C5EqfMtm.js",
+      "_dayjs.min-DwFf_CCC.js",
+      "_electrical-safety-Cw2RQPfJ.js"
+    ],
+    "css": [
+      "assets/remote-inspection-config-KmqP6KwD.css",
+      "assets/page-COaMRTfE.css"
+    ]
+  },
+  "src/views/remote-inspection-view/remote-inspection-view.tsx": {
+    "file": "assets/remote-inspection-view-BtaJ2kbF.js",
+    "name": "remote-inspection-view",
+    "src": "src/views/remote-inspection-view/remote-inspection-view.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-QTnfLwEv.js",
+      "__virtual_mf___mfe_internal__electricalSafety__loadShare__vue__loadShare__.js-B2WJ3nXp.js",
+      "__virtual_mf___mfe_internal__electricalSafety__loadShare__vue_mf_2_router__loadShare__.js-Cl76fQpU.js",
+      "_pc-ui-proxy-DnBdTBKL.js",
+      "_page-name-C5EqfMtm.js",
+      "_dayjs.min-DwFf_CCC.js",
+      "_electrical-safety-Cw2RQPfJ.js"
+    ],
+    "css": [
+      "assets/remote-inspection-view-DshHTPJN.css",
+      "assets/page-COaMRTfE.css"
+    ]
+  },
+  "virtual:mf-REMOTE_ENTRY_ID:__mfe_internal__electricalSafety__remoteEntry_js": {
+    "file": "remoteEntry.js",
+    "name": "remoteEntry",
+    "src": "virtual:mf-REMOTE_ENTRY_ID:__mfe_internal__electricalSafety__remoteEntry_js",
+    "imports": [
+      "_virtual_mf-REMOTE_ENTRY_ID___mfe_internal__electricalSafety__remoteEntry_js-xQE4z5C2.js"
+    ]
+  },
+  "virtual:mf-REMOTE_ENTRY_SSR_ID:__mfe_internal__electricalSafety__remoteEntry_js": {
+    "file": "remoteEntry.ssr.js",
+    "name": "ssrRemoteEntry",
+    "src": "virtual:mf-REMOTE_ENTRY_SSR_ID:__mfe_internal__electricalSafety__remoteEntry_js",
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "virtual:mf-exposes-ssr:__mfe_internal__electricalSafety__remoteEntry_js"
+    ]
+  },
+  "virtual:mf-exposes-ssr:__mfe_internal__electricalSafety__remoteEntry_js": {
+    "file": "assets/virtual_mf-exposes-ssr___mfe_internal__electricalSafety__remoteEntry_js-C0Enz-40.js",
+    "name": "virtual_mf-exposes-ssr___mfe_internal__electricalSafety__remoteEntry_js",
+    "src": "virtual:mf-exposes-ssr:__mfe_internal__electricalSafety__remoteEntry_js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "src/domain.ts"
+    ]
+  },
+  "virtual:mf-exposes:__mfe_internal__electricalSafety__remoteEntry_js": {
+    "file": "assets/virtualExposes-CWPXxDhC.js",
+    "name": "virtualExposes",
+    "src": "virtual:mf-exposes:__mfe_internal__electricalSafety__remoteEntry_js",
+    "imports": [
+      "_virtual_mf-exposes___mfe_internal__electricalSafety__remoteEntry_js-CcRvGIqN.js"
+    ]
+  },
+  "virtual:mf-localSharedImportMap:__mfe_internal__electricalSafety": {
+    "file": "assets/_virtual_mf-localSharedImportMap___mfe_internal__electricalSafety-3_gl57zF.js",
+    "name": "_virtual_mf-localSharedImportMap___mfe_internal__electricalSafety",
+    "src": "virtual:mf-localSharedImportMap:__mfe_internal__electricalSafety",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "__virtual_mf___mfe_internal__electricalSafety__loadShare__vue__loadShare__.js-B2WJ3nXp.js",
+      "__virtual_mf___mfe_internal__electricalSafety__loadShare__vue_mf_2_router__loadShare__.js-Cl76fQpU.js"
+    ]
+  },
+  "virtual:mf:__mfe_internal__electricalSafety__H_A_I__hostAutoInit__H_A_I__.js": {
+    "file": "assets/hostInit-CpAfyyXa.js",
+    "name": "hostInit",
+    "src": "virtual:mf:__mfe_internal__electricalSafety__H_A_I__hostAutoInit__H_A_I__.js",
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "_virtual_mf-REMOTE_ENTRY_ID___mfe_internal__electricalSafety__remoteEntry_js-xQE4z5C2.js",
+      "virtual:mf-localSharedImportMap:__mfe_internal__electricalSafety"
+    ]
+  },
+  "virtual:mf:__mfe_internal__electricalSafety__prebuild__vue__prebuild__.js": {
+    "file": "assets/_virtual_mf___mfe_internal__electricalSafety__prebuild__vue__prebuild__-9gnjxodZ.js",
+    "name": "_virtual_mf___mfe_internal__electricalSafety__prebuild__vue__prebuild__",
+    "src": "virtual:mf:__mfe_internal__electricalSafety__prebuild__vue__prebuild__.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__electricalSafety__loadShare__vue__loadShare__.js-B2WJ3nXp.js"
+    ]
+  },
+  "virtual:mf:__mfe_internal__electricalSafety__prebuild__vue_mf_2_router__prebuild__.js": {
+    "file": "assets/_virtual_mf___mfe_internal__electricalSafety__prebuild__vue_mf_2_router__prebuild__-CxiL3fcb.js",
+    "name": "_virtual_mf___mfe_internal__electricalSafety__prebuild__vue_mf_2_router__prebuild__",
+    "src": "virtual:mf:__mfe_internal__electricalSafety__prebuild__vue_mf_2_router__prebuild__.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__electricalSafety__loadShare__vue_mf_2_router__loadShare__.js-Cl76fQpU.js"
+    ]
+  }
+}

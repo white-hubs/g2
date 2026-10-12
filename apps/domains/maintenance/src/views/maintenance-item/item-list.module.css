@@ -1,0 +1,38 @@
+/* 维保内容编辑区：与旧页一致的行边框 + 内部滚动。 */
+.itemContainer {
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.itemRow {
+  display: flex;
+  align-items: stretch;
+  width: 100%;
+  border: 1px solid #f5f5f6;
+}
+
+.itemRow + .itemRow {
+  border-top: none;
+}
+
+.itemInput {
+  display: flex;
+  flex: 1;
+  min-width: 0;
+  align-items: flex-start;
+  gap: 4px;
+  padding: 12px;
+  border-right: 1px solid #f5f5f6;
+}
+
+.itemInput label {
+  flex: none;
+  line-height: 32px;
+}
+
+.itemAction {
+  display: flex;
+  width: 57px;
+  align-items: center;
+  justify-content: center;
+}

@@ -1,0 +1,447 @@
+name: prod
+profile: deploy/compositions/prod.pc.yaml
+addressTemplate: deploy/address-templates/prod.yaml
+members:
+  - logicalName: assetManagement
+    package: "@g2-domain/asset-management"
+    entryFile: mf-manifest.json
+  - logicalName: assetManagementClient
+    package: "@g2-client/asset-management"
+    entryFile: mf-manifest.json
+  - logicalName: workReport
+    package: "@g2-domain/work-report"
+    entryFile: mf-manifest.json
+  - logicalName: workReportClient
+    package: "@g2-client/work-report"
+    entryFile: mf-manifest.json
+  - logicalName: meetRoom
+    package: "@g2-domain/meet-room"
+    entryFile: mf-manifest.json
+  - logicalName: meetRoomClient
+    package: "@g2-client/meet-room"
+    entryFile: mf-manifest.json
+  - logicalName: governmentManagement
+    package: "@g2-domain/government-management"
+    entryFile: mf-manifest.json
+  - logicalName: governmentManagementClient
+    package: "@g2-client/government-management"
+    entryFile: mf-manifest.json
+  - logicalName: consumptionManagement
+    package: "@g2-domain/consumption-management"
+    entryFile: mf-manifest.json
+  - logicalName: consumptionManagementClient
+    package: "@g2-client/consumption-management"
+    entryFile: mf-manifest.json
+  - logicalName: personManagement
+    package: "@g2-domain/person-management"
+    entryFile: mf-manifest.json
+  - logicalName: personManagementClient
+    package: "@g2-client/person-management"
+    entryFile: mf-manifest.json
+  - logicalName: factoryManagement
+    package: "@g2-domain/factory-management"
+    entryFile: mf-manifest.json
+  - logicalName: factoryManagementClient
+    package: "@g2-client/factory-management"
+    entryFile: mf-manifest.json
+  - logicalName: knowledgeDocument
+    package: "@g2-domain/knowledge-document"
+    entryFile: mf-manifest.json
+  - logicalName: knowledgeDocumentClient
+    package: "@g2-client/knowledge-document"
+    entryFile: mf-manifest.json
+  - logicalName: todoCenter
+    package: "@g2-domain/todo-center"
+    entryFile: mf-manifest.json
+  - logicalName: todoCenterClient
+    package: "@g2-client/todo-center"
+    entryFile: mf-manifest.json
+  - logicalName: smallEngineering
+    package: "@g2-domain/small-engineering"
+    entryFile: mf-manifest.json
+  - logicalName: smallEngineeringClient
+    package: "@g2-client/small-engineering"
+    entryFile: mf-manifest.json
+  - logicalName: technicalBulletin
+    package: "@g2-domain/technical-bulletin"
+    entryFile: mf-manifest.json
+  - logicalName: technicalBulletinClient
+    package: "@g2-client/technical-bulletin"
+    entryFile: mf-manifest.json
+  - logicalName: electronicPatrol
+    package: "@g2-domain/electronic-patrol"
+    entryFile: mf-manifest.json
+  - logicalName: electronicPatrolClient
+    package: "@g2-client/electronic-patrol"
+    entryFile: mf-manifest.json
+  - logicalName: workOrderCenter
+    package: "@g2-domain/work-order-center"
+    entryFile: mf-manifest.json
+  - logicalName: workOrderCenterClient
+    package: "@g2-client/work-order-center"
+    entryFile: mf-manifest.json
+  - logicalName: formAudit
+    package: "@g2-domain/form-audit"
+    entryFile: mf-manifest.json
+  - logicalName: formAuditClient
+    package: "@g2-client/form-audit"
+    entryFile: mf-manifest.json
+  - logicalName: secureEdu
+    package: "@g2-domain/secure-edu-market"
+    entryFile: mf-manifest.json
+  - logicalName: secureEduPages
+    package: "@g2-pages/secure-edu"
+    entryFile: mf-manifest.json
+  - logicalName: secureEduHead
+    package: "@g2-domain/secure-edu"
+    entryFile: mf-manifest.json
+  - logicalName: secureEduClient
+    package: "@g2-client/secure-edu"
+    entryFile: mf-manifest.json
+  - logicalName: commandDispatch
+    package: "@g2-domain/command-dispatch"
+    entryFile: mf-manifest.json
+  - logicalName: commandDispatchClient
+    package: "@g2-client/command-dispatch"
+    entryFile: mf-manifest.json
+  - logicalName: userCenter
+    package: "@g2-domain/user-center"
+    entryFile: mf-manifest.json
+  - logicalName: userCenterClient
+    package: "@g2-client/user-center"
+    entryFile: mf-manifest.json
+  - logicalName: logManagement
+    package: "@g2-domain/log-management"
+    entryFile: mf-manifest.json
+  - logicalName: resourceManagement
+    package: "@g2-domain/resource-management"
+    entryFile: mf-manifest.json
+  - logicalName: resourceManagementClient
+    package: "@g2-client/resource-management"
+    entryFile: mf-manifest.json
+  - logicalName: businessConfig
+    package: "@g2-domain/business-config"
+    entryFile: mf-manifest.json
+  - logicalName: businessConfigClient
+    package: "@g2-client/business-config"
+    entryFile: mf-manifest.json
+  - logicalName: linkageControl
+    package: "@g2-domain/linkage-control"
+    entryFile: mf-manifest.json
+  - logicalName: linkageControlClient
+    package: "@g2-client/linkage-control"
+    entryFile: mf-manifest.json
+  - logicalName: pcShell
+    package: "@g2-shell/pc"
+    entryFile: index.html
+  - logicalName: datePlatform
+    package: "@g2-platform/date"
+    entryFile: mf-manifest.json
+  - logicalName: loggerPlatform
+    package: "@g2-platform/logger"
+    entryFile: mf-manifest.json
+  - logicalName: resourcePlatform
+    package: "@g2-platform/resource"
+    entryFile: mf-manifest.json
+  - logicalName: httpPlatform
+    package: "@g2-platform/http"
+    entryFile: mf-manifest.json
+  - logicalName: messageClient
+    package: "@g2-client/message"
+    entryFile: mf-manifest.json
+  - logicalName: authClient
+    package: "@g2-client/auth"
+    entryFile: mf-manifest.json
+  - logicalName: ouaaClient
+    package: "@g2-client/ouaa"
+    entryFile: mf-manifest.json
+  - logicalName: fileClient
+    package: "@g2-client/file"
+    entryFile: mf-manifest.json
+  - logicalName: mdataClient
+    package: "@g2-client/mdata"
+    entryFile: mf-manifest.json
+  - logicalName: deviceCenterClient
+    package: "@g2-client/device-center"
+    entryFile: mf-manifest.json
+  - logicalName: workPermitClient
+    package: "@g2-client/work-permit"
+    entryFile: mf-manifest.json
+  - logicalName: warehouseSafetyClient
+    package: "@g2-client/warehouse-safety"
+    entryFile: mf-manifest.json
+  - logicalName: videoMonitorClient
+    package: "@g2-client/video-monitor"
+    entryFile: mf-manifest.json
+  - logicalName: templateDemoClient
+    package: "@g2-client/template-demo"
+    entryFile: mf-manifest.json
+  - logicalName: securityOpinionClient
+    package: "@g2-client/security-opinion"
+    entryFile: mf-manifest.json
+  - logicalName: safetyPersonnelClient
+    package: "@g2-client/safety-personnel"
+    entryFile: mf-manifest.json
+  - logicalName: riskGradedControlClient
+    package: "@g2-client/risk-graded-control"
+    entryFile: mf-manifest.json
+  - logicalName: riskManagementClient
+    package: "@g2-client/risk-management"
+    entryFile: mf-manifest.json
+  - logicalName: processEngineClient
+    package: "@g2-client/process-engine"
+    entryFile: mf-manifest.json
+  - logicalName: metadataClient
+    package: "@g2-client/metadata"
+    entryFile: mf-manifest.json
+  - logicalName: intelligentGrainClient
+    package: "@g2-client/intelligent-grain"
+    entryFile: mf-manifest.json
+  - logicalName: inspectionAiClient
+    package: "@g2-client/inspection-ai"
+    entryFile: mf-manifest.json
+  - logicalName: hazardGovernanceClient
+    package: "@g2-client/hazard-governance"
+    entryFile: mf-manifest.json
+  - logicalName: problemsClient
+    package: "@g2-client/problems"
+    entryFile: mf-manifest.json
+  - logicalName: faultRepairClient
+    package: "@g2-client/fault-repair"
+    entryFile: mf-manifest.json
+  - logicalName: maintenanceClient
+    package: "@g2-client/maintenance"
+    entryFile: mf-manifest.json
+  - logicalName: lineLossManagementClient
+    package: "@g2-client/line-loss-management"
+    entryFile: mf-manifest.json
+  - logicalName: outsourceRepairClient
+    package: "@g2-client/outsource-repair"
+    entryFile: mf-manifest.json
+  - logicalName: renovationClient
+    package: "@g2-client/renovation"
+    entryFile: mf-manifest.json
+  - logicalName: streamEngineClient
+    package: "@g2-client/stream-engine"
+    entryFile: mf-manifest.json
+  - logicalName: fumigationOperationClient
+    package: "@g2-client/fumigation-operation"
+    entryFile: mf-manifest.json
+  - logicalName: fireManagementClient
+    package: "@g2-client/fire-management"
+    entryFile: mf-manifest.json
+  - logicalName: emergencyManagementClient
+    package: "@g2-client/emergency-management"
+    entryFile: mf-manifest.json
+  - logicalName: dailyInspectionClient
+    package: "@g2-client/daily-inspection"
+    entryFile: mf-manifest.json
+  - logicalName: emergencySuppliesClient
+    package: "@g2-client/emergency-supplies"
+    entryFile: mf-manifest.json
+  - logicalName: emergencyDispatchClient
+    package: "@g2-client/emergency-dispatch"
+    entryFile: mf-manifest.json
+  - logicalName: energyConsumptionClient
+    package: "@g2-client/energy-consumption"
+    entryFile: mf-manifest.json
+  - logicalName: workbenchClient
+    package: "@g2-client/workbench"
+    entryFile: mf-manifest.json
+  - logicalName: broadcastCenterClient
+    package: "@g2-client/broadcast-center"
+    entryFile: mf-manifest.json
+  - logicalName: dictionaryClient
+    package: "@g2-client/dictionary"
+    entryFile: mf-manifest.json
+  - logicalName: coldStorageClient
+    package: "@g2-client/cold-storage"
+    entryFile: mf-manifest.json
+  - logicalName: alarmCenterClient
+    package: "@g2-client/alarm-center"
+    entryFile: mf-manifest.json
+  - logicalName: headquartersMarketClient
+    package: "@g2-client/headquarters-market"
+    entryFile: mf-manifest.json
+  - logicalName: accessControlClient
+    package: "@g2-client/access-control"
+    entryFile: mf-manifest.json
+  - logicalName: dailyTaskClient
+    package: "@g2-client/daily-task"
+    entryFile: mf-manifest.json
+  - logicalName: securityMonitorClient
+    package: "@g2-client/security-monitor"
+    entryFile: mf-manifest.json
+  - logicalName: safetyManagementClient
+    package: "@g2-client/safety-management"
+    entryFile: mf-manifest.json
+  - logicalName: pcChrome
+    package: "@g2-platform/pc-chrome"
+    entryFile: mf-manifest.json
+  - logicalName: pcAuth
+    package: "@g2-platform/pc-auth"
+    entryFile: mf-manifest.json
+  - logicalName: pcUi
+    package: "@g2-platform/pc-ui"
+    entryFile: mf-manifest.json
+  - logicalName: pcChart
+    package: "@g2-platform/pc-chart"
+    entryFile: mf-manifest.json
+  - logicalName: pcIotSocket
+    package: "@g2-platform/pc-iot-socket"
+    entryFile: mf-manifest.json
+  - logicalName: pcMap
+    package: "@g2-platform/pc-map"
+    entryFile: mf-manifest.json
+  - logicalName: pcAlarmCharts
+    package: "@g2-platform/pc-alarm-charts"
+    entryFile: mf-manifest.json
+  - logicalName: pcVisualSdk
+    package: "@g2-platform/pc-visual-sdk"
+    entryFile: mf-manifest.json
+  - logicalName: pcPlayer
+    package: "@g2-platform/pc-player"
+    entryFile: mf-manifest.json
+  - logicalName: pcGraphEditor
+    package: "@g2-platform/pc-graph-editor"
+    entryFile: mf-manifest.json
+  - logicalName: pcScada
+    package: "@g2-platform/pc-scada"
+    entryFile: mf-manifest.json
+  - logicalName: pcMessaging
+    package: "@g2-platform/pc-messaging"
+    entryFile: mf-manifest.json
+  - logicalName: pcRtc
+    package: "@g2-platform/pc-rtc"
+    entryFile: mf-manifest.json
+  - logicalName: pcAlarmPopup
+    package: "@g2-platform/pc-alarm-popup"
+    entryFile: mf-manifest.json
+  - logicalName: pcAiAssistant
+    package: "@g2-platform/pc-ai-assistant"
+    entryFile: mf-manifest.json
+  - logicalName: accessControl
+    package: "@g2-domain/access-control"
+    entryFile: mf-manifest.json
+  - logicalName: intruderAlarm
+    package: "@g2-domain/intruder-alarm"
+    entryFile: mf-manifest.json
+  - logicalName: gasManagement
+    package: "@g2-domain/gas-management"
+    entryFile: mf-manifest.json
+  - logicalName: dailyTask
+    package: "@g2-domain/daily-task"
+    entryFile: mf-manifest.json
+  - logicalName: securityMonitor
+    package: "@g2-domain/security-monitor"
+    entryFile: mf-manifest.json
+  - logicalName: safetyPersonnelManagement
+    package: "@g2-domain/safety-personnel-management"
+    entryFile: mf-manifest.json
+  - logicalName: securityOpinionMonitoring
+    package: "@g2-domain/security-opinion-monitoring"
+    entryFile: mf-manifest.json
+  - logicalName: safetyManagementHead
+    package: "@g2-domain/safety-management-head"
+    entryFile: mf-manifest.json
+  - logicalName: safetyManagement
+    package: "@g2-domain/safety-management"
+    entryFile: mf-manifest.json
+  - logicalName: rotatingManagement
+    package: "@g2-domain/rotating-management"
+    entryFile: mf-manifest.json
+  - logicalName: fireManagement
+    package: "@g2-domain/fire-management"
+    entryFile: mf-manifest.json
+  - logicalName: emergencyManagement
+    package: "@g2-domain/emergency-management"
+    entryFile: mf-manifest.json
+  - logicalName: emergencyDispatch
+    package: "@g2-domain/emergency-dispatch"
+    entryFile: mf-manifest.json
+  - logicalName: safetyCredit
+    package: "@g2-domain/safety-credit"
+    entryFile: mf-manifest.json
+  - logicalName: safetyCreditClient
+    package: "@g2-client/safety-credit"
+    entryFile: mf-manifest.json
+  - logicalName: electricalSafety
+    package: "@g2-domain/electrical-safety"
+    entryFile: mf-manifest.json
+  - logicalName: electricalSafetyClient
+    package: "@g2-client/electrical-safety"
+    entryFile: mf-manifest.json
+  - logicalName: emergencySupplies
+    package: "@g2-domain/emergency-supplies"
+    entryFile: mf-manifest.json
+  - logicalName: fumigationOperation
+    package: "@g2-domain/fumigation-operation"
+    entryFile: mf-manifest.json
+  - logicalName: energyConsumption
+    package: "@g2-domain/energy-consumption"
+    entryFile: mf-manifest.json
+  - logicalName: workbench
+    package: "@g2-domain/workbench"
+    entryFile: mf-manifest.json
+  - logicalName: broadcastCenter
+    package: "@g2-domain/broadcast-center"
+    entryFile: mf-manifest.json
+  - logicalName: hazardGovernance
+    package: "@g2-domain/hazard-governance"
+    entryFile: mf-manifest.json
+  - logicalName: problems
+    package: "@g2-domain/problems"
+    entryFile: mf-manifest.json
+  - logicalName: faultRepair
+    package: "@g2-domain/fault-repair"
+    entryFile: mf-manifest.json
+  - logicalName: complaint
+    package: "@g2-domain/complaint"
+    entryFile: mf-manifest.json
+  - logicalName: maintenance
+    package: "@g2-domain/maintenance"
+    entryFile: mf-manifest.json
+  - logicalName: outsourceRepair
+    package: "@g2-domain/outsource-repair"
+    entryFile: mf-manifest.json
+  - logicalName: renovation
+    package: "@g2-domain/renovation"
+    entryFile: mf-manifest.json
+  - logicalName: lineLossManagement
+    package: "@g2-domain/line-loss-management"
+    entryFile: mf-manifest.json
+  - logicalName: streamEngine
+    package: "@g2-domain/stream-engine"
+    entryFile: mf-manifest.json
+  - logicalName: riskGradedControl
+    package: "@g2-domain/risk-graded-control"
+    entryFile: mf-manifest.json
+  - logicalName: warehouseSafety
+    package: "@g2-domain/warehouse-safety"
+    entryFile: mf-manifest.json
+  - logicalName: riskManagement
+    package: "@g2-domain/risk-management"
+    entryFile: mf-manifest.json
+  - logicalName: dailyInspection
+    package: "@g2-domain/daily-inspection"
+    entryFile: mf-manifest.json
+  - logicalName: genericEquipmentMonitorPages
+    package: "@g2-pages/generic-equipment-monitor"
+    entryFile: mf-manifest.json
+  - logicalName: streamEnginePages
+    package: "@g2-pages/stream-engine"
+    entryFile: mf-manifest.json
+  - logicalName: pocRemotePc
+    package: "@g2-domain/poc-remote-pc"
+    entryFile: mf-manifest.json
+
+  - logicalName: safetyDuty
+    package: "@g2-domain/safety-duty"
+    entryFile: mf-manifest.json
+
+  - logicalName: attendance
+    package: "@g2-domain/attendance"
+    entryFile: mf-manifest.json
+  - logicalName: attendanceClient
+    package: "@g2-client/attendance"
+    entryFile: mf-manifest.json

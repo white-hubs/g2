@@ -1,0 +1,42 @@
+/**
+ * 工作台全局样式：保留旧仓 flex 卡槽与主题色变量消费。
+ * 故意不做 pxtorem，避免与壳层根字号不一致导致卡片整体缩放错位。
+ */
+:root {
+  --workbench-card-gap: 16px;
+  --workbench-card-shadow: 0 4px 16px rgba(31, 53, 88, .06);
+  --workbench-secondary-surface: var(--g2-color-secondary-surface-bg, #f7faff);
+  --workbench-welcome-bg: linear-gradient(118deg, var(--workbench-secondary-surface), var(--g2-color-surface-bg, #ffffff));
+  --workbench-welcome-text: var(--g2-color-text, #1d2b42);
+  --workbench-welcome-muted: var(--g2-color-text-secondary, #65758d);
+  --workbench-assistant-bg: linear-gradient(130deg, var(--workbench-secondary-surface), var(--g2-color-surface-bg, #ffffff));
+  --workbench-assistant-fade-start: var(--workbench-secondary-surface);
+  --workbench-assistant-fade-end: var(--g2-color-surface-bg, #ffffff);
+  --workbench-assistant-input-bg: var(--g2-color-input-bg, #ffffff);
+  --workbench-assistant-input-border: var(--g2-color-border, #ffffff);
+  --workbench-assistant-muted: var(--g2-color-text-secondary, #77849a);
+}
+
+.cube-icon {
+  display: inline-block;
+  fill: currentColor;
+  flex-shrink: 0;
+  vertical-align: -0.125em;
+}
+
+/* 主题色回退：壳层未注入 --cube-theme-var 时仍保持可读主色 */
+.info-total.primary-color,
+.primary-color.info-total {
+  color: var(--cube-theme-var--primary-color, #1677ff);
+  background-color: transparent;
+}
+
+.item-icon.primary-color {
+  background-color: var(--cube-theme-var--primary-color, #1677ff);
+  color: #fff;
+}
+
+/* 配置页拖拽库默认样式兜底 */
+.sortable-ghost {
+  opacity: 0.4;
+}

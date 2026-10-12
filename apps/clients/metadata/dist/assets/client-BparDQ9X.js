@@ -1,0 +1,1 @@
+function e(e){return{listAllArea:async()=>e.get(`/gw-bff/metadata/areas/list-all`)}}async function t(t){return e((await t.loadPlatform(`httpPlatform`,`client`)).createHttpClientForPlatform(t))}export{t as create,e as createMetadataClient};

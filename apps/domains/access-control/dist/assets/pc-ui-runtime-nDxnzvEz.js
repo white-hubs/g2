@@ -1,0 +1,1 @@
+import{x as e}from"./_virtual_mf___mfe_internal__accessControl__loadShare__vue__loadShare__.js-CS_VRG2F.js";import{c as t}from"./domain-context-DhQFENO4.js";function n(n){return e(async()=>(await t())[n])}export{n as t};

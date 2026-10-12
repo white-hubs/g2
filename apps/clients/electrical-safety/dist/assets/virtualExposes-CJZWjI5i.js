@@ -1,0 +1,1 @@
+import{t as e}from"./virtual_mf-exposes___mfe_internal__electricalSafetyClient__remoteEntry_js-DO8Tut7W.js";export{e as default};

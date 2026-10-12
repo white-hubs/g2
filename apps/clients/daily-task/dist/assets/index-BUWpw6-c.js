@@ -1,0 +1,1 @@
+import"./virtual_mf-exposes___mfe_internal__dailyTaskClient__remoteEntry_js-xjOCwzXG.js";import"./virtual_mf-REMOTE_ENTRY_ID___mfe_internal__dailyTaskClient__remoteEntry_js-BD2iLjJm.js";document.querySelector(`#app`).textContent=`@g2-client/daily-task build shell`;

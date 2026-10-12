@@ -1,0 +1,1 @@
+import{n as e,t}from"./client-we6qkyYF.js";export{t as create,e as createFactoryManagementClient};

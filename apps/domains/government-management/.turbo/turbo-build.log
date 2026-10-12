@@ -1,0 +1,53 @@
+$ bun --bun vite build
+vite v8.1.5 building client environment for production...
+[2Ktransforming...✓ 112 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                                                                                                         1.32 kB │ gzip:  0.34 kB
+dist/assets/mf-entry-bootstrap-7-b41e2c69.js                                                                            1.35 kB
+dist/assets/mf-entry-bootstrap-4-db0ef480.js                                                                            1.36 kB
+dist/assets/mf-entry-bootstrap-0-a7a729a3.js                                                                            1.36 kB
+dist/assets/mf-entry-bootstrap-2-2dc0e12e.js                                                                            1.38 kB
+dist/assets/mf-entry-bootstrap-1-092e3244.js                                                                            1.41 kB
+dist/assets/mf-entry-bootstrap-3-727935b7.js                                                                            1.42 kB
+dist/assets/mf-entry-bootstrap-5-bd4a0293.js                                                                            1.42 kB
+dist/assets/mf-entry-bootstrap-6-d8fe264d.js                                                                            1.43 kB
+dist/mf-manifest.json                                                                                                   1.55 kB │ gzip:  0.56 kB
+dist/mf-stats.json                                                                                                      5.95 kB │ gzip:  1.22 kB
+dist/.vite/manifest.json                                                                                               10.93 kB │ gzip:  1.13 kB
+dist/assets/page-4f9BkASg.css                                                                                           1.63 kB │ gzip:  0.58 kB
+dist/assets/domain-CklAmjMS.js                                                                                          0.06 kB │ gzip:  0.07 kB
+dist/assets/virtualExposes-Chs4aL1M.js                                                                                  0.12 kB │ gzip:  0.12 kB
+dist/remoteEntry.js                                                                                                     0.15 kB │ gzip:  0.14 kB
+dist/assets/rolldown-runtime-DK3Fl9T5.js                                                                                0.15 kB │ gzip:  0.15 kB
+dist/assets/virtual_mf-exposes-ssr___mfe_internal__governmentManagement__remoteEntry_js-xq_WX_oI.js                     0.25 kB │ gzip:  0.22 kB
+dist/assets/page.module-BjXMtU07.js                                                                                     0.30 kB │ gzip:  0.17 kB
+dist/assets/virtual_mf-exposes___mfe_internal__governmentManagement__remoteEntry_js-kQUTR_1l.js                         0.94 kB │ gzip:  0.58 kB
+dist/remoteEntry.ssr.js                                                                                                 1.02 kB │ gzip:  0.58 kB
+dist/assets/shared-CjgXm4-d.js                                                                                          1.24 kB │ gzip:  0.75 kB
+dist/assets/_virtual_mf-localSharedImportMap___mfe_internal__governmentManagement-DY1pr7jg.js                           1.24 kB │ gzip:  0.53 kB
+dist/assets/vite-preload-helper-7P2xnrDv.js                                                                             1.41 kB │ gzip:  0.75 kB
+dist/assets/statistics-detail-page-kbh6CMnM.js                                                                          2.18 kB │ gzip:  1.17 kB
+dist/assets/hostInit-BDd7mjRJ.js                                                                                        2.34 kB │ gzip:  1.10 kB
+dist/assets/statistics-page-BTZFGf1s.js                                                                                 3.05 kB │ gzip:  1.58 kB
+dist/assets/flow-config-page-Drg-jZwA.js                                                                                3.62 kB │ gzip:  1.78 kB
+dist/assets/catalog-page-DZHhGVD2.js                                                                                    4.05 kB │ gzip:  1.97 kB
+dist/assets/focus-detail-page-BjVhIJnV.js                                                                               4.44 kB │ gzip:  2.13 kB
+dist/assets/focus-flow-page-B-Vvqdhu.js                                                                                 5.39 kB │ gzip:  2.20 kB
+dist/assets/all-flow-page-feG2j6eY.js                                                                                   5.47 kB │ gzip:  2.32 kB
+dist/assets/approval-page-BGB7z1_s.js                                                                                   5.65 kB │ gzip:  2.47 kB
+dist/assets/focus-handle-page-CfjA9GS0.js                                                                               7.85 kB │ gzip:  3.34 kB
+dist/assets/domain-CEZUDZXi.js                                                                                         12.15 kB │ gzip:  3.94 kB
+dist/assets/_virtual_mf___mfe_internal__governmentManagement__loadShare__vue_mf_2_router__loadShare__.js-BAgdApNB.js   30.54 kB │ gzip: 11.34 kB
+dist/assets/virtual_mf-REMOTE_ENTRY_ID___mfe_internal__governmentManagement__remoteEntry_js-bJhVxR4y.js                39.05 kB │ gzip: 12.94 kB
+dist/assets/_virtual_mf___mfe_internal__governmentManagement__loadShare__vue__loadShare__.js-BdLnmeR0.js              121.75 kB │ gzip: 45.39 kB
+
+[33m[PLUGIN_TIMINGS] [0mYour build spent significant time in plugins. Here is a breakdown:
+  - vite:vue-jsx (25%)
+  - add-entry (12%)
+  - mf:ssr-remote-entry:pre (11%)
+  - proxyRemoteEntry (9%)
+  - proxyPreBuildShared:resolve-shared-loadShare (6%)
+See https://rolldown.rs/reference/InputOptions.checks#plugintimings for more details.
+
+✓ built in 7.27s

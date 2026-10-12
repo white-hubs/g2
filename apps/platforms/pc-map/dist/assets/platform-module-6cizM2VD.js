@@ -1,0 +1,1 @@
+import{a as e}from"./pc-ui-runtime-Cvnnt6EG.js";var t={label:`pc-map`,install:async(t,n,r)=>e(r)};export{t as default,t as platformModule};

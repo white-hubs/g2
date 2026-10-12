@@ -1,0 +1,2 @@
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["assets/poc-inline-view-C2vXnYmr.css"])))=>i.map(i=>d[i]);
+import{n as e,t}from"./vite-preload-helper-CT1tOlEq.js";e();var n={routes:[{path:`/poc-inline`,name:`poc-inline`,component:()=>t(()=>import(`./poc-inline-view-CQml4SVV.js`),__vite__mapDeps([0]))}]};export{n as default,n as domainModule};

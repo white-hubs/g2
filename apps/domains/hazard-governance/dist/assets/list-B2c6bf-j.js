@@ -1,0 +1,1 @@
+function e(){return{pageNumber:1,pageSize:10,total:0}}function t(e,t){let n=Array.isArray(e)?e[0]:e,r=Number(n);return Number.isSafeInteger(r)&&r>0?r:t}function n(n){return{...e(),pageNumber:t(n.pageNumber,1),pageSize:t(n.pageSize,10)}}function r(e,t,n,r){e.replace({path:t.path,query:{...t.query,pageNumber:String(n),pageSize:String(r)},hash:t.hash})}export{r as n,n as t};

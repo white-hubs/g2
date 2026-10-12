@@ -1,0 +1,39 @@
+{
+  "name": "@g2-platform/pc-map",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts",
+    "./platform": "./src/platform-module.ts"
+  },
+  "scripts": {
+    "dev": "bun ../../../tooling/dev-link/cli.ts",
+    "dev:serve": "bun --bun vite --port 5054 --strictPort",
+    "build": "bun --bun vite build",
+    "preview": "bun --bun vite preview --port 5054 --strictPort",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "bun test"
+  },
+  "dependencies": {
+    "@amap/amap-jsapi-loader": "^1.0.1",
+    "@g2-composition/contract": "workspace:*",
+    "@g2-runtime/common-loader": "workspace:*",
+    "@isvend/coord-transform": "^0.0.11",
+    "axios": "1.7.2",
+    "leaflet": "^1.9.4",
+    "leaflet-rotate": "^0.2.8",
+    "leaflet.markercluster": "^1.5.3",
+    "vue": "catalog:vue"
+  },
+  "devDependencies": {
+    "@g2-platform/pc-ui": "workspace:*",
+    "@g2-tooling/mf-vite": "workspace:*",
+    "@types/leaflet": "^1.9.21",
+    "@types/leaflet.markercluster": "^1.5.6",
+    "@vitejs/plugin-vue-jsx": "catalog:vite",
+    "jsdom": "catalog:vite",
+    "typescript": "catalog:typescript",
+    "vite": "catalog:vite"
+  }
+}

@@ -1,0 +1,1 @@
+import"./virtual_mf-exposes___mfe_internal__lineLossManagement__remoteEntry_js-BPGwLez4.js";import"./virtual_mf-REMOTE_ENTRY_ID___mfe_internal__lineLossManagement__remoteEntry_js-ByXzf0In.js";document.querySelector(`#app`).textContent=`@g2-domain/line-loss-management build shell`;

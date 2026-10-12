@@ -1,0 +1,1 @@
+import{t as e}from"./_virtual_mf___mfe_internal__httpPlatform__loadShare__vue__loadShare__.js-CW-BkD-n.js";import"./virtual_mf-exposes___mfe_internal__httpPlatform__remoteEntry_js-CTrB_9-9.js";import"./virtual_mf-REMOTE_ENTRY_ID___mfe_internal__httpPlatform__remoteEntry_js-Bb5rOrZ5.js";e({template:`<p>@g2-platform/http (library remote, no UI)</p>`}).mount(`#app`);

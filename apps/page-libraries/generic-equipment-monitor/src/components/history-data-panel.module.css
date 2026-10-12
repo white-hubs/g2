@@ -1,0 +1,15 @@
+.toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.content {
+  min-height: 280px;
+}
+
+.error {
+  color: #c00;
+}

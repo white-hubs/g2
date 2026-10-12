@@ -1,0 +1,53 @@
+.stickyTabs > :global(.ant-tabs-nav) {
+  position: sticky;
+  top: 0;
+  z-index: 3;
+  margin-bottom: 16px;
+  padding-top: 1px;
+  background: #ffffff;
+  box-shadow: 0 1px 0 #f0f0f0;
+}
+
+.stickyTabs > :global(.ant-tabs-content-holder) {
+  background: #ffffff;
+}
+
+.detailTabs {
+  padding-top: 8px;
+}
+
+.detailSection h3 {
+  margin: 8px 0 20px;
+  padding-left: 8px;
+  border-left: 3px solid #1677ff;
+  font-size: 16px;
+}
+
+.detailGrid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0 48px;
+}
+
+.detailItem {
+  display: grid;
+  grid-template-columns: 108px minmax(0, 1fr);
+  min-height: 42px;
+  align-items: center;
+  font-size: 14px;
+}
+
+.detailLabel {
+  color: rgba(0, 0, 0, 0.85);
+}
+
+.detailValue {
+  overflow: hidden;
+  color: rgba(0, 0, 0, 0.65);
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.detailValue a + a {
+  margin-left: 8px;
+}

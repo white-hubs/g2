@@ -1,0 +1,27 @@
+.content {
+  padding: 16px 0;
+}
+.section {
+  margin-bottom: 24px;
+}
+.sectionHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+.sectionHeader h3 {
+  margin: 0;
+  font-size: 16px;
+  color: #1f2937;
+}
+.page {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 12px;
+}
+.footer {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+}

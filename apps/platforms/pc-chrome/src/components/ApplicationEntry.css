@@ -1,0 +1,104 @@
+.pc-chrome-application-entry {
+  flex: 1;
+  min-width: 0;
+  height: 100%;
+  display: flex;
+  align-items: stretch;
+  overflow: hidden;
+  position: relative;
+}
+
+.pc-chrome-application-entry__empty {
+  color: var(--g2-color-navigation-text, rgba(255, 255, 255, 0.65));
+  font-size: 13px;
+  padding: 0 12px;
+  display: flex;
+  align-items: center;
+}
+
+/* 离屏测量：不占布局、不出现滚动条 */
+.pc-chrome-application-entry__measure {
+  position: absolute;
+  visibility: hidden;
+  pointer-events: none;
+  height: 0;
+  overflow: hidden;
+  display: flex;
+  white-space: nowrap;
+}
+
+.pc-chrome-application-entry__tabs {
+  display: flex;
+  align-items: stretch;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  min-width: 0;
+  overflow: hidden;
+}
+
+.pc-chrome-application-entry__tab {
+  background: transparent;
+  border: none;
+  color: var(--g2-color-navigation-text, #fff);
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  padding: 0 16px;
+  height: 100%;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.pc-chrome-application-entry__tab:hover {
+  background: var(--g2-color-navigation-active-bg, rgba(0, 0, 0, 0.08));
+}
+
+.pc-chrome-application-entry__tab--active {
+  background: var(--g2-color-navigation-active-bg, rgba(0, 0, 0, 0.18));
+  color: var(--g2-color-navigation-active-text, var(--g2-color-navigation-text, #fff));
+  font-weight: 500;
+}
+
+.pc-chrome-application-entry__more-wrap {
+  position: relative;
+  flex-shrink: 0;
+  height: 100%;
+  display: flex;
+  align-items: stretch;
+}
+
+.pc-chrome-application-entry__more {
+  background: transparent;
+  border: none;
+  color: var(--g2-color-navigation-text, #fff);
+  cursor: pointer;
+  padding: 0 12px;
+  height: 100%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pc-chrome-application-entry__more:hover,
+.pc-chrome-application-entry__more--active {
+  background: var(--g2-color-navigation-active-bg, rgba(0, 0, 0, 0.18));
+  color: var(--g2-color-navigation-active-text, var(--g2-color-navigation-text, #fff));
+}
+
+.pc-chrome-application-entry__more svg {
+  width: 12px;
+  height: 12px;
+  display: block;
+}
+
+.pc-chrome-application-entry__more-menu {
+  min-width: 120px;
+}
+
+.pc-chrome-application-entry__more-menu .is-active {
+  color: var(--g2-color-primary, #1578ff);
+  font-weight: 500;
+}

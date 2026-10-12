@@ -1,0 +1,545 @@
+{
+  "_AntdIcon-BobrkXu8.js": {
+    "file": "assets/AntdIcon-BobrkXu8.js",
+    "name": "AntdIcon",
+    "imports": [
+      "__virtual_mf___mfe_internal__dailyInspection__loadShare__vue__loadShare__.js-pIDFJEi-.js",
+      "_index.esm-zwb5l-TR.js"
+    ]
+  },
+  "_FormItemContext-kpGIWQEp.js": {
+    "file": "assets/FormItemContext-kpGIWQEp.js",
+    "name": "FormItemContext",
+    "imports": [
+      "__virtual_mf___mfe_internal__dailyInspection__loadShare__vue__loadShare__.js-pIDFJEi-.js",
+      "_index.esm-zwb5l-TR.js"
+    ]
+  },
+  "_PlusOutlined-XZHjwpvS.js": {
+    "file": "assets/PlusOutlined-XZHjwpvS.js",
+    "name": "PlusOutlined",
+    "imports": [
+      "__virtual_mf___mfe_internal__dailyInspection__loadShare__vue__loadShare__.js-pIDFJEi-.js",
+      "_AntdIcon-BobrkXu8.js"
+    ]
+  },
+  "__virtual_mf___mfe_internal__dailyInspection__loadShare__vue__loadShare__.js-pIDFJEi-.js": {
+    "file": "assets/_virtual_mf___mfe_internal__dailyInspection__loadShare__vue__loadShare__.js-pIDFJEi-.js",
+    "name": "_virtual_mf___mfe_internal__dailyInspection__loadShare__vue__loadShare__.js",
+    "imports": [
+      "_rolldown-runtime-QTnfLwEv.js"
+    ]
+  },
+  "__virtual_mf___mfe_internal__dailyInspection__loadShare__vue_mf_2_router__loadShare__.js-z3DY3cnW.js": {
+    "file": "assets/_virtual_mf___mfe_internal__dailyInspection__loadShare__vue_mf_2_router__loadShare__.js-z3DY3cnW.js",
+    "name": "_virtual_mf___mfe_internal__dailyInspection__loadShare__vue_mf_2_router__loadShare__.js",
+    "imports": [
+      "_rolldown-runtime-QTnfLwEv.js",
+      "__virtual_mf___mfe_internal__dailyInspection__loadShare__vue__loadShare__.js-pIDFJEi-.js"
+    ]
+  },
+  "_app-design-Clee_ZjX.js": {
+    "file": "assets/app-design-Clee_ZjX.js",
+    "name": "app-design",
+    "imports": [
+      "__virtual_mf___mfe_internal__dailyInspection__loadShare__vue__loadShare__.js-pIDFJEi-.js",
+      "_constants-BZZ5bVjG.js",
+      "_pc-ui-runtime-DRMlOURL.js"
+    ]
+  },
+  "_basic-info-BbGk8bRG.css": {
+    "file": "assets/basic-info-BbGk8bRG.css",
+    "src": "_basic-info-BbGk8bRG.css"
+  },
+  "_basic-info-BoxlLf7j.js": {
+    "file": "assets/basic-info-BoxlLf7j.js",
+    "name": "basic-info",
+    "imports": [
+      "__virtual_mf___mfe_internal__dailyInspection__loadShare__vue__loadShare__.js-pIDFJEi-.js",
+      "__virtual_mf___mfe_internal__dailyInspection__loadShare__vue_mf_2_router__loadShare__.js-z3DY3cnW.js",
+      "_constants-BZZ5bVjG.js",
+      "_pc-ui-runtime-DRMlOURL.js",
+      "_app-design-Clee_ZjX.js"
+    ],
+    "css": [
+      "assets/basic-info-BbGk8bRG.css"
+    ]
+  },
+  "_constants-BZZ5bVjG.js": {
+    "file": "assets/constants-BZZ5bVjG.js",
+    "name": "constants"
+  },
+  "_dayjs-DZe6O_T0.js": {
+    "file": "assets/dayjs-DZe6O_T0.js",
+    "name": "dayjs",
+    "imports": [
+      "_pc-ui-runtime-DRMlOURL.js"
+    ]
+  },
+  "_device-select-modal-Df2hEAO8.js": {
+    "file": "assets/device-select-modal-Df2hEAO8.js",
+    "name": "device-select-modal",
+    "imports": [
+      "__virtual_mf___mfe_internal__dailyInspection__loadShare__vue__loadShare__.js-pIDFJEi-.js",
+      "_pc-ui-runtime-DRMlOURL.js"
+    ]
+  },
+  "_index.esm-zwb5l-TR.js": {
+    "file": "assets/index.esm-zwb5l-TR.js",
+    "name": "index.esm"
+  },
+  "_inspect-content-table-BSpTuj6p.css": {
+    "file": "assets/inspect-content-table-BSpTuj6p.css",
+    "src": "_inspect-content-table-BSpTuj6p.css"
+  },
+  "_inspect-content-table-Cpb7nNjv.js": {
+    "file": "assets/inspect-content-table-Cpb7nNjv.js",
+    "name": "inspect-content-table",
+    "imports": [
+      "__virtual_mf___mfe_internal__dailyInspection__loadShare__vue__loadShare__.js-pIDFJEi-.js",
+      "__virtual_mf___mfe_internal__dailyInspection__loadShare__vue_mf_2_router__loadShare__.js-z3DY3cnW.js",
+      "_constants-BZZ5bVjG.js",
+      "_pc-ui-runtime-DRMlOURL.js",
+      "_app-design-Clee_ZjX.js"
+    ],
+    "css": [
+      "assets/inspect-content-table-BSpTuj6p.css"
+    ]
+  },
+  "_inspect-item-content-table-CEZwGaXV.css": {
+    "file": "assets/inspect-item-content-table-CEZwGaXV.css",
+    "src": "_inspect-item-content-table-CEZwGaXV.css"
+  },
+  "_inspect-item-content-table-CIBWKajA.js": {
+    "file": "assets/inspect-item-content-table-CIBWKajA.js",
+    "name": "inspect-item-content-table",
+    "imports": [
+      "__virtual_mf___mfe_internal__dailyInspection__loadShare__vue__loadShare__.js-pIDFJEi-.js",
+      "_pc-ui-runtime-DRMlOURL.js"
+    ],
+    "css": [
+      "assets/inspect-item-content-table-CEZwGaXV.css"
+    ]
+  },
+  "_pc-ui-runtime-DRMlOURL.js": {
+    "file": "assets/pc-ui-runtime-DRMlOURL.js",
+    "name": "pc-ui-runtime",
+    "imports": [
+      "__virtual_mf___mfe_internal__dailyInspection__loadShare__vue__loadShare__.js-pIDFJEi-.js"
+    ]
+  },
+  "_rolldown-runtime-QTnfLwEv.js": {
+    "file": "assets/rolldown-runtime-QTnfLwEv.js",
+    "name": "rolldown-runtime"
+  },
+  "_smart-inspect-target-type-select-6XRbD18B.js": {
+    "file": "assets/smart-inspect-target-type-select-6XRbD18B.js",
+    "name": "smart-inspect-target-type-select",
+    "imports": [
+      "__virtual_mf___mfe_internal__dailyInspection__loadShare__vue__loadShare__.js-pIDFJEi-.js",
+      "_constants-BZZ5bVjG.js",
+      "_pc-ui-runtime-DRMlOURL.js",
+      "_app-design-Clee_ZjX.js",
+      "_device-select-modal-Df2hEAO8.js",
+      "_dayjs-DZe6O_T0.js"
+    ],
+    "css": [
+      "assets/smart-inspect-target-type-select-sCrI7fyF.css"
+    ]
+  },
+  "_smart-inspect-target-type-select-sCrI7fyF.css": {
+    "file": "assets/smart-inspect-target-type-select-sCrI7fyF.css",
+    "src": "_smart-inspect-target-type-select-sCrI7fyF.css"
+  },
+  "_virtual_mf-REMOTE_ENTRY_ID___mfe_internal__dailyInspection__remoteEntry_js-CJG5svUs.js": {
+    "file": "assets/virtual_mf-REMOTE_ENTRY_ID___mfe_internal__dailyInspection__remoteEntry_js-CJG5svUs.js",
+    "name": "virtual_mf-REMOTE_ENTRY_ID___mfe_internal__dailyInspection__remoteEntry_js",
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "virtual:mf-localSharedImportMap:__mfe_internal__dailyInspection",
+      "_virtual_mf-exposes___mfe_internal__dailyInspection__remoteEntry_js-De8DIRvV.js"
+    ]
+  },
+  "_virtual_mf-exposes___mfe_internal__dailyInspection__remoteEntry_js-De8DIRvV.js": {
+    "file": "assets/virtual_mf-exposes___mfe_internal__dailyInspection__remoteEntry_js-De8DIRvV.js",
+    "name": "virtual_mf-exposes___mfe_internal__dailyInspection__remoteEntry_js",
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "src/domain.ts"
+    ]
+  },
+  "_vite-preload-helper-7P2xnrDv.js": {
+    "file": "assets/vite-preload-helper-7P2xnrDv.js",
+    "name": "vite-preload-helper"
+  },
+  "index.html": {
+    "file": "assets/index-C6s6dmtd.js",
+    "name": "index",
+    "src": "index.html",
+    "isEntry": true,
+    "imports": [
+      "_virtual_mf-exposes___mfe_internal__dailyInspection__remoteEntry_js-De8DIRvV.js",
+      "_virtual_mf-REMOTE_ENTRY_ID___mfe_internal__dailyInspection__remoteEntry_js-CJG5svUs.js"
+    ]
+  },
+  "src/domain.ts": {
+    "file": "assets/domain-bFDL3CCW.js",
+    "name": "domain",
+    "src": "src/domain.ts",
+    "isEntry": true,
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js",
+      "_pc-ui-runtime-DRMlOURL.js"
+    ],
+    "dynamicImports": [
+      "src/views/inspect-plan/inspect-plan-edit/inspect-plan-edit.tsx",
+      "src/views/inspect-task/inspect-task-edit/inspect-task-edit.tsx",
+      "src/views/inspect-task/inspect-task-edit/inspect-task-info.tsx",
+      "src/views/inspect-records/record-info/record-info.tsx",
+      "src/views/inspect-archive/archive-info/archive-info.tsx",
+      "src/views/inspect-config/inspect-items-form/inspect-items-form.tsx",
+      "src/views/inspect-config/inspect-standard/inspect-standard.tsx",
+      "src/views/inspect-config/inspect-standard-form/inspect-standard-form.tsx",
+      "src/views/inspect-config/inspect-map-config/inspect-map-config.tsx",
+      "src/views/inspection-auxiliary-pages.tsx",
+      "src/views/statistical-analysis/inspection-analyse.tsx",
+      "src/views/inspect-config/inspect-standard-ai/inspect-standard-ai.tsx",
+      "src/views/inspect-config/site-configuration/site-configuration.tsx",
+      "src/views/smart-inspect-plan/smart-inspect-plan-edit/smart-inspect-plan-edit.tsx",
+      "src/views/smart-inspect-task/smart-inspect-task-edit/smart-inspect-task-edit.tsx",
+      "src/views/inspection-page.tsx"
+    ],
+    "css": [
+      "assets/domain-D80-XC9s.css"
+    ]
+  },
+  "src/views/inspect-archive/archive-info/archive-info.tsx": {
+    "file": "assets/archive-info-DuAm8il2.js",
+    "name": "archive-info",
+    "src": "src/views/inspect-archive/archive-info/archive-info.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__dailyInspection__loadShare__vue__loadShare__.js-pIDFJEi-.js",
+      "__virtual_mf___mfe_internal__dailyInspection__loadShare__vue_mf_2_router__loadShare__.js-z3DY3cnW.js",
+      "_constants-BZZ5bVjG.js",
+      "_pc-ui-runtime-DRMlOURL.js",
+      "_app-design-Clee_ZjX.js"
+    ],
+    "css": [
+      "assets/archive-info-sPwtznKG.css"
+    ]
+  },
+  "src/views/inspect-config/inspect-items-form/inspect-items-form.tsx": {
+    "file": "assets/inspect-items-form-CZ3hL4C2.js",
+    "name": "inspect-items-form",
+    "src": "src/views/inspect-config/inspect-items-form/inspect-items-form.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__dailyInspection__loadShare__vue__loadShare__.js-pIDFJEi-.js",
+      "__virtual_mf___mfe_internal__dailyInspection__loadShare__vue_mf_2_router__loadShare__.js-z3DY3cnW.js",
+      "_constants-BZZ5bVjG.js",
+      "_pc-ui-runtime-DRMlOURL.js",
+      "_app-design-Clee_ZjX.js",
+      "_inspect-item-content-table-CIBWKajA.js"
+    ],
+    "css": [
+      "assets/inspect-items-form-Boh1YICo.css"
+    ]
+  },
+  "src/views/inspect-config/inspect-map-config/inspect-map-config.tsx": {
+    "file": "assets/inspect-map-config-BNUzw6S-.js",
+    "name": "inspect-map-config",
+    "src": "src/views/inspect-config/inspect-map-config/inspect-map-config.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-QTnfLwEv.js",
+      "__virtual_mf___mfe_internal__dailyInspection__loadShare__vue__loadShare__.js-pIDFJEi-.js",
+      "_pc-ui-runtime-DRMlOURL.js",
+      "_FormItemContext-kpGIWQEp.js"
+    ],
+    "css": [
+      "assets/inspect-map-config-Du1scsF3.css"
+    ]
+  },
+  "src/views/inspect-config/inspect-standard-ai/inspect-standard-ai.tsx": {
+    "file": "assets/inspect-standard-ai-HpLiF1Rz.js",
+    "name": "inspect-standard-ai",
+    "src": "src/views/inspect-config/inspect-standard-ai/inspect-standard-ai.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__dailyInspection__loadShare__vue__loadShare__.js-pIDFJEi-.js",
+      "__virtual_mf___mfe_internal__dailyInspection__loadShare__vue_mf_2_router__loadShare__.js-z3DY3cnW.js",
+      "_constants-BZZ5bVjG.js",
+      "_pc-ui-runtime-DRMlOURL.js",
+      "_inspect-item-content-table-CIBWKajA.js",
+      "_AntdIcon-BobrkXu8.js"
+    ],
+    "css": [
+      "assets/inspect-standard-ai-9wlM2NrU.css"
+    ]
+  },
+  "src/views/inspect-config/inspect-standard-form/inspect-standard-form.tsx": {
+    "file": "assets/inspect-standard-form-Dxi6ADBv.js",
+    "name": "inspect-standard-form",
+    "src": "src/views/inspect-config/inspect-standard-form/inspect-standard-form.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__dailyInspection__loadShare__vue__loadShare__.js-pIDFJEi-.js",
+      "__virtual_mf___mfe_internal__dailyInspection__loadShare__vue_mf_2_router__loadShare__.js-z3DY3cnW.js",
+      "_constants-BZZ5bVjG.js",
+      "_pc-ui-runtime-DRMlOURL.js",
+      "_app-design-Clee_ZjX.js",
+      "_inspect-item-content-table-CIBWKajA.js"
+    ],
+    "css": [
+      "assets/inspect-standard-form-IV-xMJ9A.css"
+    ]
+  },
+  "src/views/inspect-config/inspect-standard/inspect-standard.tsx": {
+    "file": "assets/inspect-standard-D3FtCTSx.js",
+    "name": "inspect-standard",
+    "src": "src/views/inspect-config/inspect-standard/inspect-standard.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__dailyInspection__loadShare__vue__loadShare__.js-pIDFJEi-.js",
+      "__virtual_mf___mfe_internal__dailyInspection__loadShare__vue_mf_2_router__loadShare__.js-z3DY3cnW.js",
+      "_constants-BZZ5bVjG.js",
+      "_pc-ui-runtime-DRMlOURL.js"
+    ],
+    "css": [
+      "assets/inspect-standard-Ckjo9Wmf.css"
+    ]
+  },
+  "src/views/inspect-config/site-configuration/site-configuration.tsx": {
+    "file": "assets/site-configuration-hUb6VDMJ.js",
+    "name": "site-configuration",
+    "src": "src/views/inspect-config/site-configuration/site-configuration.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__dailyInspection__loadShare__vue__loadShare__.js-pIDFJEi-.js",
+      "_pc-ui-runtime-DRMlOURL.js",
+      "_app-design-Clee_ZjX.js",
+      "_AntdIcon-BobrkXu8.js",
+      "_device-select-modal-Df2hEAO8.js"
+    ],
+    "css": [
+      "assets/site-configuration-DXfCPWxP.css"
+    ]
+  },
+  "src/views/inspect-plan/inspect-plan-edit/inspect-plan-edit.tsx": {
+    "file": "assets/inspect-plan-edit-DA8gr3P-.js",
+    "name": "inspect-plan-edit",
+    "src": "src/views/inspect-plan/inspect-plan-edit/inspect-plan-edit.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__dailyInspection__loadShare__vue__loadShare__.js-pIDFJEi-.js",
+      "__virtual_mf___mfe_internal__dailyInspection__loadShare__vue_mf_2_router__loadShare__.js-z3DY3cnW.js",
+      "_pc-ui-runtime-DRMlOURL.js",
+      "_app-design-Clee_ZjX.js",
+      "_dayjs-DZe6O_T0.js",
+      "_inspect-content-table-Cpb7nNjv.js"
+    ],
+    "css": [
+      "assets/inspect-plan-edit-BUsMIz-c.css"
+    ]
+  },
+  "src/views/inspect-records/record-info/record-info.tsx": {
+    "file": "assets/record-info-DP0dgWbl.js",
+    "name": "record-info",
+    "src": "src/views/inspect-records/record-info/record-info.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__dailyInspection__loadShare__vue__loadShare__.js-pIDFJEi-.js",
+      "__virtual_mf___mfe_internal__dailyInspection__loadShare__vue_mf_2_router__loadShare__.js-z3DY3cnW.js",
+      "_constants-BZZ5bVjG.js",
+      "_pc-ui-runtime-DRMlOURL.js",
+      "_app-design-Clee_ZjX.js"
+    ],
+    "css": [
+      "assets/record-info-DU9mTELt.css"
+    ]
+  },
+  "src/views/inspect-task/inspect-task-edit/inspect-task-edit.tsx": {
+    "file": "assets/inspect-task-edit-DIzy4WPg.js",
+    "name": "inspect-task-edit",
+    "src": "src/views/inspect-task/inspect-task-edit/inspect-task-edit.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__dailyInspection__loadShare__vue__loadShare__.js-pIDFJEi-.js",
+      "__virtual_mf___mfe_internal__dailyInspection__loadShare__vue_mf_2_router__loadShare__.js-z3DY3cnW.js",
+      "_constants-BZZ5bVjG.js",
+      "_pc-ui-runtime-DRMlOURL.js",
+      "_app-design-Clee_ZjX.js",
+      "_inspect-content-table-Cpb7nNjv.js",
+      "_basic-info-BoxlLf7j.js"
+    ]
+  },
+  "src/views/inspect-task/inspect-task-edit/inspect-task-info.tsx": {
+    "file": "assets/inspect-task-info-BPOnTCRR.js",
+    "name": "inspect-task-info",
+    "src": "src/views/inspect-task/inspect-task-edit/inspect-task-info.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__dailyInspection__loadShare__vue__loadShare__.js-pIDFJEi-.js",
+      "__virtual_mf___mfe_internal__dailyInspection__loadShare__vue_mf_2_router__loadShare__.js-z3DY3cnW.js",
+      "_constants-BZZ5bVjG.js",
+      "_pc-ui-runtime-DRMlOURL.js",
+      "_app-design-Clee_ZjX.js",
+      "_basic-info-BoxlLf7j.js"
+    ]
+  },
+  "src/views/inspection-auxiliary-pages.tsx": {
+    "file": "assets/inspection-auxiliary-pages-CFaWw0Eh.js",
+    "name": "inspection-auxiliary-pages",
+    "src": "src/views/inspection-auxiliary-pages.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__dailyInspection__loadShare__vue__loadShare__.js-pIDFJEi-.js",
+      "_pc-ui-runtime-DRMlOURL.js",
+      "_FormItemContext-kpGIWQEp.js",
+      "_AntdIcon-BobrkXu8.js",
+      "_PlusOutlined-XZHjwpvS.js",
+      "_dayjs-DZe6O_T0.js",
+      "src/views/statistical-analysis/inspection-analyse.tsx"
+    ]
+  },
+  "src/views/inspection-page.tsx": {
+    "file": "assets/inspection-page-CT7Ksxwi.js",
+    "name": "inspection-page",
+    "src": "src/views/inspection-page.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__dailyInspection__loadShare__vue__loadShare__.js-pIDFJEi-.js",
+      "__virtual_mf___mfe_internal__dailyInspection__loadShare__vue_mf_2_router__loadShare__.js-z3DY3cnW.js",
+      "_constants-BZZ5bVjG.js",
+      "_pc-ui-runtime-DRMlOURL.js",
+      "_app-design-Clee_ZjX.js",
+      "src/views/inspect-archive/archive-info/archive-info.tsx",
+      "src/views/inspect-config/inspect-items-form/inspect-items-form.tsx",
+      "_AntdIcon-BobrkXu8.js",
+      "_PlusOutlined-XZHjwpvS.js",
+      "src/views/inspect-config/inspect-standard-ai/inspect-standard-ai.tsx",
+      "src/views/inspect-config/inspect-standard-form/inspect-standard-form.tsx",
+      "src/views/inspect-plan/inspect-plan-edit/inspect-plan-edit.tsx",
+      "src/views/inspect-records/record-info/record-info.tsx",
+      "src/views/inspect-task/inspect-task-edit/inspect-task-edit.tsx",
+      "src/views/inspect-task/inspect-task-edit/inspect-task-info.tsx",
+      "src/views/smart-inspect-plan/smart-inspect-plan-edit/smart-inspect-plan-edit.tsx",
+      "src/views/smart-inspect-task/smart-inspect-task-edit/smart-inspect-task-edit.tsx"
+    ]
+  },
+  "src/views/smart-inspect-plan/smart-inspect-plan-edit/smart-inspect-plan-edit.tsx": {
+    "file": "assets/smart-inspect-plan-edit-BprfbBRb.js",
+    "name": "smart-inspect-plan-edit",
+    "src": "src/views/smart-inspect-plan/smart-inspect-plan-edit/smart-inspect-plan-edit.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__dailyInspection__loadShare__vue__loadShare__.js-pIDFJEi-.js",
+      "__virtual_mf___mfe_internal__dailyInspection__loadShare__vue_mf_2_router__loadShare__.js-z3DY3cnW.js",
+      "_constants-BZZ5bVjG.js",
+      "_pc-ui-runtime-DRMlOURL.js",
+      "_app-design-Clee_ZjX.js",
+      "_dayjs-DZe6O_T0.js",
+      "_inspect-content-table-Cpb7nNjv.js",
+      "_smart-inspect-target-type-select-6XRbD18B.js"
+    ]
+  },
+  "src/views/smart-inspect-task/smart-inspect-task-edit/smart-inspect-task-edit.tsx": {
+    "file": "assets/smart-inspect-task-edit-CcHvyo_P.js",
+    "name": "smart-inspect-task-edit",
+    "src": "src/views/smart-inspect-task/smart-inspect-task-edit/smart-inspect-task-edit.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__dailyInspection__loadShare__vue__loadShare__.js-pIDFJEi-.js",
+      "__virtual_mf___mfe_internal__dailyInspection__loadShare__vue_mf_2_router__loadShare__.js-z3DY3cnW.js",
+      "_constants-BZZ5bVjG.js",
+      "_pc-ui-runtime-DRMlOURL.js",
+      "_app-design-Clee_ZjX.js",
+      "_inspect-content-table-Cpb7nNjv.js",
+      "_smart-inspect-target-type-select-6XRbD18B.js"
+    ]
+  },
+  "src/views/statistical-analysis/inspection-analyse.tsx": {
+    "file": "assets/inspection-analyse-CPPeNNkz.js",
+    "name": "inspection-analyse",
+    "src": "src/views/statistical-analysis/inspection-analyse.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-QTnfLwEv.js",
+      "__virtual_mf___mfe_internal__dailyInspection__loadShare__vue__loadShare__.js-pIDFJEi-.js",
+      "_pc-ui-runtime-DRMlOURL.js",
+      "_dayjs-DZe6O_T0.js"
+    ],
+    "css": [
+      "assets/inspection-analyse-DG-oH5k6.css"
+    ]
+  },
+  "virtual:mf-REMOTE_ENTRY_ID:__mfe_internal__dailyInspection__remoteEntry_js": {
+    "file": "remoteEntry.js",
+    "name": "remoteEntry",
+    "src": "virtual:mf-REMOTE_ENTRY_ID:__mfe_internal__dailyInspection__remoteEntry_js",
+    "imports": [
+      "_virtual_mf-REMOTE_ENTRY_ID___mfe_internal__dailyInspection__remoteEntry_js-CJG5svUs.js"
+    ]
+  },
+  "virtual:mf-REMOTE_ENTRY_SSR_ID:__mfe_internal__dailyInspection__remoteEntry_js": {
+    "file": "remoteEntry.ssr.js",
+    "name": "ssrRemoteEntry",
+    "src": "virtual:mf-REMOTE_ENTRY_SSR_ID:__mfe_internal__dailyInspection__remoteEntry_js",
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "virtual:mf-exposes-ssr:__mfe_internal__dailyInspection__remoteEntry_js"
+    ]
+  },
+  "virtual:mf-exposes-ssr:__mfe_internal__dailyInspection__remoteEntry_js": {
+    "file": "assets/virtual_mf-exposes-ssr___mfe_internal__dailyInspection__remoteEntry_js-7BXoQd59.js",
+    "name": "virtual_mf-exposes-ssr___mfe_internal__dailyInspection__remoteEntry_js",
+    "src": "virtual:mf-exposes-ssr:__mfe_internal__dailyInspection__remoteEntry_js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "src/domain.ts"
+    ]
+  },
+  "virtual:mf-exposes:__mfe_internal__dailyInspection__remoteEntry_js": {
+    "file": "assets/virtualExposes-C96KSqkB.js",
+    "name": "virtualExposes",
+    "src": "virtual:mf-exposes:__mfe_internal__dailyInspection__remoteEntry_js",
+    "imports": [
+      "_virtual_mf-exposes___mfe_internal__dailyInspection__remoteEntry_js-De8DIRvV.js"
+    ]
+  },
+  "virtual:mf-localSharedImportMap:__mfe_internal__dailyInspection": {
+    "file": "assets/_virtual_mf-localSharedImportMap___mfe_internal__dailyInspection-DHgwxjLq.js",
+    "name": "_virtual_mf-localSharedImportMap___mfe_internal__dailyInspection",
+    "src": "virtual:mf-localSharedImportMap:__mfe_internal__dailyInspection",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "__virtual_mf___mfe_internal__dailyInspection__loadShare__vue__loadShare__.js-pIDFJEi-.js",
+      "__virtual_mf___mfe_internal__dailyInspection__loadShare__vue_mf_2_router__loadShare__.js-z3DY3cnW.js"
+    ]
+  },
+  "virtual:mf:__mfe_internal__dailyInspection__H_A_I__hostAutoInit__H_A_I__.js": {
+    "file": "assets/hostInit-wGMtDh1N.js",
+    "name": "hostInit",
+    "src": "virtual:mf:__mfe_internal__dailyInspection__H_A_I__hostAutoInit__H_A_I__.js",
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "_virtual_mf-REMOTE_ENTRY_ID___mfe_internal__dailyInspection__remoteEntry_js-CJG5svUs.js",
+      "virtual:mf-localSharedImportMap:__mfe_internal__dailyInspection"
+    ]
+  }
+}

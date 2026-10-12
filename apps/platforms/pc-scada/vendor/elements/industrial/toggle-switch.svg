@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:scada="http://cube-scada.io/ns/v1" viewBox="0 0 100 70" width="100" height="70">
+  <metadata>
+    <scada:element>
+      <scada:meta type="toggle-switch" label="&#x5F00;&#x5173;" category="industrial" version="1.0.0"/>
+      <scada:props>
+        <scada:prop name="on" type="boolean" label="&#x5F00;&#x5173;&#x72B6;&#x6001;" default="false" domain="observe" semantic="status.open" required="false" bindable="true" controllable="false"/>
+        <scada:prop name="commandToggle" type="boolean" label="&#x5207;&#x6362;&#x6307;&#x4EE4;" default="false" domain="control" semantic="command.open" required="false" bindable="false" controllable="true"/>
+        <scada:prop name="label" type="string" label="&#x6807;&#x9898;" default="&#x5F00;&#x5173;" domain="observe" semantic="display.label" required="false" bindable="true" controllable="false"/>
+      </scada:props>
+      <scada:mappings>
+        <scada:map prop="label" selector="#switch-label" attr="textContent"/>
+        <scada:map prop="on" selector="#track" attr="fill" transform="value ? '#22c55e' : '#94a3b8'"/>
+        <scada:map prop="on" selector="#knob" attr="cx" transform="value ? '62' : '38'"/>
+        <scada:map prop="on" selector="#state-text" attr="textContent" transform="value ? '&#x5F00;' : '&#x5173;'"/>
+      </scada:mappings>
+      <scada:animations/>
+    </scada:element>
+  </metadata>
+
+  <rect x="4" y="4" width="92" height="62" rx="10" fill="#f8fafc" stroke="#334155" stroke-width="2"/>
+  <text id="switch-label" x="50" y="20" text-anchor="middle" font-size="11" fill="#0f172a">&#x5F00;&#x5173;</text>
+
+  <rect id="track" x="24" y="30" width="52" height="20" rx="10" fill="#94a3b8"/>
+  <circle id="knob" cx="38" cy="40" r="8" fill="#ffffff" stroke="#475569" stroke-width="1.5"/>
+  <text id="state-text" x="50" y="58" text-anchor="middle" font-size="10" fill="#334155">&#x5173;</text>
+</svg>

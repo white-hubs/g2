@@ -1,0 +1,1 @@
+import{t as e}from"./virtual_mf-exposes___mfe_internal__pcMap__remoteEntry_js-BzKfB3ad.js";export{e as default};

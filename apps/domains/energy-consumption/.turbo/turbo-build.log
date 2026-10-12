@@ -1,0 +1,213 @@
+$ bun --bun vite build
+vite v8.1.5 building client environment for production...
+[2Ktransforming...✓ 3095 modules transformed.
+[lightningcss minify] 'deep' is not recognized as a valid pseudo-class. Did you mean '::deep' (pseudo-element) or is this a typo?
+94 |    align-items: center;
+95 |  }
+96 |  .fireControlMsg-control :deep(.ant-radio-button-wrapper) {
+   |                                ^
+97 |    margin-left: 10px;
+98 |    margin-bottom: 5px;
+[lightningcss minify] 'deep' is not recognized as a valid pseudo-class. Did you mean '::deep' (pseudo-element) or is this a typo?
+5  |    height: 100%;
+6  |  }
+7  |  .device-list > :deep(.device-list-table) {
+   |                       ^
+8  |    min-height: 0;
+9  |    flex: none;
+[lightningcss minify] 'deep' is not recognized as a valid pseudo-class. Did you mean '::deep' (pseudo-element) or is this a typo?
+59 |    flex-wrap: nowrap;
+60 |  }
+61 |  .device-list-layout :deep(.layout-content) {
+   |                            ^
+62 |    min-height: 0;
+63 |    height: auto;
+[lightningcss minify] 'deep' is not recognized as a valid pseudo-class. Did you mean '::deep' (pseudo-element) or is this a typo?
+64 |    flex: 1;
+65 |  }
+66 |  .device-list-layout :deep(.content-right),
+   |                            ^
+67 |  .device-list-layout :deep(.content-table) {
+68 |    min-height: 0;
+[lightningcss minify] 'deep' is not recognized as a valid pseudo-class. Did you mean '::deep' (pseudo-element) or is this a typo?
+65 |  }
+66 |  .device-list-layout :deep(.content-right),
+67 |  .device-list-layout :deep(.content-table) {
+   |                            ^
+68 |    min-height: 0;
+69 |  }
+[lightningcss minify] 'deep' is not recognized as a valid pseudo-class. Did you mean '::deep' (pseudo-element) or is this a typo?
+68 |    min-height: 0;
+69 |  }
+70 |  .device-list-layout :deep(.content-table) {
+   |                            ^
+71 |    overflow: hidden;
+72 |  }
+[lightningcss minify] 'deep' is not recognized as a valid pseudo-class. Did you mean '::deep' (pseudo-element) or is this a typo?
+77 |    margin: 10px;
+78 |  }
+79 |  .device-list-layout .device-list-tabs :deep(.ant-tabs-nav) {
+   |                                              ^
+80 |    flex: none;
+81 |  }
+[lightningcss minify] 'deep' is not recognized as a valid pseudo-class. Did you mean '::deep' (pseudo-element) or is this a typo?
+80 |    flex: none;
+81 |  }
+82 |  .device-list-layout .device-list-tabs :deep(.ant-tabs-content-holder) {
+   |                                              ^
+83 |    min-height: 0;
+84 |    height: auto;
+[lightningcss minify] 'deep' is not recognized as a valid pseudo-class. Did you mean '::deep' (pseudo-element) or is this a typo?
+86 |    overflow: hidden;
+87 |  }
+88 |  .device-list-layout .device-list-tabs :deep(.ant-tabs-content),
+   |                                              ^
+89 |  .device-list-layout .device-list-tabs :deep(.ant-tabs-tabpane) {
+90 |    min-height: 0;
+[lightningcss minify] 'deep' is not recognized as a valid pseudo-class. Did you mean '::deep' (pseudo-element) or is this a typo?
+87 |  }
+88 |  .device-list-layout .device-list-tabs :deep(.ant-tabs-content),
+89 |  .device-list-layout .device-list-tabs :deep(.ant-tabs-tabpane) {
+   |                                              ^
+90 |    min-height: 0;
+91 |    height: 100%;
+[lightningcss minify] 'deep' is not recognized as a valid pseudo-class. Did you mean '::deep' (pseudo-element) or is this a typo?
+25 |    height: 460px;
+26 |  }
+27 |  .tabs :deep(.ant-tabs-tab) {
+   |              ^
+28 |    width: 50%;
+29 |    justify-content: center;
+[lightningcss minify] 'deep' is not recognized as a valid pseudo-class. Did you mean '::deep' (pseudo-element) or is this a typo?
+29 |    justify-content: center;
+30 |  }
+31 |  .tabs :deep(.ant-tabs-nav-list) {
+   |              ^
+32 |    width: 99%;
+33 |  }
+[lightningcss minify] 'deep' is not recognized as a valid pseudo-class. Did you mean '::deep' (pseudo-element) or is this a typo?
+11 |    background-color: #f3f3f3;
+12 |  }
+13 |  .load-prediction-tabs :deep(.ant-tabs-tab) {
+   |                              ^
+14 |    width: 50%;
+15 |    justify-content: center;
+[lightningcss minify] 'deep' is not recognized as a valid pseudo-class. Did you mean '::deep' (pseudo-element) or is this a typo?
+15 |    justify-content: center;
+16 |  }
+17 |  .load-prediction-tabs :deep(.ant-tabs-nav-list) {
+   |                              ^
+18 |    width: 99%;
+19 |  }
+[lightningcss minify] 'deep' is not recognized as a valid pseudo-class. Did you mean '::deep' (pseudo-element) or is this a typo?
+58 |    margin-left: 20px;
+59 |  }
+60 |  :deep(.ant-form-item-label) {
+   |        ^
+61 |    width: 140px;
+62 |  }
+rendering chunks...
+computing gzip size...
+dist/index.html                                                                                                        1.07 kB │ gzip:   0.54 kB
+dist/assets/mf-entry-bootstrap-0-3c2d1550.js                                                                           1.35 kB
+dist/mf-manifest.json                                                                                                  2.42 kB │ gzip:   0.89 kB
+dist/assets/electricity_meter-CuJPYMUh.png                                                                             6.10 kB
+dist/assets/cool_meter-acI2rnCx.png                                                                                    7.90 kB
+dist/assets/water_meter-DWBz_xhc.png                                                                                   8.49 kB
+dist/assets/gas_meter-qDf-osEB.png                                                                                     9.01 kB
+dist/assets/heat_meter-zvPPYS9d.png                                                                                    9.22 kB
+dist/assets/carbon-Cf7rSVcr.png                                                                                        9.28 kB
+dist/assets/zh-CH_OG2aA.png                                                                                            9.61 kB
+dist/assets/fuel_meter-BGyJn3jg.png                                                                                    9.63 kB
+dist/assets/renewable_energy-CIGN9qMC.png                                                                             10.79 kB
+dist/mf-stats.json                                                                                                    12.67 kB │ gzip:   2.40 kB
+dist/.vite/manifest.json                                                                                              29.53 kB │ gzip:   3.20 kB
+dist/assets/energy-statistics-DyCkRAuB.css                                                                             0.06 kB │ gzip:   0.08 kB
+dist/assets/energy-synthesize-D0HykmTi.css                                                                             0.06 kB │ gzip:   0.08 kB
+dist/assets/energy-usage-setting-DnV1PSuS.css                                                                          0.06 kB │ gzip:   0.07 kB
+dist/assets/time-radio-group-DssJPw6R.css                                                                              0.07 kB │ gzip:   0.08 kB
+dist/assets/usage-report-BjTT4NHc.css                                                                                  0.10 kB │ gzip:   0.10 kB
+dist/assets/dosage-analysis-uiQ509aU.css                                                                               0.13 kB │ gzip:   0.11 kB
+dist/assets/peak-valley-periods-DaW1fNBd.css                                                                           0.14 kB │ gzip:   0.11 kB
+dist/assets/sub-item-settings-CU2Yw1Gh.css                                                                             0.23 kB │ gzip:   0.19 kB
+dist/assets/fee-calculation-rules-CbR_5CUF.css                                                                         0.28 kB │ gzip:   0.16 kB
+dist/assets/load-prediction-CFNfcoG9.css                                                                               0.33 kB │ gzip:   0.20 kB
+dist/assets/c-layout-BlTIbc4p.css                                                                                      0.44 kB │ gzip:   0.25 kB
+dist/assets/fee-overview-BINts4qh.css                                                                                  0.74 kB │ gzip:   0.35 kB
+dist/assets/fee-settings-form-Ci_ck9du.css                                                                             0.74 kB │ gzip:   0.36 kB
+dist/assets/fee-settings-DQApVXb6.css                                                                                  0.88 kB │ gzip:   0.39 kB
+dist/assets/classify-settings-C8579In-.css                                                                             1.02 kB │ gzip:   0.31 kB
+dist/assets/energy-overview-D6XngGIl.css                                                                               1.09 kB │ gzip:   0.47 kB
+dist/assets/district-fee-ClOck-kw.css                                                                                  1.14 kB │ gzip:   0.56 kB
+dist/assets/device-record-CzzOIMmI.css                                                                                 1.16 kB │ gzip:   0.46 kB
+dist/assets/device-list-COPvM4vv.css                                                                                   1.50 kB │ gzip:   0.46 kB
+dist/assets/energy-utils-vuNmpjeK.css                                                                                  2.00 kB │ gzip:   0.58 kB
+dist/assets/device-detail-Dsbesv3T.css                                                                                 2.05 kB │ gzip:   0.65 kB
+dist/assets/domain-Cgs5vN28.css                                                                                        2.69 kB │ gzip:   0.79 kB
+dist/assets/g-layout-Du1WiJzz.css                                                                                      4.74 kB │ gzip:   1.19 kB
+dist/assets/virtualExposes-Dy5e_sFi.js                                                                                 0.12 kB │ gzip:   0.12 kB
+dist/remoteEntry.js                                                                                                    0.14 kB │ gzip:   0.14 kB
+dist/assets/index-C6LlVgap.js                                                                                          0.27 kB │ gzip:   0.19 kB
+dist/assets/virtual_mf-exposes-ssr___mfe_internal__energyConsumption__remoteEntry_js-Dof0Qa-g.js                       0.37 kB │ gzip:   0.29 kB
+dist/assets/getTime-BoS9e2Cs.js                                                                                        0.43 kB │ gzip:   0.22 kB
+dist/assets/c-layout-CS3vUZ2b.js                                                                                       0.68 kB │ gzip:   0.36 kB
+dist/assets/rolldown-runtime-QTnfLwEv.js                                                                               0.69 kB │ gzip:   0.42 kB
+dist/assets/defineProperty-BbfpZ9Tg.js                                                                                 0.70 kB │ gzip:   0.39 kB
+dist/remoteEntry.ssr.js                                                                                                1.01 kB │ gzip:   0.58 kB
+dist/assets/virtual_mf-exposes___mfe_internal__energyConsumption__remoteEntry_js-Dg-ehEk1.js                           1.07 kB │ gzip:   0.65 kB
+dist/assets/common-xIoGACGv.js                                                                                         1.08 kB │ gzip:   0.59 kB
+dist/assets/e-pie-C3rt4VxC.js                                                                                          1.27 kB │ gzip:   0.73 kB
+dist/assets/vite-preload-helper-7P2xnrDv.js                                                                            1.41 kB │ gzip:   0.75 kB
+dist/assets/e-bar-CK_ASn4i.js                                                                                          1.50 kB │ gzip:   0.79 kB
+dist/assets/_virtual_mf-localSharedImportMap___mfe_internal__energyConsumption-BhY0Dqka.js                             1.77 kB │ gzip:   0.60 kB
+dist/assets/pc-ui-runtime-Bb5iwMaJ.js                                                                                  2.02 kB │ gzip:   1.03 kB
+dist/assets/e-line-BJc9h59k.js                                                                                         2.06 kB │ gzip:   1.16 kB
+dist/assets/fee-settings-water-Cvh8brtc.js                                                                             2.11 kB │ gzip:   1.08 kB
+dist/assets/fee-settings-gas-CobPKagj.js                                                                               2.12 kB │ gzip:   1.08 kB
+dist/assets/g-layout-4BM5JXD3.js                                                                                       2.28 kB │ gzip:   0.77 kB
+dist/assets/time-radio-group-QBCehiZg.js                                                                               2.34 kB │ gzip:   1.11 kB
+dist/assets/3-bB_aVLIE.js                                                                                              2.37 kB │ gzip:   1.83 kB
+dist/assets/hostInit-U5H3j5UZ.js                                                                                       2.39 kB │ gzip:   1.13 kB
+dist/assets/peak-valley-periods-d73FaKQE.js                                                                            2.88 kB │ gzip:   1.17 kB
+dist/assets/area-configure-Csmc81-c.js                                                                                 3.05 kB │ gzip:   1.56 kB
+dist/assets/carbon-emission-report-D0T9eV_b.js                                                                         3.36 kB │ gzip:   1.23 kB
+dist/assets/comprehensive-report-CEAUQvwV.js                                                                           3.36 kB │ gzip:   1.22 kB
+dist/assets/report-list-DuGkQhME.js                                                                                    3.89 kB │ gzip:   1.64 kB
+dist/assets/fee-settings-form-2_ozGmkM.js                                                                              4.23 kB │ gzip:   2.00 kB
+dist/assets/api-Rcr5_Nz6.js                                                                                            4.25 kB │ gzip:   1.69 kB
+dist/assets/classify-settings-QiVL6Ftf.js                                                                              5.28 kB │ gzip:   2.26 kB
+dist/assets/energy-usage-setting-BOtOW_1X.js                                                                           5.98 kB │ gzip:   2.48 kB
+dist/assets/fee-report-86AWb6Dt.js                                                                                     6.10 kB │ gzip:   2.07 kB
+dist/assets/usage-report-bosGIV1D.js                                                                                   6.16 kB │ gzip:   2.12 kB
+dist/assets/2-qcZhi1ve.js                                                                                              6.31 kB │ gzip:   4.74 kB
+dist/assets/energy-statistics-CB_1glOp.js                                                                              6.51 kB │ gzip:   2.40 kB
+dist/assets/energy-synthesize-BSByWjNi.js                                                                              6.52 kB │ gzip:   2.38 kB
+dist/assets/associated-devices-NTVVMONB.js                                                                             7.66 kB │ gzip:   2.79 kB
+dist/assets/device-cycle-DcLC-bd8.js                                                                                   7.78 kB │ gzip:   3.41 kB
+dist/assets/fee-settings-electric-1xOUxFL3.js                                                                          8.08 kB │ gzip:   2.74 kB
+dist/assets/sub-item-settings-DWc_dVEd.js                                                                              8.18 kB │ gzip:   3.26 kB
+dist/assets/fee-overview-Blrs4wvg.js                                                                                   8.36 kB │ gzip:   3.14 kB
+dist/assets/load-prediction-jZJ-nhnV.js                                                                                8.65 kB │ gzip:   3.43 kB
+dist/assets/fee-calculation-rules-5cwfljTc.js                                                                         10.60 kB │ gzip:   3.60 kB
+dist/assets/district-fee-DyH4FdUR.js                                                                                  11.27 kB │ gzip:   4.36 kB
+dist/assets/dosage-analysis-BgLUQWJw.js                                                                               13.20 kB │ gzip:   4.42 kB
+dist/assets/fee-settings-BTKodscl.js                                                                                  14.90 kB │ gzip:  10.89 kB
+dist/assets/device-detail-5rNMCmgA.js                                                                                 16.24 kB │ gzip:   4.78 kB
+dist/assets/device-list-CJuPccZ1.js                                                                                   18.02 kB │ gzip:   6.13 kB
+dist/assets/AntdIcon-CfF2KDtD.js                                                                                      18.26 kB │ gzip:   6.82 kB
+dist/assets/device-record-BA7l3hs6.js                                                                                 20.18 kB │ gzip:   6.78 kB
+dist/assets/domain-CRokVAhU.js                                                                                        22.65 kB │ gzip:   7.98 kB
+dist/assets/_virtual_mf___mfe_internal__energyConsumption__loadShare__vue_mf_2_router__loadShare__.js-DhS7ioT8.js     30.53 kB │ gzip:  11.34 kB
+dist/assets/energy-overview-DbyMkJcP.js                                                                               34.80 kB │ gzip:  22.24 kB
+dist/assets/src-DG-EqCi9.js                                                                                           36.63 kB │ gzip:  14.41 kB
+dist/assets/virtual_mf-REMOTE_ENTRY_ID___mfe_internal__energyConsumption__remoteEntry_js-CYp7OesS.js                  39.07 kB │ gzip:  12.96 kB
+dist/assets/_virtual_mf___mfe_internal__energyConsumption__loadShare__vue__loadShare__.js-BXZx_59X.js                121.82 kB │ gzip:  45.42 kB
+dist/assets/xlsx-DCvltE0O.js                                                                                         425.20 kB │ gzip: 141.70 kB
+dist/assets/echarts-DvhQHHik.js                                                                                    1,027.55 kB │ gzip: 336.39 kB
+
+✓ built in 9.79s
+[plugin builtin:vite-reporter] 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.

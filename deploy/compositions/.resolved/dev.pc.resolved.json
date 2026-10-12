@@ -1,0 +1,1287 @@
+{
+  "facade": "pc",
+  "env": "prod",
+  "coreRuntime": [
+    {
+      "name": "datePlatform",
+      "entry": "http://localhost:5019/mf-manifest.json",
+      "apiVersion": "1.x"
+    },
+    {
+      "name": "loggerPlatform",
+      "entry": "http://localhost:5017/mf-manifest.json",
+      "apiVersion": "1.x"
+    },
+    {
+      "name": "resourcePlatform",
+      "entry": "http://localhost:5018/mf-manifest.json",
+      "apiVersion": "1.x"
+    },
+    {
+      "name": "httpPlatform",
+      "entry": "http://localhost:5015/mf-manifest.json",
+      "apiVersion": "1.x"
+    },
+    {
+      "name": "pcUi",
+      "entry": "http://localhost:5016/mf-manifest.json",
+      "apiVersion": "1.x"
+    },
+    {
+      "name": "pcChart",
+      "entry": "http://localhost:5045/mf-manifest.json",
+      "apiVersion": "1.x"
+    },
+    {
+      "name": "pcAlarmCharts",
+      "entry": "http://localhost:5055/mf-manifest.json",
+      "apiVersion": "1.x"
+    },
+    {
+      "name": "pcPlayer",
+      "entry": "http://localhost:5057/mf-manifest.json",
+      "apiVersion": "1.x"
+    },
+    {
+      "name": "pcRtc",
+      "entry": "http://localhost:5013/mf-manifest.json",
+      "apiVersion": "1.x"
+    },
+    {
+      "name": "pcMap",
+      "entry": "http://localhost:5054/mf-manifest.json",
+      "apiVersion": "1.x"
+    },
+    {
+      "name": "pcGraphEditor",
+      "entry": "http://localhost:5058/mf-manifest.json",
+      "apiVersion": "1.x"
+    },
+    {
+      "name": "pcScada",
+      "entry": "http://localhost:5059/mf-manifest.json",
+      "apiVersion": "1.x"
+    },
+    {
+      "name": "pcVisualSdk",
+      "entry": "http://localhost:5056/mf-manifest.json",
+      "apiVersion": "1.x"
+    },
+    {
+      "name": "pcChrome",
+      "entry": "http://localhost:5011/mf-manifest.json",
+      "apiVersion": "1.x"
+    },
+    {
+      "name": "pcMessaging",
+      "entry": "http://localhost:5012/mf-manifest.json",
+      "apiVersion": "1.x"
+    },
+    {
+      "name": "pcAlarmPopup",
+      "entry": "http://localhost:5062/mf-manifest.json",
+      "apiVersion": "1.x"
+    },
+    {
+      "name": "pcAiAssistant",
+      "entry": "http://localhost:5014/mf-manifest.json",
+      "apiVersion": "1.x"
+    }
+  ],
+  "platform": [
+    {
+      "name": "datePlatform",
+      "entry": "http://localhost:5019/mf-manifest.json"
+    },
+    {
+      "name": "loggerPlatform",
+      "entry": "http://localhost:5017/mf-manifest.json"
+    },
+    {
+      "name": "resourcePlatform",
+      "entry": "http://localhost:5018/mf-manifest.json"
+    },
+    {
+      "name": "httpPlatform",
+      "entry": "http://localhost:5015/mf-manifest.json"
+    },
+    {
+      "name": "pcChrome",
+      "entry": "http://localhost:5011/mf-manifest.json"
+    },
+    {
+      "name": "pcAuth",
+      "entry": "http://localhost:5010/mf-manifest.json",
+      "config": {
+        "strategies": [
+          "standard",
+          "cas-sso"
+        ]
+      }
+    },
+    {
+      "name": "pcUi",
+      "entry": "http://localhost:5016/mf-manifest.json"
+    },
+    {
+      "name": "pcChart",
+      "entry": "http://localhost:5045/mf-manifest.json"
+    },
+    {
+      "name": "pcIotSocket",
+      "entry": "http://localhost:5053/mf-manifest.json"
+    },
+    {
+      "name": "pcMap",
+      "entry": "http://localhost:5054/mf-manifest.json"
+    },
+    {
+      "name": "pcAlarmCharts",
+      "entry": "http://localhost:5055/mf-manifest.json"
+    },
+    {
+      "name": "pcVisualSdk",
+      "entry": "http://localhost:5056/mf-manifest.json"
+    },
+    {
+      "name": "pcPlayer",
+      "entry": "http://localhost:5057/mf-manifest.json"
+    },
+    {
+      "name": "pcGraphEditor",
+      "entry": "http://localhost:5058/mf-manifest.json"
+    },
+    {
+      "name": "pcScada",
+      "entry": "http://localhost:5059/mf-manifest.json"
+    },
+    {
+      "name": "pcMessaging",
+      "entry": "http://localhost:5012/mf-manifest.json"
+    },
+    {
+      "name": "pcRtc",
+      "entry": "http://localhost:5013/mf-manifest.json"
+    },
+    {
+      "name": "pcAlarmPopup",
+      "entry": "http://localhost:5062/mf-manifest.json",
+      "config": {
+        "intentCodes": [
+          "DOORMANAGE",
+          "ACCESS_CONTROL",
+          "FIRECONTROL",
+          "FIRE_MANAGEMENT",
+          "ROTATINGMANAGE"
+        ],
+        "showLocateButton": false
+      }
+    },
+    {
+      "name": "pcAiAssistant",
+      "entry": "http://localhost:5014/mf-manifest.json"
+    }
+  ],
+  "client": [
+    {
+      "name": "assetManagementClient",
+      "entry": "http://localhost:5140/mf-manifest.json"
+    },
+    {
+      "name": "workReportClient",
+      "entry": "http://localhost:5138/mf-manifest.json"
+    },
+    {
+      "name": "meetRoomClient",
+      "entry": "http://localhost:5136/mf-manifest.json"
+    },
+    {
+      "name": "governmentManagementClient",
+      "entry": "http://localhost:5134/mf-manifest.json"
+    },
+    {
+      "name": "consumptionManagementClient",
+      "entry": "http://localhost:5132/mf-manifest.json"
+    },
+    {
+      "name": "personManagementClient",
+      "entry": "http://localhost:5128/mf-manifest.json"
+    },
+    {
+      "name": "factoryManagementClient",
+      "entry": "http://localhost:5126/mf-manifest.json"
+    },
+    {
+      "name": "knowledgeDocumentClient",
+      "entry": "http://localhost:5122/mf-manifest.json"
+    },
+    {
+      "name": "technicalBulletinClient",
+      "entry": "http://localhost:5120/mf-manifest.json"
+    },
+    {
+      "name": "electronicPatrolClient",
+      "entry": "http://localhost:5118/mf-manifest.json"
+    },
+    {
+      "name": "workOrderCenterClient",
+      "entry": "http://localhost:5116/mf-manifest.json"
+    },
+    {
+      "name": "formAuditClient",
+      "entry": "http://localhost:5114/mf-manifest.json"
+    },
+    {
+      "name": "electricalSafetyClient",
+      "entry": "http://localhost:5104/mf-manifest.json"
+    },
+    {
+      "name": "safetyCreditClient",
+      "entry": "http://localhost:5103/mf-manifest.json"
+    },
+    {
+      "name": "commandDispatchClient",
+      "entry": "http://localhost:5083/mf-manifest.json"
+    },
+    {
+      "name": "userCenterClient",
+      "entry": "http://localhost:5121/mf-manifest.json"
+    },
+    {
+      "name": "resourceManagementClient",
+      "entry": "http://localhost:5123/mf-manifest.json"
+    },
+    {
+      "name": "secureEduClient",
+      "entry": "http://localhost:5095/mf-manifest.json"
+    },
+    {
+      "name": "messageClient",
+      "entry": "http://localhost:5020/mf-manifest.json"
+    },
+    {
+      "name": "authClient",
+      "entry": "http://localhost:5021/mf-manifest.json"
+    },
+    {
+      "name": "ouaaClient",
+      "entry": "http://localhost:5022/mf-manifest.json"
+    },
+    {
+      "name": "fileClient",
+      "entry": "http://localhost:5023/mf-manifest.json"
+    },
+    {
+      "name": "mdataClient",
+      "entry": "http://localhost:5024/mf-manifest.json"
+    },
+    {
+      "name": "deviceCenterClient",
+      "entry": "http://localhost:5075/mf-manifest.json"
+    },
+    {
+      "name": "accessControlClient",
+      "entry": "http://localhost:5025/mf-manifest.json"
+    },
+    {
+      "name": "dailyTaskClient",
+      "entry": "http://localhost:5063/mf-manifest.json"
+    },
+    {
+      "name": "securityMonitorClient",
+      "entry": "http://localhost:5065/mf-manifest.json"
+    },
+    {
+      "name": "safetyManagementClient",
+      "entry": "http://localhost:5093/mf-manifest.json"
+    },
+    {
+      "name": "alarmCenterClient",
+      "entry": "http://localhost:5026/mf-manifest.json"
+    },
+    {
+      "name": "headquartersMarketClient",
+      "entry": "http://localhost:5061/mf-manifest.json"
+    },
+    {
+      "name": "coldStorageClient",
+      "entry": "http://localhost:5027/mf-manifest.json"
+    },
+    {
+      "name": "dictionaryClient",
+      "entry": "http://localhost:5028/mf-manifest.json"
+    },
+    {
+      "name": "emergencyDispatchClient",
+      "entry": "http://localhost:5029/mf-manifest.json"
+    },
+    {
+      "name": "energyConsumptionClient",
+      "entry": "http://localhost:5077/mf-manifest.json"
+    },
+    {
+      "name": "lineLossManagementClient",
+      "entry": "http://localhost:5087/mf-manifest.json"
+    },
+    {
+      "name": "workbenchClient",
+      "entry": "http://localhost:5079/mf-manifest.json"
+    },
+    {
+      "name": "broadcastCenterClient",
+      "entry": "http://localhost:5081/mf-manifest.json"
+    },
+    {
+      "name": "emergencySuppliesClient",
+      "entry": "http://localhost:5030/mf-manifest.json"
+    },
+    {
+      "name": "fireManagementClient",
+      "entry": "http://localhost:5031/mf-manifest.json"
+    },
+    {
+      "name": "emergencyManagementClient",
+      "entry": "http://localhost:5069/mf-manifest.json"
+    },
+    {
+      "name": "dailyInspectionClient",
+      "entry": "http://localhost:5073/mf-manifest.json"
+    },
+    {
+      "name": "fumigationOperationClient",
+      "entry": "http://localhost:5032/mf-manifest.json"
+    },
+    {
+      "name": "hazardGovernanceClient",
+      "entry": "http://localhost:5033/mf-manifest.json"
+    },
+    {
+      "name": "attendanceClient",
+      "entry": "http://localhost:5287/mf-manifest.json"
+    },
+    {
+      "name": "problemsClient",
+      "entry": "http://localhost:5106/mf-manifest.json"
+    },
+    {
+      "name": "faultRepairClient",
+      "entry": "http://localhost:5111/mf-manifest.json"
+    },
+    {
+      "name": "maintenanceClient",
+      "entry": "http://localhost:5114/mf-manifest.json"
+    },
+    {
+      "name": "outsourceRepairClient",
+      "entry": "http://localhost:5116/mf-manifest.json"
+    },
+    {
+      "name": "renovationClient",
+      "entry": "http://localhost:5118/mf-manifest.json"
+    },
+    {
+      "name": "smallEngineeringClient",
+      "entry": "http://localhost:5126/mf-manifest.json"
+    },
+    {
+      "name": "streamEngineClient",
+      "entry": "http://localhost:5109/mf-manifest.json"
+    },
+    {
+      "name": "inspectionAiClient",
+      "entry": "http://localhost:5034/mf-manifest.json"
+    },
+    {
+      "name": "intelligentGrainClient",
+      "entry": "http://localhost:5035/mf-manifest.json"
+    },
+    {
+      "name": "metadataClient",
+      "entry": "http://localhost:5036/mf-manifest.json"
+    },
+    {
+      "name": "processEngineClient",
+      "entry": "http://localhost:5037/mf-manifest.json"
+    },
+    {
+      "name": "riskGradedControlClient",
+      "entry": "http://localhost:5038/mf-manifest.json"
+    },
+    {
+      "name": "riskManagementClient",
+      "entry": "http://localhost:5085/mf-manifest.json"
+    },
+    {
+      "name": "safetyPersonnelClient",
+      "entry": "http://localhost:5039/mf-manifest.json"
+    },
+    {
+      "name": "securityOpinionClient",
+      "entry": "http://localhost:5040/mf-manifest.json"
+    },
+    {
+      "name": "templateDemoClient",
+      "entry": "http://localhost:5041/mf-manifest.json"
+    },
+    {
+      "name": "videoMonitorClient",
+      "entry": "http://localhost:5042/mf-manifest.json"
+    },
+    {
+      "name": "warehouseSafetyClient",
+      "entry": "http://localhost:5043/mf-manifest.json"
+    },
+    {
+      "name": "workPermitClient",
+      "entry": "http://localhost:5044/mf-manifest.json"
+    },
+    {
+      "name": "businessConfigClient",
+      "entry": "http://localhost:5293/mf-manifest.json"
+    },
+    {
+      "name": "linkageControlClient",
+      "entry": "http://localhost:5305/mf-manifest.json"
+    }
+  ],
+  "pageLibrary": [
+    {
+      "name": "secureEduPages",
+      "entry": "http://localhost:5142/mf-manifest.json"
+    },
+    {
+      "name": "genericEquipmentMonitorPages",
+      "entry": "http://localhost:5051/mf-manifest.json"
+    },
+    {
+      "name": "streamEnginePages",
+      "entry": "http://localhost:5107/mf-manifest.json"
+    }
+  ],
+  "inline": [
+    {
+      "name": "poc-inline-pc",
+      "package": "@g2-domain/poc-inline-pc",
+      "basePath": "/poc-inline",
+      "allowOverride": false
+    }
+  ],
+  "remotes": [
+    {
+      "name": "assetManagement",
+      "entry": "http://localhost:5139/mf-manifest.json",
+      "basePath": "/d/asset-management",
+      "config": {
+        "applicationCode": "PROPERTY_MANAGEMENT",
+        "navigateCodes": [
+          "PROPERTY_MANAGEMENT"
+        ],
+        "intentCodes": [
+          "PROPERTY_MANAGEMENT"
+        ]
+      }
+    },
+    {
+      "name": "workReport",
+      "entry": "http://localhost:5137/mf-manifest.json",
+      "basePath": "/d/work-report",
+      "config": {
+        "applicationCode": "WORK_REPORT",
+        "navigateCodes": [
+          "WORK_REPORT"
+        ],
+        "intentCodes": [
+          "WORK_REPORT"
+        ]
+      }
+    },
+    {
+      "name": "meetRoom",
+      "entry": "http://localhost:5135/mf-manifest.json",
+      "basePath": "/d/meet-room",
+      "config": {
+        "applicationCode": "MEETING_ROOM_MANAGEM",
+        "navigateCodes": [
+          "MEETING_ROOM_MANAGEM"
+        ],
+        "intentCodes": [
+          "MEETING_ROOM_MANAGEM"
+        ]
+      }
+    },
+    {
+      "name": "governmentManagement",
+      "entry": "http://localhost:5133/mf-manifest.json",
+      "basePath": "/d/government-management",
+      "config": {
+        "applicationCode": "OFFICIAL_MANAGEMENT",
+        "navigateCodes": [
+          "OFFICIAL_MANAGEMENT"
+        ],
+        "intentCodes": [
+          "OFFICIAL_MANAGEMENT"
+        ]
+      }
+    },
+    {
+      "name": "consumptionManagement",
+      "entry": "http://localhost:5131/mf-manifest.json",
+      "basePath": "/d/consumption-management",
+      "config": {
+        "applicationCode": "ONE_CARD",
+        "navigateCodes": [
+          "ONE_CARD"
+        ],
+        "intentCodes": [
+          "ONE_CARD"
+        ]
+      }
+    },
+    {
+      "name": "personManagement",
+      "entry": "http://localhost:5127/mf-manifest.json",
+      "basePath": "/d/person-management",
+      "config": {
+        "applicationCode": "PERSONNELMANAGEMENT",
+        "navigateCodes": [
+          "PERSONNELMANAGEMENT"
+        ],
+        "intentCodes": [
+          "PERSONNELMANAGEMENT"
+        ]
+      }
+    },
+    {
+      "name": "factoryManagement",
+      "entry": "http://localhost:5125/mf-manifest.json",
+      "basePath": "/d/factory-management",
+      "config": {
+        "applicationCode": "FACTORYMANAGEMENT",
+        "navigateCodes": [
+          "FACTORYMANAGEMENT"
+        ],
+        "intentCodes": [
+          "FACTORYMANAGEMENT"
+        ]
+      }
+    },
+    {
+      "name": "knowledgeDocument",
+      "entry": "http://localhost:5121/mf-manifest.json",
+      "basePath": "/d/knowledge-document",
+      "config": {
+        "applicationCode": "KNOWLEDGE_DOCUMENT",
+        "navigateCodes": [
+          "KNOWLEDGE_DOCUMENT"
+        ],
+        "intentCodes": [
+          "KNOWLEDGE_DOCUMENT"
+        ]
+      }
+    },
+    {
+      "name": "technicalBulletin",
+      "entry": "http://localhost:5119/mf-manifest.json",
+      "basePath": "/d/technical-bulletin",
+      "config": {
+        "applicationCode": "TECHNICAL_BULLETIN",
+        "navigateCodes": [
+          "TECHNICAL_BULLETIN"
+        ],
+        "intentCodes": [
+          "TECHNICAL_BULLETIN"
+        ]
+      }
+    },
+    {
+      "name": "electronicPatrol",
+      "entry": "http://localhost:5117/mf-manifest.json",
+      "basePath": "/d/electronic-patrol",
+      "config": {
+        "applicationCode": "ELECTRONIC_PATROL",
+        "navigateCodes": [
+          "ELECTRONIC_PATROL"
+        ],
+        "intentCodes": [
+          "ELECTRONIC_PATROL"
+        ]
+      }
+    },
+    {
+      "name": "workOrderCenter",
+      "entry": "http://localhost:5115/mf-manifest.json",
+      "basePath": "/d/work-order-center",
+      "config": {
+        "applicationCode": "WORKORDER_CENTER",
+        "navigateCodes": [
+          "WORKORDER_CENTER"
+        ],
+        "intentCodes": [
+          "WORKORDER_CENTER"
+        ]
+      }
+    },
+    {
+      "name": "formAudit",
+      "entry": "http://localhost:5113/mf-manifest.json",
+      "basePath": "/d/form-audit",
+      "config": {
+        "applicationCode": "FORM_ASSESSMENT",
+        "navigateCodes": [
+          "FORM_ASSESSMENT"
+        ],
+        "intentCodes": [
+          "FORM_ASSESSMENT"
+        ]
+      }
+    },
+    {
+      "name": "electricalSafety",
+      "entry": "http://localhost:5102/mf-manifest.json",
+      "basePath": "/d/electrical-safety",
+      "config": {
+        "applicationCode": "ELECTRICAL_SAFETY",
+        "navigateCodes": [
+          "ELECTRICAL_SAFETY"
+        ],
+        "intentCodes": [
+          "ELECTRICAL_SAFETY"
+        ]
+      }
+    },
+    {
+      "name": "safetyCredit",
+      "entry": "http://localhost:5099/mf-manifest.json",
+      "basePath": "/d/safety-credit",
+      "config": {
+        "applicationCode": "SAFETY_CREDIT",
+        "navigateCodes": [
+          "SAFETY_CREDIT"
+        ],
+        "intentCodes": [
+          "SAFETY_CREDIT"
+        ]
+      }
+    },
+    {
+      "name": "commandDispatch",
+      "entry": "http://localhost:5082/mf-manifest.json",
+      "basePath": "/d/command-dispatch",
+      "config": {
+        "applicationCode": "COMMAND_DISPATCH",
+        "navigateCodes": [
+          "COMMAND_DISPATCH"
+        ],
+        "intentCodes": [
+          "COMMAND_DISPATCH"
+        ]
+      }
+    },
+    {
+      "name": "userCenter",
+      "entry": "http://localhost:5120/mf-manifest.json",
+      "basePath": "/d/user-center",
+      "config": {
+        "applicationCode": "USER_CENTER",
+        "navigateCodes": [
+          "USER_CENTER"
+        ],
+        "intentCodes": [
+          "USER_CENTER"
+        ]
+      }
+    },
+    {
+      "name": "logManagement",
+      "entry": "http://localhost:5122/mf-manifest.json",
+      "basePath": "/d/log-management",
+      "config": {
+        "applicationCode": "LOGMANAGEMENT",
+        "navigateCodes": [
+          "LOGMANAGEMENT"
+        ],
+        "intentCodes": [
+          "LOGMANAGEMENT"
+        ]
+      }
+    },
+    {
+      "name": "resourceManagement",
+      "entry": "http://localhost:5124/mf-manifest.json",
+      "basePath": "/d/resource-management",
+      "config": {
+        "applicationCode": "RESOURCE_MANAGE",
+        "navigateCodes": [
+          "RESOURCE_MANAGE"
+        ],
+        "intentCodes": [
+          "RESOURCE_MANAGE"
+        ]
+      }
+    },
+    {
+      "name": "businessConfig",
+      "entry": "http://localhost:5193/mf-manifest.json",
+      "basePath": "/d/business-config",
+      "config": {
+        "applicationCode": "BUSINESS_CONFIG",
+        "navigateCodes": [
+          "BUSINESS_CONFIG"
+        ],
+        "intentCodes": [
+          "BUSINESS_CONFIG"
+        ]
+      }
+    },
+    {
+      "name": "linkageControl",
+      "entry": "http://localhost:5205/mf-manifest.json",
+      "basePath": "/d/linkage-control",
+      "config": {
+        "applicationCode": "LINKAGE_STRATEGY",
+        "navigateCodes": [
+          "LINKAGE_STRATEGY"
+        ],
+        "intentCodes": [
+          "LINKAGE_STRATEGY"
+        ],
+        "menuContributionRoots": {
+          "BUSINESS_CONFIG": "业务设置"
+        }
+      }
+    },
+    {
+      "name": "secureEdu",
+      "entry": "http://localhost:5141/mf-manifest.json",
+      "basePath": "/d/secure-edu",
+      "config": {
+        "applicationCode": "SECURE_EDU",
+        "navigateCodes": [
+          "SECURE_EDU"
+        ],
+        "intentCodes": [
+          "SECURE_EDU"
+        ]
+      }
+    },
+    {
+      "name": "secureEduHead",
+      "entry": "http://localhost:5094/mf-manifest.json",
+      "basePath": "/d/secure-edu-head",
+      "config": {
+        "applicationCode": "SECURE_EDU_HEAD",
+        "navigateCodes": [
+          "SECURE_EDU_HEAD"
+        ],
+        "intentCodes": [
+          "SECURE_EDU_HEAD"
+        ]
+      }
+    },
+    {
+      "name": "accessControl",
+      "entry": "http://localhost:5050/mf-manifest.json",
+      "basePath": "/d/access-control",
+      "config": {
+        "applicationCode": "DOORMANAGE",
+        "navigateCodes": [
+          "DOORMANAGE",
+          "ACCESS_CONTROL"
+        ],
+        "intentCodes": [
+          "DOORMANAGE",
+          "ACCESS_CONTROL"
+        ]
+      }
+    },
+    {
+      "name": "intruderAlarm",
+      "entry": "http://localhost:5082/mf-manifest.json",
+      "basePath": "/d/intruder-alarm",
+      "config": {
+        "applicationCode": "INTRUDER_ALARM",
+        "navigateCodes": [
+          "INTRUDER_ALARM"
+        ],
+        "intentCodes": [
+          "INTRUDER_ALARM"
+        ]
+      }
+    },
+    {
+      "name": "gasManagement",
+      "entry": "http://localhost:5083/mf-manifest.json",
+      "basePath": "/d/gas-management",
+      "config": {
+        "applicationCode": "GAS_MANAGEMENT",
+        "navigateCodes": [
+          "GAS_MANAGEMENT"
+        ],
+        "intentCodes": [
+          "GAS_MANAGEMENT"
+        ]
+      }
+    },
+    {
+      "name": "riskManagement",
+      "entry": "http://localhost:5084/mf-manifest.json",
+      "basePath": "/d/risk-management",
+      "config": {
+        "applicationCode": "RISK_SOURCE",
+        "navigateCodes": [
+          "RISK_SOURCE"
+        ],
+        "intentCodes": [
+          "RISK_SOURCE"
+        ]
+      }
+    },
+    {
+      "name": "dailyTask",
+      "entry": "http://localhost:5064/mf-manifest.json",
+      "basePath": "/d/daily-task",
+      "config": {
+        "navigateCodes": [
+          "DAILY_TASK",
+          "DAILY_INSPECTION"
+        ],
+        "intentCodes": [
+          "DAILY_TASK",
+          "DAILY_INSPECTION"
+        ],
+        "menuContributionRoots": {
+          "DAILY_TASK": "日常任务",
+          "DAILY_INSPECTION": "日常巡检新"
+        },
+        "menuLabels": {
+          "DAILY_INSPECTION": "日常巡检新"
+        }
+      }
+    },
+    {
+      "name": "securityMonitor",
+      "entry": "http://localhost:5066/mf-manifest.json",
+      "basePath": "/d/security-monitor",
+      "config": {
+        "applicationCode": "SECURITY_MONITORING",
+        "navigateCodes": [
+          "SECURITY_MONITORING",
+          "SECURITY_MONITOR"
+        ],
+        "intentCodes": [
+          "SECURITY_MONITORING",
+          "SECURITY_MONITOR",
+          "video-monitor-auth"
+        ]
+      }
+    },
+    {
+      "name": "safetyManagementHead",
+      "entry": "http://localhost:5091/mf-manifest.json",
+      "basePath": "/d/safety-management-head",
+      "config": {
+        "applicationCode": "SAFETY_MANAGE_HEAD",
+        "navigateCodes": [
+          "SAFETY_MANAGE_HEAD"
+        ],
+        "intentCodes": [
+          "SAFETY_MANAGE_HEAD",
+          "safety-manage-head"
+        ]
+      }
+    },
+    {
+      "name": "safetyPersonnelManagement",
+      "entry": "http://localhost:5096/mf-manifest.json",
+      "basePath": "/d/safety-personnel-management",
+      "config": {
+        "applicationCode": "SAFETY_PERSONNEL",
+        "navigateCodes": [
+          "SAFETY_PERSONNEL"
+        ],
+        "intentCodes": [
+          "SAFETY_PERSONNEL",
+          "safety-personnel-management"
+        ]
+      }
+    },
+    {
+      "name": "securityOpinionMonitoring",
+      "entry": "http://localhost:5097/mf-manifest.json",
+      "basePath": "/d/security-opinion-monitoring",
+      "config": {
+        "applicationCode": "SECURITY_OPINION_MONITORING",
+        "navigateCodes": [
+          "SECURITY_OPINION_MONITORING",
+          "SECURITY_OPINION"
+        ],
+        "intentCodes": [
+          "SECURITY_OPINION_MONITORING",
+          "SECURITY_OPINION",
+          "security-opinion-monitoring"
+        ]
+      }
+    },
+    {
+      "name": "safetyManagement",
+      "entry": "http://localhost:5092/mf-manifest.json",
+      "basePath": "/d/safety-management",
+      "config": {
+        "applicationCode": "SAFETY_MANAGE_MARKET",
+        "navigateCodes": [
+          "SAFETY_MANAGE_MARKET"
+        ],
+        "intentCodes": [
+          "SAFETY_MANAGE_MARKET",
+          "safety-manage-market"
+        ]
+      }
+    },
+    {
+      "name": "rotatingManagement",
+      "entry": "http://localhost:5080/mf-manifest.json",
+      "basePath": "/d/rotating-management",
+      "config": {
+        "applicationCode": "ROTATINGMANAGE",
+        "navigateCodes": [
+          "ROTATINGMANAGE"
+        ],
+        "intentCodes": [
+          "ROTATINGMANAGE"
+        ]
+      }
+    },
+    {
+      "name": "fireManagement",
+      "entry": "http://localhost:5067/mf-manifest.json",
+      "basePath": "/d/fire-management",
+      "config": {
+        "applicationCode": "FIRECONTROL",
+        "navigateCodes": [
+          "FIRECONTROL",
+          "FIRE_MANAGEMENT"
+        ],
+        "intentCodes": [
+          "FIRECONTROL",
+          "FIRE_MANAGEMENT"
+        ]
+      }
+    },
+    {
+      "name": "emergencyManagement",
+      "entry": "http://localhost:5068/mf-manifest.json",
+      "basePath": "/d/emergency-management",
+      "config": {
+        "navigateCodes": [
+          "EMERGENCY_CENTER",
+          "EMERGENCY_MANAGEMENT"
+        ],
+        "intentCodes": [
+          "EMERGENCY_CENTER",
+          "EMERGENCY_MANAGEMENT"
+        ]
+      }
+    },
+    {
+      "name": "emergencyDispatch",
+      "entry": "http://localhost:5074/mf-manifest.json",
+      "basePath": "/d/emergency-dispatch",
+      "config": {
+        "applicationCode": "EMERGENCY_DISPATCH",
+        "navigateCodes": [
+          "EMERGENCY_DISPATCH"
+        ],
+        "intentCodes": [
+          "EMERGENCY_DISPATCH"
+        ]
+      }
+    },
+    {
+      "name": "emergencySupplies",
+      "entry": "http://localhost:5097/mf-manifest.json",
+      "basePath": "/d/emergency-supplies",
+      "config": {
+        "applicationCode": "EMERGENCY_SUPPLIES",
+        "navigateCodes": [
+          "EMERGENCY_SUPPLIES"
+        ],
+        "intentCodes": [
+          "EMERGENCY_SUPPLIES"
+        ]
+      }
+    },
+    {
+      "name": "fumigationOperation",
+      "entry": "http://localhost:5098/mf-manifest.json",
+      "basePath": "/d/fumigation-operation",
+      "config": {
+        "applicationCode": "FUMIGATION_OPERATION",
+        "navigateCodes": [
+          "FUMIGATION_OPERATION"
+        ],
+        "intentCodes": [
+          "FUMIGATION_OPERATION"
+        ]
+      }
+    },
+    {
+      "name": "hazardGovernance",
+      "entry": "http://localhost:5070/mf-manifest.json",
+      "basePath": "/d/hazard-governance",
+      "config": {
+        "navigateCodes": [
+          "HAZARD_GOVERNANCE"
+        ],
+        "intentCodes": [
+          "HAZARD_GOVERNANCE"
+        ]
+      }
+    },
+    {
+      "name": "problems",
+      "entry": "http://localhost:5105/mf-manifest.json",
+      "basePath": "/d/problems",
+      "config": {
+        "applicationCode": "HIDDENDANGER",
+        "navigateCodes": [
+          "HIDDENDANGER"
+        ],
+        "intentCodes": [
+          "HIDDENDANGER"
+        ]
+      }
+    },
+    {
+      "name": "faultRepair",
+      "entry": "http://localhost:5110/mf-manifest.json",
+      "basePath": "/d/fault-repair",
+      "config": {
+        "applicationCode": "FAULT",
+        "navigateCodes": [
+          "FAULT"
+        ],
+        "intentCodes": [
+          "FAULT"
+        ]
+      }
+    },
+    {
+      "name": "maintenance",
+      "entry": "http://localhost:5113/mf-manifest.json",
+      "basePath": "/d/maintenance",
+      "config": {
+        "applicationCode": "MAINTENACE",
+        "navigateCodes": [
+          "MAINTENACE",
+          "maintenance",
+          "MAINTENANCE"
+        ],
+        "intentCodes": [
+          "MAINTENACE",
+          "maintenance",
+          "MAINTENANCE"
+        ]
+      }
+    },
+    {
+      "name": "outsourceRepair",
+      "entry": "http://localhost:5115/mf-manifest.json",
+      "basePath": "/d/outsource-repair",
+      "config": {
+        "applicationCode": "OUTSOURCE_REPAIR",
+        "navigateCodes": [
+          "OUTSOURCE_REPAIR"
+        ],
+        "intentCodes": [
+          "OUTSOURCE_REPAIR"
+        ]
+      }
+    },
+    {
+      "name": "renovation",
+      "entry": "http://localhost:5117/mf-manifest.json",
+      "basePath": "/d/renovation",
+      "config": {
+        "applicationCode": "RETROFIT",
+        "navigateCodes": [
+          "RETROFIT"
+        ],
+        "intentCodes": [
+          "RETROFIT"
+        ]
+      }
+    },
+    {
+      "name": "smallEngineering",
+      "entry": "http://localhost:5125/mf-manifest.json",
+      "basePath": "/d/small-engineering",
+      "config": {
+        "applicationCode": "SMALLENFINEERING",
+        "navigateCodes": [
+          "SMALLENFINEERING"
+        ],
+        "intentCodes": [
+          "SMALLENFINEERING"
+        ]
+      }
+    },
+    {
+      "name": "complaint",
+      "entry": "http://localhost:5112/mf-manifest.json",
+      "basePath": "/d/complaint",
+      "config": {
+        "applicationCode": "COMPLAINT",
+        "navigateCodes": [
+          "COMPLAINT"
+        ],
+        "intentCodes": [
+          "COMPLAINT"
+        ]
+      }
+    },
+    {
+      "name": "streamEngine",
+      "entry": "http://localhost:5108/mf-manifest.json",
+      "basePath": "/d/stream-engine",
+      "config": {
+        "applicationCode": "stream-engine",
+        "navigateCodes": [
+          "stream-engine"
+        ],
+        "intentCodes": [
+          "stream-engine"
+        ]
+      }
+    },
+    {
+      "name": "riskGradedControl",
+      "entry": "http://localhost:5072/mf-manifest.json",
+      "basePath": "/d/risk-graded-control",
+      "config": {
+        "navigateCodes": [
+          "RISK_GRADED_CONTROL"
+        ],
+        "intentCodes": [
+          "RISK_GRADED_CONTROL"
+        ]
+      }
+    },
+    {
+      "name": "warehouseSafety",
+      "entry": "http://localhost:5096/mf-manifest.json",
+      "basePath": "/d/warehouse-safety",
+      "config": {
+        "applicationCode": "WAREHOUSE_SAFETY",
+        "navigateCodes": [
+          "WAREHOUSE_SAFETY"
+        ],
+        "intentCodes": [
+          "WAREHOUSE_SAFETY"
+        ]
+      }
+    },
+    {
+      "name": "dailyInspection",
+      "entry": "http://localhost:5071/mf-manifest.json",
+      "basePath": "/d/daily-inspection",
+      "config": {
+        "navigateCodes": [
+          "INSPECTION",
+          "INSPECTION_MANAGEMENT"
+        ],
+        "intentCodes": [
+          "INSPECTION",
+          "INSPECTION_MANAGEMENT"
+        ]
+      }
+    },
+    {
+      "name": "safetyDuty",
+      "entry": "http://localhost:5074/mf-manifest.json",
+      "basePath": "/d/safety-duty",
+      "config": {
+        "navigateCodes": [
+          "SAFETY_DUTY"
+        ],
+        "intentCodes": [
+          "SAFETY_DUTY"
+        ]
+      }
+    },
+    {
+      "name": "energyConsumption",
+      "entry": "http://localhost:5076/mf-manifest.json",
+      "basePath": "/d/energy-consumption",
+      "config": {
+        "applicationCode": "ENERGY_CONSUMPTION",
+        "navigateCodes": [
+          "ENERGY_CONSUMPTION",
+          "ENERGYMANAGEMENT"
+        ],
+        "intentCodes": [
+          "ENERGY_CONSUMPTION",
+          "ENERGYMANAGEMENT"
+        ]
+      }
+    },
+    {
+      "name": "lineLossManagement",
+      "entry": "http://localhost:5086/mf-manifest.json",
+      "basePath": "/d/line-loss-management",
+      "config": {
+        "applicationCode": "LINE_LOSS_MANAGEMENT",
+        "navigateCodes": [
+          "LINE_LOSS_MANAGEMENT"
+        ],
+        "intentCodes": [
+          "LINE_LOSS_MANAGEMENT"
+        ]
+      }
+    },
+    {
+      "name": "attendance",
+      "entry": "http://localhost:5187/mf-manifest.json",
+      "basePath": "/d/attendance",
+      "config": {
+        "applicationCode": "ATTENDANCE_MANAGEMENT",
+        "navigateCodes": [
+          "ATTENDANCE_MANAGEMENT"
+        ],
+        "intentCodes": [
+          "ATTENDANCE_MANAGEMENT"
+        ]
+      }
+    },
+    {
+      "name": "workbench",
+      "entry": "http://localhost:5078/mf-manifest.json",
+      "basePath": "/d/workbench",
+      "config": {
+        "applicationCode": "workbench"
+      }
+    },
+    {
+      "name": "broadcastCenter",
+      "entry": "http://localhost:5080/mf-manifest.json",
+      "basePath": "/d/broadcast-center",
+      "config": {
+        "applicationCode": "BROADCAST_CENTER",
+        "navigateCodes": [
+          "BROADCASTCENTER",
+          "BROADCAST_CENTER"
+        ],
+        "intentCodes": [
+          "BROADCASTCENTER",
+          "BROADCAST_CENTER"
+        ]
+      }
+    },
+    {
+      "name": "pocRemotePc",
+      "entry": "http://localhost:5002/mf-manifest.json",
+      "basePath": "/poc-remote"
+    }
+  ],
+  "backendApiBaseUrl": "",
+  "staticResourceBaseUrl": "https://r.kaiheai.com"
+}

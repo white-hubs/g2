@@ -1,0 +1,1 @@
+import"http://localhost:5100/_mf/runtime/2.8.0/mf-runtime.js";var e={},t=[];export{t as usedRemotes,e as usedShared};

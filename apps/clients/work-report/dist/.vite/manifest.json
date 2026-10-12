@@ -1,0 +1,116 @@
+{
+  "../../../contracts/work-report/src/main.ts": {
+    "file": "assets/main-BvRk9kiK.js",
+    "name": "main",
+    "src": "../../../contracts/work-report/src/main.ts",
+    "isDynamicEntry": true
+  },
+  "../../../packages/composition-contract/src/index.ts": {
+    "file": "assets/src-cEcQdaRR.js",
+    "name": "src",
+    "src": "../../../packages/composition-contract/src/index.ts",
+    "isDynamicEntry": true
+  },
+  "_client-BTk-aQOL.js": {
+    "file": "assets/client-BTk-aQOL.js",
+    "name": "client"
+  },
+  "_virtual_mf-REMOTE_ENTRY_ID___mfe_internal__workReportClient__remoteEntry_js-I4TELQMn.js": {
+    "file": "assets/virtual_mf-REMOTE_ENTRY_ID___mfe_internal__workReportClient__remoteEntry_js-I4TELQMn.js",
+    "name": "virtual_mf-REMOTE_ENTRY_ID___mfe_internal__workReportClient__remoteEntry_js",
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "virtual:mf-localSharedImportMap:__mfe_internal__workReportClient",
+      "_virtual_mf-exposes___mfe_internal__workReportClient__remoteEntry_js-DggE_M41.js"
+    ]
+  },
+  "_virtual_mf-exposes___mfe_internal__workReportClient__remoteEntry_js-DggE_M41.js": {
+    "file": "assets/virtual_mf-exposes___mfe_internal__workReportClient__remoteEntry_js-DggE_M41.js",
+    "name": "virtual_mf-exposes___mfe_internal__workReportClient__remoteEntry_js",
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "_client-BTk-aQOL.js"
+    ]
+  },
+  "_vite-preload-helper-7P2xnrDv.js": {
+    "file": "assets/vite-preload-helper-7P2xnrDv.js",
+    "name": "vite-preload-helper"
+  },
+  "src/client.ts": {
+    "file": "assets/client-D-jrE2TU.js",
+    "name": "client",
+    "src": "src/client.ts",
+    "isEntry": true,
+    "imports": [
+      "_client-BTk-aQOL.js"
+    ]
+  },
+  "virtual:mf-REMOTE_ENTRY_ID:__mfe_internal__workReportClient__remoteEntry_js": {
+    "file": "remoteEntry.js",
+    "name": "remoteEntry",
+    "src": "virtual:mf-REMOTE_ENTRY_ID:__mfe_internal__workReportClient__remoteEntry_js",
+    "imports": [
+      "_virtual_mf-REMOTE_ENTRY_ID___mfe_internal__workReportClient__remoteEntry_js-I4TELQMn.js"
+    ]
+  },
+  "virtual:mf-REMOTE_ENTRY_SSR_ID:__mfe_internal__workReportClient__remoteEntry_js": {
+    "file": "remoteEntry.ssr.js",
+    "name": "ssrRemoteEntry",
+    "src": "virtual:mf-REMOTE_ENTRY_SSR_ID:__mfe_internal__workReportClient__remoteEntry_js",
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "virtual:mf-exposes-ssr:__mfe_internal__workReportClient__remoteEntry_js"
+    ]
+  },
+  "virtual:mf-exposes-ssr:__mfe_internal__workReportClient__remoteEntry_js": {
+    "file": "assets/virtual_mf-exposes-ssr___mfe_internal__workReportClient__remoteEntry_js-BhlGY1tv.js",
+    "name": "virtual_mf-exposes-ssr___mfe_internal__workReportClient__remoteEntry_js",
+    "src": "virtual:mf-exposes-ssr:__mfe_internal__workReportClient__remoteEntry_js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "_client-BTk-aQOL.js"
+    ]
+  },
+  "virtual:mf-exposes:__mfe_internal__workReportClient__remoteEntry_js": {
+    "file": "assets/virtualExposes-COAmL97X.js",
+    "name": "virtualExposes",
+    "src": "virtual:mf-exposes:__mfe_internal__workReportClient__remoteEntry_js",
+    "imports": [
+      "_virtual_mf-exposes___mfe_internal__workReportClient__remoteEntry_js-DggE_M41.js"
+    ]
+  },
+  "virtual:mf-localSharedImportMap:__mfe_internal__workReportClient": {
+    "file": "assets/_virtual_mf-localSharedImportMap___mfe_internal__workReportClient-5rWKkePc.js",
+    "name": "_virtual_mf-localSharedImportMap___mfe_internal__workReportClient",
+    "src": "virtual:mf-localSharedImportMap:__mfe_internal__workReportClient",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "../../../packages/composition-contract/src/index.ts",
+      "../../../contracts/work-report/src/main.ts"
+    ]
+  },
+  "virtual:mf:__mfe_internal__workReportClient__H_A_I__hostAutoInit__H_A_I__.js": {
+    "file": "assets/hostInit-CxUc61Of.js",
+    "name": "hostInit",
+    "src": "virtual:mf:__mfe_internal__workReportClient__H_A_I__hostAutoInit__H_A_I__.js",
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "_virtual_mf-REMOTE_ENTRY_ID___mfe_internal__workReportClient__remoteEntry_js-I4TELQMn.js",
+      "virtual:mf-localSharedImportMap:__mfe_internal__workReportClient"
+    ]
+  }
+}

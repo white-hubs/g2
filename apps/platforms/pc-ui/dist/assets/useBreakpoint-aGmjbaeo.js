@@ -1,0 +1,1 @@
+import{N as e,h as t,m as n}from"./_virtual_mf___mfe_internal__pcUi__loadShare__vue__loadShare__.js-pr0wfuk8.js";import{n as r}from"./responsiveObserve-BON_GLjS.js";function i(){let i=e({}),a=null,o=r();return n(()=>{a=o.value.subscribe(e=>{i.value=e})}),t(()=>{o.value.unsubscribe(a)}),i}export{i as t};

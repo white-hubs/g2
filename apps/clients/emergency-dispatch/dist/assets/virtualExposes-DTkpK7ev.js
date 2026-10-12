@@ -1,0 +1,1 @@
+import{t as e}from"./virtual_mf-exposes___mfe_internal__emergencyDispatchClient__remoteEntry_js-5x2PiJmE.js";export{e as default};

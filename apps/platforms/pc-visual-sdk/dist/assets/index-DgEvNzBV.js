@@ -1,0 +1,1 @@
+import"./virtual_mf-exposes___mfe_internal__pcVisualSdk__remoteEntry_js--Qw54SrJ.js";import"./virtual_mf-REMOTE_ENTRY_ID___mfe_internal__pcVisualSdk__remoteEntry_js-DklI5utp.js";document.querySelector(`#app`).textContent=`@g2-platform/pc-visual-sdk build shell`;

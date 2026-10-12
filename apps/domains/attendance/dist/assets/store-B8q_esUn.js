@@ -1,0 +1,1 @@
+import{_ as e}from"./_virtual_mf___mfe_internal__attendance__loadShare__vue__loadShare__.js-Du1-xnCP.js";var t=e({permissionId:``,functionsCodes:[]}),n=()=>t;export{n as t};

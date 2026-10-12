@@ -1,0 +1,1 @@
+import{n as e,t}from"./client-CXC5BvRL.js";export{t as create,e as createTechnicalBulletinClient};

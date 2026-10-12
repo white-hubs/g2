@@ -1,0 +1,2 @@
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["assets/styles-BD7yotdW.css"])))=>i.map(i=>d[i]);
+import{t as e}from"./vite-preload-helper-D6lZCLzY.js";import{i as t}from"./context-Dk8ewcTV.js";async function n(n,r){t(n,r);let[i,a]=await Promise.all([e(()=>import(`./pages-FnH-Qy39.js`),__vite__mapDeps([0])),e(()=>import(`./editor-BZCz5dt8.js`),__vite__mapDeps([0]))]);return{getPage:e=>{let t=i.pages[e];if(!t)throw Error(`安全教育页面未注册：${e}`);return t},createEditor:a.createEditor}}export{n as create};

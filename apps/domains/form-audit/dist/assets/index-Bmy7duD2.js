@@ -1,0 +1,1 @@
+import"./virtual_mf-exposes___mfe_internal__formAudit__remoteEntry_js-BzSM6zC3.js";import"./virtual_mf-REMOTE_ENTRY_ID___mfe_internal__formAudit__remoteEntry_js-TixKNusx.js";document.querySelector(`#app`).textContent=`@g2-domain/form-audit build shell`;

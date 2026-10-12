@@ -1,0 +1,30 @@
+{
+  "name": "@g2-domain/todo-center",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "bun ../../../tooling/dev-link/cli.ts",
+    "dev:serve": "bun --bun vite --port 5300 --strictPort",
+    "build": "bun --bun vite build",
+    "preview": "bun --bun vite preview --port 5300 --strictPort",
+    "test": "bun test",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  },
+  "dependencies": {
+    "@g2-client/todo-center": "workspace:*",
+    "@g2-composition/contract": "workspace:*",
+    "@g2-contract/todo-center": "workspace:*",
+    "vue": "catalog:vue",
+    "vue-router": "catalog:vue"
+  },
+  "devDependencies": {
+    "@g2-platform/pc-chart": "workspace:*",
+    "@g2-platform/pc-ui": "workspace:*",
+    "@g2-tooling/mf-vite": "workspace:*",
+    "@vitejs/plugin-vue-jsx": "catalog:vite",
+    "less": "^4.4.2",
+    "typescript": "catalog:typescript",
+    "vite": "catalog:vite"
+  }
+}

@@ -1,0 +1,35 @@
+$ bun --bun vite build
+vite v8.1.5 building client environment for production...
+[2Ktransforming...✓ 30 modules transformed.
+rendering chunks...
+[ Module Federation DTS ] tempTsConfigJsonPath: /Users/quan/Desktop/主应用/g2/apps/clients/attendance/node_modules/.federation/tsconfig.a8e998fb8d9325e396cd5cacefaf866d.json Stack trace:
+    at <anonymous> (/Users/quan/.bun/install/cache/links/@module-federation+dts-plugin@2.8.0+7524df1edfed9f02-7099747e722643af/node_modules/@module-federation/dts-plugin/dist/esm/expose-rpc-B0rqtOKP.mjs:630:11)
+    at generateTypes (/Users/quan/.bun/install/cache/links/@module-federation+dts-plugin@2.8.0+7524df1edfed9f02-7099747e722643af/node_modules/@module-federation/dts-plugin/dist/esm/expose-rpc-B0rqtOKP.mjs:912:10)
+    at processTicksAndRejections (native:7:39)
+[ Module Federation DTS ] Federated types created correctly Stack trace:
+    at generateTypes (/Users/quan/.bun/install/cache/links/@module-federation+dts-plugin@2.8.0+7524df1edfed9f02-7099747e722643af/node_modules/@module-federation/dts-plugin/dist/esm/expose-rpc-B0rqtOKP.mjs:928:13)
+    at processTicksAndRejections (native:7:39)
+computing gzip size...
+dist/index.html                                                                                       0.65 kB │ gzip: 0.26 kB
+dist/mf-manifest.json                                                                                 0.66 kB │ gzip: 0.29 kB
+dist/assets/mf-entry-bootstrap-0-7009a376.js                                                          1.36 kB
+dist/assets/mf-entry-bootstrap-2-6b3cd28d.js                                                          1.38 kB
+dist/assets/mf-entry-bootstrap-1-b4b96ba9.js                                                          1.41 kB
+dist/assets/mf-entry-bootstrap-3-fd680bae.js                                                          1.42 kB
+dist/mf-stats.json                                                                                    2.43 kB │ gzip: 0.70 kB
+dist/.vite/manifest.json                                                                              3.90 kB │ gzip: 0.56 kB
+dist/assets/client-C2gXaVJQ.js                                                                        0.09 kB │ gzip: 0.09 kB
+dist/assets/_virtual_mf-localSharedImportMap___mfe_internal__attendanceClient-CcdcYaa2.js             0.11 kB │ gzip: 0.11 kB
+dist/assets/virtualExposes-Bacoe4jj.js                                                                0.12 kB │ gzip: 0.12 kB
+dist/remoteEntry.js                                                                                   0.14 kB │ gzip: 0.14 kB
+dist/assets/virtual_mf-exposes-ssr___mfe_internal__attendanceClient__remoteEntry_js-DjkYZrsD.js       0.25 kB │ gzip: 0.22 kB
+dist/assets/virtual_mf-exposes___mfe_internal__attendanceClient__remoteEntry_js-DV7WbhE3.js           0.94 kB │ gzip: 0.58 kB
+dist/remoteEntry.ssr.js                                                                               1.01 kB │ gzip: 0.58 kB
+dist/assets/vite-preload-helper-7P2xnrDv.js                                                           1.41 kB │ gzip: 0.75 kB
+dist/assets/hostInit-BW3GyDZc.js                                                                      2.29 kB │ gzip: 1.09 kB
+dist/assets/client-tHcYFDl1.js                                                                       13.92 kB │ gzip: 3.28 kB
+dist/assets/virtual_mf-REMOTE_ENTRY_ID___mfe_internal__attendanceClient__remoteEntry_js-CHY7a13m.js  14.09 kB │ gzip: 4.73 kB
+
+[33m[PLUGIN_TIMINGS] [0mYour build spent significant time in plugin `module-federation-dts-build`. See https://rolldown.rs/reference/InputOptions.checks#plugintimings for more details.
+
+✓ built in 42.85s

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:scada="http://cube-scada.io/ns/v1"
+     viewBox="0 0 200 120"
+     width="200"
+     height="120">
+  <metadata>
+    <scada:element>
+      <scada:meta type="product-property-panel" label="&#x4EA7;&#x54C1;&#x5C5E;&#x6027;&#x9762;&#x677F;" category="&#x57FA;&#x7840;&#x56FE;&#x5F62;" version="1.0.0" inlinePropertyPanel="true"/>
+      <scada:props>
+        <scada:prop name="displayBody" type="string" label="&#x5C55;&#x793A;&#x5185;&#x5BB9;" default="&#xFF08;&#x672A;&#x7ED1;&#x5B9A;&#x4EA7;&#x54C1;&#x5B57;&#x6BB5;&#xFF09;" domain="observe" semantic="display.content" required="false" bindable="false" controllable="false"/>
+        <scada:prop name="fontSize" type="number" label="&#x5B57;&#x53F7;" default="12" min="8" max="24" domain="observe" semantic="display.fontSize" required="false" bindable="false" controllable="false"/>
+        <scada:prop name="fill" type="color" label="&#x6587;&#x5B57;&#x989C;&#x8272;" default="#1a1a1a" domain="observe" semantic="style.fill" required="false" bindable="false" controllable="false"/>
+        <scada:prop name="panelFill" type="color" label="&#x9762;&#x677F;&#x80CC;&#x666F;" default="#f7f9fc" domain="observe" semantic="style.bodyColor" required="false" bindable="false" controllable="false"/>
+        <scada:prop name="stroke" type="color" label="&#x8FB9;&#x6846;&#x8272;" default="#d9d9d9" domain="observe" semantic="style.stroke" required="false" bindable="false" controllable="false"/>
+      </scada:props>
+      <scada:mappings>
+        <scada:map prop="displayBody" selector="#panel-text" attr="textContent"/>
+        <scada:map prop="fontSize" selector="#panel-text" attr="font-size"/>
+        <scada:map prop="fill" selector="#panel-text" attr="fill"/>
+        <scada:map prop="panelFill" selector="#panel-bg" attr="fill"/>
+        <scada:map prop="stroke" selector="#panel-bg" attr="stroke"/>
+      </scada:mappings>
+      <scada:animations/>
+    </scada:element>
+  </metadata>
+  <rect id="panel-bg" x="1" y="1" width="198" height="118" rx="4" fill="#f7f9fc" stroke="#d9d9d9" stroke-width="1"/>
+  <foreignObject x="1" y="1" width="198" height="118">
+    <div xmlns="http://www.w3.org/1999/xhtml" id="panel-text" style="box-sizing:border-box;width:100%;height:100%;margin:0;padding:8px 10px;overflow-x:hidden;overflow-y:auto;-webkit-overflow-scrolling:touch;display:flex;flex-direction:column;align-items:stretch;justify-content:flex-start;white-space:pre-wrap;word-break:break-word;overflow-wrap:anywhere;line-height:1.5;font-size:12px;color:#1a1a1a;border-radius:4px;font-family:system-ui,-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Roboto,sans-serif;">&#xFF08;&#x672A;&#x7ED1;&#x5B9A;&#x4EA7;&#x54C1;&#x5B57;&#x6BB5;&#xFF09;</div>
+  </foreignObject>
+</svg>

@@ -1,0 +1,292 @@
+{
+  "__virtual_mf___mfe_internal__formAudit__loadShare__vue__loadShare__.js-Dxc8Ldsc.js": {
+    "file": "assets/_virtual_mf___mfe_internal__formAudit__loadShare__vue__loadShare__.js-Dxc8Ldsc.js",
+    "name": "_virtual_mf___mfe_internal__formAudit__loadShare__vue__loadShare__.js",
+    "imports": [
+      "_rolldown-runtime-DK3Fl9T5.js"
+    ]
+  },
+  "__virtual_mf___mfe_internal__formAudit__loadShare__vue_mf_2_router__loadShare__.js-CV-wcYt9.js": {
+    "file": "assets/_virtual_mf___mfe_internal__formAudit__loadShare__vue_mf_2_router__loadShare__.js-CV-wcYt9.js",
+    "name": "_virtual_mf___mfe_internal__formAudit__loadShare__vue_mf_2_router__loadShare__.js",
+    "imports": [
+      "_rolldown-runtime-DK3Fl9T5.js",
+      "__virtual_mf___mfe_internal__formAudit__loadShare__vue__loadShare__.js-Dxc8Ldsc.js"
+    ]
+  },
+  "_pc-ui-runtime-Bf5KD6U3.js": {
+    "file": "assets/pc-ui-runtime-Bf5KD6U3.js",
+    "name": "pc-ui-runtime"
+  },
+  "_rolldown-runtime-DK3Fl9T5.js": {
+    "file": "assets/rolldown-runtime-DK3Fl9T5.js",
+    "name": "rolldown-runtime"
+  },
+  "_shared-1n5itrlT.js": {
+    "file": "assets/shared-1n5itrlT.js",
+    "name": "shared"
+  },
+  "_virtual_mf-REMOTE_ENTRY_ID___mfe_internal__formAudit__remoteEntry_js-TixKNusx.js": {
+    "file": "assets/virtual_mf-REMOTE_ENTRY_ID___mfe_internal__formAudit__remoteEntry_js-TixKNusx.js",
+    "name": "virtual_mf-REMOTE_ENTRY_ID___mfe_internal__formAudit__remoteEntry_js",
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "virtual:mf-localSharedImportMap:__mfe_internal__formAudit",
+      "_virtual_mf-exposes___mfe_internal__formAudit__remoteEntry_js-BzSM6zC3.js"
+    ]
+  },
+  "_virtual_mf-exposes___mfe_internal__formAudit__remoteEntry_js-BzSM6zC3.js": {
+    "file": "assets/virtual_mf-exposes___mfe_internal__formAudit__remoteEntry_js-BzSM6zC3.js",
+    "name": "virtual_mf-exposes___mfe_internal__formAudit__remoteEntry_js",
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "src/domain.ts"
+    ]
+  },
+  "_vite-preload-helper-7P2xnrDv.js": {
+    "file": "assets/vite-preload-helper-7P2xnrDv.js",
+    "name": "vite-preload-helper"
+  },
+  "index.html": {
+    "file": "assets/index-Bmy7duD2.js",
+    "name": "index",
+    "src": "index.html",
+    "isEntry": true,
+    "imports": [
+      "_virtual_mf-exposes___mfe_internal__formAudit__remoteEntry_js-BzSM6zC3.js",
+      "_virtual_mf-REMOTE_ENTRY_ID___mfe_internal__formAudit__remoteEntry_js-TixKNusx.js"
+    ]
+  },
+  "src/domain.ts": {
+    "file": "assets/domain-CpmgEp1R.js",
+    "name": "domain",
+    "src": "src/domain.ts",
+    "isEntry": true,
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js",
+      "__virtual_mf___mfe_internal__formAudit__loadShare__vue__loadShare__.js-Dxc8Ldsc.js",
+      "__virtual_mf___mfe_internal__formAudit__loadShare__vue_mf_2_router__loadShare__.js-CV-wcYt9.js",
+      "_shared-1n5itrlT.js"
+    ],
+    "dynamicImports": [
+      "src/views/work-order-library.tsx",
+      "src/views/work-order-list.tsx",
+      "src/views/work-order-statistics.tsx",
+      "src/views/form-config.tsx",
+      "src/views/assessment-rules.tsx",
+      "src/views/assessment-statistics.tsx",
+      "src/views/work-order-approval.tsx",
+      "src/views/assessment-rule-form.tsx",
+      "src/views/assessment-scoring.tsx",
+      "src/views/assessment-scoring-detail.tsx"
+    ],
+    "css": [
+      "assets/domain-CHm0VOLx.css"
+    ]
+  },
+  "src/views/assessment-rule-form.tsx": {
+    "file": "assets/assessment-rule-form-Q4WruPiH.js",
+    "name": "assessment-rule-form",
+    "src": "src/views/assessment-rule-form.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__formAudit__loadShare__vue__loadShare__.js-Dxc8Ldsc.js",
+      "__virtual_mf___mfe_internal__formAudit__loadShare__vue_mf_2_router__loadShare__.js-CV-wcYt9.js",
+      "_pc-ui-runtime-Bf5KD6U3.js",
+      "_shared-1n5itrlT.js"
+    ]
+  },
+  "src/views/assessment-rules.tsx": {
+    "file": "assets/assessment-rules-dk_dOCjm.js",
+    "name": "assessment-rules",
+    "src": "src/views/assessment-rules.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__formAudit__loadShare__vue__loadShare__.js-Dxc8Ldsc.js",
+      "__virtual_mf___mfe_internal__formAudit__loadShare__vue_mf_2_router__loadShare__.js-CV-wcYt9.js",
+      "_pc-ui-runtime-Bf5KD6U3.js",
+      "_shared-1n5itrlT.js"
+    ]
+  },
+  "src/views/assessment-scoring-detail.tsx": {
+    "file": "assets/assessment-scoring-detail-CS1rByBu.js",
+    "name": "assessment-scoring-detail",
+    "src": "src/views/assessment-scoring-detail.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__formAudit__loadShare__vue__loadShare__.js-Dxc8Ldsc.js",
+      "__virtual_mf___mfe_internal__formAudit__loadShare__vue_mf_2_router__loadShare__.js-CV-wcYt9.js",
+      "_pc-ui-runtime-Bf5KD6U3.js",
+      "_shared-1n5itrlT.js"
+    ]
+  },
+  "src/views/assessment-scoring.tsx": {
+    "file": "assets/assessment-scoring-C87Pxo2l.js",
+    "name": "assessment-scoring",
+    "src": "src/views/assessment-scoring.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__formAudit__loadShare__vue__loadShare__.js-Dxc8Ldsc.js",
+      "__virtual_mf___mfe_internal__formAudit__loadShare__vue_mf_2_router__loadShare__.js-CV-wcYt9.js",
+      "_pc-ui-runtime-Bf5KD6U3.js",
+      "_shared-1n5itrlT.js"
+    ]
+  },
+  "src/views/assessment-statistics.tsx": {
+    "file": "assets/assessment-statistics-Cw2NMyow.js",
+    "name": "assessment-statistics",
+    "src": "src/views/assessment-statistics.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__formAudit__loadShare__vue__loadShare__.js-Dxc8Ldsc.js",
+      "__virtual_mf___mfe_internal__formAudit__loadShare__vue_mf_2_router__loadShare__.js-CV-wcYt9.js",
+      "_pc-ui-runtime-Bf5KD6U3.js",
+      "_shared-1n5itrlT.js"
+    ]
+  },
+  "src/views/form-config.tsx": {
+    "file": "assets/form-config-DA99BVqo.js",
+    "name": "form-config",
+    "src": "src/views/form-config.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__formAudit__loadShare__vue__loadShare__.js-Dxc8Ldsc.js",
+      "__virtual_mf___mfe_internal__formAudit__loadShare__vue_mf_2_router__loadShare__.js-CV-wcYt9.js",
+      "_pc-ui-runtime-Bf5KD6U3.js",
+      "_shared-1n5itrlT.js"
+    ]
+  },
+  "src/views/work-order-approval.tsx": {
+    "file": "assets/work-order-approval-Be6jQKz4.js",
+    "name": "work-order-approval",
+    "src": "src/views/work-order-approval.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__formAudit__loadShare__vue__loadShare__.js-Dxc8Ldsc.js",
+      "__virtual_mf___mfe_internal__formAudit__loadShare__vue_mf_2_router__loadShare__.js-CV-wcYt9.js",
+      "_pc-ui-runtime-Bf5KD6U3.js",
+      "_shared-1n5itrlT.js"
+    ]
+  },
+  "src/views/work-order-library.tsx": {
+    "file": "assets/work-order-library-gQGXbgDg.js",
+    "name": "work-order-library",
+    "src": "src/views/work-order-library.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__formAudit__loadShare__vue__loadShare__.js-Dxc8Ldsc.js",
+      "__virtual_mf___mfe_internal__formAudit__loadShare__vue_mf_2_router__loadShare__.js-CV-wcYt9.js",
+      "_pc-ui-runtime-Bf5KD6U3.js",
+      "_shared-1n5itrlT.js"
+    ]
+  },
+  "src/views/work-order-list.tsx": {
+    "file": "assets/work-order-list-DVaxrDod.js",
+    "name": "work-order-list",
+    "src": "src/views/work-order-list.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__formAudit__loadShare__vue__loadShare__.js-Dxc8Ldsc.js",
+      "__virtual_mf___mfe_internal__formAudit__loadShare__vue_mf_2_router__loadShare__.js-CV-wcYt9.js",
+      "_pc-ui-runtime-Bf5KD6U3.js",
+      "_shared-1n5itrlT.js"
+    ]
+  },
+  "src/views/work-order-statistics.tsx": {
+    "file": "assets/work-order-statistics-CFAVGZKi.js",
+    "name": "work-order-statistics",
+    "src": "src/views/work-order-statistics.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__formAudit__loadShare__vue__loadShare__.js-Dxc8Ldsc.js",
+      "_pc-ui-runtime-Bf5KD6U3.js",
+      "_shared-1n5itrlT.js"
+    ]
+  },
+  "virtual:mf-REMOTE_ENTRY_ID:__mfe_internal__formAudit__remoteEntry_js": {
+    "file": "remoteEntry.js",
+    "name": "remoteEntry",
+    "src": "virtual:mf-REMOTE_ENTRY_ID:__mfe_internal__formAudit__remoteEntry_js",
+    "imports": [
+      "_virtual_mf-REMOTE_ENTRY_ID___mfe_internal__formAudit__remoteEntry_js-TixKNusx.js"
+    ]
+  },
+  "virtual:mf-REMOTE_ENTRY_SSR_ID:__mfe_internal__formAudit__remoteEntry_js": {
+    "file": "remoteEntry.ssr.js",
+    "name": "ssrRemoteEntry",
+    "src": "virtual:mf-REMOTE_ENTRY_SSR_ID:__mfe_internal__formAudit__remoteEntry_js",
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "virtual:mf-exposes-ssr:__mfe_internal__formAudit__remoteEntry_js"
+    ]
+  },
+  "virtual:mf-exposes-ssr:__mfe_internal__formAudit__remoteEntry_js": {
+    "file": "assets/virtual_mf-exposes-ssr___mfe_internal__formAudit__remoteEntry_js-DRA4OqYD.js",
+    "name": "virtual_mf-exposes-ssr___mfe_internal__formAudit__remoteEntry_js",
+    "src": "virtual:mf-exposes-ssr:__mfe_internal__formAudit__remoteEntry_js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "src/domain.ts"
+    ]
+  },
+  "virtual:mf-exposes:__mfe_internal__formAudit__remoteEntry_js": {
+    "file": "assets/virtualExposes-DuCZHyCM.js",
+    "name": "virtualExposes",
+    "src": "virtual:mf-exposes:__mfe_internal__formAudit__remoteEntry_js",
+    "imports": [
+      "_virtual_mf-exposes___mfe_internal__formAudit__remoteEntry_js-BzSM6zC3.js"
+    ]
+  },
+  "virtual:mf-localSharedImportMap:__mfe_internal__formAudit": {
+    "file": "assets/_virtual_mf-localSharedImportMap___mfe_internal__formAudit-R0ZfY_LB.js",
+    "name": "_virtual_mf-localSharedImportMap___mfe_internal__formAudit",
+    "src": "virtual:mf-localSharedImportMap:__mfe_internal__formAudit",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "__virtual_mf___mfe_internal__formAudit__loadShare__vue__loadShare__.js-Dxc8Ldsc.js",
+      "__virtual_mf___mfe_internal__formAudit__loadShare__vue_mf_2_router__loadShare__.js-CV-wcYt9.js"
+    ]
+  },
+  "virtual:mf:__mfe_internal__formAudit__H_A_I__hostAutoInit__H_A_I__.js": {
+    "file": "assets/hostInit-D0KyC1ea.js",
+    "name": "hostInit",
+    "src": "virtual:mf:__mfe_internal__formAudit__H_A_I__hostAutoInit__H_A_I__.js",
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "_virtual_mf-REMOTE_ENTRY_ID___mfe_internal__formAudit__remoteEntry_js-TixKNusx.js",
+      "virtual:mf-localSharedImportMap:__mfe_internal__formAudit"
+    ]
+  },
+  "virtual:mf:__mfe_internal__formAudit__prebuild__vue__prebuild__.js": {
+    "file": "assets/_virtual_mf___mfe_internal__formAudit__prebuild__vue__prebuild__-BGPwTUL2.js",
+    "name": "_virtual_mf___mfe_internal__formAudit__prebuild__vue__prebuild__",
+    "src": "virtual:mf:__mfe_internal__formAudit__prebuild__vue__prebuild__.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__formAudit__loadShare__vue__loadShare__.js-Dxc8Ldsc.js"
+    ]
+  },
+  "virtual:mf:__mfe_internal__formAudit__prebuild__vue_mf_2_router__prebuild__.js": {
+    "file": "assets/_virtual_mf___mfe_internal__formAudit__prebuild__vue_mf_2_router__prebuild__-C1fD18X2.js",
+    "name": "_virtual_mf___mfe_internal__formAudit__prebuild__vue_mf_2_router__prebuild__",
+    "src": "virtual:mf:__mfe_internal__formAudit__prebuild__vue_mf_2_router__prebuild__.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__formAudit__loadShare__vue_mf_2_router__loadShare__.js-CV-wcYt9.js"
+    ]
+  }
+}

@@ -1,0 +1,61 @@
+.user-welcome {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 92px;
+  padding: 0 24px;
+  border-radius: 12px;
+  background:
+    linear-gradient(
+      135deg,
+      transparent 0 34%,
+      rgba(186, 210, 255, 0.07) 42%,
+      rgba(186, 210, 255, 0.18) 50%,
+      rgba(186, 210, 255, 0.07) 58%,
+      transparent 66%
+    ),
+    var(--workbench-welcome-bg);
+  color: var(--workbench-welcome-text, #1d2b42);
+}
+
+.user-welcome__identity {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  font-size: 15px;
+}
+
+.user-welcome__identity strong {
+  font-size: 20px;
+}
+
+.user-welcome__identity small {
+  display: block;
+  margin-top: 7px;
+  color: var(--workbench-welcome-muted, #65758d);
+  font-size: 13px;
+}
+
+.user-welcome__avatar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  border: 2px solid var(--g2-color-surface-bg, #fff);
+  border-radius: 50%;
+  background: var(--cube-theme-var--primary-1, #eaf3ff);
+  color: var(--cube-theme-var--primary-color, #2478ff);
+  font-size: 18px;
+  overflow: hidden;
+}
+
+.user-welcome__date {
+  color: var(--workbench-welcome-muted, #40526d);
+  font-size: 14px;
+}
+
+.user-welcome__date svg {
+  color: var(--cube-theme-var--primary-color, #2478ff);
+  margin-right: 5px;
+}

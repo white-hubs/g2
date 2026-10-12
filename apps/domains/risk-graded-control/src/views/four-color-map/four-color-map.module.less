@@ -1,0 +1,77 @@
+.page {
+  box-sizing: border-box;
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+  min-height: 0;
+  min-width: 0;
+  width: 100%;
+  padding-bottom: 16px;
+}
+
+.statsRow {
+  margin-bottom: 16px;
+}
+
+.statCard {
+  transition:
+    border-color 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.statLabel {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  color: #666;
+  font-size: 14px;
+}
+
+.statSwatch {
+  width: 12px;
+  height: 12px;
+  border-radius: 2px;
+}
+
+.statValue {
+  margin-top: 8px;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.statUnit {
+  margin-left: 4px;
+  color: #999;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.mapShell {
+  position: relative;
+  overflow: visible;
+  border-radius: 8px;
+}
+
+.filterToolbar {
+  margin-bottom: 16px;
+}
+
+.tableSection {
+  :global(.tableWrap) {
+    max-height: none;
+    overflow: visible;
+  }
+}
+
+.tablePagination {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 16px;
+}
+
+.rowActive {
+  :global(td) {
+    background: var(--cube-theme-var--primary-1, #e6f4ff) !important;
+  }
+}

@@ -1,0 +1,69 @@
+.wrap {
+  position: relative;
+  height: 320px;
+  border-radius: 12px;
+  overflow: hidden;
+  background: #f0f4ff;
+  margin-bottom: 16px;
+}
+
+.map {
+  width: 100%;
+  height: 100%;
+}
+
+.loadingMask {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(240, 244, 255, 0.85);
+  z-index: 400;
+}
+
+.overlay {
+  position: absolute;
+  left: 12px;
+  bottom: 12px;
+  background: rgba(255, 255, 255, 0.92);
+  padding: 8px 12px;
+  border-radius: 8px;
+  font-size: 13px;
+  color: #374151;
+  z-index: 500;
+}
+
+.trackMarker {
+  background: transparent;
+  border: 0;
+}
+
+.trackMarkerInner,
+.trackMarkerInnerStart,
+.trackMarkerInnerEnd {
+  align-items: center;
+  border: 2px solid #fff;
+  border-radius: 999px;
+  box-shadow: 0 4px 12px rgb(15 23 42 / 28%);
+  color: #fff;
+  display: inline-flex;
+  font-size: 12px;
+  font-weight: 700;
+  height: 26px;
+  justify-content: center;
+  line-height: 1;
+  min-width: 26px;
+}
+
+.trackMarkerInner {
+  background: #1677ff;
+}
+
+.trackMarkerInnerStart {
+  background: #16a34a;
+}
+
+.trackMarkerInnerEnd {
+  background: #ef4444;
+}

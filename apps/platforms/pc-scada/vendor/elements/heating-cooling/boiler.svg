@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:scada="https://cube-scada.guhecloud.com/ns/v1"
+     viewBox="0 0 200 280">
+
+  <metadata>
+    <scada:element>
+      <scada:meta type="boiler" label="锅炉" category="供热供冷" version="1.0.0"/>
+      <scada:props>
+        <scada:prop name="level" type="number" label="液位(%)"
+          default="30" min="0" max="100"
+          domain="observe" semantic="status.value"
+          required="false" bindable="true" controllable="false"/>
+        <scada:prop name="levelColor" type="color" label="液体颜色"
+          default="#3DAF60" domain="observe" semantic="style.bodyColor"
+          required="false" bindable="true" controllable="false"/>
+      </scada:props>
+      <scada:mappings>
+        <scada:map prop="level" selector="#liquid-fill" attr="y"
+          transform="String(238 - Math.round(146 * value / 100))"/>
+        <scada:map prop="level" selector="#liquid-fill" attr="height"
+          transform="String(Math.round(146 * value / 100))"/>
+        <scada:map prop="levelColor" selector="#liquid-fill" attr="fill"/>
+      </scada:mappings>
+      <scada:animations/>
+    </scada:element>
+  </metadata>
+
+  <defs>
+    <clipPath id="tank-clip">
+      <rect x="52" y="92" width="96" height="146"/>
+    </clipPath>
+  </defs>
+
+  <!-- Top inlet pipe: L-shape going up from dome then right -->
+  <g id="inlet-pipe">
+    <path d="M 104,76 L 104,43 Q 104,32 115,32 L 165,32"
+      fill="none" stroke="#1E4A60" stroke-width="20" stroke-linecap="round"
+      stroke-linejoin="round" opacity="0.4"/>
+    <path d="M 104,76 L 104,43 Q 104,32 115,32 L 165,32"
+      fill="none" stroke="#4A88B0" stroke-width="18" stroke-linecap="round"
+      stroke-linejoin="round"/>
+    <path d="M 102,76 L 102,45 Q 102,36 111,36 L 165,36"
+      fill="none" stroke="#7AAEC8" stroke-width="5" stroke-linecap="round"
+      stroke-linejoin="round" opacity="0.5"/>
+    <rect x="161" y="23" width="8" height="28" rx="3" fill="#2E6080" stroke="#1E4A5C" stroke-width="1"/>
+    <rect x="163" y="25" width="4" height="24" rx="1" fill="#4A7C98" stroke="none" opacity="0.5"/>
+  </g>
+
+  <!-- Dome cap: top of boiler -->
+  <g id="dome-cap">
+    <rect x="95" y="63" width="18" height="14" rx="3" fill="#8FA3AE" stroke="#607A87" stroke-width="1"/>
+    <ellipse cx="100" cy="78" rx="48" ry="16" fill="#C8CDD0" stroke="#8A9AA5" stroke-width="1.5"/>
+    <rect x="52" y="78" width="96" height="6" fill="#C8CDD0" stroke="none"/>
+    <ellipse cx="100" cy="77" rx="38" ry="9" fill="none" stroke="#E0E5E8" stroke-width="2.5" opacity="0.7"/>
+    <rect x="49" y="82" width="102" height="9" rx="2.5" fill="#8FA3AE" stroke="#607A87" stroke-width="1"/>
+    <rect x="51" y="83" width="98" height="3" rx="1" fill="#AEC0C8" stroke="none" opacity="0.6"/>
+  </g>
+
+  <!-- Tank body exterior -->
+  <g id="tank-body">
+    <rect x="49" y="89" width="102" height="151" rx="4" fill="#4A5E6B" stroke="#2E3F4B" stroke-width="1.5"/>
+    <rect x="138" y="90" width="11" height="149" rx="2" fill="#5A7080" stroke="none" opacity="0.6"/>
+    <rect x="52" y="92" width="96" height="148" rx="2" fill="#1E2E3B" stroke="none"/>
+    <rect x="130" y="92" width="16" height="148" rx="0" fill="#243646" stroke="none" opacity="0.8"/>
+  </g>
+
+  <!-- Liquid fill clipped to tank interior; default level=30% -->
+  <g id="liquid-group" clip-path="url(#tank-clip)">
+    <rect id="liquid-fill" x="52" y="194" width="96" height="44" fill="#3DAF60"/>
+    <rect x="52" y="194" width="96" height="3" fill="#6ED890" opacity="0.7" id="liquid-surface"/>
+  </g>
+
+  <!-- Scale marks on right side inside tank -->
+  <g id="scale-marks" stroke="#4A6070" stroke-width="1.5" stroke-linecap="round">
+    <line x1="134" y1="107" x2="145" y2="107"/>
+    <line x1="134" y1="127" x2="145" y2="127"/>
+    <line x1="134" y1="147" x2="145" y2="147"/>
+    <line x1="134" y1="167" x2="145" y2="167"/>
+    <line x1="134" y1="187" x2="145" y2="187"/>
+    <line x1="134" y1="207" x2="145" y2="207"/>
+    <line x1="134" y1="227" x2="145" y2="227"/>
+    <line x1="130" y1="97" x2="145" y2="97" stroke-width="1.5"/>
+    <line x1="130" y1="237" x2="145" y2="237" stroke-width="1.5"/>
+  </g>
+
+  <!-- Left outlet pipe: L-shape going left from body then down -->
+  <g id="outlet-pipe">
+    <path d="M 51,179 L 24,179 Q 13,179 13,190 L 13,234"
+      fill="none" stroke="#1E4A60" stroke-width="20" stroke-linecap="round"
+      stroke-linejoin="round" opacity="0.4"/>
+    <path d="M 51,179 L 24,179 Q 13,179 13,190 L 13,234"
+      fill="none" stroke="#4A88B0" stroke-width="18" stroke-linecap="round"
+      stroke-linejoin="round"/>
+    <path d="M 51,177 L 26,177 Q 17,177 17,186 L 17,234"
+      fill="none" stroke="#7AAEC8" stroke-width="5" stroke-linecap="round"
+      stroke-linejoin="round" opacity="0.5"/>
+    <rect x="5" y="231" width="28" height="8" rx="3" fill="#2E6080" stroke="#1E4A5C" stroke-width="1"/>
+    <rect x="7" y="233" width="24" height="4" rx="1" fill="#4A7C98" stroke="none" opacity="0.5"/>
+    <rect x="44" y="171" width="11" height="16" rx="2" fill="#2E6080" stroke="#1E4A5C" stroke-width="1"/>
+  </g>
+
+  <!-- Bottom filter and strainer -->
+  <g id="bottom-filter">
+    <rect x="57" y="240" width="86" height="26" rx="3.5" fill="#3B4A56" stroke="#2A3540" stroke-width="1.5"/>
+    <rect x="60" y="242" width="80" height="22" rx="2" fill="#2E3D49" stroke="none"/>
+    <line x1="72" y1="241" x2="72" y2="264" stroke="#1A2730" stroke-width="1.5"/>
+    <line x1="86" y1="241" x2="86" y2="264" stroke="#1A2730" stroke-width="1.5"/>
+    <line x1="100" y1="241" x2="100" y2="264" stroke="#1A2730" stroke-width="1.5"/>
+    <line x1="114" y1="241" x2="114" y2="264" stroke="#1A2730" stroke-width="1.5"/>
+    <line x1="128" y1="241" x2="128" y2="264" stroke="#1A2730" stroke-width="1.5"/>
+    <line x1="59" y1="250" x2="141" y2="250" stroke="#1A2730" stroke-width="1"/>
+    <line x1="59" y1="258" x2="141" y2="258" stroke="#1A2730" stroke-width="1"/>
+  </g>
+
+</svg>

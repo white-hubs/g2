@@ -1,0 +1,29 @@
+.message-config .flex-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.message-config .flex-column {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.message-config .flex-row-align-center {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+}
+.message-config .checkbox-margin {
+  margin-left: 15px;
+}
+.message-config .input-number-width {
+  width: 200px !important;
+}
+.message-config .inspect-type-width {
+  width: 200px;
+}
+.message-config .user-select-width {
+  width: 300px;
+}

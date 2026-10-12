@@ -1,0 +1,1 @@
+import{t as e}from"./virtual_mf-exposes___mfe_internal__logManagement__remoteEntry_js-B_kn7xIr.js";export{e as default};

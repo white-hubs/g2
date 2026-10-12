@@ -1,0 +1,1 @@
+import"./virtual_mf-exposes___mfe_internal__securityMonitor__remoteEntry_js-Bd8R0ByU.js";import"./virtual_mf-REMOTE_ENTRY_ID___mfe_internal__securityMonitor__remoteEntry_js-BLkLgsIO.js";document.querySelector(`#app`).textContent=`@g2-domain/security-monitor build shell`;

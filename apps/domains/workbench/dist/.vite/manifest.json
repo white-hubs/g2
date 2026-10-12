@@ -1,0 +1,212 @@
+{
+  "__virtual_mf___mfe_internal__workbench__loadShare__vue__loadShare__.js-C7NR11ch.js": {
+    "file": "assets/_virtual_mf___mfe_internal__workbench__loadShare__vue__loadShare__.js-C7NR11ch.js",
+    "name": "_virtual_mf___mfe_internal__workbench__loadShare__vue__loadShare__.js",
+    "imports": [
+      "_rolldown-runtime-QTnfLwEv.js"
+    ]
+  },
+  "__virtual_mf___mfe_internal__workbench__loadShare__vue_mf_2_router__loadShare__.js-5Wa1y_VQ.js": {
+    "file": "assets/_virtual_mf___mfe_internal__workbench__loadShare__vue_mf_2_router__loadShare__.js-5Wa1y_VQ.js",
+    "name": "_virtual_mf___mfe_internal__workbench__loadShare__vue_mf_2_router__loadShare__.js",
+    "imports": [
+      "_rolldown-runtime-QTnfLwEv.js",
+      "__virtual_mf___mfe_internal__workbench__loadShare__vue__loadShare__.js-C7NR11ch.js"
+    ]
+  },
+  "_pc-ui-runtime-D9gsocyQ.js": {
+    "file": "assets/pc-ui-runtime-D9gsocyQ.js",
+    "name": "pc-ui-runtime",
+    "imports": [
+      "__virtual_mf___mfe_internal__workbench__loadShare__vue__loadShare__.js-C7NR11ch.js"
+    ]
+  },
+  "_resolve-workbench-card-CzgxtPrE.css": {
+    "file": "assets/resolve-workbench-card-CzgxtPrE.css",
+    "src": "_resolve-workbench-card-CzgxtPrE.css"
+  },
+  "_resolve-workbench-card-D4xZyePt.js": {
+    "file": "assets/resolve-workbench-card-D4xZyePt.js",
+    "name": "resolve-workbench-card",
+    "imports": [
+      "_rolldown-runtime-QTnfLwEv.js",
+      "__virtual_mf___mfe_internal__workbench__loadShare__vue__loadShare__.js-C7NR11ch.js",
+      "__virtual_mf___mfe_internal__workbench__loadShare__vue_mf_2_router__loadShare__.js-5Wa1y_VQ.js",
+      "_resource-aXcEJZMF.js",
+      "_pc-ui-runtime-D9gsocyQ.js"
+    ],
+    "css": [
+      "assets/resolve-workbench-card-CzgxtPrE.css"
+    ],
+    "assets": [
+      "assets/robot-DufeoW5y.png"
+    ]
+  },
+  "_resource-aXcEJZMF.js": {
+    "file": "assets/resource-aXcEJZMF.js",
+    "name": "resource",
+    "imports": [
+      "_rolldown-runtime-QTnfLwEv.js"
+    ]
+  },
+  "_rolldown-runtime-QTnfLwEv.js": {
+    "file": "assets/rolldown-runtime-QTnfLwEv.js",
+    "name": "rolldown-runtime"
+  },
+  "_virtual_mf-REMOTE_ENTRY_ID___mfe_internal__workbench__remoteEntry_js-oKPq3V2p.js": {
+    "file": "assets/virtual_mf-REMOTE_ENTRY_ID___mfe_internal__workbench__remoteEntry_js-oKPq3V2p.js",
+    "name": "virtual_mf-REMOTE_ENTRY_ID___mfe_internal__workbench__remoteEntry_js",
+    "imports": [
+      "_vite-preload-helper-CiYy5CcS.js"
+    ],
+    "dynamicImports": [
+      "virtual:mf-localSharedImportMap:__mfe_internal__workbench",
+      "_virtual_mf-exposes___mfe_internal__workbench__remoteEntry_js-DGtM7sFw.js"
+    ]
+  },
+  "_virtual_mf-exposes___mfe_internal__workbench__remoteEntry_js-DGtM7sFw.js": {
+    "file": "assets/virtual_mf-exposes___mfe_internal__workbench__remoteEntry_js-DGtM7sFw.js",
+    "name": "virtual_mf-exposes___mfe_internal__workbench__remoteEntry_js",
+    "imports": [
+      "_vite-preload-helper-CiYy5CcS.js"
+    ],
+    "dynamicImports": [
+      "src/domain.ts"
+    ]
+  },
+  "_vite-preload-helper-CiYy5CcS.js": {
+    "file": "assets/vite-preload-helper-CiYy5CcS.js",
+    "name": "vite-preload-helper"
+  },
+  "index.html": {
+    "file": "assets/index-CSO0WXVy.js",
+    "name": "index",
+    "src": "index.html",
+    "isEntry": true,
+    "imports": [
+      "_virtual_mf-exposes___mfe_internal__workbench__remoteEntry_js-DGtM7sFw.js",
+      "_virtual_mf-REMOTE_ENTRY_ID___mfe_internal__workbench__remoteEntry_js-oKPq3V2p.js"
+    ]
+  },
+  "src/assets/images/robot.png": {
+    "file": "assets/robot-DufeoW5y.png",
+    "src": "src/assets/images/robot.png"
+  },
+  "src/domain.ts": {
+    "file": "assets/domain-CNUuqDp2.js",
+    "name": "domain",
+    "src": "src/domain.ts",
+    "isEntry": true,
+    "imports": [
+      "_vite-preload-helper-CiYy5CcS.js",
+      "_pc-ui-runtime-D9gsocyQ.js"
+    ],
+    "dynamicImports": [
+      "src/views/index/index.tsx",
+      "src/views/work-bench/work-bench.tsx",
+      "_resource-aXcEJZMF.js"
+    ],
+    "css": [
+      "assets/domain-C_bw5bxl.css"
+    ]
+  },
+  "src/views/index/index.tsx": {
+    "file": "assets/index-DlEQhLuK.js",
+    "name": "index",
+    "src": "src/views/index/index.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-QTnfLwEv.js",
+      "__virtual_mf___mfe_internal__workbench__loadShare__vue__loadShare__.js-C7NR11ch.js",
+      "__virtual_mf___mfe_internal__workbench__loadShare__vue_mf_2_router__loadShare__.js-5Wa1y_VQ.js",
+      "_resource-aXcEJZMF.js",
+      "_resolve-workbench-card-D4xZyePt.js",
+      "_pc-ui-runtime-D9gsocyQ.js"
+    ],
+    "css": [
+      "assets/index-B4wAM0Ku.css"
+    ],
+    "assets": [
+      "assets/robot-DufeoW5y.png"
+    ]
+  },
+  "src/views/work-bench/work-bench.tsx": {
+    "file": "assets/work-bench-CCH2AbxO.js",
+    "name": "work-bench",
+    "src": "src/views/work-bench/work-bench.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__workbench__loadShare__vue__loadShare__.js-C7NR11ch.js",
+      "__virtual_mf___mfe_internal__workbench__loadShare__vue_mf_2_router__loadShare__.js-5Wa1y_VQ.js",
+      "_resolve-workbench-card-D4xZyePt.js",
+      "_pc-ui-runtime-D9gsocyQ.js"
+    ],
+    "css": [
+      "assets/work-bench-D7v7IAqB.css"
+    ]
+  },
+  "virtual:mf-REMOTE_ENTRY_ID:__mfe_internal__workbench__remoteEntry_js": {
+    "file": "remoteEntry.js",
+    "name": "remoteEntry",
+    "src": "virtual:mf-REMOTE_ENTRY_ID:__mfe_internal__workbench__remoteEntry_js",
+    "imports": [
+      "_virtual_mf-REMOTE_ENTRY_ID___mfe_internal__workbench__remoteEntry_js-oKPq3V2p.js"
+    ]
+  },
+  "virtual:mf-REMOTE_ENTRY_SSR_ID:__mfe_internal__workbench__remoteEntry_js": {
+    "file": "remoteEntry.ssr.js",
+    "name": "ssrRemoteEntry",
+    "src": "virtual:mf-REMOTE_ENTRY_SSR_ID:__mfe_internal__workbench__remoteEntry_js",
+    "imports": [
+      "_vite-preload-helper-CiYy5CcS.js"
+    ],
+    "dynamicImports": [
+      "virtual:mf-exposes-ssr:__mfe_internal__workbench__remoteEntry_js"
+    ]
+  },
+  "virtual:mf-exposes-ssr:__mfe_internal__workbench__remoteEntry_js": {
+    "file": "assets/virtual_mf-exposes-ssr___mfe_internal__workbench__remoteEntry_js-DrdkmeqN.js",
+    "name": "virtual_mf-exposes-ssr___mfe_internal__workbench__remoteEntry_js",
+    "src": "virtual:mf-exposes-ssr:__mfe_internal__workbench__remoteEntry_js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vite-preload-helper-CiYy5CcS.js"
+    ],
+    "dynamicImports": [
+      "src/domain.ts"
+    ]
+  },
+  "virtual:mf-exposes:__mfe_internal__workbench__remoteEntry_js": {
+    "file": "assets/virtualExposes-75Qt6ki8.js",
+    "name": "virtualExposes",
+    "src": "virtual:mf-exposes:__mfe_internal__workbench__remoteEntry_js",
+    "imports": [
+      "_virtual_mf-exposes___mfe_internal__workbench__remoteEntry_js-DGtM7sFw.js"
+    ]
+  },
+  "virtual:mf-localSharedImportMap:__mfe_internal__workbench": {
+    "file": "assets/_virtual_mf-localSharedImportMap___mfe_internal__workbench-BAJojXum.js",
+    "name": "_virtual_mf-localSharedImportMap___mfe_internal__workbench",
+    "src": "virtual:mf-localSharedImportMap:__mfe_internal__workbench",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vite-preload-helper-CiYy5CcS.js"
+    ],
+    "dynamicImports": [
+      "__virtual_mf___mfe_internal__workbench__loadShare__vue__loadShare__.js-C7NR11ch.js",
+      "__virtual_mf___mfe_internal__workbench__loadShare__vue_mf_2_router__loadShare__.js-5Wa1y_VQ.js"
+    ]
+  },
+  "virtual:mf:__mfe_internal__workbench__H_A_I__hostAutoInit__H_A_I__.js": {
+    "file": "assets/hostInit-CcbKVJsu.js",
+    "name": "hostInit",
+    "src": "virtual:mf:__mfe_internal__workbench__H_A_I__hostAutoInit__H_A_I__.js",
+    "imports": [
+      "_vite-preload-helper-CiYy5CcS.js"
+    ],
+    "dynamicImports": [
+      "_virtual_mf-REMOTE_ENTRY_ID___mfe_internal__workbench__remoteEntry_js-oKPq3V2p.js",
+      "virtual:mf-localSharedImportMap:__mfe_internal__workbench"
+    ]
+  }
+}

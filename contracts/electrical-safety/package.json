@@ -1,0 +1,20 @@
+{
+  "name": "@g2-contract/electrical-safety",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/main.ts",
+    "./references": "./src/references.ts",
+    "./graph": "./src/graph.ts",
+    "./line-loss": "./src/line-loss.ts"
+  },
+  "scripts": {
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "bun test"
+  },
+  "devDependencies": {
+    "@g2-contract/base": "workspace:*",
+    "typescript": "catalog:typescript"
+  }
+}

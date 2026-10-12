@@ -1,0 +1,193 @@
+.searchForm {
+  margin-bottom: 16px;
+
+  :global(.ant-form-item),
+  :global(.security-opinion-monitoring-form-item) {
+    padding-right: 0 !important;
+    margin-right: 8px !important;
+    margin-bottom: 8px !important;
+  }
+}
+
+.searchItem {
+  padding-right: 0 !important;
+  margin-right: 8px !important;
+  margin-bottom: 8px !important;
+}
+
+.mono {
+  color: #64748b;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  font-size: 12px;
+}
+
+.detailPage {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 14px;
+  min-height: 0;
+  overflow-y: auto;
+  padding-right: 4px;
+  padding-bottom: 24px;
+}
+
+.backBtn {
+  align-self: flex-start;
+  padding-left: 0;
+}
+
+.detailHeader {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+
+  h3 {
+    margin: 0;
+    color: #1e293b;
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  p {
+    margin: 6px 0 0;
+    color: #64748b;
+    font-size: 13px;
+  }
+}
+
+.overview {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 24px;
+  padding: 12px 14px;
+  color: #475569;
+  font-size: 13px;
+  background: #f8fafc;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+
+  span {
+    min-width: 0;
+    word-break: break-all;
+  }
+}
+
+.panel {
+  padding: 16px;
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+}
+
+.panelTitle {
+  margin-bottom: 12px;
+  color: #1e293b;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.spreadBar {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 10px;
+  align-items: center;
+  margin: 14px 0;
+  color: #64748b;
+  font-size: 12px;
+
+  > div {
+    height: 10px;
+    background: linear-gradient(90deg, #60a5fa, #f59e0b, #ef4444);
+    border-radius: 999px;
+  }
+}
+
+.timeline {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.timelineItem {
+  display: grid;
+  grid-template-columns: 14px 1fr;
+  gap: 8px;
+}
+
+.timelineDot {
+  width: 8px;
+  height: 8px;
+  margin-top: 6px;
+  background: #3b82f6;
+  border-radius: 50%;
+}
+
+.timelineTime {
+  color: #94a3b8;
+  font-size: 12px;
+}
+
+.timelineText {
+  color: #334155;
+  font-size: 13px;
+}
+
+.detailActions {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100%;
+  padding-right: 24px;
+}
+
+.reportForm {
+  :global(textarea) {
+    line-height: 1.7;
+  }
+}
+
+.pdfContent {
+  position: fixed;
+  top: 0;
+  left: -99999px;
+  width: 760px;
+  padding: 40px;
+  color: #111827;
+  background: #fff;
+  font-family: Arial, "Microsoft YaHei", sans-serif;
+  line-height: 1.8;
+
+  h1 {
+    margin: 0 0 18px;
+    text-align: center;
+    font-size: 24px;
+  }
+
+  h2 {
+    margin: 20px 0 8px;
+    font-size: 16px;
+  }
+
+  p {
+    margin: 0;
+    white-space: pre-wrap;
+  }
+
+  ul {
+    margin: 8px 0 0;
+    padding-left: 20px;
+  }
+}
+
+.pdfMeta {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 6px 16px;
+  padding: 12px;
+  color: #4b5563;
+  font-size: 12px;
+  background: #f8fafc;
+  border: 1px solid #e5e7eb;
+}

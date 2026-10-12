@@ -1,0 +1,43 @@
+/* 旧 gDetailform：分组标题 + 表单区。 */
+.detailForm {
+  width: 100%;
+  text-align: left;
+}
+
+.sectionTitle {
+  position: relative;
+  margin: 8px 0 16px;
+  padding-left: 10px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.sectionTitle::before {
+  position: absolute;
+  top: 3px;
+  left: 0;
+  width: 3px;
+  height: 16px;
+  background: var(--pc-primary-color, #00ba8b);
+  content: "";
+}
+
+/* 旧页管理人员行：类型选择 + 取值多选 + 删除按钮三列。 */
+.configRow {
+  display: grid;
+  grid-template-columns: 180px 360px 20px;
+  gap: 16px;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.removeButton {
+  padding: 0;
+}
+
+.faultRow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0 16px;
+}

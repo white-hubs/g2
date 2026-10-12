@@ -1,0 +1,7 @@
+.reportScroll { min-width: 0; }
+.reportDocument { box-sizing: border-box; max-width: 1000px; margin: 0 auto; padding: 12px 10px 24px; }
+.reportDocument > h2 { font-size: 20px; margin-bottom: 4px; }
+.section { margin: 20px 0 24px; }
+.section h3 { border-left: 3px solid #1677ff; padding-left: 10px; margin-bottom: 12px; font-size: 16px; }
+.reportForm :global(.ant-select),
+.reportForm :global(.ant-picker) { width: 100%; }

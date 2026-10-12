@@ -1,0 +1,105 @@
+.modalBody {
+  display: flex;
+  box-sizing: border-box;
+  height: 440px;
+  gap: 15px;
+}
+
+.selectArea {
+  display: flex;
+  flex: 1;
+  flex-flow: column;
+  height: 100%;
+  overflow-y: auto;
+}
+
+.sortArea {
+  display: flex;
+  flex-flow: column;
+  width: 280px;
+  height: 100%;
+  overflow-y: auto;
+}
+
+.contentTitle {
+  margin-bottom: 10px;
+  color: var(--g2-color-text, rgba(0, 0, 0, 0.85));
+  font-size: 14px;
+}
+
+.border {
+  flex: 1;
+  padding: 15px;
+  border: 1px solid var(--g2-color-border, #f0f0f0);
+  border-radius: 3px;
+  box-sizing: border-box;
+  overflow: auto;
+}
+
+.tableColumnList {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tableColumnItem {
+  width: 25%;
+  margin-top: 8px;
+}
+
+.tableColumnSortItem {
+  position: relative;
+  display: flex;
+  width: 100%;
+  min-height: 36px;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 0 4px;
+  border-radius: 4px;
+}
+
+.tableColumnSortItem:hover {
+  background: var(--g2-color-secondary-surface-bg, #f7f8fa);
+}
+
+.sortItemTitle {
+  display: flex;
+  min-width: 0;
+  align-items: center;
+  gap: 6px;
+}
+
+.sortItemTitle span {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.columnSortOperate {
+  display: inline-flex;
+  flex: 0 0 auto;
+  align-items: center;
+  gap: 2px;
+}
+
+.dragHandle {
+  color: var(--g2-color-text-secondary, #666);
+  cursor: grab;
+  font-size: 12px;
+  letter-spacing: -1px;
+  user-select: none;
+}
+
+.footer {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.footerActions {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}

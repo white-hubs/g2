@@ -1,0 +1,146 @@
+/* 外层必须参与顶栏 flex 交叉轴对齐；block + 行盒会把图标抬高 ~2–3px（相对 AI 30px 盒） */
+.pc-chrome-search-application {
+  display: inline-flex;
+  align-items: center;
+  height: 100%;
+}
+
+.pc-chrome-search-application-trigger {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  border: none;
+  color: var(--g2-color-navigation-text, #fff);
+  cursor: pointer;
+  padding: 0 10px;
+  height: 100%;
+}
+
+.pc-chrome-search-application-trigger__icon {
+  width: 18px;
+  height: 18px;
+  display: block;
+  filter: brightness(100);
+}
+
+/* 对齐旧仓 cube-application-search-modal：隐藏标题栏，面板贴顶，走 Modal 自带进出场动画 */
+.pc-chrome-search-application-modal .ant-modal-header,
+.pc-chrome-search-application-modal .ant-modal-close {
+  display: none;
+}
+
+.pc-chrome-search-application-modal .ant-modal-body {
+  padding: 0;
+  background: var(--g2-color-page-bg, #fafafa);
+}
+
+.pc-chrome-search-application-panel {
+  background: var(--g2-color-elevated-bg, #fff);
+  border-radius: 8px;
+  padding: 16px;
+  width: 100%;
+  color: var(--g2-color-text, #1f2329);
+}
+
+.pc-chrome-search-application-panel--legacy {
+  background: var(--g2-color-secondary-surface-bg, #fafafa);
+  padding: 12px;
+  border-radius: 4px;
+}
+
+.pc-chrome-search-application-groups {
+  margin-top: 12px;
+  max-height: 488px;
+  min-height: 94px;
+  overflow-y: auto;
+}
+
+.pc-chrome-search-application-group + .pc-chrome-search-application-group {
+  margin-top: 12px;
+}
+
+.pc-chrome-search-application-group__heading {
+  margin: 0 0 6px;
+  padding: 0 4px;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 18px;
+  color: var(--g2-color-text-secondary, #8a95a4);
+}
+
+.pc-chrome-search-application-results {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.pc-chrome-search-application-results li {
+  margin-bottom: 5px;
+  box-sizing: border-box;
+  padding: 0 10px;
+  display: flex;
+  align-items: center;
+  height: 56px;
+  background: var(--g2-color-surface-bg, #fff);
+  position: relative;
+  cursor: pointer;
+  border-radius: 0;
+  color: var(--g2-color-text, #1f2329);
+}
+
+.pc-chrome-search-application-results li:last-child {
+  margin-bottom: 0;
+}
+
+.pc-chrome-search-application-results li:hover {
+  background: var(--g2-color-primary, #1578ff);
+  color: var(--g2-color-button-text, #fff);
+}
+
+.pc-chrome-search-application-results__icon {
+  width: 40px;
+  height: 40px;
+  margin-right: 20px;
+  border-radius: 8px;
+  object-fit: contain;
+  flex-shrink: 0;
+  display: block;
+}
+
+.pc-chrome-search-application-results__icon--empty {
+  background: transparent;
+}
+
+.pc-chrome-search-application-results__label {
+  flex: 1;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 14px;
+}
+
+.pc-chrome-search-application-results__arrow {
+  display: none;
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 20px;
+  line-height: 1;
+}
+
+.pc-chrome-search-application-results li:hover .pc-chrome-search-application-results__arrow {
+  display: block;
+}
+
+.pc-chrome-search-application-empty {
+  color: var(--g2-color-text-secondary, #8a95a4);
+  margin: 12px 0 0;
+  text-align: center;
+  min-height: 94px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

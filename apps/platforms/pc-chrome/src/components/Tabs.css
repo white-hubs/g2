@@ -1,0 +1,43 @@
+.pc-chrome-tabs {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid var(--g2-color-border-secondary, #f0f0f0);
+  }
+
+.pc-chrome-tabs-nav {
+  flex: 1;
+  min-width: 0;
+}
+
+.pc-chrome-tabs-nav .ant-tabs-nav {
+  margin-bottom: 0;
+}
+
+.pc-chrome-tabs-nav .ant-tabs-tab-remove {
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+
+.pc-chrome-tabs-nav .ant-tabs-tab:hover .ant-tabs-tab-remove,
+.pc-chrome-tabs-nav .ant-tabs-tab-active .ant-tabs-tab-remove {
+  opacity: 1;
+}
+
+.pc-chrome-tabs-more {
+  flex-shrink: 0;
+  padding: 0 12px;
+}
+
+.pc-chrome-tabs-more-trigger {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 1;
+    padding: 4px 8px;
+    color: var(--g2-color-text-tertiary, rgba(0, 0, 0, 0.45));
+  }
+
+.pc-chrome-tabs-more-trigger:hover {
+    color: var(--g2-color-text, rgba(0, 0, 0, 0.88));
+  }

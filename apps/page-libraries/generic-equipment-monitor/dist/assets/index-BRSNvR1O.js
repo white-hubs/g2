@@ -1,0 +1,1 @@
+import"./virtual_mf-exposes___mfe_internal__genericEquipmentMonitorPages__remoteEntry_js-DKf_PbT6.js";import"./virtual_mf-REMOTE_ENTRY_ID___mfe_internal__genericEquipmentMonitorPages__remoteEntry_js-Boc1tvbu.js";document.querySelector(`#app`).textContent=`@g2-pages/generic-equipment-monitor build shell`;

@@ -1,0 +1,27 @@
+.energyTrend-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  min-height: 0;
+  overflow: hidden;
+
+  > :first-child {
+    flex: none;
+    margin-bottom: 8px;
+  }
+
+  .energyTrend-chart {
+    flex: 1;
+    width: 100%;
+    min-height: 0;
+    overflow: hidden;
+  }
+
+  .empty-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

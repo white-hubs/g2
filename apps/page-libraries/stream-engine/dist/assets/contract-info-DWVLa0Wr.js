@@ -1,0 +1,1 @@
+var e={name:`stream-engine`,major:1};export{e as contractInfo};

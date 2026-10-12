@@ -1,0 +1,17 @@
+<!--
+  构建入口壳（Vite 默认 client entry），不是独立可运行产品。
+  Host / Profile 只消费 remoteEntry.js + mf-manifest.json。
+  当前约定未设 build.rollupOptions.input，删除会导致 vite build 失败。
+  见 apps/platforms/README.md 与 docs/adr/0010-module-federation-vite.md
+-->
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <title>@g2-domain/poc-remote-pc</title>
+    <script type="module" crossorigin src="/assets/mf-entry-bootstrap-0-d993eabc.js"></script>
+  <link rel="modulepreload" crossorigin href="/assets/hostInit-DRf0WMk7.js"><link rel="modulepreload" crossorigin href="/assets/index-DmiFQWl4.js"><link rel="modulepreload" crossorigin href="/remoteEntry.js"><link rel="modulepreload" crossorigin href="/assets/_virtual_mf-localSharedImportMap___mfe_internal__pocRemotePc-BmcQjfYl.js"><link rel="modulepreload" crossorigin href="/assets/_virtual_mf___mfe_internal__pocRemotePc__loadShare__vue__loadShare__.js-LGfStR7y.js"></head>
+  <body>
+    <div id="app"></div>
+  </body>
+</html>

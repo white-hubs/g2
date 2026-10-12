@@ -1,0 +1,21 @@
+/*
+ * Tailwind 试点入口（ADR-0051）：无 preflight + prefix(tw)
+ */
+@layer theme, components, utilities;
+@import "tailwindcss/theme.css" layer(theme) prefix(tw);
+@import "tailwindcss/utilities.css" layer(utilities) prefix(tw);
+
+@source "../**/*.{tsx,ts}";
+
+@theme {
+  --color-g2-focus: #1578ff;
+  --color-g2-focus-ring: rgb(21 120 255 / 45%);
+}
+
+@layer utilities {
+  .tw\:g2-focus-ring:focus-visible {
+    outline: 2px solid var(--color-g2-focus);
+    outline-offset: 2px;
+    box-shadow: 0 0 0 4px var(--color-g2-focus-ring);
+  }
+}

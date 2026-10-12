@@ -1,0 +1,41 @@
+$ bun --bun vite build
+vite v8.1.5 building client environment for production...
+[2Ktransforming...✓ 117 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                                                                                              0.95 kB │ gzip:  0.43 kB
+dist/assets/mf-entry-bootstrap-0-3cb73abe.js                                                                 1.35 kB
+dist/mf-manifest.json                                                                                        1.54 kB │ gzip:  0.58 kB
+dist/mf-stats.json                                                                                           5.67 kB │ gzip:  1.19 kB
+dist/.vite/manifest.json                                                                                    11.94 kB │ gzip:  1.22 kB
+dist/assets/domain-CHm0VOLx.css                                                                              4.98 kB │ gzip:  1.32 kB
+dist/assets/virtualExposes-DuCZHyCM.js                                                                       0.11 kB │ gzip:  0.12 kB
+dist/remoteEntry.js                                                                                          0.13 kB │ gzip:  0.14 kB
+dist/assets/rolldown-runtime-DK3Fl9T5.js                                                                     0.15 kB │ gzip:  0.15 kB
+dist/assets/index-Bmy7duD2.js                                                                                0.25 kB │ gzip:  0.19 kB
+dist/assets/virtual_mf-exposes-ssr___mfe_internal__formAudit__remoteEntry_js-DRA4OqYD.js                     0.37 kB │ gzip:  0.29 kB
+dist/assets/_virtual_mf___mfe_internal__formAudit__prebuild__vue_mf_2_router__prebuild__-C1fD18X2.js         0.76 kB │ gzip:  0.40 kB
+dist/remoteEntry.ssr.js                                                                                      0.98 kB │ gzip:  0.58 kB
+dist/assets/virtual_mf-exposes___mfe_internal__formAudit__remoteEntry_js-BzSM6zC3.js                         1.07 kB │ gzip:  0.64 kB
+dist/assets/_virtual_mf-localSharedImportMap___mfe_internal__formAudit-R0ZfY_LB.js                           1.16 kB │ gzip:  0.51 kB
+dist/assets/vite-preload-helper-7P2xnrDv.js                                                                  1.41 kB │ gzip:  0.75 kB
+dist/assets/pc-ui-runtime-Bf5KD6U3.js                                                                        1.56 kB │ gzip:  0.83 kB
+dist/assets/work-order-library-gQGXbgDg.js                                                                   1.73 kB │ gzip:  0.95 kB
+dist/assets/shared-1n5itrlT.js                                                                               2.23 kB │ gzip:  1.18 kB
+dist/assets/hostInit-D0KyC1ea.js                                                                             2.32 kB │ gzip:  1.10 kB
+dist/assets/assessment-scoring-detail-CS1rByBu.js                                                            3.70 kB │ gzip:  1.80 kB
+dist/assets/work-order-approval-Be6jQKz4.js                                                                  3.70 kB │ gzip:  1.71 kB
+dist/assets/assessment-statistics-Cw2NMyow.js                                                                4.06 kB │ gzip:  1.79 kB
+dist/assets/assessment-rules-dk_dOCjm.js                                                                     4.17 kB │ gzip:  1.82 kB
+dist/assets/work-order-statistics-CFAVGZKi.js                                                                4.36 kB │ gzip:  1.84 kB
+dist/assets/_virtual_mf___mfe_internal__formAudit__prebuild__vue__prebuild__-BGPwTUL2.js                     4.79 kB │ gzip:  2.11 kB
+dist/assets/work-order-list-DVaxrDod.js                                                                      4.98 kB │ gzip:  2.19 kB
+dist/assets/assessment-scoring-C87Pxo2l.js                                                                   5.58 kB │ gzip:  2.32 kB
+dist/assets/domain-CpmgEp1R.js                                                                               7.76 kB │ gzip:  2.08 kB
+dist/assets/form-config-DA99BVqo.js                                                                          8.60 kB │ gzip:  3.47 kB
+dist/assets/assessment-rule-form-Q4WruPiH.js                                                                10.55 kB │ gzip:  3.67 kB
+dist/assets/_virtual_mf___mfe_internal__formAudit__loadShare__vue_mf_2_router__loadShare__.js-CV-wcYt9.js   30.70 kB │ gzip: 11.42 kB
+dist/assets/virtual_mf-REMOTE_ENTRY_ID___mfe_internal__formAudit__remoteEntry_js-TixKNusx.js                39.02 kB │ gzip: 12.93 kB
+dist/assets/_virtual_mf___mfe_internal__formAudit__loadShare__vue__loadShare__.js-Dxc8Ldsc.js              123.20 kB │ gzip: 46.14 kB
+
+✓ built in 2.32s

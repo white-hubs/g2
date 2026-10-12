@@ -1,0 +1,1 @@
+import"./virtual_mf-exposes___mfe_internal__userCenterClient__remoteEntry_js-UIVT9dt9.js";import"./virtual_mf-REMOTE_ENTRY_ID___mfe_internal__userCenterClient__remoteEntry_js-CZo_dqst.js";var e=document.querySelector(`#app`);e&&(e.textContent=`@g2-client/user-center`);

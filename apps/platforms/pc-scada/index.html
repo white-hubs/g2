@@ -1,0 +1,15 @@
+<!--
+  构建入口壳（Vite 默认 client entry），不是独立可运行产品。
+  Host / Profile 只消费 remoteEntry.js + mf-manifest.json。
+-->
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <title>@g2-platform/pc-scada</title>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

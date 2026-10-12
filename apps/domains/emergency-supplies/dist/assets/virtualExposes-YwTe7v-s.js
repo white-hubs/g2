@@ -1,0 +1,1 @@
+import{t as e}from"./virtual_mf-exposes___mfe_internal__emergencySupplies__remoteEntry_js-B2IUErTH.js";export{e as default};

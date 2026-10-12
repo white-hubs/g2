@@ -1,0 +1,220 @@
+{
+  "../../../../../../.bun/install/cache/links/exceljs@4.4.0-5cbe73d2b8a8d532/node_modules/exceljs/dist/exceljs.min.js": {
+    "file": "assets/exceljs.min-CoIUeL7-.js",
+    "name": "exceljs.min",
+    "src": "../../../../../../.bun/install/cache/links/exceljs@4.4.0-5cbe73d2b8a8d532/node_modules/exceljs/dist/exceljs.min.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-aKtaBQYM.js"
+    ]
+  },
+  "__virtual_mf___mfe_internal__problems__loadShare__vue__loadShare__.js-CCYI3OR_.js": {
+    "file": "assets/_virtual_mf___mfe_internal__problems__loadShare__vue__loadShare__.js-CCYI3OR_.js",
+    "name": "_virtual_mf___mfe_internal__problems__loadShare__vue__loadShare__.js",
+    "imports": [
+      "_rolldown-runtime-aKtaBQYM.js"
+    ]
+  },
+  "__virtual_mf___mfe_internal__problems__loadShare__vue_mf_2_router__loadShare__.js-B6xdt5HL.js": {
+    "file": "assets/_virtual_mf___mfe_internal__problems__loadShare__vue_mf_2_router__loadShare__.js-B6xdt5HL.js",
+    "name": "_virtual_mf___mfe_internal__problems__loadShare__vue_mf_2_router__loadShare__.js",
+    "imports": [
+      "_rolldown-runtime-aKtaBQYM.js",
+      "__virtual_mf___mfe_internal__problems__loadShare__vue__loadShare__.js-CCYI3OR_.js"
+    ]
+  },
+  "_date-DvtT-TtL.js": {
+    "file": "assets/date-DvtT-TtL.js",
+    "name": "date"
+  },
+  "_domain-context-BtlbVrtM.js": {
+    "file": "assets/domain-context-BtlbVrtM.js",
+    "name": "domain-context"
+  },
+  "_pc-ui-proxy-Dumzfw5s.js": {
+    "file": "assets/pc-ui-proxy-Dumzfw5s.js",
+    "name": "pc-ui-proxy"
+  },
+  "_rolldown-runtime-aKtaBQYM.js": {
+    "file": "assets/rolldown-runtime-aKtaBQYM.js",
+    "name": "rolldown-runtime"
+  },
+  "_virtual_mf-REMOTE_ENTRY_ID___mfe_internal__problems__remoteEntry_js-BBEeW11l.js": {
+    "file": "assets/virtual_mf-REMOTE_ENTRY_ID___mfe_internal__problems__remoteEntry_js-BBEeW11l.js",
+    "name": "virtual_mf-REMOTE_ENTRY_ID___mfe_internal__problems__remoteEntry_js",
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "virtual:mf-localSharedImportMap:__mfe_internal__problems",
+      "_virtual_mf-exposes___mfe_internal__problems__remoteEntry_js-KTRnssCo.js"
+    ]
+  },
+  "_virtual_mf-exposes___mfe_internal__problems__remoteEntry_js-KTRnssCo.js": {
+    "file": "assets/virtual_mf-exposes___mfe_internal__problems__remoteEntry_js-KTRnssCo.js",
+    "name": "virtual_mf-exposes___mfe_internal__problems__remoteEntry_js",
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "src/domain.ts"
+    ]
+  },
+  "_vite-preload-helper-7P2xnrDv.js": {
+    "file": "assets/vite-preload-helper-7P2xnrDv.js",
+    "name": "vite-preload-helper"
+  },
+  "index.html": {
+    "file": "assets/index-BAik1UeV.js",
+    "name": "index",
+    "src": "index.html",
+    "isEntry": true,
+    "imports": [
+      "_virtual_mf-exposes___mfe_internal__problems__remoteEntry_js-KTRnssCo.js",
+      "_virtual_mf-REMOTE_ENTRY_ID___mfe_internal__problems__remoteEntry_js-BBEeW11l.js"
+    ]
+  },
+  "src/domain.ts": {
+    "file": "assets/domain-C-7Fk04j.js",
+    "name": "domain",
+    "src": "src/domain.ts",
+    "isEntry": true,
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js",
+      "__virtual_mf___mfe_internal__problems__loadShare__vue__loadShare__.js-CCYI3OR_.js",
+      "__virtual_mf___mfe_internal__problems__loadShare__vue_mf_2_router__loadShare__.js-B6xdt5HL.js",
+      "_domain-context-BtlbVrtM.js"
+    ],
+    "dynamicImports": [
+      "src/views/flow-list.tsx",
+      "src/views/config.tsx",
+      "src/views/statistics.tsx"
+    ]
+  },
+  "src/views/config.tsx": {
+    "file": "assets/config-DGNvIOmM.js",
+    "name": "config",
+    "src": "src/views/config.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__problems__loadShare__vue__loadShare__.js-CCYI3OR_.js",
+      "_pc-ui-proxy-Dumzfw5s.js",
+      "_domain-context-BtlbVrtM.js"
+    ]
+  },
+  "src/views/flow-list.tsx": {
+    "file": "assets/flow-list-DXPbQZfH.js",
+    "name": "flow-list",
+    "src": "src/views/flow-list.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-aKtaBQYM.js",
+      "_vite-preload-helper-7P2xnrDv.js",
+      "__virtual_mf___mfe_internal__problems__loadShare__vue__loadShare__.js-CCYI3OR_.js",
+      "__virtual_mf___mfe_internal__problems__loadShare__vue_mf_2_router__loadShare__.js-B6xdt5HL.js",
+      "_pc-ui-proxy-Dumzfw5s.js",
+      "_domain-context-BtlbVrtM.js",
+      "_date-DvtT-TtL.js"
+    ],
+    "dynamicImports": [
+      "../../../../../../.bun/install/cache/links/exceljs@4.4.0-5cbe73d2b8a8d532/node_modules/exceljs/dist/exceljs.min.js"
+    ],
+    "css": [
+      "assets/flow-list-DFBx4L07.css"
+    ]
+  },
+  "src/views/statistics.tsx": {
+    "file": "assets/statistics-CD1SqX33.js",
+    "name": "statistics",
+    "src": "src/views/statistics.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__problems__loadShare__vue__loadShare__.js-CCYI3OR_.js",
+      "_pc-ui-proxy-Dumzfw5s.js",
+      "_domain-context-BtlbVrtM.js",
+      "_date-DvtT-TtL.js"
+    ]
+  },
+  "virtual:mf-REMOTE_ENTRY_ID:__mfe_internal__problems__remoteEntry_js": {
+    "file": "remoteEntry.js",
+    "name": "remoteEntry",
+    "src": "virtual:mf-REMOTE_ENTRY_ID:__mfe_internal__problems__remoteEntry_js",
+    "imports": [
+      "_virtual_mf-REMOTE_ENTRY_ID___mfe_internal__problems__remoteEntry_js-BBEeW11l.js"
+    ]
+  },
+  "virtual:mf-REMOTE_ENTRY_SSR_ID:__mfe_internal__problems__remoteEntry_js": {
+    "file": "remoteEntry.ssr.js",
+    "name": "ssrRemoteEntry",
+    "src": "virtual:mf-REMOTE_ENTRY_SSR_ID:__mfe_internal__problems__remoteEntry_js",
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "virtual:mf-exposes-ssr:__mfe_internal__problems__remoteEntry_js"
+    ]
+  },
+  "virtual:mf-exposes-ssr:__mfe_internal__problems__remoteEntry_js": {
+    "file": "assets/virtual_mf-exposes-ssr___mfe_internal__problems__remoteEntry_js-DL46mEJ5.js",
+    "name": "virtual_mf-exposes-ssr___mfe_internal__problems__remoteEntry_js",
+    "src": "virtual:mf-exposes-ssr:__mfe_internal__problems__remoteEntry_js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "src/domain.ts"
+    ]
+  },
+  "virtual:mf-exposes:__mfe_internal__problems__remoteEntry_js": {
+    "file": "assets/virtualExposes-ZwzASmoK.js",
+    "name": "virtualExposes",
+    "src": "virtual:mf-exposes:__mfe_internal__problems__remoteEntry_js",
+    "imports": [
+      "_virtual_mf-exposes___mfe_internal__problems__remoteEntry_js-KTRnssCo.js"
+    ]
+  },
+  "virtual:mf-localSharedImportMap:__mfe_internal__problems": {
+    "file": "assets/_virtual_mf-localSharedImportMap___mfe_internal__problems-C4dM55tc.js",
+    "name": "_virtual_mf-localSharedImportMap___mfe_internal__problems",
+    "src": "virtual:mf-localSharedImportMap:__mfe_internal__problems",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "__virtual_mf___mfe_internal__problems__loadShare__vue__loadShare__.js-CCYI3OR_.js",
+      "__virtual_mf___mfe_internal__problems__loadShare__vue_mf_2_router__loadShare__.js-B6xdt5HL.js"
+    ]
+  },
+  "virtual:mf:__mfe_internal__problems__H_A_I__hostAutoInit__H_A_I__.js": {
+    "file": "assets/hostInit-CNw6j98Y.js",
+    "name": "hostInit",
+    "src": "virtual:mf:__mfe_internal__problems__H_A_I__hostAutoInit__H_A_I__.js",
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "_virtual_mf-REMOTE_ENTRY_ID___mfe_internal__problems__remoteEntry_js-BBEeW11l.js",
+      "virtual:mf-localSharedImportMap:__mfe_internal__problems"
+    ]
+  },
+  "virtual:mf:__mfe_internal__problems__prebuild__vue__prebuild__.js": {
+    "file": "assets/_virtual_mf___mfe_internal__problems__prebuild__vue__prebuild__-B0tU-GtE.js",
+    "name": "_virtual_mf___mfe_internal__problems__prebuild__vue__prebuild__",
+    "src": "virtual:mf:__mfe_internal__problems__prebuild__vue__prebuild__.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__problems__loadShare__vue__loadShare__.js-CCYI3OR_.js"
+    ]
+  },
+  "virtual:mf:__mfe_internal__problems__prebuild__vue_mf_2_router__prebuild__.js": {
+    "file": "assets/_virtual_mf___mfe_internal__problems__prebuild__vue_mf_2_router__prebuild__-CCthnKDE.js",
+    "name": "_virtual_mf___mfe_internal__problems__prebuild__vue_mf_2_router__prebuild__",
+    "src": "virtual:mf:__mfe_internal__problems__prebuild__vue_mf_2_router__prebuild__.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__problems__loadShare__vue_mf_2_router__loadShare__.js-B6xdt5HL.js"
+    ]
+  }
+}

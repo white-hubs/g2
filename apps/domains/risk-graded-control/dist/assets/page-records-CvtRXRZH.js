@@ -1,0 +1,1 @@
+function e(e){return Array.isArray(e)?e:(e==null?void 0:e.records)??[]}function t(e){return Array.isArray(e)?e:!e||typeof e!=`object`?[]:`records`in e&&Array.isArray(e.records)?e.records:`measures`in e&&Array.isArray(e.measures)?e.measures:`data`in e&&Array.isArray(e.data)?e.data:[]}export{e as n,t};

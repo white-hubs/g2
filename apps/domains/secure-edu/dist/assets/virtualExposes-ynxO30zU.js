@@ -1,0 +1,1 @@
+import{t as e}from"./virtual_mf-exposes___mfe_internal__secureEduHead__remoteEntry_js-CjtJa2Tw.js";export{e as default};

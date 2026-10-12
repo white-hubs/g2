@@ -1,0 +1,1 @@
+import{t as e}from"./virtual_mf-exposes___mfe_internal__governmentManagementClient__remoteEntry_js-D3aZFAfr.js";export{e as default};

@@ -1,0 +1,16 @@
+.container {
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  min-height: 640px;
+  overflow: hidden;
+  background: #edf4fb;
+}
+
+.emptyState {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}

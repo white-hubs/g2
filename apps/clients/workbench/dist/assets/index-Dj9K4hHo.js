@@ -1,0 +1,1 @@
+import"./virtual_mf-exposes___mfe_internal__workbenchClient__remoteEntry_js-BtUceEoT.js";import"./virtual_mf-REMOTE_ENTRY_ID___mfe_internal__workbenchClient__remoteEntry_js-DdZ0kNFR.js";document.querySelector(`#app`).textContent=`@g2-client/workbench build shell`;

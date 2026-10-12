@@ -1,0 +1,1 @@
+import{t as e}from"./virtual_mf-exposes___mfe_internal__genericEquipmentMonitorPages__remoteEntry_js-DKf_PbT6.js";export{e as default};

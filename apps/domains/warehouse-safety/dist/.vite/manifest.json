@@ -1,0 +1,268 @@
+{
+  "__virtual_mf___mfe_internal__warehouseSafety__loadShare__vue__loadShare__.js-D01h0nBB.js": {
+    "file": "assets/_virtual_mf___mfe_internal__warehouseSafety__loadShare__vue__loadShare__.js-D01h0nBB.js",
+    "name": "_virtual_mf___mfe_internal__warehouseSafety__loadShare__vue__loadShare__.js",
+    "imports": [
+      "_rolldown-runtime-DK3Fl9T5.js"
+    ]
+  },
+  "__virtual_mf___mfe_internal__warehouseSafety__loadShare__vue_mf_2_router__loadShare__.js-bzYQVWrm.js": {
+    "file": "assets/_virtual_mf___mfe_internal__warehouseSafety__loadShare__vue_mf_2_router__loadShare__.js-bzYQVWrm.js",
+    "name": "_virtual_mf___mfe_internal__warehouseSafety__loadShare__vue_mf_2_router__loadShare__.js",
+    "imports": [
+      "_rolldown-runtime-DK3Fl9T5.js",
+      "__virtual_mf___mfe_internal__warehouseSafety__loadShare__vue__loadShare__.js-D01h0nBB.js"
+    ]
+  },
+  "_alarm-center-api-BpR-k6Lb.js": {
+    "file": "assets/alarm-center-api-BpR-k6Lb.js",
+    "name": "alarm-center-api",
+    "imports": [
+      "_pc-ui-runtime-DW0yqaph.js",
+      "_legacy-components-Dx49r45-.js"
+    ]
+  },
+  "_auth-store-x-YjVjHX.js": {
+    "file": "assets/auth-store-x-YjVjHX.js",
+    "name": "auth-store"
+  },
+  "_format-ppCsTeX8.js": {
+    "file": "assets/format-ppCsTeX8.js",
+    "name": "format"
+  },
+  "_legacy-components-Dx49r45-.js": {
+    "file": "assets/legacy-components-Dx49r45-.js",
+    "name": "legacy-components",
+    "imports": [
+      "__virtual_mf___mfe_internal__warehouseSafety__loadShare__vue__loadShare__.js-D01h0nBB.js",
+      "_pc-ui-runtime-DW0yqaph.js"
+    ]
+  },
+  "_pc-ui-runtime-DW0yqaph.js": {
+    "file": "assets/pc-ui-runtime-DW0yqaph.js",
+    "name": "pc-ui-runtime",
+    "imports": [
+      "__virtual_mf___mfe_internal__warehouseSafety__loadShare__vue__loadShare__.js-D01h0nBB.js"
+    ]
+  },
+  "_resource-page-B4q88Cza.js": {
+    "file": "assets/resource-page-B4q88Cza.js",
+    "name": "resource-page",
+    "imports": [
+      "__virtual_mf___mfe_internal__warehouseSafety__loadShare__vue__loadShare__.js-D01h0nBB.js",
+      "__virtual_mf___mfe_internal__warehouseSafety__loadShare__vue_mf_2_router__loadShare__.js-bzYQVWrm.js",
+      "_pc-ui-runtime-DW0yqaph.js",
+      "_legacy-components-Dx49r45-.js",
+      "_format-ppCsTeX8.js"
+    ],
+    "css": [
+      "assets/resource-page-BAuknMVE.css"
+    ]
+  },
+  "_resource-page-BAuknMVE.css": {
+    "file": "assets/resource-page-BAuknMVE.css",
+    "src": "_resource-page-BAuknMVE.css"
+  },
+  "_rolldown-runtime-DK3Fl9T5.js": {
+    "file": "assets/rolldown-runtime-DK3Fl9T5.js",
+    "name": "rolldown-runtime"
+  },
+  "_virtual_mf-REMOTE_ENTRY_ID___mfe_internal__warehouseSafety__remoteEntry_js-Czh0pdJP.js": {
+    "file": "assets/virtual_mf-REMOTE_ENTRY_ID___mfe_internal__warehouseSafety__remoteEntry_js-Czh0pdJP.js",
+    "name": "virtual_mf-REMOTE_ENTRY_ID___mfe_internal__warehouseSafety__remoteEntry_js",
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "virtual:mf-localSharedImportMap:__mfe_internal__warehouseSafety",
+      "_virtual_mf-exposes___mfe_internal__warehouseSafety__remoteEntry_js-KWCZ-3ig.js"
+    ]
+  },
+  "_virtual_mf-exposes___mfe_internal__warehouseSafety__remoteEntry_js-KWCZ-3ig.js": {
+    "file": "assets/virtual_mf-exposes___mfe_internal__warehouseSafety__remoteEntry_js-KWCZ-3ig.js",
+    "name": "virtual_mf-exposes___mfe_internal__warehouseSafety__remoteEntry_js",
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "src/domain.ts"
+    ]
+  },
+  "_vite-preload-helper-7P2xnrDv.js": {
+    "file": "assets/vite-preload-helper-7P2xnrDv.js",
+    "name": "vite-preload-helper"
+  },
+  "index.html": {
+    "file": "assets/index-C7fqvB2G.js",
+    "name": "index",
+    "src": "index.html",
+    "isEntry": true,
+    "imports": [
+      "_virtual_mf-exposes___mfe_internal__warehouseSafety__remoteEntry_js-KWCZ-3ig.js",
+      "_virtual_mf-REMOTE_ENTRY_ID___mfe_internal__warehouseSafety__remoteEntry_js-Czh0pdJP.js"
+    ]
+  },
+  "src/domain.ts": {
+    "file": "assets/domain-BH5KWk-0.js",
+    "name": "domain",
+    "src": "src/domain.ts",
+    "isEntry": true,
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js",
+      "__virtual_mf___mfe_internal__warehouseSafety__loadShare__vue__loadShare__.js-D01h0nBB.js",
+      "__virtual_mf___mfe_internal__warehouseSafety__loadShare__vue_mf_2_router__loadShare__.js-bzYQVWrm.js",
+      "_pc-ui-runtime-DW0yqaph.js",
+      "_auth-store-x-YjVjHX.js"
+    ],
+    "dynamicImports": [
+      "src/views/resource-page/warehouse-page.tsx",
+      "src/views/resource-form/resource-form.tsx",
+      "src/views/resource-page/shelf-page.tsx",
+      "src/views/resource-page/forklift-page.tsx",
+      "src/views/forklift-monitor/forklift-monitor.tsx",
+      "src/views/event-archive/event-archive.tsx"
+    ]
+  },
+  "src/views/event-archive/event-archive.tsx": {
+    "file": "assets/event-archive-CI8L1if_.js",
+    "name": "event-archive",
+    "src": "src/views/event-archive/event-archive.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__warehouseSafety__loadShare__vue__loadShare__.js-D01h0nBB.js",
+      "_pc-ui-runtime-DW0yqaph.js",
+      "_legacy-components-Dx49r45-.js",
+      "_alarm-center-api-BpR-k6Lb.js",
+      "_format-ppCsTeX8.js"
+    ],
+    "css": [
+      "assets/event-archive-BTtRWIJn.css"
+    ]
+  },
+  "src/views/forklift-monitor/forklift-monitor.tsx": {
+    "file": "assets/forklift-monitor-Cb9Q1N9o.js",
+    "name": "forklift-monitor",
+    "src": "src/views/forklift-monitor/forklift-monitor.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__warehouseSafety__loadShare__vue__loadShare__.js-D01h0nBB.js",
+      "_pc-ui-runtime-DW0yqaph.js",
+      "_legacy-components-Dx49r45-.js",
+      "_alarm-center-api-BpR-k6Lb.js",
+      "_format-ppCsTeX8.js",
+      "_auth-store-x-YjVjHX.js"
+    ],
+    "css": [
+      "assets/forklift-monitor-CUqPGRu0.css"
+    ]
+  },
+  "src/views/resource-form/resource-form.tsx": {
+    "file": "assets/resource-form-B615i8lm.js",
+    "name": "resource-form",
+    "src": "src/views/resource-form/resource-form.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__warehouseSafety__loadShare__vue__loadShare__.js-D01h0nBB.js",
+      "__virtual_mf___mfe_internal__warehouseSafety__loadShare__vue_mf_2_router__loadShare__.js-bzYQVWrm.js",
+      "_pc-ui-runtime-DW0yqaph.js",
+      "_legacy-components-Dx49r45-.js"
+    ],
+    "css": [
+      "assets/resource-form-KIqQQwwj.css"
+    ]
+  },
+  "src/views/resource-page/forklift-page.tsx": {
+    "file": "assets/forklift-page-CL6slnBA.js",
+    "name": "forklift-page",
+    "src": "src/views/resource-page/forklift-page.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__warehouseSafety__loadShare__vue__loadShare__.js-D01h0nBB.js",
+      "_resource-page-B4q88Cza.js"
+    ]
+  },
+  "src/views/resource-page/shelf-page.tsx": {
+    "file": "assets/shelf-page-rJGfMrFJ.js",
+    "name": "shelf-page",
+    "src": "src/views/resource-page/shelf-page.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__warehouseSafety__loadShare__vue__loadShare__.js-D01h0nBB.js",
+      "_resource-page-B4q88Cza.js"
+    ]
+  },
+  "src/views/resource-page/warehouse-page.tsx": {
+    "file": "assets/warehouse-page-NGvAlTMQ.js",
+    "name": "warehouse-page",
+    "src": "src/views/resource-page/warehouse-page.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__warehouseSafety__loadShare__vue__loadShare__.js-D01h0nBB.js",
+      "_resource-page-B4q88Cza.js"
+    ]
+  },
+  "virtual:mf-REMOTE_ENTRY_ID:__mfe_internal__warehouseSafety__remoteEntry_js": {
+    "file": "remoteEntry.js",
+    "name": "remoteEntry",
+    "src": "virtual:mf-REMOTE_ENTRY_ID:__mfe_internal__warehouseSafety__remoteEntry_js",
+    "imports": [
+      "_virtual_mf-REMOTE_ENTRY_ID___mfe_internal__warehouseSafety__remoteEntry_js-Czh0pdJP.js"
+    ]
+  },
+  "virtual:mf-REMOTE_ENTRY_SSR_ID:__mfe_internal__warehouseSafety__remoteEntry_js": {
+    "file": "remoteEntry.ssr.js",
+    "name": "ssrRemoteEntry",
+    "src": "virtual:mf-REMOTE_ENTRY_SSR_ID:__mfe_internal__warehouseSafety__remoteEntry_js",
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "virtual:mf-exposes-ssr:__mfe_internal__warehouseSafety__remoteEntry_js"
+    ]
+  },
+  "virtual:mf-exposes-ssr:__mfe_internal__warehouseSafety__remoteEntry_js": {
+    "file": "assets/virtual_mf-exposes-ssr___mfe_internal__warehouseSafety__remoteEntry_js-LpUHp2Ei.js",
+    "name": "virtual_mf-exposes-ssr___mfe_internal__warehouseSafety__remoteEntry_js",
+    "src": "virtual:mf-exposes-ssr:__mfe_internal__warehouseSafety__remoteEntry_js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "src/domain.ts"
+    ]
+  },
+  "virtual:mf-exposes:__mfe_internal__warehouseSafety__remoteEntry_js": {
+    "file": "assets/virtualExposes-DaMRStb6.js",
+    "name": "virtualExposes",
+    "src": "virtual:mf-exposes:__mfe_internal__warehouseSafety__remoteEntry_js",
+    "imports": [
+      "_virtual_mf-exposes___mfe_internal__warehouseSafety__remoteEntry_js-KWCZ-3ig.js"
+    ]
+  },
+  "virtual:mf-localSharedImportMap:__mfe_internal__warehouseSafety": {
+    "file": "assets/_virtual_mf-localSharedImportMap___mfe_internal__warehouseSafety-DpupMd0X.js",
+    "name": "_virtual_mf-localSharedImportMap___mfe_internal__warehouseSafety",
+    "src": "virtual:mf-localSharedImportMap:__mfe_internal__warehouseSafety",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "__virtual_mf___mfe_internal__warehouseSafety__loadShare__vue__loadShare__.js-D01h0nBB.js",
+      "__virtual_mf___mfe_internal__warehouseSafety__loadShare__vue_mf_2_router__loadShare__.js-bzYQVWrm.js"
+    ]
+  },
+  "virtual:mf:__mfe_internal__warehouseSafety__H_A_I__hostAutoInit__H_A_I__.js": {
+    "file": "assets/hostInit-BJtmdYjI.js",
+    "name": "hostInit",
+    "src": "virtual:mf:__mfe_internal__warehouseSafety__H_A_I__hostAutoInit__H_A_I__.js",
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "_virtual_mf-REMOTE_ENTRY_ID___mfe_internal__warehouseSafety__remoteEntry_js-Czh0pdJP.js",
+      "virtual:mf-localSharedImportMap:__mfe_internal__warehouseSafety"
+    ]
+  }
+}

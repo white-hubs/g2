@@ -1,0 +1,401 @@
+.tablePage {
+  display: flex;
+  flex: 1;
+  min-height: 0;
+  flex-direction: column;
+  overflow: hidden;
+  background: #fff;
+
+  > .g2-pc-form,
+  > form {
+    flex: none;
+  }
+}
+
+.headerActions,
+.actionSpace,
+.footerActions,
+.fileRow {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.footerActions {
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.selection {
+  color: #697386;
+  white-space: nowrap;
+}
+
+.detailBody {
+  max-height: 68vh;
+  overflow: auto;
+  padding-right: 8px;
+}
+
+.detailGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px 24px;
+  margin-bottom: 18px;
+}
+
+.detailItem {
+  display: grid;
+  grid-template-columns: 88px minmax(0, 1fr);
+  align-items: start;
+  color: #1f2937;
+}
+
+.detailLabel {
+  color: #7b8495;
+}
+
+.contentHtml {
+  min-height: 120px;
+  padding: 16px;
+  border: 1px solid #e8ebf0;
+  border-radius: 6px;
+  background: #fff;
+  line-height: 1.7;
+}
+
+.formPage {
+  height: 100%;
+  overflow: auto;
+  background: #fff;
+  padding: 20px 24px 28px;
+}
+
+.sectionTitle {
+  margin: 0 0 18px;
+  padding-left: 10px;
+  border-left: 3px solid var(--ant-color-primary, #1677ff);
+  color: #1f2937;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.formGrid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0 24px;
+}
+
+.fullWidth {
+  grid-column: 1 / -1;
+}
+
+.recipientList {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.recipientSectionHeader {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 24px;
+  margin-top: 4px;
+  margin-bottom: 16px;
+
+  .sectionTitle {
+    margin-bottom: 6px;
+  }
+}
+
+.sectionDescription {
+  margin: 0;
+  color: #8c8c8c;
+  font-size: 13px;
+  line-height: 20px;
+}
+
+.recipientEmpty {
+  display: flex;
+  min-height: 104px;
+  align-items: center;
+  gap: 14px;
+  padding: 20px 24px;
+  border: 1px dashed #cbd5e1;
+  border-radius: 8px;
+  background: #fafcff;
+
+  strong {
+    display: block;
+    margin-bottom: 4px;
+    color: #262626;
+    font-weight: 500;
+  }
+
+  p {
+    margin: 0;
+    color: #8c8c8c;
+    line-height: 20px;
+  }
+
+  > button {
+    margin-left: auto;
+  }
+}
+
+.recipientEmptyIcon {
+  display: flex;
+  width: 40px;
+  height: 40px;
+  flex: none;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: #e6f4ff;
+  color: var(--ant-color-primary, #1677ff);
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.recipientCard {
+  overflow: hidden;
+  border: 1px solid #e5eaf2;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0 2px 10px rgb(15 23 42 / 4%);
+}
+
+.recipientCardHeader {
+  display: flex;
+  min-height: 48px;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 8px 16px;
+  border-bottom: 1px solid #eef1f5;
+  background: #f8faff;
+}
+
+.recipientCardTitle {
+  display: flex;
+  min-width: 0;
+  align-items: center;
+  gap: 8px;
+  color: #262626;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.recipientCardIndex {
+  display: inline-flex;
+  width: 24px;
+  height: 24px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+  background: var(--ant-color-primary, #1677ff);
+  color: #fff;
+  font-size: 12px;
+}
+
+.recipientCardSummary {
+  overflow: hidden;
+  color: #8c8c8c;
+  font-size: 12px;
+  font-weight: 400;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.recipientCardBody {
+  display: grid;
+  grid-template-columns: minmax(220px, 0.8fr) minmax(180px, 0.65fr) minmax(360px, 1.55fr);
+  align-items: stretch;
+  gap: 16px;
+  padding: 18px 16px 20px;
+}
+
+.recipientField {
+  display: flex;
+  min-width: 0;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.recipientFieldLabel,
+.selectedRecipientTitle {
+  color: #595959;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.requiredMark {
+  margin-left: 3px;
+  color: #ff4d4f;
+}
+
+.recipientFieldLabelRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #8c8c8c;
+  font-size: 12px;
+}
+
+.recipientTags {
+  display: flex;
+  min-height: 40px;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 4px 4px 4px 10px;
+  border: 1px solid #d9d9d9;
+  border-radius: 6px;
+  background: #fff;
+  transition: border-color 0.2s ease;
+
+  &:hover {
+    border-color: var(--ant-color-primary, #1677ff);
+  }
+}
+
+.recipientTagsEmpty {
+  border-style: dashed;
+  background: #fafcff;
+}
+
+.recipientTagContent {
+  display: flex;
+  min-width: 0;
+  max-height: 92px;
+  flex: 1;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 6px 2px;
+  overflow: auto;
+  padding: 3px 0;
+}
+
+.recipientHint,
+.selectedRecipientEmpty {
+  color: #b8bec8;
+  font-size: 13px;
+}
+
+.fileList {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-top: 8px;
+}
+
+.fileRow {
+  justify-content: space-between;
+  max-width: 620px;
+  padding: 6px 10px;
+  border-radius: 4px;
+  background: #f5f7fa;
+}
+
+.modalSearch {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 14px;
+}
+
+.recipientSearchInput {
+  width: min(360px, 100%);
+}
+
+.recipientModalTitle {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.recipientModalTitleTip {
+  padding: 2px 8px;
+  border-radius: 10px;
+  background: #e6f4ff;
+  color: var(--ant-color-primary, #1677ff);
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.recipientModalLead {
+  margin: -4px 0 14px;
+  color: #8c8c8c;
+  font-size: 13px;
+}
+
+.selectedRecipientPanel {
+  margin-bottom: 14px;
+  padding: 10px 12px;
+  border: 1px solid #e5eaf2;
+  border-radius: 8px;
+  background: #f8faff;
+}
+
+.selectedRecipientHeader {
+  display: flex;
+  min-height: 28px;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.selectedRecipientCount {
+  margin-left: 8px;
+  color: var(--ant-color-primary, #1677ff);
+  font-size: 12px;
+}
+
+.selectedRecipientTags {
+  display: flex;
+  max-height: 78px;
+  min-height: 28px;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 6px 2px;
+  overflow: auto;
+  padding-top: 4px;
+}
+
+.modalPager {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 14px;
+}
+
+@media (max-width: 1080px) {
+  .formGrid,
+  .recipientCardBody {
+    grid-template-columns: 1fr;
+  }
+
+  .recipientTargetField {
+    grid-column: 1;
+  }
+
+  .recipientSectionHeader,
+  .recipientEmpty {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .recipientEmpty > button {
+    align-self: flex-start;
+    margin-left: 54px;
+  }
+
+  .recipientSectionHeader > button {
+    align-self: flex-start;
+  }
+
+  .recipientCardSummary {
+    display: none;
+  }
+}

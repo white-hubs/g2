@@ -1,0 +1,1 @@
+import{n as e,t}from"./assets/virtual_mf-REMOTE_ENTRY_ID___mfe_internal__factoryManagementClient__remoteEntry_js-BvUUAPef.js";export{t as get,e as init};

@@ -1,0 +1,1 @@
+import{C as e,S as t}from"./_virtual_mf___mfe_internal__shellPc__loadShare__pinia__loadShare__.js-BmX8p98f.js";import{t as n}from"./_virtual_mf___mfe_internal__shellPc__loadShare__vue_mf_2_router__loadShare__.js-BpOVXpaV.js";var r=e({name:`ShellOutletView`,setup(){return()=>t(n,null,null)}});export{r as default};

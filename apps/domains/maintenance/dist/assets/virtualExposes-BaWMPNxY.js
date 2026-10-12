@@ -1,0 +1,1 @@
+import{t as e}from"./virtual_mf-exposes___mfe_internal__maintenance__remoteEntry_js-C-HkEePP.js";export{e as default};

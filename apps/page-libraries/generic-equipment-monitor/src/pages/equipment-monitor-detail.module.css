@@ -1,0 +1,44 @@
+.page {
+  position: relative;
+  height: 100%;
+}
+
+.tabPane {
+  height: 100%;
+  overflow: auto;
+  padding-top: 4px;
+}
+
+.videoBox {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.videoItem {
+  height: 300px;
+  margin-bottom: 20px;
+  width: calc((100% - 20px) / 3);
+  min-width: 280px;
+}
+
+.videoTitle {
+  font-size: 16px;
+  color: var(--g2-color-text, #3d3d3d);
+  display: block;
+  margin-bottom: 6px;
+}
+
+.videoPlayer {
+  width: 100%;
+  height: calc(100% - 28px);
+}
+
+.footerBtn {
+  text-align: right;
+}
+
+.page :global(.ant-tabs-tab) {
+  margin: 0 !important;
+}

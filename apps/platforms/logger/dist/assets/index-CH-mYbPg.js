@@ -1,0 +1,1 @@
+import"./virtual_mf-exposes___mfe_internal__loggerPlatform__remoteEntry_js-BY2IZpnz.js";import"./virtual_mf-REMOTE_ENTRY_ID___mfe_internal__loggerPlatform__remoteEntry_js-ZfPFpJ0M.js";import{t as e}from"./_virtual_mf___mfe_internal__loggerPlatform__loadShare__vue__loadShare__.js-CRtaKRpH.js";e({template:`<p>@g2-platform/logger (library remote, no UI)</p>`}).mount(`#app`);

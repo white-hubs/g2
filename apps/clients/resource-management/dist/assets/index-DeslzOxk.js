@@ -1,0 +1,1 @@
+import"./virtual_mf-exposes___mfe_internal__resourceManagementClient__remoteEntry_js-tkiHUtBj.js";import"./virtual_mf-REMOTE_ENTRY_ID___mfe_internal__resourceManagementClient__remoteEntry_js-B00t9eWY.js";var e=document.querySelector(`#app`);e&&(e.textContent=`@g2-client/resource-management`);

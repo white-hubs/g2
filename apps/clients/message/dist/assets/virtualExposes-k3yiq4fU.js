@@ -1,0 +1,1 @@
+import{t as e}from"./virtual_mf-exposes___mfe_internal__messageClient__remoteEntry_js-CxzhYRGp.js";export{e as default};

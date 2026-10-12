@@ -1,0 +1,51 @@
+.itemEnergy-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  min-height: 0;
+  overflow: hidden;
+
+  .itemEnergy-type {
+    display: flex;
+    flex: none;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 0;
+
+    .type-item {
+      font-size: 14px;
+      font-family: Roboto-Regular, Roboto;
+      font-weight: 400;
+      color: #000000;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-right: 20px;
+
+      &.active {
+        .item-icon {
+          background: color-mix(in srgb, var(--cube-theme-var--primary-color) 100%, transparent);
+        }
+      }
+
+      .item-icon {
+        width: 36px;
+        height: 36px;
+        border-radius: 12px;
+        margin-right: 8px;
+        background: #ebebeb;
+      }
+    }
+  }
+
+  > :first-child {
+    flex: none;
+    margin-bottom: 8px;
+  }
+  .itemEnergy-chart {
+    flex: 1;
+    width: 100%;
+    min-height: 0;
+    overflow: hidden;
+  }
+}

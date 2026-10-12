@@ -1,0 +1,14 @@
+$ bun test
+bun test v1.3.14 (0d9b296a)
+
+src/domain.test.ts:
+(pass) work-report migration > all supplied menus retain order and codes, hidden routes keep sidebar context [1.49ms]
+(pass) work-report migration > form groups keep prefixed titles and valid business field mappings [0.67ms]
+(pass) work-report migration > dynamic columns keep zero counts and union different user report types [0.40ms]
+(pass) work-report migration > statistics drilldown only restores legacy API filters [0.45ms]
+(pass) work-report migration > statistics detail returns to filtered records without allowing foreign redirects [0.22ms]
+
+ 5 pass
+ 0 fail
+ 14 expect() calls
+Ran 5 tests across 1 file. [221.00ms]

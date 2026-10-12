@@ -1,0 +1,1 @@
+import{n as e}from"./domain-context-DPn2BKeO.js";import{a as t}from"./utils-P2U17EQn.js";var n={client:()=>e(),async listPlanDocuments(n){return t(await e().listPlanDocuments(n))},async listRules(n){return t(await e().listRules(n))},async listEventTypes(n){return t(await e().listEventTypes(n))},async listFileTypes(n){return t(await e().listFileTypes(n))}};export{n as t};

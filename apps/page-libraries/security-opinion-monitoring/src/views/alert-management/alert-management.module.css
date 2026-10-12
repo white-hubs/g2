@@ -1,0 +1,300 @@
+.searchForm {
+  margin-bottom: 12px;
+
+  :global(.ant-form-item),
+  :global(.security-opinion-monitoring-form-item) {
+    padding-right: 0 !important;
+    margin-right: 8px !important;
+    margin-bottom: 8px !important;
+  }
+}
+
+.searchItem {
+  padding-right: 0 !important;
+  margin-right: 8px !important;
+  margin-bottom: 8px !important;
+}
+
+.list {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 12px;
+  min-height: 0;
+  overflow-y: auto;
+  padding-right: 4px;
+}
+
+.alertCard {
+  padding: 16px;
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-left: 4px solid #3b82f6;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgb(15 23 42 / 4%);
+}
+
+.levelRed {
+  border-left-color: #ef4444;
+}
+
+.levelYellow {
+  border-left-color: #f59e0b;
+}
+
+.levelBlue {
+  border-left-color: #3b82f6;
+}
+
+.cardHeader {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.cardTitle {
+  display: inline-block;
+  min-width: 0;
+  color: #1e293b;
+  font-size: 14px;
+  font-weight: 600;
+  word-break: break-all;
+}
+
+.heat {
+  color: #ef4444;
+  font-size: 15px;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.summary {
+  margin-bottom: 10px;
+  color: #64748b;
+  font-size: 13px;
+  line-height: 1.7;
+}
+
+.meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 20px;
+  color: #64748b;
+  font-size: 12px;
+}
+
+.eventLink {
+  color: #2563eb;
+  cursor: pointer;
+}
+
+.keywords {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  align-items: center;
+  margin-top: 10px;
+  color: #94a3b8;
+  font-size: 12px;
+}
+
+.failure {
+  margin-top: 10px;
+  padding: 8px 10px;
+  color: #dc2626;
+  font-size: 12px;
+  background: #fef2f2;
+  border-radius: 6px;
+}
+
+.cardActions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: flex-end;
+  margin-top: 12px;
+  padding-top: 12px;
+  border-top: 1px solid #f1f5f9;
+}
+
+.configList {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  max-height: 62vh;
+  overflow-y: auto;
+  padding-right: 4px;
+}
+
+.configCard {
+  padding: 12px;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+}
+
+.configTitle {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+  margin-bottom: 10px;
+  color: #64748b;
+  font-size: 12px;
+}
+
+.receiverHint {
+  margin-top: -8px;
+  color: #94a3b8;
+  font-size: 12px;
+}
+
+.manualPush {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.manualTitle {
+  word-break: break-all;
+  color: #1e293b;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.manualMeta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+  color: #64748b;
+  font-size: 12px;
+}
+
+.loading {
+  padding: 48px;
+  color: #94a3b8;
+  text-align: center;
+}
+
+.opinionDetail {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.opinionTitle {
+  margin: 0 0 8px;
+  color: #1e293b;
+  font-size: 18px;
+  font-weight: 600;
+  word-break: break-all;
+}
+
+.opinionRow {
+  display: flex;
+  gap: 12px;
+  color: #334155;
+  font-size: 14px;
+  line-height: 1.6;
+  word-break: break-word;
+
+  > span:first-child {
+    flex-shrink: 0;
+    width: 80px;
+    color: #64748b;
+  }
+
+  a {
+    color: #0d9488;
+    word-break: break-all;
+  }
+}
+
+.opinionContent {
+  margin-top: 8px;
+}
+
+.opinionLabel {
+  margin-bottom: 8px;
+  color: #64748b;
+  font-weight: 500;
+}
+
+.contentPre {
+  max-height: 300px;
+  padding: 12px 16px;
+  margin: 0;
+  overflow-y: auto;
+  font-family: inherit;
+  font-size: 14px;
+  line-height: 1.6;
+  white-space: pre-wrap;
+  word-break: break-word;
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+}
+
+.eventDetail {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.eventOverview {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 22px;
+  padding: 12px;
+  color: #475569;
+  font-size: 13px;
+  background: #f8fafc;
+  border-radius: 8px;
+}
+
+.sectionTitle {
+  color: #1e293b;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.timeline {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.timelineItem {
+  display: grid;
+  grid-template-columns: 14px 1fr;
+  gap: 8px;
+}
+
+.timelineDot {
+  width: 8px;
+  height: 8px;
+  margin-top: 6px;
+  background: #3b82f6;
+  border-radius: 50%;
+}
+
+.timelineTime {
+  color: #94a3b8;
+  font-size: 12px;
+}
+
+.timelineText {
+  color: #334155;
+  font-size: 13px;
+}
+
+.actionList {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  color: #475569;
+  font-size: 13px;
+}

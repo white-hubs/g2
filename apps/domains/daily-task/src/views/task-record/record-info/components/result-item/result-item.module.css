@@ -1,0 +1,20 @@
+.result-item {
+  display: flex;
+  gap: 4px;
+  margin-bottom: 4px;
+}
+.result-item .first-index {
+  margin-right: 8px;
+}
+.result-item .normal-value {
+  color: green;
+  margin-left: 12px;
+}
+.result-item .error-value {
+  color: red;
+}
+.result-item .item-content {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}

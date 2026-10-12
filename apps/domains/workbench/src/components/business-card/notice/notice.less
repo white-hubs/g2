@@ -1,0 +1,43 @@
+.notice-container {
+  height: 100%;
+  min-height: 0;
+  overflow-x: hidden;
+  overflow-y: auto;
+
+  .notice-item {
+    width: 100%;
+    height: 58px;
+    padding:0;
+    border:0;
+    border-bottom: 1px solid var(--g2-color-border-secondary, #f5f5f5);
+    background:transparent;
+    color: var(--g2-color-text, #536177);
+    cursor:pointer;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    > div {
+      line-height: 58px;
+      height: 100%;
+      text-align: center;
+
+      &.notice-info {
+        width: 78%;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        text-align:left;
+        /* 公告类别与标题都属于正文，统一跟随主题的主文字色。 */
+        span { color: var(--g2-color-text, #536177); }
+        overflow: hidden;
+      }
+
+      &.notice-time {
+        width: 22%;
+        color: var(--g2-color-text-tertiary, #98a4b5);
+        overflow: hidden;
+      }
+    }
+  }
+}

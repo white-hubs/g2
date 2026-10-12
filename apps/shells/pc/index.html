@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>G2 PC Shell</title>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script>
+      // 对齐旧仓 public/config.js 的最小运行时注入；部署环境可覆盖整段。
+      window.config = window.config || {
+        // 缺省对齐字典 FRONTEND_CONFIG；启动时会被接口覆盖（可与登录 Platform 安装并行）
+        homeEntry: "/apps/@ghcloud/cube-workbench-app/",
+        systemName: "华威集团-ghy",
+        terminal: "bimops-manage-web",
+      };
+    </script>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

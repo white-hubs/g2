@@ -1,0 +1,1 @@
+import"./virtual_mf-exposes___mfe_internal__workOrderCenterClient__remoteEntry_js-Bx_IXxb-.js";import"./virtual_mf-REMOTE_ENTRY_ID___mfe_internal__workOrderCenterClient__remoteEntry_js-BMHTa3wI.js";document.querySelector(`#app`).textContent=`@g2-client/work-order-center build shell`;

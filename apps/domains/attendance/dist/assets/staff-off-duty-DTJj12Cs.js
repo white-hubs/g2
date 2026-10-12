@@ -1,0 +1,1 @@
+import{t as e}from"./client-DtOTO6As.js";var t=async t=>(await e()).offDutyRulesPage(t),n=async t=>(await e()).offDutyRulesDetail(t),r=async t=>(await e()).offDutyRulesInsert(t),i=async t=>(await e()).offDutyRulesUpdate(t),a=async t=>(await e()).offDutyRulesDelete(t);export{i as a,t as i,n,r,a as t};

@@ -1,0 +1,1 @@
+import{t as e}from"./client-DtOTO6As.js";var t=async t=>(await e()).attendanceApprovePage(t),n=async t=>(await e()).flowApprovalRecordPage(t),r=async t=>(await e()).flowApprovalRecordExport(t);export{r as n,n as r,t};

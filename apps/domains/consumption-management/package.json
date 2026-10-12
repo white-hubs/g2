@@ -1,0 +1,29 @@
+{
+  "name": "@g2-domain/consumption-management",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "bun ../../../tooling/dev-link/cli.ts",
+    "dev:serve": "bun --bun vite --port 5131 --strictPort",
+    "build": "bun --bun vite build",
+    "preview": "bun --bun vite preview --port 5131 --strictPort",
+    "test": "bun test",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  },
+  "dependencies": {
+    "@g2-client/consumption-management": "workspace:*",
+    "@g2-composition/contract": "workspace:*",
+    "@g2-contract/consumption-management": "workspace:*",
+    "dayjs": "catalog:libs",
+    "vue": "catalog:vue",
+    "vue-router": "catalog:vue"
+  },
+  "devDependencies": {
+    "@g2-platform/pc-ui": "workspace:*",
+    "@g2-tooling/mf-vite": "workspace:*",
+    "@vitejs/plugin-vue-jsx": "catalog:vite",
+    "typescript": "catalog:typescript",
+    "vite": "catalog:vite"
+  }
+}

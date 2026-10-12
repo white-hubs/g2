@@ -1,0 +1,1 @@
+import"./virtual_mf-exposes___mfe_internal__maintenanceClient__remoteEntry_js-CJR6NaYe.js";import"./virtual_mf-REMOTE_ENTRY_ID___mfe_internal__maintenanceClient__remoteEntry_js-I9mkVHJN.js";var e=document.querySelector(`#app`);e&&(e.textContent=`@g2-client/maintenance`);

@@ -1,0 +1,1 @@
+import{I as e}from"./pc-ui-runtime-DuxKhGP6.js";function t(){return new Proxy({},{get(t,n){let r=e(),i=r[n];return typeof i==`function`?i.bind(r):i}})}var n=t(),r=n,i=n,a=n,o=n,s=n,c=n,l=n,u=n;export{u as a,l as c,s as i,o as l,r as n,a as o,n as r,i as s,c as t};

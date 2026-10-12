@@ -1,0 +1,1 @@
+import{S as e}from"./_virtual_mf___mfe_internal__electricalSafety__loadShare__vue__loadShare__.js-B2WJ3nXp.js";import{t}from"./_virtual_mf___mfe_internal__electricalSafety__loadShare__vue_mf_2_router__loadShare__.js-Cl76fQpU.js";function n(){let n=t();return{pageTitle:e(()=>String(n.meta.title??`电气安全`))}}export{n as t};

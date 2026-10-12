@@ -1,0 +1,1 @@
+var e;function t(t,n){e=n}function n(){if(!e)throw Error(`用户中心服务尚未安装`);return e}export{t as n,n as t};

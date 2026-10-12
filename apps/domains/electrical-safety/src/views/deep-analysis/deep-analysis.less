@@ -1,0 +1,131 @@
+.diagnosis-card {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 12px;
+  margin-bottom: 12px;
+  padding: 18px 20px;
+  background: #fff;
+  border: 1px solid #edf1f5;
+  border-radius: 8px;
+  cursor: pointer;
+
+  &:focus-visible {
+    outline: 2px solid #1677ff;
+    outline-offset: 3px;
+  }
+
+  &:first-of-type {
+    padding-top: 18px;
+  }
+
+  &:last-child {
+    border-bottom: 1px solid #edf1f5;
+  }
+}
+
+.diagnosis-main {
+  flex: 1;
+  min-width: 520px;
+}
+
+.diagnosis-summary {
+}
+
+.diagnosis-heading {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  color: #262626;
+  font-size: 15px;
+}
+
+.diagnosis-meta {
+  display: flex;
+  gap: 22px;
+  margin-top: 12px;
+  padding-top: 10px;
+  border-top: 1px solid #f2f4f7;
+  color: #8c8c8c;
+  font-size: 12px;
+}
+
+.diagnosis-description {
+  margin: 10px 0 0;
+  color: #595959;
+  line-height: 1.7;
+}
+
+.diagnosis-detail {
+  display: grid;
+  grid-template-columns: 1fr 1.2fr 1fr;
+  gap: 24px;
+  width: 100%;
+  padding: 16px;
+  background: #fafcff;
+  border: 1px solid #edf1f5;
+  border-radius: 6px;
+
+  h4 {
+    margin: 0 0 10px;
+  }
+
+  ul,
+  ol {
+    padding-left: 18px;
+    margin: 0;
+    color: #595959;
+    line-height: 1.9;
+  }
+}
+
+.cause-row {
+  display: grid;
+  grid-template-columns: minmax(180px, 1fr) 180px;
+  gap: 12px;
+  align-items: center;
+  margin-bottom: 8px;
+  color: #595959;
+}
+
+.stat-danger {
+  border-top: 3px solid #ff4d4f !important;
+}
+
+.stat-warning {
+  border-top: 3px solid #faad14 !important;
+}
+
+.stat-success {
+  border-top: 3px solid #52c41a !important;
+}
+
+.stat-card {
+  position: relative;
+  padding-left: 72px !important;
+
+  .stat-icon {
+    position: absolute;
+    top: 50%;
+    left: 22px;
+    transform: translateY(-50%);
+  }
+}
+
+.diagnosis-detail h4 {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}
+
+.diagnosis-toggle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 38px;
+  height: 32px;
+  padding: 0 !important;
+  color: #1677ff;
+  font-size: 22px;
+  line-height: 1;
+}

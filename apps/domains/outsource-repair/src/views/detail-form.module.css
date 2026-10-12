@@ -1,0 +1,82 @@
+/* 旧 gDetailform：分组标题 + 字段栅格。 */
+.detailForm {
+  width: 100%;
+}
+
+.sectionTitle {
+  position: relative;
+  margin: 8px 0 16px;
+  padding-left: 10px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.sectionTitle::before {
+  position: absolute;
+  top: 3px;
+  left: 0;
+  width: 3px;
+  height: 16px;
+  background: var(--pc-primary-color, #00ba8b);
+  content: "";
+}
+
+.gridTwo {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px 24px;
+}
+
+.gridThree {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px 24px;
+}
+
+.item {
+  display: flex;
+  align-items: flex-start;
+  min-width: 0;
+}
+
+.itemFull {
+  grid-column: 1 / -1;
+}
+
+.label {
+  flex: none;
+  width: 110px;
+  color: rgb(0 0 0 / 65%);
+}
+
+.value {
+  flex: 1;
+  min-width: 0;
+  word-break: break-all;
+}
+
+.images {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+/* 流程时间线：旧 a-steps 的「【处理人】动作 + 时间 + 处理详情」。 */
+.steps {
+  padding: 4px 0 8px;
+}
+
+.stepNode {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+}
+
+.stepTime {
+  color: rgb(0 0 0 / 45%);
+}
+
+.modalLink {
+  padding: 0;
+}

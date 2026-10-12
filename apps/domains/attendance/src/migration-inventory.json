@@ -1,0 +1,1092 @@
+{
+  "source": "/Users/Admin/workCopy/ghcloud/prod/cube/business/attendance/src",
+  "routes": [
+    {
+      "entry": "attendance-group",
+      "name": "attendanceGroup",
+      "file": "views/attendance-group/attendance-group",
+      "export": "AttendanceGroup"
+    },
+    {
+      "entry": "attendance-group-form",
+      "name": "attendanceGroupForm",
+      "file": "views/attendance-group/attendance-group-form",
+      "export": "AttendanceGroupForm"
+    },
+    {
+      "entry": "attendance-ledger-summary",
+      "name": "attendanceLedgeSummary",
+      "file": "views/attendance-ledger/summary",
+      "export": "Summary"
+    },
+    {
+      "entry": "attendance-ledger-day",
+      "name": "attendanceLedgeDay",
+      "file": "views/attendance-ledger/day",
+      "export": "Day"
+    },
+    {
+      "entry": "attendance-pre-statistics",
+      "name": "attendancePreStatistics",
+      "file": "views/attendance-pre-statistics/index",
+      "export": "Pre"
+    },
+    {
+      "entry": "attendance-record",
+      "name": "attendanceRecord",
+      "file": "views/attendance-record/index",
+      "export": "AttendanceRecord"
+    },
+    {
+      "entry": "classes-manage",
+      "name": "classesManage",
+      "file": "views/classes-manage/classes-manage",
+      "export": "ClassesManage"
+    },
+    {
+      "entry": "classes-manage-form",
+      "name": "classesManageForm",
+      "file": "views/classes-manage/classes-manage-form",
+      "export": "ClassesManageForm"
+    },
+    {
+      "entry": "handle-record",
+      "name": "handleRecord",
+      "file": "views/handle-record/index",
+      "export": "HandleRecord"
+    },
+    {
+      "entry": "attendance-message",
+      "name": "attendanceMessage",
+      "file": "views/message/index",
+      "export": "Message"
+    },
+    {
+      "entry": "scheduling-rules",
+      "name": "schedulingRules",
+      "file": "views/scheduling-manage/scheduling-rules",
+      "export": "SchedulingRules"
+    },
+    {
+      "entry": "scheduling-rules-form",
+      "name": "schedulingRulesForm",
+      "file": "views/scheduling-manage/scheduling-rules-form",
+      "export": "SchedulingRulesForm"
+    },
+    {
+      "entry": "staff-scheduling",
+      "name": "StaffScheduling",
+      "file": "views/scheduling-manage/staff-scheduling",
+      "export": "StaffScheduling"
+    },
+    {
+      "entry": "staff-duty",
+      "name": "StaffDuty",
+      "file": "views/scheduling-manage/staff-duty",
+      "export": "StaffDuty"
+    },
+    {
+      "entry": "business-trip-rules",
+      "name": "businessTripRules",
+      "file": "views/staff-business-trip/business-trip-rules",
+      "export": "BusinessTripRules"
+    },
+    {
+      "entry": "business-trip-rules-form",
+      "name": "businessTripRulesForm",
+      "file": "views/staff-business-trip/business-trip-rules-form",
+      "export": "BusinessTripRulesForm"
+    },
+    {
+      "entry": "approve-business-trip",
+      "name": "approveBusinessTrip",
+      "file": "views/staff-business-trip/approve-business-trip",
+      "export": "ApproveBusinessTrip"
+    },
+    {
+      "entry": "approve-change",
+      "name": "approveChange",
+      "file": "views/staff-change/approve-change",
+      "export": "ApproveChange"
+    },
+    {
+      "entry": "change-ledger",
+      "name": "ChangeLedger",
+      "file": "views/staff-change/change-ledger",
+      "export": "ChangeLedger"
+    },
+    {
+      "entry": "clock-in-rules",
+      "name": "clockInRules",
+      "file": "views/staff-clock-in/clock-in-rules",
+      "export": "ClockInRules"
+    },
+    {
+      "entry": "clock-in-rules-form",
+      "name": "clockInRulesForm",
+      "file": "views/staff-clock-in/clock-in-rules-form",
+      "export": "ClockInRulesForm"
+    },
+    {
+      "entry": "clock-in-record",
+      "name": "clockInRecord",
+      "file": "views/staff-clock-in/clock-in-record",
+      "export": "ClockInRecord"
+    },
+    {
+      "entry": "clock-in-ledger",
+      "name": "clockInLedger",
+      "file": "views/staff-clock-in/clock-in-ledger",
+      "export": "ClockInLedger"
+    },
+    {
+      "entry": "leave-rules",
+      "name": "leaveRules",
+      "file": "views/staff-leave/leave-rules",
+      "export": "LeaveRules"
+    },
+    {
+      "entry": "leave-rules-form",
+      "name": "leaveRules-form",
+      "file": "views/staff-leave/leave-rules-form",
+      "export": "LeaveRulesForm"
+    },
+    {
+      "entry": "vacation-balance",
+      "name": "vacationBalance",
+      "file": "views/staff-leave/vacation-balance",
+      "export": "VacationBalance"
+    },
+    {
+      "entry": "approve-leave",
+      "name": "approveLeave",
+      "file": "views/staff-leave/approve-leave",
+      "export": "ApproveLeave"
+    },
+    {
+      "entry": "approve-dispose-leave",
+      "name": "approveDisposeLeave",
+      "file": "views/staff-leave/approve-dispose-leave",
+      "export": "ApproveDisposeLeave"
+    },
+    {
+      "entry": "leave-balance-detail",
+      "name": "vacationBalanceDetail",
+      "file": "views/staff-leave/vacation-balance-detail",
+      "export": "VacationBalanceDetail"
+    },
+    {
+      "entry": "approve-off-duty",
+      "name": "approveOffDuty",
+      "file": "views/staff-off-duty/approve-off-duty",
+      "export": "ApproveOffDuty"
+    },
+    {
+      "entry": "off-duty-rules",
+      "name": "offDutyRules",
+      "file": "views/staff-off-duty/off-duty-rules",
+      "export": "OffDutyRules"
+    },
+    {
+      "entry": "off-duty-rules-form",
+      "name": "offDutyRulesForm",
+      "file": "views/staff-off-duty/off-duty-rules-form",
+      "export": "OffDutyRulesForm"
+    },
+    {
+      "entry": "overtime-rules",
+      "name": "overtimeRules",
+      "file": "views/staff-overtime/overtime-rules",
+      "export": "OvertimeRules"
+    },
+    {
+      "entry": "approve-overtime",
+      "name": "approveOvertime",
+      "file": "views/staff-overtime/approve-overtime",
+      "export": "ApproveOvertime"
+    },
+    {
+      "entry": "overtime-rules-form",
+      "name": "overtimeRulesForm",
+      "file": "views/staff-overtime/overtime-rules-form",
+      "export": "OverTimeRulesForm"
+    },
+    {
+      "entry": "overtime-ledger-detail",
+      "name": "overtimeLedgerDetail",
+      "file": "views/staff-overtime/overtime-ledger-detail",
+      "export": "OverTimeLedgerDetail"
+    },
+    {
+      "entry": "supplement-rules",
+      "name": "supplementRules",
+      "file": "views/staff-supplement/supplement-rules",
+      "export": "SupplementRules"
+    },
+    {
+      "entry": "supplement-rules-form",
+      "name": "supplementRulesForm",
+      "file": "views/staff-supplement/supplement-rules-form",
+      "export": "SupplementRulesForm"
+    },
+    {
+      "entry": "approve-supplement",
+      "name": "approveSupplement",
+      "file": "views/staff-supplement/approve-supplement",
+      "export": "ApproveSupplement"
+    },
+    {
+      "entry": "supplement-ledger-detail",
+      "name": "supplementLedgerDetail",
+      "file": "views/staff-supplement/supplement-ledger-detail",
+      "export": "SupplementLedgerDetail"
+    },
+    {
+      "entry": "flow-approval-record",
+      "name": "flowApprovalRecord",
+      "file": "views/flow-approval-record/index",
+      "export": "FlowApprovalRecord"
+    },
+    {
+      "entry": "attendance-ledger-state",
+      "name": "attendanceLedgerState",
+      "file": "views/attendance-ledger/state",
+      "export": "State"
+    }
+  ],
+  "menus": [
+    {
+      "label": "班次管理@",
+      "entry": "classes-manage",
+      "path": "/d/attendance/classes-manage"
+    },
+    {
+      "label": "考勤组管理@",
+      "entry": "attendance-group",
+      "path": "/d/attendance/attendance-group"
+    },
+    {
+      "label": "排班管理@",
+      "children": [
+        {
+          "label": "排班规则@",
+          "entry": "scheduling-rules",
+          "path": "/d/attendance/scheduling-rules"
+        },
+        {
+          "label": "员工排班@",
+          "entry": "staff-scheduling",
+          "path": "/d/attendance/staff-scheduling"
+        }
+      ]
+    },
+    {
+      "label": "员工值班@",
+      "entry": "staff-duty",
+      "path": "/d/attendance/staff-duty"
+    },
+    {
+      "label": "员工打卡@",
+      "children": [
+        {
+          "label": "打卡规则@",
+          "entry": "clock-in-rules",
+          "path": "/d/attendance/clock-in-rules"
+        },
+        {
+          "label": "打卡记录@",
+          "entry": "clock-in-record",
+          "path": "/d/attendance/clock-in-record"
+        },
+        {
+          "label": "打卡台账@",
+          "entry": "clock-in-ledger",
+          "path": "/d/attendance/clock-in-ledger"
+        }
+      ]
+    },
+    {
+      "label": "员工请假@",
+      "children": [
+        {
+          "label": "请假规则@",
+          "entry": "leave-rules",
+          "path": "/d/attendance/leave-rules"
+        },
+        {
+          "label": "假期余额@",
+          "entry": "vacation-balance",
+          "path": "/d/attendance/vacation-balance"
+        },
+        {
+          "label": "请假审批@",
+          "entry": "approve-leave",
+          "path": "/d/attendance/approve-leave"
+        },
+        {
+          "label": "销假审批@",
+          "entry": "approve-dispose-leave",
+          "path": "/d/attendance/approve-dispose-leave"
+        }
+      ]
+    },
+    {
+      "label": "员工补卡@",
+      "children": [
+        {
+          "label": "补卡规则@",
+          "entry": "supplement-rules",
+          "path": "/d/attendance/supplement-rules"
+        },
+        {
+          "label": "补卡审批@",
+          "entry": "approve-supplement",
+          "path": "/d/attendance/approve-supplement"
+        }
+      ]
+    },
+    {
+      "label": "员工加班@",
+      "children": [
+        {
+          "label": "加班规则@",
+          "entry": "overtime-rules",
+          "path": "/d/attendance/overtime-rules"
+        },
+        {
+          "label": "加班审批@",
+          "entry": "approve-overtime",
+          "path": "/d/attendance/approve-overtime"
+        }
+      ]
+    },
+    {
+      "label": "员工换班@",
+      "children": [
+        {
+          "label": "换班审批@",
+          "entry": "approve-change",
+          "path": "/d/attendance/approve-change"
+        }
+      ]
+    },
+    {
+      "label": "员工离岗@",
+      "children": [
+        {
+          "label": "离岗规则@",
+          "entry": "off-duty-rules",
+          "path": "/d/attendance/off-duty-rules"
+        },
+        {
+          "label": "离岗审批@",
+          "entry": "approve-off-duty",
+          "path": "/d/attendance/approve-off-duty"
+        }
+      ]
+    },
+    {
+      "label": "员工出差@",
+      "children": [
+        {
+          "label": "出差规则@",
+          "entry": "business-trip-rules",
+          "path": "/d/attendance/business-trip-rules"
+        },
+        {
+          "label": "出差审批@",
+          "entry": "approve-business-trip",
+          "path": "/d/attendance/approve-business-trip"
+        }
+      ]
+    },
+    {
+      "label": "考勤台账@",
+      "children": [
+        {
+          "label": "汇总统计@",
+          "entry": "attendance-ledger-summary",
+          "path": "/d/attendance/attendance-ledger-summary"
+        },
+        {
+          "label": "考勤每日统计@",
+          "entry": "attendance-ledger-day",
+          "path": "/d/attendance/attendance-ledger-day"
+        }
+      ]
+    },
+    {
+      "label": "考勤@预统计",
+      "children": [
+        {
+          "label": "考勤汇总预统计@",
+          "entry": "attendance-pre-statistics",
+          "path": "/d/attendance/attendance-pre-statistics"
+        }
+      ]
+    },
+    {
+      "label": "考勤审批记录@",
+      "entry": "approval-record",
+      "path": "/d/attendance/approval-record"
+    },
+    {
+      "label": "考勤流程审批记录",
+      "entry": "flow-approval-record",
+      "path": "/d/attendance/flow-approval-record"
+    },
+    {
+      "label": "流程配置@",
+      "entry": "flow-config",
+      "path": "/d/attendance/flow-config"
+    },
+    {
+      "label": "消息配置@",
+      "entry": "attendance-message",
+      "path": "/d/attendance/attendance-message"
+    },
+    {
+      "label": "操作日志记录@",
+      "entry": "handle-record",
+      "path": "/d/attendance/handle-record"
+    }
+  ],
+  "sourceFiles": [
+    "api/attendance-group.ts",
+    "api/attendance-ledger.ts",
+    "api/attendance-pre.ts",
+    "api/attendance-record.ts",
+    "api/auth-store.ts",
+    "api/classes-manage.ts",
+    "api/common-type.ts",
+    "api/dictionary.ts",
+    "api/flow.ts",
+    "api/handle-record.ts",
+    "api/message.ts",
+    "api/ouaa.ts",
+    "api/scheduling-manage.ts",
+    "api/service.ts",
+    "api/staff-business-trip.ts",
+    "api/staff-clock-in.ts",
+    "api/staff-leave.ts",
+    "api/staff-off-duty.ts",
+    "api/staff-overtime.ts",
+    "api/staff-supplement.ts",
+    "app.ts",
+    "app.tsx",
+    "assets/style.module.less",
+    "components/business/add-clock-in-record-modal/add-clock-in-record-modal.tsx",
+    "components/business/attendance-group-select/attendance-group-select.tsx",
+    "components/business/business-trip-rules-select/business-trip-rules-select.tsx",
+    "components/business/cancel-balance-modal/cancel-balance-modal.tsx",
+    "components/business/change-balance-modal/change-balance-modal.tsx",
+    "components/business/classes-select-modal/classes-select-modal.tsx",
+    "components/business/classes-select-table/classes-select-table.tsx",
+    "components/business/classes-type-select/classes-type-select.tsx",
+    "components/business/clock-in-rule-select/clock-in-rule-select.tsx",
+    "components/business/clock-in-rule-setting-gps-pick-table/clock-in-rule-setting-gps-pick-table.tsx",
+    "components/business/clock-in-rule-setting-gps-pick-table/map.tsx",
+    "components/business/clock-in-rule-setting-machine-select-table/clock-in-rule-setting-machine-select-table.tsx",
+    "components/business/clock-in-time/clock-in-time.tsx",
+    "components/business/clock-in-way-select/clock-in-way-select.tsx",
+    "components/business/import-duty-template/import-duty-template.tsx",
+    "components/business/import-scheduling-template/import-scheduling-template.tsx",
+    "components/business/leave-expiry-date/leave-expiry-date.less",
+    "components/business/leave-expiry-date/leave-expiry-date.tsx",
+    "components/business/leave-limit-select/leave-limit-select.module.less",
+    "components/business/leave-limit-select/leave-limit-select.tsx",
+    "components/business/leave-quota-config/leave-quota-config.module.less",
+    "components/business/leave-quota-config/leave-quota-config.tsx",
+    "components/business/leave-rules-select/leave-rules-select.tsx",
+    "components/business/leave-time-translate/leave-time-translate.module.less",
+    "components/business/leave-time-translate/leave-time-translate.tsx",
+    "components/business/off-duty-rules-select/off-duty-rules-select.tsx",
+    "components/business/overtime-config/overtime-config-other.tsx",
+    "components/business/overtime-config/overtime-config.tsx",
+    "components/business/overtime-rules-select/overtime-rules-select.tsx",
+    "components/business/rest-time-range/rest-time-range.tsx",
+    "components/business/scheduling-rules-classes-select-table/holiday-modal.tsx",
+    "components/business/scheduling-rules-classes-select-table/scheduling-rules-classes-select-table.tsx",
+    "components/business/scheduling-rules-limit/scheduling-rules-limit.tsx",
+    "components/business/scheduling-rules-select/scheduling-rules-select.tsx",
+    "components/business/supplement-rules-select/supplement-rules-select.tsx",
+    "components/business/user-picker-table/user-picker-table.tsx",
+    "components/business/vacation-balance-modal/batch-update-modal/index.module.less",
+    "components/business/vacation-balance-modal/batch-update-modal/index.tsx",
+    "components/business/vacation-balance-modal/import-data/index.tsx",
+    "components/business/vacation-balance-modal/import-result/index.tsx",
+    "components/business/vacation-balance-modal/vacation-type/index.tsx",
+    "components/flow-table/flow-table.tsx",
+    "components/layout/chunk.module.less",
+    "components/layout/chunk.tsx",
+    "components/layout/layout.module.less",
+    "components/layout/layout.tsx",
+    "components/modal-form/modal-form.tsx",
+    "components/vertical-line/vertical-line.tsx",
+    "global.d.ts",
+    "hook/calendar.ts",
+    "hook/file-download.ts",
+    "hook/use-ctrl-event.ts",
+    "hook/use-page-name.ts",
+    "hook/use-table-scroll.ts",
+    "logger.ts",
+    "main.ts",
+    "permission/index.tsx",
+    "router.ts",
+    "routers/attendance-group.ts",
+    "routers/attendance-ledger.ts",
+    "routers/attendance-prestatistics.ts",
+    "routers/attendance-record.ts",
+    "routers/classes-mange.ts",
+    "routers/flow-approval-record.ts",
+    "routers/handle-record.ts",
+    "routers/message.ts",
+    "routers/scheduling-manage.ts",
+    "routers/staff-business-trip.ts",
+    "routers/staff-change.ts",
+    "routers/staff-clock-in.ts",
+    "routers/staff-leave.ts",
+    "routers/staff-off-duty.ts",
+    "routers/staff-overtime.ts",
+    "routers/staff-supplement.ts",
+    "store/function-dictionary.ts",
+    "store/index.ts",
+    "types/classes.ts",
+    "types/vacation-type.ts",
+    "views/attendance-group/attendance-group-form.tsx",
+    "views/attendance-group/attendance-group.tsx",
+    "views/attendance-ledger/day.tsx",
+    "views/attendance-ledger/index.less",
+    "views/attendance-ledger/state.tsx",
+    "views/attendance-ledger/summary.tsx",
+    "views/attendance-pre-statistics/index.tsx",
+    "views/attendance-record/index.less",
+    "views/attendance-record/index.tsx",
+    "views/classes-manage/classes-manage-form.less",
+    "views/classes-manage/classes-manage-form.tsx",
+    "views/classes-manage/classes-manage.tsx",
+    "views/flow-approval-record/index.tsx",
+    "views/handle-record/index.tsx",
+    "views/message/index.tsx",
+    "views/scheduling-manage/scheduling-rules-form.tsx",
+    "views/scheduling-manage/scheduling-rules.tsx",
+    "views/scheduling-manage/staff-duty.tsx",
+    "views/scheduling-manage/staff-scheduling.tsx",
+    "views/staff-business-trip/approve-business-trip.tsx",
+    "views/staff-business-trip/business-trip-ledger.less",
+    "views/staff-business-trip/business-trip-rules-form.tsx",
+    "views/staff-business-trip/business-trip-rules.tsx",
+    "views/staff-change/approve-change.tsx",
+    "views/staff-change/change-ledger.less",
+    "views/staff-change/change-ledger.tsx",
+    "views/staff-clock-in/clock-in-ledger.tsx",
+    "views/staff-clock-in/clock-in-record.tsx",
+    "views/staff-clock-in/clock-in-rules-form.tsx",
+    "views/staff-clock-in/clock-in-rules.tsx",
+    "views/staff-leave/approve-dispose-leave.tsx",
+    "views/staff-leave/approve-leave.tsx",
+    "views/staff-leave/leave-rules-form.tsx",
+    "views/staff-leave/leave-rules.tsx",
+    "views/staff-leave/vacation-balance-detail.tsx",
+    "views/staff-leave/vacation-balance.tsx",
+    "views/staff-off-duty/approve-off-duty.tsx",
+    "views/staff-off-duty/off-duty-rules-form.tsx",
+    "views/staff-off-duty/off-duty-rules.tsx",
+    "views/staff-overtime/approve-overtime.tsx",
+    "views/staff-overtime/overtime-ledger-detail.tsx",
+    "views/staff-overtime/overtime-ledger.less",
+    "views/staff-overtime/overtime-rules-form.tsx",
+    "views/staff-overtime/overtime-rules.tsx",
+    "views/staff-supplement/approve-supplement.tsx",
+    "views/staff-supplement/supplement-ledger-detail.tsx",
+    "views/staff-supplement/supplement-rules-form.tsx",
+    "views/staff-supplement/supplement-rules.tsx",
+    "vue-app-env.d.ts"
+  ],
+  "pages": [
+    {
+      "source": "views/attendance-group/attendance-group-form.tsx",
+      "target": "views/attendance-group/attendance-group-form.tsx",
+      "labels": [
+        "打卡规则",
+        "基本信息",
+        "考勤组名称",
+        "适用范围",
+        "所有人",
+        "部分人",
+        "适用人员",
+        "考勤班次",
+        "排班规则",
+        "排班方式",
+        "固定班制",
+        "倒班制",
+        "班次选择",
+        "限制条件",
+        "打卡方式",
+        "考勤机打卡",
+        "GPS地点打卡",
+        "请假规则",
+        "补卡规则",
+        "加班规则",
+        "离岗规则",
+        "出差规则"
+      ],
+      "actions": ["返回", "保存"],
+      "hasPagination": false
+    },
+    {
+      "source": "views/attendance-group/attendance-group.tsx",
+      "target": "views/attendance-group/attendance-group.tsx",
+      "labels": ["考勤组名称", "考勤组人数", "操作", "确认删除该项？"],
+      "actions": ["详情", "编辑", "删除", "查询", "重置"],
+      "hasPagination": true
+    },
+    {
+      "source": "views/attendance-ledger/day.tsx",
+      "target": "views/attendance-ledger/day.tsx",
+      "labels": ["部门", "日期"],
+      "actions": ["导出", "查询", "重置"],
+      "hasPagination": true
+    },
+    {
+      "source": "views/attendance-ledger/state.tsx",
+      "target": "views/attendance-ledger/state.tsx",
+      "labels": ["部门", "状态", "开始时间", "结束时间", "请假", "离岗", "出差", "休息", "在岗", "考勤组"],
+      "actions": ["导出", "查询", "重置"],
+      "hasPagination": true
+    },
+    {
+      "source": "views/attendance-ledger/summary.tsx",
+      "target": "views/attendance-ledger/summary.tsx",
+      "labels": [
+        "部门",
+        "应出勤天数",
+        "实际出勤天数",
+        "排班出勤天数",
+        "合计",
+        "白班",
+        "中班",
+        "夜班",
+        "离岗(天）",
+        "出差(天）",
+        "旷工天数",
+        "缺卡次数",
+        "补卡次数",
+        "迟到次数",
+        "迟到时长(分钟)",
+        "早退次数",
+        "早退时长(分钟)",
+        "工作日加班(小时）",
+        "休息日加班(小时）",
+        "节假日加班(小时）",
+        "工作日计加班费的时长(小时)",
+        "休息日计加班费的时长(小时）",
+        "节假日计加班费的时长(小时)",
+        "考勤组",
+        "时间选择",
+        "按月",
+        "按年"
+      ],
+      "actions": ["导出", "查询", "重置"],
+      "hasPagination": true
+    },
+    {
+      "source": "views/attendance-pre-statistics/index.tsx",
+      "target": "views/attendance-pre-statistics/index.tsx",
+      "labels": [
+        "部门",
+        "应出勤天数",
+        "实际出勤天数",
+        "排班出勤天数",
+        "合计",
+        "白班",
+        "中班",
+        "夜班",
+        "离岗(天）",
+        "出差(天）",
+        "旷工天数",
+        "缺卡次数",
+        "补卡次数",
+        "迟到次数",
+        "迟到时长(分钟)",
+        "早退次数",
+        "早退时长(分钟)",
+        "工作日加班(小时）",
+        "休息日加班(小时）",
+        "节假日加班(小时）",
+        "工作日计加班费的时长(小时)",
+        "休息日计加班费的时长(小时）",
+        "节假日计加班费的时长(小时)",
+        "时间选择",
+        "按月",
+        "按年"
+      ],
+      "actions": ["导出", "查询", "重置"],
+      "hasPagination": true
+    },
+    {
+      "source": "views/attendance-record/index.tsx",
+      "target": "views/attendance-record/index.tsx",
+      "labels": ["编号", "申请名称", "发起人", "发起部门", "发起时间", "处理状态", "处理进度", "操作", "时间范围"],
+      "actions": ["详情", "查询", "重置", "返回"],
+      "hasPagination": true
+    },
+    {
+      "source": "views/classes-manage/classes-manage-form.tsx",
+      "target": "views/classes-manage/classes-manage-form.tsx",
+      "labels": ["班次名称", "班次简称", "建议应用范围", "班次类型", "上班时间", "下班时间", "休息时间"],
+      "actions": ["返回", "保存"],
+      "hasPagination": false
+    },
+    {
+      "source": "views/classes-manage/classes-manage.tsx",
+      "target": "views/classes-manage/classes-manage.tsx",
+      "labels": ["班次名称", "班次简称", "起始时间", "结束时间", "操作"],
+      "actions": ["编辑", "删除", "查询", "重置"],
+      "hasPagination": true
+    },
+    {
+      "source": "views/flow-approval-record/index.tsx",
+      "target": "views/flow-approval-record/index.tsx",
+      "labels": [
+        "处理中",
+        "驳回",
+        "撤销",
+        "完成",
+        "编号",
+        "申请名称",
+        "发起人",
+        "发起部门",
+        "发起时间",
+        "处理状态",
+        "处理进度",
+        "操作",
+        "业务开始时间",
+        "业务类型",
+        "部门",
+        "状态"
+      ],
+      "actions": ["详情", "导出", "查询", "重置"],
+      "hasPagination": true
+    },
+    {
+      "source": "views/handle-record/index.tsx",
+      "target": "views/handle-record/index.tsx",
+      "labels": [
+        "操作时间",
+        "操作人",
+        "业务应用",
+        "操作",
+        "操作对象",
+        "操作内容",
+        "考勤组",
+        "班次",
+        "人员排班",
+        "人员值班",
+        "假期余额",
+        "假期类型",
+        "加班规则",
+        "补卡规则",
+        "日期"
+      ],
+      "actions": ["导出", "查询", "重置"],
+      "hasPagination": true
+    },
+    {
+      "source": "views/message/index.tsx",
+      "target": "views/message/index.tsx",
+      "labels": [
+        "START_CLOCK",
+        "END_CLOCK",
+        "假期到期提醒",
+        "上班打卡提醒",
+        "通知条件:",
+        "通知方式:",
+        "通知内容:",
+        "下班打卡提醒",
+        "通知示例:"
+      ],
+      "actions": ["保存"],
+      "hasPagination": false
+    },
+    {
+      "source": "views/scheduling-manage/scheduling-rules-form.tsx",
+      "target": "views/scheduling-manage/scheduling-rules-form.tsx",
+      "labels": ["排班规则", "排班方式", "固定班制", "倒班制", "班次选择", "提示", "限制条件", "基本信息", "排班规则名称"],
+      "actions": ["返回", "保存"],
+      "hasPagination": false
+    },
+    {
+      "source": "views/scheduling-manage/scheduling-rules.tsx",
+      "target": "views/scheduling-manage/scheduling-rules.tsx",
+      "labels": ["排班规则名称", "规则内容", "规则编辑时间", "操作", "确认删除该项？"],
+      "actions": ["编辑", "删除", "查询", "重置"],
+      "hasPagination": true
+    },
+    {
+      "source": "views/scheduling-manage/staff-duty.tsx",
+      "target": "views/scheduling-manage/staff-duty.tsx",
+      "labels": ["清空前确认", "删除前确认", "选择月份"],
+      "actions": ["下载值班模板", "查询", "重置", "删除"],
+      "hasPagination": true
+    },
+    {
+      "source": "views/scheduling-manage/staff-scheduling.tsx",
+      "target": "views/scheduling-manage/staff-scheduling.tsx",
+      "labels": ["清空前确认", "删除前确认", "考勤组", "选择月份"],
+      "actions": ["下载排班模板", "查询", "重置"],
+      "hasPagination": true
+    },
+    {
+      "source": "views/staff-business-trip/approve-business-trip.tsx",
+      "target": "views/staff-business-trip/approve-business-trip.tsx",
+      "labels": [],
+      "actions": [],
+      "hasPagination": false
+    },
+    {
+      "source": "views/staff-business-trip/business-trip-rules-form.tsx",
+      "target": "views/staff-business-trip/business-trip-rules-form.tsx",
+      "labels": [
+        "出差前发起审批",
+        "无限制",
+        "按工作日计算出差时长",
+        "按自然日计算出差时长",
+        "基本信息",
+        "规则名称",
+        "出差规则",
+        "出差审批条件",
+        "最小出差单位",
+        "出差时长核算"
+      ],
+      "actions": ["返回", "保存"],
+      "hasPagination": false
+    },
+    {
+      "source": "views/staff-business-trip/business-trip-rules.tsx",
+      "target": "views/staff-business-trip/business-trip-rules.tsx",
+      "labels": ["规则名称", "规则内容", "规则更新时间", "操作", "确认删除该项？"],
+      "actions": ["编辑", "删除", "新增", "查询", "重置"],
+      "hasPagination": true
+    },
+    {
+      "source": "views/staff-change/approve-change.tsx",
+      "target": "views/staff-change/approve-change.tsx",
+      "labels": [],
+      "actions": [],
+      "hasPagination": false
+    },
+    {
+      "source": "views/staff-change/change-ledger.tsx",
+      "target": "views/staff-change/change-ledger.tsx",
+      "labels": ["换班申请时间", "换班处理时间", "换班类型", "换班人员", "班次信息", "换班台账"],
+      "actions": ["导出", "查询", "重置"],
+      "hasPagination": true
+    },
+    {
+      "source": "views/staff-clock-in/clock-in-ledger.tsx",
+      "target": "views/staff-clock-in/clock-in-ledger.tsx",
+      "labels": ["部门", "日期"],
+      "actions": ["导出", "查询", "重置"],
+      "hasPagination": true
+    },
+    {
+      "source": "views/staff-clock-in/clock-in-record.tsx",
+      "target": "views/staff-clock-in/clock-in-record.tsx",
+      "labels": [
+        "撤销",
+        "取消作废",
+        "作废",
+        "日期",
+        "姓名",
+        "部门",
+        "打卡时间",
+        "打卡方式",
+        "打卡地点",
+        "操作",
+        "考勤机打卡",
+        "GPS地点打卡"
+      ],
+      "actions": ["新增", "导出", "查询", "重置"],
+      "hasPagination": true
+    },
+    {
+      "source": "views/staff-clock-in/clock-in-rules-form.tsx",
+      "target": "views/staff-clock-in/clock-in-rules-form.tsx",
+      "labels": ["基本信息", "打卡规则名称", "打卡规则", "打卡方式", "考勤机打卡", "GPS地点打卡", "考勤机", "考勤地点"],
+      "actions": ["返回", "保存"],
+      "hasPagination": false
+    },
+    {
+      "source": "views/staff-clock-in/clock-in-rules.tsx",
+      "target": "views/staff-clock-in/clock-in-rules.tsx",
+      "labels": ["打卡规则名称", "规则内容", "规则编辑时间", "操作", "确认删除该项？"],
+      "actions": ["编辑", "删除", "查询", "重置"],
+      "hasPagination": true
+    },
+    {
+      "source": "views/staff-leave/approve-dispose-leave.tsx",
+      "target": "views/staff-leave/approve-dispose-leave.tsx",
+      "labels": [],
+      "actions": [],
+      "hasPagination": false
+    },
+    {
+      "source": "views/staff-leave/approve-leave.tsx",
+      "target": "views/staff-leave/approve-leave.tsx",
+      "labels": [],
+      "actions": [],
+      "hasPagination": false
+    },
+    {
+      "source": "views/staff-leave/leave-rules-form.tsx",
+      "target": "views/staff-leave/leave-rules-form.tsx",
+      "labels": [
+        "每年自动发放一次",
+        "加班时长自动计入余额",
+        "按工作日计算时长",
+        "按自然日计算时长",
+        "是",
+        "否",
+        "假期名称",
+        "假期类型",
+        "是否计入缺勤",
+        "最小请假单位",
+        "日折算时长",
+        "请假时长核算",
+        "假期额度",
+        "限制",
+        "不限制",
+        "发放方式",
+        "发放日期",
+        "额度配置",
+        "额度有效期"
+      ],
+      "actions": ["返回", "保存"],
+      "hasPagination": false
+    },
+    {
+      "source": "views/staff-leave/leave-rules.tsx",
+      "target": "views/staff-leave/leave-rules.tsx",
+      "labels": ["假期类型", "假期规则内容", "规则编辑时间", "操作", "确认删除该项？"],
+      "actions": ["编辑", "删除", "新增", "查询", "重置"],
+      "hasPagination": true
+    },
+    {
+      "source": "views/staff-leave/vacation-balance-detail.tsx",
+      "target": "views/staff-leave/vacation-balance-detail.tsx",
+      "labels": ["时间", "修改人", "余额变动", "有效期", "备注", "操作", "假期余额明细"],
+      "actions": ["新增"],
+      "hasPagination": true
+    },
+    {
+      "source": "views/staff-leave/vacation-balance.tsx",
+      "target": "views/staff-leave/vacation-balance.tsx",
+      "labels": ["姓名", "考勤组", "部门", "入职时间"],
+      "actions": ["批量修改", "批量新增", "导出", "查询", "重置"],
+      "hasPagination": true
+    },
+    {
+      "source": "views/staff-off-duty/approve-off-duty.tsx",
+      "target": "views/staff-off-duty/approve-off-duty.tsx",
+      "labels": [],
+      "actions": [],
+      "hasPagination": false
+    },
+    {
+      "source": "views/staff-off-duty/off-duty-rules-form.tsx",
+      "target": "views/staff-off-duty/off-duty-rules-form.tsx",
+      "labels": [
+        "离岗前发起审批",
+        "无限制",
+        "按工作日计算离岗时长",
+        "按自然日计算离岗时长",
+        "基本信息",
+        "规则名称",
+        "离岗规则",
+        "离岗审批条件",
+        "最小离岗单位",
+        "离岗时长核算"
+      ],
+      "actions": ["返回", "保存"],
+      "hasPagination": false
+    },
+    {
+      "source": "views/staff-off-duty/off-duty-rules.tsx",
+      "target": "views/staff-off-duty/off-duty-rules.tsx",
+      "labels": ["规则名称", "规则内容", "规则更新时间", "操作", "确认删除该项？"],
+      "actions": ["编辑", "删除", "新增", "查询", "重置"],
+      "hasPagination": true
+    },
+    {
+      "source": "views/staff-overtime/approve-overtime.tsx",
+      "target": "views/staff-overtime/approve-overtime.tsx",
+      "labels": [],
+      "actions": [],
+      "hasPagination": false
+    },
+    {
+      "source": "views/staff-overtime/overtime-ledger-detail.tsx",
+      "target": "views/staff-overtime/overtime-ledger-detail.tsx",
+      "labels": ["加班申请时间", "加班处理时间", "加班类型", "加班开始时间", "加班结束时间", "加班时长(小时)", "加班台账"],
+      "actions": ["导出", "查询", "重置"],
+      "hasPagination": true
+    },
+    {
+      "source": "views/staff-overtime/overtime-rules-form.tsx",
+      "target": "views/staff-overtime/overtime-rules-form.tsx",
+      "labels": ["基本信息", "规则名称", "加班规则", "工作日加班", "休息日加班", "节假日加班", "其他设置"],
+      "actions": ["返回", "保存"],
+      "hasPagination": false
+    },
+    {
+      "source": "views/staff-overtime/overtime-rules.tsx",
+      "target": "views/staff-overtime/overtime-rules.tsx",
+      "labels": ["规则名称", "规则内容", "规则更新时间", "操作", "确认删除该项？"],
+      "actions": ["编辑", "删除", "新增", "查询", "重置"],
+      "hasPagination": true
+    },
+    {
+      "source": "views/staff-supplement/approve-supplement.tsx",
+      "target": "views/staff-supplement/approve-supplement.tsx",
+      "labels": [],
+      "actions": [],
+      "hasPagination": false
+    },
+    {
+      "source": "views/staff-supplement/supplement-ledger-detail.tsx",
+      "target": "views/staff-supplement/supplement-ledger-detail.tsx",
+      "labels": ["补卡申请时间", "补卡处理时间", "补卡日期", "补卡班次", "日期"],
+      "actions": ["导出", "查询", "重置", "返回"],
+      "hasPagination": true
+    },
+    {
+      "source": "views/staff-supplement/supplement-rules-form.tsx",
+      "target": "views/staff-supplement/supplement-rules-form.tsx",
+      "labels": ["缺卡", "迟到", "早退", "基本信息", "规则名称", "补卡规则", "允许补卡类型", "允许补卡次数", "允许补卡时限"],
+      "actions": ["返回", "保存"],
+      "hasPagination": false
+    },
+    {
+      "source": "views/staff-supplement/supplement-rules.tsx",
+      "target": "views/staff-supplement/supplement-rules.tsx",
+      "labels": ["规则名称", "规则内容", "规则更新时间", "操作", "确认删除该项？"],
+      "actions": ["编辑", "删除", "新增", "查询", "重置"],
+      "hasPagination": true
+    }
+  ],
+  "infrastructureReplacements": {
+    "app.ts": "domain.ts install、initialize.ts、Shell 路由与权限上下文",
+    "app.tsx": "Shell 与 pc-ui ZhConfigProvider",
+    "main.ts": "G2 Domain Remote",
+    "router.ts": "domain.ts",
+    "routers/*": "domain.ts",
+    "api/auth-store.ts": "DomainContext.getAuthHeaders 与 httpPlatform",
+    "components/layout/layout.tsx": "pc-ui PageLayout",
+    "components/layout/layout.module.less": "pc-ui PageLayout 样式",
+    "hook/use-table-scroll.ts": "usePcTable/AliasTable autoScrollY",
+    "hook/file-download.ts": "保留各业务 Client Blob 下载行为",
+    "global.d.ts": "G2 DomainContext 常量与类型",
+    "vue-app-env.d.ts": "vite/client、G2 Contract 类型"
+  }
+}

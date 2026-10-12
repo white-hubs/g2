@@ -1,0 +1,101 @@
+.wrap {
+  padding: 0 4px;
+}
+
+.tabToolbar {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.tabToolbarFilters {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  flex: 1;
+  min-width: 0;
+}
+
+.tabToolbarActions {
+  flex-shrink: 0;
+}
+
+.searchForm {
+  margin-bottom: 0;
+  flex: 1;
+  min-width: 0;
+
+  :global(.ant-form-item) {
+    padding-right: 0 !important;
+    margin-right: 8px !important;
+    margin-bottom: 0 !important;
+  }
+
+  :global(.ant-form-item-label) {
+    padding-right: 4px;
+  }
+}
+
+.searchItem {
+  margin-bottom: 0 !important;
+  margin-right: 8px !important;
+  padding-right: 0 !important;
+}
+
+.searchInput {
+  width: 200px;
+  flex: 0 0 auto;
+}
+
+.periodRow {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  width: 100%;
+}
+
+.periodInputWrap {
+  flex: 1;
+  min-width: 0;
+}
+
+.periodUnitWrap {
+  flex-shrink: 0;
+  width: 72px;
+}
+
+.drawerFooter {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 12px;
+}
+
+.cancelBtn {
+  background: #fff !important;
+  border-color: #d9d9d9 !important;
+  color: rgba(0, 0, 0, 0.88) !important;
+
+  &:hover,
+  &:focus {
+    background: #fff !important;
+    color: rgba(0, 0, 0, 0.88) !important;
+    border-color: #4096ff !important;
+  }
+}
+
+.drawerLoading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 200px;
+}
+
+.configTable {
+  :global(.ant-table-thead > tr > th) {
+    white-space: nowrap;
+  }
+}

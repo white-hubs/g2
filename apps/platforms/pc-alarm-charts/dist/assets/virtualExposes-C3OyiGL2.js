@@ -1,0 +1,1 @@
+import{t as e}from"./virtual_mf-exposes___mfe_internal__pcAlarmCharts__remoteEntry_js-D2r-c4PC.js";export{e as default};

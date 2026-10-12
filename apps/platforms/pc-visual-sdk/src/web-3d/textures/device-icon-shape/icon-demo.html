@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Icon Demo</title>
+    <style>
+      body {
+        background-color: black;
+      }
+    </style>
+  </head>
+  <body>
+    <canvas id="mergedCanvas"></canvas>
+
+    <script>
+      // 创建两个Image对象
+      const img1 = new Image();
+      const img2 = new Image();
+      const img3 = new Image();
+
+      // 图片加载完成后执行合并
+      let imagesLoaded = 0;
+
+      function onImageLoad() {
+        imagesLoaded++;
+        if (imagesLoaded === 3) {
+          mergeImages();
+        }
+      }
+
+      // 设置图片源并监听加载事件
+      img1.onload = onImageLoad;
+      img2.onload = onImageLoad;
+      img3.onload = onImageLoad;
+
+      // 替换为你的实际图片路径
+      img1.src = "../device-icon-shape/border-drop.png";
+      img2.src = "../device-icon-shape/bg-round.png";
+      img3.src = "../device-icon/3.PNG";
+
+      function mergeImages(hexColor = "#FF0000") {
+        // 验证十六进制颜色格式
+        if (!/^#[0-9A-F]{6}$/i.test(hexColor)) {
+          (function () {})("Invalid hex color format. Expected format like #FF0000");
+          return;
+        }
+
+        // 将十六进制转换为RGB
+        const r = parseInt(hexColor.substr(1, 2), 16);
+        const g = parseInt(hexColor.substr(3, 2), 16);
+        const b = parseInt(hexColor.substr(5, 2), 16);
+
+        const canvas = document.getElementById("mergedCanvas");
+        const ctx = canvas.getContext("2d");
+
+        // 使用第一张图片的宽高设置canvas
+        canvas.width = img1.width;
+        canvas.height = img1.height;
+
+        // 先绘制指定颜色的背景
+        ctx.fillStyle = `rgb(${r},${g},${b})`;
+        ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+        // 绘制第一张图片轮廓
+        ctx.globalCompositeOperation = "destination-in";
+        ctx.drawImage(img1, 0, 0);
+        ctx.globalCompositeOperation = "source-over";
+
+        // 缩小第二张图片（缩小比例为0.4）
+        const scale = 0.4;
+        const scaledWidth = img2.width * scale;
+        const scaledHeight = img2.height * scale;
+        const x = (img1.width - scaledWidth) / 2;
+        const y = (img1.height - scaledHeight) / 10;
+        ctx.drawImage(img2, x, y, scaledWidth, scaledHeight);
+
+        // 创建临时canvas处理第三张图片
+        const tempCanvas = document.createElement("canvas");
+        const tempCtx = tempCanvas.getContext("2d");
+        tempCanvas.width = img3.width;
+        tempCanvas.height = img3.height;
+        tempCtx.drawImage(img3, 0, 0);
+
+        // 获取像素数据
+        const imageData = tempCtx.getImageData(0, 0, tempCanvas.width, tempCanvas.height);
+        const data = imageData.data;
+
+        // 遍历像素点，将白色改为指定颜色
+        for (let i = 0; i < data.length; i += 4) {
+          if (data[i] > 200 && data[i + 1] > 200 && data[i + 2] > 200) {
+            data[i] = r; // R
+            data[i + 1] = g; // G
+            data[i + 2] = b; // B
+          }
+        }
+
+        // 将修改后的像素数据放回
+        tempCtx.putImageData(imageData, 0, 0);
+
+        // 放大第三张图片（放大比例为1.5）
+        const img3Scale = 2;
+        const img3Width = img3.width * img3Scale;
+        const img3Height = img3.height * img3Scale;
+
+        // 计算放大后图片的居中位置
+        const img3X = x + (scaledWidth - img3Width) / 2;
+        const img3Y = y + (scaledHeight - img3Height) / 2;
+
+        // 绘制处理后的第三张图片
+        ctx.drawImage(tempCanvas, img3X, img3Y, img3Width, img3Height);
+        (function () {})(canvas.toDataURL());
+      }
+    </script>
+  </body>
+</html>

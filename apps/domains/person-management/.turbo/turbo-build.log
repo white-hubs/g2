@@ -1,0 +1,51 @@
+$ bun --bun vite build
+vite v8.1.5 building client environment for production...
+[2Ktransforming...✓ 118 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                                                                                                     1.31 kB │ gzip:  0.35 kB
+dist/assets/mf-entry-bootstrap-7-f2273c9d.js                                                                        1.35 kB
+dist/mf-manifest.json                                                                                               1.35 kB │ gzip:  0.51 kB
+dist/assets/mf-entry-bootstrap-4-af63546b.js                                                                        1.36 kB
+dist/assets/mf-entry-bootstrap-0-60be74b1.js                                                                        1.36 kB
+dist/assets/mf-entry-bootstrap-2-91ee5e84.js                                                                        1.38 kB
+dist/assets/mf-entry-bootstrap-1-29c98dbe.js                                                                        1.41 kB
+dist/assets/mf-entry-bootstrap-3-9c027d09.js                                                                        1.42 kB
+dist/assets/mf-entry-bootstrap-5-513297b2.js                                                                        1.42 kB
+dist/assets/mf-entry-bootstrap-6-3c46d6a6.js                                                                        1.43 kB
+dist/mf-stats.json                                                                                                  5.37 kB │ gzip:  1.15 kB
+dist/.vite/manifest.json                                                                                            8.06 kB │ gzip:  1.00 kB
+dist/assets/personnel-statistics-page-D49mCsDA.css                                                                  0.23 kB │ gzip:  0.18 kB
+dist/assets/field-config-CVm1ZDj7.css                                                                               0.39 kB │ gzip:  0.19 kB
+dist/assets/workflows-CFNv3qga.css                                                                                  0.94 kB │ gzip:  0.39 kB
+dist/assets/roster-bdMymcAB.css                                                                                     1.10 kB │ gzip:  0.49 kB
+dist/assets/domain-Cl4EASXF.js                                                                                      0.09 kB │ gzip:  0.10 kB
+dist/assets/virtualExposes-FZB0yzRh.js                                                                              0.12 kB │ gzip:  0.12 kB
+dist/remoteEntry.js                                                                                                 0.14 kB │ gzip:  0.14 kB
+dist/assets/rolldown-runtime-DK3Fl9T5.js                                                                            0.15 kB │ gzip:  0.15 kB
+dist/assets/virtual_mf-exposes-ssr___mfe_internal__personManagement__remoteEntry_js-CQjkhnhe.js                     0.25 kB │ gzip:  0.22 kB
+dist/assets/virtual_mf-exposes___mfe_internal__personManagement__remoteEntry_js-CsV1JGXp.js                         0.94 kB │ gzip:  0.58 kB
+dist/remoteEntry.ssr.js                                                                                             1.01 kB │ gzip:  0.58 kB
+dist/assets/_virtual_mf-localSharedImportMap___mfe_internal__personManagement-nk6Zm7XF.js                           1.23 kB │ gzip:  0.53 kB
+dist/assets/vite-preload-helper-7P2xnrDv.js                                                                         1.41 kB │ gzip:  0.75 kB
+dist/assets/hostInit-Bpnrzjt_.js                                                                                    2.33 kB │ gzip:  1.10 kB
+dist/assets/personnel-statistics-page-DAgH7QrA.js                                                                   2.78 kB │ gzip:  1.44 kB
+dist/assets/fields-CW87BIeE.js                                                                                      3.11 kB │ gzip:  1.12 kB
+dist/assets/person-type-page-wdHMNVHb.js                                                                            3.52 kB │ gzip:  1.76 kB
+dist/assets/field-config-DO9RmdUL.js                                                                                3.69 kB │ gzip:  1.66 kB
+dist/assets/domain-KPZysLLc.js                                                                                     11.91 kB │ gzip:  3.34 kB
+dist/assets/workflows-D5GDIgr7.js                                                                                  18.64 kB │ gzip:  5.24 kB
+dist/assets/roster-svJ56vX5.js                                                                                     22.47 kB │ gzip:  7.45 kB
+dist/assets/_virtual_mf___mfe_internal__personManagement__loadShare__vue_mf_2_router__loadShare__.js-DfZJwR4a.js   30.53 kB │ gzip: 11.34 kB
+dist/assets/virtual_mf-REMOTE_ENTRY_ID___mfe_internal__personManagement__remoteEntry_js-BJb6xHLg.js                39.04 kB │ gzip: 12.93 kB
+dist/assets/_virtual_mf___mfe_internal__personManagement__loadShare__vue__loadShare__.js-BGbqwWW1.js              121.75 kB │ gzip: 45.39 kB
+
+[33m[PLUGIN_TIMINGS] [0mYour build spent significant time in plugins. Here is a breakdown:
+  - add-entry (19%)
+  - vite:vue-jsx (18%)
+  - proxyRemoteEntry (14%)
+  - generateLocalSharedImportMap (9%)
+  - add-entry (5%)
+See https://rolldown.rs/reference/InputOptions.checks#plugintimings for more details.
+
+✓ built in 5.75s

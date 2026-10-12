@@ -1,0 +1,214 @@
+{
+  "__virtual_mf___mfe_internal__emergencyDispatch__loadShare__vue__loadShare__.js-Os62NcMY.js": {
+    "file": "assets/_virtual_mf___mfe_internal__emergencyDispatch__loadShare__vue__loadShare__.js-Os62NcMY.js",
+    "name": "_virtual_mf___mfe_internal__emergencyDispatch__loadShare__vue__loadShare__.js",
+    "imports": [
+      "_rolldown-runtime-QTnfLwEv.js"
+    ]
+  },
+  "__virtual_mf___mfe_internal__emergencyDispatch__loadShare__vue_mf_2_router__loadShare__.js-DF9CTV3d.js": {
+    "file": "assets/_virtual_mf___mfe_internal__emergencyDispatch__loadShare__vue_mf_2_router__loadShare__.js-DF9CTV3d.js",
+    "name": "_virtual_mf___mfe_internal__emergencyDispatch__loadShare__vue_mf_2_router__loadShare__.js",
+    "imports": [
+      "_rolldown-runtime-QTnfLwEv.js",
+      "__virtual_mf___mfe_internal__emergencyDispatch__loadShare__vue__loadShare__.js-Os62NcMY.js"
+    ]
+  },
+  "_domain-context-8tZa6ngc.js": {
+    "file": "assets/domain-context-8tZa6ngc.js",
+    "name": "domain-context",
+    "imports": [
+      "__virtual_mf___mfe_internal__emergencyDispatch__loadShare__vue__loadShare__.js-Os62NcMY.js"
+    ]
+  },
+  "_page-title-BNWviNAs.css": {
+    "file": "assets/page-title-BNWviNAs.css",
+    "src": "_page-title-BNWviNAs.css"
+  },
+  "_page-title-COT7srtm.js": {
+    "file": "assets/page-title-COT7srtm.js",
+    "name": "page-title",
+    "imports": [
+      "_rolldown-runtime-QTnfLwEv.js",
+      "__virtual_mf___mfe_internal__emergencyDispatch__loadShare__vue__loadShare__.js-Os62NcMY.js",
+      "__virtual_mf___mfe_internal__emergencyDispatch__loadShare__vue_mf_2_router__loadShare__.js-DF9CTV3d.js",
+      "_domain-context-8tZa6ngc.js",
+      "_unwrap-Dfyz8-A_.js"
+    ],
+    "css": [
+      "assets/page-title-BNWviNAs.css"
+    ]
+  },
+  "_rolldown-runtime-QTnfLwEv.js": {
+    "file": "assets/rolldown-runtime-QTnfLwEv.js",
+    "name": "rolldown-runtime"
+  },
+  "_unwrap-Dfyz8-A_.js": {
+    "file": "assets/unwrap-Dfyz8-A_.js",
+    "name": "unwrap"
+  },
+  "_virtual_mf-REMOTE_ENTRY_ID___mfe_internal__emergencyDispatch__remoteEntry_js-B1VPz685.js": {
+    "file": "assets/virtual_mf-REMOTE_ENTRY_ID___mfe_internal__emergencyDispatch__remoteEntry_js-B1VPz685.js",
+    "name": "virtual_mf-REMOTE_ENTRY_ID___mfe_internal__emergencyDispatch__remoteEntry_js",
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "virtual:mf-localSharedImportMap:__mfe_internal__emergencyDispatch",
+      "_virtual_mf-exposes___mfe_internal__emergencyDispatch__remoteEntry_js-Cr0_Y4fF.js"
+    ]
+  },
+  "_virtual_mf-exposes___mfe_internal__emergencyDispatch__remoteEntry_js-Cr0_Y4fF.js": {
+    "file": "assets/virtual_mf-exposes___mfe_internal__emergencyDispatch__remoteEntry_js-Cr0_Y4fF.js",
+    "name": "virtual_mf-exposes___mfe_internal__emergencyDispatch__remoteEntry_js",
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "src/domain.ts"
+    ]
+  },
+  "_vite-preload-helper-7P2xnrDv.js": {
+    "file": "assets/vite-preload-helper-7P2xnrDv.js",
+    "name": "vite-preload-helper"
+  },
+  "index.html": {
+    "file": "assets/index-Bi80IsMj.js",
+    "name": "index",
+    "src": "index.html",
+    "isEntry": true,
+    "imports": [
+      "_virtual_mf-exposes___mfe_internal__emergencyDispatch__remoteEntry_js-Cr0_Y4fF.js",
+      "_virtual_mf-REMOTE_ENTRY_ID___mfe_internal__emergencyDispatch__remoteEntry_js-B1VPz685.js"
+    ]
+  },
+  "src/domain.ts": {
+    "file": "assets/domain-DLBFOKSK.js",
+    "name": "domain",
+    "src": "src/domain.ts",
+    "isEntry": true,
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js",
+      "__virtual_mf___mfe_internal__emergencyDispatch__loadShare__vue__loadShare__.js-Os62NcMY.js",
+      "_domain-context-8tZa6ngc.js"
+    ],
+    "dynamicImports": [
+      "src/views/resource-list/index.tsx",
+      "src/views/evacuation-route-config/index.tsx",
+      "src/views/evacuation-command/index.tsx"
+    ],
+    "css": [
+      "assets/domain-CdRLo9CM.css"
+    ]
+  },
+  "src/views/evacuation-command/index.tsx": {
+    "file": "assets/evacuation-command-U02PDvxu.js",
+    "name": "evacuation-command",
+    "src": "src/views/evacuation-command/index.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-QTnfLwEv.js",
+      "__virtual_mf___mfe_internal__emergencyDispatch__loadShare__vue__loadShare__.js-Os62NcMY.js",
+      "__virtual_mf___mfe_internal__emergencyDispatch__loadShare__vue_mf_2_router__loadShare__.js-DF9CTV3d.js",
+      "_domain-context-8tZa6ngc.js",
+      "_page-title-COT7srtm.js",
+      "_unwrap-Dfyz8-A_.js"
+    ],
+    "css": [
+      "assets/evacuation-command-DZWXzX7i.css"
+    ]
+  },
+  "src/views/evacuation-route-config/index.tsx": {
+    "file": "assets/evacuation-route-config-B13PLPQa.js",
+    "name": "evacuation-route-config",
+    "src": "src/views/evacuation-route-config/index.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__emergencyDispatch__loadShare__vue__loadShare__.js-Os62NcMY.js",
+      "__virtual_mf___mfe_internal__emergencyDispatch__loadShare__vue_mf_2_router__loadShare__.js-DF9CTV3d.js",
+      "_domain-context-8tZa6ngc.js",
+      "_page-title-COT7srtm.js"
+    ],
+    "css": [
+      "assets/evacuation-route-config-CfNQNnPn.css"
+    ]
+  },
+  "src/views/resource-list/index.tsx": {
+    "file": "assets/resource-list-BgdtkWyK.js",
+    "name": "resource-list",
+    "src": "src/views/resource-list/index.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__emergencyDispatch__loadShare__vue__loadShare__.js-Os62NcMY.js",
+      "_domain-context-8tZa6ngc.js",
+      "_unwrap-Dfyz8-A_.js"
+    ],
+    "css": [
+      "assets/resource-list-ODfoQh4u.css"
+    ]
+  },
+  "virtual:mf-REMOTE_ENTRY_ID:__mfe_internal__emergencyDispatch__remoteEntry_js": {
+    "file": "remoteEntry.js",
+    "name": "remoteEntry",
+    "src": "virtual:mf-REMOTE_ENTRY_ID:__mfe_internal__emergencyDispatch__remoteEntry_js",
+    "imports": [
+      "_virtual_mf-REMOTE_ENTRY_ID___mfe_internal__emergencyDispatch__remoteEntry_js-B1VPz685.js"
+    ]
+  },
+  "virtual:mf-REMOTE_ENTRY_SSR_ID:__mfe_internal__emergencyDispatch__remoteEntry_js": {
+    "file": "remoteEntry.ssr.js",
+    "name": "ssrRemoteEntry",
+    "src": "virtual:mf-REMOTE_ENTRY_SSR_ID:__mfe_internal__emergencyDispatch__remoteEntry_js",
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "virtual:mf-exposes-ssr:__mfe_internal__emergencyDispatch__remoteEntry_js"
+    ]
+  },
+  "virtual:mf-exposes-ssr:__mfe_internal__emergencyDispatch__remoteEntry_js": {
+    "file": "assets/virtual_mf-exposes-ssr___mfe_internal__emergencyDispatch__remoteEntry_js-DF0KPudb.js",
+    "name": "virtual_mf-exposes-ssr___mfe_internal__emergencyDispatch__remoteEntry_js",
+    "src": "virtual:mf-exposes-ssr:__mfe_internal__emergencyDispatch__remoteEntry_js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "src/domain.ts"
+    ]
+  },
+  "virtual:mf-exposes:__mfe_internal__emergencyDispatch__remoteEntry_js": {
+    "file": "assets/virtualExposes-J1yfguKh.js",
+    "name": "virtualExposes",
+    "src": "virtual:mf-exposes:__mfe_internal__emergencyDispatch__remoteEntry_js",
+    "imports": [
+      "_virtual_mf-exposes___mfe_internal__emergencyDispatch__remoteEntry_js-Cr0_Y4fF.js"
+    ]
+  },
+  "virtual:mf-localSharedImportMap:__mfe_internal__emergencyDispatch": {
+    "file": "assets/_virtual_mf-localSharedImportMap___mfe_internal__emergencyDispatch-zSzAYdEz.js",
+    "name": "_virtual_mf-localSharedImportMap___mfe_internal__emergencyDispatch",
+    "src": "virtual:mf-localSharedImportMap:__mfe_internal__emergencyDispatch",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "__virtual_mf___mfe_internal__emergencyDispatch__loadShare__vue__loadShare__.js-Os62NcMY.js",
+      "__virtual_mf___mfe_internal__emergencyDispatch__loadShare__vue_mf_2_router__loadShare__.js-DF9CTV3d.js"
+    ]
+  },
+  "virtual:mf:__mfe_internal__emergencyDispatch__H_A_I__hostAutoInit__H_A_I__.js": {
+    "file": "assets/hostInit-Uec0OXrR.js",
+    "name": "hostInit",
+    "src": "virtual:mf:__mfe_internal__emergencyDispatch__H_A_I__hostAutoInit__H_A_I__.js",
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "_virtual_mf-REMOTE_ENTRY_ID___mfe_internal__emergencyDispatch__remoteEntry_js-B1VPz685.js",
+      "virtual:mf-localSharedImportMap:__mfe_internal__emergencyDispatch"
+    ]
+  }
+}

@@ -1,0 +1,1 @@
+import{t as e}from"./virtual_mf-exposes___mfe_internal__accessControl__remoteEntry_js-D7meMvnC.js";export{e as default};

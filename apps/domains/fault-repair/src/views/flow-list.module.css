@@ -1,0 +1,36 @@
+/* Tab 与筛选项同属 PcForm：用紧凑 flex，避免左右两大块导致小屏整块换行。 */
+.filterForm :global(.pc-query-form-container) {
+  display: flex !important;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px 16px;
+  padding: 12px 0 4px !important;
+  grid-template-columns: none !important;
+}
+
+.filterForm :global(.pc-query-form-container > .pc-design-form-item) {
+  flex: 0 0 auto;
+  max-width: none;
+  margin-bottom: 8px !important;
+  margin-inline-end: 0 !important;
+}
+
+.filterForm :global(.pc-query-form-container .ant-form-item-row) {
+  flex-wrap: nowrap;
+  align-items: center;
+  gap: 8px;
+}
+
+/* 隐患单：首项是 Tab，隐藏空 label，避免与筛选项错位。 */
+.withTabs :global(.pc-query-form-container > .pc-design-form-item:first-child .ant-form-item-label) {
+  display: none;
+}
+
+.withTabs :global(.pc-query-form-container > .pc-design-form-item:first-child .ant-radio-group) {
+  white-space: nowrap;
+}
+
+.filterForm :global(.pc-query-form-container .ant-select),
+.filterForm :global(.pc-query-form-container .ant-picker) {
+  width: 220px;
+}

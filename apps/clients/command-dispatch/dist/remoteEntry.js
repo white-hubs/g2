@@ -1,0 +1,1 @@
+import{n as e,t}from"./assets/virtual_mf-REMOTE_ENTRY_ID___mfe_internal__commandDispatchClient__remoteEntry_js-DncFQTli.js";export{t as get,e as init};

@@ -1,0 +1,1 @@
+import{b as e,j as t}from"./_virtual_mf___mfe_internal__pcUi__loadShare__vue__loadShare__.js-pr0wfuk8.js";function n(n,r,i){let a=t(n());return e(r,(e,t)=>{i?i(e,t)&&(a.value=n()):a.value=n()}),a}export{n as t};

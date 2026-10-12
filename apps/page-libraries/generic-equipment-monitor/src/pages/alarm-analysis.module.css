@@ -1,0 +1,278 @@
+.dashboard {
+  display: grid;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  gap: 16px;
+  min-height: 100%;
+  padding: 16px;
+  overflow: auto;
+  background: #f0f2f5;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0 3px 14px rgb(31 56 88 / 5%);
+}
+
+.card :global(.ant-card-head) {
+  min-height: 46px;
+  padding: 0 16px;
+  border-bottom: 0;
+}
+
+.card :global(.ant-card-head-title) {
+  color: #1d2129;
+  font-weight: 600;
+}
+
+.card :global(.ant-card-body) {
+  flex: 1;
+  min-height: 0;
+  padding: 8px 16px 16px;
+}
+
+.basicCard {
+  grid-column: span 2;
+  min-height: 370px;
+}
+
+.trendCard {
+  grid-column: span 4;
+  min-height: 370px;
+}
+
+.eventCard,
+.areaCard {
+  grid-column: span 3;
+  min-height: 370px;
+}
+
+.handlerCard,
+.efficiencyCard {
+  grid-column: span 6;
+  min-height: 570px;
+}
+
+.efficiencyCard {
+  min-height: 620px;
+}
+
+.basicStats {
+  display: flex;
+  align-items: center;
+  min-height: 82px;
+}
+
+.basicStat {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+}
+
+.basicStat div > span,
+.handlerSummary span {
+  display: block;
+  color: #606266;
+  font-size: 13px;
+}
+
+.basicStat strong {
+  margin-right: 6px;
+  color: #1d2129;
+  font-size: 26px;
+}
+
+.basicStat small {
+  color: #86909c;
+}
+
+.basicDivider {
+  width: 1px;
+  height: 36px;
+  background: #d9d9d9;
+}
+
+.statIcon {
+  display: inline-flex;
+  width: 58px;
+  height: 58px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.deviceIcon {
+  color: #08979c;
+  background: #e6fffb;
+}
+
+.alarmIcon {
+  color: #f53f3f;
+  background: #ffeeee;
+}
+
+.description,
+.centerDescription {
+  color: #4e5969;
+  font-size: 13px;
+}
+
+.description b,
+.centerDescription b,
+.handlerSummary b,
+.levelGrid b {
+  color: #1890ff;
+  font-weight: 500;
+}
+
+.centerDescription {
+  min-height: 26px;
+  text-align: center;
+}
+
+.centerDescription em {
+  margin: 0 4px;
+  color: #fba33f;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.handlerSummary {
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr;
+  gap: 12px;
+  align-items: center;
+  min-height: 86px;
+  padding: 12px 24px;
+  background: #fbfbfb;
+  border-radius: 6px;
+}
+
+.handlerSummary > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
+}
+
+.handlerSummary strong {
+  font-size: 28px;
+}
+
+.handlerSummary p {
+  margin: 0;
+  text-align: center;
+}
+
+.teal {
+  color: #13c2c2;
+}
+
+.orange {
+  color: #fba33f;
+}
+
+.doubleChart {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 28px;
+  min-height: 0;
+  margin-top: 12px;
+}
+
+.doubleChart h4,
+.chartTitle h4 {
+  margin: 0;
+  color: #1d2129;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.efficiencyPane {
+  min-width: 0;
+}
+
+.levelGrid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 8px 16px;
+  padding: 12px;
+  background: #fbfbfb;
+  border-radius: 6px;
+}
+
+.levelGrid > div {
+  display: flex;
+  min-width: 0;
+  align-items: center;
+  gap: 10px;
+}
+
+.levelGrid span {
+  flex: 0 0 70px;
+  padding: 3px 5px;
+  color: #fff;
+  font-size: 12px;
+  text-align: center;
+  border-radius: 4px;
+}
+
+.levelGrid p {
+  margin: 0;
+  overflow: hidden;
+  color: #4e5969;
+  font-size: 12px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.levelOne {
+  background: #ff4070;
+}
+
+.levelTwo {
+  background: #fba33f;
+}
+
+.levelThree {
+  background: #5654f5;
+}
+
+.levelFour {
+  background: #1890ff;
+}
+
+.chartTitle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 48px;
+}
+
+.emptyChart {
+  display: flex;
+  min-height: 220px;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 1100px) {
+  .basicCard,
+  .trendCard,
+  .eventCard,
+  .areaCard {
+    grid-column: span 6;
+  }
+
+  .doubleChart {
+    grid-template-columns: 1fr;
+  }
+}

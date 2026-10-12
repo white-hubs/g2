@@ -1,0 +1,1 @@
+import"./virtual_mf-exposes___mfe_internal__messageClient__remoteEntry_js-CxzhYRGp.js";import"./virtual_mf-REMOTE_ENTRY_ID___mfe_internal__messageClient__remoteEntry_js-CygRpRr-.js";var e=document.querySelector(`#app`);e&&(e.textContent=`@g2-client/message (service client remote, no UI)`);

@@ -1,0 +1,16 @@
+/*
+ * PageLayout(showTableXScroll) renders the single persistent horizontal
+ * scrollbar above pagination. Keep the Ant table body programmatically
+ * scrollable for useTableXScroll, but do not render its native second bar.
+ */
+[class*="hasTableScroll"] .ant-table-body,
+[class*="has-table-scroll"] .ant-table-body {
+  overflow-x: hidden !important;
+  scrollbar-width: none;
+}
+
+[class*="hasTableScroll"] .ant-table-body::-webkit-scrollbar,
+[class*="has-table-scroll"] .ant-table-body::-webkit-scrollbar {
+  width: 8px;
+  height: 0;
+}

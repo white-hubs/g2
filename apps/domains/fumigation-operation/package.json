@@ -1,0 +1,39 @@
+{
+  "name": "@g2-domain/fumigation-operation",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "bun ../../../tooling/dev-link/cli.ts",
+    "dev:serve": "bun --bun vite --port 5098 --strictPort",
+    "build": "bun --bun vite build",
+    "preview": "bun --bun vite preview --port 5098 --strictPort",
+    "test": "bun test",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  },
+  "dependencies": {
+    "@g2-client/alarm-center": "workspace:*",
+    "@g2-client/device-center": "workspace:*",
+    "@g2-client/dictionary": "workspace:*",
+    "@g2-client/file": "workspace:*",
+    "@g2-client/fumigation-operation": "workspace:*",
+    "@g2-client/ouaa": "workspace:*",
+    "@g2-composition/contract": "workspace:*",
+    "@g2-contract/fumigation-operation": "workspace:*",
+    "@g2-pages/generic-equipment-monitor": "workspace:*",
+    "@isvend/coord-transform": "^0.0.11",
+    "dayjs": "catalog:libs",
+    "vue": "catalog:vue",
+    "vue-router": "catalog:vue"
+  },
+  "devDependencies": {
+    "@g2-platform/pc-map": "workspace:*",
+    "@g2-platform/pc-player": "workspace:*",
+    "@g2-platform/pc-ui": "workspace:*",
+    "@g2-tooling/mf-vite": "workspace:*",
+    "@vitejs/plugin-vue-jsx": "catalog:vite",
+    "less": "^4.8.1",
+    "typescript": "catalog:typescript",
+    "vite": "catalog:vite"
+  }
+}

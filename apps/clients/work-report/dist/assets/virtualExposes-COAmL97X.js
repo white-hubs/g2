@@ -1,0 +1,1 @@
+import{t as e}from"./virtual_mf-exposes___mfe_internal__workReportClient__remoteEntry_js-DggE_M41.js";export{e as default};

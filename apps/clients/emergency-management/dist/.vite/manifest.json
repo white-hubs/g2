@@ -1,0 +1,100 @@
+{
+  "_virtual_mf-REMOTE_ENTRY_ID___mfe_internal__emergencyManagementClient__remoteEntry_js-CFrSVa6b.js": {
+    "file": "assets/virtual_mf-REMOTE_ENTRY_ID___mfe_internal__emergencyManagementClient__remoteEntry_js-CFrSVa6b.js",
+    "name": "virtual_mf-REMOTE_ENTRY_ID___mfe_internal__emergencyManagementClient__remoteEntry_js",
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "virtual:mf-localSharedImportMap:__mfe_internal__emergencyManagementClient",
+      "_virtual_mf-exposes___mfe_internal__emergencyManagementClient__remoteEntry_js-syFXWGsU.js"
+    ]
+  },
+  "_virtual_mf-exposes___mfe_internal__emergencyManagementClient__remoteEntry_js-syFXWGsU.js": {
+    "file": "assets/virtual_mf-exposes___mfe_internal__emergencyManagementClient__remoteEntry_js-syFXWGsU.js",
+    "name": "virtual_mf-exposes___mfe_internal__emergencyManagementClient__remoteEntry_js",
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "src/client.ts"
+    ]
+  },
+  "_vite-preload-helper-7P2xnrDv.js": {
+    "file": "assets/vite-preload-helper-7P2xnrDv.js",
+    "name": "vite-preload-helper"
+  },
+  "index.html": {
+    "file": "assets/index-BRvZ_OSA.js",
+    "name": "index",
+    "src": "index.html",
+    "isEntry": true,
+    "imports": [
+      "_virtual_mf-exposes___mfe_internal__emergencyManagementClient__remoteEntry_js-syFXWGsU.js",
+      "_virtual_mf-REMOTE_ENTRY_ID___mfe_internal__emergencyManagementClient__remoteEntry_js-CFrSVa6b.js"
+    ]
+  },
+  "src/client.ts": {
+    "file": "assets/client-BkA4-HGP.js",
+    "name": "client",
+    "src": "src/client.ts",
+    "isEntry": true
+  },
+  "virtual:mf-REMOTE_ENTRY_ID:__mfe_internal__emergencyManagementClient__remoteEntry_js": {
+    "file": "remoteEntry.js",
+    "name": "remoteEntry",
+    "src": "virtual:mf-REMOTE_ENTRY_ID:__mfe_internal__emergencyManagementClient__remoteEntry_js",
+    "imports": [
+      "_virtual_mf-REMOTE_ENTRY_ID___mfe_internal__emergencyManagementClient__remoteEntry_js-CFrSVa6b.js"
+    ]
+  },
+  "virtual:mf-REMOTE_ENTRY_SSR_ID:__mfe_internal__emergencyManagementClient__remoteEntry_js": {
+    "file": "remoteEntry.ssr.js",
+    "name": "ssrRemoteEntry",
+    "src": "virtual:mf-REMOTE_ENTRY_SSR_ID:__mfe_internal__emergencyManagementClient__remoteEntry_js",
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "virtual:mf-exposes-ssr:__mfe_internal__emergencyManagementClient__remoteEntry_js"
+    ]
+  },
+  "virtual:mf-exposes-ssr:__mfe_internal__emergencyManagementClient__remoteEntry_js": {
+    "file": "assets/virtual_mf-exposes-ssr___mfe_internal__emergencyManagementClient__remoteEntry_js-CnX-PqsR.js",
+    "name": "virtual_mf-exposes-ssr___mfe_internal__emergencyManagementClient__remoteEntry_js",
+    "src": "virtual:mf-exposes-ssr:__mfe_internal__emergencyManagementClient__remoteEntry_js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "src/client.ts"
+    ]
+  },
+  "virtual:mf-exposes:__mfe_internal__emergencyManagementClient__remoteEntry_js": {
+    "file": "assets/virtualExposes-CZv6kDFH.js",
+    "name": "virtualExposes",
+    "src": "virtual:mf-exposes:__mfe_internal__emergencyManagementClient__remoteEntry_js",
+    "imports": [
+      "_virtual_mf-exposes___mfe_internal__emergencyManagementClient__remoteEntry_js-syFXWGsU.js"
+    ]
+  },
+  "virtual:mf-localSharedImportMap:__mfe_internal__emergencyManagementClient": {
+    "file": "assets/_virtual_mf-localSharedImportMap___mfe_internal__emergencyManagementClient-CcdcYaa2.js",
+    "name": "_virtual_mf-localSharedImportMap___mfe_internal__emergencyManagementClient",
+    "src": "virtual:mf-localSharedImportMap:__mfe_internal__emergencyManagementClient",
+    "isDynamicEntry": true
+  },
+  "virtual:mf:__mfe_internal__emergencyManagementClient__H_A_I__hostAutoInit__H_A_I__.js": {
+    "file": "assets/hostInit-C7FUulHP.js",
+    "name": "hostInit",
+    "src": "virtual:mf:__mfe_internal__emergencyManagementClient__H_A_I__hostAutoInit__H_A_I__.js",
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "_virtual_mf-REMOTE_ENTRY_ID___mfe_internal__emergencyManagementClient__remoteEntry_js-CFrSVa6b.js",
+      "virtual:mf-localSharedImportMap:__mfe_internal__emergencyManagementClient"
+    ]
+  }
+}

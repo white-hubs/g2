@@ -1,0 +1,1 @@
+function e(e,t,n,r){let i=(n===`page`?e.page:e.action??{})[r];return i?t instanceof Set?t.has(i):t.includes(i):!1}export{e as t};

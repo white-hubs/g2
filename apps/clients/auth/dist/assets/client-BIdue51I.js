@@ -1,0 +1,1 @@
+function e(e){return{async exchangeToken(t){return e.post(`/gw-bff/auth/token`,t)}}}async function t(t){return e((await t.loadPlatform(`httpPlatform`,`client`)).createHttpClientForPlatform(t))}export{t as create,e as createAuthClient};

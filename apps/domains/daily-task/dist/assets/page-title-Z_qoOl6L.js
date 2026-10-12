@@ -1,0 +1,1 @@
+import{t as e}from"./_virtual_mf___mfe_internal__dailyTask__loadShare__vue_mf_2_router__loadShare__.js-Db3b-lcr.js";function t(e){return String(e.title??`日常任务`)}function n(){return{pageTitle:t(e().meta)}}export{n as t};

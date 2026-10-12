@@ -1,0 +1,271 @@
+{
+  "__virtual_mf___mfe_internal__governmentManagement__loadShare__vue__loadShare__.js-BdLnmeR0.js": {
+    "file": "assets/_virtual_mf___mfe_internal__governmentManagement__loadShare__vue__loadShare__.js-BdLnmeR0.js",
+    "name": "_virtual_mf___mfe_internal__governmentManagement__loadShare__vue__loadShare__.js",
+    "imports": [
+      "_rolldown-runtime-DK3Fl9T5.js"
+    ]
+  },
+  "__virtual_mf___mfe_internal__governmentManagement__loadShare__vue_mf_2_router__loadShare__.js-BAgdApNB.js": {
+    "file": "assets/_virtual_mf___mfe_internal__governmentManagement__loadShare__vue_mf_2_router__loadShare__.js-BAgdApNB.js",
+    "name": "_virtual_mf___mfe_internal__governmentManagement__loadShare__vue_mf_2_router__loadShare__.js",
+    "imports": [
+      "_rolldown-runtime-DK3Fl9T5.js",
+      "__virtual_mf___mfe_internal__governmentManagement__loadShare__vue__loadShare__.js-BdLnmeR0.js"
+    ]
+  },
+  "_domain-CEZUDZXi.js": {
+    "file": "assets/domain-CEZUDZXi.js",
+    "name": "domain",
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js",
+      "__virtual_mf___mfe_internal__governmentManagement__loadShare__vue__loadShare__.js-BdLnmeR0.js",
+      "__virtual_mf___mfe_internal__governmentManagement__loadShare__vue_mf_2_router__loadShare__.js-BAgdApNB.js"
+    ],
+    "dynamicImports": [
+      "src/views/approval-page.tsx",
+      "src/views/statistics-page.tsx",
+      "src/views/catalog-page.tsx",
+      "src/views/focus-flow-page.tsx",
+      "src/views/focus-handle-page.tsx",
+      "src/views/flow-config-page.tsx",
+      "src/views/all-flow-page.tsx",
+      "src/views/statistics-detail-page.tsx",
+      "src/views/focus-detail-page.tsx"
+    ]
+  },
+  "_page-4f9BkASg.css": {
+    "file": "assets/page-4f9BkASg.css",
+    "src": "_page-4f9BkASg.css"
+  },
+  "_page.module-BjXMtU07.js": {
+    "file": "assets/page.module-BjXMtU07.js",
+    "name": "page.module",
+    "css": [
+      "assets/page-4f9BkASg.css"
+    ]
+  },
+  "_rolldown-runtime-DK3Fl9T5.js": {
+    "file": "assets/rolldown-runtime-DK3Fl9T5.js",
+    "name": "rolldown-runtime"
+  },
+  "_shared-CjgXm4-d.js": {
+    "file": "assets/shared-CjgXm4-d.js",
+    "name": "shared",
+    "imports": [
+      "_domain-CEZUDZXi.js"
+    ]
+  },
+  "_virtual_mf-REMOTE_ENTRY_ID___mfe_internal__governmentManagement__remoteEntry_js-bJhVxR4y.js": {
+    "file": "assets/virtual_mf-REMOTE_ENTRY_ID___mfe_internal__governmentManagement__remoteEntry_js-bJhVxR4y.js",
+    "name": "virtual_mf-REMOTE_ENTRY_ID___mfe_internal__governmentManagement__remoteEntry_js",
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "virtual:mf-localSharedImportMap:__mfe_internal__governmentManagement",
+      "_virtual_mf-exposes___mfe_internal__governmentManagement__remoteEntry_js-kQUTR_1l.js"
+    ]
+  },
+  "_virtual_mf-exposes___mfe_internal__governmentManagement__remoteEntry_js-kQUTR_1l.js": {
+    "file": "assets/virtual_mf-exposes___mfe_internal__governmentManagement__remoteEntry_js-kQUTR_1l.js",
+    "name": "virtual_mf-exposes___mfe_internal__governmentManagement__remoteEntry_js",
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "_domain-CEZUDZXi.js"
+    ]
+  },
+  "_vite-preload-helper-7P2xnrDv.js": {
+    "file": "assets/vite-preload-helper-7P2xnrDv.js",
+    "name": "vite-preload-helper"
+  },
+  "src/domain.ts": {
+    "file": "assets/domain-CklAmjMS.js",
+    "name": "domain",
+    "src": "src/domain.ts",
+    "isEntry": true,
+    "imports": [
+      "_domain-CEZUDZXi.js"
+    ]
+  },
+  "src/views/all-flow-page.tsx": {
+    "file": "assets/all-flow-page-feG2j6eY.js",
+    "name": "all-flow-page",
+    "src": "src/views/all-flow-page.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_domain-CEZUDZXi.js",
+      "__virtual_mf___mfe_internal__governmentManagement__loadShare__vue__loadShare__.js-BdLnmeR0.js",
+      "__virtual_mf___mfe_internal__governmentManagement__loadShare__vue_mf_2_router__loadShare__.js-BAgdApNB.js",
+      "_shared-CjgXm4-d.js",
+      "_page.module-BjXMtU07.js"
+    ]
+  },
+  "src/views/approval-page.tsx": {
+    "file": "assets/approval-page-BGB7z1_s.js",
+    "name": "approval-page",
+    "src": "src/views/approval-page.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_domain-CEZUDZXi.js",
+      "__virtual_mf___mfe_internal__governmentManagement__loadShare__vue__loadShare__.js-BdLnmeR0.js",
+      "__virtual_mf___mfe_internal__governmentManagement__loadShare__vue_mf_2_router__loadShare__.js-BAgdApNB.js",
+      "_shared-CjgXm4-d.js",
+      "_page.module-BjXMtU07.js"
+    ]
+  },
+  "src/views/catalog-page.tsx": {
+    "file": "assets/catalog-page-DZHhGVD2.js",
+    "name": "catalog-page",
+    "src": "src/views/catalog-page.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_domain-CEZUDZXi.js",
+      "__virtual_mf___mfe_internal__governmentManagement__loadShare__vue__loadShare__.js-BdLnmeR0.js",
+      "_shared-CjgXm4-d.js",
+      "_page.module-BjXMtU07.js"
+    ]
+  },
+  "src/views/flow-config-page.tsx": {
+    "file": "assets/flow-config-page-Drg-jZwA.js",
+    "name": "flow-config-page",
+    "src": "src/views/flow-config-page.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_domain-CEZUDZXi.js",
+      "__virtual_mf___mfe_internal__governmentManagement__loadShare__vue__loadShare__.js-BdLnmeR0.js",
+      "_shared-CjgXm4-d.js",
+      "_page.module-BjXMtU07.js"
+    ]
+  },
+  "src/views/focus-detail-page.tsx": {
+    "file": "assets/focus-detail-page-BjVhIJnV.js",
+    "name": "focus-detail-page",
+    "src": "src/views/focus-detail-page.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_domain-CEZUDZXi.js",
+      "__virtual_mf___mfe_internal__governmentManagement__loadShare__vue__loadShare__.js-BdLnmeR0.js",
+      "__virtual_mf___mfe_internal__governmentManagement__loadShare__vue_mf_2_router__loadShare__.js-BAgdApNB.js",
+      "_shared-CjgXm4-d.js",
+      "_page.module-BjXMtU07.js"
+    ]
+  },
+  "src/views/focus-flow-page.tsx": {
+    "file": "assets/focus-flow-page-B-Vvqdhu.js",
+    "name": "focus-flow-page",
+    "src": "src/views/focus-flow-page.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_domain-CEZUDZXi.js",
+      "__virtual_mf___mfe_internal__governmentManagement__loadShare__vue__loadShare__.js-BdLnmeR0.js",
+      "__virtual_mf___mfe_internal__governmentManagement__loadShare__vue_mf_2_router__loadShare__.js-BAgdApNB.js",
+      "_shared-CjgXm4-d.js",
+      "_page.module-BjXMtU07.js"
+    ]
+  },
+  "src/views/focus-handle-page.tsx": {
+    "file": "assets/focus-handle-page-CfjA9GS0.js",
+    "name": "focus-handle-page",
+    "src": "src/views/focus-handle-page.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_domain-CEZUDZXi.js",
+      "__virtual_mf___mfe_internal__governmentManagement__loadShare__vue__loadShare__.js-BdLnmeR0.js",
+      "__virtual_mf___mfe_internal__governmentManagement__loadShare__vue_mf_2_router__loadShare__.js-BAgdApNB.js",
+      "_shared-CjgXm4-d.js",
+      "_page.module-BjXMtU07.js"
+    ]
+  },
+  "src/views/statistics-detail-page.tsx": {
+    "file": "assets/statistics-detail-page-kbh6CMnM.js",
+    "name": "statistics-detail-page",
+    "src": "src/views/statistics-detail-page.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_domain-CEZUDZXi.js",
+      "__virtual_mf___mfe_internal__governmentManagement__loadShare__vue__loadShare__.js-BdLnmeR0.js",
+      "__virtual_mf___mfe_internal__governmentManagement__loadShare__vue_mf_2_router__loadShare__.js-BAgdApNB.js",
+      "_shared-CjgXm4-d.js"
+    ]
+  },
+  "src/views/statistics-page.tsx": {
+    "file": "assets/statistics-page-BTZFGf1s.js",
+    "name": "statistics-page",
+    "src": "src/views/statistics-page.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_domain-CEZUDZXi.js",
+      "__virtual_mf___mfe_internal__governmentManagement__loadShare__vue__loadShare__.js-BdLnmeR0.js",
+      "__virtual_mf___mfe_internal__governmentManagement__loadShare__vue_mf_2_router__loadShare__.js-BAgdApNB.js",
+      "_shared-CjgXm4-d.js",
+      "_page.module-BjXMtU07.js"
+    ]
+  },
+  "virtual:mf-REMOTE_ENTRY_ID:__mfe_internal__governmentManagement__remoteEntry_js": {
+    "file": "remoteEntry.js",
+    "name": "remoteEntry",
+    "src": "virtual:mf-REMOTE_ENTRY_ID:__mfe_internal__governmentManagement__remoteEntry_js",
+    "imports": [
+      "_virtual_mf-REMOTE_ENTRY_ID___mfe_internal__governmentManagement__remoteEntry_js-bJhVxR4y.js"
+    ]
+  },
+  "virtual:mf-REMOTE_ENTRY_SSR_ID:__mfe_internal__governmentManagement__remoteEntry_js": {
+    "file": "remoteEntry.ssr.js",
+    "name": "ssrRemoteEntry",
+    "src": "virtual:mf-REMOTE_ENTRY_SSR_ID:__mfe_internal__governmentManagement__remoteEntry_js",
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "virtual:mf-exposes-ssr:__mfe_internal__governmentManagement__remoteEntry_js"
+    ]
+  },
+  "virtual:mf-exposes-ssr:__mfe_internal__governmentManagement__remoteEntry_js": {
+    "file": "assets/virtual_mf-exposes-ssr___mfe_internal__governmentManagement__remoteEntry_js-xq_WX_oI.js",
+    "name": "virtual_mf-exposes-ssr___mfe_internal__governmentManagement__remoteEntry_js",
+    "src": "virtual:mf-exposes-ssr:__mfe_internal__governmentManagement__remoteEntry_js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "_domain-CEZUDZXi.js"
+    ]
+  },
+  "virtual:mf-exposes:__mfe_internal__governmentManagement__remoteEntry_js": {
+    "file": "assets/virtualExposes-Chs4aL1M.js",
+    "name": "virtualExposes",
+    "src": "virtual:mf-exposes:__mfe_internal__governmentManagement__remoteEntry_js",
+    "imports": [
+      "_virtual_mf-exposes___mfe_internal__governmentManagement__remoteEntry_js-kQUTR_1l.js"
+    ]
+  },
+  "virtual:mf-localSharedImportMap:__mfe_internal__governmentManagement": {
+    "file": "assets/_virtual_mf-localSharedImportMap___mfe_internal__governmentManagement-DY1pr7jg.js",
+    "name": "_virtual_mf-localSharedImportMap___mfe_internal__governmentManagement",
+    "src": "virtual:mf-localSharedImportMap:__mfe_internal__governmentManagement",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "__virtual_mf___mfe_internal__governmentManagement__loadShare__vue__loadShare__.js-BdLnmeR0.js",
+      "__virtual_mf___mfe_internal__governmentManagement__loadShare__vue_mf_2_router__loadShare__.js-BAgdApNB.js"
+    ]
+  },
+  "virtual:mf:__mfe_internal__governmentManagement__H_A_I__hostAutoInit__H_A_I__.js": {
+    "file": "assets/hostInit-BDd7mjRJ.js",
+    "name": "hostInit",
+    "src": "virtual:mf:__mfe_internal__governmentManagement__H_A_I__hostAutoInit__H_A_I__.js",
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "_virtual_mf-REMOTE_ENTRY_ID___mfe_internal__governmentManagement__remoteEntry_js-bJhVxR4y.js",
+      "virtual:mf-localSharedImportMap:__mfe_internal__governmentManagement"
+    ]
+  }
+}

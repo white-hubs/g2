@@ -1,0 +1,84 @@
+/*
+ * 消防管理域通用按钮与图标样式。
+ * Font Awesome 图标在 Ant Design Button 内需要显式 font-family，且需避免
+ * -webkit-text-fill-color 覆盖导致字形不可见。
+ */
+
+/*
+ * 设备选择弹窗垂直居中（全局类，避免 CSS Modules + Ant CSS-in-JS 选择器打不赢）。
+ * 不使用 ant centered 的 ::before 方案：高弹窗会把 wrap 撑出滚动，视觉永远偏上。
+ */
+.fire-device-select-modal.ant-modal-wrap {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  overflow: hidden !important;
+}
+
+.fire-device-select-modal.ant-modal-wrap::before {
+  display: none !important;
+  content: none !important;
+  width: 0 !important;
+  height: 0 !important;
+}
+
+.fire-device-select-modal .ant-modal {
+  top: 0 !important;
+  display: flex !important;
+  flex-direction: column;
+  height: min(720px, calc(100vh - 48px)) !important;
+  max-height: calc(100vh - 48px) !important;
+  max-width: calc(100vw - 48px) !important;
+  margin: 0 auto !important;
+  padding-bottom: 0 !important;
+}
+
+.fire-device-select-modal .ant-modal-content {
+  display: flex;
+  height: 100%;
+  min-height: 0;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.ant-btn .fas,
+.ant-btn .fa-solid,
+.ant-btn i[class*="fa-"] {
+  font-family: "Font Awesome 6 Free" !important;
+  font-weight: 900 !important;
+  font-style: normal;
+  -webkit-text-fill-color: currentColor !important;
+}
+
+.ant-btn-default .fas,
+.ant-btn-default .fa-solid,
+.ant-btn-default .anticon {
+  -webkit-text-fill-color: currentColor !important;
+}
+
+.ant-btn .anticon {
+  font-size: 14px;
+  line-height: 1;
+}
+
+.ant-btn .anticon + span,
+.ant-btn > span + span {
+  margin-inline-start: 6px;
+}
+
+/* 标准操作按钮统一字号（排除 link / small / large） */
+#cube-layout-content .ant-btn:not(.ant-btn-sm):not(.ant-btn-lg):not(.ant-btn-link),
+#pc-layout-content .ant-btn:not(.ant-btn-sm):not(.ant-btn-lg):not(.ant-btn-link) {
+  height: 32px;
+  padding-inline: 15px;
+  font-size: 14px;
+}
+
+/* Font Awesome 用于非按钮区域（统计、上传、图标选择器等） */
+.fas,
+.fa-solid,
+i[class*="fa-"] {
+  font-family: "Font Awesome 6 Free" !important;
+  font-weight: 900 !important;
+  font-style: normal;
+}

@@ -1,0 +1,1 @@
+var e=null;function t(t,n){e=n}function n(){if(!e)throw Error(`work-order-center client not installed`);return e}var r;async function i(e){r=await e.loadRuntimeCommon(`datePlatform`,`api`)}function a(...e){if(!r)throw Error(`work-order-center datePlatform Runtime Common 尚未加载`);return r.formatTimestamp(...e)}export{t as i,i as n,n as r,a as t};

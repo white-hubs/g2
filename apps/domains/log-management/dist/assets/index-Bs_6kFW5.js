@@ -1,0 +1,1 @@
+import"./virtual_mf-exposes___mfe_internal__logManagement__remoteEntry_js-B_kn7xIr.js";import"./virtual_mf-REMOTE_ENTRY_ID___mfe_internal__logManagement__remoteEntry_js-CFQRbqc4.js";var e=document.querySelector(`#app`);e&&(e.textContent=`@g2-domain/log-management`);

@@ -1,0 +1,10 @@
+$ bun test
+bun test v1.3.14 (0d9b296a)
+
+src/domain.test.ts:
+(pass) government-management domain > matches supplied menu hierarchy and each visible entry has a route [4.53ms]
+
+ 1 pass
+ 0 fail
+ 7 expect() calls
+Ran 1 test across 1 file. [4.24s]

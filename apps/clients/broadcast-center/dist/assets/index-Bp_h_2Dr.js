@@ -1,0 +1,1 @@
+import"./virtual_mf-exposes___mfe_internal__broadcastCenterClient__remoteEntry_js-CPHb9zN4.js";import"./virtual_mf-REMOTE_ENTRY_ID___mfe_internal__broadcastCenterClient__remoteEntry_js-BDEeqvUL.js";var e=document.querySelector(`#app`);e&&(e.textContent=`@g2-client/broadcast-center`);

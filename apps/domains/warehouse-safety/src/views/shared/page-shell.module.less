@@ -1,0 +1,138 @@
+.shell {
+  height: 100%;
+}
+
+.content {
+  height: 100%;
+  min-height: 0;
+  padding-top: 10px;
+}
+
+.statGrid {
+  display: grid;
+  gap: 12px;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  margin-bottom: 12px;
+}
+
+.statGridFour {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.statCard {
+  min-height: 86px;
+  padding: 18px 20px;
+  background: #fff;
+  border: 1px solid #eef2f7;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgb(15 23 42 / 3%);
+}
+
+.statLabel {
+  color: #86909c;
+  font-size: 13px;
+  line-height: 20px;
+}
+
+.statValue {
+  margin-top: 8px;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 34px;
+}
+
+.blue {
+  color: #165dff;
+}
+
+.green {
+  color: #00b42a;
+}
+
+.orange {
+  color: #ff7d00;
+}
+
+.searchInput {
+  width: 240px;
+}
+
+.detailCard,
+.monitorCard {
+  background: #fff;
+  border: 1px solid #e5e6eb;
+  border-radius: 8px;
+}
+
+.searchForm {
+  margin-bottom: 10px;
+}
+
+.detailGrid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.detailItem {
+  min-width: 0;
+  padding: 12px;
+  background: #fafbfc;
+  border-radius: 8px;
+}
+
+.detailLabel {
+  margin-bottom: 4px;
+  color: #86909c;
+  font-size: 12px;
+}
+
+.detailValue {
+  color: #1d2129;
+  font-size: 14px;
+  font-weight: 500;
+  word-break: break-all;
+}
+
+.monitorLayout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 360px;
+  gap: 16px;
+  height: 100%;
+}
+
+.monitorCard {
+  min-height: 280px;
+  padding: 16px;
+}
+
+.videoPanel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 260px;
+  color: rgb(255 255 255 / 70%);
+  background: linear-gradient(135deg, #1f2937, #111827);
+  border-radius: 8px;
+}
+
+.sideList {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  min-height: 0;
+  overflow: auto;
+}
+
+.sideItem {
+  padding: 12px;
+  cursor: pointer;
+  background: #fff;
+  border: 1px solid #e5e6eb;
+  border-radius: 8px;
+}
+
+.sideItemActive {
+  border-color: #165dff;
+  box-shadow: 0 0 0 2px rgb(22 93 255 / 10%);
+}

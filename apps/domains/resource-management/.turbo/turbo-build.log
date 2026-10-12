@@ -1,0 +1,37 @@
+$ bun --bun vite build
+vite v8.1.5 building client environment for production...
+[2Ktransforming...✓ 102 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                                                                                                  0.71 kB │ gzip:  0.36 kB
+dist/assets/mf-entry-bootstrap-0-35f63e83.js                                                                     1.35 kB
+dist/mf-manifest.json                                                                                            1.40 kB │ gzip:  0.47 kB
+dist/mf-stats.json                                                                                               4.06 kB │ gzip:  0.94 kB
+dist/.vite/manifest.json                                                                                         6.67 kB │ gzip:  0.85 kB
+dist/assets/virtualExposes-Chj3v3FY.js                                                                           0.12 kB │ gzip:  0.12 kB
+dist/remoteEntry.js                                                                                              0.14 kB │ gzip:  0.14 kB
+dist/assets/rolldown-runtime-DK3Fl9T5.js                                                                         0.15 kB │ gzip:  0.15 kB
+dist/assets/index-DAzTRV38.js                                                                                    0.28 kB │ gzip:  0.19 kB
+dist/assets/virtual_mf-exposes-ssr___mfe_internal__resourceManagement__remoteEntry_js-DUHCoq91.js                0.42 kB │ gzip:  0.24 kB
+dist/assets/domain-CsPNeHPI.js                                                                                   0.85 kB │ gzip:  0.50 kB
+dist/remoteEntry.ssr.js                                                                                          1.01 kB │ gzip:  0.58 kB
+dist/assets/_virtual_mf-localSharedImportMap___mfe_internal__resourceManagement-BxFMNgLc.js                      1.22 kB │ gzip:  0.54 kB
+dist/assets/virtual_mf-exposes___mfe_internal__resourceManagement__remoteEntry_js-DK_GzELZ.js                    1.25 kB │ gzip:  0.61 kB
+dist/assets/pc-ui-runtime-BnK3bFa9.js                                                                            1.33 kB │ gzip:  0.77 kB
+dist/assets/vite-preload-helper-7P2xnrDv.js                                                                      1.41 kB │ gzip:  0.75 kB
+dist/assets/hostInit-cyCpKeWa.js                                                                                 2.33 kB │ gzip:  1.10 kB
+dist/assets/stuff-search-z9NCwhJ6.js                                                                             4.69 kB │ gzip:  2.15 kB
+dist/assets/_virtual_mf___mfe_internal__resourceManagement__prebuild__vue_mf_2_router__prebuild__-DIhKwT_U.js   28.04 kB │ gzip: 10.65 kB
+dist/assets/unrouted-BW7xwiFy.js                                                                                38.73 kB │ gzip: 10.69 kB
+dist/assets/virtual_mf-REMOTE_ENTRY_ID___mfe_internal__resourceManagement__remoteEntry_js-Caqi1lIp.js           39.04 kB │ gzip: 12.93 kB
+dist/assets/_virtual_mf___mfe_internal__resourceManagement__loadShare__vue__loadShare__.js-DBQg4W4_.js         121.74 kB │ gzip: 45.38 kB
+
+[33m[PLUGIN_TIMINGS] [0mYour build spent significant time in plugins. Here is a breakdown:
+  - generateLocalSharedImportMap (14%)
+  - proxyRemoteEntry (12%)
+  - vite:vue-jsx (10%)
+  - add-entry (9%)
+  - vite:module-federation-virtual-modules (8%)
+See https://rolldown.rs/reference/InputOptions.checks#plugintimings for more details.
+
+✓ built in 4.51s

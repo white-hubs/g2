@@ -1,0 +1,18 @@
+.content {
+  display: flex;
+  min-height: 330px;
+  flex-direction: column;
+}
+
+.table-area {
+  min-height: 280px;
+  flex: 1;
+}
+
+.pagination {
+  display: flex;
+  min-height: 42px;
+  align-items: flex-end;
+  justify-content: flex-end;
+  padding-top: 12px;
+}

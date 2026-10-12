@@ -1,0 +1,1 @@
+import"./virtual_mf-exposes___mfe_internal__pcMap__remoteEntry_js-BzKfB3ad.js";import"./virtual_mf-REMOTE_ENTRY_ID___mfe_internal__pcMap__remoteEntry_js-CmFKncaC.js";document.querySelector(`#app`).textContent=`@g2-platform/pc-map build shell`;

@@ -1,0 +1,1 @@
+import{t as e}from"./virtual_mf-exposes___mfe_internal__consumptionManagement__remoteEntry_js-C81CRv_m.js";export{e as default};

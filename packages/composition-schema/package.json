@@ -1,0 +1,24 @@
+{
+  "name": "@g2-composition/schema",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "build": "bun build ./src/index.ts --outdir ./dist --target bun && bun build ./src/cli.ts --outdir ./dist --target bun --outfile cli.js",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "validate": "bun ./src/cli.ts",
+    "resolve": "bun ./src/cli.ts resolve",
+    "test": "bun test"
+  },
+  "dependencies": {
+    "@g2-composition/registry": "workspace:*",
+    "yaml": "catalog:libs",
+    "zod": "catalog:libs"
+  },
+  "devDependencies": {
+    "typescript": "catalog:typescript"
+  }
+}

@@ -1,0 +1,39 @@
+$ bun --bun vite build
+vite v8.1.5 building client environment for production...
+[2Ktransforming...✓ 659 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/assets/mf-entry-bootstrap-6-789bc114.js                                                           1.35 kB
+dist/assets/mf-entry-bootstrap-0-26c66646.js                                                           1.36 kB
+dist/assets/mf-entry-bootstrap-1-8e097e6b.js                                                           1.36 kB
+dist/assets/mf-entry-bootstrap-3-e01e3600.js                                                           1.38 kB
+dist/assets/mf-entry-bootstrap-2-d1f936a9.js                                                           1.41 kB
+dist/assets/mf-entry-bootstrap-4-ca91f0bd.js                                                           1.41 kB
+dist/assets/mf-entry-bootstrap-5-269a94cf.js                                                           1.41 kB
+dist/mf-manifest.json                                                                                  1.43 kB │ gzip:   0.49 kB
+dist/index.html                                                                                        1.47 kB │ gzip:   0.60 kB
+dist/mf-stats.json                                                                                     4.62 kB │ gzip:   1.00 kB
+dist/.vite/manifest.json                                                                               5.36 kB │ gzip:   0.77 kB
+dist/assets/main-B_BRThIo.css                                                                          2.02 kB │ gzip:   0.40 kB
+dist/assets/platform-module-Dhlag1Y9.js                                                                0.07 kB │ gzip:   0.08 kB
+dist/assets/virtualExposes-C3OyiGL2.js                                                                 0.12 kB │ gzip:   0.12 kB
+dist/assets/info-uc19IXQA.js                                                                           0.13 kB │ gzip:   0.12 kB
+dist/remoteEntry.js                                                                                    0.14 kB │ gzip:   0.14 kB
+dist/assets/rolldown-runtime-DK3Fl9T5.js                                                               0.15 kB │ gzip:   0.15 kB
+dist/assets/src-_BAJIGaE.js                                                                            0.30 kB │ gzip:   0.17 kB
+dist/assets/_virtual_mf-localSharedImportMap___mfe_internal__pcAlarmCharts-C5MzTer6.js                 0.66 kB │ gzip:   0.45 kB
+dist/assets/virtual_mf-exposes-ssr___mfe_internal__pcAlarmCharts__remoteEntry_js-E2qz8EHo.js           0.72 kB │ gzip:   0.34 kB
+dist/remoteEntry.ssr.js                                                                                1.00 kB │ gzip:   0.58 kB
+dist/assets/vite-preload-helper-7P2xnrDv.js                                                            1.41 kB │ gzip:   0.75 kB
+dist/assets/virtual_mf-exposes___mfe_internal__pcAlarmCharts__remoteEntry_js-D2r-c4PC.js               1.67 kB │ gzip:   0.72 kB
+dist/assets/hostInit-D5nx4vnm.js                                                                       2.30 kB │ gzip:   1.09 kB
+dist/assets/virtual_mf-REMOTE_ENTRY_ID___mfe_internal__pcAlarmCharts__remoteEntry_js-Z2Flh-EA.js      39.02 kB │ gzip:  12.93 kB
+dist/assets/_virtual_mf___mfe_internal__pcAlarmCharts__loadShare__vue__loadShare__.js-CeVdPrxy.js    121.50 kB │ gzip:  45.23 kB
+dist/assets/main-Cw9Wi6du.js                                                                       1,038.94 kB │ gzip: 338.52 kB
+
+✓ built in 11.01s
+[plugin builtin:vite-reporter] 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.

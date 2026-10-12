@@ -1,0 +1,39 @@
+$ bun --bun vite build
+vite v8.1.5 building client environment for production...
+[2Ktransforming...✓ 117 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                                                                                                       0.97 kB │ gzip:  0.44 kB
+dist/assets/mf-entry-bootstrap-0-af0d32aa.js                                                                          1.35 kB
+dist/mf-manifest.json                                                                                                 1.46 kB │ gzip:  0.53 kB
+dist/mf-stats.json                                                                                                    5.29 kB │ gzip:  1.15 kB
+dist/.vite/manifest.json                                                                                             10.53 kB │ gzip:  1.18 kB
+dist/assets/domain-CU9C0L1e.css                                                                                       3.59 kB │ gzip:  1.05 kB
+dist/assets/domain-context-jGD-lYD8.js                                                                                0.11 kB │ gzip:  0.10 kB
+dist/assets/virtualExposes-CYFo6_W9.js                                                                                0.12 kB │ gzip:  0.12 kB
+dist/remoteEntry.js                                                                                                   0.14 kB │ gzip:  0.14 kB
+dist/assets/index-B-L98Yz1.js                                                                                         0.28 kB │ gzip:  0.20 kB
+dist/assets/virtual_mf-exposes-ssr___mfe_internal__lineLossManagement__remoteEntry_js-Y7V6Jr44.js                     0.37 kB │ gzip:  0.29 kB
+dist/assets/api-CUMmPA1t.js                                                                                           0.43 kB │ gzip:  0.30 kB
+dist/assets/rolldown-runtime-QTnfLwEv.js                                                                              0.69 kB │ gzip:  0.42 kB
+dist/assets/_virtual_mf___mfe_internal__lineLossManagement__prebuild__vue_mf_2_router__prebuild__-LhvVcawd.js         0.77 kB │ gzip:  0.41 kB
+dist/remoteEntry.ssr.js                                                                                               1.01 kB │ gzip:  0.58 kB
+dist/assets/virtual_mf-exposes___mfe_internal__lineLossManagement__remoteEntry_js-BPGwLez4.js                         1.07 kB │ gzip:  0.64 kB
+dist/assets/_virtual_mf-localSharedImportMap___mfe_internal__lineLossManagement-6qqQVigg.js                           1.20 kB │ gzip:  0.52 kB
+dist/assets/vite-preload-helper-7P2xnrDv.js                                                                           1.41 kB │ gzip:  0.75 kB
+dist/assets/hostInit-D3fkLKMz.js                                                                                      2.33 kB │ gzip:  1.10 kB
+dist/assets/power-relation-BZ-7i-Ou.js                                                                                2.59 kB │ gzip:  1.31 kB
+dist/assets/drawing-management-edit-C3R4Q6_a.js                                                                       2.60 kB │ gzip:  1.24 kB
+dist/assets/drawing-management-CzUicouH.js                                                                            2.84 kB │ gzip:  1.33 kB
+dist/assets/pc-ui-proxy-CQzRe-qO.js                                                                                   3.05 kB │ gzip:  1.45 kB
+dist/assets/loss-statistics-DOzJc-uo.js                                                                               3.29 kB │ gzip:  1.45 kB
+dist/assets/collection-cycle-c8Z-lDuB.js                                                                              3.70 kB │ gzip:  1.39 kB
+dist/assets/_virtual_mf___mfe_internal__lineLossManagement__prebuild__vue__prebuild__-kxsF3R4M.js                     4.80 kB │ gzip:  2.11 kB
+dist/assets/collection-record-CFh9kP3R.js                                                                             5.16 kB │ gzip:  2.31 kB
+dist/assets/domain-BEG-tnYm.js                                                                                        6.64 kB │ gzip:  2.25 kB
+dist/assets/dayjs.min-DwFf_CCC.js                                                                                     7.18 kB │ gzip:  3.09 kB
+dist/assets/_virtual_mf___mfe_internal__lineLossManagement__loadShare__vue_mf_2_router__loadShare__.js-IJZGEiiB.js   30.71 kB │ gzip: 11.43 kB
+dist/assets/virtual_mf-REMOTE_ENTRY_ID___mfe_internal__lineLossManagement__remoteEntry_js-ByXzf0In.js                39.04 kB │ gzip: 12.94 kB
+dist/assets/_virtual_mf___mfe_internal__lineLossManagement__loadShare__vue__loadShare__.js-CapqREIz.js              123.23 kB │ gzip: 46.16 kB
+
+✓ built in 2.42s

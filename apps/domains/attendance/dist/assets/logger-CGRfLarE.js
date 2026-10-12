@@ -1,0 +1,1 @@
+var e={error:console.error,warn:console.warn,info:console.info,debug:console.debug};export{e as t};

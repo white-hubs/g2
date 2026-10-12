@@ -1,0 +1,1 @@
+import"./virtual_mf-exposes___mfe_internal__rotatingManagement__remoteEntry_js-C75Iz8QR.js";import"./virtual_mf-REMOTE_ENTRY_ID___mfe_internal__rotatingManagement__remoteEntry_js-xSSwU-GG.js";document.querySelector(`#app`).textContent=`@g2-domain/rotating-management build shell`;

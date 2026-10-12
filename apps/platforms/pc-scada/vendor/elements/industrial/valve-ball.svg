@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:scada="http://cube-scada.io/ns/v1" viewBox="0 0 100 60">
+  <metadata>
+    <scada:element>
+      <scada:meta type="valve-ball" label="球阀" category="工业设备" version="1.0.0"/>
+      <scada:props>
+        <scada:prop name="open" type="boolean" label="开启" default="false" domain="observe" semantic="status.open" required="false" bindable="true" controllable="false"/>
+        <scada:prop name="color" type="color" label="颜色" default="#90A4AE" domain="observe" semantic="style.color" required="false" bindable="true" controllable="false"/>
+      </scada:props>
+      <scada:mappings>
+        <scada:map prop="color" selector=".valve-part" attr="fill"/>
+        <scada:map prop="open" selector="#valve-handle" attr="transform" transform="value ? 'rotate(90, 50, 20)' : 'rotate(0, 50, 20)'"/>
+      </scada:mappings>
+    </scada:element>
+  </metadata>
+  <rect class="valve-part" x="20" y="25" width="60" height="20" rx="10" fill="#90A4AE" stroke="#455A64" stroke-width="2"/>
+  <circle class="valve-part" cx="50" cy="35" r="15" fill="#78909C" stroke="#455A64" stroke-width="2"/>
+  <rect id="valve-handle" x="45" y="5" width="40" height="8" rx="4" fill="#D32F2F" transform="rotate(0, 50, 20)"/>
+  <circle cx="50" cy="20" r="5" fill="#455A64"/>
+</svg>

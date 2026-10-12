@@ -1,0 +1,1 @@
+import{t as e}from"./virtual_mf-exposes___mfe_internal__hazardGovernanceClient__remoteEntry_js-g04lPdtG.js";export{e as default};

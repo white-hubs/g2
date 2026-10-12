@@ -1,0 +1,1 @@
+import"./virtual_mf-exposes___mfe_internal__complaint__remoteEntry_js-BcBFlPZX.js";import"./virtual_mf-REMOTE_ENTRY_ID___mfe_internal__complaint__remoteEntry_js-DNkPVFiF.js";var e=document.querySelector(`#app`);e&&(e.textContent=`@g2-domain/complaint`);

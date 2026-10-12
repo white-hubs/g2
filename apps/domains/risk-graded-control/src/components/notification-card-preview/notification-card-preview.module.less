@@ -1,0 +1,32 @@
+.card {
+  border: 2px solid #f0f0f0;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.printRoot {
+  color: #000;
+}
+
+@media print {
+  :global(.ant-modal-header),
+  :global(.ant-modal-footer) {
+    display: none !important;
+  }
+
+  :global(.ant-modal-body) {
+    padding: 0 !important;
+  }
+
+  .card {
+    border: 2px solid #333;
+    page-break-inside: avoid;
+  }
+}

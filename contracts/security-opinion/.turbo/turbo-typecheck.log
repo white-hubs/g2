@@ -1,0 +1,42 @@
+$ tsc -p tsconfig.json --noEmit
+src/client-facade.ts(2,18): error TS7006: Parameter 'params' implicitly has an 'any' type.
+src/client-facade.ts(3,16): error TS7006: Parameter 'id' implicitly has an 'any' type.
+src/client-facade.ts(4,20): error TS7006: Parameter 'params' implicitly has an 'any' type.
+src/client-facade.ts(5,25): error TS7006: Parameter 'ids' implicitly has an 'any' type.
+src/client-facade.ts(7,18): error TS7006: Parameter 'payload' implicitly has an 'any' type.
+src/client-facade.ts(8,18): error TS7006: Parameter 'id' implicitly has an 'any' type.
+src/client-facade.ts(8,22): error TS7006: Parameter 'payload' implicitly has an 'any' type.
+src/client-facade.ts(9,18): error TS7006: Parameter 'id' implicitly has an 'any' type.
+src/client-facade.ts(10,17): error TS7006: Parameter 'id' implicitly has an 'any' type.
+src/client-facade.ts(11,18): error TS7006: Parameter 'id' implicitly has an 'any' type.
+src/client-facade.ts(13,23): error TS7006: Parameter 'payload' implicitly has an 'any' type.
+src/client-facade.ts(14,18): error TS7006: Parameter 'type' implicitly has an 'any' type.
+src/client-facade.ts(15,16): error TS7006: Parameter 'type' implicitly has an 'any' type.
+src/client-facade.ts(15,22): error TS7006: Parameter 'keywordText' implicitly has an 'any' type.
+src/client-facade.ts(16,19): error TS7006: Parameter 'id' implicitly has an 'any' type.
+src/client-facade.ts(17,24): error TS7006: Parameter 'type' implicitly has an 'any' type.
+src/client-facade.ts(18,26): error TS7006: Parameter 'type' implicitly has an 'any' type.
+src/client-facade.ts(18,32): error TS7006: Parameter 'keywordText' implicitly has an 'any' type.
+src/client-facade.ts(19,28): error TS7006: Parameter 'type' implicitly has an 'any' type.
+src/client-facade.ts(25,18): error TS2371: A parameter initializer is only allowed in a function or constructor implementation.
+src/client-facade.ts(26,15): error TS7006: Parameter 'params' implicitly has an 'any' type.
+src/client-facade.ts(27,18): error TS7006: Parameter 'id' implicitly has an 'any' type.
+src/client-facade.ts(28,22): error TS7006: Parameter 'id' implicitly has an 'any' type.
+src/client-facade.ts(29,21): error TS7006: Parameter 'id' implicitly has an 'any' type.
+src/client-facade.ts(31,16): error TS7006: Parameter 'params' implicitly has an 'any' type.
+src/client-facade.ts(32,14): error TS7006: Parameter 'opinionId' implicitly has an 'any' type.
+src/client-facade.ts(33,23): error TS7006: Parameter 'sceneCode' implicitly has an 'any' type.
+src/client-facade.ts(34,24): error TS7006: Parameter 'params' implicitly has an 'any' type.
+src/client-facade.ts(35,15): error TS7006: Parameter 'opinionId' implicitly has an 'any' type.
+src/client-facade.ts(35,26): error TS2371: A parameter initializer is only allowed in a function or constructor implementation.
+src/client-facade.ts(36,26): error TS7006: Parameter 'opinionId' implicitly has an 'any' type.
+src/client-facade.ts(37,19): error TS7006: Parameter 'eventId' implicitly has an 'any' type.
+src/client-facade.ts(38,23): error TS7006: Parameter 'eventId' implicitly has an 'any' type.
+src/client-facade.ts(38,32): error TS7006: Parameter 'payload' implicitly has an 'any' type.
+src/client-facade.ts(40,33): error TS7006: Parameter 'payload' implicitly has an 'any' type.
+src/client-facade.ts(41,23): error TS7006: Parameter 'params' implicitly has an 'any' type.
+src/client-facade.ts(42,26): error TS7006: Parameter 'eventId' implicitly has an 'any' type.
+src/client-facade.ts(43,26): error TS7006: Parameter 'eventId' implicitly has an 'any' type.
+src/client-facade.ts(44,27): error TS7006: Parameter 'reportId' implicitly has an 'any' type.
+src/client-facade.ts(44,37): error TS7006: Parameter 'payload' implicitly has an 'any' type.
+src/client-facade.ts(45,26): error TS7006: Parameter 'reportId' implicitly has an 'any' type.

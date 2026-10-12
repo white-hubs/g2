@@ -1,0 +1,1 @@
+import{t as e}from"./virtual_mf-exposes___mfe_internal__pcMessaging__remoteEntry_js-lugT2R60.js";export{e as default};

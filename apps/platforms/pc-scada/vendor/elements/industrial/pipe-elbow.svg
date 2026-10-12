@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:scada="http://cube-scada.io/ns/v1" viewBox="0 0 60 60">
+  <metadata>
+    <scada:element>
+      <scada:meta type="pipe-elbow" label="弯头" category="管道" version="1.0.0"/>
+      <scada:props>
+        <scada:prop name="flowing" type="boolean" label="流动中" default="false" domain="observe" semantic="status.flowing" required="false" bindable="true" controllable="false"/>
+        <scada:prop name="color" type="color" label="颜色" default="#B0BEC5" domain="observe" semantic="style.color" required="false" bindable="true" controllable="false"/>
+      </scada:props>
+      <scada:mappings>
+        <scada:map prop="color" selector=".pipe-body" attr="fill"/>
+        <scada:map prop="flowing" selector="#flow-path" attr="opacity" transform="value ? '0.8' : '0'"/>
+      </scada:mappings>
+    </scada:element>
+  </metadata>
+  <path class="pipe-body" d="M10,60 L10,30 Q10,10 30,10 L60,10 L60,30 L35,30 Q30,30 30,35 L30,60 Z" fill="#B0BEC5" stroke="#78909C" stroke-width="2"/>
+  <rect x="0" y="50" width="20" height="10" fill="#90A4AE" stroke="#78909C"/>
+  <rect x="50" y="0" width="10" height="20" fill="#90A4AE" stroke="#78909C"/>
+  <path id="flow-path" d="M10,55 Q10,20 55,20" fill="none" stroke="#1890ff" stroke-width="4" stroke-dasharray="4,6" opacity="0"/>
+</svg>

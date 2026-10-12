@@ -1,0 +1,230 @@
+{
+  "__virtual_mf___mfe_internal__businessConfig__loadShare__vue__loadShare__.js-C1qV8AKo.js": {
+    "file": "assets/_virtual_mf___mfe_internal__businessConfig__loadShare__vue__loadShare__.js-C1qV8AKo.js",
+    "name": "_virtual_mf___mfe_internal__businessConfig__loadShare__vue__loadShare__.js",
+    "imports": [
+      "_rolldown-runtime-DK3Fl9T5.js"
+    ]
+  },
+  "__virtual_mf___mfe_internal__businessConfig__loadShare__vue_mf_2_router__loadShare__.js-B0y3LpPy.js": {
+    "file": "assets/_virtual_mf___mfe_internal__businessConfig__loadShare__vue_mf_2_router__loadShare__.js-B0y3LpPy.js",
+    "name": "_virtual_mf___mfe_internal__businessConfig__loadShare__vue_mf_2_router__loadShare__.js",
+    "imports": [
+      "_rolldown-runtime-DK3Fl9T5.js",
+      "__virtual_mf___mfe_internal__businessConfig__loadShare__vue__loadShare__.js-C1qV8AKo.js"
+    ]
+  },
+  "_pc-ui-runtime-Ct8tvvNi.js": {
+    "file": "assets/pc-ui-runtime-Ct8tvvNi.js",
+    "name": "pc-ui-runtime",
+    "imports": [
+      "__virtual_mf___mfe_internal__businessConfig__loadShare__vue__loadShare__.js-C1qV8AKo.js"
+    ]
+  },
+  "_rolldown-runtime-DK3Fl9T5.js": {
+    "file": "assets/rolldown-runtime-DK3Fl9T5.js",
+    "name": "rolldown-runtime"
+  },
+  "_virtual_mf-REMOTE_ENTRY_ID___mfe_internal__businessConfig__remoteEntry_js-D1FZtXrm.js": {
+    "file": "assets/virtual_mf-REMOTE_ENTRY_ID___mfe_internal__businessConfig__remoteEntry_js-D1FZtXrm.js",
+    "name": "virtual_mf-REMOTE_ENTRY_ID___mfe_internal__businessConfig__remoteEntry_js",
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "virtual:mf-localSharedImportMap:__mfe_internal__businessConfig",
+      "_virtual_mf-exposes___mfe_internal__businessConfig__remoteEntry_js-XYiiwwja.js"
+    ]
+  },
+  "_virtual_mf-exposes___mfe_internal__businessConfig__remoteEntry_js-XYiiwwja.js": {
+    "file": "assets/virtual_mf-exposes___mfe_internal__businessConfig__remoteEntry_js-XYiiwwja.js",
+    "name": "virtual_mf-exposes___mfe_internal__businessConfig__remoteEntry_js",
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "src/domain.ts"
+    ]
+  },
+  "_vite-preload-helper-7P2xnrDv.js": {
+    "file": "assets/vite-preload-helper-7P2xnrDv.js",
+    "name": "vite-preload-helper"
+  },
+  "index.html": {
+    "file": "assets/index-Bhxn40LC.js",
+    "name": "index",
+    "src": "index.html",
+    "isEntry": true,
+    "imports": [
+      "_virtual_mf-exposes___mfe_internal__businessConfig__remoteEntry_js-XYiiwwja.js",
+      "_virtual_mf-REMOTE_ENTRY_ID___mfe_internal__businessConfig__remoteEntry_js-D1FZtXrm.js"
+    ]
+  },
+  "src/domain.ts": {
+    "file": "assets/domain-C4bgDWKz.js",
+    "name": "domain",
+    "src": "src/domain.ts",
+    "isEntry": true,
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js",
+      "_pc-ui-runtime-Ct8tvvNi.js"
+    ],
+    "dynamicImports": [
+      "src/views/area-management.tsx",
+      "src/views/business-configuration.tsx",
+      "src/views/stream-media.tsx",
+      "src/views/file-cleanup-config.tsx",
+      "src/views/video-analysis-box.tsx",
+      "src/views/third-party-services.tsx",
+      "src/views/business-tag.tsx",
+      "src/views/business-tag-details.tsx"
+    ]
+  },
+  "src/views/area-management.tsx": {
+    "file": "assets/area-management-g17cRRrr.js",
+    "name": "area-management",
+    "src": "src/views/area-management.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__businessConfig__loadShare__vue__loadShare__.js-C1qV8AKo.js",
+      "_pc-ui-runtime-Ct8tvvNi.js"
+    ]
+  },
+  "src/views/business-configuration.tsx": {
+    "file": "assets/business-configuration-Bd_Jszk5.js",
+    "name": "business-configuration",
+    "src": "src/views/business-configuration.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__businessConfig__loadShare__vue__loadShare__.js-C1qV8AKo.js",
+      "__virtual_mf___mfe_internal__businessConfig__loadShare__vue_mf_2_router__loadShare__.js-B0y3LpPy.js",
+      "_pc-ui-runtime-Ct8tvvNi.js"
+    ]
+  },
+  "src/views/business-tag-details.tsx": {
+    "file": "assets/business-tag-details-Drehfmig.js",
+    "name": "business-tag-details",
+    "src": "src/views/business-tag-details.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__businessConfig__loadShare__vue__loadShare__.js-C1qV8AKo.js",
+      "__virtual_mf___mfe_internal__businessConfig__loadShare__vue_mf_2_router__loadShare__.js-B0y3LpPy.js",
+      "_pc-ui-runtime-Ct8tvvNi.js"
+    ]
+  },
+  "src/views/business-tag.tsx": {
+    "file": "assets/business-tag-D_HlnxuC.js",
+    "name": "business-tag",
+    "src": "src/views/business-tag.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__businessConfig__loadShare__vue__loadShare__.js-C1qV8AKo.js",
+      "__virtual_mf___mfe_internal__businessConfig__loadShare__vue_mf_2_router__loadShare__.js-B0y3LpPy.js",
+      "_pc-ui-runtime-Ct8tvvNi.js"
+    ]
+  },
+  "src/views/file-cleanup-config.tsx": {
+    "file": "assets/file-cleanup-config--jwK7RAo.js",
+    "name": "file-cleanup-config",
+    "src": "src/views/file-cleanup-config.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__businessConfig__loadShare__vue__loadShare__.js-C1qV8AKo.js",
+      "_pc-ui-runtime-Ct8tvvNi.js"
+    ]
+  },
+  "src/views/stream-media.tsx": {
+    "file": "assets/stream-media-BZgEeWRs.js",
+    "name": "stream-media",
+    "src": "src/views/stream-media.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__businessConfig__loadShare__vue__loadShare__.js-C1qV8AKo.js",
+      "_pc-ui-runtime-Ct8tvvNi.js"
+    ]
+  },
+  "src/views/third-party-services.tsx": {
+    "file": "assets/third-party-services-BejE1o82.js",
+    "name": "third-party-services",
+    "src": "src/views/third-party-services.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__businessConfig__loadShare__vue__loadShare__.js-C1qV8AKo.js",
+      "_pc-ui-runtime-Ct8tvvNi.js"
+    ]
+  },
+  "src/views/video-analysis-box.tsx": {
+    "file": "assets/video-analysis-box-D1R85vLq.js",
+    "name": "video-analysis-box",
+    "src": "src/views/video-analysis-box.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__businessConfig__loadShare__vue__loadShare__.js-C1qV8AKo.js",
+      "_pc-ui-runtime-Ct8tvvNi.js"
+    ]
+  },
+  "virtual:mf-REMOTE_ENTRY_ID:__mfe_internal__businessConfig__remoteEntry_js": {
+    "file": "remoteEntry.js",
+    "name": "remoteEntry",
+    "src": "virtual:mf-REMOTE_ENTRY_ID:__mfe_internal__businessConfig__remoteEntry_js",
+    "imports": [
+      "_virtual_mf-REMOTE_ENTRY_ID___mfe_internal__businessConfig__remoteEntry_js-D1FZtXrm.js"
+    ]
+  },
+  "virtual:mf-REMOTE_ENTRY_SSR_ID:__mfe_internal__businessConfig__remoteEntry_js": {
+    "file": "remoteEntry.ssr.js",
+    "name": "ssrRemoteEntry",
+    "src": "virtual:mf-REMOTE_ENTRY_SSR_ID:__mfe_internal__businessConfig__remoteEntry_js",
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "virtual:mf-exposes-ssr:__mfe_internal__businessConfig__remoteEntry_js"
+    ]
+  },
+  "virtual:mf-exposes-ssr:__mfe_internal__businessConfig__remoteEntry_js": {
+    "file": "assets/virtual_mf-exposes-ssr___mfe_internal__businessConfig__remoteEntry_js-Clq3TT3G.js",
+    "name": "virtual_mf-exposes-ssr___mfe_internal__businessConfig__remoteEntry_js",
+    "src": "virtual:mf-exposes-ssr:__mfe_internal__businessConfig__remoteEntry_js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "src/domain.ts"
+    ]
+  },
+  "virtual:mf-exposes:__mfe_internal__businessConfig__remoteEntry_js": {
+    "file": "assets/virtualExposes-B0eBMuro.js",
+    "name": "virtualExposes",
+    "src": "virtual:mf-exposes:__mfe_internal__businessConfig__remoteEntry_js",
+    "imports": [
+      "_virtual_mf-exposes___mfe_internal__businessConfig__remoteEntry_js-XYiiwwja.js"
+    ]
+  },
+  "virtual:mf-localSharedImportMap:__mfe_internal__businessConfig": {
+    "file": "assets/_virtual_mf-localSharedImportMap___mfe_internal__businessConfig-CKlqOXaI.js",
+    "name": "_virtual_mf-localSharedImportMap___mfe_internal__businessConfig",
+    "src": "virtual:mf-localSharedImportMap:__mfe_internal__businessConfig",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "__virtual_mf___mfe_internal__businessConfig__loadShare__vue__loadShare__.js-C1qV8AKo.js",
+      "__virtual_mf___mfe_internal__businessConfig__loadShare__vue_mf_2_router__loadShare__.js-B0y3LpPy.js"
+    ]
+  },
+  "virtual:mf:__mfe_internal__businessConfig__H_A_I__hostAutoInit__H_A_I__.js": {
+    "file": "assets/hostInit-sOjRCxmi.js",
+    "name": "hostInit",
+    "src": "virtual:mf:__mfe_internal__businessConfig__H_A_I__hostAutoInit__H_A_I__.js",
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "_virtual_mf-REMOTE_ENTRY_ID___mfe_internal__businessConfig__remoteEntry_js-D1FZtXrm.js",
+      "virtual:mf-localSharedImportMap:__mfe_internal__businessConfig"
+    ]
+  }
+}

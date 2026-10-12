@@ -1,0 +1,1 @@
+import{n as e,t}from"./assets/virtual_mf-REMOTE_ENTRY_ID___mfe_internal__linkageControl__remoteEntry_js-D7KF8ul2.js";export{t as get,e as init};

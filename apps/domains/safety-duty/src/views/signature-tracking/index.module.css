@@ -1,0 +1,68 @@
+.content {
+  display: flex;
+  flex: 1;
+  min-height: 0;
+  flex-direction: column;
+}
+.stats {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 22px;
+  padding: 22px;
+  color: #4b5563;
+  font-size: 14px;
+}
+.stats strong {
+  color: #1f2937;
+}
+.successDot,
+.warningDot,
+.dangerDot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-right: 6px;
+}
+.successDot {
+  background: #10b981;
+}
+.warningDot {
+  background: #f59e0b;
+}
+.dangerDot {
+  background: #ef4444;
+}
+.tableWrap {
+  display: flex;
+  flex: 1;
+  min-height: 0;
+  flex-direction: column;
+  border: 1px solid #edf0f5;
+  border-radius: 4px;
+  background: #fff;
+  overflow: hidden;
+}
+.muted {
+  color: #9ca3af;
+  font-size: 12px;
+}
+.successText {
+  color: #10b981;
+  font-size: 12px;
+}
+.warningText {
+  color: #f59e0b;
+  font-size: 12px;
+}
+.dangerText {
+  color: #ef4444;
+  font-size: 12px;
+}
+@media (max-width: 1200px) {
+  .toolbar {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}

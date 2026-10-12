@@ -1,0 +1,1 @@
+import{t as e}from"./virtual_mf-exposes___mfe_internal__electronicPatrolClient__remoteEntry_js-BdfZxNWx.js";export{e as default};

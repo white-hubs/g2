@@ -1,0 +1,22 @@
+import { type PcUiModule, createPcUiRuntimeProxy } from "./pc-ui-proxy-helper";
+
+const pcUi = createPcUiRuntimeProxy("government-management");
+export const installGovernmentManagementPcUi = pcUi.install;
+export const Button: PcUiModule["Button"] = pcUi.component("Button");
+export const Input: PcUiModule["Input"] = pcUi.component("Input");
+export const Modal: PcUiModule["Modal"] = pcUi.component("Modal");
+export const Page: PcUiModule["Page"] = pcUi.component("Page");
+export const PageLayout: PcUiModule["PageLayout"] = pcUi.component("PageLayout");
+export const PopConfirm: PcUiModule["PopConfirm"] = pcUi.component("PopConfirm");
+export const Radio: PcUiModule["Radio"] = pcUi.component("Radio");
+export const RadioGroup: PcUiModule["RadioGroup"] = pcUi.component("RadioGroup");
+export const Select: PcUiModule["Select"] = pcUi.component("Select");
+export const TabPane: PcUiModule["TabPane"] = pcUi.component("TabPane");
+export const Tabs: PcUiModule["Tabs"] = pcUi.component("Tabs");
+export const Textarea: PcUiModule["Textarea"] = pcUi.component("Textarea");
+export const Upload: PcUiModule["Upload"] = pcUi.component("Upload");
+export const dayjs: PcUiModule["dayjs"] = pcUi.callable("dayjs");
+export const message: PcUiModule["message"] = pcUi.object("message");
+export const usePcForm: PcUiModule["usePcForm"] = pcUi.callable("usePcForm");
+export const usePcTable: PcUiModule["usePcTable"] = pcUi.callable("usePcTable");
+export type { PcFormSchemaProp, PcTableColumn, UploadRequestOption } from "@g2-platform/pc-ui";

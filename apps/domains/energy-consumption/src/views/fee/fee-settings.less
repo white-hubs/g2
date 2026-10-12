@@ -1,0 +1,59 @@
+.fee {
+  display: flex;
+  align-items: center;
+  margin: 0 8px;
+
+  .item {
+    font-size: 16px;
+    flex: 1;
+    margin: 16px 8px;
+    cursor: pointer;
+    text-decoration: none;
+
+    .wrap {
+      padding: 30px;
+      border-radius: 6px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .text {
+      font-size: 14px;
+      font-weight: 400;
+      color: #000000;
+      display: inline-block;
+    }
+
+    .icon {
+      display: inline-block;
+      width: 64px;
+      height: 64px;
+    }
+
+    &:nth-child(1) {
+      background: linear-gradient(51deg, #fff9f9 0%, rgba(255, 249, 249, 0.65) 37%, #fffdfd 100%, #ffffff 100%);
+    }
+
+    &:nth-child(2) {
+      background: linear-gradient(
+        51deg,
+        var(--cube-theme-var--primary-1, #f7faff) 0%,
+        rgba(245, 249, 255, 0.22) 37%,
+        var(--cube-theme-var--primary-1, #f7faff) 100%
+      );
+    }
+
+    &:nth-child(3) {
+      background: linear-gradient(51deg, #fffaf5 0%, rgba(255, 250, 245, 0.42) 37%, #fffcf9 100%);
+    }
+
+    &:nth-child(4) {
+      background: linear-gradient(51deg, #f6f8ff 0%, rgba(246, 248, 255, 0.42) 37%, #f8faff 100%);
+    }
+
+    &.not {
+      cursor: not-allowed;
+    }
+  }
+}

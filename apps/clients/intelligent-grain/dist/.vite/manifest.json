@@ -1,0 +1,100 @@
+{
+  "_virtual_mf-REMOTE_ENTRY_ID___mfe_internal__intelligentGrainClient__remoteEntry_js-D3y0UT7m.js": {
+    "file": "assets/virtual_mf-REMOTE_ENTRY_ID___mfe_internal__intelligentGrainClient__remoteEntry_js-D3y0UT7m.js",
+    "name": "virtual_mf-REMOTE_ENTRY_ID___mfe_internal__intelligentGrainClient__remoteEntry_js",
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "virtual:mf-localSharedImportMap:__mfe_internal__intelligentGrainClient",
+      "_virtual_mf-exposes___mfe_internal__intelligentGrainClient__remoteEntry_js-oH5c1j2X.js"
+    ]
+  },
+  "_virtual_mf-exposes___mfe_internal__intelligentGrainClient__remoteEntry_js-oH5c1j2X.js": {
+    "file": "assets/virtual_mf-exposes___mfe_internal__intelligentGrainClient__remoteEntry_js-oH5c1j2X.js",
+    "name": "virtual_mf-exposes___mfe_internal__intelligentGrainClient__remoteEntry_js",
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "src/client.ts"
+    ]
+  },
+  "_vite-preload-helper-7P2xnrDv.js": {
+    "file": "assets/vite-preload-helper-7P2xnrDv.js",
+    "name": "vite-preload-helper"
+  },
+  "index.html": {
+    "file": "assets/index-hqRUVZbJ.js",
+    "name": "index",
+    "src": "index.html",
+    "isEntry": true,
+    "imports": [
+      "_virtual_mf-exposes___mfe_internal__intelligentGrainClient__remoteEntry_js-oH5c1j2X.js",
+      "_virtual_mf-REMOTE_ENTRY_ID___mfe_internal__intelligentGrainClient__remoteEntry_js-D3y0UT7m.js"
+    ]
+  },
+  "src/client.ts": {
+    "file": "assets/client-C4ksU1fy.js",
+    "name": "client",
+    "src": "src/client.ts",
+    "isEntry": true
+  },
+  "virtual:mf-REMOTE_ENTRY_ID:__mfe_internal__intelligentGrainClient__remoteEntry_js": {
+    "file": "remoteEntry.js",
+    "name": "remoteEntry",
+    "src": "virtual:mf-REMOTE_ENTRY_ID:__mfe_internal__intelligentGrainClient__remoteEntry_js",
+    "imports": [
+      "_virtual_mf-REMOTE_ENTRY_ID___mfe_internal__intelligentGrainClient__remoteEntry_js-D3y0UT7m.js"
+    ]
+  },
+  "virtual:mf-REMOTE_ENTRY_SSR_ID:__mfe_internal__intelligentGrainClient__remoteEntry_js": {
+    "file": "remoteEntry.ssr.js",
+    "name": "ssrRemoteEntry",
+    "src": "virtual:mf-REMOTE_ENTRY_SSR_ID:__mfe_internal__intelligentGrainClient__remoteEntry_js",
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "virtual:mf-exposes-ssr:__mfe_internal__intelligentGrainClient__remoteEntry_js"
+    ]
+  },
+  "virtual:mf-exposes-ssr:__mfe_internal__intelligentGrainClient__remoteEntry_js": {
+    "file": "assets/virtual_mf-exposes-ssr___mfe_internal__intelligentGrainClient__remoteEntry_js-BM8hQ-3T.js",
+    "name": "virtual_mf-exposes-ssr___mfe_internal__intelligentGrainClient__remoteEntry_js",
+    "src": "virtual:mf-exposes-ssr:__mfe_internal__intelligentGrainClient__remoteEntry_js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "src/client.ts"
+    ]
+  },
+  "virtual:mf-exposes:__mfe_internal__intelligentGrainClient__remoteEntry_js": {
+    "file": "assets/virtualExposes-D58HCxHH.js",
+    "name": "virtualExposes",
+    "src": "virtual:mf-exposes:__mfe_internal__intelligentGrainClient__remoteEntry_js",
+    "imports": [
+      "_virtual_mf-exposes___mfe_internal__intelligentGrainClient__remoteEntry_js-oH5c1j2X.js"
+    ]
+  },
+  "virtual:mf-localSharedImportMap:__mfe_internal__intelligentGrainClient": {
+    "file": "assets/_virtual_mf-localSharedImportMap___mfe_internal__intelligentGrainClient-CcdcYaa2.js",
+    "name": "_virtual_mf-localSharedImportMap___mfe_internal__intelligentGrainClient",
+    "src": "virtual:mf-localSharedImportMap:__mfe_internal__intelligentGrainClient",
+    "isDynamicEntry": true
+  },
+  "virtual:mf:__mfe_internal__intelligentGrainClient__H_A_I__hostAutoInit__H_A_I__.js": {
+    "file": "assets/hostInit-DuZQl2sm.js",
+    "name": "hostInit",
+    "src": "virtual:mf:__mfe_internal__intelligentGrainClient__H_A_I__hostAutoInit__H_A_I__.js",
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "_virtual_mf-REMOTE_ENTRY_ID___mfe_internal__intelligentGrainClient__remoteEntry_js-D3y0UT7m.js",
+      "virtual:mf-localSharedImportMap:__mfe_internal__intelligentGrainClient"
+    ]
+  }
+}

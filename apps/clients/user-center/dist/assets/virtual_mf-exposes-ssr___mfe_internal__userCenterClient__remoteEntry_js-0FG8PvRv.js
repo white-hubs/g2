@@ -1,0 +1,1 @@
+import{t as e}from"./vite-preload-helper-7P2xnrDv.js";var t={"./client":async()=>{let t=await e(()=>import(`./client-FGYVxpmA.js`),[]),n={};return Object.assign(n,t),Object.defineProperty(n,"__esModule",{value:!0,enumerable:!1}),n}};export{t as default};

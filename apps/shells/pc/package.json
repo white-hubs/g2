@@ -1,0 +1,53 @@
+{
+  "name": "@g2-shell/pc",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/main.ts",
+    "./stores/portal-navigation": "./src/stores/portal-navigation.ts"
+  },
+  "scripts": {
+    "dev": "bun ../../../tooling/dev-link/shell.ts",
+    "dev:serve": "node ./node_modules/vite/bin/vite.js",
+    "build": "NODE_ENV=production bun --bun vite build",
+    "preview": "bun --bun vite preview --port 5100 --strictPort",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "bun test",
+    "test:ui": "vitest run"
+  },
+  "dependencies": {
+    "@g2-composition/contract": "workspace:*",
+    "@g2-composition/loader": "workspace:*",
+    "@g2-composition/registry": "workspace:*",
+    "@g2-composition/schema": "workspace:*",
+    "@g2-contract/auth": "workspace:*",
+    "@g2-contract/file": "workspace:*",
+    "@g2-contract/mdata": "workspace:*",
+    "@g2-contract/ouaa": "workspace:*",
+    "@g2-domain/poc-inline-pc": "workspace:*",
+    "@g2-runtime/common-loader": "workspace:*",
+    "@module-federation/enhanced": "catalog:vite",
+    "pinia": "catalog:vue",
+    "qiankun": "catalog:legacy",
+    "vue": "catalog:vue",
+    "vue-router": "catalog:vue",
+    "yaml": "catalog:libs"
+  },
+  "devDependencies": {
+    "@babel/runtime": "7.29.7",
+    "@g2-platform/logger": "workspace:*",
+    "@g2-platform/resource": "workspace:*",
+    "@g2-tooling/mf-vite": "workspace:*",
+    "@tailwindcss/vite": "catalog:vite",
+    "@vitejs/plugin-vue-jsx": "catalog:vite",
+    "@vue/test-utils": "catalog:vite",
+    "crypto-js": "catalog:libs",
+    "dayjs": "catalog:libs",
+    "jsdom": "catalog:vite",
+    "tailwindcss": "catalog:vite",
+    "typescript": "catalog:typescript",
+    "vite": "catalog:vite",
+    "vitest": "catalog:vite"
+  }
+}

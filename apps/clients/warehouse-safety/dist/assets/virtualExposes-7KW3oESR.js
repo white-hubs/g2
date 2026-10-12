@@ -1,0 +1,1 @@
+import{t as e}from"./virtual_mf-exposes___mfe_internal__warehouseSafetyClient__remoteEntry_js-CB5fTr6v.js";export{e as default};

@@ -1,0 +1,966 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="ghcloud 到 g2 的 PC 门户子应用迁移盘点：已迁应用、未迁应用、统计口径与证据链" />
+    <title>ghcloud → g2 子应用迁移盘点</title>
+    <style>
+      :root {
+        color-scheme: light;
+        --canvas: #f3f5f2;
+        --paper: #fffefa;
+        --ink: #18231f;
+        --muted: #63706a;
+        --line: #dfe4df;
+        --forest: #163f35;
+        --green: #168568;
+        --green-soft: #e4f4ed;
+        --amber: #c37821;
+        --amber-soft: #fff1dc;
+        --blue: #336f91;
+        --blue-soft: #e8f3f8;
+        --red: #b84b45;
+        --red-soft: #fae9e7;
+        --shadow: 0 24px 70px rgba(22, 63, 53, 0.11);
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      html {
+        scroll-behavior: smooth;
+      }
+
+      body {
+        margin: 0;
+        background:
+          radial-gradient(circle at 92% 2%, rgba(22, 133, 104, 0.13), transparent 30rem),
+          linear-gradient(180deg, #fbfcf9 0, var(--canvas) 42rem);
+        color: var(--ink);
+        font-family: Inter, "SF Pro Display", "PingFang SC", "Microsoft YaHei", system-ui, sans-serif;
+        line-height: 1.68;
+      }
+
+      a {
+        color: var(--green);
+        text-decoration-thickness: 1px;
+        text-underline-offset: 0.2em;
+      }
+
+      code {
+        padding: 0.12rem 0.38rem;
+        border: 1px solid #dce4df;
+        border-radius: 0.38rem;
+        background: #f5f8f5;
+        color: #285447;
+        font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+        font-size: 0.88em;
+        overflow-wrap: anywhere;
+      }
+
+      .page {
+        width: min(1180px, calc(100% - 40px));
+        margin: 0 auto;
+        padding: 34px 0 76px;
+      }
+
+      .hero {
+        position: relative;
+        overflow: hidden;
+        min-height: 390px;
+        padding: clamp(42px, 7vw, 78px);
+        border-radius: 30px;
+        background: var(--forest);
+        box-shadow: var(--shadow);
+        color: #fff;
+      }
+
+      .hero::after {
+        position: absolute;
+        right: -115px;
+        bottom: -170px;
+        width: 430px;
+        height: 430px;
+        border: 1px solid rgba(255, 255, 255, 0.22);
+        border-radius: 50%;
+        box-shadow:
+          0 0 0 52px rgba(22, 133, 104, 0.18),
+          0 0 0 104px rgba(22, 133, 104, 0.09);
+        content: "";
+      }
+
+      .eyebrow {
+        margin: 0 0 20px;
+        color: #8bd9bd;
+        font-size: 0.77rem;
+        font-weight: 800;
+        letter-spacing: 0.18em;
+        text-transform: uppercase;
+      }
+
+      h1 {
+        max-width: 850px;
+        margin: 0;
+        font-size: clamp(2.4rem, 6vw, 5rem);
+        font-weight: 720;
+        letter-spacing: -0.06em;
+        line-height: 1.01;
+      }
+
+      .hero-summary {
+        max-width: 780px;
+        margin: 26px 0 0;
+        color: #d2e4dc;
+        font-size: clamp(1rem, 1.7vw, 1.18rem);
+      }
+
+      .hero-meta {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px 22px;
+        margin-top: 30px;
+        color: #9dcabd;
+        font-size: 0.86rem;
+      }
+
+      .stats {
+        position: relative;
+        z-index: 2;
+        display: grid;
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+        gap: 14px;
+        margin: -44px 30px 0;
+      }
+
+      .stat {
+        padding: 24px 25px;
+        border: 1px solid rgba(223, 228, 223, 0.95);
+        border-radius: 18px;
+        background: rgba(255, 254, 250, 0.97);
+        box-shadow: 0 12px 34px rgba(22, 63, 53, 0.08);
+      }
+
+      .stat-label {
+        display: block;
+        margin-bottom: 8px;
+        color: var(--muted);
+        font-size: 0.8rem;
+        font-weight: 760;
+        letter-spacing: 0.05em;
+      }
+
+      .stat-value {
+        color: var(--forest);
+        font-size: clamp(1.75rem, 4vw, 2.55rem);
+        font-weight: 780;
+        letter-spacing: -0.05em;
+        line-height: 1;
+      }
+
+      .stat-note {
+        margin: 8px 0 0;
+        color: var(--muted);
+        font-size: 0.82rem;
+      }
+
+      main {
+        margin-top: 70px;
+      }
+
+      section {
+        margin-bottom: 68px;
+        scroll-margin-top: 28px;
+      }
+
+      .kicker {
+        margin: 0 0 6px;
+        color: var(--green);
+        font-size: 0.74rem;
+        font-weight: 850;
+        letter-spacing: 0.16em;
+        text-transform: uppercase;
+      }
+
+      section > h2 {
+        margin: 0 0 23px;
+        color: var(--forest);
+        font-size: clamp(1.65rem, 3.3vw, 2.35rem);
+        letter-spacing: -0.04em;
+        line-height: 1.18;
+      }
+
+      .lead {
+        max-width: 900px;
+        margin: -10px 0 25px;
+        color: var(--muted);
+      }
+
+      .callout {
+        display: grid;
+        grid-template-columns: auto 1fr;
+        gap: 16px;
+        padding: 23px 25px;
+        border: 1px solid #ead4a9;
+        border-radius: 17px;
+        background: var(--amber-soft);
+      }
+
+      .callout-mark {
+        display: grid;
+        width: 30px;
+        height: 30px;
+        place-items: center;
+        border-radius: 50%;
+        background: var(--amber);
+        color: #fff;
+        font-weight: 900;
+      }
+
+      .callout p {
+        margin: 0;
+        color: #705530;
+      }
+
+      .progress-card {
+        padding: 28px;
+        border: 1px solid var(--line);
+        border-radius: 20px;
+        background: var(--paper);
+      }
+
+      .progress-head {
+        display: flex;
+        align-items: end;
+        justify-content: space-between;
+        gap: 18px;
+        margin-bottom: 13px;
+      }
+
+      .progress-head strong {
+        color: var(--forest);
+        font-size: 1.08rem;
+      }
+
+      .progress-head span {
+        color: var(--green);
+        font-weight: 800;
+      }
+
+      .progress-track {
+        overflow: hidden;
+        height: 12px;
+        border-radius: 999px;
+        background: #e4e9e5;
+      }
+
+      .progress-bar {
+        width: 2.53%;
+        min-width: 12px;
+        height: 100%;
+        border-radius: inherit;
+        background: linear-gradient(90deg, var(--green), #57b697);
+      }
+
+      .progress-note {
+        margin: 14px 0 0;
+        color: var(--muted);
+        font-size: 0.9rem;
+      }
+
+      .cards {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 18px;
+      }
+
+      .app-card {
+        padding: 28px;
+        border: 1px solid var(--line);
+        border-top: 4px solid var(--green);
+        border-radius: 20px;
+        background: var(--paper);
+      }
+
+      .app-card h3 {
+        margin: 12px 0 8px;
+        color: var(--forest);
+        font-size: 1.35rem;
+      }
+
+      .app-card p {
+        margin: 0;
+        color: var(--muted);
+      }
+
+      .app-card dl {
+        display: grid;
+        grid-template-columns: 7rem 1fr;
+        gap: 9px 15px;
+        margin: 20px 0 0;
+        font-size: 0.9rem;
+      }
+
+      .app-card dt {
+        color: var(--muted);
+        font-weight: 700;
+      }
+
+      .app-card dd {
+        margin: 0;
+        color: var(--ink);
+        overflow-wrap: anywhere;
+      }
+
+      .badge {
+        display: inline-block;
+        padding: 3px 10px;
+        border-radius: 999px;
+        font-size: 0.76rem;
+        font-weight: 800;
+      }
+
+      .badge-domain {
+        background: var(--green-soft);
+        color: #146c56;
+      }
+
+      .badge-library {
+        background: var(--blue-soft);
+        color: var(--blue);
+      }
+
+      .scope-grid {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 16px;
+      }
+
+      .scope-item {
+        padding: 23px;
+        border: 1px solid var(--line);
+        border-radius: 17px;
+        background: var(--paper);
+      }
+
+      .scope-item strong {
+        display: block;
+        margin-bottom: 8px;
+        color: var(--forest);
+      }
+
+      .scope-item p {
+        margin: 0;
+        color: var(--muted);
+        font-size: 0.9rem;
+      }
+
+      .toolbar {
+        display: grid;
+        grid-template-columns: minmax(220px, 1fr) auto;
+        gap: 14px;
+        margin-bottom: 15px;
+      }
+
+      .search {
+        width: 100%;
+        min-height: 46px;
+        padding: 0 15px;
+        border: 1px solid #ccd7d1;
+        border-radius: 12px;
+        outline: none;
+        background: var(--paper);
+        color: var(--ink);
+        font: inherit;
+      }
+
+      .search:focus {
+        border-color: var(--green);
+        box-shadow: 0 0 0 3px rgba(22, 133, 104, 0.13);
+      }
+
+      .filters {
+        display: flex;
+        gap: 8px;
+      }
+
+      .filter-button {
+        min-height: 46px;
+        padding: 0 14px;
+        border: 1px solid #ccd7d1;
+        border-radius: 12px;
+        background: var(--paper);
+        color: var(--muted);
+        cursor: pointer;
+        font: inherit;
+        font-size: 0.88rem;
+        font-weight: 700;
+      }
+
+      .filter-button[aria-pressed="true"] {
+        border-color: var(--forest);
+        background: var(--forest);
+        color: #fff;
+      }
+
+      .result-count {
+        margin: 0 0 11px;
+        color: var(--muted);
+        font-size: 0.87rem;
+      }
+
+      .table-wrap {
+        overflow-x: auto;
+        border: 1px solid var(--line);
+        border-radius: 18px;
+        background: var(--paper);
+      }
+
+      table {
+        width: 100%;
+        min-width: 900px;
+        border-collapse: collapse;
+      }
+
+      th,
+      td {
+        padding: 15px 18px;
+        border-bottom: 1px solid var(--line);
+        text-align: left;
+        vertical-align: top;
+      }
+
+      th {
+        position: sticky;
+        top: 0;
+        z-index: 1;
+        background: #f3f7f4;
+        color: var(--forest);
+        font-size: 0.78rem;
+        letter-spacing: 0.04em;
+      }
+
+      td {
+        color: var(--muted);
+        font-size: 0.88rem;
+      }
+
+      tbody tr:last-child td {
+        border-bottom: 0;
+      }
+
+      tbody tr:hover {
+        background: #fafcf9;
+      }
+
+      .row-number {
+        color: #96a19b;
+        font-variant-numeric: tabular-nums;
+      }
+
+      .app-name {
+        color: var(--ink);
+        font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+        font-weight: 650;
+      }
+
+      .status-unmigrated {
+        color: var(--red);
+        font-weight: 760;
+      }
+
+      .source-chip {
+        display: inline-block;
+        padding: 2px 8px;
+        border-radius: 999px;
+        background: #eef2ef;
+        color: #56645d;
+        font-size: 0.72rem;
+        font-weight: 760;
+      }
+
+      .duplicate-note {
+        color: var(--amber);
+        font-weight: 700;
+      }
+
+      .evidence-list {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 13px;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+      }
+
+      .evidence-list li {
+        padding: 18px 20px;
+        border: 1px solid var(--line);
+        border-radius: 14px;
+        background: var(--paper);
+        color: var(--muted);
+      }
+
+      .evidence-list strong {
+        display: block;
+        margin-bottom: 5px;
+        color: var(--forest);
+      }
+
+      footer {
+        padding-top: 26px;
+        border-top: 1px solid var(--line);
+        color: var(--muted);
+        font-size: 0.87rem;
+      }
+
+      @media (max-width: 900px) {
+        .stats {
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+
+        .scope-grid {
+          grid-template-columns: 1fr;
+        }
+
+        .toolbar {
+          grid-template-columns: 1fr;
+        }
+
+        .filters {
+          flex-wrap: wrap;
+        }
+      }
+
+      @media (max-width: 650px) {
+        .page {
+          width: min(100% - 24px, 1180px);
+          padding-top: 12px;
+        }
+
+        .hero {
+          min-height: 430px;
+          padding: 44px 25px 78px;
+          border-radius: 20px;
+        }
+
+        .stats,
+        .cards,
+        .evidence-list {
+          grid-template-columns: 1fr;
+        }
+
+        .stats {
+          margin: -48px 12px 0;
+        }
+
+        .app-card dl {
+          grid-template-columns: 1fr;
+          gap: 3px;
+        }
+
+        .app-card dd + dt {
+          margin-top: 8px;
+        }
+      }
+
+      @media print {
+        body {
+          background: #fff;
+        }
+
+        .page {
+          width: 100%;
+          padding: 0;
+        }
+
+        .hero,
+        .stat,
+        .app-card {
+          box-shadow: none;
+        }
+
+        .toolbar,
+        .result-count {
+          display: none;
+        }
+
+        section,
+        .app-card,
+        .callout {
+          break-inside: avoid;
+        }
+
+        th {
+          position: static;
+        }
+
+        a {
+          color: inherit;
+          text-decoration: none;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="page">
+      <header class="hero">
+        <p class="eyebrow">Migration inventory · PC portal</p>
+        <h1>ghcloud → g2<br />子应用迁移盘点</h1>
+        <p class="hero-summary">
+          以旧 PC 门户的默认 qiankun 注册清单为基线，核对 g2 已组装的 MF Domain、页面库及兼容桥过滤规则，区分“真正迁入”与“仍由旧桥承载”。
+        </p>
+        <div class="hero-meta">
+          <span>盘点日期：2026-08-20</span>
+          <span>源仓：/Users/quan/Desktop/主应用/ghcloud</span>
+          <span>目标仓：/Users/quan/Desktop/g2</span>
+        </div>
+      </header>
+
+      <div class="stats" aria-label="迁移统计">
+        <article class="stat">
+          <span class="stat-label">旧门户注册名</span>
+          <strong class="stat-value">79</strong>
+          <p class="stat-note">仓库默认配置中的有效记录</p>
+        </article>
+        <article class="stat">
+          <span class="stat-label">已迁并摘除</span>
+          <strong class="stat-value">2</strong>
+          <p class="stat-note">1 个 Domain + 1 个页面库</p>
+        </article>
+        <article class="stat">
+          <span class="stat-label">仍未迁移</span>
+          <strong class="stat-value">77</strong>
+          <p class="stat-note">继续依赖 qiankun 兼容桥</p>
+        </article>
+        <article class="stat">
+          <span class="stat-label">未迁唯一入口</span>
+          <strong class="stat-value">74</strong>
+          <p class="stat-note">扣除 3 组入口别名</p>
+        </article>
+      </div>
+
+      <main>
+        <section id="conclusion">
+          <p class="kicker">Executive conclusion</p>
+          <h2>当前结论</h2>
+          <div class="progress-card">
+            <div class="progress-head">
+              <strong>按旧门户注册名计算的切流覆盖率</strong>
+              <span>2 / 79 · 2.53%</span>
+            </div>
+            <div class="progress-track" aria-label="迁移覆盖率 2.53%">
+              <div class="progress-bar"></div>
+            </div>
+            <p class="progress-note">
+              严格按“可导航的 g2 Domain”计算时，真正迁成业务子应用的只有
+              <strong>access-control 1 个</strong>；genericEquipmentMonitor 已迁为共享页面库，不再是独立子应用。
+            </p>
+          </div>
+          <div class="callout" style="margin-top: 18px">
+            <div class="callout-mark">!</div>
+            <p>
+              79 条来自旧仓源码中的默认 <code>window.config.microApps</code>。旧门户允许部署环境通过
+              <code>FRONTEND_CONFIG</code> 动态覆盖这份清单，因此它是“仓库内可审计基线”，不是所有生产环境在任一时刻都完全相同的绝对清单。
+            </p>
+          </div>
+        </section>
+
+        <section id="migrated">
+          <p class="kicker">Migrated and cut over</p>
+          <h2>已经迁移的子应用/共享应用</h2>
+          <div class="cards">
+            <article class="app-card">
+              <span class="badge badge-domain">MF Domain · 已迁</span>
+              <h3>accessControl → access-control</h3>
+              <p>旧门禁 qiankun 子应用已经迁为 g2 正式业务域，并从旧 microApps 注册前过滤掉。</p>
+              <dl>
+                <dt>旧注册名</dt>
+                <dd><code>accessControl</code></dd>
+                <dt>旧入口</dt>
+                <dd><code>/apps-legacy/accesscontrol-migrate</code></dd>
+                <dt>g2 包</dt>
+                <dd><code>@g2-domain/access-control</code></dd>
+                <dt>g2 路径</dt>
+                <dd><code>apps/domains/access-control</code></dd>
+                <dt>路由前缀</dt>
+                <dd><code>/d/access-control</code></dd>
+              </dl>
+            </article>
+
+            <article class="app-card">
+              <span class="badge badge-library">Page Library · 已迁形态转换</span>
+              <h3>genericEquipmentMonitor → 页面库</h3>
+              <p>旧通用设备监测子应用已迁为纯 exposes 页面库，由 access-control 等应用域挂载，不再拥有独立公共 URL。</p>
+              <dl>
+                <dt>旧注册名</dt>
+                <dd><code>genericEquipmentMonitor</code></dd>
+                <dt>旧入口</dt>
+                <dd><code>/apps-legacy/generic-equipment-monitor-migrate</code></dd>
+                <dt>g2 包</dt>
+                <dd><code>@g2-pages/generic-equipment-monitor</code></dd>
+                <dt>g2 路径</dt>
+                <dd><code>apps/page-libraries/generic-equipment-monitor</code></dd>
+                <dt>当前宿主</dt>
+                <dd><code>@g2-domain/access-control</code></dd>
+              </dl>
+            </article>
+          </div>
+        </section>
+
+        <section id="scope">
+          <p class="kicker">Counting rules</p>
+          <h2>统计边界：哪些没有算作“已迁子应用”</h2>
+          <div class="scope-grid">
+            <article class="scope-item">
+              <strong>PC Shell 已迁，但不是子应用</strong>
+              <p>
+                <code>legacy/bimops-fe-web-migrate</code> 已演进为 <code>apps/shells/pc</code>，它属于主应用迁移，不进入 79
+                个子应用的完成数。
+              </p>
+            </article>
+            <article class="scope-item">
+              <strong>POC Domain 不计迁移完成</strong>
+              <p><code>poc-inline-pc</code> 和 <code>poc-remote-pc</code> 是架构验证包，并非从旧业务子应用迁入。</p>
+            </article>
+            <article class="scope-item">
+              <strong>Client/Platform 不等于 UI 子应用</strong>
+              <p>例如 alarm-center、device-center 已有 Client 或 Platform，只说明接口/平台能力已迁，不能据此认定对应业务 UI 已迁。</p>
+            </article>
+          </div>
+        </section>
+
+        <section id="unmigrated">
+          <p class="kicker">Remaining inventory</p>
+          <h2>尚未迁移的 77 个注册名</h2>
+          <p class="lead">
+            下表按旧门户运行时注册名列出。若 g2 环境注入这些项目，它们仍通过临时 qiankun 兼容桥装载；这里的“未迁移”表示尚未成为 g2 原生
+            Domain 或已确认的页面库切流项。
+          </p>
+          <div class="toolbar">
+            <label>
+              <span style="position: absolute; width: 1px; height: 1px; overflow: hidden">搜索应用</span>
+              <input id="search" class="search" type="search" placeholder="搜索注册名或旧入口，例如 alarm、/apps/device-center" />
+            </label>
+            <div class="filters" aria-label="来源筛选">
+              <button class="filter-button" type="button" data-filter="all" aria-pressed="true">全部</button>
+              <button class="filter-button" type="button" data-filter="legacy" aria-pressed="false">/apps-legacy</button>
+              <button class="filter-button" type="button" data-filter="apps" aria-pressed="false">/apps</button>
+            </div>
+          </div>
+          <p id="result-count" class="result-count" aria-live="polite">显示 77 条</p>
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>旧注册名</th>
+                  <th>旧运行时入口</th>
+                  <th>来源带</th>
+                  <th>当前状态</th>
+                  <th>备注</th>
+                </tr>
+              </thead>
+              <tbody id="inventory-body"></tbody>
+            </table>
+          </div>
+          <noscript>
+            <p class="callout">此表需要浏览器启用 JavaScript 才能渲染和筛选。</p>
+          </noscript>
+        </section>
+
+        <section id="aliases">
+          <p class="kicker">Aliases and duplicates</p>
+          <h2>为什么 77 个注册名只有 74 个唯一入口</h2>
+          <div class="cards">
+            <article class="scope-item">
+              <strong>stream-engine-config / flow-engine</strong>
+              <p>共同指向 <code>/apps-legacy/stream-engine-config</code>。</p>
+            </article>
+            <article class="scope-item">
+              <strong>secure-edu / secure-edu-head</strong>
+              <p>共同指向 <code>/apps/secure-edu/app</code>。</p>
+            </article>
+            <article class="scope-item">
+              <strong>safety-manage-head / safety-manage-market</strong>
+              <p>共同指向 <code>/apps/safety-manage-head</code>。</p>
+            </article>
+          </div>
+        </section>
+
+        <section id="evidence">
+          <p class="kicker">Evidence chain</p>
+          <h2>结论依据</h2>
+          <ul class="evidence-list">
+            <li>
+              <strong>旧门户默认清单</strong>
+              <code>ghcloud/legacy/bimops-fe-web-migrate/public/config.js</code>：79 条有效 <code>microApps</code> 注册。
+            </li>
+            <li>
+              <strong>g2 已迁过滤表</strong>
+              <code>apps/shells/pc/src/filter-migrated-qiankun-apps.ts</code>：明确剔除 access-control 和 genericEquipmentMonitor 别名。
+            </li>
+            <li>
+              <strong>g2 生产组装清单</strong>
+              <code>deploy/compositions/prod.pc.yaml</code>：正式业务 remote 只有 accessControl；GEM 位于 pageLibrary 槽位。
+            </li>
+            <li>
+              <strong>迁移架构决策</strong>
+              <code>ADR-0023</code> 确认 access-control 为首个真实迁入域；<code>ADR-0059</code> 确认 GEM 转为页面库。
+            </li>
+            <li>
+              <strong>临时兼容桥</strong>
+              <code>ADR-0031</code>：未迁业务应用继续使用旧 <code>window.config.microApps</code> 和 qiankun 生命周期。
+            </li>
+            <li>
+              <strong>排除项</strong>
+              g2 的 POC Domain、服务 Client、Platform、主 Shell 均按职责排除，不用于抬高业务子应用迁移数。
+            </li>
+          </ul>
+        </section>
+      </main>
+
+      <footer>
+        <p>
+          本文是基于 2026-08-20 工作区源码的静态盘点。若某部署环境覆盖了
+          <code>FRONTEND_CONFIG.microApps</code>，应导出该环境实际清单后重新比对。
+        </p>
+      </footer>
+    </div>
+
+    <script>
+      const inventory = [
+        ["inspection", "/apps-legacy/inspect-migrate"],
+        ["fault", "/apps-legacy/fault-migrate"],
+        ["message-center", "/apps-legacy/message-center-migrate"],
+        ["problems", "/apps-legacy/problems-migrate"],
+        ["renovation", "/apps-legacy/renovation-migrate"],
+        ["maintenance", "/apps-legacy/maintenance-migrate"],
+        ["technicalBulletin", "/apps-legacy/technicalbulletin-migrate"],
+        ["knowledgeDocument", "/apps-legacy/knowledgedocument-migrate"],
+        ["outsourcing", "/apps-legacy/outsource-migrate"],
+        ["linkageStrategy", "/apps-legacy/linkage-strategy-migrate"],
+        ["qrcode", "/apps-legacy/qrcode-migrate"],
+        ["alarmCenter", "/apps-legacy/alarm-center-migrate"],
+        ["securityMonitoring", "/apps-legacy/security-monitor-migrate"],
+        ["parkingSystem", "/apps-legacy/parking-migrate"],
+        ["factoryManagement", "/apps-legacy/factorymanagement-migrate"],
+        ["emergencyCenter", "/apps-legacy/emergency-management-migrate"],
+        ["personnelManagement", "/apps-legacy/personal-management-migrate"],
+        ["telecommunication", "/apps-legacy/telecommunication-migrate"],
+        ["broadcastCenter", "/apps-legacy/broadcast-migrate"],
+        ["electricManage", "/apps-legacy/powermonitor-migrate"],
+        ["IntelligentLighting", "/apps-legacy/intelligent-lighting"],
+        ["ConsumptionManagement", "/apps-legacy/consumption-management"],
+        ["governmentManagement", "/apps-legacy/government-management-migrate"],
+        ["asset-management", "/apps-legacy/asset-management"],
+        ["stream-engine-render", "/apps-legacy/streamengine-pc"],
+        ["stream-engine-config", "/apps-legacy/stream-engine-config", "与 flow-engine 共用入口"],
+        ["personalManagement", "/apps-legacy/person-management"],
+        ["meet-room-management", "/apps-legacy/meetroom-management"],
+        ["work-report", "/apps-legacy/work-report-migrate"],
+        ["legacy-personal", "/apps-legacy/personal-migrate"],
+        ["legacy-business-config", "/apps-legacy/business-config-migrate"],
+        ["tenant", "/apps-legacy/tenant"],
+        ["business", "/apps-legacy/slide-business-migrate"],
+        ["car", "/apps-legacy/slide-car-migrate"],
+        ["charge", "/apps-legacy/slide-charge-migrate"],
+        ["contract", "/apps-legacy/slide-contract-migrate"],
+        ["gear", "/apps-legacy/slide-gear-migrate"],
+        ["goods", "/apps-legacy/slide-goods-migrate"],
+        ["meatSlider", "/apps-legacy/slide-meatslider-migrate"],
+        ["park", "/apps-legacy/slide-parking-migrate"],
+        ["payandsettle", "/apps-legacy/slide-payandsettle-migrate"],
+        ["merchant-evaluation", "/apps-legacy/merchant-evaluation-migrate"],
+        ["wholesaler", "/apps-legacy/wholesaler-migrate"],
+        ["cn-gear", "/apps-legacy/cn-gear-migrate"],
+        ["cn-business", "/apps-legacy/cn-business-migrate"],
+        ["flow-engine", "/apps-legacy/stream-engine-config", "与 stream-engine-config 共用入口"],
+        ["energy-consumption", "/apps-legacy/energy-consumption-migrate"],
+        ["device-center", "/apps/device-center"],
+        ["iot-center", "/apps/iot-center"],
+        ["agencyCenter", "/apps/todo-center/app"],
+        ["visual-config", "/apps/visual-config"],
+        ["inspect", "/apps/inspect"],
+        ["secure-edu", "/apps/secure-edu/app", "与 secure-edu-head 共用入口"],
+        ["secure-edu-head", "/apps/secure-edu/app", "与 secure-edu 共用入口"],
+        ["electronic-patrol", "/apps/electronic-patrol/app"],
+        ["error-page", "/apps/error-page"],
+        ["attendance-management", "/apps/attendance"],
+        ["cooling-water", "/apps/cooling-water"],
+        ["small-engineering", "/apps/small-engineering"],
+        ["safety-manage-head", "/apps/safety-manage-head", "与 safety-manage-market 共用入口"],
+        ["safety-manage-market", "/apps/safety-manage-head", "与 safety-manage-head 共用入口"],
+        ["medical-gas", "/apps/medical-gas"],
+        ["info-publish", "/apps/info-publish"],
+        ["elevator-management", "/apps/elevator-management"],
+        ["boiler-system", "/apps/boiler-system"],
+        ["water-purification-system", "/apps/water-purification-system"],
+        ["command-dispatch-config", "/apps/command-dispatch-config"],
+        ["smart-card-management", "/apps/smart-card-management"],
+        ["environmental-monitoring", "/apps/environmental-monitoring"],
+        ["risk-management", "/apps/risk-management/app"],
+        ["prepaid-system", "/apps/prepaid-system"],
+        ["goods-purchase-price", "/apps/goods-purchase-price"],
+        ["operating-room", "/apps/operating-room/app"],
+        ["video-analysis-box", "/apps/video-analysis-box"],
+        ["xrx-engineering-management", "/apps/xrx-engineering-management"],
+        ["food-safety-report", "/apps/food-safety-report"],
+        ["electronic-guide", "/apps/electronic-guide"],
+      ];
+
+      const body = document.querySelector("#inventory-body");
+      const search = document.querySelector("#search");
+      const count = document.querySelector("#result-count");
+      const buttons = [...document.querySelectorAll("[data-filter]")];
+      let activeFilter = "all";
+
+      function render() {
+        const keyword = search.value.trim().toLowerCase();
+        const visible = inventory.filter(([name, entry]) => {
+          const source = entry.startsWith("/apps-legacy/") ? "legacy" : "apps";
+          const matchesSource = activeFilter === "all" || source === activeFilter;
+          const matchesKeyword = !keyword || `${name} ${entry}`.toLowerCase().includes(keyword);
+          return matchesSource && matchesKeyword;
+        });
+
+        body.replaceChildren(
+          ...visible.map(([name, entry, note], index) => {
+            const source = entry.startsWith("/apps-legacy/") ? "legacy" : "apps";
+            const row = document.createElement("tr");
+            const cells = [
+              [String(index + 1), "row-number"],
+              [name, "app-name"],
+              [entry, ""],
+              [source === "legacy" ? "/apps-legacy" : "/apps", "source-chip"],
+              ["未迁移", "status-unmigrated"],
+              [note || "—", note ? "duplicate-note" : ""],
+            ];
+
+            for (const [text, className] of cells) {
+              const cell = document.createElement("td");
+              const content = document.createElement(className === "source-chip" ? "span" : "span");
+              content.textContent = text;
+              if (className) content.className = className;
+              cell.append(content);
+              row.append(cell);
+            }
+            return row;
+          }),
+        );
+        count.textContent = `显示 ${visible.length} 条（总计 ${inventory.length} 条未迁移注册名）`;
+      }
+
+      search.addEventListener("input", render);
+      for (const button of buttons) {
+        button.addEventListener("click", () => {
+          activeFilter = button.dataset.filter;
+          for (const item of buttons) item.setAttribute("aria-pressed", String(item === button));
+          render();
+        });
+      }
+      render();
+    </script>
+  </body>
+</html>

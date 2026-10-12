@@ -1,0 +1,60 @@
+$ bun --bun vite build
+vite v8.1.5 building client environment for production...
+[2Ktransforming...✓ 129 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                                                                                                 0.96 kB │ gzip:  0.43 kB
+dist/assets/mf-entry-bootstrap-0-e99162e0.js                                                                    1.35 kB
+dist/mf-manifest.json                                                                                           1.77 kB │ gzip:  0.68 kB
+dist/mf-stats.json                                                                                              7.09 kB │ gzip:  1.44 kB
+dist/.vite/manifest.json                                                                                       16.08 kB │ gzip:  1.63 kB
+dist/assets/s6-hj3_Wy05.css                                                                                     0.18 kB │ gzip:  0.16 kB
+dist/assets/merchant-list-CFsHT-_s.css                                                                          1.97 kB │ gzip:  0.60 kB
+dist/assets/s2-llWks5hd.css                                                                                     3.82 kB │ gzip:  1.03 kB
+dist/assets/s5-DfsrX8aZ.css                                                                                     4.77 kB │ gzip:  1.13 kB
+dist/assets/s4-Cnbx3JtY.css                                                                                     8.24 kB │ gzip:  1.91 kB
+dist/assets/virtualExposes-DApzIu-7.js                                                                          0.11 kB │ gzip:  0.12 kB
+dist/remoteEntry.js                                                                                             0.14 kB │ gzip:  0.14 kB
+dist/assets/virtual_mf-exposes-ssr___mfe_internal__safetyCredit__remoteEntry_js-DF8nePWm.js                     0.25 kB │ gzip:  0.22 kB
+dist/assets/index-r0EVKatt.js                                                                                   0.26 kB │ gzip:  0.19 kB
+dist/assets/domain-context-DKDvPzLO.js                                                                          0.27 kB │ gzip:  0.17 kB
+dist/assets/rolldown-runtime-QTnfLwEv.js                                                                        0.69 kB │ gzip:  0.42 kB
+dist/assets/_virtual_mf___mfe_internal__safetyCredit__prebuild__vue_mf_2_router__prebuild__-CfZqAISc.js         0.76 kB │ gzip:  0.41 kB
+dist/assets/virtual_mf-exposes___mfe_internal__safetyCredit__remoteEntry_js-kRxlAkrk.js                         0.94 kB │ gzip:  0.58 kB
+dist/remoteEntry.ssr.js                                                                                         0.99 kB │ gzip:  0.58 kB
+dist/assets/_virtual_mf-localSharedImportMap___mfe_internal__safetyCredit-BR6PkF2G.js                           1.17 kB │ gzip:  0.51 kB
+dist/assets/vite-preload-helper-7P2xnrDv.js                                                                     1.41 kB │ gzip:  0.75 kB
+dist/assets/hostInit-QJQMSPsy.js                                                                                2.32 kB │ gzip:  1.10 kB
+dist/assets/publicity-config-BTa3U1cR.js                                                                        3.24 kB │ gzip:  1.44 kB
+dist/assets/ranking-board-DyQIDjti.js                                                                           3.37 kB │ gzip:  1.57 kB
+dist/assets/check-statistics-Cu9ZGUGl.js                                                                        3.83 kB │ gzip:  1.62 kB
+dist/assets/_virtual_mf___mfe_internal__safetyCredit__prebuild__vue__prebuild__-B_wWQhmk.js                     4.80 kB │ gzip:  2.10 kB
+dist/assets/score-log-shell-BuPxw6Ww.js                                                                         5.01 kB │ gzip:  2.01 kB
+dist/assets/score-model-versions-D9pPalZM.js                                                                    6.54 kB │ gzip:  2.55 kB
+dist/assets/behavior-audit-Bz4yE3Uw.js                                                                          6.65 kB │ gzip:  2.50 kB
+dist/assets/domain-C_-HEMd9.js                                                                                  6.73 kB │ gzip:  1.69 kB
+dist/assets/benefit-rule-list-Cnns0Io3.js                                                                       7.56 kB │ gzip:  2.59 kB
+dist/assets/archive-list-B2UdjE6g.js                                                                            7.72 kB │ gzip:  2.76 kB
+dist/assets/check-quality-qJIY_KGp.js                                                                           7.87 kB │ gzip:  2.95 kB
+dist/assets/data-source-config-ByK3euh-.js                                                                      8.36 kB │ gzip:  3.27 kB
+dist/assets/archive-detail-D2CUTkJA.js                                                                          8.78 kB │ gzip:  3.29 kB
+dist/assets/benefit-record-list-Bbr9M0ie.js                                                                     9.00 kB │ gzip:  3.07 kB
+dist/assets/check-processing-TETeCEzN.js                                                                        9.52 kB │ gzip:  3.75 kB
+dist/assets/checklist-list-amfIgfic.js                                                                         10.65 kB │ gzip:  3.61 kB
+dist/assets/merchant-list-RmVafgX5.js                                                                          11.33 kB │ gzip:  4.12 kB
+dist/assets/behavior-list-BLwqhMfe.js                                                                          11.84 kB │ gzip:  3.81 kB
+dist/assets/score-model-list-Dke1v61j.js                                                                       15.45 kB │ gzip:  5.14 kB
+dist/assets/shared-C0Ybv9Ap.js                                                                                 16.38 kB │ gzip:  6.69 kB
+dist/assets/_virtual_mf___mfe_internal__safetyCredit__loadShare__vue_mf_2_router__loadShare__.js-koGySzfZ.js   30.70 kB │ gzip: 11.42 kB
+dist/assets/virtual_mf-REMOTE_ENTRY_ID___mfe_internal__safetyCredit__remoteEntry_js-KslQFEN2.js                39.03 kB │ gzip: 12.93 kB
+dist/assets/_virtual_mf___mfe_internal__safetyCredit__loadShare__vue__loadShare__.js-BVdnmJI3.js              123.25 kB │ gzip: 46.17 kB
+
+[33m[PLUGIN_TIMINGS] [0mYour build spent significant time in plugins. Here is a breakdown:
+  - vite:vue-jsx (53%)
+  - proxyRemoteEntry (7%)
+  - generateLocalSharedImportMap (5%)
+  - vite:css (4%)
+  - proxyPreBuildShared:resolve-prebuild (3%)
+See https://rolldown.rs/reference/InputOptions.checks#plugintimings for more details.
+
+✓ built in 3.80s

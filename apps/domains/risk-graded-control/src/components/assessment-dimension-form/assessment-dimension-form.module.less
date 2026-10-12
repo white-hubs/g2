@@ -1,0 +1,54 @@
+.dimensionRow {
+  width: 100%;
+}
+
+.dimensionLabel {
+  margin-bottom: 6px;
+  color: rgba(0, 0, 0, 0.85);
+}
+
+.selectWrap {
+  width: 100%;
+}
+
+.dimensionSelect {
+  width: 100%;
+  max-width: 100%;
+
+  :global(.ant-select-selection-item) {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+}
+
+.optionText {
+  white-space: normal;
+  word-break: break-word;
+  line-height: 1.5;
+}
+
+.optionDropdown {
+  min-width: 520px !important;
+  max-width: min(720px, 90vw);
+
+  :global(.ant-select-item) {
+    min-height: auto;
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+
+  :global(.ant-select-item-option-content) {
+    white-space: normal;
+    word-break: break-word;
+    line-height: 1.5;
+  }
+}
+
+.levelRuleTag {
+  max-width: 100%;
+  white-space: normal;
+  word-break: break-word;
+  height: auto;
+  line-height: 1.5;
+}

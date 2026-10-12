@@ -1,0 +1,1 @@
+import{t as e}from"./domain-BPVOfHGK.js";export{e as default};

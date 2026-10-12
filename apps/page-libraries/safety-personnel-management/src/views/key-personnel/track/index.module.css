@@ -1,0 +1,18 @@
+.searchForm {
+  margin-bottom: 16px;
+}
+
+.personField {
+  display: inline-block;
+}
+
+.searchItem {
+  padding-right: 0 !important;
+  margin-right: 10px !important;
+  margin-bottom: 10px !important;
+}
+
+.listTitle {
+  font-weight: 600;
+  margin: 16px 0 8px;
+}

@@ -1,0 +1,1 @@
+var e={label:`pc-chart`};export{e as default,e as platformModule};

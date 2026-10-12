@@ -1,0 +1,18 @@
+.searchContent {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+
+.pagination {
+  display: flex;
+  justify-content: flex-end;
+  padding: 12px 0;
+}
+
+.searchItem {
+  margin-right: 10px !important;
+  margin-bottom: 10px !important;
+  padding-right: 0 !important;
+}

@@ -1,0 +1,10 @@
+{
+  "extends": "../../../tsconfig.base.json",
+  "compilerOptions": {
+    "jsx": "preserve",
+    "jsxImportSource": "vue",
+    "allowImportingTsExtensions": true,
+    "types": ["vite/client", "bun-types"]
+  },
+  "include": ["src/**/*.ts", "src/**/*.tsx", "vite.config.ts"]
+}

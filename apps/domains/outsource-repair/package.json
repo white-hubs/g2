@@ -1,0 +1,38 @@
+{
+  "name": "@g2-domain/outsource-repair",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    "./domain": "./src/domain.ts"
+  },
+  "scripts": {
+    "dev": "bun ../../../tooling/dev-link/cli.ts",
+    "dev:serve": "node ./node_modules/vite/bin/vite.js --port 5115 --strictPort",
+    "build": "bun --bun vite build",
+    "preview": "bun --bun vite preview --port 5115 --strictPort",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "bun test"
+  },
+  "dependencies": {
+    "@g2-client/device-center": "workspace:*",
+    "@g2-client/message": "workspace:*",
+    "@g2-client/ouaa": "workspace:*",
+    "@g2-client/outsource-repair": "workspace:*",
+    "@g2-client/stream-engine": "workspace:*",
+    "@g2-composition/contract": "workspace:*",
+    "@g2-contract/file": "workspace:*",
+    "@g2-contract/message": "workspace:*",
+    "@g2-contract/ouaa": "workspace:*",
+    "@g2-pages/stream-engine": "workspace:*",
+    "vue": "catalog:vue",
+    "vue-router": "catalog:vue"
+  },
+  "devDependencies": {
+    "@g2-platform/pc-ui": "workspace:*",
+    "@g2-tooling/mf-vite": "workspace:*",
+    "@vitejs/plugin-vue-jsx": "catalog:vite",
+    "typescript": "catalog:typescript",
+    "vite": "catalog:vite"
+  }
+}

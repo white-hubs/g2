@@ -1,0 +1,66 @@
+.container {
+  padding: 8px 0;
+}
+.header {
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+.summaryRow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+  margin-bottom: 12px;
+}
+.summaryItem {
+  font-size: 14px;
+  color: #333;
+}
+.summaryTotal {
+  color: #000;
+}
+.summaryChecked {
+  color: var(--cube-theme-var--primary-color, #1890ff);
+}
+.summaryAbnormal {
+  color: #ff4d4f;
+}
+.summaryProgress {
+  color: #52c41a;
+}
+.statRow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+  margin-bottom: 12px;
+}
+.statItem {
+  display: flex;
+  align-items: baseline;
+  gap: 6px;
+  padding: 6px 10px;
+  background: #f7f8fa;
+  border-radius: 4px;
+}
+.statLabel {
+  font-size: 14px;
+  color: #666;
+}
+.statValue {
+  font-size: 16px;
+  font-weight: 600;
+  color: #333;
+}
+.isTotal .statValue {
+  color: #000;
+}
+.isChecked .statValue {
+  color: var(--cube-theme-var--primary-color, #1890ff);
+}
+.isAbnormal .statValue {
+  color: #ff4d4f;
+}
+.isProgress .statValue {
+  color: #52c41a;
+}

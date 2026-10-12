@@ -1,0 +1,829 @@
+{
+  "../../../../../../.bun/install/cache/links/xlsx@0.18.5-88ed5e7719b2e52b/node_modules/xlsx/xlsx.mjs": {
+    "file": "assets/xlsx-DCvltE0O.js",
+    "name": "xlsx",
+    "src": "../../../../../../.bun/install/cache/links/xlsx@0.18.5-88ed5e7719b2e52b/node_modules/xlsx/xlsx.mjs",
+    "isDynamicEntry": true
+  },
+  "../../platforms/pc-iot-socket/src/index.ts": {
+    "file": "assets/src-DG-EqCi9.js",
+    "name": "src",
+    "src": "../../platforms/pc-iot-socket/src/index.ts",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-QTnfLwEv.js",
+      "_defineProperty-BbfpZ9Tg.js"
+    ]
+  },
+  "/Users/quan/Desktop/主应用/g2/apps/domains/energy-consumption/src/assets/energy-utils.less": {
+    "file": "assets/energy-utils-vuNmpjeK.css",
+    "src": "/Users/quan/Desktop/主应用/g2/apps/domains/energy-consumption/src/assets/energy-utils.less"
+  },
+  "/Users/quan/Desktop/主应用/g2/apps/domains/energy-consumption/src/assets/style.less": {
+    "file": "assets/domain-Cgs5vN28.css",
+    "src": "/Users/quan/Desktop/主应用/g2/apps/domains/energy-consumption/src/assets/style.less"
+  },
+  "_2-qcZhi1ve.js": {
+    "file": "assets/2-qcZhi1ve.js",
+    "name": "2"
+  },
+  "_3-bB_aVLIE.js": {
+    "file": "assets/3-bB_aVLIE.js",
+    "name": "3"
+  },
+  "_AntdIcon-CfF2KDtD.js": {
+    "file": "assets/AntdIcon-CfF2KDtD.js",
+    "name": "AntdIcon",
+    "imports": [
+      "__virtual_mf___mfe_internal__energyConsumption__loadShare__vue__loadShare__.js-BXZx_59X.js"
+    ]
+  },
+  "__virtual_mf___mfe_internal__energyConsumption__loadShare__vue__loadShare__.js-BXZx_59X.js": {
+    "file": "assets/_virtual_mf___mfe_internal__energyConsumption__loadShare__vue__loadShare__.js-BXZx_59X.js",
+    "name": "_virtual_mf___mfe_internal__energyConsumption__loadShare__vue__loadShare__.js",
+    "imports": [
+      "_rolldown-runtime-QTnfLwEv.js"
+    ]
+  },
+  "__virtual_mf___mfe_internal__energyConsumption__loadShare__vue_mf_2_router__loadShare__.js-DhS7ioT8.js": {
+    "file": "assets/_virtual_mf___mfe_internal__energyConsumption__loadShare__vue_mf_2_router__loadShare__.js-DhS7ioT8.js",
+    "name": "_virtual_mf___mfe_internal__energyConsumption__loadShare__vue_mf_2_router__loadShare__.js",
+    "imports": [
+      "_rolldown-runtime-QTnfLwEv.js",
+      "__virtual_mf___mfe_internal__energyConsumption__loadShare__vue__loadShare__.js-BXZx_59X.js"
+    ]
+  },
+  "_api-Rcr5_Nz6.js": {
+    "file": "assets/api-Rcr5_Nz6.js",
+    "name": "api",
+    "imports": [
+      "_pc-ui-runtime-Bb5iwMaJ.js"
+    ]
+  },
+  "_c-layout-BlTIbc4p.css": {
+    "file": "assets/c-layout-BlTIbc4p.css",
+    "src": "_c-layout-BlTIbc4p.css"
+  },
+  "_c-layout-CS3vUZ2b.js": {
+    "file": "assets/c-layout-CS3vUZ2b.js",
+    "name": "c-layout",
+    "imports": [
+      "__virtual_mf___mfe_internal__energyConsumption__loadShare__vue__loadShare__.js-BXZx_59X.js",
+      "_g-layout-4BM5JXD3.js"
+    ],
+    "css": [
+      "assets/c-layout-BlTIbc4p.css"
+    ]
+  },
+  "_common-xIoGACGv.js": {
+    "file": "assets/common-xIoGACGv.js",
+    "name": "common"
+  },
+  "_defineProperty-BbfpZ9Tg.js": {
+    "file": "assets/defineProperty-BbfpZ9Tg.js",
+    "name": "defineProperty"
+  },
+  "_e-bar-CK_ASn4i.js": {
+    "file": "assets/e-bar-CK_ASn4i.js",
+    "name": "e-bar",
+    "imports": [
+      "__virtual_mf___mfe_internal__energyConsumption__loadShare__vue__loadShare__.js-BXZx_59X.js",
+      "_getTime-BoS9e2Cs.js",
+      "_echarts-DvhQHHik.js"
+    ]
+  },
+  "_e-line-BJc9h59k.js": {
+    "file": "assets/e-line-BJc9h59k.js",
+    "name": "e-line",
+    "imports": [
+      "__virtual_mf___mfe_internal__energyConsumption__loadShare__vue__loadShare__.js-BXZx_59X.js",
+      "_getTime-BoS9e2Cs.js",
+      "_echarts-DvhQHHik.js",
+      "_AntdIcon-CfF2KDtD.js"
+    ]
+  },
+  "_e-pie-C3rt4VxC.js": {
+    "file": "assets/e-pie-C3rt4VxC.js",
+    "name": "e-pie",
+    "imports": [
+      "__virtual_mf___mfe_internal__energyConsumption__loadShare__vue__loadShare__.js-BXZx_59X.js",
+      "_echarts-DvhQHHik.js"
+    ]
+  },
+  "_echarts-DvhQHHik.js": {
+    "file": "assets/echarts-DvhQHHik.js",
+    "name": "echarts",
+    "imports": [
+      "_rolldown-runtime-QTnfLwEv.js"
+    ]
+  },
+  "_fee-settings-form-2_ozGmkM.js": {
+    "file": "assets/fee-settings-form-2_ozGmkM.js",
+    "name": "fee-settings-form",
+    "imports": [
+      "__virtual_mf___mfe_internal__energyConsumption__loadShare__vue__loadShare__.js-BXZx_59X.js",
+      "_pc-ui-runtime-Bb5iwMaJ.js",
+      "_common-xIoGACGv.js",
+      "_AntdIcon-CfF2KDtD.js"
+    ],
+    "css": [
+      "assets/fee-settings-form-Ci_ck9du.css"
+    ]
+  },
+  "_fee-settings-form-Ci_ck9du.css": {
+    "file": "assets/fee-settings-form-Ci_ck9du.css",
+    "src": "_fee-settings-form-Ci_ck9du.css"
+  },
+  "_g-layout-4BM5JXD3.js": {
+    "file": "assets/g-layout-4BM5JXD3.js",
+    "name": "g-layout",
+    "imports": [
+      "__virtual_mf___mfe_internal__energyConsumption__loadShare__vue__loadShare__.js-BXZx_59X.js",
+      "_pc-ui-runtime-Bb5iwMaJ.js"
+    ],
+    "css": [
+      "assets/g-layout-Du1WiJzz.css"
+    ]
+  },
+  "_g-layout-Du1WiJzz.css": {
+    "file": "assets/g-layout-Du1WiJzz.css",
+    "src": "_g-layout-Du1WiJzz.css"
+  },
+  "_getTime-BoS9e2Cs.js": {
+    "file": "assets/getTime-BoS9e2Cs.js",
+    "name": "getTime"
+  },
+  "_pc-ui-runtime-Bb5iwMaJ.js": {
+    "file": "assets/pc-ui-runtime-Bb5iwMaJ.js",
+    "name": "pc-ui-runtime",
+    "imports": [
+      "__virtual_mf___mfe_internal__energyConsumption__loadShare__vue__loadShare__.js-BXZx_59X.js"
+    ]
+  },
+  "_report-list-DuGkQhME.js": {
+    "file": "assets/report-list-DuGkQhME.js",
+    "name": "report-list",
+    "imports": [
+      "__virtual_mf___mfe_internal__energyConsumption__loadShare__vue__loadShare__.js-BXZx_59X.js",
+      "_api-Rcr5_Nz6.js",
+      "_pc-ui-runtime-Bb5iwMaJ.js"
+    ]
+  },
+  "_rolldown-runtime-QTnfLwEv.js": {
+    "file": "assets/rolldown-runtime-QTnfLwEv.js",
+    "name": "rolldown-runtime"
+  },
+  "_time-radio-group-DssJPw6R.css": {
+    "file": "assets/time-radio-group-DssJPw6R.css",
+    "src": "_time-radio-group-DssJPw6R.css"
+  },
+  "_time-radio-group-QBCehiZg.js": {
+    "file": "assets/time-radio-group-QBCehiZg.js",
+    "name": "time-radio-group",
+    "imports": [
+      "__virtual_mf___mfe_internal__energyConsumption__loadShare__vue__loadShare__.js-BXZx_59X.js",
+      "_pc-ui-runtime-Bb5iwMaJ.js"
+    ],
+    "css": [
+      "assets/time-radio-group-DssJPw6R.css"
+    ]
+  },
+  "_virtual_mf-REMOTE_ENTRY_ID___mfe_internal__energyConsumption__remoteEntry_js-CYp7OesS.js": {
+    "file": "assets/virtual_mf-REMOTE_ENTRY_ID___mfe_internal__energyConsumption__remoteEntry_js-CYp7OesS.js",
+    "name": "virtual_mf-REMOTE_ENTRY_ID___mfe_internal__energyConsumption__remoteEntry_js",
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "virtual:mf-localSharedImportMap:__mfe_internal__energyConsumption",
+      "_virtual_mf-exposes___mfe_internal__energyConsumption__remoteEntry_js-Dg-ehEk1.js"
+    ]
+  },
+  "_virtual_mf-exposes___mfe_internal__energyConsumption__remoteEntry_js-Dg-ehEk1.js": {
+    "file": "assets/virtual_mf-exposes___mfe_internal__energyConsumption__remoteEntry_js-Dg-ehEk1.js",
+    "name": "virtual_mf-exposes___mfe_internal__energyConsumption__remoteEntry_js",
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "src/domain.ts"
+    ]
+  },
+  "_vite-preload-helper-7P2xnrDv.js": {
+    "file": "assets/vite-preload-helper-7P2xnrDv.js",
+    "name": "vite-preload-helper"
+  },
+  "index.html": {
+    "file": "assets/index-C6LlVgap.js",
+    "name": "index",
+    "src": "index.html",
+    "isEntry": true,
+    "imports": [
+      "_virtual_mf-exposes___mfe_internal__energyConsumption__remoteEntry_js-Dg-ehEk1.js",
+      "_virtual_mf-REMOTE_ENTRY_ID___mfe_internal__energyConsumption__remoteEntry_js-CYp7OesS.js"
+    ]
+  },
+  "src/assets/carbon.png": {
+    "file": "assets/carbon-Cf7rSVcr.png",
+    "src": "src/assets/carbon.png"
+  },
+  "src/assets/cool_meter.png": {
+    "file": "assets/cool_meter-acI2rnCx.png",
+    "src": "src/assets/cool_meter.png"
+  },
+  "src/assets/electricity_meter.png": {
+    "file": "assets/electricity_meter-CuJPYMUh.png",
+    "src": "src/assets/electricity_meter.png"
+  },
+  "src/assets/fuel_meter.png": {
+    "file": "assets/fuel_meter-BGyJn3jg.png",
+    "src": "src/assets/fuel_meter.png"
+  },
+  "src/assets/gas_meter.png": {
+    "file": "assets/gas_meter-qDf-osEB.png",
+    "src": "src/assets/gas_meter.png"
+  },
+  "src/assets/heat_meter.png": {
+    "file": "assets/heat_meter-zvPPYS9d.png",
+    "src": "src/assets/heat_meter.png"
+  },
+  "src/assets/renewable_energy.png": {
+    "file": "assets/renewable_energy-CIGN9qMC.png",
+    "src": "src/assets/renewable_energy.png"
+  },
+  "src/assets/water_meter.png": {
+    "file": "assets/water_meter-DWBz_xhc.png",
+    "src": "src/assets/water_meter.png"
+  },
+  "src/assets/zh.png": {
+    "file": "assets/zh-CH_OG2aA.png",
+    "src": "src/assets/zh.png"
+  },
+  "src/domain.ts": {
+    "file": "assets/domain-CRokVAhU.js",
+    "name": "domain",
+    "src": "src/domain.ts",
+    "isEntry": true,
+    "imports": [
+      "_rolldown-runtime-QTnfLwEv.js",
+      "_vite-preload-helper-7P2xnrDv.js",
+      "__virtual_mf___mfe_internal__energyConsumption__loadShare__vue__loadShare__.js-BXZx_59X.js",
+      "__virtual_mf___mfe_internal__energyConsumption__loadShare__vue_mf_2_router__loadShare__.js-DhS7ioT8.js",
+      "_pc-ui-runtime-Bb5iwMaJ.js"
+    ],
+    "dynamicImports": [
+      "src/views/energy/energy-overview.tsx",
+      "src/views/energy/energy-statistics.tsx",
+      "src/views/energy/energy-synthesize.tsx",
+      "src/views/energy/dosage-analysis.tsx",
+      "src/views/energy/load-prediction.tsx",
+      "src/views/fee/fee-overview.tsx",
+      "src/views/fee/fee-report.tsx",
+      "src/views/fee/fee-calculation-rules.tsx",
+      "src/views/fee/district-fee.tsx",
+      "src/views/fee/fee-settings.tsx",
+      "src/views/fee/fee-settings-electric.tsx",
+      "src/views/fee/fee-settings-water.tsx",
+      "src/views/fee/fee-settings-gas.tsx",
+      "src/views/report/usage-report.tsx",
+      "src/views/report/carbon-emission-report.tsx",
+      "src/views/report/comprehensive-report.tsx",
+      "src/views/config/associated-devices.tsx",
+      "src/views/config/classify-settings.tsx",
+      "src/views/config/sub-item-settings.tsx",
+      "src/views/config/area-configure.tsx",
+      "src/views/config/peak-valley-periods.tsx",
+      "src/views/config/energy-usage-setting.tsx",
+      "src/views/device/device-list.tsx",
+      "src/views/device/device-detail.tsx",
+      "src/views/device/device-record.tsx",
+      "src/views/device/device-cycle.tsx"
+    ],
+    "css": [
+      "assets/domain-Cgs5vN28.css"
+    ]
+  },
+  "src/views/config/area-configure.tsx": {
+    "file": "assets/area-configure-Csmc81-c.js",
+    "name": "area-configure",
+    "src": "src/views/config/area-configure.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__energyConsumption__loadShare__vue__loadShare__.js-BXZx_59X.js",
+      "__virtual_mf___mfe_internal__energyConsumption__loadShare__vue_mf_2_router__loadShare__.js-DhS7ioT8.js",
+      "_api-Rcr5_Nz6.js",
+      "_pc-ui-runtime-Bb5iwMaJ.js",
+      "_g-layout-4BM5JXD3.js"
+    ]
+  },
+  "src/views/config/associated-devices.tsx": {
+    "file": "assets/associated-devices-NTVVMONB.js",
+    "name": "associated-devices",
+    "src": "src/views/config/associated-devices.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__energyConsumption__loadShare__vue__loadShare__.js-BXZx_59X.js",
+      "__virtual_mf___mfe_internal__energyConsumption__loadShare__vue_mf_2_router__loadShare__.js-DhS7ioT8.js",
+      "_api-Rcr5_Nz6.js",
+      "_pc-ui-runtime-Bb5iwMaJ.js",
+      "_g-layout-4BM5JXD3.js"
+    ]
+  },
+  "src/views/config/classify-settings.tsx": {
+    "file": "assets/classify-settings-QiVL6Ftf.js",
+    "name": "classify-settings",
+    "src": "src/views/config/classify-settings.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__energyConsumption__loadShare__vue__loadShare__.js-BXZx_59X.js",
+      "_api-Rcr5_Nz6.js",
+      "_pc-ui-runtime-Bb5iwMaJ.js",
+      "_g-layout-4BM5JXD3.js"
+    ],
+    "css": [
+      "assets/classify-settings-C8579In-.css"
+    ]
+  },
+  "src/views/config/energy-usage-setting.tsx": {
+    "file": "assets/energy-usage-setting-BOtOW_1X.js",
+    "name": "energy-usage-setting",
+    "src": "src/views/config/energy-usage-setting.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__energyConsumption__loadShare__vue__loadShare__.js-BXZx_59X.js",
+      "_api-Rcr5_Nz6.js",
+      "_pc-ui-runtime-Bb5iwMaJ.js",
+      "_g-layout-4BM5JXD3.js",
+      "_getTime-BoS9e2Cs.js"
+    ],
+    "css": [
+      "assets/energy-usage-setting-DnV1PSuS.css"
+    ]
+  },
+  "src/views/config/peak-valley-periods.tsx": {
+    "file": "assets/peak-valley-periods-d73FaKQE.js",
+    "name": "peak-valley-periods",
+    "src": "src/views/config/peak-valley-periods.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__energyConsumption__loadShare__vue__loadShare__.js-BXZx_59X.js",
+      "_api-Rcr5_Nz6.js",
+      "_pc-ui-runtime-Bb5iwMaJ.js",
+      "_g-layout-4BM5JXD3.js"
+    ],
+    "css": [
+      "assets/peak-valley-periods-DaW1fNBd.css"
+    ]
+  },
+  "src/views/config/sub-item-settings.tsx": {
+    "file": "assets/sub-item-settings-DWc_dVEd.js",
+    "name": "sub-item-settings",
+    "src": "src/views/config/sub-item-settings.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__energyConsumption__loadShare__vue__loadShare__.js-BXZx_59X.js",
+      "__virtual_mf___mfe_internal__energyConsumption__loadShare__vue_mf_2_router__loadShare__.js-DhS7ioT8.js",
+      "_api-Rcr5_Nz6.js",
+      "_pc-ui-runtime-Bb5iwMaJ.js",
+      "_g-layout-4BM5JXD3.js"
+    ],
+    "css": [
+      "assets/sub-item-settings-CU2Yw1Gh.css"
+    ]
+  },
+  "src/views/device/device-cycle.tsx": {
+    "file": "assets/device-cycle-DcLC-bd8.js",
+    "name": "device-cycle",
+    "src": "src/views/device/device-cycle.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-QTnfLwEv.js",
+      "__virtual_mf___mfe_internal__energyConsumption__loadShare__vue__loadShare__.js-BXZx_59X.js",
+      "_api-Rcr5_Nz6.js",
+      "_pc-ui-runtime-Bb5iwMaJ.js",
+      "_g-layout-4BM5JXD3.js"
+    ]
+  },
+  "src/views/device/device-detail.tsx": {
+    "file": "assets/device-detail-5rNMCmgA.js",
+    "name": "device-detail",
+    "src": "src/views/device/device-detail.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__energyConsumption__loadShare__vue__loadShare__.js-BXZx_59X.js",
+      "__virtual_mf___mfe_internal__energyConsumption__loadShare__vue_mf_2_router__loadShare__.js-DhS7ioT8.js",
+      "_api-Rcr5_Nz6.js",
+      "_pc-ui-runtime-Bb5iwMaJ.js",
+      "_defineProperty-BbfpZ9Tg.js",
+      "_common-xIoGACGv.js"
+    ],
+    "css": [
+      "assets/device-detail-Dsbesv3T.css"
+    ]
+  },
+  "src/views/device/device-list.tsx": {
+    "file": "assets/device-list-CJuPccZ1.js",
+    "name": "device-list",
+    "src": "src/views/device/device-list.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__energyConsumption__loadShare__vue__loadShare__.js-BXZx_59X.js",
+      "__virtual_mf___mfe_internal__energyConsumption__loadShare__vue_mf_2_router__loadShare__.js-DhS7ioT8.js",
+      "_api-Rcr5_Nz6.js",
+      "_pc-ui-runtime-Bb5iwMaJ.js",
+      "_g-layout-4BM5JXD3.js",
+      "_common-xIoGACGv.js",
+      "_echarts-DvhQHHik.js"
+    ],
+    "css": [
+      "assets/device-list-COPvM4vv.css"
+    ]
+  },
+  "src/views/device/device-record.tsx": {
+    "file": "assets/device-record-BA7l3hs6.js",
+    "name": "device-record",
+    "src": "src/views/device/device-record.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js",
+      "__virtual_mf___mfe_internal__energyConsumption__loadShare__vue__loadShare__.js-BXZx_59X.js",
+      "_api-Rcr5_Nz6.js",
+      "_pc-ui-runtime-Bb5iwMaJ.js",
+      "_g-layout-4BM5JXD3.js",
+      "_common-xIoGACGv.js",
+      "_AntdIcon-CfF2KDtD.js"
+    ],
+    "dynamicImports": [
+      "../../../../../../.bun/install/cache/links/xlsx@0.18.5-88ed5e7719b2e52b/node_modules/xlsx/xlsx.mjs"
+    ],
+    "css": [
+      "assets/device-record-CzzOIMmI.css"
+    ]
+  },
+  "src/views/energy/dosage-analysis.tsx": {
+    "file": "assets/dosage-analysis-BgLUQWJw.js",
+    "name": "dosage-analysis",
+    "src": "src/views/energy/dosage-analysis.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__energyConsumption__loadShare__vue__loadShare__.js-BXZx_59X.js",
+      "_api-Rcr5_Nz6.js",
+      "_pc-ui-runtime-Bb5iwMaJ.js",
+      "_g-layout-4BM5JXD3.js",
+      "_common-xIoGACGv.js",
+      "_echarts-DvhQHHik.js",
+      "_e-line-BJc9h59k.js",
+      "_2-qcZhi1ve.js",
+      "_3-bB_aVLIE.js",
+      "_c-layout-CS3vUZ2b.js",
+      "_e-bar-CK_ASn4i.js",
+      "_e-pie-C3rt4VxC.js",
+      "_time-radio-group-QBCehiZg.js"
+    ],
+    "css": [
+      "assets/dosage-analysis-uiQ509aU.css"
+    ]
+  },
+  "src/views/energy/energy-overview.tsx": {
+    "file": "assets/energy-overview-DbyMkJcP.js",
+    "name": "energy-overview",
+    "src": "src/views/energy/energy-overview.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__energyConsumption__loadShare__vue__loadShare__.js-BXZx_59X.js",
+      "_api-Rcr5_Nz6.js",
+      "_pc-ui-runtime-Bb5iwMaJ.js",
+      "_g-layout-4BM5JXD3.js",
+      "_common-xIoGACGv.js",
+      "_echarts-DvhQHHik.js",
+      "_e-line-BJc9h59k.js",
+      "_c-layout-CS3vUZ2b.js",
+      "_e-pie-C3rt4VxC.js",
+      "_time-radio-group-QBCehiZg.js"
+    ],
+    "css": [
+      "assets/energy-overview-D6XngGIl.css"
+    ],
+    "assets": [
+      "assets/carbon-Cf7rSVcr.png",
+      "assets/cool_meter-acI2rnCx.png",
+      "assets/electricity_meter-CuJPYMUh.png",
+      "assets/fuel_meter-BGyJn3jg.png",
+      "assets/gas_meter-qDf-osEB.png",
+      "assets/heat_meter-zvPPYS9d.png",
+      "assets/renewable_energy-CIGN9qMC.png",
+      "assets/water_meter-DWBz_xhc.png",
+      "assets/zh-CH_OG2aA.png",
+      "assets/energy-utils-vuNmpjeK.css",
+      "assets/domain-Cgs5vN28.css"
+    ]
+  },
+  "src/views/energy/energy-statistics.tsx": {
+    "file": "assets/energy-statistics-CB_1glOp.js",
+    "name": "energy-statistics",
+    "src": "src/views/energy/energy-statistics.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__energyConsumption__loadShare__vue__loadShare__.js-BXZx_59X.js",
+      "_api-Rcr5_Nz6.js",
+      "_pc-ui-runtime-Bb5iwMaJ.js",
+      "_g-layout-4BM5JXD3.js",
+      "_common-xIoGACGv.js",
+      "_e-line-BJc9h59k.js",
+      "_2-qcZhi1ve.js",
+      "_3-bB_aVLIE.js",
+      "_c-layout-CS3vUZ2b.js",
+      "_e-bar-CK_ASn4i.js",
+      "_e-pie-C3rt4VxC.js",
+      "_time-radio-group-QBCehiZg.js"
+    ],
+    "css": [
+      "assets/energy-statistics-DyCkRAuB.css"
+    ]
+  },
+  "src/views/energy/energy-synthesize.tsx": {
+    "file": "assets/energy-synthesize-BSByWjNi.js",
+    "name": "energy-synthesize",
+    "src": "src/views/energy/energy-synthesize.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__energyConsumption__loadShare__vue__loadShare__.js-BXZx_59X.js",
+      "_api-Rcr5_Nz6.js",
+      "_pc-ui-runtime-Bb5iwMaJ.js",
+      "_g-layout-4BM5JXD3.js",
+      "_common-xIoGACGv.js",
+      "_e-line-BJc9h59k.js",
+      "_2-qcZhi1ve.js",
+      "_3-bB_aVLIE.js",
+      "_c-layout-CS3vUZ2b.js",
+      "_e-bar-CK_ASn4i.js",
+      "_e-pie-C3rt4VxC.js",
+      "_time-radio-group-QBCehiZg.js"
+    ],
+    "css": [
+      "assets/energy-synthesize-D0HykmTi.css"
+    ]
+  },
+  "src/views/energy/load-prediction.tsx": {
+    "file": "assets/load-prediction-jZJ-nhnV.js",
+    "name": "load-prediction",
+    "src": "src/views/energy/load-prediction.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__energyConsumption__loadShare__vue__loadShare__.js-BXZx_59X.js",
+      "_api-Rcr5_Nz6.js",
+      "_pc-ui-runtime-Bb5iwMaJ.js",
+      "_g-layout-4BM5JXD3.js",
+      "_getTime-BoS9e2Cs.js",
+      "_common-xIoGACGv.js",
+      "_2-qcZhi1ve.js",
+      "_c-layout-CS3vUZ2b.js",
+      "_e-bar-CK_ASn4i.js"
+    ],
+    "css": [
+      "assets/load-prediction-CFNfcoG9.css"
+    ]
+  },
+  "src/views/fee/district-fee.tsx": {
+    "file": "assets/district-fee-DyH4FdUR.js",
+    "name": "district-fee",
+    "src": "src/views/fee/district-fee.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__energyConsumption__loadShare__vue__loadShare__.js-BXZx_59X.js",
+      "_api-Rcr5_Nz6.js",
+      "_pc-ui-runtime-Bb5iwMaJ.js",
+      "_g-layout-4BM5JXD3.js",
+      "_common-xIoGACGv.js",
+      "_AntdIcon-CfF2KDtD.js",
+      "_e-line-BJc9h59k.js",
+      "_c-layout-CS3vUZ2b.js",
+      "_time-radio-group-QBCehiZg.js"
+    ],
+    "css": [
+      "assets/district-fee-ClOck-kw.css"
+    ]
+  },
+  "src/views/fee/fee-calculation-rules.tsx": {
+    "file": "assets/fee-calculation-rules-5cwfljTc.js",
+    "name": "fee-calculation-rules",
+    "src": "src/views/fee/fee-calculation-rules.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-QTnfLwEv.js",
+      "__virtual_mf___mfe_internal__energyConsumption__loadShare__vue__loadShare__.js-BXZx_59X.js",
+      "_api-Rcr5_Nz6.js",
+      "_pc-ui-runtime-Bb5iwMaJ.js",
+      "_g-layout-4BM5JXD3.js",
+      "_common-xIoGACGv.js",
+      "src/domain.ts"
+    ],
+    "css": [
+      "assets/fee-calculation-rules-CbR_5CUF.css"
+    ]
+  },
+  "src/views/fee/fee-overview.tsx": {
+    "file": "assets/fee-overview-Blrs4wvg.js",
+    "name": "fee-overview",
+    "src": "src/views/fee/fee-overview.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-QTnfLwEv.js",
+      "__virtual_mf___mfe_internal__energyConsumption__loadShare__vue__loadShare__.js-BXZx_59X.js",
+      "__virtual_mf___mfe_internal__energyConsumption__loadShare__vue_mf_2_router__loadShare__.js-DhS7ioT8.js",
+      "_api-Rcr5_Nz6.js",
+      "_pc-ui-runtime-Bb5iwMaJ.js",
+      "_g-layout-4BM5JXD3.js",
+      "_common-xIoGACGv.js",
+      "_e-line-BJc9h59k.js",
+      "_c-layout-CS3vUZ2b.js",
+      "_e-bar-CK_ASn4i.js",
+      "_e-pie-C3rt4VxC.js",
+      "src/domain.ts"
+    ],
+    "css": [
+      "assets/fee-overview-BINts4qh.css"
+    ]
+  },
+  "src/views/fee/fee-report.tsx": {
+    "file": "assets/fee-report-86AWb6Dt.js",
+    "name": "fee-report",
+    "src": "src/views/fee/fee-report.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__energyConsumption__loadShare__vue__loadShare__.js-BXZx_59X.js",
+      "_api-Rcr5_Nz6.js",
+      "_pc-ui-runtime-Bb5iwMaJ.js",
+      "_g-layout-4BM5JXD3.js",
+      "_common-xIoGACGv.js"
+    ]
+  },
+  "src/views/fee/fee-settings-electric.tsx": {
+    "file": "assets/fee-settings-electric-1xOUxFL3.js",
+    "name": "fee-settings-electric",
+    "src": "src/views/fee/fee-settings-electric.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__energyConsumption__loadShare__vue__loadShare__.js-BXZx_59X.js",
+      "__virtual_mf___mfe_internal__energyConsumption__loadShare__vue_mf_2_router__loadShare__.js-DhS7ioT8.js",
+      "_api-Rcr5_Nz6.js",
+      "_pc-ui-runtime-Bb5iwMaJ.js",
+      "_fee-settings-form-2_ozGmkM.js",
+      "_g-layout-4BM5JXD3.js",
+      "_common-xIoGACGv.js"
+    ]
+  },
+  "src/views/fee/fee-settings-gas.tsx": {
+    "file": "assets/fee-settings-gas-CobPKagj.js",
+    "name": "fee-settings-gas",
+    "src": "src/views/fee/fee-settings-gas.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__energyConsumption__loadShare__vue__loadShare__.js-BXZx_59X.js",
+      "__virtual_mf___mfe_internal__energyConsumption__loadShare__vue_mf_2_router__loadShare__.js-DhS7ioT8.js",
+      "_api-Rcr5_Nz6.js",
+      "_pc-ui-runtime-Bb5iwMaJ.js",
+      "_fee-settings-form-2_ozGmkM.js",
+      "_g-layout-4BM5JXD3.js"
+    ]
+  },
+  "src/views/fee/fee-settings-water.tsx": {
+    "file": "assets/fee-settings-water-Cvh8brtc.js",
+    "name": "fee-settings-water",
+    "src": "src/views/fee/fee-settings-water.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__energyConsumption__loadShare__vue__loadShare__.js-BXZx_59X.js",
+      "__virtual_mf___mfe_internal__energyConsumption__loadShare__vue_mf_2_router__loadShare__.js-DhS7ioT8.js",
+      "_api-Rcr5_Nz6.js",
+      "_pc-ui-runtime-Bb5iwMaJ.js",
+      "_fee-settings-form-2_ozGmkM.js",
+      "_g-layout-4BM5JXD3.js"
+    ]
+  },
+  "src/views/fee/fee-settings.tsx": {
+    "file": "assets/fee-settings-BTKodscl.js",
+    "name": "fee-settings",
+    "src": "src/views/fee/fee-settings.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__energyConsumption__loadShare__vue__loadShare__.js-BXZx_59X.js",
+      "__virtual_mf___mfe_internal__energyConsumption__loadShare__vue_mf_2_router__loadShare__.js-DhS7ioT8.js",
+      "_api-Rcr5_Nz6.js",
+      "_g-layout-4BM5JXD3.js"
+    ],
+    "css": [
+      "assets/fee-settings-DQApVXb6.css"
+    ]
+  },
+  "src/views/report/carbon-emission-report.tsx": {
+    "file": "assets/carbon-emission-report-D0T9eV_b.js",
+    "name": "carbon-emission-report",
+    "src": "src/views/report/carbon-emission-report.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__energyConsumption__loadShare__vue__loadShare__.js-BXZx_59X.js",
+      "_api-Rcr5_Nz6.js",
+      "_pc-ui-runtime-Bb5iwMaJ.js",
+      "_g-layout-4BM5JXD3.js",
+      "_common-xIoGACGv.js",
+      "_report-list-DuGkQhME.js"
+    ]
+  },
+  "src/views/report/comprehensive-report.tsx": {
+    "file": "assets/comprehensive-report-CEAUQvwV.js",
+    "name": "comprehensive-report",
+    "src": "src/views/report/comprehensive-report.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__energyConsumption__loadShare__vue__loadShare__.js-BXZx_59X.js",
+      "_api-Rcr5_Nz6.js",
+      "_pc-ui-runtime-Bb5iwMaJ.js",
+      "_g-layout-4BM5JXD3.js",
+      "_common-xIoGACGv.js",
+      "_report-list-DuGkQhME.js"
+    ]
+  },
+  "src/views/report/usage-report.tsx": {
+    "file": "assets/usage-report-bosGIV1D.js",
+    "name": "usage-report",
+    "src": "src/views/report/usage-report.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__energyConsumption__loadShare__vue__loadShare__.js-BXZx_59X.js",
+      "_api-Rcr5_Nz6.js",
+      "_pc-ui-runtime-Bb5iwMaJ.js",
+      "_g-layout-4BM5JXD3.js",
+      "_common-xIoGACGv.js",
+      "_report-list-DuGkQhME.js"
+    ],
+    "css": [
+      "assets/usage-report-BjTT4NHc.css"
+    ]
+  },
+  "virtual:mf-REMOTE_ENTRY_ID:__mfe_internal__energyConsumption__remoteEntry_js": {
+    "file": "remoteEntry.js",
+    "name": "remoteEntry",
+    "src": "virtual:mf-REMOTE_ENTRY_ID:__mfe_internal__energyConsumption__remoteEntry_js",
+    "imports": [
+      "_virtual_mf-REMOTE_ENTRY_ID___mfe_internal__energyConsumption__remoteEntry_js-CYp7OesS.js"
+    ]
+  },
+  "virtual:mf-REMOTE_ENTRY_SSR_ID:__mfe_internal__energyConsumption__remoteEntry_js": {
+    "file": "remoteEntry.ssr.js",
+    "name": "ssrRemoteEntry",
+    "src": "virtual:mf-REMOTE_ENTRY_SSR_ID:__mfe_internal__energyConsumption__remoteEntry_js",
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "virtual:mf-exposes-ssr:__mfe_internal__energyConsumption__remoteEntry_js"
+    ]
+  },
+  "virtual:mf-exposes-ssr:__mfe_internal__energyConsumption__remoteEntry_js": {
+    "file": "assets/virtual_mf-exposes-ssr___mfe_internal__energyConsumption__remoteEntry_js-Dof0Qa-g.js",
+    "name": "virtual_mf-exposes-ssr___mfe_internal__energyConsumption__remoteEntry_js",
+    "src": "virtual:mf-exposes-ssr:__mfe_internal__energyConsumption__remoteEntry_js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "src/domain.ts"
+    ]
+  },
+  "virtual:mf-exposes:__mfe_internal__energyConsumption__remoteEntry_js": {
+    "file": "assets/virtualExposes-Dy5e_sFi.js",
+    "name": "virtualExposes",
+    "src": "virtual:mf-exposes:__mfe_internal__energyConsumption__remoteEntry_js",
+    "imports": [
+      "_virtual_mf-exposes___mfe_internal__energyConsumption__remoteEntry_js-Dg-ehEk1.js"
+    ]
+  },
+  "virtual:mf-localSharedImportMap:__mfe_internal__energyConsumption": {
+    "file": "assets/_virtual_mf-localSharedImportMap___mfe_internal__energyConsumption-BhY0Dqka.js",
+    "name": "_virtual_mf-localSharedImportMap___mfe_internal__energyConsumption",
+    "src": "virtual:mf-localSharedImportMap:__mfe_internal__energyConsumption",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "__virtual_mf___mfe_internal__energyConsumption__loadShare__vue__loadShare__.js-BXZx_59X.js",
+      "../../platforms/pc-iot-socket/src/index.ts",
+      "__virtual_mf___mfe_internal__energyConsumption__loadShare__vue_mf_2_router__loadShare__.js-DhS7ioT8.js"
+    ]
+  },
+  "virtual:mf:__mfe_internal__energyConsumption__H_A_I__hostAutoInit__H_A_I__.js": {
+    "file": "assets/hostInit-U5H3j5UZ.js",
+    "name": "hostInit",
+    "src": "virtual:mf:__mfe_internal__energyConsumption__H_A_I__hostAutoInit__H_A_I__.js",
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "_virtual_mf-REMOTE_ENTRY_ID___mfe_internal__energyConsumption__remoteEntry_js-CYp7OesS.js",
+      "virtual:mf-localSharedImportMap:__mfe_internal__energyConsumption"
+    ]
+  }
+}

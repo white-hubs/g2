@@ -1,0 +1,1 @@
+import{n as e,t}from"./client-MzuAuttm.js";export{t as create,e as createKnowledgeDocumentClient};

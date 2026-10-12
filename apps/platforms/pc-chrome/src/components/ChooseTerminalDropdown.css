@@ -1,0 +1,30 @@
+.pc-chrome-choose-terminal {
+  position: relative;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.pc-chrome-choose-terminal-trigger {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    background: transparent;
+    border: none;
+    color: var(--g2-color-navigation-text, #fff);
+    cursor: pointer;
+    padding: 0 4px;
+    height: 100%;
+    font-size: 14px;
+  }
+
+.pc-chrome-choose-terminal-trigger__caret {
+  width: 10px;
+  height: 10px;
+  opacity: 0.95;
+  flex-shrink: 0;
+}
+
+.pc-chrome-choose-terminal-menu {
+  min-width: 160px;
+}

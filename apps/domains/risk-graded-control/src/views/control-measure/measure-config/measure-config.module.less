@@ -1,0 +1,170 @@
+.objectCard {
+  overflow: hidden;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(15, 23, 42, 0.04);
+
+  :global([class*="card-body"]) {
+    padding: 20px;
+  }
+}
+
+.objectHeader {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.objectMain {
+  min-width: 0;
+  flex: 1 1 auto;
+}
+
+.objectTitleLine {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 14px;
+  align-items: center;
+  min-height: 24px;
+}
+
+.objectName {
+  color: rgba(0, 0, 0, 0.88);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.objectRiskSummary {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 12px;
+  align-items: center;
+}
+
+.riskPair {
+  display: inline-flex;
+  gap: 5px;
+  align-items: center;
+  white-space: nowrap;
+}
+
+.riskLabel {
+  color: rgba(0, 0, 0, 0.45);
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.objectMeta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0 8px;
+  align-items: center;
+  margin-top: 6px;
+  color: rgba(0, 0, 0, 0.4);
+  font-size: 13px;
+  line-height: 22px;
+}
+
+.metaSeparator {
+  color: rgba(0, 0, 0, 0.25);
+}
+
+.objectAction {
+  flex-shrink: 0;
+  min-width: 72px;
+}
+
+.objectActionWrap {
+  display: inline-flex;
+  flex-shrink: 0;
+}
+
+.measureSummary {
+  margin-top: 14px;
+  padding-top: 13px;
+  border-top: 1px solid #f0f0f0;
+}
+
+.measureSummaryTitle {
+  margin: 0 0 8px;
+  color: rgba(0, 0, 0, 0.65);
+  font-size: 13px;
+}
+
+.measureSummaryEmpty {
+  margin: 0;
+  color: rgba(0, 0, 0, 0.4);
+  font-size: 12px;
+}
+
+.measureTags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.measureChip {
+  display: inline-flex;
+  max-width: 360px;
+  height: 28px;
+  align-items: center;
+  padding: 0 10px;
+  overflow: hidden;
+  border: 1px solid #e5e7eb;
+  border-radius: 4px;
+  background: #f9fafb;
+  color: rgba(0, 0, 0, 0.65);
+  font-size: 12px;
+  line-height: 26px;
+}
+
+.measureStatus {
+  flex: 0 0 auto;
+  margin-right: 8px;
+  font-weight: 500;
+}
+
+.measureText {
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.measureChipDone {
+  border-color: #b7eb8f;
+  background: #f6ffed;
+  color: #389e0d;
+}
+
+.measureChipDoing {
+  border-color: var(--cube-theme-var--primary-3, #91caff);
+  background: var(--cube-theme-var--primary-1, #e6f4ff);
+  color: var(--cube-theme-var--primary-color, #1677ff);
+}
+
+.measureChipPending {
+  border-color: #e5e7eb;
+  background: #f9fafb;
+  color: rgba(0, 0, 0, 0.55);
+}
+
+.measureChipOverdue {
+  border-color: #ffccc7;
+  background: #fff2f0;
+  color: #cf1322;
+}
+
+.measureMore {
+  display: inline-flex;
+  height: 28px;
+  align-items: center;
+  padding: 0 10px;
+  border: 1px solid #e5e7eb;
+  border-radius: 4px;
+  background: #fff;
+  color: rgba(0, 0, 0, 0.45);
+  font-size: 12px;
+}

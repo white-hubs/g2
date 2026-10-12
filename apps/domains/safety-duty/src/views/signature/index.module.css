@@ -1,0 +1,75 @@
+.assignment {
+  margin-bottom: 18px;
+  border: 1px solid #edf0f5;
+  border-radius: 4px;
+  background: #fff;
+  padding: 14px 16px;
+}
+.assignmentHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 12px;
+}
+.title {
+  color: #1f2937;
+  font-size: 15px;
+  font-weight: 600;
+}
+.meta {
+  margin-top: 4px;
+  color: #6b7280;
+  font-size: 12px;
+  line-height: 1.5;
+}
+.group {
+  margin-top: 12px;
+}
+.groupTitle {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 8px;
+  color: #1f2937;
+  font-weight: 600;
+}
+.taskList {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.taskItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  border: 1px solid #edf0f5;
+  border-radius: 4px;
+  background: #fff;
+  padding: 10px 12px;
+}
+.mandatoryItem {
+  border-left: 3px solid #ef4444;
+}
+.taskTitle {
+  color: #1f2937;
+  font-size: 14px;
+  font-weight: 500;
+}
+.statement {
+  border: 1px solid #edf0f5;
+  border-radius: 4px;
+  background: #fff;
+  padding: 12px 14px;
+  margin-bottom: 14px;
+}
+.actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+.confirmText {
+  color: #4b5563;
+  line-height: 1.6;
+}

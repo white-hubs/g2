@@ -1,0 +1,367 @@
+.reportPage {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  min-height: 0;
+}
+
+.heroCard {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 16px;
+  margin-bottom: 12px;
+  background: #fff;
+  border: 1px solid #f0f0f0;
+  border-radius: 8px;
+}
+
+.heroTitle {
+  margin: 0;
+  color: rgba(0, 0, 0, 0.88);
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.heroDesc {
+  margin: 4px 0 0;
+  color: rgba(0, 0, 0, 0.45);
+  font-size: 13px;
+}
+
+.wizardHeader {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 16px;
+  margin-bottom: 12px;
+  background: #fff;
+  border: 1px solid #f0f0f0;
+  border-radius: 8px;
+}
+
+.wizardTitle {
+  color: rgba(0, 0, 0, 0.85);
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.stepCard {
+  padding: 16px;
+  background: #fff;
+  border: 1px solid #f0f0f0;
+  border-radius: 8px;
+}
+
+.stepTitle {
+  margin: 0 0 16px;
+  color: rgba(0, 0, 0, 0.88);
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.periodPickerWrap {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-width: 0;
+  width: 100%;
+}
+
+.periodRangeHint {
+  flex: 1;
+  min-width: 0;
+  color: rgba(0, 0, 0, 0.45);
+  font-size: 12px;
+  line-height: 20px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.generatePanel {
+  padding: 48px 16px;
+  text-align: center;
+}
+
+.generateIcon {
+  margin-bottom: 12px;
+  color: var(--cube-theme-var--primary-color, #1677ff);
+  font-size: 40px;
+}
+
+.generateText {
+  margin: 0 0 8px;
+  color: rgba(0, 0, 0, 0.85);
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.generateHint {
+  margin: 0 auto 16px;
+  max-width: 520px;
+  color: rgba(0, 0, 0, 0.45);
+  font-size: 13px;
+}
+
+.reviewNotice {
+  padding: 10px 12px;
+  margin-bottom: 12px;
+  color: #0958d9;
+  font-size: 13px;
+  line-height: 20px;
+  background: var(--cube-theme-var--primary-1, #e6f4ff);
+  border: 1px solid var(--cube-theme-var--primary-3, #91caff);
+  border-radius: 8px;
+}
+
+.degradedNotice {
+  padding: 10px 12px;
+  margin-bottom: 12px;
+  color: #ad6800;
+  font-size: 13px;
+  line-height: 20px;
+  background: #fff7e6;
+  border: 1px solid #ffd591;
+  border-radius: 8px;
+}
+
+.summaryGrid {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(120px, 1fr));
+  gap: 12px;
+}
+
+.metricCard {
+  padding: 14px 10px;
+  text-align: center;
+  background: #f7f8fa;
+  border-radius: 8px;
+}
+
+.metricValue {
+  color: rgba(0, 0, 0, 0.88);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+}
+
+.metricLabel {
+  margin-top: 4px;
+  color: rgba(0, 0, 0, 0.45);
+  font-size: 12px;
+}
+
+.sectionCard {
+  margin-top: 12px;
+}
+
+.sectionHeader {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 12px;
+  color: rgba(0, 0, 0, 0.88);
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.hiddenDangerLine {
+  color: rgba(0, 0, 0, 0.65);
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.footerActions {
+  display: flex;
+  gap: 8px;
+  justify-content: flex-end;
+}
+
+.wizardFooterActions {
+  display: flex;
+  gap: 8px;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.reportNameCell {
+  display: block;
+  max-width: 520px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.periodCell {
+  display: inline-block;
+  white-space: nowrap;
+}
+
+.evidenceSourceButton {
+  display: inline-flex;
+  max-width: 100%;
+  height: auto;
+  min-height: 20px;
+  padding: 0;
+  line-height: 20px;
+  text-align: left;
+  white-space: normal;
+  word-break: break-word;
+  overflow-wrap: anywhere;
+
+  :global(span) {
+    min-width: 0;
+    white-space: normal;
+    word-break: inherit;
+    overflow-wrap: inherit;
+  }
+}
+
+.reviewCommentCell {
+  display: block;
+  max-width: 100%;
+  line-height: 22px;
+  white-space: normal;
+  word-break: break-word;
+  overflow-wrap: anywhere;
+}
+
+.evidenceList {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-height: 520px;
+  overflow-y: auto;
+}
+
+.evidenceItem {
+  padding: 0;
+  background: #f7f8fa;
+  border: 1px solid #eef0f3;
+  border-radius: 8px;
+}
+
+.evidenceSummary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 12px;
+  cursor: pointer;
+}
+
+.evidenceTitle {
+  min-width: 0;
+  overflow: hidden;
+  color: rgba(0, 0, 0, 0.88);
+  font-size: 14px;
+  font-weight: 600;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.evidenceMeta {
+  flex-shrink: 0;
+  color: rgba(0, 0, 0, 0.45);
+  font-size: 12px;
+}
+
+.evidenceDetailList {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 0 12px 12px;
+}
+
+.evidenceDetailItem {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 8px 16px;
+  padding: 10px;
+  background: #fff;
+  border: 1px solid #f0f0f0;
+  border-radius: 6px;
+}
+
+.evidenceDetailField {
+  min-width: 0;
+
+  span {
+    display: block;
+    margin-bottom: 2px;
+    color: rgba(0, 0, 0, 0.45);
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  strong {
+    display: block;
+    color: rgba(0, 0, 0, 0.78);
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    word-break: break-word;
+  }
+}
+
+.evidenceEmpty {
+  padding: 0 12px 12px;
+  color: rgba(0, 0, 0, 0.45);
+  font-size: 13px;
+}
+
+.pdfOutput {
+  position: fixed;
+  top: 0;
+  left: -9999px;
+  width: 794px;
+  padding: 40px;
+  color: #1f2937;
+  background: #fff;
+}
+
+.pdfTitle {
+  margin: 0 0 8px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.pdfMeta {
+  margin-bottom: 24px;
+  color: #6b7280;
+  text-align: center;
+  font-size: 12px;
+}
+
+.pdfSection {
+  margin-top: 18px;
+}
+
+.pdfSectionTitle {
+  margin-bottom: 8px;
+  padding-bottom: 6px;
+  font-size: 16px;
+  font-weight: 700;
+  border-bottom: 1px solid #d1d5db;
+}
+
+.pdfTable {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 12px;
+
+  th,
+  td {
+    padding: 8px;
+    border: 1px solid #d1d5db;
+    vertical-align: top;
+  }
+
+  th {
+    background: #f3f4f6;
+    font-weight: 600;
+  }
+}

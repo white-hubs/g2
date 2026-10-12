@@ -1,0 +1,39 @@
+{
+  "name": "@g2-domain/warehouse-safety",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "bun ../../../tooling/dev-link/cli.ts",
+    "dev:serve": "bun --bun vite --port 5096 --strictPort",
+    "build": "bun --bun vite build",
+    "preview": "bun --bun vite preview --port 5096 --strictPort",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "bun test"
+  },
+  "dependencies": {
+    "@g2-client/alarm-center": "workspace:*",
+    "@g2-client/device-center": "workspace:*",
+    "@g2-client/dictionary": "workspace:*",
+    "@g2-client/file": "workspace:*",
+    "@g2-client/ouaa": "workspace:*",
+    "@g2-client/warehouse-safety": "workspace:*",
+    "@g2-composition/contract": "workspace:*",
+    "@g2-contract/base": "workspace:*",
+    "@g2-contract/warehouse-safety": "workspace:*",
+    "@g2-pages/generic-equipment-monitor": "workspace:*",
+    "@g2-runtime/common-loader": "workspace:*",
+    "vue": "catalog:vue",
+    "vue-router": "catalog:vue"
+  },
+  "devDependencies": {
+    "@g2-platform/pc-iot-socket": "workspace:*",
+    "@g2-platform/pc-map": "workspace:*",
+    "@g2-platform/pc-ui": "workspace:*",
+    "@g2-tooling/mf-vite": "workspace:*",
+    "@vitejs/plugin-vue-jsx": "catalog:vite",
+    "less": "^4.4.2",
+    "typescript": "catalog:typescript",
+    "vite": "catalog:vite"
+  }
+}

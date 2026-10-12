@@ -1,0 +1,44 @@
+/* 旧版节假日弹窗使用白底、800px 宽和 60px 日历行；覆盖仅限此弹窗。 */
+.attendance-holiday-modal .ant-modal-content,
+.attendance-holiday-modal .ant-modal-header,
+.attendance-holiday-modal .ant-picker-calendar,
+.attendance-holiday-modal .ant-picker-calendar .ant-picker-panel {
+  background: #fff;
+  color: rgba(0, 0, 0, 0.85);
+}
+
+.attendance-holiday-modal .ant-modal-title {
+  color: rgba(0, 0, 0, 0.85);
+}
+
+.attendance-holiday-modal .ant-picker-calendar-header .ant-select-selector {
+  background: #fff;
+  border-color: #d9d9d9;
+  color: rgba(0, 0, 0, 0.85);
+}
+
+/* 保留原生年、月选择器，按旧弹窗固定展示月日历。 */
+.attendance-holiday-modal .ant-picker-calendar-mode-switch {
+  display: none;
+}
+
+.attendance-holiday-modal .ant-picker-calendar-full .ant-picker-calendar-date {
+  border-top-color: #f0f0f0;
+}
+
+.attendance-holiday-modal .ant-picker-calendar-full .ant-picker-calendar-date-content {
+  height: 30px;
+  color: rgba(0, 0, 0, 0.85);
+}
+
+.attendance-holiday-modal .ant-picker-calendar-full .ant-picker-calendar-date-today {
+  border-top-color: #1677ff;
+}
+
+.attendance-holiday-modal .ant-picker-calendar-full .ant-picker-cell-in-view.ant-picker-cell-selected .ant-picker-calendar-date {
+  background: #e6f7ff;
+}
+
+.attendance-holiday-modal .ant-picker-calendar-full .ant-picker-cell-selected .ant-picker-calendar-date-value {
+  color: #1677ff;
+}

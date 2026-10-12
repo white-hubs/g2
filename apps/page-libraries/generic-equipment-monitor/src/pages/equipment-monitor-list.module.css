@@ -1,0 +1,142 @@
+.headerActions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+  margin-left: auto;
+}
+
+.searchRow {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.searchLabel {
+  color: var(--g2-color-text-secondary, rgba(0, 0, 0, 0.65));
+  white-space: nowrap;
+}
+
+.searchInput {
+  width: 200px;
+}
+
+.body {
+  display: flex;
+  min-height: 0;
+  flex: 1;
+  height: calc(100% - 8px);
+  padding-top: 16px;
+}
+
+.left {
+  width: 400px;
+  flex-shrink: 0;
+  border-right: 1px solid var(--g2-color-border, #f0f0f0);
+  padding: 0 16px 12px 0;
+  overflow: auto;
+}
+
+.left :global(.ant-tabs-nav) {
+  margin-bottom: 0;
+}
+
+.left :global(.ant-tabs-nav-wrap),
+.left :global(.ant-tabs-nav-list) {
+  width: 100%;
+}
+
+.left :global(.ant-tabs-tab) {
+  display: flex;
+  flex: 1 0 25%;
+  justify-content: center;
+  margin: 0 !important;
+  padding: 8px 2px !important;
+  font-size: 13px;
+}
+
+.left :global(.ant-tabs-nav-operations) {
+  display: none !important;
+}
+
+.right {
+  flex: 1;
+  min-width: 0;
+  padding: 0 0 0 20px;
+  overflow: auto;
+}
+
+.treeWrap {
+  padding-top: 8px;
+  min-height: 240px;
+}
+
+.cardData {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(280px, 1fr));
+  align-content: flex-start;
+  gap: 20px;
+  padding: 4px 0 12px;
+}
+
+.spinWrap {
+  min-height: 240px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.emptyWrap {
+  padding: 48px 0;
+}
+
+.cardContent {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+.fullScreen {
+  color: var(--g2-color-text, rgba(0, 0, 0, 0.85));
+  background-color: var(--g2-color-page-bg, #fff);
+  box-sizing: border-box;
+  padding: 20px 0;
+  width: 100%;
+  min-height: calc(100vh - 72px);
+  overflow: auto;
+}
+
+.fullScreen .cardData {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  padding: 0 20px 20px;
+}
+
+.cardNormal {
+  width: 100%;
+  min-width: 0;
+}
+
+@media (max-width: 1500px) {
+  .cardData {
+    grid-template-columns: repeat(2, minmax(280px, 1fr));
+  }
+}
+
+.cardFull {
+  width: 100%;
+  font-size: 20px;
+}
+
+.cardFull :global([class*="previewPanel"]) {
+  width: 100%;
+}
+
+.sysTitle {
+  margin: 10px 20px;
+  font-weight: 500;
+  text-align: center;
+  font-size: 50px;
+  color: var(--g2-color-text, rgba(0, 0, 0, 0.85));
+}

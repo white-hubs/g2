@@ -1,0 +1,58 @@
+/* Tab 与筛选项同属 PcForm：与故障报修 / 隐患排查一致的紧凑 flex。 */
+.filterForm :global(.pc-query-form-container) {
+  display: flex !important;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px 16px;
+  padding: 12px 0 4px !important;
+  grid-template-columns: none !important;
+}
+
+.filterForm :global(.pc-query-form-container > .pc-design-form-item) {
+  flex: 0 0 auto;
+  max-width: none;
+  margin-bottom: 8px !important;
+  margin-inline-end: 0 !important;
+}
+
+.filterForm :global(.pc-query-form-container .ant-form-item-row) {
+  flex-wrap: nowrap;
+  align-items: center;
+  gap: 8px;
+}
+
+.withTabs :global(.pc-query-form-container > .pc-design-form-item:first-child .ant-form-item-label) {
+  display: none;
+}
+
+.withTabs :global(.pc-query-form-container > .pc-design-form-item:first-child .ant-radio-group) {
+  white-space: nowrap;
+}
+
+.filterForm :global(.pc-query-form-container .ant-select),
+.filterForm :global(.pc-query-form-container .ant-picker) {
+  width: 220px;
+}
+
+/* 旧 g-table-dot：圆点 + 文案。 */
+.statusDot {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.dotNormal,
+.dotAudit {
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+}
+
+.dotNormal {
+  background: #00ba8b;
+}
+
+.dotAudit {
+  background: #faad14;
+}

@@ -1,0 +1,19 @@
+{
+  "name": "@g2-composition/contract",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "build": "bun build ./src/index.ts --outdir ./dist --target bun",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "bun test"
+  },
+  "devDependencies": {
+    "typescript": "catalog:typescript",
+    "vue": "catalog:vue",
+    "vue-router": "catalog:vue"
+  }
+}

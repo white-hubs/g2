@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:scada="https://cube-scada.guhecloud.com/ns/v1"
+     viewBox="0 0 70 100"
+     width="70" height="100">
+  <metadata>
+    <scada:element>
+      <scada:meta type="industrial-switch" label="&#x5851;&#x58F3;&#x65AD;&#x8DEF;&#x5668;" category="industrial" version="1.0.0"/>
+      <scada:props>
+        <scada:prop name="closed" type="boolean" label="&#x5408;&#x95F8;&#x72B6;&#x6001;" default="true" domain="observe" semantic="status.open" required="false" bindable="true" controllable="false"/>
+        <scada:prop name="fault" type="boolean" label="&#x6545;&#x969C;&#x8DF3;&#x95F8;" default="false" domain="observe" semantic="status.alarm" required="false" bindable="true" controllable="false"/>
+        <scada:prop name="poles" type="number" label="&#x6781;&#x6570;" default="4" min="1" max="4" domain="observe" semantic="config.poles" required="false" bindable="true" controllable="false"/>
+      </scada:props>
+      <scada:mappings>
+        <!-- Handle slides UP (ON) or DOWN (OFF); when down it covers the red ON strip -->
+        <scada:map prop="closed" selector="#handle-group" attr="transform" transform="value ? 'translate(0,0)' : 'translate(0,15)'"/>
+        <scada:map prop="closed" selector="#status-dot" attr="fill" transform="value ? '#22c55e' : '#ef4444'"/>
+        <scada:map prop="closed" selector="#status-dot" attr="stroke" transform="value ? '#166534' : '#991b1b'"/>
+        <scada:map prop="fault" selector="#fault-dot" attr="opacity" transform="value ? 1 : 0"/>
+        <!-- Pole visibility: pole-1 always on; poles 2-4 shown based on poles count -->
+        <scada:map prop="poles" selector="#pole-top-2" attr="opacity" transform="value >= 2 ? 1 : 0"/>
+        <scada:map prop="poles" selector="#pole-top-3" attr="opacity" transform="value >= 3 ? 1 : 0"/>
+        <scada:map prop="poles" selector="#pole-top-4" attr="opacity" transform="value >= 4 ? 1 : 0"/>
+        <scada:map prop="poles" selector="#pole-bottom-2" attr="opacity" transform="value >= 2 ? 1 : 0"/>
+        <scada:map prop="poles" selector="#pole-bottom-3" attr="opacity" transform="value >= 3 ? 1 : 0"/>
+        <scada:map prop="poles" selector="#pole-bottom-4" attr="opacity" transform="value >= 4 ? 1 : 0"/>
+      </scada:mappings>
+      <scada:animations/>
+      <!--
+        8 connection ports aligned to the 4 pole terminal columns.
+        x percentages = pole-center / 70 * 100: 12.5→17.9%, 27.5→39.3%, 43.5→62.1%, 58.5→83.6%
+      -->
+      <scada:ports>
+        <scada:port id="top-1" x="17.9%" y="0%"/>
+        <scada:port id="top-2" x="39.3%" y="0%"/>
+        <scada:port id="top-3" x="62.1%" y="0%"/>
+        <scada:port id="top-4" x="83.6%" y="0%"/>
+        <scada:port id="bottom-1" x="17.9%" y="100%"/>
+        <scada:port id="bottom-2" x="39.3%" y="100%"/>
+        <scada:port id="bottom-3" x="62.1%" y="100%"/>
+        <scada:port id="bottom-4" x="83.6%" y="100%"/>
+      </scada:ports>
+    </scada:element>
+  </metadata>
+
+  <defs>
+    <linearGradient id="ig-body" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#a8acb0"/>
+      <stop offset="25%" stop-color="#d4d7db"/>
+      <stop offset="75%" stop-color="#d4d7db"/>
+      <stop offset="100%" stop-color="#9ea2a6"/>
+    </linearGradient>
+    <linearGradient id="ig-panel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f5f6f7"/>
+      <stop offset="100%" stop-color="#e8eaec"/>
+    </linearGradient>
+    <linearGradient id="ig-terminal" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#4b5563"/>
+      <stop offset="100%" stop-color="#1f2937"/>
+    </linearGradient>
+    <!-- Handle block: lighter in center, darker on edges for 3D depth -->
+    <linearGradient id="ig-handle" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#c8cace"/>
+      <stop offset="18%" stop-color="#f0f1f3"/>
+      <stop offset="82%" stop-color="#f0f1f3"/>
+      <stop offset="100%" stop-color="#b0b4b8"/>
+    </linearGradient>
+  </defs>
+
+  <!-- ===== Top Terminals (up to 4 poles, evenly spaced) ===== -->
+  <!-- Pole centers at x≈12, 27, 43, 58; terminal width=10 -->
+  <g id="pole-top-1">
+    <rect x="7" y="0" width="11" height="10" rx="1.5" fill="#c0c4c8" stroke="#9ca3af" stroke-width="0.5"/>
+    <rect x="8.5" y="1.5" width="8" height="5.5" rx="0.5" fill="#6b7280"/>
+    <rect x="11.5" y="1.5" width="2" height="5.5" fill="#d1d5db"/>
+  </g>
+  <g id="pole-top-2">
+    <rect x="21" y="0" width="11" height="10" rx="1.5" fill="#c0c4c8" stroke="#9ca3af" stroke-width="0.5"/>
+    <rect x="22.5" y="1.5" width="8" height="5.5" rx="0.5" fill="#6b7280"/>
+    <rect x="25.5" y="1.5" width="2" height="5.5" fill="#d1d5db"/>
+  </g>
+  <g id="pole-top-3">
+    <rect x="38" y="0" width="11" height="10" rx="1.5" fill="#c0c4c8" stroke="#9ca3af" stroke-width="0.5"/>
+    <rect x="39.5" y="1.5" width="8" height="5.5" rx="0.5" fill="#6b7280"/>
+    <rect x="42.5" y="1.5" width="2" height="5.5" fill="#d1d5db"/>
+  </g>
+  <g id="pole-top-4">
+    <rect x="52" y="0" width="11" height="10" rx="1.5" fill="#c0c4c8" stroke="#9ca3af" stroke-width="0.5"/>
+    <rect x="53.5" y="1.5" width="8" height="5.5" rx="0.5" fill="#6b7280"/>
+    <rect x="56.5" y="1.5" width="2" height="5.5" fill="#d1d5db"/>
+  </g>
+
+  <!-- ===== Main Body Shell ===== -->
+  <rect x="1" y="7" width="68" height="75" rx="3" fill="url(#ig-body)" stroke="#9ca3af" stroke-width="0.8"/>
+
+  <!-- Upper info panel -->
+  <rect x="3" y="9" width="64" height="31" rx="2" fill="url(#ig-panel)" stroke="#d1d5db" stroke-width="0.4"/>
+
+  <!-- CHNT brand logo -->
+  <text x="5" y="19" font-family="Arial Black, Arial, sans-serif" font-weight="900" font-size="8" letter-spacing="0.5" fill="#1d4ed8">CHNT</text>
+  <line x1="5" y1="21" x2="36" y2="21" stroke="#1d4ed8" stroke-width="1.2"/>
+
+  <!-- Model number -->
+  <text x="5" y="26.5" font-family="Arial, sans-serif" font-size="4" fill="#374151">NM1-250S/4100B</text>
+
+  <!-- Specs rows -->
+  <text x="5" y="31.5" font-family="Arial, sans-serif" font-size="3" fill="#6b7280">In:250A  Ue:690V</text>
+  <text x="5" y="35.5" font-family="Arial, sans-serif" font-size="3" fill="#6b7280">Ics:50kA  4P</text>
+
+  <!-- Right-side selector detail -->
+  <rect x="51" y="10" width="14" height="29" rx="1.5" fill="#dde0e3" stroke="#b0b4b8" stroke-width="0.4"/>
+  <text x="58" y="19" font-family="Arial, sans-serif" font-size="3" fill="#6b7280" text-anchor="middle">&#9662;</text>
+  <text x="58" y="23" font-family="Arial, sans-serif" font-size="2.8" fill="#374151" text-anchor="middle">200</text>
+  <text x="58" y="27" font-family="Arial, sans-serif" font-size="2.8" fill="#374151" text-anchor="middle">225</text>
+  <text x="58" y="31" font-family="Arial, sans-serif" font-size="2.8" fill="#1d4ed8" text-anchor="middle" font-weight="bold">250</text>
+  <text x="58" y="35" font-family="Arial, sans-serif" font-size="3" fill="#6b7280" text-anchor="middle">&#9652;</text>
+
+  <!-- ===== Handle Mechanism ===== -->
+  <!-- Outer housing frame for the handle track -->
+  <rect x="22" y="42" width="26" height="37" rx="3" fill="#4b5563" stroke="#374151" stroke-width="0.8"/>
+
+  <!-- IEC ON/OFF position markers on the housing (I = line = ON, O = circle = OFF) -->
+  <text x="20" y="51" font-family="Arial, sans-serif" font-size="6" fill="#d1d5db" text-anchor="middle" font-weight="bold">I</text>
+  <text x="20" y="73" font-family="Arial, sans-serif" font-size="6.5" fill="#d1d5db" text-anchor="middle">O</text>
+
+  <!-- Vertical groove / track (dark slot the handle slides in) -->
+  <rect x="26" y="45" width="18" height="31" rx="1.5" fill="#0f172a"/>
+  <!-- Right-edge depth shadow inside groove -->
+  <rect x="42.5" y="45" width="1.5" height="31" rx="0.5" fill="#000000" opacity="0.35"/>
+  <!-- Left-edge faint highlight inside groove -->
+  <rect x="26" y="45" width="1" height="31" fill="#ffffff" opacity="0.06"/>
+
+  <!--
+    Fixed ON indicator strip at the BOTTOM of the groove.
+    When handle is UP (ON state) → this red strip is VISIBLE below the handle.
+    When handle slides DOWN (OFF state) → the handle block covers this strip.
+  -->
+  <rect x="26" y="65" width="18" height="11" fill="#dc2626"/>
+  <text x="35" y="72.5" font-family="Arial, sans-serif" font-weight="bold" font-size="5" fill="#ffffff" text-anchor="middle">ON</text>
+
+  <!--
+    Sliding handle block.
+    Default transform = translate(0,0) → handle at TOP = ON (closed=true).
+    OFF transform = translate(0,15) → handle slides DOWN, covers the red ON strip.
+  -->
+  <g id="handle-group" transform="translate(0,0)">
+    <!-- Handle body -->
+    <rect x="26" y="45" width="18" height="17" rx="1.5" fill="url(#ig-handle)" stroke="#b0b4b8" stroke-width="0.5"/>
+    <!-- Left edge highlight (3D effect: left face lit) -->
+    <rect x="26.5" y="45.5" width="2.5" height="16" rx="1" fill="#ffffff" opacity="0.65"/>
+    <!-- Right edge shadow (3D effect: right face in shadow) -->
+    <rect x="41" y="45.5" width="2.5" height="16" rx="0.5" fill="#6b7280" opacity="0.35"/>
+    <!-- Grip ridges -->
+    <line x1="30.5" y1="50" x2="42.5" y2="50" stroke="#9ca3af" stroke-width="0.9" stroke-linecap="round"/>
+    <line x1="30.5" y1="53" x2="42.5" y2="53" stroke="#9ca3af" stroke-width="0.9" stroke-linecap="round"/>
+    <line x1="30.5" y1="56" x2="42.5" y2="56" stroke="#9ca3af" stroke-width="0.9" stroke-linecap="round"/>
+  </g>
+
+  <!-- ===== Separator & Status ===== -->
+  <line x1="3" y1="80" x2="67" y2="80" stroke="#b0b4b8" stroke-width="0.5" stroke-dasharray="2,2"/>
+
+  <!-- Status indicator dot -->
+  <circle id="status-dot" cx="16" cy="75" r="3.5" fill="#22c55e" stroke="#166534" stroke-width="0.6"/>
+  <!-- Fault indicator (hidden by default) -->
+  <circle id="fault-dot" cx="16" cy="75" r="3.5" fill="#f59e0b" opacity="0" stroke="#b45309" stroke-width="0.6"/>
+
+  <!-- ===== Bottom Terminals (up to 4 poles, heavy-duty, same x-centers as top) ===== -->
+  <!-- Pole centers at x≈12, 27, 43, 58; terminal width=13 -->
+  <g id="pole-bottom-1">
+    <rect x="6" y="83" width="13" height="16" rx="1.5" fill="url(#ig-terminal)" stroke="#111827" stroke-width="0.6"/>
+    <rect x="8" y="85" width="9" height="5.5" rx="0.5" fill="#374151" stroke="#4b5563" stroke-width="0.3"/>
+    <circle cx="12.5" cy="94" r="3" fill="#2d3748" stroke="#6b7280" stroke-width="0.6"/>
+    <circle cx="12.5" cy="94" r="1.2" fill="#9ca3af"/>
+  </g>
+  <g id="pole-bottom-2">
+    <rect x="21" y="83" width="13" height="16" rx="1.5" fill="url(#ig-terminal)" stroke="#111827" stroke-width="0.6"/>
+    <rect x="23" y="85" width="9" height="5.5" rx="0.5" fill="#374151" stroke="#4b5563" stroke-width="0.3"/>
+    <circle cx="27.5" cy="94" r="3" fill="#2d3748" stroke="#6b7280" stroke-width="0.6"/>
+    <circle cx="27.5" cy="94" r="1.2" fill="#9ca3af"/>
+  </g>
+  <g id="pole-bottom-3">
+    <rect x="37" y="83" width="13" height="16" rx="1.5" fill="url(#ig-terminal)" stroke="#111827" stroke-width="0.6"/>
+    <rect x="39" y="85" width="9" height="5.5" rx="0.5" fill="#374151" stroke="#4b5563" stroke-width="0.3"/>
+    <circle cx="43.5" cy="94" r="3" fill="#2d3748" stroke="#6b7280" stroke-width="0.6"/>
+    <circle cx="43.5" cy="94" r="1.2" fill="#9ca3af"/>
+  </g>
+  <g id="pole-bottom-4">
+    <rect x="52" y="83" width="13" height="16" rx="1.5" fill="url(#ig-terminal)" stroke="#111827" stroke-width="0.6"/>
+    <rect x="54" y="85" width="9" height="5.5" rx="0.5" fill="#374151" stroke="#4b5563" stroke-width="0.3"/>
+    <circle cx="58.5" cy="94" r="3" fill="#2d3748" stroke="#6b7280" stroke-width="0.6"/>
+    <circle cx="58.5" cy="94" r="1.2" fill="#9ca3af"/>
+  </g>
+</svg>

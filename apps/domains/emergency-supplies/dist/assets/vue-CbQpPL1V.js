@@ -1,0 +1,1 @@
+import{x as e}from"./_virtual_mf___mfe_internal__emergencySupplies__loadShare__vue__loadShare__.js-DACz7xl1.js";function t(t,n,r,i){return e(async()=>{let e=await t(n,r),a=i?e[i]:`default`in e?e.default:e;if(!a)throw Error(`runtime common remote "${n}" does not expose component "${i??`default`}"`);return a})}export{t};

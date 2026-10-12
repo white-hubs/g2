@@ -1,0 +1,1 @@
+var e,t;function n(n,r){e=n,t=r}function r(){if(!t)throw Error(`隐患排查 Client 未安装`);return t}function i(){if(!e)throw Error(`隐患排查 Domain 未安装`);return e}export{i as n,n as r,r as t};

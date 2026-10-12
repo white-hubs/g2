@@ -1,0 +1,57 @@
+.hazard-confirm-modal-wrap .ant-modal-body {
+  max-height: calc(100vh - 220px);
+  overflow-y: auto;
+}
+
+.hazard-confirm-modal {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.hazard-confirm-modal .ant-form-item-label > label {
+  max-width: 100%;
+  white-space: nowrap;
+}
+
+.hazard-modal-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0 14px;
+}
+
+.hazard-risk-unit-object-form-item {
+  grid-column: 1 / -1;
+}
+
+.hazard-risk-unit-object-select {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+  width: 100%;
+}
+
+.hazard-risk-unit-object-field {
+  min-width: 0;
+}
+
+.hazard-risk-unit-object-label {
+  margin-bottom: 8px;
+  color: rgba(0, 0, 0, 0.85);
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.hazard-risk-unit-object-required {
+  display: inline-block;
+  margin-right: 4px;
+  color: #ff4d4f;
+  font-family: SimSun, sans-serif;
+  line-height: 1;
+}
+
+.hazard-risk-unit-object-select .ant-select,
+.hazard-confirm-modal .ant-select,
+.hazard-confirm-modal .hazard-user-select {
+  width: 100%;
+}

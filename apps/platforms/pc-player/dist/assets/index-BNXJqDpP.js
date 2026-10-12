@@ -1,0 +1,1 @@
+import"./virtual_mf-exposes___mfe_internal__pcPlayer__remoteEntry_js-sadAP06l.js";import"./virtual_mf-REMOTE_ENTRY_ID___mfe_internal__pcPlayer__remoteEntry_js-Bw4vmBMB.js";document.querySelector(`#app`).textContent=`@g2-platform/pc-player build shell`;

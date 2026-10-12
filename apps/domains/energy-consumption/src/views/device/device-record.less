@@ -1,0 +1,94 @@
+.import-steps {
+  .step-item {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: flex-start;
+
+    .step-label {
+      min-width: 120px;
+      display: inline-block;
+      margin-right: 10px;
+    }
+
+    .step-content {
+      flex: 1;
+      display: flex;
+      align-items: center;
+
+      .template-link {
+        color: var(--cube-theme-var--primary-color, #1890ff);
+        cursor: pointer;
+        text-decoration: underline;
+
+        &:hover {
+          color: var(--cube-theme-var--primary-color-hover, #40a9ff);
+        }
+
+        &.disabled {
+          color: #bfbfbf;
+          cursor: not-allowed;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}
+
+.import-result {
+  .result-summary {
+    margin-bottom: 20px;
+    font-size: 14px;
+
+    .success-count {
+      color: #52c41a;
+      font-weight: bold;
+      margin: 0 4px;
+    }
+
+    .fail-count {
+      color: #ff4d4f;
+      font-weight: bold;
+      margin: 0 4px;
+    }
+  }
+
+  .fail-table {
+    margin-top: 20px;
+  }
+}
+
+.form-body {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.pagination-footer {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+.w-300 {
+  width: 300px;
+}
+
+.overflow-y-auto {
+  overflow-y: auto;
+}
+
+.pt-10 {
+  padding-top: 10px;
+}
+
+.pl-10 {
+  padding-left: 10px;
+}
+
+.mt-10 {
+  margin-top: 10px;
+}
+
+.ml-10 {
+  margin-left: 10px;
+}

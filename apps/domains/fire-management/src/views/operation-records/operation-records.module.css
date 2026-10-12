@@ -1,0 +1,30 @@
+.page {
+  display: flex;
+  min-height: 0;
+  flex: 1;
+  flex-direction: column;
+}
+
+.typeTag {
+  min-width: 58px;
+  margin: 0;
+  text-align: center;
+}
+
+.result {
+  font-weight: 600;
+}
+
+.resultSuccess {
+  color: #2eae55;
+}
+
+.resultFailed {
+  color: #e5484d;
+}
+
+.footer {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+}

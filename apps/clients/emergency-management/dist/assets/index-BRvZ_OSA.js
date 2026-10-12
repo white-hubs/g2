@@ -1,0 +1,1 @@
+import"./virtual_mf-exposes___mfe_internal__emergencyManagementClient__remoteEntry_js-syFXWGsU.js";import"./virtual_mf-REMOTE_ENTRY_ID___mfe_internal__emergencyManagementClient__remoteEntry_js-CFrSVa6b.js";var e=document.querySelector(`#app`);e&&(e.textContent=`@g2-client/emergency-management`);

@@ -1,0 +1,1 @@
+import"./virtual_mf-exposes___mfe_internal__dailyInspectionClient__remoteEntry_js-BaPAlCNs.js";import"./virtual_mf-REMOTE_ENTRY_ID___mfe_internal__dailyInspectionClient__remoteEntry_js-D03A_Ezx.js";var e=document.querySelector(`#app`);e&&(e.textContent=`@g2-client/daily-inspection`);

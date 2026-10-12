@@ -1,0 +1,33 @@
+.execution-record {
+  padding: 12px 16px;
+  background: #fff;
+  border-radius: 4px;
+}
+.execution-record .execution-record-row {
+  display: flex;
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+.execution-record .execution-record-item {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+.execution-record .execution-record-label {
+  width: 72px;
+  color: #333;
+  flex-shrink: 0;
+}
+.execution-record .execution-record-value {
+  color: #333;
+  word-break: break-all;
+}
+.execution-record .execution-record-files {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.execution-record .execution-record-file-item {
+  color: var(--cube-theme-var--primary-color, #1677ff);
+  cursor: pointer;
+}

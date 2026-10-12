@@ -1,0 +1,1 @@
+import"./virtual_mf-exposes___mfe_internal__emergencySupplies__remoteEntry_js-B2IUErTH.js";import"./virtual_mf-REMOTE_ENTRY_ID___mfe_internal__emergencySupplies__remoteEntry_js-B-X52fQ3.js";var e=document.querySelector(`#app`);e&&(e.textContent=`@g2-domain/emergency-supplies`);

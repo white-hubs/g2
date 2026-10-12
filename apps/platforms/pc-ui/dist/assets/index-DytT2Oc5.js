@@ -1,0 +1,1 @@
+import"./virtual_mf-exposes___mfe_internal__pcUi__remoteEntry_js-DtKpCBlA.js";import"./virtual_mf-REMOTE_ENTRY_ID___mfe_internal__pcUi__remoteEntry_js-BokwmPaq.js";import{O as e}from"./_virtual_mf___mfe_internal__pcUi__loadShare__vue__loadShare__.js-pr0wfuk8.js";e({template:`<p>@g2-platform/pc-ui (library remote, no UI of its own)</p>`}).mount(`#app`);

@@ -1,0 +1,137 @@
+{
+  "__virtual_mf___mfe_internal__loggerPlatform__loadShare__vue__loadShare__.js-CRtaKRpH.js": {
+    "file": "assets/_virtual_mf___mfe_internal__loggerPlatform__loadShare__vue__loadShare__.js-CRtaKRpH.js",
+    "name": "_virtual_mf___mfe_internal__loggerPlatform__loadShare__vue__loadShare__.js",
+    "imports": [
+      "_rolldown-runtime-QTnfLwEv.js"
+    ]
+  },
+  "_rolldown-runtime-QTnfLwEv.js": {
+    "file": "assets/rolldown-runtime-QTnfLwEv.js",
+    "name": "rolldown-runtime"
+  },
+  "_virtual_mf-REMOTE_ENTRY_ID___mfe_internal__loggerPlatform__remoteEntry_js-ZfPFpJ0M.js": {
+    "file": "assets/virtual_mf-REMOTE_ENTRY_ID___mfe_internal__loggerPlatform__remoteEntry_js-ZfPFpJ0M.js",
+    "name": "virtual_mf-REMOTE_ENTRY_ID___mfe_internal__loggerPlatform__remoteEntry_js",
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "virtual:mf-localSharedImportMap:__mfe_internal__loggerPlatform",
+      "_virtual_mf-exposes___mfe_internal__loggerPlatform__remoteEntry_js-BY2IZpnz.js"
+    ]
+  },
+  "_virtual_mf-exposes___mfe_internal__loggerPlatform__remoteEntry_js-BY2IZpnz.js": {
+    "file": "assets/virtual_mf-exposes___mfe_internal__loggerPlatform__remoteEntry_js-BY2IZpnz.js",
+    "name": "virtual_mf-exposes___mfe_internal__loggerPlatform__remoteEntry_js",
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "src/info.ts",
+      "src/index.ts",
+      "src/platform-module.ts"
+    ]
+  },
+  "_vite-preload-helper-7P2xnrDv.js": {
+    "file": "assets/vite-preload-helper-7P2xnrDv.js",
+    "name": "vite-preload-helper"
+  },
+  "index.html": {
+    "file": "assets/index-CH-mYbPg.js",
+    "name": "index",
+    "src": "index.html",
+    "isEntry": true,
+    "imports": [
+      "_virtual_mf-exposes___mfe_internal__loggerPlatform__remoteEntry_js-BY2IZpnz.js",
+      "_virtual_mf-REMOTE_ENTRY_ID___mfe_internal__loggerPlatform__remoteEntry_js-ZfPFpJ0M.js",
+      "__virtual_mf___mfe_internal__loggerPlatform__loadShare__vue__loadShare__.js-CRtaKRpH.js"
+    ]
+  },
+  "src/index.ts": {
+    "file": "assets/src-ClUNxvJ2.js",
+    "name": "src",
+    "src": "src/index.ts",
+    "isEntry": true,
+    "imports": [
+      "_rolldown-runtime-QTnfLwEv.js"
+    ]
+  },
+  "src/info.ts": {
+    "file": "assets/info-Bssuo-Hw.js",
+    "name": "info",
+    "src": "src/info.ts",
+    "isEntry": true
+  },
+  "src/platform-module.ts": {
+    "file": "assets/platform-module-CPHX-qCa.js",
+    "name": "platform-module",
+    "src": "src/platform-module.ts",
+    "isEntry": true
+  },
+  "virtual:mf-REMOTE_ENTRY_ID:__mfe_internal__loggerPlatform__remoteEntry_js": {
+    "file": "remoteEntry.js",
+    "name": "remoteEntry",
+    "src": "virtual:mf-REMOTE_ENTRY_ID:__mfe_internal__loggerPlatform__remoteEntry_js",
+    "imports": [
+      "_virtual_mf-REMOTE_ENTRY_ID___mfe_internal__loggerPlatform__remoteEntry_js-ZfPFpJ0M.js"
+    ]
+  },
+  "virtual:mf-REMOTE_ENTRY_SSR_ID:__mfe_internal__loggerPlatform__remoteEntry_js": {
+    "file": "remoteEntry.ssr.js",
+    "name": "ssrRemoteEntry",
+    "src": "virtual:mf-REMOTE_ENTRY_SSR_ID:__mfe_internal__loggerPlatform__remoteEntry_js",
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "virtual:mf-exposes-ssr:__mfe_internal__loggerPlatform__remoteEntry_js"
+    ]
+  },
+  "virtual:mf-exposes-ssr:__mfe_internal__loggerPlatform__remoteEntry_js": {
+    "file": "assets/virtual_mf-exposes-ssr___mfe_internal__loggerPlatform__remoteEntry_js-C15iKNSc.js",
+    "name": "virtual_mf-exposes-ssr___mfe_internal__loggerPlatform__remoteEntry_js",
+    "src": "virtual:mf-exposes-ssr:__mfe_internal__loggerPlatform__remoteEntry_js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "src/info.ts",
+      "src/index.ts",
+      "src/platform-module.ts"
+    ]
+  },
+  "virtual:mf-exposes:__mfe_internal__loggerPlatform__remoteEntry_js": {
+    "file": "assets/virtualExposes-D-pgna9G.js",
+    "name": "virtualExposes",
+    "src": "virtual:mf-exposes:__mfe_internal__loggerPlatform__remoteEntry_js",
+    "imports": [
+      "_virtual_mf-exposes___mfe_internal__loggerPlatform__remoteEntry_js-BY2IZpnz.js"
+    ]
+  },
+  "virtual:mf-localSharedImportMap:__mfe_internal__loggerPlatform": {
+    "file": "assets/_virtual_mf-localSharedImportMap___mfe_internal__loggerPlatform-D_fFU_Ni.js",
+    "name": "_virtual_mf-localSharedImportMap___mfe_internal__loggerPlatform",
+    "src": "virtual:mf-localSharedImportMap:__mfe_internal__loggerPlatform",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "__virtual_mf___mfe_internal__loggerPlatform__loadShare__vue__loadShare__.js-CRtaKRpH.js"
+    ]
+  },
+  "virtual:mf:__mfe_internal__loggerPlatform__H_A_I__hostAutoInit__H_A_I__.js": {
+    "file": "assets/hostInit-CKQoO7l4.js",
+    "name": "hostInit",
+    "src": "virtual:mf:__mfe_internal__loggerPlatform__H_A_I__hostAutoInit__H_A_I__.js",
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "_virtual_mf-REMOTE_ENTRY_ID___mfe_internal__loggerPlatform__remoteEntry_js-ZfPFpJ0M.js",
+      "virtual:mf-localSharedImportMap:__mfe_internal__loggerPlatform"
+    ]
+  }
+}

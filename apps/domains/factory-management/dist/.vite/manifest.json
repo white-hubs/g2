@@ -1,0 +1,210 @@
+{
+  "__virtual_mf___mfe_internal__factoryManagement__loadShare__vue__loadShare__.js-CkKLzXtS.js": {
+    "file": "assets/_virtual_mf___mfe_internal__factoryManagement__loadShare__vue__loadShare__.js-CkKLzXtS.js",
+    "name": "_virtual_mf___mfe_internal__factoryManagement__loadShare__vue__loadShare__.js",
+    "imports": [
+      "_rolldown-runtime-DK3Fl9T5.js"
+    ]
+  },
+  "__virtual_mf___mfe_internal__factoryManagement__loadShare__vue_mf_2_router__loadShare__.js-DHhCJ0LJ.js": {
+    "file": "assets/_virtual_mf___mfe_internal__factoryManagement__loadShare__vue_mf_2_router__loadShare__.js-DHhCJ0LJ.js",
+    "name": "_virtual_mf___mfe_internal__factoryManagement__loadShare__vue_mf_2_router__loadShare__.js",
+    "imports": [
+      "_rolldown-runtime-DK3Fl9T5.js",
+      "__virtual_mf___mfe_internal__factoryManagement__loadShare__vue__loadShare__.js-CkKLzXtS.js"
+    ]
+  },
+  "_domain-CuFibA5S.js": {
+    "file": "assets/domain-CuFibA5S.js",
+    "name": "domain",
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js",
+      "__virtual_mf___mfe_internal__factoryManagement__loadShare__vue__loadShare__.js-CkKLzXtS.js"
+    ],
+    "dynamicImports": [
+      "src/views/overview-page.tsx",
+      "src/views/list-pages.tsx",
+      "src/views/type-pages.ts",
+      "src/views/room-status-page.tsx",
+      "src/views/form-pages.tsx"
+    ]
+  },
+  "_rolldown-runtime-DK3Fl9T5.js": {
+    "file": "assets/rolldown-runtime-DK3Fl9T5.js",
+    "name": "rolldown-runtime"
+  },
+  "_shared-wTkvQmD1.js": {
+    "file": "assets/shared-wTkvQmD1.js",
+    "name": "shared"
+  },
+  "_styles-0Xf6gwAb.css": {
+    "file": "assets/styles-0Xf6gwAb.css",
+    "src": "_styles-0Xf6gwAb.css"
+  },
+  "_styles.module-B5UYihXt.js": {
+    "file": "assets/styles.module-B5UYihXt.js",
+    "name": "styles.module",
+    "css": [
+      "assets/styles-0Xf6gwAb.css"
+    ]
+  },
+  "_virtual_mf-REMOTE_ENTRY_ID___mfe_internal__factoryManagement__remoteEntry_js-Dk5J1Bft.js": {
+    "file": "assets/virtual_mf-REMOTE_ENTRY_ID___mfe_internal__factoryManagement__remoteEntry_js-Dk5J1Bft.js",
+    "name": "virtual_mf-REMOTE_ENTRY_ID___mfe_internal__factoryManagement__remoteEntry_js",
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "virtual:mf-localSharedImportMap:__mfe_internal__factoryManagement",
+      "_virtual_mf-exposes___mfe_internal__factoryManagement__remoteEntry_js-BvrLOnE2.js"
+    ]
+  },
+  "_virtual_mf-exposes___mfe_internal__factoryManagement__remoteEntry_js-BvrLOnE2.js": {
+    "file": "assets/virtual_mf-exposes___mfe_internal__factoryManagement__remoteEntry_js-BvrLOnE2.js",
+    "name": "virtual_mf-exposes___mfe_internal__factoryManagement__remoteEntry_js",
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "_domain-CuFibA5S.js"
+    ]
+  },
+  "_vite-preload-helper-7P2xnrDv.js": {
+    "file": "assets/vite-preload-helper-7P2xnrDv.js",
+    "name": "vite-preload-helper"
+  },
+  "src/domain.ts": {
+    "file": "assets/domain-wLZmabnr.js",
+    "name": "domain",
+    "src": "src/domain.ts",
+    "isEntry": true,
+    "imports": [
+      "_domain-CuFibA5S.js"
+    ]
+  },
+  "src/views/form-pages.tsx": {
+    "file": "assets/form-pages-DbyXBNFf.js",
+    "name": "form-pages",
+    "src": "src/views/form-pages.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_domain-CuFibA5S.js",
+      "__virtual_mf___mfe_internal__factoryManagement__loadShare__vue__loadShare__.js-CkKLzXtS.js",
+      "__virtual_mf___mfe_internal__factoryManagement__loadShare__vue_mf_2_router__loadShare__.js-DHhCJ0LJ.js",
+      "_shared-wTkvQmD1.js",
+      "_styles.module-B5UYihXt.js"
+    ]
+  },
+  "src/views/list-pages.tsx": {
+    "file": "assets/list-pages-BS1WDPxq.js",
+    "name": "list-pages",
+    "src": "src/views/list-pages.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_domain-CuFibA5S.js",
+      "__virtual_mf___mfe_internal__factoryManagement__loadShare__vue__loadShare__.js-CkKLzXtS.js",
+      "__virtual_mf___mfe_internal__factoryManagement__loadShare__vue_mf_2_router__loadShare__.js-DHhCJ0LJ.js",
+      "_shared-wTkvQmD1.js"
+    ]
+  },
+  "src/views/overview-page.tsx": {
+    "file": "assets/overview-page-C8QgJRE5.js",
+    "name": "overview-page",
+    "src": "src/views/overview-page.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-DK3Fl9T5.js",
+      "_domain-CuFibA5S.js",
+      "__virtual_mf___mfe_internal__factoryManagement__loadShare__vue__loadShare__.js-CkKLzXtS.js",
+      "_shared-wTkvQmD1.js",
+      "_styles.module-B5UYihXt.js"
+    ]
+  },
+  "src/views/room-status-page.tsx": {
+    "file": "assets/room-status-page-CZ9bd-BY.js",
+    "name": "room-status-page",
+    "src": "src/views/room-status-page.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_domain-CuFibA5S.js",
+      "__virtual_mf___mfe_internal__factoryManagement__loadShare__vue__loadShare__.js-CkKLzXtS.js",
+      "_shared-wTkvQmD1.js",
+      "_styles.module-B5UYihXt.js"
+    ]
+  },
+  "src/views/type-pages.ts": {
+    "file": "assets/type-pages-BM-u8nE9.js",
+    "name": "type-pages",
+    "src": "src/views/type-pages.ts",
+    "isDynamicEntry": true,
+    "imports": [
+      "_domain-CuFibA5S.js",
+      "__virtual_mf___mfe_internal__factoryManagement__loadShare__vue__loadShare__.js-CkKLzXtS.js",
+      "_shared-wTkvQmD1.js"
+    ]
+  },
+  "virtual:mf-REMOTE_ENTRY_ID:__mfe_internal__factoryManagement__remoteEntry_js": {
+    "file": "remoteEntry.js",
+    "name": "remoteEntry",
+    "src": "virtual:mf-REMOTE_ENTRY_ID:__mfe_internal__factoryManagement__remoteEntry_js",
+    "imports": [
+      "_virtual_mf-REMOTE_ENTRY_ID___mfe_internal__factoryManagement__remoteEntry_js-Dk5J1Bft.js"
+    ]
+  },
+  "virtual:mf-REMOTE_ENTRY_SSR_ID:__mfe_internal__factoryManagement__remoteEntry_js": {
+    "file": "remoteEntry.ssr.js",
+    "name": "ssrRemoteEntry",
+    "src": "virtual:mf-REMOTE_ENTRY_SSR_ID:__mfe_internal__factoryManagement__remoteEntry_js",
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "virtual:mf-exposes-ssr:__mfe_internal__factoryManagement__remoteEntry_js"
+    ]
+  },
+  "virtual:mf-exposes-ssr:__mfe_internal__factoryManagement__remoteEntry_js": {
+    "file": "assets/virtual_mf-exposes-ssr___mfe_internal__factoryManagement__remoteEntry_js-BDkIGU9d.js",
+    "name": "virtual_mf-exposes-ssr___mfe_internal__factoryManagement__remoteEntry_js",
+    "src": "virtual:mf-exposes-ssr:__mfe_internal__factoryManagement__remoteEntry_js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "_domain-CuFibA5S.js"
+    ]
+  },
+  "virtual:mf-exposes:__mfe_internal__factoryManagement__remoteEntry_js": {
+    "file": "assets/virtualExposes-DtGL_4Ii.js",
+    "name": "virtualExposes",
+    "src": "virtual:mf-exposes:__mfe_internal__factoryManagement__remoteEntry_js",
+    "imports": [
+      "_virtual_mf-exposes___mfe_internal__factoryManagement__remoteEntry_js-BvrLOnE2.js"
+    ]
+  },
+  "virtual:mf-localSharedImportMap:__mfe_internal__factoryManagement": {
+    "file": "assets/_virtual_mf-localSharedImportMap___mfe_internal__factoryManagement-DwQQfX76.js",
+    "name": "_virtual_mf-localSharedImportMap___mfe_internal__factoryManagement",
+    "src": "virtual:mf-localSharedImportMap:__mfe_internal__factoryManagement",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "__virtual_mf___mfe_internal__factoryManagement__loadShare__vue__loadShare__.js-CkKLzXtS.js",
+      "__virtual_mf___mfe_internal__factoryManagement__loadShare__vue_mf_2_router__loadShare__.js-DHhCJ0LJ.js"
+    ]
+  },
+  "virtual:mf:__mfe_internal__factoryManagement__H_A_I__hostAutoInit__H_A_I__.js": {
+    "file": "assets/hostInit-CK0rY4rq.js",
+    "name": "hostInit",
+    "src": "virtual:mf:__mfe_internal__factoryManagement__H_A_I__hostAutoInit__H_A_I__.js",
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "_virtual_mf-REMOTE_ENTRY_ID___mfe_internal__factoryManagement__remoteEntry_js-Dk5J1Bft.js",
+      "virtual:mf-localSharedImportMap:__mfe_internal__factoryManagement"
+    ]
+  }
+}

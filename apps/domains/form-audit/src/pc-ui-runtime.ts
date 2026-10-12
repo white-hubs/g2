@@ -1,0 +1,32 @@
+import { loadRuntimeCommon } from "@g2-runtime/common-loader";
+
+type PcUiModule = typeof import("@g2-platform/pc-ui");
+const pcUi = await loadRuntimeCommon<PcUiModule>("pcUi", "index");
+
+export const Button: PcUiModule["Button"] = pcUi.Button;
+export const DeleteOutlined: PcUiModule["DeleteOutlined"] = pcUi.DeleteOutlined;
+export const Descriptions: PcUiModule["Descriptions"] = pcUi.Descriptions;
+export const DescriptionsItem: PcUiModule["DescriptionsItem"] = pcUi.DescriptionsItem;
+export const EditOutlined: PcUiModule["EditOutlined"] = pcUi.EditOutlined;
+export const Empty: PcUiModule["Empty"] = pcUi.Empty;
+export const Form: PcUiModule["Form"] = pcUi.Form;
+export const FormItem: PcUiModule["FormItem"] = pcUi.FormItem;
+export const Image: PcUiModule["Image"] = pcUi.Image;
+export const Input: PcUiModule["Input"] = pcUi.Input;
+export const InputNumber: PcUiModule["InputNumber"] = pcUi.InputNumber;
+export const Modal: PcUiModule["Modal"] = pcUi.Modal;
+export const Page: PcUiModule["Page"] = pcUi.Page;
+export const PageLayout: PcUiModule["PageLayout"] = pcUi.PageLayout;
+export const PlusOutlined: PcUiModule["PlusOutlined"] = pcUi.PlusOutlined;
+export const PopConfirm: PcUiModule["PopConfirm"] = pcUi.PopConfirm;
+export const Select: PcUiModule["Select"] = pcUi.Select;
+export const Spin: PcUiModule["Spin"] = pcUi.Spin;
+export const Switch: PcUiModule["Switch"] = pcUi.Switch;
+export const Tag: PcUiModule["Tag"] = pcUi.Tag;
+export const Textarea: PcUiModule["Textarea"] = pcUi.Textarea;
+export const Tooltip: PcUiModule["Tooltip"] = pcUi.Tooltip;
+export const Tree: PcUiModule["Tree"] = pcUi.Tree;
+export const TreeSelect: PcUiModule["TreeSelect"] = pcUi.TreeSelect;
+export const message: PcUiModule["message"] = pcUi.message;
+export const usePcForm: PcUiModule["usePcForm"] = pcUi.usePcForm;
+export const usePcTable: PcUiModule["usePcTable"] = pcUi.usePcTable;

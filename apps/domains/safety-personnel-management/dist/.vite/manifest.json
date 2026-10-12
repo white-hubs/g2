@@ -1,0 +1,172 @@
+{
+  "../../../../../../.bun/install/cache/links/leaflet-rotate@0.2.8+1e8d59341e2dedda-1f292d9aea2c836e/node_modules/leaflet-rotate/dist/leaflet-rotate.js": {
+    "file": "assets/leaflet-rotate-hAaDqhcJ.js",
+    "name": "leaflet-rotate",
+    "src": "../../../../../../.bun/install/cache/links/leaflet-rotate@0.2.8+1e8d59341e2dedda-1f292d9aea2c836e/node_modules/leaflet-rotate/dist/leaflet-rotate.js",
+    "isDynamicEntry": true
+  },
+  "../../../../../../.bun/install/cache/links/wangeditor@4.7.15-fa0b0283863b61ee/node_modules/wangeditor/dist/wangEditor.js": {
+    "file": "assets/wangEditor-CdMbqML5.js",
+    "name": "wangEditor",
+    "src": "../../../../../../.bun/install/cache/links/wangeditor@4.7.15-fa0b0283863b61ee/node_modules/wangeditor/dist/wangEditor.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-QTnfLwEv.js"
+    ]
+  },
+  "../../platforms/pc-map/src/index.ts": {
+    "file": "assets/src-DVu-Shi4.js",
+    "name": "src",
+    "src": "../../platforms/pc-map/src/index.ts",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-QTnfLwEv.js",
+      "_vite-preload-helper-7P2xnrDv.js",
+      "__virtual_mf___mfe_internal__safetyPersonnelManagement__loadShare__vue__loadShare__.js-BPV5KVA5.js"
+    ],
+    "dynamicImports": [
+      "../../../../../../.bun/install/cache/links/leaflet-rotate@0.2.8+1e8d59341e2dedda-1f292d9aea2c836e/node_modules/leaflet-rotate/dist/leaflet-rotate.js"
+    ],
+    "css": [
+      "assets/src-1f1oN9FM.css"
+    ]
+  },
+  "__virtual_mf___mfe_internal__safetyPersonnelManagement__loadShare__vue__loadShare__.js-BPV5KVA5.js": {
+    "file": "assets/_virtual_mf___mfe_internal__safetyPersonnelManagement__loadShare__vue__loadShare__.js-BPV5KVA5.js",
+    "name": "_virtual_mf___mfe_internal__safetyPersonnelManagement__loadShare__vue__loadShare__.js",
+    "imports": [
+      "_rolldown-runtime-QTnfLwEv.js"
+    ]
+  },
+  "__virtual_mf___mfe_internal__safetyPersonnelManagement__loadShare__vue_mf_2_router__loadShare__.js-BQmRhldA.js": {
+    "file": "assets/_virtual_mf___mfe_internal__safetyPersonnelManagement__loadShare__vue_mf_2_router__loadShare__.js-BQmRhldA.js",
+    "name": "_virtual_mf___mfe_internal__safetyPersonnelManagement__loadShare__vue_mf_2_router__loadShare__.js",
+    "imports": [
+      "_rolldown-runtime-QTnfLwEv.js",
+      "__virtual_mf___mfe_internal__safetyPersonnelManagement__loadShare__vue__loadShare__.js-BPV5KVA5.js"
+    ]
+  },
+  "_domain-BqNcHLQt.js": {
+    "file": "assets/domain-BqNcHLQt.js",
+    "name": "domain",
+    "imports": [
+      "_rolldown-runtime-QTnfLwEv.js",
+      "_vite-preload-helper-7P2xnrDv.js",
+      "__virtual_mf___mfe_internal__safetyPersonnelManagement__loadShare__vue__loadShare__.js-BPV5KVA5.js",
+      "__virtual_mf___mfe_internal__safetyPersonnelManagement__loadShare__vue_mf_2_router__loadShare__.js-BQmRhldA.js"
+    ],
+    "dynamicImports": [
+      "../../../../../../.bun/install/cache/links/wangeditor@4.7.15-fa0b0283863b61ee/node_modules/wangeditor/dist/wangEditor.js",
+      "../../platforms/pc-map/src/index.ts"
+    ],
+    "css": [
+      "assets/domain-qTdp2d69.css"
+    ]
+  },
+  "_domain-qTdp2d69.css": {
+    "file": "assets/domain-qTdp2d69.css",
+    "src": "_domain-qTdp2d69.css"
+  },
+  "_rolldown-runtime-QTnfLwEv.js": {
+    "file": "assets/rolldown-runtime-QTnfLwEv.js",
+    "name": "rolldown-runtime"
+  },
+  "_virtual_mf-REMOTE_ENTRY_ID___mfe_internal__safetyPersonnelManagement__remoteEntry_js-DnHPzLVS.js": {
+    "file": "assets/virtual_mf-REMOTE_ENTRY_ID___mfe_internal__safetyPersonnelManagement__remoteEntry_js-DnHPzLVS.js",
+    "name": "virtual_mf-REMOTE_ENTRY_ID___mfe_internal__safetyPersonnelManagement__remoteEntry_js",
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "virtual:mf-localSharedImportMap:__mfe_internal__safetyPersonnelManagement",
+      "_virtual_mf-exposes___mfe_internal__safetyPersonnelManagement__remoteEntry_js-DzwjcGeN.js"
+    ]
+  },
+  "_virtual_mf-exposes___mfe_internal__safetyPersonnelManagement__remoteEntry_js-DzwjcGeN.js": {
+    "file": "assets/virtual_mf-exposes___mfe_internal__safetyPersonnelManagement__remoteEntry_js-DzwjcGeN.js",
+    "name": "virtual_mf-exposes___mfe_internal__safetyPersonnelManagement__remoteEntry_js",
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "_domain-BqNcHLQt.js"
+    ]
+  },
+  "_vite-preload-helper-7P2xnrDv.js": {
+    "file": "assets/vite-preload-helper-7P2xnrDv.js",
+    "name": "vite-preload-helper"
+  },
+  "src/domain.ts": {
+    "file": "assets/domain-Czi-q2j7.js",
+    "name": "domain",
+    "src": "src/domain.ts",
+    "isEntry": true,
+    "imports": [
+      "_domain-BqNcHLQt.js"
+    ]
+  },
+  "virtual:mf-REMOTE_ENTRY_ID:__mfe_internal__safetyPersonnelManagement__remoteEntry_js": {
+    "file": "remoteEntry.js",
+    "name": "remoteEntry",
+    "src": "virtual:mf-REMOTE_ENTRY_ID:__mfe_internal__safetyPersonnelManagement__remoteEntry_js",
+    "imports": [
+      "_virtual_mf-REMOTE_ENTRY_ID___mfe_internal__safetyPersonnelManagement__remoteEntry_js-DnHPzLVS.js"
+    ]
+  },
+  "virtual:mf-REMOTE_ENTRY_SSR_ID:__mfe_internal__safetyPersonnelManagement__remoteEntry_js": {
+    "file": "remoteEntry.ssr.js",
+    "name": "ssrRemoteEntry",
+    "src": "virtual:mf-REMOTE_ENTRY_SSR_ID:__mfe_internal__safetyPersonnelManagement__remoteEntry_js",
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "virtual:mf-exposes-ssr:__mfe_internal__safetyPersonnelManagement__remoteEntry_js"
+    ]
+  },
+  "virtual:mf-exposes-ssr:__mfe_internal__safetyPersonnelManagement__remoteEntry_js": {
+    "file": "assets/virtual_mf-exposes-ssr___mfe_internal__safetyPersonnelManagement__remoteEntry_js-Dv7-lwbl.js",
+    "name": "virtual_mf-exposes-ssr___mfe_internal__safetyPersonnelManagement__remoteEntry_js",
+    "src": "virtual:mf-exposes-ssr:__mfe_internal__safetyPersonnelManagement__remoteEntry_js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "_domain-BqNcHLQt.js"
+    ]
+  },
+  "virtual:mf-exposes:__mfe_internal__safetyPersonnelManagement__remoteEntry_js": {
+    "file": "assets/virtualExposes-bNc3xbtV.js",
+    "name": "virtualExposes",
+    "src": "virtual:mf-exposes:__mfe_internal__safetyPersonnelManagement__remoteEntry_js",
+    "imports": [
+      "_virtual_mf-exposes___mfe_internal__safetyPersonnelManagement__remoteEntry_js-DzwjcGeN.js"
+    ]
+  },
+  "virtual:mf-localSharedImportMap:__mfe_internal__safetyPersonnelManagement": {
+    "file": "assets/_virtual_mf-localSharedImportMap___mfe_internal__safetyPersonnelManagement-CNvGmKmR.js",
+    "name": "_virtual_mf-localSharedImportMap___mfe_internal__safetyPersonnelManagement",
+    "src": "virtual:mf-localSharedImportMap:__mfe_internal__safetyPersonnelManagement",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "__virtual_mf___mfe_internal__safetyPersonnelManagement__loadShare__vue__loadShare__.js-BPV5KVA5.js",
+      "__virtual_mf___mfe_internal__safetyPersonnelManagement__loadShare__vue_mf_2_router__loadShare__.js-BQmRhldA.js"
+    ]
+  },
+  "virtual:mf:__mfe_internal__safetyPersonnelManagement__H_A_I__hostAutoInit__H_A_I__.js": {
+    "file": "assets/hostInit-Bp8B8zUx.js",
+    "name": "hostInit",
+    "src": "virtual:mf:__mfe_internal__safetyPersonnelManagement__H_A_I__hostAutoInit__H_A_I__.js",
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "_virtual_mf-REMOTE_ENTRY_ID___mfe_internal__safetyPersonnelManagement__remoteEntry_js-DnHPzLVS.js",
+      "virtual:mf-localSharedImportMap:__mfe_internal__safetyPersonnelManagement"
+    ]
+  }
+}

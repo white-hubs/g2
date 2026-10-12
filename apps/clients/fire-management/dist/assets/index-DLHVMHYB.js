@@ -1,0 +1,1 @@
+import"./virtual_mf-exposes___mfe_internal__fireManagementClient__remoteEntry_js-C3cRHdcm.js";import"./virtual_mf-REMOTE_ENTRY_ID___mfe_internal__fireManagementClient__remoteEntry_js-CgVZK7b7.js";var e=document.querySelector(`#app`);e&&(e.textContent=`@g2-client/fire-management`);

@@ -1,0 +1,16 @@
+.searchContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 12px;
+}
+.pagination {
+  padding: 12px 0;
+  display: flex;
+  justify-content: flex-end;
+}
+.search-item {
+  padding-right: 0 !important;
+  margin-right: 10px !important;
+  margin-bottom: 10px !important;
+}

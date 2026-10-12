@@ -1,0 +1,1 @@
+var e={alarm:`gold`,info:`blue`,fault:`red`},t={alarm:`#fffbe6`,info:`#f0f5ff`,fault:`#fff5f5`},n=e=>{let t=e==null?void 0:e.trim().toLocaleLowerCase();return t===`alarm`||t===`fault`?t:`info`};export{e as n,n as r,t};

@@ -1,0 +1,1 @@
+import"./virtual_mf-exposes___mfe_internal__authClient__remoteEntry_js-BilnqVHo.js";import"./virtual_mf-REMOTE_ENTRY_ID___mfe_internal__authClient__remoteEntry_js-8G6xCfSO.js";var e=document.querySelector(`#app`);e&&(e.textContent=`@g2-client/auth (service client remote, no UI)`);

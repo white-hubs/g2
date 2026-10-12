@@ -1,0 +1,1 @@
+import{n as e,t}from"./assets/virtual_mf-REMOTE_ENTRY_ID___mfe_internal__pcVisualSdk__remoteEntry_js-DklI5utp.js";export{t as get,e as init};

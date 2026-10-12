@@ -1,0 +1,1 @@
+import"./virtual_mf-exposes___mfe_internal__securityOpinionClient__remoteEntry_js-ExR94_kl.js";import"./virtual_mf-REMOTE_ENTRY_ID___mfe_internal__securityOpinionClient__remoteEntry_js-P8O6poVm.js";var e=document.querySelector(`#app`);e&&(e.textContent=`@g2-client/security-opinion`);

@@ -1,0 +1,35 @@
+.container {
+  padding: 12px 0;
+}
+
+.item-title {
+  margin-bottom: 10px;
+  color: rgba(0, 0, 0, 0.85);
+  font-size: 16px;
+  font-weight: 500;
+  text-align: left;
+}
+
+.item-content {
+  display: flex;
+  min-height: 22px;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.item-content label {
+  flex-shrink: 0;
+  min-width: 105px;
+  margin-right: 10px;
+  color: rgba(0, 0, 0, 0.85);
+  font-size: 14px;
+  text-align: right;
+}
+
+.snap-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+  min-height: 100px;
+}

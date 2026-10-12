@@ -1,0 +1,194 @@
+{
+  "__virtual_mf___mfe_internal__secureEduPages__loadShare__vue__loadShare__.js-SYn2VhUO.js": {
+    "file": "assets/_virtual_mf___mfe_internal__secureEduPages__loadShare__vue__loadShare__.js-SYn2VhUO.js",
+    "name": "_virtual_mf___mfe_internal__secureEduPages__loadShare__vue__loadShare__.js",
+    "imports": [
+      "_rolldown-runtime-DK3Fl9T5.js"
+    ]
+  },
+  "__virtual_mf___mfe_internal__secureEduPages__loadShare__vue_mf_2_router__loadShare__.js-CVXRqKeg.js": {
+    "file": "assets/_virtual_mf___mfe_internal__secureEduPages__loadShare__vue_mf_2_router__loadShare__.js-CVXRqKeg.js",
+    "name": "_virtual_mf___mfe_internal__secureEduPages__loadShare__vue_mf_2_router__loadShare__.js",
+    "imports": [
+      "_rolldown-runtime-DK3Fl9T5.js",
+      "__virtual_mf___mfe_internal__secureEduPages__loadShare__vue__loadShare__.js-SYn2VhUO.js"
+    ]
+  },
+  "_context-Dk8ewcTV.js": {
+    "file": "assets/context-Dk8ewcTV.js",
+    "name": "context",
+    "imports": [
+      "__virtual_mf___mfe_internal__secureEduPages__loadShare__vue__loadShare__.js-SYn2VhUO.js"
+    ]
+  },
+  "_rolldown-runtime-DK3Fl9T5.js": {
+    "file": "assets/rolldown-runtime-DK3Fl9T5.js",
+    "name": "rolldown-runtime"
+  },
+  "_styles-BD7yotdW.css": {
+    "file": "assets/styles-BD7yotdW.css",
+    "src": "_styles-BD7yotdW.css"
+  },
+  "_styles.module-CfxKe_v8.js": {
+    "file": "assets/styles.module-CfxKe_v8.js",
+    "name": "styles.module",
+    "css": [
+      "assets/styles-BD7yotdW.css"
+    ]
+  },
+  "_virtual_mf-REMOTE_ENTRY_ID___mfe_internal__secureEduPages__remoteEntry_js-DYIUvojA.js": {
+    "file": "assets/virtual_mf-REMOTE_ENTRY_ID___mfe_internal__secureEduPages__remoteEntry_js-DYIUvojA.js",
+    "name": "virtual_mf-REMOTE_ENTRY_ID___mfe_internal__secureEduPages__remoteEntry_js",
+    "imports": [
+      "_vite-preload-helper-D6lZCLzY.js"
+    ],
+    "dynamicImports": [
+      "virtual:mf-localSharedImportMap:__mfe_internal__secureEduPages",
+      "_virtual_mf-exposes___mfe_internal__secureEduPages__remoteEntry_js-B0SikMph.js"
+    ]
+  },
+  "_virtual_mf-exposes___mfe_internal__secureEduPages__remoteEntry_js-B0SikMph.js": {
+    "file": "assets/virtual_mf-exposes___mfe_internal__secureEduPages__remoteEntry_js-B0SikMph.js",
+    "name": "virtual_mf-exposes___mfe_internal__secureEduPages__remoteEntry_js",
+    "imports": [
+      "_vite-preload-helper-D6lZCLzY.js"
+    ],
+    "dynamicImports": [
+      "src/index.ts"
+    ]
+  },
+  "_vite-preload-helper-D6lZCLzY.js": {
+    "file": "assets/vite-preload-helper-D6lZCLzY.js",
+    "name": "vite-preload-helper"
+  },
+  "index.html": {
+    "file": "assets/index-CSWLMQZc.js",
+    "name": "index",
+    "src": "index.html",
+    "isEntry": true,
+    "imports": [
+      "_virtual_mf-exposes___mfe_internal__secureEduPages__remoteEntry_js-B0SikMph.js",
+      "_virtual_mf-REMOTE_ENTRY_ID___mfe_internal__secureEduPages__remoteEntry_js-DYIUvojA.js"
+    ]
+  },
+  "src/editor.tsx": {
+    "file": "assets/editor-BZCz5dt8.js",
+    "name": "editor",
+    "src": "src/editor.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__secureEduPages__loadShare__vue__loadShare__.js-SYn2VhUO.js",
+      "__virtual_mf___mfe_internal__secureEduPages__loadShare__vue_mf_2_router__loadShare__.js-CVXRqKeg.js",
+      "_styles.module-CfxKe_v8.js",
+      "_context-Dk8ewcTV.js"
+    ]
+  },
+  "src/index.ts": {
+    "file": "assets/src-C_Y8AsN4.js",
+    "name": "src",
+    "src": "src/index.ts",
+    "isEntry": true,
+    "imports": [
+      "_vite-preload-helper-D6lZCLzY.js",
+      "_context-Dk8ewcTV.js"
+    ],
+    "dynamicImports": [
+      "src/pages.ts",
+      "src/editor.tsx"
+    ]
+  },
+  "src/pages.ts": {
+    "file": "assets/pages-FnH-Qy39.js",
+    "name": "pages",
+    "src": "src/pages.ts",
+    "isDynamicEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__secureEduPages__loadShare__vue__loadShare__.js-SYn2VhUO.js",
+      "__virtual_mf___mfe_internal__secureEduPages__loadShare__vue_mf_2_router__loadShare__.js-CVXRqKeg.js",
+      "_styles.module-CfxKe_v8.js",
+      "_context-Dk8ewcTV.js"
+    ]
+  },
+  "virtual:mf-REMOTE_ENTRY_ID:__mfe_internal__secureEduPages__remoteEntry_js": {
+    "file": "remoteEntry.js",
+    "name": "remoteEntry",
+    "src": "virtual:mf-REMOTE_ENTRY_ID:__mfe_internal__secureEduPages__remoteEntry_js",
+    "imports": [
+      "_virtual_mf-REMOTE_ENTRY_ID___mfe_internal__secureEduPages__remoteEntry_js-DYIUvojA.js"
+    ]
+  },
+  "virtual:mf-REMOTE_ENTRY_SSR_ID:__mfe_internal__secureEduPages__remoteEntry_js": {
+    "file": "remoteEntry.ssr.js",
+    "name": "ssrRemoteEntry",
+    "src": "virtual:mf-REMOTE_ENTRY_SSR_ID:__mfe_internal__secureEduPages__remoteEntry_js",
+    "imports": [
+      "_vite-preload-helper-D6lZCLzY.js"
+    ],
+    "dynamicImports": [
+      "virtual:mf-exposes-ssr:__mfe_internal__secureEduPages__remoteEntry_js"
+    ]
+  },
+  "virtual:mf-exposes-ssr:__mfe_internal__secureEduPages__remoteEntry_js": {
+    "file": "assets/virtual_mf-exposes-ssr___mfe_internal__secureEduPages__remoteEntry_js-8Cj2OOxp.js",
+    "name": "virtual_mf-exposes-ssr___mfe_internal__secureEduPages__remoteEntry_js",
+    "src": "virtual:mf-exposes-ssr:__mfe_internal__secureEduPages__remoteEntry_js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vite-preload-helper-D6lZCLzY.js"
+    ],
+    "dynamicImports": [
+      "src/index.ts"
+    ]
+  },
+  "virtual:mf-exposes:__mfe_internal__secureEduPages__remoteEntry_js": {
+    "file": "assets/virtualExposes-6VhIyvou.js",
+    "name": "virtualExposes",
+    "src": "virtual:mf-exposes:__mfe_internal__secureEduPages__remoteEntry_js",
+    "imports": [
+      "_virtual_mf-exposes___mfe_internal__secureEduPages__remoteEntry_js-B0SikMph.js"
+    ]
+  },
+  "virtual:mf-localSharedImportMap:__mfe_internal__secureEduPages": {
+    "file": "assets/_virtual_mf-localSharedImportMap___mfe_internal__secureEduPages-CW2MMqWo.js",
+    "name": "_virtual_mf-localSharedImportMap___mfe_internal__secureEduPages",
+    "src": "virtual:mf-localSharedImportMap:__mfe_internal__secureEduPages",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vite-preload-helper-D6lZCLzY.js"
+    ],
+    "dynamicImports": [
+      "__virtual_mf___mfe_internal__secureEduPages__loadShare__vue__loadShare__.js-SYn2VhUO.js",
+      "__virtual_mf___mfe_internal__secureEduPages__loadShare__vue_mf_2_router__loadShare__.js-CVXRqKeg.js"
+    ]
+  },
+  "virtual:mf:__mfe_internal__secureEduPages__H_A_I__hostAutoInit__H_A_I__.js": {
+    "file": "assets/hostInit-BFbPlSkL.js",
+    "name": "hostInit",
+    "src": "virtual:mf:__mfe_internal__secureEduPages__H_A_I__hostAutoInit__H_A_I__.js",
+    "imports": [
+      "_vite-preload-helper-D6lZCLzY.js"
+    ],
+    "dynamicImports": [
+      "_virtual_mf-REMOTE_ENTRY_ID___mfe_internal__secureEduPages__remoteEntry_js-DYIUvojA.js",
+      "virtual:mf-localSharedImportMap:__mfe_internal__secureEduPages"
+    ]
+  },
+  "virtual:mf:__mfe_internal__secureEduPages__prebuild__vue__prebuild__.js": {
+    "file": "assets/_virtual_mf___mfe_internal__secureEduPages__prebuild__vue__prebuild__-S9E-TfFT.js",
+    "name": "_virtual_mf___mfe_internal__secureEduPages__prebuild__vue__prebuild__",
+    "src": "virtual:mf:__mfe_internal__secureEduPages__prebuild__vue__prebuild__.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__secureEduPages__loadShare__vue__loadShare__.js-SYn2VhUO.js"
+    ]
+  },
+  "virtual:mf:__mfe_internal__secureEduPages__prebuild__vue_mf_2_router__prebuild__.js": {
+    "file": "assets/_virtual_mf___mfe_internal__secureEduPages__prebuild__vue_mf_2_router__prebuild__-7JRx12EG.js",
+    "name": "_virtual_mf___mfe_internal__secureEduPages__prebuild__vue_mf_2_router__prebuild__",
+    "src": "virtual:mf:__mfe_internal__secureEduPages__prebuild__vue_mf_2_router__prebuild__.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__secureEduPages__loadShare__vue_mf_2_router__loadShare__.js-CVXRqKeg.js"
+    ]
+  }
+}

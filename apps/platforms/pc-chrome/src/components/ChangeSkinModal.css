@@ -1,0 +1,69 @@
+/* 与 SearchApplication 外层同契约：避免 block 行盒导致图标相对 AI 入口一高一低 */
+.pc-chrome-change-skin {
+  display: inline-flex;
+  align-items: center;
+  height: 100%;
+}
+
+.pc-chrome-change-skin-trigger {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  border: none;
+  color: var(--g2-color-navigation-text, var(--g2-color-text-on-primary, #fff));
+  cursor: pointer;
+  padding: 0 10px;
+  height: 100%;
+}
+
+.pc-chrome-change-skin-trigger__icon {
+  width: 22px;
+  height: 22px;
+  display: block;
+  filter: brightness(100);
+}
+
+.pc-chrome-change-skin-check {
+  width: 12px;
+  height: 12px;
+}
+
+.pc-chrome-change-skin-modal .ant-modal-content {
+  background: var(--g2-color-page-bg, #ffffff) !important;
+  color: var(--g2-color-text, rgba(0, 0, 0, 0.85));
+}
+
+.pc-chrome-change-skin-modal .ant-modal-header {
+  background: transparent !important;
+  border-bottom-color: var(--g2-color-border-secondary, #edf0f5) !important;
+}
+
+.pc-chrome-change-skin-modal .ant-modal-title,
+.pc-chrome-change-skin-modal .ant-modal-close,
+.pc-chrome-change-skin-modal .ant-modal-body {
+  color: var(--g2-color-text, rgba(0, 0, 0, 0.85)) !important;
+}
+
+.pc-chrome-change-skin-modal .ant-input,
+.pc-chrome-change-skin-modal .ant-input-affix-wrapper {
+  color: var(--g2-color-text, rgba(0, 0, 0, 0.85));
+  background: var(--g2-color-input-bg, #ffffff);
+  border-color: var(--g2-color-border, #d9d9d9);
+}
+
+.pc-chrome-theme-console, .pc-chrome-theme-editor { border-top: 1px solid var(--g2-color-border-secondary, #edf0f5); padding-top: 16px; }
+.pc-chrome-theme-console__heading { display: flex; align-items: center; justify-content: space-between; margin-bottom: 10px; color: var(--g2-color-text, #1f2937); font-weight: 600; }
+.pc-chrome-theme-console__list { display: grid; gap: 8px; }
+.pc-chrome-theme-console__item { display: flex; align-items: center; gap: 4px; padding: 6px 8px; border: 1px solid var(--g2-color-border-secondary, #edf0f5); border-radius: 6px; background: var(--g2-color-surface-bg, #fff); }
+.pc-chrome-theme-console__item.active { border-color: var(--g2-color-primary, #1677ff); }
+.pc-chrome-theme-console__apply { display: flex; flex: 1; align-items: center; gap: 8px; border: 0; background: transparent; color: var(--g2-color-text, #1f2937); cursor: pointer; text-align: left; }
+.pc-chrome-theme-console__apply i { width: 16px; height: 16px; border-radius: 50%; border: 1px solid var(--g2-color-border, #d9d9d9); }
+.pc-chrome-theme-console__apply .pc-chrome-change-skin-check { margin-left: auto; color: var(--g2-color-primary, #1677ff); }
+.pc-chrome-theme-console__built-in { color: var(--g2-color-text-tertiary, #9ca3af); font-size: 12px; }
+.pc-chrome-theme-editor { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px 20px; }
+.pc-chrome-theme-editor label { display: grid; gap: 6px; color: var(--g2-color-text-secondary, #6b7280); font-size: 13px; }
+.pc-chrome-theme-editor input[type="color"] { width: 100%; height: 32px; padding: 2px; border: 1px solid var(--g2-color-border, #d9d9d9); border-radius: 6px; background: var(--g2-color-input-bg, #fff); }
+.pc-chrome-theme-editor code { color: var(--g2-color-text-tertiary, #9ca3af); font-size: 12px; }
+.pc-chrome-theme-editor__error { grid-column: 1 / -1; margin: 0; color: var(--g2-color-danger, #ff4d4f); }
+.pc-chrome-theme-editor__actions { grid-column: 1 / -1; display: flex; justify-content: flex-end; gap: 8px; }

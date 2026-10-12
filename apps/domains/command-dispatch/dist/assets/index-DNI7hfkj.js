@@ -1,0 +1,1 @@
+import"./virtual_mf-exposes___mfe_internal__commandDispatch__remoteEntry_js-C0IjwJv0.js";import"./virtual_mf-REMOTE_ENTRY_ID___mfe_internal__commandDispatch__remoteEntry_js-C7rvytgY.js";document.querySelector(`#app`).textContent=`@g2-domain/command-dispatch`;

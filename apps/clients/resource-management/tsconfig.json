@@ -1,0 +1,1 @@
+{"extends":"../../../tsconfig.base.json","compilerOptions":{"allowImportingTsExtensions":true,"ignoreDeprecations":"6.0"},"include":["src/**/*.ts","vite.config.ts"]}

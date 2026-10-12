@@ -1,0 +1,26 @@
+$ bun --bun vite build
+vite v8.1.5 building client environment for production...
+[2Ktransforming...✓ 15 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/mf-manifest.json                                                                                      0.64 kB │ gzip: 0.27 kB
+dist/index.html                                                                                            0.90 kB │ gzip: 0.39 kB
+dist/assets/mf-entry-bootstrap-0-4128c0b7.js                                                               1.36 kB
+dist/assets/mf-entry-bootstrap-2-896857a4.js                                                               1.38 kB
+dist/assets/mf-entry-bootstrap-1-65f27661.js                                                               1.41 kB
+dist/assets/mf-entry-bootstrap-3-24e922d8.js                                                               1.42 kB
+dist/mf-stats.json                                                                                         2.43 kB │ gzip: 0.68 kB
+dist/.vite/manifest.json                                                                                   4.04 kB │ gzip: 0.57 kB
+dist/assets/client-CiqZcEGJ.js                                                                             0.09 kB │ gzip: 0.10 kB
+dist/assets/_virtual_mf-localSharedImportMap___mfe_internal__securityMonitorClient-CcdcYaa2.js             0.11 kB │ gzip: 0.11 kB
+dist/assets/virtualExposes-Bj6PgdpT.js                                                                     0.12 kB │ gzip: 0.13 kB
+dist/remoteEntry.js                                                                                        0.15 kB │ gzip: 0.15 kB
+dist/assets/virtual_mf-exposes-ssr___mfe_internal__securityMonitorClient__remoteEntry_js-DlOozRiF.js       0.25 kB │ gzip: 0.22 kB
+dist/assets/virtual_mf-exposes___mfe_internal__securityMonitorClient__remoteEntry_js-BvIWNiUl.js           0.94 kB │ gzip: 0.58 kB
+dist/remoteEntry.ssr.js                                                                                    1.02 kB │ gzip: 0.58 kB
+dist/assets/vite-preload-helper-7P2xnrDv.js                                                                1.41 kB │ gzip: 0.75 kB
+dist/assets/hostInit-BwhOeEb-.js                                                                           2.30 kB │ gzip: 1.09 kB
+dist/assets/client-DyQFfVek.js                                                                             4.55 kB │ gzip: 1.26 kB
+dist/assets/virtual_mf-REMOTE_ENTRY_ID___mfe_internal__securityMonitorClient__remoteEntry_js-CbsSZ51X.js  14.10 kB │ gzip: 4.74 kB
+
+✓ built in 1.25s

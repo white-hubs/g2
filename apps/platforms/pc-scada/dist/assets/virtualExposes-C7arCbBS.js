@@ -1,0 +1,1 @@
+import{t as e}from"./virtual_mf-exposes___mfe_internal__pcScada__remoteEntry_js-0UsVlJ5a.js";export{e as default};

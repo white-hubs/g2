@@ -1,0 +1,16 @@
+{
+  "name": "@g2-contract/government-management",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/main.ts"
+  },
+  "scripts": {
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "bun test"
+  },
+  "devDependencies": {
+    "typescript": "catalog:typescript"
+  }
+}

@@ -1,0 +1,118 @@
+.ruleRow {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+  gap: 8px;
+  width: 100%;
+  min-width: 760px;
+  margin-bottom: 8px;
+}
+
+.baseCol {
+  flex: 0 0 160px;
+  max-width: 160px;
+}
+
+.baseCol > * {
+  width: 100%;
+}
+
+.conditionCol {
+  display: flex;
+  flex: 1 0 420px;
+  align-items: flex-start;
+  min-width: 0;
+}
+
+.conditionContent {
+  flex: 1;
+  min-width: 0;
+}
+
+.expRow {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+  gap: 8px;
+  width: 100%;
+  margin-bottom: 8px;
+}
+
+.expCol {
+  flex: 0 0 130px;
+  max-width: 130px;
+}
+
+.expCol > * {
+  width: 100%;
+}
+
+.delayCol {
+  flex: 0 0 120px;
+  max-width: 120px;
+}
+
+.delayCol > * {
+  width: 100%;
+}
+
+.actionCol {
+  flex: 0 0 80px;
+  max-width: 80px;
+  white-space: nowrap;
+}
+
+.basicRangeCol {
+  display: flex;
+  flex: 0 0 300px;
+  align-items: center;
+  gap: 8px;
+  max-width: 300px;
+}
+
+.basicLabel {
+  flex: none;
+  white-space: nowrap;
+}
+
+.basicRange {
+  display: flex;
+  flex: 1;
+  min-width: 0;
+}
+
+.basicRange > :first-child {
+  flex: 0 0 92px;
+}
+
+.basicRange > :last-child {
+  flex: 1;
+  min-width: 0;
+}
+
+.eventCondition {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.eventSelect {
+  flex: 0 0 200px;
+  width: 200px;
+  margin-bottom: 8px;
+}
+
+.eventSelect > * {
+  width: 100%;
+}
+
+.eventDelay {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+.delayInput {
+  width: 110px;
+}

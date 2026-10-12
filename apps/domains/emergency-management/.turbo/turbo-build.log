@@ -1,0 +1,51 @@
+$ bun --bun vite build
+vite v8.1.5 building client environment for production...
+[2Ktransforming...✓ 3253 modules transformed.
+[lightningcss minify] 'global' is not recognized as a valid pseudo-class. Did you mean '::global' (pseudo-element) or is this a typo?
+26 |  }
+27 |  
+28 |  .em-header-actions :global(.ant-btn) {
+   |                             ^
+29 |    margin-left: 0;
+30 |  }
+rendering chunks...
+computing gzip size...
+dist/index.html                                                                                                        1.07 kB │ gzip:   0.54 kB
+dist/assets/mf-entry-bootstrap-0-88927940.js                                                                           1.35 kB
+dist/mf-manifest.json                                                                                                  1.48 kB │ gzip:   0.54 kB
+dist/mf-stats.json                                                                                                     5.64 kB │ gzip:   1.22 kB
+dist/.vite/manifest.json                                                                                              11.06 kB │ gzip:   1.27 kB
+dist/assets/domain-BYlFklmZ.css                                                                                        0.86 kB │ gzip:   0.39 kB
+dist/assets/rich-text-Can4_ogf.css                                                                                     1.09 kB │ gzip:   0.50 kB
+dist/assets/message-notice-BPwuyOG_.css                                                                                2.08 kB │ gzip:   0.73 kB
+dist/assets/plan-document-detail-D9V7Vb4F.css                                                                          3.89 kB │ gzip:   1.01 kB
+dist/assets/plan-generate-DvZgoRBY.css                                                                                10.57 kB │ gzip:   2.63 kB
+dist/assets/virtualExposes-BUmZVqyv.js                                                                                 0.12 kB │ gzip:   0.12 kB
+dist/remoteEntry.js                                                                                                    0.14 kB │ gzip:   0.14 kB
+dist/assets/index-jpAE12Ov.js                                                                                          0.28 kB │ gzip:   0.19 kB
+dist/assets/file-types-BBic-RUt.js                                                                                     0.35 kB │ gzip:   0.25 kB
+dist/assets/event-types-BdHX5im7.js                                                                                    0.36 kB │ gzip:   0.25 kB
+dist/assets/server-DY8e0bz5.js                                                                                         0.37 kB │ gzip:   0.19 kB
+dist/assets/virtual_mf-exposes-ssr___mfe_internal__emergencyManagement__remoteEntry_js-soyscYV2.js                     0.37 kB │ gzip:   0.29 kB
+dist/remoteEntry.ssr.js                                                                                                1.01 kB │ gzip:   0.58 kB
+dist/assets/virtual_mf-exposes___mfe_internal__emergencyManagement__remoteEntry_js-OhSrycjo.js                         1.07 kB │ gzip:   0.65 kB
+dist/assets/rolldown-runtime-aKtaBQYM.js                                                                               1.08 kB │ gzip:   0.62 kB
+dist/assets/_virtual_mf-localSharedImportMap___mfe_internal__emergencyManagement-D4BteHP6.js                           1.24 kB │ gzip:   0.53 kB
+dist/assets/domain-context-DPn2BKeO.js                                                                                 1.26 kB │ gzip:   0.72 kB
+dist/assets/utils-P2U17EQn.js                                                                                          1.37 kB │ gzip:   0.76 kB
+dist/assets/vite-preload-helper-7P2xnrDv.js                                                                            1.41 kB │ gzip:   0.75 kB
+dist/assets/hostInit-DLWDjh0c.js                                                                                       2.34 kB │ gzip:   1.10 kB
+dist/assets/domain-vUzHPF6o.js                                                                                         2.47 kB │ gzip:   0.93 kB
+dist/assets/category-page-oQevlJan.js                                                                                  3.47 kB │ gzip:   1.60 kB
+dist/assets/plan-rules-RVR_WsL9.js                                                                                     4.58 kB │ gzip:   1.93 kB
+dist/assets/plan-documents-DOfs7zP6.js                                                                                 4.59 kB │ gzip:   1.93 kB
+dist/assets/rich-text-CJcrc45Q.js                                                                                      6.11 kB │ gzip:   2.87 kB
+dist/assets/message-notice-BQioLjAC.js                                                                                14.47 kB │ gzip:   5.06 kB
+dist/assets/AntdIcon-D1G_PjV_.js                                                                                      19.16 kB │ gzip:   7.06 kB
+dist/assets/_virtual_mf___mfe_internal__emergencyManagement__loadShare__vue_mf_2_router__loadShare__.js-HdJwk3Sn.js   30.53 kB │ gzip:  11.34 kB
+dist/assets/virtual_mf-REMOTE_ENTRY_ID___mfe_internal__emergencyManagement__remoteEntry_js-DbdgScau.js                39.05 kB │ gzip:  12.94 kB
+dist/assets/_virtual_mf___mfe_internal__emergencyManagement__loadShare__vue__loadShare__.js-dcunqHoc.js              121.98 kB │ gzip:  45.52 kB
+dist/assets/plan-generate-C2A-Ol2r.js                                                                                191.37 kB │ gzip:  61.21 kB
+dist/assets/plan-document-detail-C5roDbqp.js                                                                         375.40 kB │ gzip: 108.14 kB
+
+✓ built in 8.97s

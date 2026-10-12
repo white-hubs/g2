@@ -1,0 +1,74 @@
+$ bun --bun vite build
+vite v8.1.5 building client environment for production...
+
+./fa-brands-400.woff2 referenced in ./fa-brands-400.woff2 didn't resolve at build time, it will remain unchanged to be resolved at runtime
+
+./fa-regular-400.woff2 referenced in ./fa-regular-400.woff2 didn't resolve at build time, it will remain unchanged to be resolved at runtime
+
+./fa-v4compatibility.woff2 referenced in ./fa-v4compatibility.woff2 didn't resolve at build time, it will remain unchanged to be resolved at runtime
+
+./fa-brands-400.ttf referenced in ./fa-brands-400.ttf didn't resolve at build time, it will remain unchanged to be resolved at runtime
+
+./fa-regular-400.ttf referenced in ./fa-regular-400.ttf didn't resolve at build time, it will remain unchanged to be resolved at runtime
+
+./fa-v4compatibility.ttf referenced in ./fa-v4compatibility.ttf didn't resolve at build time, it will remain unchanged to be resolved at runtime
+
+./fa-solid-900.ttf referenced in ./fa-solid-900.ttf didn't resolve at build time, it will remain unchanged to be resolved at runtime
+[2Ktransforming...✓ 2646 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                                                                                                   1.05 kB │ gzip:   0.53 kB
+dist/assets/mf-entry-bootstrap-0-ad71c8b5.js                                                                      1.35 kB
+dist/mf-manifest.json                                                                                             1.42 kB │ gzip:   0.53 kB
+dist/mf-stats.json                                                                                                5.86 kB │ gzip:   1.28 kB
+dist/.vite/manifest.json                                                                                         11.82 kB │ gzip:   1.36 kB
+dist/assets/fa-solid-900-DQw_EAxt.woff2                                                                         156.53 kB
+dist/assets/point-statistics-l6s-_sr8.css                                                                         0.25 kB │ gzip:   0.18 kB
+dist/assets/operation-records-CLrJ-eMH.css                                                                        0.30 kB │ gzip:   0.21 kB
+dist/assets/event-records-B7AcRwqX.css                                                                            0.35 kB │ gzip:   0.24 kB
+dist/assets/page-title-GxR7-8F0.css                                                                               2.03 kB │ gzip:   0.65 kB
+dist/assets/fire-host-config-E3N2rnt_.css                                                                         2.07 kB │ gzip:   0.74 kB
+dist/assets/fire-point-management-BTHnxLL9.css                                                                   10.48 kB │ gzip:   2.57 kB
+dist/assets/fire-host-control-C2d2FfL1.css                                                                       30.37 kB │ gzip:   6.13 kB
+dist/assets/domain-Llu2iwED.css                                                                                  96.32 kB │ gzip:  22.87 kB
+dist/assets/virtualExposes-hmg0zLbL.js                                                                            0.12 kB │ gzip:   0.12 kB
+dist/remoteEntry.js                                                                                               0.14 kB │ gzip:   0.14 kB
+dist/assets/fire-event-DzabMFk-.js                                                                                0.21 kB │ gzip:   0.17 kB
+dist/assets/index-BOpioMc1.js                                                                                     0.26 kB │ gzip:   0.19 kB
+dist/assets/virtual_mf-exposes-ssr___mfe_internal__fireManagement__remoteEntry_js-BDJpqLQh.js                     0.37 kB │ gzip:   0.29 kB
+dist/remoteEntry.ssr.js                                                                                           1.00 kB │ gzip:   0.58 kB
+dist/assets/virtual_mf-exposes___mfe_internal__fireManagement__remoteEntry_js-BPu0hr8f.js                         1.07 kB │ gzip:   0.65 kB
+dist/assets/rolldown-runtime-aKtaBQYM.js                                                                          1.08 kB │ gzip:   0.62 kB
+dist/assets/_virtual_mf-localSharedImportMap___mfe_internal__fireManagement-B4SzAew4.js                           1.22 kB │ gzip:   0.52 kB
+dist/assets/vite-preload-helper-7P2xnrDv.js                                                                       1.41 kB │ gzip:   0.75 kB
+dist/assets/server-Do7jK9FP.js                                                                                    2.25 kB │ gzip:   0.76 kB
+dist/assets/product-brand-name-select-CbNWifVu.js                                                                 2.26 kB │ gzip:   1.18 kB
+dist/assets/hostInit-CAP5uiUE.js                                                                                  2.33 kB │ gzip:   1.10 kB
+dist/assets/pc-ui-runtime-dWUY1b1F.js                                                                             2.83 kB │ gzip:   1.24 kB
+dist/assets/point-statistics-CfJCZBlH.js                                                                          5.00 kB │ gzip:   2.30 kB
+dist/assets/event-records-BBDvxR70.js                                                                             6.53 kB │ gzip:   2.84 kB
+dist/assets/operation-records-ByQ23nFY.js                                                                         6.58 kB │ gzip:   2.88 kB
+dist/assets/domain-Cy91dxVS.js                                                                                    7.64 kB │ gzip:   2.53 kB
+dist/assets/fire-host-config-BflNx363.js                                                                         11.22 kB │ gzip:   4.53 kB
+dist/assets/_virtual_mf___mfe_internal__fireManagement__loadShare__vue_mf_2_router__loadShare__.js-ZOKLeUIy.js   30.52 kB │ gzip:  11.34 kB
+dist/assets/virtual_mf-REMOTE_ENTRY_ID___mfe_internal__fireManagement__remoteEntry_js-Cu6wAltL.js                39.03 kB │ gzip:  12.93 kB
+dist/assets/fire-point-management-Bbs9AIY8.js                                                                    48.07 kB │ gzip:  14.38 kB
+dist/assets/fire-host-control-BrkR2ueH.js                                                                        78.11 kB │ gzip:  24.39 kB
+dist/assets/_virtual_mf___mfe_internal__fireManagement__loadShare__vue__loadShare__.js-Cs2ecPZv.js              122.03 kB │ gzip:  45.55 kB
+dist/assets/page-title-B9ToHW1W.js                                                                              305.21 kB │ gzip:  96.42 kB
+dist/assets/exceljs.min-BQHHIZr4.js                                                                             930.06 kB │ gzip: 256.49 kB
+
+[33m[PLUGIN_TIMINGS] [0mYour build spent significant time in plugins. Here is a breakdown:
+  - proxyPreBuildShared:resolve-shared-loadShare (14%)
+  - g2-mf-runtime-remote-external (13%)
+  - vite:module-federation-virtual-modules (13%)
+  - proxyRemotes (9%)
+  - proxyPreBuildShared:tree-shaking-graph (9%)
+See https://rolldown.rs/reference/InputOptions.checks#plugintimings for more details.
+
+[plugin builtin:vite-reporter] 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+✓ built in 14.59s

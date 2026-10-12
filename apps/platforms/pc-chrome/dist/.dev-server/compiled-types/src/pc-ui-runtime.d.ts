@@ -1,0 +1,22 @@
+import type { PlatformContext } from "@g2-composition/contract";
+type PcUiModule = typeof import("@g2-platform/pc-ui");
+export declare function installPcChromePcUi(ctx: PlatformContext): Promise<void>;
+export declare function getPcChromePcUi(): PcUiModule;
+export declare const Avatar: PcUiModule["Avatar"];
+export declare const Button: PcUiModule["Button"];
+export declare const ConfigProvider: PcUiModule["ConfigProvider"];
+export declare const Dropdown: PcUiModule["Dropdown"];
+export declare const Input: PcUiModule["Input"];
+export declare const Menu: PcUiModule["Menu"];
+export declare const MenuItem: PcUiModule["MenuItem"];
+export declare const Modal: PcUiModule["Modal"];
+export declare const SubMenu: PcUiModule["SubMenu"];
+export declare const TabPane: PcUiModule["TabPane"];
+export declare const Tabs: PcUiModule["Tabs"];
+type PcUiMessage = PcUiModule["message"];
+export declare const message: PcUiMessage;
+export declare const LEGACY_SKIN_COLOR_KEY = "skinColor";
+export declare const MF_ROOT_CHANGE_SKIN_EVENT = "mf-root-change-skin";
+export declare const SKIN_STORAGE_KEY = "g2-pc-skin";
+export {};
+//# sourceMappingURL=pc-ui-runtime.d.ts.map

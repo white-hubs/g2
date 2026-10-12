@@ -1,0 +1,1 @@
+var e=`2026.09.23.3`,t=`1.0.0`,n={minConsumer:`1.0.0`,maxConsumer:`1.x`};export{t as apiVersion,n as compatibility,e as runtimeVersion};

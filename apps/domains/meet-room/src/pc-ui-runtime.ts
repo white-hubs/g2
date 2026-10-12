@@ -1,0 +1,27 @@
+import { type PcUiModule, createPcUiRuntimeProxy } from "./pc-ui-proxy-helper";
+
+const pcUi = createPcUiRuntimeProxy("meet-room");
+export const installMeetRoomPcUi = pcUi.install;
+export const Button: PcUiModule["Button"] = pcUi.component("Button");
+export const Card: PcUiModule["Card"] = pcUi.component("Card");
+export const Cascader: PcUiModule["Cascader"] = pcUi.component("Cascader");
+export const CheckboxGroup: PcUiModule["CheckboxGroup"] = pcUi.component("CheckboxGroup");
+export const Form: PcUiModule["Form"] = pcUi.component("Form");
+export const FormItem: PcUiModule["FormItem"] = pcUi.component("FormItem");
+export const Input: PcUiModule["Input"] = pcUi.component("Input");
+export const InputNumber: PcUiModule["InputNumber"] = pcUi.component("InputNumber");
+export const Modal: PcUiModule["Modal"] = pcUi.component("Modal");
+export const Page: PcUiModule["Page"] = pcUi.component("Page");
+export const PageLayout: PcUiModule["PageLayout"] = pcUi.component("PageLayout");
+export const PopConfirm: PcUiModule["PopConfirm"] = pcUi.component("PopConfirm");
+export const Select: PcUiModule["Select"] = pcUi.component("Select");
+export const Space: PcUiModule["Space"] = pcUi.component("Space");
+export const Spin: PcUiModule["Spin"] = pcUi.component("Spin");
+export const Switch: PcUiModule["Switch"] = pcUi.component("Switch");
+export const Textarea: PcUiModule["Textarea"] = pcUi.component("Textarea");
+export const TimePicker: PcUiModule["TimePicker"] = pcUi.component("TimePicker");
+export const TreeSelect: PcUiModule["TreeSelect"] = pcUi.component("TreeSelect");
+export const message: PcUiModule["message"] = pcUi.object("message");
+export const usePcForm: PcUiModule["usePcForm"] = pcUi.callable("usePcForm");
+export const usePcTable: PcUiModule["usePcTable"] = pcUi.callable("usePcTable");
+export type { FormInstance, FormRule, PcTableColumn } from "@g2-platform/pc-ui";

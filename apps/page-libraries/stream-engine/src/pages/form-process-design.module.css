@@ -1,0 +1,138 @@
+.loading {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  min-height: min(60vh, 480px);
+}
+.designPage { display: flex; flex-direction: column; height: 100%; min-height: 0; }
+.header { display: flex; align-items: center; gap: 16px; width: 100%; min-height: 52px; flex: none; border-bottom: 1px solid #ebedf2; }
+.formName { min-width: 160px; font-size: 14px; }
+.tabs { display: flex; justify-content: center; align-self: stretch; flex: 1; gap: 8px; }
+.tab { border: 0; border-bottom: 2px solid transparent; background: transparent; color: #666; padding: 0 16px; cursor: pointer; }
+.activeTab { color: #297ff1; border-bottom-color: #297ff1; }
+.body { flex: 1; min-height: 0; }
+.basic { max-width: 1100px; margin: 0 auto; padding: 16px 0; }
+.basic h3 { border-left: 3px solid #2982f1; padding-left: 9px; margin: 8px 0 18px; font-size: 15px; }
+.basic :global(.ant-form-item) { margin-bottom: 16px; }
+.configCards { display: flex; gap: 20px; }
+.configCards > div { width: 200px; min-height: 94px; padding: 12px; border: 1px solid #e5e8ef; border-radius: 4px; }
+.configCards span { display: flex; align-items: center; justify-content: space-between; }
+.configCards small { display: block; margin-top: 8px; color: #666; line-height: 1.5; }
+.advancedToggle { display: flex; align-items: center; justify-content: space-between; width: 100%; margin: 26px 0 12px; padding: 8px 0; border: 0; border-bottom: 1px solid #e5e8ef; background: #fff; color: #1f2530; text-align: left; cursor: pointer; }
+.advancedToggle span { border-left: 3px solid #2982f1; padding-left: 9px; font-size: 15px; font-weight: 600; }
+.webhookPanel { min-height: 180px; border: 1px solid #e5e8ef; border-radius: 4px; box-shadow: 0 2px 9px #0000000d; }
+.webhookHeader, .webhookRow { display: flex; align-items: center; gap: 8px; min-height: 46px; padding: 0 16px; border-bottom: 1px solid #eef0f4; }
+.webhookHeader span, .webhookRow span { flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; }
+.webhookEmpty { padding: 75px 16px; color: #9aa3b1; text-align: center; }
+.designer { display: grid; grid-template-columns: 280px minmax(0, 1fr) 300px; height: 100%; min-height: 560px; }
+.catalog, .properties { overflow: auto; background: #fff; }
+.catalog { border-right: 1px solid #ebedf2; padding: 12px; }
+.properties { border-left: 1px solid #ebedf2; }
+.panelTitle { text-align: center; padding: 10px 12px; border-bottom: 1px solid #ebedf2; }
+.catalogGroup { display: flex; align-items: center; justify-content: space-between; width: 100%; padding: 12px 4px; border: 0; background: #fff; color: #1f2530; text-align: left; font-size: 14px; cursor: pointer; }
+.catalogGroup:hover { color: #2982f1; }
+.catalogGrid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; }
+.catalogGrid button { display: flex; align-items: center; gap: 5px; min-height: 35px; border: 1px solid #e5e8ef; background: #fff; border-radius: 6px; padding: 5px 8px; text-align: left; font-size: 12px; cursor: grab; }
+.catalogIcon { flex: none; color: #6791ce; font-size: 14px; }
+.catalogGrid button:hover { border-color: #2982f1; color: #2982f1; }
+.canvas { min-width: 0; min-height: 0; display: flex; flex-direction: column; overflow: hidden; background: #f7f9ff; }
+.canvasToolbar { flex: none; height: 42px; background: #fff; display: flex; align-items: center; justify-content: space-between; padding: 0 16px; border-bottom: 1px solid #e5e8ef; }
+.canvasToolbar span { display: flex; gap: 8px; }
+.canvasToolbar button { border: 0; background: none; color: #777; cursor: pointer; }
+.canvasToolbar .previewActive { color: #2982f1; }
+.canvasScroll { flex: 1; min-height: 0; overflow-y: auto; overflow-x: hidden; }
+.canvasFields { display: flex; flex-wrap: wrap; align-content: flex-start; padding: 12px; }
+.mobileCanvas { display: block; width: min(390px, calc(100% - 32px)); min-height: 600px; margin: 16px auto; background: #fff; box-shadow: 0 2px 10px #0002; }
+.canvasField { box-sizing: border-box; background: #fff; padding: 12px; margin-bottom: 8px; border-left: 4px solid transparent; cursor: pointer; }
+.canvasField > div:first-child { display: flex; justify-content: space-between; align-items: center; }
+.canvasField > div:first-child > span { color: #546071; font-size: 13px; }
+.requiredMark { color: #ed4b4b; font-style: normal; font-size: 14px; }
+.selectedField { border-left-color: #409eff; }
+.amountUppercase { margin-top: 10px; color: #89929f; font-size: 12px; }
+.previewBox { padding: 8px 10px; min-height: 32px; border: 1px solid #d9d9d9; border-radius: 6px; color: #aaa; font-size: 13px; }
+.outsiderPreview { display: grid; gap: 10px; }
+.nestedCanvasField { border-left: 4px solid transparent; background: #fff; padding: 8px; margin: 6px 0; color: #333; }
+.nestedCanvasField.selectedField { border-left-color: #409eff; }
+.nestedCanvasField > div:first-child { margin-bottom: 6px; }
+.nestedCanvasField > div:first-child { color: #546071; font-size: 13px; }
+.consumablePreview { width: 100%; color: #8b929d; font-size: 12px; }
+.consumablePreviewAction { display: flex; justify-content: flex-end; margin: 0 0 10px; }
+.consumablePreviewScroll { width: 100%; overflow-x: auto; }
+.consumablePreviewScroll table { min-width: 1380px; width: 100%; border-collapse: collapse; }
+.consumablePreviewScroll th, .consumablePreviewScroll td { min-width: 110px; height: 44px; padding: 8px 10px; border: 1px solid #e5e8ef; font-weight: 400; text-align: left; white-space: nowrap; }
+.consumablePreviewScroll th:first-child { min-width: 150px; }
+.consumablePreviewScroll th:last-child { min-width: 100px; }
+.consumablePreviewScroll td { text-align: center; }
+.emptyCanvas, .emptyProperty { color: #999; text-align: center; padding: 28px 8px; }
+.propertyForm { padding: 16px; }
+.propertyForm :global(.ant-form-item-label) { flex: 0 0 94px; text-align: right; }
+.propertyForm :global(.ant-form-item-control) { min-width: 0; }
+.propertyForm :global(.ant-form-item) { margin-bottom: 20px; }
+.rangePlaceholders { display: grid; gap: 8px; }
+.optionEditor { padding: 0 0 18px 8px; }
+.optionHeader { display: flex; align-items: center; gap: 4px; white-space: nowrap; }
+.optionHeader span { flex: 1; }
+.optionRow { display: flex; align-items: center; gap: 2px; margin-top: 8px; }
+.optionRow :global(.ant-input) { min-width: 0; }
+.linkRow { display: grid; grid-template-columns: 150px 1fr; align-items: center; gap: 12px; margin: 10px 0; }
+.propertySwitch { display: flex; justify-content: space-between; margin: 10px 0; }
+.nestedField { display: flex; align-items: center; gap: 8px; margin: 8px 0; }
+.nestedField :global(.ant-input) { min-width: 0; }
+.processCanvas { position: relative; height: 100%; min-height: 560px; overflow: auto; background: #f7f9ff; }
+.processTree { width: fit-content; min-width: 300px; margin: 42px auto 0; display: flex; flex-direction: column; align-items: center; transform-origin: center top; }
+.processZoom { position: sticky; top: 20px; z-index: 6; display: flex; align-items: center; justify-content: flex-end; gap: 12px; width: fit-content; margin: 20px 30px -44px auto; color: #526079; }
+.processZoom button { width: 32px; height: 32px; border: 1px solid #dbe4f2; border-radius: 50%; background: #fff; color: #526079; font-size: 18px; line-height: 1; cursor: pointer; }
+.processZoom button:disabled { opacity: .45; cursor: not-allowed; }
+.nodeColumn { display: flex; flex-direction: column; align-items: center; }
+.nodeCard { width: 222px; padding: 0; background: #fff; border: 1px solid #e5e8ef; border-radius: 5px; text-align: left; overflow: hidden; box-shadow: 0 2px 6px #00000010; }
+.nodeSelected { border-color: #2982f1; }
+.nodeTitle { display: flex; justify-content: space-between; align-items: center; min-height: 28px; padding: 5px 12px; background: #fa913b; color: #fff; }
+.nodeTitle button { border: 0; background: none; color: #fff; cursor: pointer; font-size: 18px; line-height: 1; }
+.rootTitle { background: #526386; }
+.ccTitle { background: #3296fa; }
+.conditionTitle { background: #15bc83; }
+.nodeBody { display: block; width: 100%; padding: 0; border: 0; background: #fff; text-align: left; cursor: pointer; }
+.nodeSummary { display: flex; justify-content: space-between; padding: 14px 16px; }
+.insertArea { position: relative; display: flex; justify-content: center; width: 100%; min-height: 76px; align-items: center; }
+.insertArea::before { content: ""; position: absolute; top: 0; bottom: 0; left: 50%; width: 1px; background: #c8d0df; }
+.insertButton { position: relative; z-index: 1; width: 32px; height: 32px; border: 0; border-radius: 50%; color: #fff; background: #2982f1; font-size: 24px; line-height: 30px; cursor: pointer; }
+.insertMenu { position: absolute; z-index: 5; top: 48px; left: calc(50% - 16px); width: 350px; padding: 14px 16px; border: 1px solid #e5e8ef; border-radius: 6px; background: #fff; box-shadow: 0 5px 20px #0002; }
+.insertMenu strong { display: block; margin: 0 0 10px; font-size: 13px; color: #303945; }
+.insertOptions { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+.insertOptions button { display: flex; align-items: center; gap: 10px; min-height: 58px; padding: 8px 14px; border: 0; border-radius: 12px; background: #f5f8ff; text-align: left; cursor: pointer; }
+.insertOptions button:hover { background: #eaf2ff; color: #2982f1; }
+.insertOptions button span { display: grid; place-items: center; width: 36px; height: 36px; border: 1px solid #dce7f5; border-radius: 50%; background: #fff; font-size: 18px; }
+.approvalIcon { color: #fa8b3d; }
+.ccIcon { color: #2982f1; }
+.branchIcon { color: #19b78c; }
+.branches { display: flex; gap: 36px; padding: 32px 24px 0; border-top: 1px solid #c8d0df; border-bottom: 1px solid #c8d0df; }
+.addBranch { margin: 0 0 22px; padding: 5px 14px; border: 1px solid #ddd; border-radius: 16px; background: #fff; color: #2982f1; cursor: pointer; }
+.endNode { min-width: 220px; margin-top: 0; padding: 7px 22px; border-radius: 20px; background: #fff; color: #7c8798; text-align: center; box-shadow: 0 2px 8px #0000000a; }
+.nodeProperties { position: fixed; z-index: 8; right: 16px; top: 64px; bottom: 16px; width: min(550px, calc(100vw - 32px)); overflow: auto; background: #fff; padding: 16px; border-left: 1px solid #e5e8ef; box-shadow: -4px 0 12px #00000010; }
+.propertyHeader { display: flex; align-items: center; justify-content: space-between; }
+.propertyHeader button { border: 0; background: transparent; font-size: 20px; cursor: pointer; }
+.nodeTabs { display: flex; gap: 20px; overflow-x: auto; margin: 10px 0 16px; border-bottom: 1px solid #e5e8ef; white-space: nowrap; }
+.nodeTabs button { flex: none; padding: 9px 0; border: 0; border-bottom: 2px solid transparent; background: #fff; color: #445064; cursor: pointer; }
+.nodeTabs .nodeTabActive { border-bottom-color: #2982f1; color: #2982f1; }
+.permissionTable { margin-top: 12px; }
+.permissionTable :global(.ant-table-cell) { text-align: center; }
+.permissionTable :global(.ant-table-cell:first-child) { text-align: left; }
+.permissionHead { border: 0; background: transparent; font-weight: 600; cursor: pointer; }
+.advancedNodeForm { padding-top: 10px; }
+.advancedNodeForm :global(.ant-form-item-label) { min-width: 120px; text-align: left; }
+.limitSettings { width: 100%; border-top: 1px solid #e5e8ef; padding: 16px 0; }
+.limitApproval { border-top: 1px solid #e5e8ef; margin-top: 15px; padding-top: 15px; }
+.reminderRow { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin: 12px 0; padding: 12px 0; border-bottom: 1px solid #f1f2f5; }
+.reminderRow :global(.ant-input-number) { width: 110px; }
+.reminderRow :global(.ant-select) { min-width: 90px; }
+.conditionHint { color: #888; font-size: 12px; }
+.conditionGroup { padding: 12px; margin: 12px 0; border: 1px solid #e5e8ef; border-radius: 5px; }
+.conditionGroupHeader { display: flex; align-items: center; justify-content: space-between; margin-bottom: 8px; }
+.conditionGroupHeader button { border: 0; background: transparent; color: #999; cursor: pointer; }
+.conditionRow { padding: 8px 0; border-top: 1px solid #f0f0f0; }
+.conditionInputs { display: grid; grid-template-columns: 90px minmax(0, 1fr); gap: 6px; }
+.permissionList { border-top: 1px solid #e5e8ef; padding-top: 12px; }
+.permissionList > div { display: flex; align-items: center; justify-content: space-between; gap: 8px; padding: 5px 0; }
+.permissionList :global(.ant-select) { min-width: 90px; }
+@media (max-width: 1250px) { .designer { grid-template-columns: 220px minmax(0, 1fr) 260px; } }

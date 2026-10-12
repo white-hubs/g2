@@ -1,0 +1,135 @@
+.generatedContentEditor {
+  width: 100%;
+  overflow: hidden;
+  color: #1f2937;
+  line-height: 1.7;
+}
+
+.editing {
+  border: 1px solid #d5e0e8;
+  border-radius: 4px;
+  background: #fff;
+}
+
+.generatedContentEditor :global(.w-e-toolbar) {
+  align-items: center;
+  padding: 5px 10px;
+  background: #f7fafc !important;
+  border: 0 !important;
+  border-bottom: 1px solid #e5e7eb !important;
+}
+
+.generatedContentEditor :global(.w-e-toolbar .w-e-menu) {
+  width: 34px;
+  height: 34px;
+  border-radius: 3px;
+}
+
+.generatedContentEditor :global(.w-e-toolbar .w-e-menu:last-child) {
+  margin-left: auto;
+}
+
+.generatedContentEditor :global(.document-metadata),
+.documentMetadata {
+  margin: 0 28px;
+  padding: 15px 0 12px;
+  color: #6b7280;
+  font-size: 12px;
+  text-align: center;
+  border-bottom: 1px solid #1f2937;
+}
+
+.generatedContentEditor :global(.w-e-text-container) {
+  border: 0 !important;
+  background: #fff;
+}
+
+.generatedContentEditor :global(.w-e-text) {
+  padding: 18px 28px 28px;
+}
+
+.generatedContentEditor :global(.w-e-text h1),
+.generatedContentView :global(h1) {
+  margin: 0 0 20px !important;
+  color: #1c1b19;
+  font-size: 22px !important;
+  font-weight: 700;
+  text-align: center;
+}
+
+.generatedContentEditor :global(.w-e-text h2),
+.generatedContentView :global(h2) {
+  margin: 18px 0 10px !important;
+  color: #1c1b19;
+  font-size: 17px !important;
+  font-weight: 700;
+}
+
+.generatedContentEditor :global(.w-e-text h3),
+.generatedContentView :global(h3) {
+  margin: 14px 0 8px !important;
+  color: #1c1b19;
+  font-size: 14px !important;
+  font-weight: 600;
+}
+
+.generatedContentEditor :global(.w-e-text p),
+.generatedContentEditor :global(.w-e-text li),
+.generatedContentEditor :global(.w-e-text td),
+.generatedContentEditor :global(.w-e-text th),
+.generatedContentView :global(p),
+.generatedContentView :global(li),
+.generatedContentView :global(td),
+.generatedContentView :global(th) {
+  margin: 0 0 8px !important;
+  color: #4b5563;
+  font-size: 13px !important;
+  line-height: 1.8;
+}
+
+.generatedContentEditor :global(.w-e-text ul),
+.generatedContentEditor :global(.w-e-text ol),
+.generatedContentView :global(ul),
+.generatedContentView :global(ol) {
+  margin: 0 0 10px !important;
+  padding-left: 22px;
+}
+
+.generatedContentEditor :global(.w-e-text table),
+.generatedContentView :global(table) {
+  width: 100%;
+  margin: 10px 0 !important;
+  border-collapse: collapse;
+}
+
+.generatedContentEditor :global(.w-e-text td),
+.generatedContentEditor :global(.w-e-text th),
+.generatedContentView :global(td),
+.generatedContentView :global(th) {
+  padding: 8px 10px;
+  border: 1px solid #e5e7eb;
+}
+
+.generatedContentEditor :global(.w-e-text th),
+.generatedContentView :global(th) {
+  color: #1c1b19;
+  background: #f9fafb;
+}
+
+.generatedContentEditor :global(.w-e-full-screen-editor) {
+  border: 0;
+  border-radius: 0;
+  background: #fff;
+}
+
+.generatedContentEditor :global(.w-e-full-screen-editor .w-e-text) {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 22px 36px 40px;
+}
+
+.generatedContentView {
+  min-height: 160px;
+  padding: 18px 28px 28px;
+  background: #fff;
+}

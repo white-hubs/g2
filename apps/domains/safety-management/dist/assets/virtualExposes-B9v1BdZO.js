@@ -1,0 +1,1 @@
+import{t as e}from"./virtual_mf-exposes___mfe_internal__safetyManagement__remoteEntry_js-BaiOcfih.js";export{e as default};

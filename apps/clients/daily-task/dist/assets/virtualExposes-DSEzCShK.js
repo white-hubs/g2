@@ -1,0 +1,1 @@
+import{t as e}from"./virtual_mf-exposes___mfe_internal__dailyTaskClient__remoteEntry_js-xjOCwzXG.js";export{e as default};

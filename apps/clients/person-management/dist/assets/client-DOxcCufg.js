@@ -1,0 +1,1 @@
+import{n as e,t}from"./client-C10nzW0S.js";export{t as create,e as createPersonManagementClient};

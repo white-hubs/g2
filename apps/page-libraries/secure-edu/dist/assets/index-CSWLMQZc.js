@@ -1,0 +1,1 @@
+import"./virtual_mf-exposes___mfe_internal__secureEduPages__remoteEntry_js-B0SikMph.js";import"./virtual_mf-REMOTE_ENTRY_ID___mfe_internal__secureEduPages__remoteEntry_js-DYIUvojA.js";document.querySelector(`#app`).textContent=`@g2-pages/secure-edu`;

@@ -1,0 +1,9 @@
+$ bun build ./src/index.ts --outdir ./dist --target bun && bun build ./src/cli.ts --outdir ./dist --target bun --outfile cli.js
+Bundled 155 modules in 437ms
+
+  index.js  0.79 MB  (entry point)
+
+Bundled 155 modules in 202ms
+
+  cli.js  0.79 MB  (entry point)
+

@@ -1,0 +1,1 @@
+import{t as e}from"./virtual_mf-exposes___mfe_internal__rotatingManagement__remoteEntry_js-C75Iz8QR.js";export{e as default};

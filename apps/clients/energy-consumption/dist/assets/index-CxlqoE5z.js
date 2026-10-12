@@ -1,0 +1,1 @@
+import"./virtual_mf-exposes___mfe_internal__energyConsumptionClient__remoteEntry_js-8uBcooZk.js";import"./virtual_mf-REMOTE_ENTRY_ID___mfe_internal__energyConsumptionClient__remoteEntry_js-DlwXplnM.js";var e=document.querySelector(`#app`);e&&(e.textContent=`@g2-client/energy-consumption`);

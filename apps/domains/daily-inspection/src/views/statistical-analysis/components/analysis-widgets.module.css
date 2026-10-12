@@ -1,0 +1,131 @@
+.list .listBox {
+  margin-top: 10px;
+  width: 200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.listBoxLeft {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.roundDot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.listBoxRight {
+  font-weight: bold;
+}
+
+.text {
+  margin-left: 0;
+}
+
+.pieList {
+  text-align: center;
+}
+
+.pieValue {
+  min-width: 90px;
+  height: 24px;
+  font-size: 26px;
+  font-weight: bold;
+  color: #3d3d3d;
+  line-height: 24px;
+  margin-bottom: 10px;
+}
+
+.pieName {
+  min-width: 84px;
+  height: 21px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #999;
+  line-height: 21px;
+  margin-bottom: 10px;
+}
+
+.ringRatio {
+  width: 96px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 12px;
+  margin-left: 6px;
+}
+
+.downtriangle {
+  width: 0;
+  height: 0;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-bottom: 8px solid #d2fff3;
+  margin: 0 3px;
+  transform: rotate(180deg);
+}
+
+.uptriangle {
+  border-bottom: 8px solid #ffcece;
+  transform: rotate(0deg);
+}
+
+.down {
+  color: #2ae8bd;
+}
+
+.up {
+  color: #f14545;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.palte {
+  margin-top: 10px;
+  margin-right: 16px;
+  display: flex;
+  align-items: center;
+}
+
+.palteBox {
+  width: 395px;
+  height: 64px;
+  background: linear-gradient(50deg, #f7faff 0%, rgb(245 249 255 / 22%) 37%, #f7faff 100%);
+  border-radius: 6px;
+  padding: 24px;
+  margin: 0 5px;
+}
+
+.status {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.statusBox {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 16px;
+  width: 816px;
+  min-height: 64px;
+  background: linear-gradient(50deg, #f7faff 0%, rgb(245 249 255 / 22%) 37%, #f7faff 100%);
+  border-radius: 6px;
+  align-items: center;
+}
+
+.blue1 {
+  color: #1890ff;
+}
+
+.textNum {
+  font-size: 13px;
+}

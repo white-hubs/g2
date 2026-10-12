@@ -1,0 +1,233 @@
+{
+  "../../../../../../.bun/install/cache/links/canvg@3.0.11-40ab337afcf5b510/node_modules/canvg/lib/index.es.js": {
+    "file": "assets/index.es-CkVdiRoh.js",
+    "name": "index.es",
+    "src": "../../../../../../.bun/install/cache/links/canvg@3.0.11-40ab337afcf5b510/node_modules/canvg/lib/index.es.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-QTnfLwEv.js",
+      "__virtual_mf___mfe_internal__pcGraphEditor__loadShare___mf_0_g2_mf_2_platform_mf_1_pc_mf_2_ui__loadShare__.js-BdlaK-ie.js"
+    ]
+  },
+  "../../../../../../.bun/install/cache/links/dompurify@2.5.9-6aa173e3d4d0ffb4/node_modules/dompurify/dist/purify.js": {
+    "file": "assets/purify-CR-I5lb8.js",
+    "name": "purify",
+    "src": "../../../../../../.bun/install/cache/links/dompurify@2.5.9-6aa173e3d4d0ffb4/node_modules/dompurify/dist/purify.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-QTnfLwEv.js"
+    ]
+  },
+  "../../../../../../.bun/install/cache/links/html2canvas@1.4.1-d608a3ed0e3cd872/node_modules/html2canvas/dist/html2canvas.js": {
+    "file": "assets/html2canvas-febzLBPO.js",
+    "name": "html2canvas",
+    "src": "../../../../../../.bun/install/cache/links/html2canvas@1.4.1-d608a3ed0e3cd872/node_modules/html2canvas/dist/html2canvas.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-QTnfLwEv.js"
+    ]
+  },
+  "../../../../../../.bun/install/cache/links/jspdf@2.5.1-36496aaf874c95f5/node_modules/jspdf/dist/jspdf.es.min.js": {
+    "file": "assets/jspdf.es.min-CUpP1swJ.js",
+    "name": "jspdf.es.min",
+    "src": "../../../../../../.bun/install/cache/links/jspdf@2.5.1-36496aaf874c95f5/node_modules/jspdf/dist/jspdf.es.min.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-QTnfLwEv.js",
+      "_vite-preload-helper-7P2xnrDv.js",
+      "__virtual_mf___mfe_internal__pcGraphEditor__loadShare___mf_0_g2_mf_2_platform_mf_1_pc_mf_2_ui__loadShare__.js-BdlaK-ie.js"
+    ],
+    "dynamicImports": [
+      "../../../../../../.bun/install/cache/links/html2canvas@1.4.1-d608a3ed0e3cd872/node_modules/html2canvas/dist/html2canvas.js",
+      "../../../../../../.bun/install/cache/links/dompurify@2.5.9-6aa173e3d4d0ffb4/node_modules/dompurify/dist/purify.js",
+      "../../../../../../.bun/install/cache/links/canvg@3.0.11-40ab337afcf5b510/node_modules/canvg/lib/index.es.js"
+    ]
+  },
+  "../../../../../../.bun/install/cache/links/wangeditor@4.7.15-fa0b0283863b61ee/node_modules/wangeditor/dist/wangEditor.js": {
+    "file": "assets/wangEditor-CdMbqML5.js",
+    "name": "wangEditor",
+    "src": "../../../../../../.bun/install/cache/links/wangeditor@4.7.15-fa0b0283863b61ee/node_modules/wangeditor/dist/wangEditor.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-QTnfLwEv.js"
+    ]
+  },
+  "__virtual_mf___mfe_internal__pcGraphEditor__loadShare___mf_0_g2_mf_2_platform_mf_1_pc_mf_2_ui__loadShare__-DMkgFDlj.css": {
+    "file": "assets/_virtual_mf___mfe_internal__pcGraphEditor__loadShare___mf_0_g2_mf_2_platform_mf_1_pc_mf_2_ui__loadShare__-DMkgFDlj.css",
+    "src": "__virtual_mf___mfe_internal__pcGraphEditor__loadShare___mf_0_g2_mf_2_platform_mf_1_pc_mf_2_ui__loadShare__-DMkgFDlj.css"
+  },
+  "__virtual_mf___mfe_internal__pcGraphEditor__loadShare___mf_0_g2_mf_2_platform_mf_1_pc_mf_2_ui__loadShare__.js-BdlaK-ie.js": {
+    "file": "assets/_virtual_mf___mfe_internal__pcGraphEditor__loadShare___mf_0_g2_mf_2_platform_mf_1_pc_mf_2_ui__loadShare__.js-BdlaK-ie.js",
+    "name": "_virtual_mf___mfe_internal__pcGraphEditor__loadShare___mf_0_g2_mf_2_platform_mf_1_pc_mf_2_ui__loadShare__.js",
+    "imports": [
+      "_rolldown-runtime-QTnfLwEv.js",
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "../../../../../../.bun/install/cache/links/html2canvas@1.4.1-d608a3ed0e3cd872/node_modules/html2canvas/dist/html2canvas.js",
+      "../../../../../../.bun/install/cache/links/jspdf@2.5.1-36496aaf874c95f5/node_modules/jspdf/dist/jspdf.es.min.js",
+      "../../../../../../.bun/install/cache/links/wangeditor@4.7.15-fa0b0283863b61ee/node_modules/wangeditor/dist/wangEditor.js"
+    ],
+    "css": [
+      "assets/_virtual_mf___mfe_internal__pcGraphEditor__loadShare___mf_0_g2_mf_2_platform_mf_1_pc_mf_2_ui__loadShare__-DMkgFDlj.css"
+    ]
+  },
+  "_rolldown-runtime-QTnfLwEv.js": {
+    "file": "assets/rolldown-runtime-QTnfLwEv.js",
+    "name": "rolldown-runtime"
+  },
+  "_src-BPd6sPpM.css": {
+    "file": "assets/src-BPd6sPpM.css",
+    "src": "_src-BPd6sPpM.css"
+  },
+  "_src-D7hHZ-Zl.js": {
+    "file": "assets/src-D7hHZ-Zl.js",
+    "name": "src",
+    "imports": [
+      "_rolldown-runtime-QTnfLwEv.js",
+      "__virtual_mf___mfe_internal__pcGraphEditor__loadShare___mf_0_g2_mf_2_platform_mf_1_pc_mf_2_ui__loadShare__.js-BdlaK-ie.js"
+    ],
+    "css": [
+      "assets/src-BPd6sPpM.css"
+    ]
+  },
+  "_virtual_mf-REMOTE_ENTRY_ID___mfe_internal__pcGraphEditor__remoteEntry_js-B0EYfExM.js": {
+    "file": "assets/virtual_mf-REMOTE_ENTRY_ID___mfe_internal__pcGraphEditor__remoteEntry_js-B0EYfExM.js",
+    "name": "virtual_mf-REMOTE_ENTRY_ID___mfe_internal__pcGraphEditor__remoteEntry_js",
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "virtual:mf-localSharedImportMap:__mfe_internal__pcGraphEditor",
+      "_virtual_mf-exposes___mfe_internal__pcGraphEditor__remoteEntry_js-BJjeX4fW.js"
+    ]
+  },
+  "_virtual_mf-exposes___mfe_internal__pcGraphEditor__remoteEntry_js-BJjeX4fW.js": {
+    "file": "assets/virtual_mf-exposes___mfe_internal__pcGraphEditor__remoteEntry_js-BJjeX4fW.js",
+    "name": "virtual_mf-exposes___mfe_internal__pcGraphEditor__remoteEntry_js",
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "src/info.ts",
+      "_src-D7hHZ-Zl.js",
+      "src/LineLoss.ts",
+      "src/platform-module.ts"
+    ]
+  },
+  "_vite-preload-helper-7P2xnrDv.js": {
+    "file": "assets/vite-preload-helper-7P2xnrDv.js",
+    "name": "vite-preload-helper"
+  },
+  "index.html": {
+    "file": "assets/index-C403ZA9g.js",
+    "name": "index",
+    "src": "index.html",
+    "isEntry": true,
+    "imports": [
+      "_virtual_mf-exposes___mfe_internal__pcGraphEditor__remoteEntry_js-BJjeX4fW.js",
+      "_virtual_mf-REMOTE_ENTRY_ID___mfe_internal__pcGraphEditor__remoteEntry_js-B0EYfExM.js"
+    ]
+  },
+  "src/LineLoss.ts": {
+    "file": "assets/LineLoss-DTJyGke9.js",
+    "name": "LineLoss",
+    "src": "src/LineLoss.ts",
+    "isEntry": true,
+    "imports": [
+      "_rolldown-runtime-QTnfLwEv.js",
+      "__virtual_mf___mfe_internal__pcGraphEditor__loadShare___mf_0_g2_mf_2_platform_mf_1_pc_mf_2_ui__loadShare__.js-BdlaK-ie.js",
+      "_src-D7hHZ-Zl.js"
+    ],
+    "css": [
+      "assets/LineLoss-DwxiuuRF.css"
+    ]
+  },
+  "src/index.ts": {
+    "file": "assets/src-B5JDlVrL.js",
+    "name": "src",
+    "src": "src/index.ts",
+    "isEntry": true,
+    "imports": [
+      "_src-D7hHZ-Zl.js"
+    ]
+  },
+  "src/info.ts": {
+    "file": "assets/info-BrfIVh3L.js",
+    "name": "info",
+    "src": "src/info.ts",
+    "isEntry": true
+  },
+  "src/platform-module.ts": {
+    "file": "assets/platform-module-8WSoNKpn.js",
+    "name": "platform-module",
+    "src": "src/platform-module.ts",
+    "isEntry": true
+  },
+  "virtual:mf-REMOTE_ENTRY_ID:__mfe_internal__pcGraphEditor__remoteEntry_js": {
+    "file": "remoteEntry.js",
+    "name": "remoteEntry",
+    "src": "virtual:mf-REMOTE_ENTRY_ID:__mfe_internal__pcGraphEditor__remoteEntry_js",
+    "imports": [
+      "_virtual_mf-REMOTE_ENTRY_ID___mfe_internal__pcGraphEditor__remoteEntry_js-B0EYfExM.js"
+    ]
+  },
+  "virtual:mf-REMOTE_ENTRY_SSR_ID:__mfe_internal__pcGraphEditor__remoteEntry_js": {
+    "file": "remoteEntry.ssr.js",
+    "name": "ssrRemoteEntry",
+    "src": "virtual:mf-REMOTE_ENTRY_SSR_ID:__mfe_internal__pcGraphEditor__remoteEntry_js",
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "virtual:mf-exposes-ssr:__mfe_internal__pcGraphEditor__remoteEntry_js"
+    ]
+  },
+  "virtual:mf-exposes-ssr:__mfe_internal__pcGraphEditor__remoteEntry_js": {
+    "file": "assets/virtual_mf-exposes-ssr___mfe_internal__pcGraphEditor__remoteEntry_js-DYFaqGvt.js",
+    "name": "virtual_mf-exposes-ssr___mfe_internal__pcGraphEditor__remoteEntry_js",
+    "src": "virtual:mf-exposes-ssr:__mfe_internal__pcGraphEditor__remoteEntry_js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "src/info.ts",
+      "_src-D7hHZ-Zl.js",
+      "src/LineLoss.ts",
+      "src/platform-module.ts"
+    ]
+  },
+  "virtual:mf-exposes:__mfe_internal__pcGraphEditor__remoteEntry_js": {
+    "file": "assets/virtualExposes-C7066z7s.js",
+    "name": "virtualExposes",
+    "src": "virtual:mf-exposes:__mfe_internal__pcGraphEditor__remoteEntry_js",
+    "imports": [
+      "_virtual_mf-exposes___mfe_internal__pcGraphEditor__remoteEntry_js-BJjeX4fW.js"
+    ]
+  },
+  "virtual:mf-localSharedImportMap:__mfe_internal__pcGraphEditor": {
+    "file": "assets/_virtual_mf-localSharedImportMap___mfe_internal__pcGraphEditor-BAPWfi9k.js",
+    "name": "_virtual_mf-localSharedImportMap___mfe_internal__pcGraphEditor",
+    "src": "virtual:mf-localSharedImportMap:__mfe_internal__pcGraphEditor",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "__virtual_mf___mfe_internal__pcGraphEditor__loadShare___mf_0_g2_mf_2_platform_mf_1_pc_mf_2_ui__loadShare__.js-BdlaK-ie.js"
+    ]
+  },
+  "virtual:mf:__mfe_internal__pcGraphEditor__H_A_I__hostAutoInit__H_A_I__.js": {
+    "file": "assets/hostInit-DE9Wjfj1.js",
+    "name": "hostInit",
+    "src": "virtual:mf:__mfe_internal__pcGraphEditor__H_A_I__hostAutoInit__H_A_I__.js",
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "_virtual_mf-REMOTE_ENTRY_ID___mfe_internal__pcGraphEditor__remoteEntry_js-B0EYfExM.js",
+      "virtual:mf-localSharedImportMap:__mfe_internal__pcGraphEditor"
+    ]
+  }
+}

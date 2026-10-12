@@ -1,0 +1,1 @@
+import{t as e}from"./change-page-Cc7K4fEy.js";var t=e(`copies`);export{t as PartChangePage};

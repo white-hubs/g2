@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:scada="http://cube-scada.io/ns/v1" viewBox="0 0 100 100">
+  <metadata>
+    <scada:element>
+      <scada:meta type="pipe-tee" label="三通" category="管道" version="1.0.0"/>
+      <scada:props>
+        <scada:prop name="flowing" type="boolean" label="流动中" default="false" domain="observe" semantic="status.flowing" required="false" bindable="true" controllable="false"/>
+        <scada:prop name="color" type="color" label="颜色" default="#B0BEC5" domain="observe" semantic="style.color" required="false" bindable="true" controllable="false"/>
+      </scada:props>
+      <scada:mappings>
+        <scada:map prop="color" selector=".pipe-body" attr="fill"/>
+        <scada:map prop="flowing" selector="#flow-tee" attr="opacity" transform="value ? '0.8' : '0'"/>
+      </scada:mappings>
+    </scada:element>
+  </metadata>
+  <path class="pipe-body" d="M10,40 L40,40 L40,90 L60,90 L60,40 L90,40 L90,60 L10,60 Z" fill="#B0BEC5" stroke="#78909C" stroke-width="2"/>
+  <rect x="0" y="40" width="15" height="20" fill="#90A4AE" stroke="#78909C"/>
+  <rect x="85" y="40" width="15" height="20" fill="#90A4AE" stroke="#78909C"/>
+  <rect x="40" y="85" width="20" height="15" fill="#90A4AE" stroke="#78909C"/>
+  <path id="flow-tee" d="M5,50 L50,50 L50,95 M50,50 L95,50" fill="none" stroke="#1890ff" stroke-width="4" stroke-dasharray="4,6" opacity="0"/>
+</svg>

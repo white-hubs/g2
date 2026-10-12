@@ -1,0 +1,1 @@
+import{t as e}from"./virtual_mf-exposes___mfe_internal__knowledgeDocumentClient__remoteEntry_js-ClngOkwL.js";export{e as default};

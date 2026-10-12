@@ -1,0 +1,1 @@
+import"./virtual_mf-exposes___mfe_internal__faultRepair__remoteEntry_js-CKnQOR8p.js";import"./virtual_mf-REMOTE_ENTRY_ID___mfe_internal__faultRepair__remoteEntry_js-BKcJ6PwQ.js";var e=document.querySelector(`#app`);e&&(e.textContent=`@g2-domain/fault-repair`);

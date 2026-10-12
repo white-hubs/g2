@@ -1,0 +1,1 @@
+import{t as e}from"./domain-context-BmWJk_n_.js";var t=()=>e().ensureClient(`attendanceClient`);export{t};

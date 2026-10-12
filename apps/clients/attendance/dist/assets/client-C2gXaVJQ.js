@@ -1,0 +1,1 @@
+import{n as e,t}from"./client-tHcYFDl1.js";export{t as create,e as createAttendanceClient};

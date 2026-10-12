@@ -1,0 +1,1 @@
+var e=e=>typeof e==`string`?e:Array.isArray(e)&&typeof e[0]==`string`?e[0]:``,t=(e,t)=>{e!==``&&sessionStorage.setItem(`fumigation-detail-mode:${e}`,t)};export{e as n,t};

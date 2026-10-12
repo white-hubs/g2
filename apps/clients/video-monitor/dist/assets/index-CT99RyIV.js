@@ -1,0 +1,1 @@
+import"./virtual_mf-exposes___mfe_internal__videoMonitorClient__remoteEntry_js-D_TIM4s6.js";import"./virtual_mf-REMOTE_ENTRY_ID___mfe_internal__videoMonitorClient__remoteEntry_js-CZMV_f8g.js";var e=document.querySelector(`#app`);e&&(e.textContent=`@g2-client/video-monitor`);

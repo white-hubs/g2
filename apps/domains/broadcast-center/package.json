@@ -1,0 +1,35 @@
+{
+  "name": "@g2-domain/broadcast-center",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "bun ../../../tooling/dev-link/cli.ts",
+    "dev:serve": "bun --bun vite --port 5080 --strictPort",
+    "build": "bun --bun vite build",
+    "preview": "bun --bun vite preview --port 5080 --strictPort",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "bun test"
+  },
+  "dependencies": {
+    "@g2-client/broadcast-center": "workspace:*",
+    "@g2-client/device-center": "workspace:*",
+    "@g2-client/file": "workspace:*",
+    "@g2-composition/contract": "workspace:*",
+    "@g2-contract/broadcast-center": "workspace:*",
+    "@g2-pages/generic-equipment-monitor": "workspace:*",
+    "@g2-platform/pc-player": "workspace:*",
+    "@g2-platform/pc-ui": "workspace:*",
+    "ant-design-vue": "catalog:antdv",
+    "dayjs": "1.11.13",
+    "vue": "catalog:vue",
+    "vue-router": "catalog:vue"
+  },
+  "devDependencies": {
+    "@g2-platform/pc-ui": "workspace:*",
+    "@g2-tooling/mf-vite": "workspace:*",
+    "@vitejs/plugin-vue-jsx": "catalog:vite",
+    "typescript": "catalog:typescript",
+    "vite": "catalog:vite"
+  }
+}

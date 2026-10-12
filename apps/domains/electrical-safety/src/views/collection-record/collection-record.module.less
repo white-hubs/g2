@@ -1,0 +1,108 @@
+/** 占满 layout-content，避免整页滚动导致左侧设备列表无法出现独立滚动条 */
+.pageWrap {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  min-height: 0;
+  overflow: hidden;
+}
+
+.container {
+  display: flex;
+  flex: 1;
+  min-height: 0;
+  gap: 12px;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  width: 260px;
+  min-width: 260px;
+  min-height: 0;
+  overflow: hidden;
+  background: #fff;
+  padding: 12px 8px;
+  border: 1px solid #f0f0f0;
+}
+
+.deviceFilter {
+  flex-shrink: 0;
+  margin-bottom: 10px;
+  padding-right: 8px;
+}
+
+.right {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  min-width: 0;
+  min-height: 0;
+  background: #fff;
+  padding: 12px;
+  border: 1px solid #f0f0f0;
+  overflow: hidden;
+}
+
+.filterRow {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
+.filterLabel {
+  color: rgba(0, 0, 0, 0.85);
+  min-width: 68px;
+}
+
+.rangePicker {
+  width: 260px;
+}
+
+.usageStrong {
+  font-weight: 600;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.85);
+}
+
+.deviceList {
+  flex: 1;
+  min-height: 0;
+  overflow-x: hidden;
+  overflow-y: auto;
+  padding-right: 8px;
+}
+
+.deviceLoading,
+.deviceEnd {
+  padding: 10px 0;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.45);
+}
+
+.deviceItem {
+  padding: 8px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  user-select: none;
+  color: rgba(0, 0, 0, 0.85);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.deviceItem:hover {
+  background: rgba(0, 0, 0, 0.03);
+}
+
+.deviceItemActive {
+  background: rgba(24, 144, 255, 0.1);
+  color: var(--cube-theme-var--primary-color);
+}
+
+.deviceCheckbox {
+  width: 14px;
+  height: 14px;
+}

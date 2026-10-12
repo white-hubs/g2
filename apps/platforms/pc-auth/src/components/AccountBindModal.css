@@ -1,0 +1,45 @@
+.pc-auth-account-bind__title {
+  margin: 0 0 4px;
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.pc-auth-account-bind__hint {
+  display: block;
+  margin-bottom: 16px;
+  text-align: center;
+  color: #666;
+  font-size: 13px;
+}
+
+.pc-auth-account-bind__options {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.pc-auth-account-bind__option {
+  padding: 16px;
+  border: 1px solid #e8e8e8;
+  border-radius: 6px;
+  cursor: pointer;
+  text-align: center;
+  transition: all 0.3s;
+}
+
+.pc-auth-account-bind__option:hover {
+  border-color: #1890ff;
+  background: #f6ffed;
+}
+
+.pc-auth-account-bind__submit {
+  margin-bottom: 8px;
+}
+
+.pc-auth-account-bind__back {
+  text-align: right;
+  color: #1578ff;
+  cursor: pointer;
+  font-size: 14px;
+}

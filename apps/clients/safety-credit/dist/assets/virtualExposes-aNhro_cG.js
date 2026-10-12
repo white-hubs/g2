@@ -1,0 +1,1 @@
+import{t as e}from"./virtual_mf-exposes___mfe_internal__safetyCreditClient__remoteEntry_js-DUl3PVCP.js";export{e as default};

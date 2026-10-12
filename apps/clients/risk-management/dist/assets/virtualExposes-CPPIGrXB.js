@@ -1,0 +1,1 @@
+import{t as e}from"./virtual_mf-exposes___mfe_internal__riskManagementClient__remoteEntry_js-CGeSRlJE.js";export{e as default};

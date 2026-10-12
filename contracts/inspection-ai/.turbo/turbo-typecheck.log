@@ -1,0 +1,2 @@
+$ tsc -p tsconfig.json --noEmit
+src/client-facade.ts(2,28): error TS7006: Parameter 'params' implicitly has an 'any' type.

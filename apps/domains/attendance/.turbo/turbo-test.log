@@ -1,0 +1,15 @@
+$ bun test
+bun test v1.3.14 (0d9b296a)
+
+src/query-state.test.ts:
+(pass) 考勤接入公共查询状态 > 日期、长 ID 和分页在查询、详情往返及重置后保持正确，业务深链参数不丢失 [29.26ms]
+(pass) 考勤接入公共查询状态 > 汇总统计的逗号日期区间保持字符串，详情 Tab 的长 ID 保持精度 [1.05ms]
+
+src/domain.test.ts:
+(pass) 考勤管理完整迁移路由 > 菜单顺序、分组及跨应用入口完整保留 [0.38ms]
+(pass) 考勤管理完整迁移路由 > 旧路由及菜单外页面都有独立路由，隐藏路由保持列表高亮 [0.95ms]
+
+ 4 pass
+ 0 fail
+ 86 expect() calls
+Ran 4 tests across 2 files. [2.32s]

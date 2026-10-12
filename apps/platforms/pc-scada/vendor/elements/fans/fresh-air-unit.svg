@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" id="fresh-air-unit-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+     xmlns:scada="https://cube-scada.guhecloud.com/ns/v1"
+     x="0px" y="0px" viewBox="0 0 1920 1080" 
+     width="120" height="68"
+     style="enable-background:new 0 0 1920 1080;" xml:space="preserve">
+<metadata>
+  <scada:element>
+    <scada:meta type="fresh-air-unit" label="新风机组" category="风机与通风" version="1.0.0"/>
+    <scada:props>
+      <scada:prop name="running" type="boolean" label="运行中" default="false" domain="observe" semantic="status.running" bindable="true" controllable="false"/>
+    </scada:props>
+    <scada:mappings/>
+    <scada:animations>
+      <scada:animation
+        id="spin"
+        triggerProp="running"
+        triggerCondition="value === true"
+        target="#fau-fan-group"
+        keyframes='[{"transform":"rotate(0deg)"},{"transform":"rotate(360deg)"}]'
+        duration="1000"
+        iterations="Infinity"
+        easing="linear"/>
+    </scada:animations>
+  </scada:element>
+</metadata>
+
+<defs>
+	<linearGradient id="fau_grad_1" gradientUnits="userSpaceOnUse" x1="1030.7343" y1="485.374" x2="1037.9247" y2="485.374" gradientTransform="matrix(1 0 0 -1 0 1077.874)">
+		<stop  offset="0" style="stop-color:#BBC3D1"/>
+		<stop  offset="1" style="stop-color:#607092"/>
+	</linearGradient>
+	<linearGradient id="fau_grad_2" gradientUnits="userSpaceOnUse" x1="1037.9" y1="485.474" x2="1070.6" y2="485.474" gradientTransform="matrix(1 0 0 -1 0 1077.874)">
+		<stop  offset="0" style="stop-color:#BBC3D1"/>
+		<stop  offset="1" style="stop-color:#607092"/>
+	</linearGradient>
+	<linearGradient id="fau_grad_3" gradientUnits="userSpaceOnUse" x1="984.7607" y1="788.5771" x2="989.0818" y2="282.9952" gradientTransform="matrix(1 0 0 -1 0 1077.874)">
+		<stop  offset="0" style="stop-color:#BBC3D1"/>
+		<stop  offset="1" style="stop-color:#607092"/>
+	</linearGradient>
+	<linearGradient id="fau_grad_4" gradientUnits="userSpaceOnUse" x1="926.5112" y1="747.7661" x2="930.2888" y2="305.782" gradientTransform="matrix(1 0 0 -1 0 1077.874)">
+		<stop  offset="0" style="stop-color:#C9D1DB"/>
+		<stop  offset="1" style="stop-color:#7D90B1"/>
+	</linearGradient>
+	<linearGradient id="fau_grad_5" gradientUnits="userSpaceOnUse" x1="958.0787" y1="648.2503" x2="947.9099" y2="548.7035" gradientTransform="matrix(1 0 0 -1 0 1077.874)">
+		<stop  offset="0" style="stop-color:#CDD3DB"/>
+		<stop  offset="1" style="stop-color:#607092"/>
+	</linearGradient>
+	<linearGradient id="fau_grad_6" gradientUnits="userSpaceOnUse" x1="1050.048" y1="535.9858" x2="964.4164" y2="519.038" gradientTransform="matrix(1 0 0 -1 0 1077.874)">
+		<stop  offset="0" style="stop-color:#CDD3DB"/>
+		<stop  offset="1" style="stop-color:#607092"/>
+	</linearGradient>
+	<linearGradient id="fau_grad_7" gradientUnits="userSpaceOnUse" x1="977.8584" y1="415.21" x2="938.2537" y2="488.8889" gradientTransform="matrix(1 0 0 -1 0 1077.874)">
+		<stop  offset="0" style="stop-color:#CDD3DB"/>
+		<stop  offset="1" style="stop-color:#607092"/>
+	</linearGradient>
+	<linearGradient id="fau_grad_8" gradientUnits="userSpaceOnUse" x1="835.4766" y1="442.9737" x2="898.0833" y2="511.8606" gradientTransform="matrix(1 0 0 -1 0 1077.874)">
+		<stop  offset="0" style="stop-color:#CDD3DB"/>
+		<stop  offset="1" style="stop-color:#607092"/>
+	</linearGradient>
+	<linearGradient id="fau_grad_9" gradientUnits="userSpaceOnUse" x1="817.054" y1="587.4949" x2="908.2159" y2="540.0407" gradientTransform="matrix(1 0 0 -1 0 1077.874)">
+		<stop  offset="0" style="stop-color:#CDD3DB"/>
+		<stop  offset="1" style="stop-color:#607092"/>
+	</linearGradient>
+</defs>
+
+<style type="text/css">
+	.fau_st0{fill:url(#fau_grad_1);}
+	.fau_st4{fill:#1D3234;}
+	.fau_st10{fill:none;stroke:#DBDDEB;stroke-width:12;stroke-miterlimit:10;}
+	.fau_st11{fill:#1C3234;}
+	.fau_st12{fill:none;stroke:#8C97AE;stroke-width:4;stroke-miterlimit:10;}
+	.fau_st13{fill:#B6B8CD;}
+	.fau_st14{fill:#DBDDEB;}
+	.fau_st15{fill:#3D4F76;}
+</style>
+
+<g id="fau-static-body">
+	<path class="fau_st0" d="M1037.9,592.4c-2.3,0-4.7,0.1-7,0.2l-0.2-0.2H1037.9z"/>
+	<path style="fill:url(#fau_grad_2);" d="M1070.6,592.4L1070.6,592.4h-30.7c-0.7,0-1.3,0-2,0H1070.6z"/>
+	<path style="fill:url(#fau_grad_3);" d="M1297.5,289.8v332h-137.1c-33.2,100.8-121.5,173.6-233.4,173.6c-139.6,0-252.8-113.2-252.8-252.8S787.4,289.8,927,289.8L1297.5,289.8L1297.5,289.8z"/>
+	<circle style="fill:url(#fau_grad_4);stroke:#C0C8D4;stroke-width:0.5;stroke-miterlimit:10;" cx="928.4" cy="551.1" r="221"/>
+	<path class="fau_st15" d="M1297.6,289.9c0,0,7-8.9,9.3,178.3c0,164.7-9.3,153.5-9.3,153.5V289.9z"/>
+</g>
+
+<g id="fau-fan-group" style="transform-origin: 929.4px 551.1px">
+	<ellipse transform="matrix(0.7071 -0.7071 0.7071 0.7071 -117.6544 818.7571)" class="fau_st4" cx="929.5" cy="551.4" rx="143.2" ry="143.2"/>
+	<path style="fill:url(#fau_grad_5);" d="M923.8,523.1c0,0,23.8-53-13-90.1l0,0c-1.7-1.7-0.7-4.6,1.7-4.8c13-1.3,45.4-1.9,81.2,18.8c31.7,25.6-35.1,92.9-35.1,92.9S945.2,527.2,923.8,523.1z"/>
+	<path style="fill:url(#fau_grad_6);" d="M957.4,537.8c0,0,56.3,5.4,79.9-41.2l0,0c1.1-2.2,4.2-2.1,5.1,0.1c5.3,11.9,16.1,42.5,7.7,82.9c-14.3,38.1-99.2-4.1-99.2-4.1S960.3,559.3,957.4,537.8z"/>
+	<path style="fill:url(#fau_grad_7);" d="M950.9,575c0,0,14.5,54.7,66.4,60.6l0,0c2.4,0.2,3.4,3.2,1.7,4.8c-9.4,9.1-34.2,29.9-75.1,36.1c-40.7-0.1-30.7-94.4-30.7-94.4S931.7,585.1,950.9,575z"/>
+	<path style="fill:url(#fau_grad_8);" d="M915.3,580.9c0,0-48.7,28.7-40.5,80.3l0,0c0.4,2.4-2.1,4.2-4.2,3c-11.3-6.6-38-24.9-55-62.6c-10.8-39.2,82.7-55,82.7-55S900.3,565.2,915.3,580.9z"/>
+	<path style="fill:url(#fau_grad_9);" d="M899,549.3c0,0-44.3-35.2-89.5-8.9l0,0c-2.1,1.2-4.6-0.5-4.3-2.9c2.1-12.9,9.6-44.4,38.6-73.8c32.7-24.2,83,59.6,83,59.6S908.3,529.6,899,549.3z"/>
+	<circle class="fau_st10" cx="929.4" cy="551.1" r="154.2"/>
+	<circle class="fau_st11" cx="929.4" cy="557.3" r="33.1"/>
+	<circle class="fau_st12" cx="929.4" cy="557.3" r="33.1"/>
+	<circle class="fau_st13" cx="929.4" cy="557.3" r="15.6"/>
+</g>
+
+<g id="fau-decorations">
+	<circle class="fau_st14" cx="936.3" cy="360.4" r="10"/>
+	<circle class="fau_st14" cx="1072.7" cy="422.9" r="10"/>
+	<ellipse class="fau_st14" cx="859.5" cy="730.4" rx="10.7" ry="10"/>
+	<circle class="fau_st14" cx="1119.9" cy="580.4" r="10"/>
+	<circle class="fau_st14" cx="1033.1" cy="715.3" r="10"/>
+	<circle class="fau_st14" cx="743.1" cy="605.6" r="10"/>
+	<circle class="fau_st14" cx="780.4" cy="433" r="10"/>
+</g>
+</svg>

@@ -1,0 +1,1 @@
+import"./virtual_mf-exposes___mfe_internal__pcChart__remoteEntry_js-DrlkrBLl.js";import"./virtual_mf-REMOTE_ENTRY_ID___mfe_internal__pcChart__remoteEntry_js-b4xA8prd.js";import{t as e}from"./_virtual_mf___mfe_internal__pcChart__loadShare__vue__loadShare__.js-DC195r0S.js";e({template:`<p>@g2-platform/pc-chart (library remote)</p>`}).mount(`#app`);

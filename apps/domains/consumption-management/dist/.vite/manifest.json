@@ -1,0 +1,229 @@
+{
+  "__virtual_mf___mfe_internal__consumptionManagement__loadShare__vue__loadShare__.js-LanTQM4M.js": {
+    "file": "assets/_virtual_mf___mfe_internal__consumptionManagement__loadShare__vue__loadShare__.js-LanTQM4M.js",
+    "name": "_virtual_mf___mfe_internal__consumptionManagement__loadShare__vue__loadShare__.js",
+    "imports": [
+      "_rolldown-runtime-QTnfLwEv.js"
+    ]
+  },
+  "__virtual_mf___mfe_internal__consumptionManagement__loadShare__vue_mf_2_router__loadShare__.js-DY7zmZsq.js": {
+    "file": "assets/_virtual_mf___mfe_internal__consumptionManagement__loadShare__vue_mf_2_router__loadShare__.js-DY7zmZsq.js",
+    "name": "_virtual_mf___mfe_internal__consumptionManagement__loadShare__vue_mf_2_router__loadShare__.js",
+    "imports": [
+      "_rolldown-runtime-QTnfLwEv.js",
+      "__virtual_mf___mfe_internal__consumptionManagement__loadShare__vue__loadShare__.js-LanTQM4M.js"
+    ]
+  },
+  "_account-Ca9_l8AW.css": {
+    "file": "assets/account-Ca9_l8AW.css",
+    "src": "_account-Ca9_l8AW.css"
+  },
+  "_account.module-DlGLrmlG.js": {
+    "file": "assets/account.module-DlGLrmlG.js",
+    "name": "account.module",
+    "css": [
+      "assets/account-Ca9_l8AW.css"
+    ]
+  },
+  "_change-page-BCS71GVh.css": {
+    "file": "assets/change-page-BCS71GVh.css",
+    "src": "_change-page-BCS71GVh.css"
+  },
+  "_change-page-Cc7K4fEy.js": {
+    "file": "assets/change-page-Cc7K4fEy.js",
+    "name": "change-page",
+    "imports": [
+      "_rolldown-runtime-QTnfLwEv.js",
+      "_domain-DClOpmQp.js",
+      "__virtual_mf___mfe_internal__consumptionManagement__loadShare__vue__loadShare__.js-LanTQM4M.js",
+      "__virtual_mf___mfe_internal__consumptionManagement__loadShare__vue_mf_2_router__loadShare__.js-DY7zmZsq.js",
+      "_dayjs.min-DwFf_CCC.js"
+    ],
+    "css": [
+      "assets/change-page-BCS71GVh.css"
+    ]
+  },
+  "_dayjs.min-DwFf_CCC.js": {
+    "file": "assets/dayjs.min-DwFf_CCC.js",
+    "name": "dayjs.min",
+    "imports": [
+      "_rolldown-runtime-QTnfLwEv.js"
+    ]
+  },
+  "_domain-DClOpmQp.js": {
+    "file": "assets/domain-DClOpmQp.js",
+    "name": "domain",
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js",
+      "__virtual_mf___mfe_internal__consumptionManagement__loadShare__vue__loadShare__.js-LanTQM4M.js"
+    ],
+    "dynamicImports": [
+      "src/views/account/list-page.tsx",
+      "src/views/account/details-page.tsx",
+      "src/views/change/part-page.tsx",
+      "src/views/change/money-page.tsx",
+      "src/views/person-record-page.tsx"
+    ]
+  },
+  "_rolldown-runtime-QTnfLwEv.js": {
+    "file": "assets/rolldown-runtime-QTnfLwEv.js",
+    "name": "rolldown-runtime"
+  },
+  "_virtual_mf-REMOTE_ENTRY_ID___mfe_internal__consumptionManagement__remoteEntry_js-CEWMyCyl.js": {
+    "file": "assets/virtual_mf-REMOTE_ENTRY_ID___mfe_internal__consumptionManagement__remoteEntry_js-CEWMyCyl.js",
+    "name": "virtual_mf-REMOTE_ENTRY_ID___mfe_internal__consumptionManagement__remoteEntry_js",
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "virtual:mf-localSharedImportMap:__mfe_internal__consumptionManagement",
+      "_virtual_mf-exposes___mfe_internal__consumptionManagement__remoteEntry_js-C81CRv_m.js"
+    ]
+  },
+  "_virtual_mf-exposes___mfe_internal__consumptionManagement__remoteEntry_js-C81CRv_m.js": {
+    "file": "assets/virtual_mf-exposes___mfe_internal__consumptionManagement__remoteEntry_js-C81CRv_m.js",
+    "name": "virtual_mf-exposes___mfe_internal__consumptionManagement__remoteEntry_js",
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "_domain-DClOpmQp.js"
+    ]
+  },
+  "_vite-preload-helper-7P2xnrDv.js": {
+    "file": "assets/vite-preload-helper-7P2xnrDv.js",
+    "name": "vite-preload-helper"
+  },
+  "src/domain.ts": {
+    "file": "assets/domain-BrPQp6W_.js",
+    "name": "domain",
+    "src": "src/domain.ts",
+    "isEntry": true,
+    "imports": [
+      "_domain-DClOpmQp.js"
+    ]
+  },
+  "src/views/account/details-page.tsx": {
+    "file": "assets/details-page-CXeCTULG.js",
+    "name": "details-page",
+    "src": "src/views/account/details-page.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-QTnfLwEv.js",
+      "_domain-DClOpmQp.js",
+      "__virtual_mf___mfe_internal__consumptionManagement__loadShare__vue__loadShare__.js-LanTQM4M.js",
+      "__virtual_mf___mfe_internal__consumptionManagement__loadShare__vue_mf_2_router__loadShare__.js-DY7zmZsq.js",
+      "_dayjs.min-DwFf_CCC.js",
+      "_account.module-DlGLrmlG.js"
+    ]
+  },
+  "src/views/account/list-page.tsx": {
+    "file": "assets/list-page-HgepOwdf.js",
+    "name": "list-page",
+    "src": "src/views/account/list-page.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_domain-DClOpmQp.js",
+      "__virtual_mf___mfe_internal__consumptionManagement__loadShare__vue__loadShare__.js-LanTQM4M.js",
+      "__virtual_mf___mfe_internal__consumptionManagement__loadShare__vue_mf_2_router__loadShare__.js-DY7zmZsq.js",
+      "_account.module-DlGLrmlG.js"
+    ]
+  },
+  "src/views/change/money-page.tsx": {
+    "file": "assets/money-page-CDp7tD4J.js",
+    "name": "money-page",
+    "src": "src/views/change/money-page.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_change-page-Cc7K4fEy.js"
+    ]
+  },
+  "src/views/change/part-page.tsx": {
+    "file": "assets/part-page-38ZbNhbd.js",
+    "name": "part-page",
+    "src": "src/views/change/part-page.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_change-page-Cc7K4fEy.js"
+    ]
+  },
+  "src/views/person-record-page.tsx": {
+    "file": "assets/person-record-page-BkLrLrVy.js",
+    "name": "person-record-page",
+    "src": "src/views/person-record-page.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-QTnfLwEv.js",
+      "_domain-DClOpmQp.js",
+      "__virtual_mf___mfe_internal__consumptionManagement__loadShare__vue__loadShare__.js-LanTQM4M.js",
+      "_dayjs.min-DwFf_CCC.js"
+    ],
+    "css": [
+      "assets/person-record-page-CEdp3tz6.css"
+    ]
+  },
+  "virtual:mf-REMOTE_ENTRY_ID:__mfe_internal__consumptionManagement__remoteEntry_js": {
+    "file": "remoteEntry.js",
+    "name": "remoteEntry",
+    "src": "virtual:mf-REMOTE_ENTRY_ID:__mfe_internal__consumptionManagement__remoteEntry_js",
+    "imports": [
+      "_virtual_mf-REMOTE_ENTRY_ID___mfe_internal__consumptionManagement__remoteEntry_js-CEWMyCyl.js"
+    ]
+  },
+  "virtual:mf-REMOTE_ENTRY_SSR_ID:__mfe_internal__consumptionManagement__remoteEntry_js": {
+    "file": "remoteEntry.ssr.js",
+    "name": "ssrRemoteEntry",
+    "src": "virtual:mf-REMOTE_ENTRY_SSR_ID:__mfe_internal__consumptionManagement__remoteEntry_js",
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "virtual:mf-exposes-ssr:__mfe_internal__consumptionManagement__remoteEntry_js"
+    ]
+  },
+  "virtual:mf-exposes-ssr:__mfe_internal__consumptionManagement__remoteEntry_js": {
+    "file": "assets/virtual_mf-exposes-ssr___mfe_internal__consumptionManagement__remoteEntry_js-CEDXR4ei.js",
+    "name": "virtual_mf-exposes-ssr___mfe_internal__consumptionManagement__remoteEntry_js",
+    "src": "virtual:mf-exposes-ssr:__mfe_internal__consumptionManagement__remoteEntry_js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "_domain-DClOpmQp.js"
+    ]
+  },
+  "virtual:mf-exposes:__mfe_internal__consumptionManagement__remoteEntry_js": {
+    "file": "assets/virtualExposes-F7GEOz4h.js",
+    "name": "virtualExposes",
+    "src": "virtual:mf-exposes:__mfe_internal__consumptionManagement__remoteEntry_js",
+    "imports": [
+      "_virtual_mf-exposes___mfe_internal__consumptionManagement__remoteEntry_js-C81CRv_m.js"
+    ]
+  },
+  "virtual:mf-localSharedImportMap:__mfe_internal__consumptionManagement": {
+    "file": "assets/_virtual_mf-localSharedImportMap___mfe_internal__consumptionManagement-DEnV7ENk.js",
+    "name": "_virtual_mf-localSharedImportMap___mfe_internal__consumptionManagement",
+    "src": "virtual:mf-localSharedImportMap:__mfe_internal__consumptionManagement",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "__virtual_mf___mfe_internal__consumptionManagement__loadShare__vue__loadShare__.js-LanTQM4M.js",
+      "__virtual_mf___mfe_internal__consumptionManagement__loadShare__vue_mf_2_router__loadShare__.js-DY7zmZsq.js"
+    ]
+  },
+  "virtual:mf:__mfe_internal__consumptionManagement__H_A_I__hostAutoInit__H_A_I__.js": {
+    "file": "assets/hostInit-Jskb07QC.js",
+    "name": "hostInit",
+    "src": "virtual:mf:__mfe_internal__consumptionManagement__H_A_I__hostAutoInit__H_A_I__.js",
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "_virtual_mf-REMOTE_ENTRY_ID___mfe_internal__consumptionManagement__remoteEntry_js-CEWMyCyl.js",
+      "virtual:mf-localSharedImportMap:__mfe_internal__consumptionManagement"
+    ]
+  }
+}

@@ -1,0 +1,35 @@
+$ bun --bun vite build
+vite v8.1.5 building client environment for production...
+[2Ktransforming...✓ 84 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                                                                                 0.89 kB │ gzip:  0.51 kB
+dist/mf-manifest.json                                                                           1.15 kB │ gzip:  0.43 kB
+dist/assets/mf-entry-bootstrap-0-853c7d73.js                                                    1.35 kB
+dist/mf-stats.json                                                                              3.39 kB │ gzip:  0.85 kB
+dist/.vite/manifest.json                                                                        4.86 kB │ gzip:  0.71 kB
+dist/assets/src-DINNOJoZ.css                                                                    0.83 kB │ gzip:  0.45 kB
+dist/assets/platform-module-CO_QO1So.js                                                         0.06 kB │ gzip:  0.08 kB
+dist/assets/virtualExposes-CINRgELg.js                                                          0.11 kB │ gzip:  0.12 kB
+dist/assets/info-BKya-SqX.js                                                                    0.13 kB │ gzip:  0.12 kB
+dist/remoteEntry.js                                                                             0.13 kB │ gzip:  0.14 kB
+dist/assets/index-BNXJqDpP.js                                                                   0.25 kB │ gzip:  0.18 kB
+dist/assets/_virtual_mf-localSharedImportMap___mfe_internal__pcPlayer-DlYeso51.js               0.65 kB │ gzip:  0.45 kB
+dist/assets/virtual_mf-exposes-ssr___mfe_internal__pcPlayer__remoteEntry_js-DHPVlHgs.js         0.72 kB │ gzip:  0.34 kB
+dist/remoteEntry.ssr.js                                                                         0.98 kB │ gzip:  0.58 kB
+dist/assets/vite-preload-helper-7P2xnrDv.js                                                     1.41 kB │ gzip:  0.75 kB
+dist/assets/virtual_mf-exposes___mfe_internal__pcPlayer__remoteEntry_js-sadAP06l.js             1.67 kB │ gzip:  0.72 kB
+dist/assets/hostInit-DxTkvRDw.js                                                                2.29 kB │ gzip:  1.09 kB
+dist/assets/src-Ci3TshpT.js                                                                     2.54 kB │ gzip:  1.28 kB
+dist/assets/virtual_mf-REMOTE_ENTRY_ID___mfe_internal__pcPlayer__remoteEntry_js-Bw4vmBMB.js    39.00 kB │ gzip: 12.92 kB
+dist/assets/_virtual_mf___mfe_internal__pcPlayer__loadShare__vue__loadShare__.js-DPDMPETI.js  121.62 kB │ gzip: 45.20 kB
+
+[33m[PLUGIN_TIMINGS] [0mYour build spent significant time in plugins. Here is a breakdown:
+  - proxyPreBuildShared:resolve-shared-loadShare (19%)
+  - proxyRemoteEntry (11%)
+  - mf:ssr-remote-entry:pre (10%)
+  - proxyPreBuildShared:resolve-prebuild (9%)
+  - g2-mf-runtime-remote-external (7%)
+See https://rolldown.rs/reference/InputOptions.checks#plugintimings for more details.
+
+✓ built in 3.46s

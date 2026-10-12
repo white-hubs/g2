@@ -1,0 +1,1 @@
+import"./virtual_mf-exposes___mfe_internal__secureEdu__remoteEntry_js-D1HfkEFh.js";import"./virtual_mf-REMOTE_ENTRY_ID___mfe_internal__secureEdu__remoteEntry_js-DglVz9i_.js";document.querySelector(`#app`).textContent=`@g2-domain/secure-edu-market`;

@@ -1,0 +1,16 @@
+.edit-content {
+  padding: 12px 0;
+}
+.edit-content .title {
+  font-size: 14px;
+  color: var(--g2-color-primary, var(--cube-theme-var--primary-color, #1890ff));
+  width: fit-content;
+  padding: 0 6px;
+  height: 30px;
+  text-align: center;
+  border-bottom: 2px solid var(--g2-color-primary, var(--cube-theme-var--primary-color, #1890ff));
+  margin-bottom: 12px;
+}
+.ml-16 {
+  margin-left: 16px;
+}

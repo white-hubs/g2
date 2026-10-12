@@ -1,0 +1,1 @@
+import"./virtual_mf-exposes___mfe_internal__safetyManagementHead__remoteEntry_js-Bp6Cfi0u.js";import"./virtual_mf-REMOTE_ENTRY_ID___mfe_internal__safetyManagementHead__remoteEntry_js-BBVKMzQE.js";document.querySelector(`#app`).textContent=`@g2-domain/safety-management-head build shell`;

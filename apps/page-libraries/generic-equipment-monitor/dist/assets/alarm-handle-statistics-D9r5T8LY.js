@@ -1,0 +1,1 @@
+import{S as e,t}from"./_virtual_mf___mfe_internal__genericEquipmentMonitorPages__loadShare__vue__loadShare__.js-BR2LWDBS.js";import{t as n}from"./alarm-statistic-UCRHj9J-.js";var r=e({name:`GemAlarmHandleStatistics`,inheritAttrs:!1,setup(e,{attrs:r}){return()=>t(n,{...r,mode:`user`,title:`报警处理统计`})}});export{r as default};

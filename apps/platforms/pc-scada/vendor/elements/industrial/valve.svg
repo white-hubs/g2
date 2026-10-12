@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:scada="http://cube-scada.io/ns/v1"
+     viewBox="0 0 100 100">
+  <metadata>
+    <scada:element>
+      <scada:meta type="valve" label="截止阀" category="流体控制" version="1.0.0"/>
+      <scada:props>
+        <scada:prop name="state" type="select" label="状态" default="closed"
+          options='[{"value":"open","label":"开启"},{"value":"closed","label":"关闭"}]' domain="observe" semantic="status.state" required="false" bindable="true" controllable="false"/>
+        <scada:prop name="label"  type="string" label="标签" default="阀门" domain="observe" semantic="display.label" required="false" bindable="true" controllable="false"/>
+        <scada:prop name="stroke" type="color"  label="边框" default="#333333" domain="observe" semantic="style.stroke" required="false" bindable="true" controllable="false"/>
+        <scada:prop name="commandOpen" type="boolean" label="开阀命令" default="false" domain="control" semantic="command.open" required="false" bindable="false" controllable="true"/>
+        <scada:prop name="commandClose" type="boolean" label="关阀命令" default="false" domain="control" semantic="command.close" required="false" bindable="false" controllable="true"/>
+      </scada:props>
+      <scada:mappings>
+        <scada:map prop="state"  selector="#valve-body" attr="fill"
+          transform="value === 'open' ? '#00c851' : '#ff4444'"/>
+        <scada:map prop="label"  selector="#label-text" attr="textContent"/>
+        <scada:map prop="stroke" selector=".stroke-group" attr="stroke"/>
+      </scada:mappings>
+      <scada:animations>
+        <scada:animation
+          id="pulse"
+          triggerProp="state"
+          triggerCondition="value === 'open'"
+          target="#valve-body"
+          keyframes='[{"opacity":1},{"opacity":0.6},{"opacity":1}]'
+          duration="1500"
+          iterations="Infinity"
+          easing="ease-in-out"/>
+      </scada:animations>
+    </scada:element>
+  </metadata>
+  <g class="stroke-group" stroke="#333" stroke-width="2" fill="none">
+    <rect id="valve-body" x="15" y="35" width="70" height="30" rx="4" fill="#ff4444"/>
+    <line x1="50" y1="10" x2="50" y2="35"/>
+    <line x1="35" y1="10" x2="65" y2="10"/>
+  </g>
+  <text id="label-text" x="50" y="90" text-anchor="middle" font-size="10" fill="#333">阀门</text>
+</svg>

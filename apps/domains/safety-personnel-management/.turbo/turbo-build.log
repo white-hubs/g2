@@ -1,0 +1,51 @@
+$ bun --bun vite build
+vite v8.1.5 building client environment for production...
+[2Ktransforming...✓ 4106 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/assets/mf-entry-bootstrap-7-16e526b4.js                                                                                   1.35 kB
+dist/mf-manifest.json                                                                                                          1.35 kB │ gzip:   0.46 kB
+dist/assets/mf-entry-bootstrap-4-2903be29.js                                                                                   1.36 kB
+dist/assets/mf-entry-bootstrap-0-9d7af412.js                                                                                   1.36 kB
+dist/assets/mf-entry-bootstrap-2-b7482308.js                                                                                   1.38 kB
+dist/index.html                                                                                                                1.40 kB │ gzip:   0.38 kB
+dist/assets/mf-entry-bootstrap-1-de780d0e.js                                                                                   1.42 kB
+dist/assets/mf-entry-bootstrap-3-ac985055.js                                                                                   1.43 kB
+dist/assets/mf-entry-bootstrap-5-3534d1dc.js                                                                                   1.43 kB
+dist/assets/mf-entry-bootstrap-6-a7a839a9.js                                                                                   1.44 kB
+dist/mf-stats.json                                                                                                             4.87 kB │ gzip:   1.05 kB
+dist/.vite/manifest.json                                                                                                       7.73 kB │ gzip:   0.99 kB
+dist/assets/src-1f1oN9FM.css                                                                                                  16.69 kB │ gzip:   6.62 kB
+dist/assets/domain-qTdp2d69.css                                                                                               23.92 kB │ gzip:   5.58 kB
+dist/assets/domain-Czi-q2j7.js                                                                                                 0.06 kB │ gzip:   0.07 kB
+dist/assets/virtualExposes-bNc3xbtV.js                                                                                         0.13 kB │ gzip:   0.13 kB
+dist/remoteEntry.js                                                                                                            0.15 kB │ gzip:   0.15 kB
+dist/assets/virtual_mf-exposes-ssr___mfe_internal__safetyPersonnelManagement__remoteEntry_js-Dv7-lwbl.js                       0.37 kB │ gzip:   0.29 kB
+dist/assets/rolldown-runtime-QTnfLwEv.js                                                                                       0.69 kB │ gzip:   0.42 kB
+dist/remoteEntry.ssr.js                                                                                                        1.03 kB │ gzip:   0.58 kB
+dist/assets/virtual_mf-exposes___mfe_internal__safetyPersonnelManagement__remoteEntry_js-DzwjcGeN.js                           1.07 kB │ gzip:   0.65 kB
+dist/assets/_virtual_mf-localSharedImportMap___mfe_internal__safetyPersonnelManagement-CNvGmKmR.js                             1.26 kB │ gzip:   0.53 kB
+dist/assets/vite-preload-helper-7P2xnrDv.js                                                                                    1.41 kB │ gzip:   0.75 kB
+dist/assets/hostInit-Bp8B8zUx.js                                                                                               2.35 kB │ gzip:   1.11 kB
+dist/assets/leaflet-rotate-hAaDqhcJ.js                                                                                        21.51 kB │ gzip:   5.92 kB
+dist/assets/_virtual_mf___mfe_internal__safetyPersonnelManagement__loadShare__vue_mf_2_router__loadShare__.js-BQmRhldA.js     30.56 kB │ gzip:  11.35 kB
+dist/assets/virtual_mf-REMOTE_ENTRY_ID___mfe_internal__safetyPersonnelManagement__remoteEntry_js-DnHPzLVS.js                  39.06 kB │ gzip:  12.94 kB
+dist/assets/_virtual_mf___mfe_internal__safetyPersonnelManagement__loadShare__vue__loadShare__.js-BPV5KVA5.js                122.12 kB │ gzip:  45.60 kB
+dist/assets/src-DVu-Shi4.js                                                                                                  207.82 kB │ gzip:  59.23 kB
+dist/assets/wangEditor-CdMbqML5.js                                                                                           262.37 kB │ gzip:  73.64 kB
+dist/assets/domain-BqNcHLQt.js                                                                                             2,175.45 kB │ gzip: 682.01 kB
+
+[33m[PLUGIN_TIMINGS] [0mYour build spent significant time in plugins. Here is a breakdown:
+  - proxyPreBuildShared:resolve-shared-loadShare (15%)
+  - vite:module-federation-virtual-modules (13%)
+  - g2-mf-runtime-remote-external (12%)
+  - proxyRemotes (10%)
+  - mf:ssr-remote-entry:pre (9%)
+See https://rolldown.rs/reference/InputOptions.checks#plugintimings for more details.
+
+[plugin builtin:vite-reporter] 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+✓ built in 15.86s

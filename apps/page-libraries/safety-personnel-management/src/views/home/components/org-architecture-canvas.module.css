@@ -1,0 +1,162 @@
+.canvasShell {
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  min-height: 0;
+  overflow: hidden;
+  background: #edf4fb;
+}
+
+.canvas {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  touch-action: none;
+  cursor: grab;
+  background: #edf4fb;
+}
+
+.orgCard {
+  box-sizing: border-box;
+  overflow: hidden;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgb(22 119 255 / 12%);
+}
+
+.cardHeader {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 48px;
+  padding: 0 16px;
+  background: #1677ff;
+  border-radius: 8px 8px 0 0;
+}
+
+.cardTitle {
+  flex: 1;
+  min-width: 0;
+  overflow: hidden;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.cardIcon {
+  flex: 0 0 auto;
+  width: 22px;
+  height: 22px;
+  margin-left: 12px;
+  color: #fff;
+  pointer-events: none;
+}
+
+.cardBody {
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-auto-rows: minmax(96px, auto);
+  gap: 10px;
+  padding: 14px 16px 16px;
+}
+
+.cardBodySingle {
+  display: flex;
+  justify-content: center;
+}
+
+.cardBodySingle .memberItem {
+  width: calc((100% - 10px) / 2);
+  max-width: 100%;
+}
+
+.memberItem {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  min-width: 0;
+  min-height: 96px;
+  padding: 10px 12px;
+  overflow: hidden;
+  background: #f5faff;
+  border: 1px solid #dfedff;
+  border-radius: 6px;
+}
+
+.memberNameRow {
+  display: flex;
+  flex: 0 0 auto;
+  align-items: center;
+  justify-content: space-between;
+  min-width: 0;
+  height: 28px;
+  margin-bottom: 6px;
+}
+
+.memberName {
+  flex: 1;
+  min-width: 0;
+  overflow: hidden;
+  color: rgb(0 0 0 / 88%);
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.memberAvatar,
+.memberAvatarImg {
+  flex: 0 0 auto;
+  width: 28px;
+  height: 28px;
+  margin-left: 8px;
+  border-radius: 50%;
+}
+
+.memberAvatar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 1;
+  background: #1677ff;
+}
+
+.memberAvatarImg {
+  display: block;
+  object-fit: cover;
+  background: #f5faff;
+  border: 1px solid #dfedff;
+}
+
+.memberMeta {
+  display: block;
+  min-width: 0;
+  overflow: hidden;
+  color: rgb(0 0 0 / 45%);
+  font-size: 12px;
+  line-height: 18px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.memberMeta + .memberMeta {
+  margin-top: 2px;
+}
+
+.memberItemMore,
+.memberItemEmpty {
+  align-items: center;
+  justify-content: center;
+  color: rgb(0 0 0 / 45%);
+  font-size: 13px;
+}

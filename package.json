@@ -1,0 +1,116 @@
+{
+  "name": "g2",
+  "private": true,
+  "workspaces": [
+    "apps/shells/*",
+    "apps/domains/*",
+    "apps/page-libraries/*",
+    "apps/platforms/*",
+    "apps/clients/*",
+    "apps/standalone/*",
+    "packages/*",
+    "packages/config/*",
+    "contracts/*",
+    "bff",
+    "backends/*",
+    "tooling/*"
+  ],
+  "type": "module",
+  "scripts": {
+    "prepare": "husky",
+    "build": "turbo run build",
+    "dev": "turbo run dev --filter=@g2-shell/pc",
+    "dev:full": "bun tooling/dev-full/cli.ts deploy/compositions/prod.pc.yaml",
+    "lint": "oxlint .",
+    "fmt": "oxfmt --write .",
+    "fmt:check": "oxfmt --check .",
+    "test": "bun test",
+    "test:ui": "turbo run test:ui",
+    "typecheck": "turbo run typecheck",
+    "validate:compositions": "bun run --filter @g2-composition/schema validate",
+    "check:deps": "bun run --filter @g2-tooling/dependency-governance check",
+    "check:forbidden-files": "bun run --filter @g2-tooling/forbidden-files check",
+    "check:no-vue": "bun run check:forbidden-files",
+    "check:deps-graph": "bun run --filter @g2-tooling/deps-graph check",
+    "check:knip": "bun run --filter @g2-tooling/knip check",
+    "check:cube-services-parity": "bun run --filter @g2-tooling/cube-services-parity check",
+    "check:page-libraries": "bun run --filter @g2-tooling/page-library-check check",
+    "check:runtime-common": "bun run --filter @g2-tooling/runtime-common-check check",
+    "web-release:up": "mkdir -p .deploy-out/prod && test -f .deploy-out/prod/shell-location.conf || cp deploy/nginx/shell-location.stub.conf .deploy-out/prod/shell-location.conf; if [ -z \"${OAUTH_CLIENT_SECRET:-}\" ]; then OAUTH_CLIENT_SECRET=\"$(awk -F= '$1 == \"OAUTH_CLIENT_SECRET\" { sub(/^[^=]*=/, \"\"); print; exit }' deploy/docker-compose/.env)\"; fi; test -n \"$OAUTH_CLIENT_SECRET\" || { echo 'OAUTH_CLIENT_SECRET is required in deploy/docker-compose/.env or the shell environment' >&2; exit 1; }; export OAUTH_CLIENT_SECRET; docker compose --env-file deploy/docker-compose/.env -f deploy/docker-compose/docker-compose.yaml up -d --pull missing",
+    "web-release:down": "docker compose -f deploy/docker-compose/docker-compose.yaml down",
+    "web-release:reload": "docker compose -f deploy/docker-compose/docker-compose.yaml exec gateway nginx -s reload",
+    "web-release:rebuild": "bun run release:publish && bun run web-release:reload",
+    "release:generate": "bun run --filter @g2-tooling/release cli -- generate --set=prod",
+    "release:upload": "bun run --filter @g2-tooling/release cli -- upload --set=prod",
+    "release:publish": "bun run --filter @g2-tooling/release cli -- publish --set=prod",
+    "release:resolve": "bun run --filter @g2-tooling/release cli -- resolve --set=prod"
+  },
+  "devDependencies": {
+    "@types/bun": "catalog:typescript",
+    "bun-types": "catalog:typescript",
+    "husky": "catalog:ci",
+    "oxfmt": "catalog:oxc",
+    "oxlint": "catalog:oxc",
+    "turbo": "catalog:ci",
+    "typescript": "catalog:typescript"
+  },
+  "packageManager": "bun@1.3.14",
+  "catalogs": {
+    "vue": {
+      "pinia": "3.0.4",
+      "vue": "3.5.40",
+      "vue-router": "4.6.3"
+    },
+    "vite": {
+      "@module-federation/enhanced": "0.21.6",
+      "@module-federation/vite": "1.18.1",
+      "@tailwindcss/vite": "4.3.3",
+      "@vitejs/plugin-vue": "6.0.4",
+      "@vitejs/plugin-vue-jsx": "5.1.6",
+      "@vue/test-utils": "2.4.11",
+      "jsdom": "29.1.1",
+      "tailwindcss": "4.3.3",
+      "vite": "8.1.5",
+      "vitest": "4.1.10"
+    },
+    "antdv": {
+      "ant-design-vue": "4.2.6"
+    },
+    "oxc": {
+      "oxfmt": "0.55.0",
+      "oxlint": "1.70.0"
+    },
+    "ci": {
+      "husky": "9.1.7",
+      "turbo": "2.10.6"
+    },
+    "typescript": {
+      "@types/bun": "1.3.14",
+      "bun-types": "1.3.14",
+      "typescript": "6.0.3"
+    },
+    "libs": {
+      "@types/crypto-js": "4.2.2",
+      "crypto-js": "4.2.0",
+      "dayjs": "1.11.13",
+      "echarts": "5.6.0",
+      "pinyin-pro": "3.26.0",
+      "yaml": "2.9.0",
+      "zod": "4.4.3"
+    },
+    "legacy": {
+      "qiankun": "2.10.16"
+    },
+    "tooling": {
+      "dependency-cruiser": "17.3.8",
+      "knip": "5.85.0"
+    },
+    "bun-server": {
+      "@dangao/bun-server": "3.0.4",
+      "@dangao/logsmith": "0.1.1"
+    },
+    "cube-ai": {
+      "@cube-ai/flow-sdk-client": "0.0.1-alpha.18"
+    }
+  }
+}

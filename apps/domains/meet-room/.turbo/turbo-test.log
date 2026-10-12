@@ -1,0 +1,11 @@
+$ bun test
+bun test v1.3.14 (0d9b296a)
+
+src/domain.test.ts:
+(pass) 会议室管理领域 > 菜单严格保持旧系统顺序 [0.14ms]
+(pass) 会议室管理领域 > 设备详情隐藏路由保持设备监测菜单高亮 [0.20ms]
+
+ 2 pass
+ 0 fail
+ 4 expect() calls
+Ran 2 tests across 1 file. [219.00ms]

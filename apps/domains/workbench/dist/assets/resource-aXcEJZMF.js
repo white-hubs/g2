@@ -1,0 +1,1 @@
+import{n as e}from"./rolldown-runtime-QTnfLwEv.js";var t=e({bindWorkbenchResourceApi:()=>r,resolveStaticResourceUrl:()=>i}),n;async function r(e){n=await e.loadPlatform(`resourcePlatform`,`api`)}function i(e){return!e||!n?e:n.resolveStaticResourceUrl(e)}export{t as n,i as t};

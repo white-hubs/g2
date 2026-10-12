@@ -1,0 +1,1 @@
+import{t as e}from"./virtual_mf-exposes___mfe_internal__secureEduPages__remoteEntry_js-B0SikMph.js";export{e as default};

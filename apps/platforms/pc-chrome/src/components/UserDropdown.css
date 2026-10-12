@@ -1,0 +1,101 @@
+.pc-chrome-user-dropdown {
+  position: relative;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.pc-chrome-user-dropdown-trigger {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    background: transparent;
+    border: none;
+    color: var(--g2-color-navigation-text, #fff);
+    cursor: pointer;
+    padding: 0 4px;
+    height: 100%;
+  }
+
+.pc-chrome-user-dropdown-name {
+  white-space: nowrap;
+}
+
+.pc-chrome-user-dropdown-caret {
+  width: 10px;
+  height: 10px;
+  opacity: 0.95;
+  flex-shrink: 0;
+}
+
+.pc-chrome-user-dropdown-menu {
+  min-width: 140px;
+}
+
+.pc-chrome-user-dropdown-danger,
+.pc-chrome-user-dropdown-danger .ant-dropdown-menu-title-content {
+  color: #d4380d;
+}
+
+.pc-chrome-tenant-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+  max-height: 60vh;
+  overflow: auto;
+  padding: 4px 0;
+}
+
+.pc-chrome-tenant-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    width: 100%;
+    min-width: 0;
+    padding: 14px 16px;
+    border: 1px solid var(--g2-color-border-secondary, #f0f0f0);
+    border-radius: 12px;
+    background: var(--g2-color-elevated-bg, #fff);
+    cursor: pointer;
+    text-align: left;
+    transition: border-color 0.15s ease;
+  }
+
+.pc-chrome-tenant-card:hover:not(:disabled) {
+  border-color: var(--cube-theme-var--primary-color-hover, #36cfc9);
+}
+
+.pc-chrome-tenant-card--selected {
+  border-color: var(--cube-theme-var--primary-color-hover, #36cfc9) !important;
+}
+
+.pc-chrome-tenant-card--disabled,
+.pc-chrome-tenant-card:disabled {
+  cursor: not-allowed;
+  opacity: 0.7;
+}
+
+.pc-chrome-tenant-card-name {
+    flex: 1;
+    min-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 16px;
+    color: var(--g2-color-text, rgba(0, 0, 0, 0.85));
+  }
+
+.pc-chrome-tenant-status--on,
+.pc-chrome-tenant-status--off {
+  flex-shrink: 0;
+  font-size: 14px;
+}
+
+.pc-chrome-tenant-status--on {
+  color: var(--cube-theme-var--primary-color, #13c2c2);
+}
+
+.pc-chrome-tenant-status--off {
+  color: #ff7875;
+}

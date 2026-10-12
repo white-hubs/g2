@@ -1,0 +1,197 @@
+.hazard-ledger {
+  width: 100%;
+}
+
+.hazard-ledger .ant-table-cell {
+  vertical-align: middle;
+}
+
+.hazard-ledger .hazard-table-link {
+  padding-left: 0;
+}
+
+.hazard-ledger .hazard-table-title {
+  display: inline-block;
+  max-width: 100%;
+  line-height: 1.5;
+  vertical-align: middle;
+}
+
+.hazard-ledger .hazard-table-actions {
+  min-width: 132px;
+}
+
+.hazard-ledger .hazard-table-actions .ant-btn {
+  min-width: 58px;
+  text-align: center;
+}
+
+.hazard-misreport-info {
+  margin-bottom: 14px;
+  padding: 12px;
+  border-radius: 6px;
+  background: #f8fafc;
+  color: #4b5563;
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+.hazard-create-modal-wrap .ant-modal-body {
+  max-height: 72vh;
+  overflow-y: auto;
+}
+
+.hazard-create-modal {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.hazard-create-modal .ant-tabs-nav {
+  margin-bottom: 16px;
+}
+
+.hazard-create-entry {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.hazard-create-section {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.hazard-create-section .ant-upload-list {
+  max-width: 420px;
+}
+
+.hazard-create-section .ant-upload-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.hazard-create-label {
+  color: #1f2937;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.hazard-create-nowrap-label .ant-form-item-label {
+  overflow: visible;
+}
+
+.hazard-create-nowrap-label .ant-form-item-label > label {
+  width: max-content;
+  max-width: none;
+  white-space: nowrap;
+}
+
+.hazard-create-form-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0 14px;
+}
+
+.hazard-create-form-grid--three {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.hazard-create-location {
+  display: flex;
+  width: 100%;
+}
+
+.hazard-create-location .ant-input {
+  flex: 1;
+}
+
+.hazard-ai-result {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.hazard-ai-result-summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 10px 12px;
+  color: #1d4ed8;
+  border: 1px solid #bfdbfe;
+  border-radius: 6px;
+  background: #eff6ff;
+  font-size: 13px;
+}
+
+.hazard-ai-draft-card {
+  padding: 14px;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  background: #fff;
+}
+
+.hazard-ai-draft-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 10px;
+}
+
+.hazard-ai-draft-head strong {
+  color: #111827;
+  font-size: 15px;
+}
+
+.hazard-ai-draft-head .ant-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.hazard-create-empty {
+  padding: 28px;
+  color: #6b7280;
+  text-align: center;
+  border: 1px dashed #d1d5db;
+  border-radius: 8px;
+  background: #f9fafb;
+}
+
+.hazard-create-footer-tip {
+  color: #6b7280;
+  font-size: 13px;
+  line-height: 20px;
+}
+
+.hazard-create-levels {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.hazard-create-levels span {
+  padding: 4px 8px;
+  color: #374151;
+  font-size: 12px;
+  line-height: 18px;
+  border: 1px solid #e5e7eb;
+  border-radius: 6px;
+  background: #f9fafb;
+}
+
+@media (max-width: 900px) {
+  .hazard-modal-grid,
+  .hazard-create-form-grid,
+  .hazard-create-form-grid--three {
+    grid-template-columns: 1fr;
+  }
+
+  .hazard-risk-unit-object-select {
+    grid-template-columns: 1fr;
+  }
+}

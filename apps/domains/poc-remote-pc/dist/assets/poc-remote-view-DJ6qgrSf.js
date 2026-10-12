@@ -1,0 +1,1 @@
+import{_ as e,g as t,v as n}from"./_virtual_mf___mfe_internal__pocRemotePc__loadShare__vue__loadShare__.js-LGfStR7y.js";var r={root:`_root_1vvoo_1`},i=n({name:`PocRemoteView`,setup(){return()=>e(`section`,{class:r.root,"data-domain":`poc-remote-pc`},[t(`POC remote domain`)])}});export{i as default};

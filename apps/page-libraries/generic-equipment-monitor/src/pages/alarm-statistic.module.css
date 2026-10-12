@@ -1,0 +1,138 @@
+.analysisPage {
+  box-sizing: border-box;
+  min-height: 100%;
+  padding: 16px;
+  background: #f5f7fa;
+}
+
+.tableFilterBar,
+.filterBar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px;
+}
+
+.tableFilterBar {
+  margin: 16px 0;
+}
+
+.filterBar {
+  padding: 14px 16px;
+  background: #fff;
+  border: 1px solid #edf0f5;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgb(31 56 88 / 4%);
+}
+
+.filterLabel {
+  color: #4e5969;
+  font-weight: 500;
+}
+
+.summaryGrid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+  margin: 12px 0;
+}
+
+.summaryCard {
+  position: relative;
+  min-width: 0;
+  padding: 16px 18px;
+  overflow: hidden;
+  background: linear-gradient(135deg, #fff 0%, #f7faff 100%);
+  border: 1px solid #e8eef8;
+  border-radius: 8px;
+  box-shadow: 0 3px 12px rgb(31 56 88 / 5%);
+}
+
+.summaryCard::before {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 3px;
+  background: #3662ec;
+  content: "";
+}
+
+.summaryCard span {
+  display: block;
+  color: #86909c;
+  font-size: 13px;
+}
+
+.summaryCard strong {
+  display: block;
+  margin-top: 6px;
+  overflow: hidden;
+  color: #1d2129;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.summaryCard .topValue {
+  font-size: 18px;
+}
+
+.chartCard {
+  border: 1px solid #edf0f5;
+  border-radius: 8px;
+  box-shadow: 0 4px 16px rgb(31 56 88 / 5%);
+}
+
+.chartHeader {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 8px;
+}
+
+.chartHeader h3 {
+  margin: 0;
+  color: #1d2129;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.chartHeader p {
+  margin: 4px 0 0;
+  color: #86909c;
+  font-size: 12px;
+}
+
+.focusTag {
+  max-width: 40%;
+  padding: 4px 10px;
+  overflow: hidden;
+  color: #315bcc;
+  font-size: 12px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  background: #eef3ff;
+  border-radius: 12px;
+}
+
+.emptyState {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 380px;
+  background: linear-gradient(180deg, #fff 0%, #fbfcff 100%);
+}
+
+@media (max-width: 960px) {
+  .summaryGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .focusTag {
+    max-width: 50%;
+  }
+}

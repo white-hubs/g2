@@ -1,0 +1,1 @@
+import{t as e}from"./virtual_mf-exposes___mfe_internal__pcIotSocket__remoteEntry_js-B5Im7Qly.js";export{e as default};

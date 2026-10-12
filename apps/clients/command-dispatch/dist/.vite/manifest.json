@@ -1,0 +1,97 @@
+{
+  "_client-7TB1fMF2.js": {
+    "file": "assets/client-7TB1fMF2.js",
+    "name": "client"
+  },
+  "_virtual_mf-REMOTE_ENTRY_ID___mfe_internal__commandDispatchClient__remoteEntry_js-DncFQTli.js": {
+    "file": "assets/virtual_mf-REMOTE_ENTRY_ID___mfe_internal__commandDispatchClient__remoteEntry_js-DncFQTli.js",
+    "name": "virtual_mf-REMOTE_ENTRY_ID___mfe_internal__commandDispatchClient__remoteEntry_js",
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "virtual:mf-localSharedImportMap:__mfe_internal__commandDispatchClient",
+      "_virtual_mf-exposes___mfe_internal__commandDispatchClient__remoteEntry_js-C9Nyrq_4.js"
+    ]
+  },
+  "_virtual_mf-exposes___mfe_internal__commandDispatchClient__remoteEntry_js-C9Nyrq_4.js": {
+    "file": "assets/virtual_mf-exposes___mfe_internal__commandDispatchClient__remoteEntry_js-C9Nyrq_4.js",
+    "name": "virtual_mf-exposes___mfe_internal__commandDispatchClient__remoteEntry_js",
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "_client-7TB1fMF2.js"
+    ]
+  },
+  "_vite-preload-helper-7P2xnrDv.js": {
+    "file": "assets/vite-preload-helper-7P2xnrDv.js",
+    "name": "vite-preload-helper"
+  },
+  "src/client.ts": {
+    "file": "assets/client-nA5Q2S4U.js",
+    "name": "client",
+    "src": "src/client.ts",
+    "isEntry": true,
+    "imports": [
+      "_client-7TB1fMF2.js"
+    ]
+  },
+  "virtual:mf-REMOTE_ENTRY_ID:__mfe_internal__commandDispatchClient__remoteEntry_js": {
+    "file": "remoteEntry.js",
+    "name": "remoteEntry",
+    "src": "virtual:mf-REMOTE_ENTRY_ID:__mfe_internal__commandDispatchClient__remoteEntry_js",
+    "imports": [
+      "_virtual_mf-REMOTE_ENTRY_ID___mfe_internal__commandDispatchClient__remoteEntry_js-DncFQTli.js"
+    ]
+  },
+  "virtual:mf-REMOTE_ENTRY_SSR_ID:__mfe_internal__commandDispatchClient__remoteEntry_js": {
+    "file": "remoteEntry.ssr.js",
+    "name": "ssrRemoteEntry",
+    "src": "virtual:mf-REMOTE_ENTRY_SSR_ID:__mfe_internal__commandDispatchClient__remoteEntry_js",
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "virtual:mf-exposes-ssr:__mfe_internal__commandDispatchClient__remoteEntry_js"
+    ]
+  },
+  "virtual:mf-exposes-ssr:__mfe_internal__commandDispatchClient__remoteEntry_js": {
+    "file": "assets/virtual_mf-exposes-ssr___mfe_internal__commandDispatchClient__remoteEntry_js-Bn9OCoCs.js",
+    "name": "virtual_mf-exposes-ssr___mfe_internal__commandDispatchClient__remoteEntry_js",
+    "src": "virtual:mf-exposes-ssr:__mfe_internal__commandDispatchClient__remoteEntry_js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "_client-7TB1fMF2.js"
+    ]
+  },
+  "virtual:mf-exposes:__mfe_internal__commandDispatchClient__remoteEntry_js": {
+    "file": "assets/virtualExposes-L6sJE8kD.js",
+    "name": "virtualExposes",
+    "src": "virtual:mf-exposes:__mfe_internal__commandDispatchClient__remoteEntry_js",
+    "imports": [
+      "_virtual_mf-exposes___mfe_internal__commandDispatchClient__remoteEntry_js-C9Nyrq_4.js"
+    ]
+  },
+  "virtual:mf-localSharedImportMap:__mfe_internal__commandDispatchClient": {
+    "file": "assets/_virtual_mf-localSharedImportMap___mfe_internal__commandDispatchClient-CcdcYaa2.js",
+    "name": "_virtual_mf-localSharedImportMap___mfe_internal__commandDispatchClient",
+    "src": "virtual:mf-localSharedImportMap:__mfe_internal__commandDispatchClient",
+    "isDynamicEntry": true
+  },
+  "virtual:mf:__mfe_internal__commandDispatchClient__H_A_I__hostAutoInit__H_A_I__.js": {
+    "file": "assets/hostInit-D4Dzb3Yz.js",
+    "name": "hostInit",
+    "src": "virtual:mf:__mfe_internal__commandDispatchClient__H_A_I__hostAutoInit__H_A_I__.js",
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "_virtual_mf-REMOTE_ENTRY_ID___mfe_internal__commandDispatchClient__remoteEntry_js-DncFQTli.js",
+      "virtual:mf-localSharedImportMap:__mfe_internal__commandDispatchClient"
+    ]
+  }
+}

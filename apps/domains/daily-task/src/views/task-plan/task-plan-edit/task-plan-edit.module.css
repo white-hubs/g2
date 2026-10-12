@@ -1,0 +1,58 @@
+.edit-content {
+  padding: 12px 0;
+}
+.edit-content .title {
+  font-size: 14px;
+  color: var(--g2-color-primary, var(--cube-theme-var--primary-color, #1890ff));
+  width: fit-content;
+  padding: 0 6px;
+  height: 30px;
+  text-align: center;
+  border-bottom: 2px solid var(--g2-color-primary, var(--cube-theme-var--primary-color, #1890ff));
+  margin-bottom: 12px;
+}
+.edit-content .content-actions {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 12px;
+  margin-left: 20px;
+}
+.edit-content .section-header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 12px;
+  margin-top: 20px;
+}
+.edit-content .normal-task-content {
+  margin-top: 20px;
+  margin-right: 20px;
+}
+.edit-content .normal-task-content .normal-task-label {
+  font-size: 14px;
+  color: #333;
+  margin-bottom: 12px;
+  font-weight: 500;
+}
+.edit-content .normal-task-content .normal-task-textarea {
+  width: 100%;
+}
+.edit-content .task-distribution-section {
+  margin-top: 20px;
+  margin-right: 20px;
+}
+.edit-content .other-section {
+  margin-top: 20px;
+  margin-right: 20px;
+}
+.edit-content .other-section .other-options {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding-left: 20px;
+}
+.edit-content .other-section .other-option-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}

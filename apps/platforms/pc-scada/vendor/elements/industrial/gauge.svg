@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:scada="http://cube-scada.io/ns/v1" viewBox="0 0 60 80">
+  <metadata>
+    <scada:element>
+      <scada:meta type="gauge" label="压力表" category="工业设备" version="1.0.0"/>
+      <scada:props>
+        <scada:prop name="value" type="number" label="读数" default="0" min="0" max="100" domain="observe" semantic="status.value" required="false" bindable="true" controllable="false"/>
+        <scada:prop name="color" type="color" label="表盘颜色" default="#ECEFF1" domain="observe" semantic="style.color" required="false" bindable="true" controllable="false"/>
+      </scada:props>
+      <scada:mappings>
+        <scada:map prop="value" selector="#gauge-needle" attr="transform" transform="'rotate(' + (value * 2.4 - 120) + ', 30, 35)'"/>
+      </scada:mappings>
+    </scada:element>
+  </metadata>
+  <rect x="25" y="60" width="10" height="20" fill="#78909C"/>
+  <circle cx="30" cy="35" r="28" fill="#FFFFFF" stroke="#455A64" stroke-width="3"/>
+  <path d="M10,45 A25,25 0 1,1 50,45" fill="none" stroke="#CFD8DC" stroke-width="2" stroke-dasharray="2,2"/>
+  <line id="gauge-needle" x1="30" y1="35" x2="30" y2="15" stroke="#D32F2F" stroke-width="2" transform="rotate(-120, 30, 35)"/>
+  <circle cx="30" cy="35" r="3" fill="#455A64"/>
+</svg>

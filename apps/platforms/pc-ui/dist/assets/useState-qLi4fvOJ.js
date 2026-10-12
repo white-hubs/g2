@@ -1,0 +1,1 @@
+import{j as e}from"./_virtual_mf___mfe_internal__pcUi__loadShare__vue__loadShare__.js-pr0wfuk8.js";function t(t){let n=e(typeof t==`function`?t():t);function r(e){n.value=e}return[n,r]}export{t};

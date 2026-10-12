@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" id="water-pump-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+     xmlns:scada="https://cube-scada.guhecloud.com/ns/v1"
+     x="0px" y="0px" viewBox="0 0 910.4 629.1" 
+     width="100" height="69"
+     style="enable-background:new 0 0 910.4 629.1;" xml:space="preserve">
+<metadata>
+  <scada:element>
+    <scada:meta type="water-pump" label="卧式离心泵" category="泵类" version="1.0.0"/>
+    <scada:props>
+      <scada:prop name="running" type="boolean" label="运行中" default="false" domain="observe" semantic="status.running" bindable="true" controllable="false"/>
+    </scada:props>
+    <scada:mappings/>
+    <scada:animations>
+      <scada:animation
+        id="spin"
+        triggerProp="running"
+        triggerCondition="value === true"
+        target="#water-pump-impeller-group"
+        keyframes='[{"transform":"rotate(0deg)"},{"transform":"rotate(360deg)"}]'
+        duration="1000"
+        iterations="Infinity"
+        easing="linear"/>
+    </scada:animations>
+  </scada:element>
+</metadata>
+
+<defs>
+	<linearGradient id="wp_grad_1" gradientUnits="userSpaceOnUse" x1="576.2708" y1="532.8703" x2="578.0722" y2="441.9007" gradientTransform="matrix(1 0 0 -1 0 628.7717)">
+		<stop  offset="0" style="stop-color:#617191"/>
+		<stop  offset="0.5376" style="stop-color:#CBD2E3"/>
+		<stop  offset="1" style="stop-color:#617192"/>
+	</linearGradient>
+	<linearGradient id="wp_grad_2" gradientUnits="userSpaceOnUse" x1="2739.6052" y1="181.7537" x2="2741.4067" y2="90.784" gradientTransform="matrix(-1 0 0 -1 3055.5842 628.7717)">
+		<stop  offset="0" style="stop-color:#617191"/>
+		<stop  offset="0.5376" style="stop-color:#CBD2E3"/>
+		<stop  offset="1" style="stop-color:#617192"/>
+	</linearGradient>
+	<linearGradient id="wp_grad_3" gradientUnits="userSpaceOnUse" x1="2878.4841" y1="196.5145" x2="2878.4841" y2="75.5298" gradientTransform="matrix(-1 0 0 -1 3055.5842 628.7717)">
+		<stop  offset="0" style="stop-color:#617191"/>
+		<stop  offset="0.5376" style="stop-color:#CBD2E3"/>
+		<stop  offset="1" style="stop-color:#617192"/>
+	</linearGradient>
+	<linearGradient id="wp_grad_4" gradientUnits="userSpaceOnUse" x1="2916.8843" y1="204.1716" x2="2916.8843" y2="72.1216" gradientTransform="matrix(-1 0 0 -1 3055.5842 628.7717)">
+		<stop  offset="0" style="stop-color:#617191"/>
+		<stop  offset="0.5376" style="stop-color:#CBD2E3"/>
+		<stop  offset="1" style="stop-color:#617192"/>
+	</linearGradient>
+	<linearGradient id="wp_grad_5" gradientUnits="userSpaceOnUse" x1="446" y1="530.1542" x2="446" y2="97.3613" gradientTransform="matrix(1 0 0 -1 0 628.7717)">
+		<stop  offset="0" style="stop-color:#BBC3D1"/>
+		<stop  offset="1" style="stop-color:#607092"/>
+	</linearGradient>
+	<linearGradient id="wp_grad_6" gradientUnits="userSpaceOnUse" x1="715.1" y1="547.6312" x2="715.1" y2="426.6465" gradientTransform="matrix(1 0 0 -1 0 628.7717)">
+		<stop  offset="0" style="stop-color:#617191"/>
+		<stop  offset="0.5376" style="stop-color:#CBD2E3"/>
+		<stop  offset="1" style="stop-color:#617192"/>
+	</linearGradient>
+	<linearGradient id="wp_grad_7" gradientUnits="userSpaceOnUse" x1="753.6" y1="555.2717" x2="753.6" y2="423.2216" gradientTransform="matrix(1 0 0 -1 0 628.7717)">
+		<stop  offset="0" style="stop-color:#617191"/>
+		<stop  offset="0.5376" style="stop-color:#CBD2E3"/>
+		<stop  offset="1" style="stop-color:#617192"/>
+	</linearGradient>
+	<linearGradient id="wp_grad_8" gradientUnits="userSpaceOnUse" x1="446" y1="481.0484" x2="446" y2="151.9035" gradientTransform="matrix(1 0 0 -1 0 628.7717)">
+		<stop  offset="0" style="stop-color:#C9D1DB"/>
+		<stop  offset="1" style="stop-color:#7D90B1"/>
+	</linearGradient>
+	<linearGradient id="wp_grad_9" gradientUnits="userSpaceOnUse" x1="469.7003" y1="414.3741" x2="461.3354" y2="332.4866" gradientTransform="matrix(1 0 0 -1 0 628.7717)">
+		<stop  offset="0" style="stop-color:#CDD3DB"/>
+		<stop  offset="1" style="stop-color:#607092"/>
+	</linearGradient>
+	<linearGradient id="wp_grad_10" gradientUnits="userSpaceOnUse" x1="545.3495" y1="322.0881" x2="474.9087" y2="308.1466" gradientTransform="matrix(1 0 0 -1 0 628.7717)">
+		<stop  offset="0" style="stop-color:#CDD3DB"/>
+		<stop  offset="1" style="stop-color:#607092"/>
+	</linearGradient>
+	<linearGradient id="wp_grad_11" gradientUnits="userSpaceOnUse" x1="485.9551" y1="222.661" x2="453.3762" y2="283.2695" gradientTransform="matrix(1 0 0 -1 0 628.7717)">
+		<stop  offset="0" style="stop-color:#CDD3DB"/>
+		<stop  offset="1" style="stop-color:#607092"/>
+	</linearGradient>
+	<linearGradient id="wp_grad_12" gradientUnits="userSpaceOnUse" x1="368.8161" y1="245.5475" x2="420.3166" y2="302.2141" gradientTransform="matrix(1 0 0 -1 0 628.7717)">
+		<stop  offset="0" style="stop-color:#CDD3DB"/>
+		<stop  offset="1" style="stop-color:#607092"/>
+	</linearGradient>
+	<linearGradient id="wp_grad_13" gradientUnits="userSpaceOnUse" x1="353.7011" y1="364.3969" x2="428.6913" y2="325.3609" gradientTransform="matrix(1 0 0 -1 0 628.7717)">
+		<stop  offset="0" style="stop-color:#CDD3DB"/>
+		<stop  offset="1" style="stop-color:#607092"/>
+	</linearGradient>
+</defs>
+
+<style type="text/css">
+	.wp_st8{fill:#141B23;}
+	.wp_st9{fill:none;stroke:#DBDDEB;stroke-width:10;stroke-miterlimit:10;}
+	.wp_st15{fill:#1C3234;}
+	.wp_st16{fill:none;stroke:#8C97AE;stroke-miterlimit:10;}
+	.wp_st17{fill:#B6B8CD;}
+</style>
+
+<g id="water-pump-static-casing">
+	<rect x="446.1" y="93.9" style="fill:url(#wp_grad_1);" width="262.1" height="92.8"/>
+	<g>
+		<polygon style="fill:url(#wp_grad_2);" points="184.1,537.8 446.1,537.8 446.1,445 184.1,445"/>
+		<polygon style="fill:url(#wp_grad_3);" points="167.4,558.1 186.8,558.1 186.8,424.6 167.4,424.6"/>
+		<polygon style="fill:url(#wp_grad_4);" points="110,558.1 167.4,558.1 167.4,424.6 110,424.6"/>
+	</g>
+	<circle style="fill:url(#wp_grad_5);" cx="446" cy="316" r="223.8"/>
+	<rect x="705.4" y="73.5" style="fill:url(#wp_grad_6);" width="19.4" height="133.5"/>
+	<rect x="724.9" y="73.5" style="fill:url(#wp_grad_7);" width="57.4" height="133.5"/>
+	<circle style="fill:url(#wp_grad_8);stroke:#C0C8D4;stroke-width:0.5;stroke-miterlimit:10;" cx="446" cy="316" r="175.4"/>
+	<circle class="wp_st8" cx="446.1" cy="316" r="117.6"/>
+	<circle class="wp_st9" cx="446" cy="316" r="124"/>
+</g>
+
+<g id="water-pump-impeller-group" style="transform-origin: 446.1px 316px">
+	<path style="fill:url(#wp_grad_9);" d="M441.5,291.3c0,0,19.5-43.6-10.7-74.1l0,0c-1.4-1.4-0.6-3.8,1.4-4c10.7-1,37.3-1.6,66.8,15.5c26.1,21-28.8,76.4-28.8,76.4S459.1,294.7,441.5,291.3z"/>
+	<path style="fill:url(#wp_grad_10);" d="M469.2,303.3c0,0,46.3,4.5,65.8-33.9l0,0c0.9-1.8,3.4-1.7,4.2,0.1c4.4,9.8,13.2,34.9,6.3,68.2c-11.8,31.3-81.6-3.4-81.6-3.4S471.5,321.1,469.2,303.3z"/>
+	<path style="fill:url(#wp_grad_11);" d="M463.8,334c0,0,11.9,45,54.6,49.8l0,0c2,0.2,2.8,2.6,1.4,4c-7.7,7.5-28.1,24.6-61.8,29.7c-33.5-0.1-25.3-77.7-25.3-77.7S448,342.3,463.8,334z"/>
+	<path style="fill:url(#wp_grad_12);" d="M434.5,338.9c0,0-40.1,23.6-33.3,66l0,0c0.3,1.9-1.7,3.4-3.5,2.4c-9.3-5.4-31.2-20.5-45.2-51.5c-8.9-32.3,68-45.2,68-45.2S422.2,325.9,434.5,338.9z"/>
+	<path style="fill:url(#wp_grad_13);" d="M421.1,312.8c0,0-36.4-28.9-73.6-7.3l0,0c-1.7,1-3.8-0.4-3.5-2.3c1.7-10.6,7.9-36.5,31.8-60.7c26.9-19.9,68.3,49,68.3,49S428.7,296.6,421.1,312.8z"/>
+	<circle class="wp_st15" cx="446.1" cy="319.4" r="27.2"/>
+	<circle class="wp_st16" cx="446.1" cy="319.4" r="27.2"/>
+	<circle class="wp_st17" cx="446.1" cy="319.4" r="12.8"/>
+</g>
+</svg>

@@ -1,0 +1,1 @@
+import"./virtual_mf-exposes___mfe_internal__warehouseSafety__remoteEntry_js-KWCZ-3ig.js";import"./virtual_mf-REMOTE_ENTRY_ID___mfe_internal__warehouseSafety__remoteEntry_js-Czh0pdJP.js";document.querySelector(`#app`).textContent=`@g2-domain/warehouse-safety`;

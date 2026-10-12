@@ -1,0 +1,2 @@
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["./SliderCaptcha-CN3Y1aKS.css","./LoginPage-CbXTg_x-.css","./platform-DPgtVChn.css"])))=>i.map(i=>d[i]);
+import{t as e}from"./vite-preload-helper-CiYy5CcS.js";var t={"./platform":async()=>{let t=await e(()=>import(`./platform-Bp_bQ5O2.js`),__vite__mapDeps([0,1,2]),import.meta.url),n={};return Object.assign(n,t),Object.defineProperty(n,"__esModule",{value:!0,enumerable:!1}),n}};export{t as default};

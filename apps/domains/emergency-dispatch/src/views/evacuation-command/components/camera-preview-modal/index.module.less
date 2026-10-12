@@ -1,0 +1,24 @@
+.playerWrap {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  background: #000;
+  overflow: hidden;
+
+  :global([data-platform="pc-player"]),
+  :global(.h5s_container) {
+    width: 100%;
+    height: 100%;
+  }
+
+  :global([data-platform="pc-player"]) {
+    color: #fff;
+
+    :global(div) {
+      color: #fff !important;
+    }
+
+    :global(img) {
+      filter: brightness(0) invert(1);
+    }
+  }
+}

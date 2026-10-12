@@ -1,0 +1,1 @@
+import"./virtual_mf-exposes___mfe_internal__outsourceRepairClient__remoteEntry_js-I7BUrk7x.js";import"./virtual_mf-REMOTE_ENTRY_ID___mfe_internal__outsourceRepairClient__remoteEntry_js-DufbXtFV.js";var e=document.querySelector(`#app`);e&&(e.textContent=`@g2-client/outsource-repair`);

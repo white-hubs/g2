@@ -1,0 +1,58 @@
+{
+  "name": "@g2-pages/generic-equipment-monitor",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts",
+    "./contract": "./src/contract.ts",
+    "./contractInfo": "./src/contract-info.ts",
+    "./page-keys": "./src/page-keys.ts",
+    "./capability": "./src/capability.ts",
+    "./OverView": "./src/pages/over-view.tsx",
+    "./EquipmentMonitorList": "./src/pages/equipment-monitor-list.tsx",
+    "./EquipmentMonitorDetail": "./src/pages/equipment-monitor-detail.tsx",
+    "./AlarmRecord": "./src/pages/alarm-record.tsx",
+    "./AlarmDetail": "./src/pages/alarm-detail.tsx",
+    "./AlarmRecordSafety": "./src/pages/alarm-record-safety.tsx",
+    "./AlarmSafetyDetail": "./src/pages/alarm-safety-detail.tsx",
+    "./AlarmConfigList": "./src/pages/alarm-config-list.tsx",
+    "./AlarmConfigEnergyList": "./src/pages/alarm-config-energy.tsx",
+    "./AlarmConfigureAdd": "./src/pages/alarm-configure-add.tsx",
+    "./AlarmStatistic": "./src/pages/alarm-statistic.tsx",
+    "./AlarmHandelStatistics": "./src/pages/alarm-handle-statistics.tsx",
+    "./AlarmAnalysis": "./src/pages/alarm-analysis.tsx",
+    "./ApplicationEquipment": "./src/pages/application-equipment.tsx",
+    "./EquipmentAssociation": "./src/pages/equipment-association.tsx",
+    "./Configuration": "./src/pages/configuration.tsx",
+    "./MessageNotice": "./src/pages/message-notice.tsx",
+    "./AlarmHandlerSubmitConfig": "./src/pages/alarm-handler-submit-config.tsx"
+  },
+  "scripts": {
+    "dev": "bun ../../../tooling/dev-link/cli.ts",
+    "dev:serve": "bun --bun vite --port 5051 --strictPort",
+    "build": "bun --bun vite build",
+    "preview": "bun --bun vite preview --port 5051 --strictPort",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "bun test"
+  },
+  "dependencies": {
+    "@g2-client/alarm-center": "workspace:*",
+    "@g2-client/device-center": "workspace:*",
+    "@g2-client/dictionary": "workspace:*",
+    "@g2-client/file": "workspace:*",
+    "@g2-client/ouaa": "workspace:*",
+    "@g2-composition/contract": "workspace:*",
+    "@g2-runtime/common-loader": "workspace:*",
+    "vue": "catalog:vue",
+    "vue-router": "catalog:vue"
+  },
+  "devDependencies": {
+    "@g2-platform/pc-player": "workspace:*",
+    "@g2-platform/pc-ui": "workspace:*",
+    "@g2-tooling/mf-vite": "workspace:*",
+    "@vitejs/plugin-vue-jsx": "catalog:vite",
+    "typescript": "catalog:typescript",
+    "vite": "catalog:vite"
+  }
+}

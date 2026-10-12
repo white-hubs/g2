@@ -1,0 +1,73 @@
+.container {
+  padding: 12px 0;
+}
+.container .item-title {
+  height: auto !important;
+  text-align: left;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  color: #000000d9;
+}
+.container .item-content {
+  display: flex;
+}
+.container .item-content label {
+  font-size: 14px;
+  min-width: 105px;
+  text-align: right;
+  margin-right: 10px;
+  flex-shrink: 0;
+}
+.container .item-content .item-value {
+  font-size: 14px;
+  color: #000000d9;
+}
+.container .repair-card {
+  padding: 12px;
+  background: #fff;
+  border: 1px solid #f0f0f0;
+  border-radius: 4px;
+}
+.container .repair-item {
+  padding: 16px 0;
+  border-bottom: 1px solid #f0f0f0;
+}
+.container .repair-item:first-child {
+  padding-top: 0;
+}
+.container .repair-item:last-child {
+  padding-bottom: 0;
+  border-bottom: 0;
+}
+.container .repair-field {
+  display: flex;
+  color: #000000d9;
+  font-size: 14px;
+  line-height: 22px;
+}
+.container .repair-field label {
+  min-width: 84px;
+  margin-right: 8px;
+  flex-shrink: 0;
+  color: #00000073;
+  text-align: right;
+}
+.container .repair-normal {
+  color: #07c160;
+}
+.container .repair-error {
+  color: #ff4158;
+}
+.container .repair-files {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  padding-left: 92px;
+}
+.container .empty-repair {
+  padding: 24px 0;
+  color: #00000073;
+  font-size: 14px;
+  text-align: center;
+}

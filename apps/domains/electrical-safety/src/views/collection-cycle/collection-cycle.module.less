@@ -1,0 +1,68 @@
+.container {
+  padding: 24px;
+  background-color: #fff;
+  height: 100%;
+}
+
+.form-item {
+  display: flex;
+  margin-bottom: 24px;
+  align-items: flex-start;
+
+  .label {
+    width: 100px;
+    text-align: right;
+    margin-right: 16px;
+
+    span {
+      color: #333;
+      font-size: 14px;
+    }
+
+    .required {
+      color: #ff4d4f;
+      margin-right: 4px;
+    }
+  }
+
+  .content {
+    flex: 1;
+
+    // Adjust RadioGroup spacing
+    :global(.ant-radio-group) {
+      display: flex;
+      gap: 24px;
+    }
+
+    .config-wrapper {
+      margin-top: 20px;
+    }
+
+    .config-row {
+      display: flex;
+      align-items: center;
+      color: #333;
+      font-size: 14px;
+
+      .text-prefix {
+        margin-right: 8px;
+      }
+
+      .text-middle {
+        margin: 0 8px;
+      }
+
+      .text-suffix {
+        margin-left: 8px;
+      }
+
+      .select-time {
+        width: 100px;
+      }
+
+      .select-day {
+        width: 100px;
+      }
+    }
+  }
+}

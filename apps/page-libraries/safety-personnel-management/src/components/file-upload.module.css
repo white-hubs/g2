@@ -1,0 +1,14 @@
+.pictureCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  color: rgba(0, 0, 0, 0.88);
+  line-height: 1.2;
+}
+
+.plus {
+  font-size: 20px;
+  line-height: 1;
+}

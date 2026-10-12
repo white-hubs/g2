@@ -1,0 +1,151 @@
+.pc-auth-login {
+  min-height: 100vh;
+  width: 100%;
+  position: relative;
+  /* 轻量底色先出表单；大图就绪后再铺（见 LoginPage 渐进加载） */
+  background-color: var(--g2-color-page-bg, #eef3f8);
+  background-image: linear-gradient(160deg, var(--g2-color-page-bg, #f5f8fc) 0%, var(--g2-color-fill-secondary, #e8eef6) 45%, var(--g2-color-border-secondary, #dfe8f4) 100%);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  --ant-primary-color: var(--g2-color-primary, #1578ff);
+}
+
+.pc-auth-login--bg-ready {
+  background-image: var(--pc-auth-login-bg-image);
+}
+
+.pc-auth-login__system-name {
+  position: absolute;
+  top: 5.6vw;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: clamp(28px, 2.6vw, 50px);
+  font-weight: 700;
+  font-family: "Microsoft YaHei", "微软雅黑", sans-serif;
+  color: var(--g2-color-text, #404449);
+  letter-spacing: 0.11px;
+  white-space: nowrap;
+  z-index: 1;
+}
+
+.pc-auth-login__card {
+  width: min(420px, 92vw);
+  position: absolute;
+  top: 50%;
+  right: clamp(24px, 17.7vw, 340px);
+  transform: translateY(-50%);
+  box-sizing: border-box;
+  padding: 30px;
+  background: var(--g2-color-elevated-bg, #fff);
+  box-shadow: 0 17px 36px 0 rgba(4, 65, 150, 0.12);
+  text-align: center;
+}
+
+.pc-auth-login__title {
+  margin: 0 0 24px;
+  font-size: 26px;
+  font-weight: 500;
+  color: var(--g2-color-text, #02112b);
+  text-align: center;
+}
+
+.pc-auth-login__input-icon {
+  width: 16px;
+  height: 16px;
+  color: #a4afca;
+  display: block;
+}
+
+.pc-auth-login__row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  margin-bottom: 8px;
+  text-align: left;
+}
+
+.pc-auth-login__agreement {
+  flex: 1;
+  min-width: 0;
+}
+
+.pc-auth-login__remember {
+  flex-shrink: 0;
+  color: #a4afca;
+}
+
+.pc-auth-login__forgot {
+  text-align: right;
+  margin-bottom: 10px;
+  color: var(--g2-color-primary, #1578ff);
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.pc-auth-login__submit {
+  margin-bottom: 0;
+  margin-top: 10px;
+}
+
+.pc-auth-login__btn {
+  height: 40px;
+  background: var(--g2-color-primary, #1578ff);
+}
+
+.pc-auth-login__other {
+  margin-top: 20px;
+}
+
+.pc-auth-login__other-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  color: var(--g2-color-text-tertiary, #a4afca);
+  font-size: 14px;
+}
+
+.pc-auth-login__other-line {
+  height: 1px;
+  width: 30%;
+  background: var(--g2-color-border-secondary, #e9eef1);
+}
+
+.pc-auth-login__other-actions {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 16px;
+}
+
+.pc-auth-login__other-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  border: none;
+  background: transparent;
+  color: #738292;
+  font-size: 14px;
+  cursor: pointer;
+  padding: 0;
+}
+
+.pc-auth-login__other-icon {
+  width: 16px;
+  height: 16px;
+  display: block;
+}
+
+.pc-auth-login .ant-input-affix-wrapper {
+  border-color: #e2e7f5;
+}
+
+.pc-auth-login .ant-input-affix-wrapper input::placeholder {
+  color: #a4afca;
+}
+
+.pc-auth-login .ant-checkbox + span {
+  color: #a4afca;
+}

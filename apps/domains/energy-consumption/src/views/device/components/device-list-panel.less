@@ -1,0 +1,33 @@
+.device-list {
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+  height: 100%;
+
+  > :deep(.device-list-table) {
+    min-height: 0;
+    flex: none;
+    overflow: hidden;
+  }
+}
+
+.header {
+  flex-shrink: 0;
+  margin-bottom: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer {
+  flex-shrink: 0;
+  margin-top: auto;
+  padding-top: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.mr-10 {
+  margin-right: 10px;
+}

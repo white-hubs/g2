@@ -1,0 +1,70 @@
+.graph-canvas {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+/* X6 画布样式覆盖 */
+.graph-canvas .x6-graph {
+  width: 100%;
+  height: 100%;
+}
+
+/* Scroller 插件样式覆盖 */
+.graph-canvas .x6-scroller {
+  width: 100%;
+  height: 100%;
+  background-color: transparent !important;
+}
+
+.graph-canvas .x6-scroller-content {
+  background-color: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.graph-canvas .x6-graph-scroller {
+  border: none !important;
+  box-shadow: none !important;
+  background-color: transparent !important;
+}
+
+.graph-canvas .x6-graph-scroller-content {
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
+
+.graph-canvas .x6-scroller-background {
+  background-color: transparent !important;
+}
+
+/* 移除 Scroller 内容区的白色背景 */
+.graph-canvas .x6-graph-scroller-background {
+  background-color: transparent !important;
+}
+
+/* 连接桩样式 */
+.graph-canvas .x6-port-body {
+  fill: #fff;
+  stroke: #1890ff;
+  stroke-width: 1.5;
+  r: 6;
+}
+
+.graph-canvas .x6-port-body:hover {
+  fill: #1890ff;
+  stroke: #1890ff;
+  r: 8;
+}
+
+/* 选中状态 */
+.graph-canvas .x6-node-selected {
+  outline: 2px solid #1890ff;
+  outline-offset: 2px;
+}
+
+/* 网格线样式 */
+.graph-canvas .x6-graph-svg-viewport {
+  background-color: #ffffff;
+}

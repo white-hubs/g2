@@ -1,0 +1,1 @@
+import"./virtual_mf-exposes___mfe_internal__businessConfigClient__remoteEntry_js-B5Ca8UuM.js";import"./virtual_mf-REMOTE_ENTRY_ID___mfe_internal__businessConfigClient__remoteEntry_js-BSx3s-LE.js";var e=document.querySelector(`#app`);e&&(e.textContent=`@g2-client/business-config`);

@@ -1,0 +1,172 @@
+.page {
+  min-height: 100%;
+  padding: 18px;
+  box-sizing: border-box;
+  background: #fff;
+  border-radius: 0;
+}
+
+.headerActions {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.headerActions :global(.ant-btn) {
+  height: 34px;
+  padding: 0 16px;
+  border-radius: 8px;
+  box-shadow: none;
+}
+
+.headerActions :global(.ant-btn-primary) {
+  box-shadow: 0 5px 12px rgb(47 124 246 / 20%);
+}
+
+.toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px;
+  margin: 0 0 16px;
+  padding: 16px 18px;
+  background: rgb(255 255 255 / 96%);
+  border: 1px solid #e7edf5;
+  border-radius: 10px;
+  box-shadow: 0 4px 14px rgb(30 64 175 / 5%);
+}
+
+.filterItem {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.filterLabel {
+  flex: none;
+  color: #344054;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.keyword {
+  width: 260px;
+}
+
+.statusSelect {
+  width: 140px !important;
+  flex: none;
+}
+
+.toolbar :global(.ant-input-affix-wrapper),
+.toolbar :global(.ant-select-selector),
+.toolbar :global(.ant-btn) {
+  min-height: 34px !important;
+  border-radius: 7px !important;
+}
+
+.toolbar :global(.ant-input-affix-wrapper),
+.toolbar :global(.ant-select-selector) {
+  border-color: #dfe6ef !important;
+  box-shadow: none !important;
+}
+
+.toolbar :global(.ant-input-affix-wrapper:hover),
+.toolbar :global(.ant-input-affix-wrapper-focused),
+.toolbar :global(.ant-select-focused .ant-select-selector) {
+  border-color: #5b8ff9 !important;
+  box-shadow: 0 0 0 3px rgb(64 128 255 / 10%) !important;
+}
+
+.page :global(.ant-table-wrapper) {
+  overflow: hidden;
+  background: #fff;
+  border: 1px solid #e7edf5;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.page :global(.ant-table) {
+  border-radius: 0;
+}
+
+.page :global(.ant-table-thead > tr > th) {
+  height: 46px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #344054;
+  font-weight: 600;
+  background: #f7f9fc;
+  border-bottom-color: #e7edf5;
+}
+
+.page :global(.ant-table-tbody > tr > td) {
+  height: 48px;
+  color: #475467;
+  border-bottom-color: #edf1f6;
+}
+
+.page :global(.ant-table-tbody > tr:hover > td) {
+  background: #f5f8ff !important;
+}
+
+.page :global(.ant-table-cell .ant-btn-link) {
+  height: 28px;
+  padding-inline: 5px;
+  font-weight: 500;
+}
+
+.page :global(.ant-empty-normal) {
+  margin-block: 56px;
+}
+
+.statusTag {
+  border: 1px solid currentColor;
+  box-shadow: inset 0 0 0 1px rgb(255 255 255 / 52%);
+}
+
+.suppliesForm :global(.ant-input),
+.suppliesForm :global(.ant-input-affix-wrapper),
+.suppliesForm :global(.ant-input-number),
+.suppliesForm :global(.ant-picker),
+.suppliesForm :global(.ant-select-selector),
+.warehouseForm :global(.ant-input),
+.warehouseForm :global(.ant-input-affix-wrapper),
+.warehouseForm :global(.ant-input-number),
+.warehouseForm :global(.ant-picker),
+.warehouseForm :global(.ant-select-selector),
+.typeForm :global(.ant-input),
+.typeForm :global(.ant-input-affix-wrapper),
+.typeForm :global(.ant-input-number),
+.typeForm :global(.ant-picker),
+.typeForm :global(.ant-select-selector),
+.modalForm :global(.ant-input),
+.modalForm :global(.ant-input-affix-wrapper),
+.modalForm :global(.ant-input-number),
+.modalForm :global(.ant-picker),
+.modalForm :global(.ant-select-selector) {
+  border-radius: 7px !important;
+}
+
+.suppliesForm :global(.ant-form-item-label > label),
+.warehouseForm :global(.ant-form-item-label > label),
+.typeForm :global(.ant-form-item-label > label),
+.modalForm :global(.ant-form-item-label > label) {
+  color: #344054;
+  font-weight: 500;
+}
+
+@media (max-width: 900px) {
+  .page {
+    padding: 12px;
+  }
+
+  .toolbar {
+    padding: 14px;
+  }
+
+  .filterItem,
+  .keyword {
+    width: 100%;
+  }
+}

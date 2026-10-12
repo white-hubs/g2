@@ -1,0 +1,10 @@
+$ bun test
+bun test v1.3.14 (0d9b296a)
+
+src/domain.test.ts:
+(pass) 小散工程菜单包含旧应用及 DAILY 菜单入口，详情路由保持菜单高亮 [1.60ms]
+
+ 1 pass
+ 0 fail
+ 5 expect() calls
+Ran 1 test across 1 file. [173.00ms]

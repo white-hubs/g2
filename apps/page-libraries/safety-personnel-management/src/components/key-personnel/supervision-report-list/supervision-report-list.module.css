@@ -1,0 +1,84 @@
+.container {
+  box-sizing: border-box;
+  width: 100%;
+}
+
+/* 抽屉内由外层 drawerMain 统一滚动，不再嵌套固定高度 */
+.containerInDrawer {
+  display: block;
+}
+
+.containerStandalone {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  height: 100%;
+  min-height: 0;
+}
+
+.titleBar {
+  border-bottom: 1px solid #e8e8e8;
+  flex-shrink: 0;
+  margin-bottom: 0;
+  padding-bottom: 12px;
+}
+
+.title {
+  font-weight: 600;
+  margin: 8px 0 0;
+}
+
+.body {
+  overflow: visible;
+}
+
+.bodyScroll {
+  max-height: none;
+  min-height: 0;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.recordList {
+  width: 100%;
+}
+
+.recordItem {
+  border-bottom: 1px solid #e8e8e8;
+  padding: 12px 0;
+}
+
+.recordHeader {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 6px;
+}
+
+.time {
+  color: #969799;
+  font-size: 12px;
+}
+
+.tag {
+  background: #f3f4f6;
+  border-radius: 4px;
+  flex-shrink: 0;
+  font-size: 12px;
+  margin-left: 12px;
+  padding: 0 6px;
+}
+
+.content {
+  color: #374151;
+  font-size: 14px;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.attachmentRow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: flex-start;
+  margin-top: 8px;
+}

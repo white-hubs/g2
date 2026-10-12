@@ -1,0 +1,1 @@
+import{n as e,t}from"./client-Bmeqloko.js";export{t as create,e as createElectronicPatrolClient};

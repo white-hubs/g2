@@ -1,0 +1,169 @@
+.property-panel {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background-color: #ffffff;
+}
+
+.property-panel__content {
+  flex: 1;
+  overflow-y: auto;
+}
+
+/* 空状态 */
+.property-panel__empty {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.property-panel__empty-icon {
+  font-size: 48px;
+  margin-bottom: 16px;
+  opacity: 0.5;
+}
+
+.property-panel__empty-text {
+  margin: 0 0 8px 0;
+  font-size: 14px;
+  font-weight: 500;
+  color: #333;
+}
+
+.property-panel__empty-hint {
+  margin: 0;
+  font-size: 12px;
+  color: #999;
+  line-height: 1.6;
+}
+
+/* 多选状态 */
+.property-panel__multiple {
+  padding: 16px;
+}
+
+.property-panel__info {
+  font-size: 13px;
+  color: #666;
+}
+
+.property-panel__info p {
+  margin: 8px 0;
+}
+
+/* 单选状态 */
+.property-panel__single {
+  padding: 0;
+}
+
+/* 区块 */
+.property-panel__section {
+  padding: 16px;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.property-panel__section-title {
+  margin: 0 0 12px 0;
+  font-size: 13px;
+  font-weight: 600;
+  color: #333;
+}
+
+/* 字段 */
+.property-panel__field {
+  margin-bottom: 12px;
+}
+
+.property-panel__field:last-child {
+  margin-bottom: 0;
+}
+
+.property-panel__label {
+  display: block;
+  margin-bottom: 6px;
+  font-size: 12px;
+  color: #666;
+  font-weight: 500;
+}
+
+.property-panel__value {
+  font-size: 13px;
+  color: #333;
+}
+
+.property-panel__value-code {
+  font-size: 11px;
+  font-family: "Monaco", "Menlo", "Consolas", monospace;
+  color: #666;
+  background-color: #f5f5f5;
+  padding: 4px 8px;
+  border-radius: 3px;
+  word-break: break-all;
+}
+
+/* 输入框 */
+.property-panel__input {
+  width: 100%;
+  padding: 6px 10px;
+  border: 1px solid #d9d9d9;
+  border-radius: 4px;
+  font-size: 13px;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+.property-panel__input:focus {
+  border-color: #1890ff;
+}
+
+.property-panel__input:hover {
+  border-color: #40a9ff;
+}
+
+/* 字段组（横向排列） */
+.property-panel__field-group {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.property-panel__field-group .property-panel__field {
+  flex: 1;
+  margin-bottom: 0;
+}
+
+/* 提示信息 */
+.property-panel__hint {
+  padding: 16px;
+  background-color: #f6f8fa;
+  border-top: 1px solid #e5e5e5;
+  margin-top: 16px;
+}
+
+.property-panel__hint p {
+  margin: 0;
+  font-size: 12px;
+  color: #666;
+  line-height: 1.6;
+}
+
+/* 滚动条样式 */
+.property-panel__content::-webkit-scrollbar {
+  width: 6px;
+}
+
+.property-panel__content::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 3px;
+}
+
+.property-panel__content::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.property-panel__content::-webkit-scrollbar-track {
+  background-color: transparent;
+}

@@ -1,0 +1,182 @@
+.card {
+  overflow: hidden;
+  background: #fff;
+  border: 2px solid #d9d9d9;
+  border-radius: 8px;
+}
+
+.major {
+  border-color: #cf1322;
+}
+
+.significant {
+  border-color: #fa8c16;
+}
+
+.general {
+  border-color: #d4b106;
+}
+
+.low {
+  border-color: var(--cube-theme-var--primary-color, #1890ff);
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 8px 16px;
+  color: #fff;
+}
+
+.headerMajor {
+  background: #f5222d;
+}
+
+.headerSignificant {
+  background: #fa8c16;
+}
+
+.headerGeneral {
+  background: #d4b106;
+}
+
+.headerLow {
+  background: var(--cube-theme-var--primary-color, #1890ff);
+}
+
+.titleGroup {
+  display: flex;
+  min-width: 0;
+  align-items: center;
+  gap: 12px;
+}
+
+.title {
+  overflow: hidden;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.levelBadge {
+  flex: none;
+  padding: 2px 8px;
+  border-radius: 4px;
+  background: #fff;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 18px;
+}
+
+.levelMajor {
+  color: #cf1322;
+}
+
+.levelSignificant {
+  color: #d46b08;
+}
+
+.levelGeneral {
+  color: #ad8b00;
+}
+
+.levelLow {
+  color: var(--cube-theme-var--primary-color-active, #096dd9);
+}
+
+.actions {
+  display: flex;
+  flex: none;
+  align-items: center;
+  gap: 8px;
+}
+
+.body {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  column-gap: 24px;
+  row-gap: 12px;
+  padding: 16px;
+  font-size: 14px;
+}
+
+.fieldFull {
+  grid-column: 1 / -1;
+}
+
+.label {
+  margin-bottom: 2px;
+  color: rgba(0, 0, 0, 0.45);
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.value {
+  min-height: 22px;
+  color: rgba(0, 0, 0, 0.88);
+  line-height: 22px;
+}
+
+.muted {
+  color: rgba(0, 0, 0, 0.45);
+}
+
+.tagList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.riskTag,
+.measureTag,
+.signTag {
+  display: inline-flex;
+  max-width: 100%;
+  align-items: center;
+  border-radius: 4px;
+  padding: 2px 8px;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.riskTag {
+  border: 1px solid #ffa39e;
+  background: #fff1f0;
+  color: #cf1322;
+}
+
+.measureTag {
+  border: 1px solid #b7eb8f;
+  background: #f6ffed;
+  color: #237804;
+}
+
+.signTag {
+  border: 1px solid #ffd591;
+  background: #fff7e6;
+  color: #ad6800;
+}
+
+@media (max-width: 768px) {
+  .header {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .actions {
+    width: 100%;
+    justify-content: flex-end;
+  }
+
+  .body {
+    grid-template-columns: 1fr;
+  }
+
+  .fieldFull {
+    grid-column: auto;
+  }
+}

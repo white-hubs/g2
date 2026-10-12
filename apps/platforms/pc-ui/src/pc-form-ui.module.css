@@ -1,0 +1,162 @@
+.pcQueryFormHeader {
+  display: flex;
+  width: 100%;
+  align-items: flex-start;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.pcQueryFormOperations {
+  flex-shrink: 0;
+  padding: 12px 0;
+}
+
+.pcQueryFormOperations :global(.ant-form-item) {
+  margin-bottom: 0 !important;
+  margin-inline-end: 0 !important;
+  padding-right: 0 !important;
+  text-align: right;
+}
+
+.pcQueryFormContainer {
+  position: relative;
+  flex: 1 1 320px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(320px, 100%), 1fr));
+  column-gap: 16px;
+  row-gap: 4px;
+  padding: 12px 12px 4px;
+  min-width: 0;
+}
+
+.pcQueryFormContainer :global(.ant-form-item) {
+  margin-bottom: 8px !important;
+  margin-inline-end: 0 !important;
+}
+
+.pcQueryFormContainer :global(.ant-form-item-row) {
+  flex-wrap: nowrap;
+  align-items: center;
+  gap: 8px;
+}
+
+/* 弹窗/查询表：标题一律左对齐 */
+.pcQueryFormContainer :global(.ant-form-item-label),
+.pcQueryFormContainer :global(.ant-form-item-label > label) {
+  padding: 0 !important;
+  max-width: none !important;
+  flex: 0 0 auto !important;
+  text-align: left !important;
+  justify-content: flex-start !important;
+}
+
+.pcQueryFormContainer :global(.ant-form-item-label > label) {
+  height: 32px;
+  margin-inline-end: 0;
+  line-height: 32px;
+}
+
+.pcQueryFormContainer :global(.ant-form-item-control) {
+  max-width: none;
+  min-width: 0;
+  flex: 1 1 auto !important;
+}
+
+.pcQueryFormContainer :global(.ant-input-affix-wrapper),
+.pcQueryFormContainer :global(.ant-input),
+.pcQueryFormContainer :global(.ant-select),
+.pcQueryFormContainer :global(.ant-picker),
+.pcQueryFormContainer :global(.ant-input-number),
+.pcQueryFormContainer :global(.ant-cascader-picker) {
+  width: 100%;
+}
+
+.pcQueryFormContainer :global(.ant-form-item-control-input-content) > .ant-space {
+  flex-wrap: nowrap;
+}
+
+.pcQueryFormActions :global(.ant-form-item-control-input-content) {
+  display: flex;
+  align-items: center;
+  min-height: 32px;
+}
+
+.pcQueryFormActions {
+  flex: 0 0 auto;
+  padding: 12px 0 0;
+  margin-bottom: 0 !important;
+  margin-inline-end: 0 !important;
+}
+
+.pcQueryFormActionsInline {
+  align-self: start;
+  justify-self: start;
+  width: max-content;
+  padding: 0;
+}
+
+.pcQueryFormActionsInline :global(.ant-form-item-row),
+.pcQueryFormActionsInline :global(.ant-form-item-control-input-content) {
+  width: auto;
+  justify-content: flex-start;
+}
+
+.pcQueryFormActionsInline :global(.ant-form-item-control) {
+  flex: 0 0 auto !important;
+}
+
+.pcQueryFormInlineActions .pcQueryFormContainer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.pcQueryFormInlineActions .pcQueryFormContainer > :global(.pc-design-form-item:not(.pc-query-form-action-item)) {
+  flex: 0 0 auto;
+  min-width: 220px;
+}
+
+.pcQueryFormInlineActions .pcQueryFormContainer > :global(.pc-design-form-item:has(.ant-picker-range)) {
+  min-width: 340px;
+}
+
+.collapseButton {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.pcQueryFormVertical .pcQueryFormHeader {
+  display: block;
+}
+
+.pcQueryFormVertical .pcQueryFormContainer {
+  padding: 0;
+}
+
+.pcQueryFormVertical .pcQueryFormContainer :global(.ant-form-item-row) {
+  flex-direction: column;
+  align-items: stretch;
+  gap: 4px;
+}
+
+.pcQueryFormVertical .pcQueryFormContainer :global(.ant-form-item-label),
+.pcQueryFormVertical .pcQueryFormContainer :global(.ant-form-item-label > label) {
+  display: block;
+  width: 100%;
+  height: auto;
+  line-height: 22px;
+  text-align: left !important;
+  justify-content: flex-start !important;
+}
+
+/* 兜底：antd vertical 布局下弹窗表单项标题强制左对齐 */
+:global(.pc-query-form.ant-form-vertical) :global(.ant-form-item-label),
+:global(.pc-query-form.ant-form-vertical) :global(.ant-form-item-label > label) {
+  display: block;
+  width: 100%;
+  height: auto;
+  line-height: 22px;
+  text-align: left !important;
+  justify-content: flex-start !important;
+}

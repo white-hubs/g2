@@ -1,0 +1,59 @@
+/* 仅费用总览页灰底，禁止污染全局 .layout-container（否则报表白底会被刷灰） */
+.fee-overview-page {
+  background-color: #f0f2f5 !important;
+}
+
+.mt-15px {
+  margin-top: 15px;
+}
+
+.fee-flex {
+  display: flex;
+}
+
+.w-50 {
+  width: 50%;
+}
+
+.ml-10 {
+  margin-left: 10px;
+}
+
+.h-460 {
+  height: 460px;
+}
+
+.h-400 {
+  height: 400px;
+}
+
+.fee-overview-page .dataStatistics {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  padding: 15px;
+  box-sizing: border-box;
+  min-height: 150px;
+  position: relative;
+  gap: 12px;
+}
+
+.fee-overview-page .dataStatistics .Statistics {
+  display: flex;
+  flex: 1;
+  background-color: #fafafa;
+  min-width: 160px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.fee-overview-page .dataStatistics .Statistics .name {
+  font-weight: bold;
+}
+
+.fee-overview-page .dataStatistics .Statistics .num {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 15px;
+}

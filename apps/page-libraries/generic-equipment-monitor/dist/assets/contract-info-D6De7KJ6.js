@@ -1,0 +1,1 @@
+var e={name:`generic-equipment-monitor`,major:1};export{e as contractInfo};

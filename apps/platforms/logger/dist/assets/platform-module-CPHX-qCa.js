@@ -1,0 +1,1 @@
+var e={label:`logger`};export{e as default,e as platformModule};

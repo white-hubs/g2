@@ -1,0 +1,157 @@
+.previewPanel {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.previewPanelTitle {
+  color: var(--g2-color-text, rgba(0, 0, 0, 0.85));
+  background: var(--g2-color-fill-secondary, #f5f7fa);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 9px 14px;
+}
+
+.deviceNameArea {
+  min-width: 0;
+  flex: 1;
+}
+
+.deviceName {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  min-width: 0;
+}
+
+.name {
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--g2-color-text, #1d2129);
+  max-width: 180px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  line-height: 25px;
+}
+
+.deviceArea {
+  font-size: 12px;
+  margin-top: 5px;
+  font-weight: 400;
+  color: var(--g2-color-text-secondary, #86909c);
+  max-width: 220px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  line-height: 19px;
+}
+
+.deviceCollectMore {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-end;
+  flex-shrink: 0;
+  font-size: 12px;
+  font-weight: 400;
+  color: var(--g2-color-primary, #1890ff);
+}
+
+.collectBtn {
+  border: 0;
+  background: transparent;
+  padding: 0;
+  cursor: pointer;
+  line-height: 0;
+}
+
+.collectIcon {
+  display: inline-flex;
+  width: 20px;
+  height: 20px;
+  align-items: center;
+  justify-content: center;
+  color: #1d2129;
+  font-size: 24px;
+  font-family: Arial, sans-serif;
+  line-height: 20px;
+  transition: color 0.2s ease, transform 0.2s ease;
+}
+
+.collectBtn:hover .collectIcon {
+  color: #1677ff;
+  transform: scale(1.08);
+}
+
+.collected {
+  color: #faad14;
+}
+
+.more {
+  cursor: pointer;
+  user-select: none;
+}
+
+.previewPanelContent {
+  padding: 20px 12px;
+  background: var(--g2-color-surface-bg, #fff);
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.04);
+  border: 1px solid var(--g2-color-border, #e5e8ef);
+}
+
+.thumb {
+  width: 80px;
+  height: 80px;
+  flex-shrink: 0;
+  object-fit: contain;
+  border-radius: 2px;
+}
+
+.configContent {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: calc(100% - 100px);
+  min-width: 0;
+}
+
+.configRow {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px 12px;
+}
+
+.customItem {
+  display: flex;
+  align-items: center;
+  min-width: 0;
+}
+
+.label {
+  font-size: 14px;
+  max-width: 80px;
+  flex-shrink: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-weight: 800;
+  color: var(--g2-color-text, #000);
+}
+
+.sep {
+  flex-shrink: 0;
+}
+
+.value {
+  font-size: 14px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-weight: 800;
+  color: var(--g2-color-text, #000);
+  min-width: 0;
+}

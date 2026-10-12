@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 26.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="??_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+     xmlns:scada="https://cube-scada.guhecloud.com/ns/v1"
+     x="0px" y="0px" viewBox="0 0 501 629.1" 
+     width="80" height="100"
+     style="enable-background:new 0 0 501 629.1;" xml:space="preserve">
+<metadata>
+  <scada:element>
+    <scada:meta type="water-tank" label="储水罐" category="储罐" version="1.0.0"/>
+    <scada:props>
+      <scada:prop name="level" type="number" label="液位(%)" default="50" min="0" max="100" domain="observe" semantic="status.level" bindable="true" controllable="false"/>
+      <scada:prop name="sloshing" type="boolean" label="液面波动" default="false" domain="observe" semantic="status.sloshing" bindable="true" controllable="false"/>
+    </scada:props>
+    <scada:mappings>
+      <scada:map prop="level" selector="#water-level-group" attr="transform" 
+                 transform="'translate(0, ' + (100 - value) * 3.15 + ')'"/>
+    </scada:mappings>
+    <scada:animations>
+      <scada:animation
+        id="wave-scroll"
+        triggerProp="sloshing"
+        triggerCondition="value === true"
+        target="#water-wave-path"
+        keyframes='[{"transform":"translateX(0px)"},{"transform":"translateX(-253.6px)"}]'
+        duration="2000"
+        iterations="Infinity"
+        easing="linear"/>
+    </scada:animations>
+  </scada:element>
+</metadata>
+
+<defs>
+  <!-- ??????????????? -->
+  <clipPath id="tank-inner-clip">
+    <rect x="122.8" y="158.2" width="253.4" height="313.9"/>
+  </clipPath>
+</defs>
+
+<style type="text/css">
+	.wt_st0{fill:#141B23;}
+	.wt_st1{fill:#1878C6;}
+	.wt_st2{fill:url(#wt_grad_1);}
+</style>
+
+<!-- ??????????? -->
+<g id="tank-inner-area" clip-path="url(#tank-inner-clip)">
+	<!-- ???? -->
+	<rect x="122.7" y="158.1" class="wt_st0" width="253.6" height="314.1"/>
+	
+	<!-- ???????? Level ????????????? 3.15 ??? 100% ????? 314px ?? -->
+	<g id="water-level-group">
+		<!-- ???????? Wave ????? -->
+		<g id="water-wave-group">
+			<!-- ???????M ?? y ?? 158.1 (??)????? 600 (?? 0% ???????) -->
+			<path id="water-wave-path" class="wt_st1" shape-rendering="geometricPrecision" d="
+				M122.7,158.1 V600 
+				h507.2
+				V158.1
+				c0,0,-29.1-11.8,-60.4-6.2 c-31.3,5.6,-40.8,26.7,-75,38.1 c-7.1,2.4,-27.8,10.9,-63.5-3.2 c-34.5-13.7,-54.7-2.7,-54.7-2.7
+				c0,0,-29.1-11.8,-60.4-6.2 c-31.3,5.6,-40.8,26.7,-75,38.1 c-7.1,2.4,-27.8,10.9,-63.5-3.2 c-34.5-13.7,-54.7-2.7,-54.7-2.7
+				Z"/>
+		</g>
+	</g>
+</g>
+
+<g id="tank-structure">
+	<linearGradient id="wt_grad_1" gradientUnits="userSpaceOnUse" x1="122.6676" y1="315.159" x2="376.2791" y2="315.159">
+		<stop  offset="0" style="stop-color:#617191"/>
+		<stop  offset="0.519" style="stop-color:#B9C4D6"/>
+		<stop  offset="1" style="stop-color:#617192"/>
+	</linearGradient>
+	<path class="wt_st2" d="M368.3,166.1v298.1H130.7V166.1H368.3 M376.3,158.1H122.7v314.1h253.6V158.1L376.3,158.1z"/>
+	
+	<linearGradient id="wt_grad_2" gradientUnits="userSpaceOnUse" x1="176.7122" y1="108.5332" x2="184.6253" y2="108.5332">
+		<stop  offset="0" style="stop-color:#617191"/>
+		<stop  offset="0.519" style="stop-color:#B9C4D6"/>
+		<stop  offset="1" style="stop-color:#617192"/>
+	</linearGradient>
+	<rect x="176.7" y="105.2" style="fill:url(#wt_grad_2);" width="7.9" height="6.7"/>
+	
+	<linearGradient id="wt_grad_3" gradientUnits="userSpaceOnUse" x1="173.3032" y1="119.4091" x2="188.0343" y2="119.4091">
+		<stop  offset="0" style="stop-color:#617191"/>
+		<stop  offset="0.519" style="stop-color:#B9C4D6"/>
+		<stop  offset="1" style="stop-color:#617192"/>
+	</linearGradient>
+	<path style="fill:url(#wt_grad_3);" d="M186.3,127.4H175c-1,0-1.7-0.8-1.7-1.7v-12.6c0-1,0.8-1.7,1.7-1.7h11.3c1,0,1.7,0.8,1.7,1.7v12.6C188,126.7,187.3,127.4,186.3,127.4z"/>
+	
+	<linearGradient id="wt_grad_4" gradientUnits="userSpaceOnUse" x1="290.4193" y1="117.2982" x2="325.5485" y2="117.2982">
+		<stop  offset="0" style="stop-color:#617191"/>
+		<stop  offset="0.519" style="stop-color:#B9C4D6"/>
+		<stop  offset="1" style="stop-color:#617192"/>
+	</linearGradient>
+	<rect x="290.4" y="107.2" style="fill:url(#wt_grad_4);" width="35.1" height="20.3"/>
+	
+	<linearGradient id="wt_grad_5" gradientUnits="userSpaceOnUse" x1="285.1347" y1="102.6285" x2="330.6504" y2="102.6285">
+		<stop  offset="0" style="stop-color:#617191"/>
+		<stop  offset="0.5376" style="stop-color:#CBD2E3"/>
+		<stop  offset="1" style="stop-color:#617192"/>
+	</linearGradient>
+	<path style="fill:url(#wt_grad_5);" d="M328.9,107.1h-42.1c-1,0-1.7-0.8-1.7-1.7v-5.4c0-1,0.8-1.7,1.7-1.7h42.1c1,0,1.7,0.8,1.7,1.7v5.4C330.7,106.3,329.9,107.1,328.9,107.1z"/>
+	
+	<linearGradient id="wt_grad_6" gradientUnits="userSpaceOnUse" x1="242.0068" y1="85.8909" x2="255.637" y2="85.8909">
+		<stop  offset="0" style="stop-color:#617191"/>
+		<stop  offset="0.519" style="stop-color:#B9C4D6"/>
+		<stop  offset="1" style="stop-color:#617192"/>
+	</linearGradient>
+	<rect x="242" y="75.1" style="fill:url(#wt_grad_6);" width="13.6" height="21.5"/>
+	
+	<linearGradient id="wt_grad_7" gradientUnits="userSpaceOnUse" x1="235.9433" y1="103.515" x2="261.8612" y2="103.515">
+		<stop  offset="0" style="stop-color:#617191"/>
+		<stop  offset="0.519" style="stop-color:#B9C4D6"/>
+		<stop  offset="1" style="stop-color:#617192"/>
+	</linearGradient>
+	<path style="fill:url(#wt_grad_7);" d="M260.6,110.5h-23.5c-0.7,0-1.2-0.5-1.2-1.2V97.8c0-0.7,0.5-1.2,1.2-1.2h23.5c0.7,0,1.2,0.5,1.2,1.2v11.5C261.9,109.9,261.3,110.5,260.6,110.5z"/>
+	
+	<linearGradient id="wt_grad_8" gradientUnits="userSpaceOnUse" x1="235.9433" y1="71.1324" x2="261.8612" y2="71.1324">
+		<stop  offset="0" style="stop-color:#617191"/>
+		<stop  offset="0.519" style="stop-color:#B9C4D6"/>
+		<stop  offset="1" style="stop-color:#617192"/>
+	</linearGradient>
+	<path style="fill:url(#wt_grad_8);" d="M260.6,75.8h-23.5c-0.7,0-1.2-0.5-1.2-1.2v-6.8c0-0.7,0.5-1.2,1.2-1.2h23.5c0.7,0,1.2,0.5,1.2,1.2v6.8C261.9,75.2,261.3,75.8,260.6,75.8z"/>
+	
+	<linearGradient id="wt_grad_9" gradientUnits="userSpaceOnUse" x1="122.6676" y1="133.7474" x2="376.2791" y2="133.7474">
+		<stop  offset="0" style="stop-color:#617191"/>
+		<stop  offset="0.519" style="stop-color:#B9C4D6"/>
+		<stop  offset="1" style="stop-color:#617192"/>
+	</linearGradient>
+	<path style="fill:url(#wt_grad_9);" d="M376.3,157.6H122.7c0,0,8.2-14.7,51.6-33.9c19.6-8.7,49.1-13.9,74.7-13.9s47.6,3.9,74.7,13.9C352.4,134.4,376.3,157.6,376.3,157.6z"/>
+	
+	<linearGradient id="wt_grad_10" gradientUnits="userSpaceOnUse" x1="122.6676" y1="512.2145" x2="376.2791" y2="512.2145">
+		<stop  offset="0" style="stop-color:#617191"/>
+		<stop  offset="0.519" style="stop-color:#B9C4D6"/>
+		<stop  offset="1" style="stop-color:#617192"/>
+	</linearGradient>
+	<polygon style="fill:url(#wt_grad_10);" points="270.2,542.6 228.7,542.6 122.7,481.8 376.3,481.8"/>
+	
+	<linearGradient id="wt_grad_11" gradientUnits="userSpaceOnUse" x1="111.3886" y1="164.6615" x2="385.3886" y2="164.6615">
+		<stop  offset="0" style="stop-color:#617191"/>
+		<stop  offset="0.5376" style="stop-color:#CBD2E3"/>
+		<stop  offset="1" style="stop-color:#617192"/>
+	</linearGradient>
+	<path style="fill:url(#wt_grad_11);" d="M382.1,171.7H114.7c-1.8,0-3.3-1.5-3.3-3.3V161c0-1.8,1.5-3.3,3.3-3.3h267.4c1.8,0,3.3,1.5,3.3,3.3v7.4C385.4,170.2,383.9,171.7,382.1,171.7z"/>
+	
+	<linearGradient id="wt_grad_12" gradientUnits="userSpaceOnUse" x1="111.3886" y1="476.5205" x2="385.3886" y2="476.5205">
+		<stop  offset="0" style="stop-color:#7687A3"/>
+		<stop  offset="0.5019" style="stop-color:#CBD2E3"/>
+		<stop  offset="1" style="stop-color:#7687A3"/>
+	</linearGradient>
+	<path style="fill:url(#wt_grad_12);" d="M383.6,481.8H113.1c-1,0-1.7-0.8-1.7-1.7V473c0-1,0.8-1.7,1.7-1.7h270.5c1,0,1.7,0.8,1.7,1.7v7.1C385.4,481,384.6,481.8,383.6,481.8z"/>
+	
+	<linearGradient id="wt_grad_13" gradientUnits="userSpaceOnUse" x1="228.2709" y1="552.6047" x2="270.5374" y2="552.6047">
+		<stop  offset="0" style="stop-color:#617191"/>
+		<stop  offset="0.519" style="stop-color:#B9C4D6"/>
+		<stop  offset="1" style="stop-color:#617192"/>
+	</linearGradient>
+	<rect x="228.3" y="542.6" style="fill:url(#wt_grad_13);" width="42.3" height="20"/>
+	
+	<linearGradient id="wt_grad_14" gradientUnits="userSpaceOnUse" x1="223.6661" y1="566.2631" x2="274.4259" y2="566.2631">
+		<stop  offset="0" style="stop-color:#617191"/>
+		<stop  offset="0.5376" style="stop-color:#CBD2E3"/>
+		<stop  offset="1" style="stop-color:#617192"/>
+	</linearGradient>
+	<path style="fill:url(#wt_grad_14);" d="M271.8,571.6h-45.5c-1.5,0-2.6-1.2-2.6-2.6v-5.4c0-1.5,1.2-2.6,2.6-2.6h45.5c1.5,0,2.6,1.2,2.6,2.6v5.4C274.4,570.4,273.2,571.6,271.8,571.6z"/>
+	
+	<g id="wt-instrument-group">
+		<linearGradient id="wt_grad_15" gradientUnits="userSpaceOnUse" x1="160.903" y1="86.5409" x2="199.8353" y2="86.5409">
+			<stop  offset="0" style="stop-color:#617191"/>
+			<stop  offset="0.519" style="stop-color:#B9C4D6"/>
+			<stop  offset="1" style="stop-color:#617192"/>
+		</linearGradient>
+		<path style="fill:url(#wt_grad_15);" d="M180.4,69.1c9.6,0,17.5,7.8,17.5,17.5S190,104,180.4,104c-9.6,0-17.5-7.8-17.5-17.5S170.7,69.1,180.4,69.1 M180.4,67.1c-10.8,0-19.5,8.7-19.5,19.5c0,10.8,8.7,19.5,19.5,19.5s19.5-8.7,19.5-19.5C199.8,75.8,191.1,67.1,180.4,67.1L180.4,67.1z"/>
+		
+		<linearGradient id="wt_grad_16" gradientUnits="userSpaceOnUse" x1="166.2559" y1="86.5409" x2="194.4825" y2="86.5409">
+			<stop  offset="0" style="stop-color:#617191"/>
+			<stop  offset="0.519" style="stop-color:#B9C4D6"/>
+			<stop  offset="1" style="stop-color:#617192"/>
+		</linearGradient>
+		<circle style="fill:url(#wt_grad_16);" cx="180.4" cy="86.5" r="14.1"/>
+		
+		<linearGradient id="wt_grad_17" gradientUnits="userSpaceOnUse" x1="-74.4028" y1="-717.4217" x2="-71.2276" y2="-717.4217" gradientTransform="matrix(0.7071 0.7071 -0.5895 0.5895 -196.0426 565.5171)">
+			<stop  offset="0" style="stop-color:#617191"/>
+			<stop  offset="0.519" style="stop-color:#B9C4D6"/>
+			<stop  offset="1" style="stop-color:#617192"/>
+		</linearGradient>
+		<polygon style="fill:url(#wt_grad_17);" points="181.3,87.4 179.1,85.2 170.7,96.1 170.7,96.1"/>
+		
+		<linearGradient id="wt_grad_18" gradientUnits="userSpaceOnUse" x1="181.0831" y1="79.2234" x2="181.1939" y2="87.9735">
+			<stop  offset="0" style="stop-color:#617191"/>
+			<stop  offset="0.5376" style="stop-color:#CBD2E3"/>
+			<stop  offset="1" style="stop-color:#617192"/>
+		</linearGradient>
+		<ellipse style="fill:url(#wt_grad_18);" cx="181.2" cy="84.8" rx="3.2" ry="3.2"/>
+	</g>
+</g>
+</svg>

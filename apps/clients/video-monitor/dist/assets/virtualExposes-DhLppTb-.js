@@ -1,0 +1,1 @@
+import{t as e}from"./virtual_mf-exposes___mfe_internal__videoMonitorClient__remoteEntry_js-D_TIM4s6.js";export{e as default};

@@ -1,0 +1,29 @@
+{
+  "name": "@g2-pages/safety-management",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "bun test"
+  },
+  "dependencies": {
+    "@g2-client/dictionary": "workspace:*",
+    "@g2-client/file": "workspace:*",
+    "@g2-contract/ouaa": "workspace:*",
+    "@g2-contract/safety-management": "workspace:*",
+    "@g2-platform/pc-ui": "workspace:*",
+    "@g2-runtime/common-loader": "workspace:*",
+    "jszip": "^3.10.1",
+    "vue": "catalog:vue",
+    "vue-router": "catalog:vue"
+  },
+  "devDependencies": {
+    "@g2-platform/pc-map": "workspace:*",
+    "typescript": "catalog:typescript",
+    "vite": "catalog:vite"
+  }
+}

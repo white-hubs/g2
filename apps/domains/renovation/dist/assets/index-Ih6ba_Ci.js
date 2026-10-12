@@ -1,0 +1,1 @@
+import"./virtual_mf-exposes___mfe_internal__renovation__remoteEntry_js-BsX6IxL0.js";import"./virtual_mf-REMOTE_ENTRY_ID___mfe_internal__renovation__remoteEntry_js-BlXRj9Oy.js";var e=document.querySelector(`#app`);e&&(e.textContent=`@g2-domain/renovation`);

@@ -1,0 +1,158 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  min-height: 100%;
+  padding: 18px;
+  box-sizing: border-box;
+  background: #fff;
+  border-radius: 0;
+}
+
+.section {
+  padding: 22px 24px 24px;
+  background: #fff;
+  border: 1px solid #e7edf5;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgb(15 23 42 / 5%);
+}
+
+.sectionHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 12px;
+  margin-bottom: 16px;
+  border-bottom: 1px solid #edf0f5;
+}
+
+.sectionTitle {
+  position: relative;
+  margin: 0;
+  padding-left: 12px;
+  color: #1f2937;
+  font-size: 16px;
+  font-weight: 600;
+}
+.sectionTitle::before {
+  position: absolute;
+  top: 3px;
+  bottom: 3px;
+  left: 0;
+  width: 4px;
+  content: "";
+  background: linear-gradient(180deg, #4f8cff, #2769df);
+  border-radius: 999px;
+}
+
+.expiryCards {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.expiryCard {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  min-height: 180px;
+  padding: 18px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgb(15 23 42 / 4%);
+}
+
+.expiryCardYellow {
+  background: linear-gradient(145deg, #fff 0%, #fffbe6 100%);
+  border: 1px solid #ffe58f;
+}
+
+.expiryCardOrange {
+  background: linear-gradient(145deg, #fff 0%, #fff7e6 100%);
+  border: 1px solid #ffd591;
+}
+
+.expiryCardRed {
+  background: linear-gradient(145deg, #fff 0%, #fff1f0 100%);
+  border: 1px solid #ffa39e;
+}
+
+.cardTitle {
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 22px;
+}
+
+.cardTitleYellow {
+  color: #d48806;
+}
+
+.cardTitleOrange {
+  color: #d46b08;
+}
+
+.cardTitleRed {
+  color: #cf1322;
+}
+
+.daysRow {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 6px;
+  color: #374151;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.daysInput {
+  width: 72px !important;
+}
+
+.notifyLabel {
+  color: #6b7280;
+  font-size: 13px;
+  line-height: 20px;
+}
+
+.notifySelect {
+  flex: 1;
+  min-width: 0;
+}
+
+.expiredNote {
+  margin-top: 12px;
+  padding: 10px 12px;
+  color: #6b7280;
+  font-size: 13px;
+  line-height: 20px;
+  background: #f9fafb;
+  border: 1px solid #edf0f5;
+  border-radius: 8px;
+}
+
+.stockCard {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 16px;
+  padding: 18px;
+  background: linear-gradient(145deg, #fff 0%, #f0f7ff 100%);
+  border: 1px solid #bae0ff;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgb(47 124 246 / 5%);
+}
+
+.stockHint {
+  margin-top: 16px;
+}
+
+.content :global(.ant-input-number),
+.content :global(.ant-select-selector) {
+  border-radius: 7px !important;
+}
+
+@media (max-width: 1000px) {
+  .expiryCards {
+    grid-template-columns: 1fr;
+  }
+}

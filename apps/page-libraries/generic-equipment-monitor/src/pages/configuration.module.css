@@ -1,0 +1,16 @@
+.pageBody { display:flex; height:100%; min-height:0; padding-top:16px; }
+.sidebar { width:320px; flex:0 0 320px; min-height:0; border-right:1px solid #f0f0f0; display:flex; flex-direction:column; }
+.sidebarHeader { height:50px; padding:0 10px; border-bottom:1px solid #f3f3f3; display:flex; align-items:center; justify-content:space-between; }
+.sectionTitle { position:relative; padding-left:12px; font-size:16px; font-weight:600; color:rgba(0,0,0,.85); }
+.sectionTitle::before { content:""; position:absolute; left:0; top:50%; width:3px; height:14px; border-radius:1px; background:var(--ant-color-primary,#1677ff); transform:translateY(-50%); }
+.list { min-height:230px; padding:8px 0; overflow-y:auto; }
+.listItem { height:36px; padding:0 16px; display:flex; align-items:center; justify-content:space-between; gap:12px; cursor:pointer; }
+.listItem:hover { background:#f0f2f5; }
+.active { color:var(--ant-color-primary,#1677ff); background:#e6f4ff; }
+.itemName { min-width:0; flex:1; overflow:hidden; white-space:nowrap; text-overflow:ellipsis; }
+.itemActions { display:inline-flex; gap:10px; }
+.itemActions button { padding:0; color:inherit; border:0; background:transparent; cursor:pointer; }
+.itemActions .deleteButton { color:#ff4d4f; }
+.emptyList { margin-top:40px; }
+.viewer { min-width:0; min-height:0; flex:1; display:flex; align-items:center; justify-content:center; }
+.iframe { width:100%; height:100%; border:0; }

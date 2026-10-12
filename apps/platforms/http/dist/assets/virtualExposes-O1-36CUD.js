@@ -1,0 +1,1 @@
+import{t as e}from"./virtual_mf-exposes___mfe_internal__httpPlatform__remoteEntry_js-CTrB_9-9.js";export{e as default};

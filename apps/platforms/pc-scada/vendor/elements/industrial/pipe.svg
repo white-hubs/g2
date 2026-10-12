@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:scada="http://cube-scada.io/ns/v1"
+     viewBox="0 0 200 30">
+  <metadata>
+    <scada:element>
+      <scada:meta type="pipe" label="管道" category="流体控制" version="1.0.0"/>
+      <scada:props>
+        <scada:prop name="flowing" type="boolean" label="流动" default="false" domain="observe" semantic="status.flowing" required="false" bindable="true" controllable="false"/>
+        <scada:prop name="fill"    type="color"   label="管道色" default="#8c8c8c" domain="observe" semantic="style.fill" required="false" bindable="true" controllable="false"/>
+      </scada:props>
+      <scada:mappings>
+        <scada:map prop="fill" selector="#pipe-body" attr="fill"/>
+        <scada:map prop="flowing" selector="#pipe-body" attr="stroke"
+          transform="value ? '#1890ff' : '#595959'"/>
+      </scada:mappings>
+      <scada:animations>
+        <scada:animation
+          id="flow"
+          triggerProp="flowing"
+          triggerCondition="value === true"
+          target="#flow-indicator"
+          keyframes='[{"transform":"translateX(-20px)"},{"transform":"translateX(200px)"}]'
+          duration="2000"
+          iterations="Infinity"
+          easing="linear"/>
+      </scada:animations>
+    </scada:element>
+  </metadata>
+  <rect id="pipe-body" x="0" y="5" width="200" height="20" rx="3" fill="#8c8c8c" stroke="#595959" stroke-width="2"/>
+  <rect id="flow-indicator" x="-20" y="10" width="20" height="10" fill="#1890ff" opacity="0.6" rx="2"/>
+</svg>

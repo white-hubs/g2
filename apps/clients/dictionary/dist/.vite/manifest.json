@@ -1,0 +1,100 @@
+{
+  "_virtual_mf-REMOTE_ENTRY_ID___mfe_internal__dictionaryClient__remoteEntry_js-anOcJREW.js": {
+    "file": "assets/virtual_mf-REMOTE_ENTRY_ID___mfe_internal__dictionaryClient__remoteEntry_js-anOcJREW.js",
+    "name": "virtual_mf-REMOTE_ENTRY_ID___mfe_internal__dictionaryClient__remoteEntry_js",
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "virtual:mf-localSharedImportMap:__mfe_internal__dictionaryClient",
+      "_virtual_mf-exposes___mfe_internal__dictionaryClient__remoteEntry_js-Bnh-rLsn.js"
+    ]
+  },
+  "_virtual_mf-exposes___mfe_internal__dictionaryClient__remoteEntry_js-Bnh-rLsn.js": {
+    "file": "assets/virtual_mf-exposes___mfe_internal__dictionaryClient__remoteEntry_js-Bnh-rLsn.js",
+    "name": "virtual_mf-exposes___mfe_internal__dictionaryClient__remoteEntry_js",
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "src/client.ts"
+    ]
+  },
+  "_vite-preload-helper-7P2xnrDv.js": {
+    "file": "assets/vite-preload-helper-7P2xnrDv.js",
+    "name": "vite-preload-helper"
+  },
+  "index.html": {
+    "file": "assets/index-kx3sfVTk.js",
+    "name": "index",
+    "src": "index.html",
+    "isEntry": true,
+    "imports": [
+      "_virtual_mf-exposes___mfe_internal__dictionaryClient__remoteEntry_js-Bnh-rLsn.js",
+      "_virtual_mf-REMOTE_ENTRY_ID___mfe_internal__dictionaryClient__remoteEntry_js-anOcJREW.js"
+    ]
+  },
+  "src/client.ts": {
+    "file": "assets/client-Chsyo6oe.js",
+    "name": "client",
+    "src": "src/client.ts",
+    "isEntry": true
+  },
+  "virtual:mf-REMOTE_ENTRY_ID:__mfe_internal__dictionaryClient__remoteEntry_js": {
+    "file": "remoteEntry.js",
+    "name": "remoteEntry",
+    "src": "virtual:mf-REMOTE_ENTRY_ID:__mfe_internal__dictionaryClient__remoteEntry_js",
+    "imports": [
+      "_virtual_mf-REMOTE_ENTRY_ID___mfe_internal__dictionaryClient__remoteEntry_js-anOcJREW.js"
+    ]
+  },
+  "virtual:mf-REMOTE_ENTRY_SSR_ID:__mfe_internal__dictionaryClient__remoteEntry_js": {
+    "file": "remoteEntry.ssr.js",
+    "name": "ssrRemoteEntry",
+    "src": "virtual:mf-REMOTE_ENTRY_SSR_ID:__mfe_internal__dictionaryClient__remoteEntry_js",
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "virtual:mf-exposes-ssr:__mfe_internal__dictionaryClient__remoteEntry_js"
+    ]
+  },
+  "virtual:mf-exposes-ssr:__mfe_internal__dictionaryClient__remoteEntry_js": {
+    "file": "assets/virtual_mf-exposes-ssr___mfe_internal__dictionaryClient__remoteEntry_js-DYkjTPws.js",
+    "name": "virtual_mf-exposes-ssr___mfe_internal__dictionaryClient__remoteEntry_js",
+    "src": "virtual:mf-exposes-ssr:__mfe_internal__dictionaryClient__remoteEntry_js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "src/client.ts"
+    ]
+  },
+  "virtual:mf-exposes:__mfe_internal__dictionaryClient__remoteEntry_js": {
+    "file": "assets/virtualExposes-DIKIup2M.js",
+    "name": "virtualExposes",
+    "src": "virtual:mf-exposes:__mfe_internal__dictionaryClient__remoteEntry_js",
+    "imports": [
+      "_virtual_mf-exposes___mfe_internal__dictionaryClient__remoteEntry_js-Bnh-rLsn.js"
+    ]
+  },
+  "virtual:mf-localSharedImportMap:__mfe_internal__dictionaryClient": {
+    "file": "assets/_virtual_mf-localSharedImportMap___mfe_internal__dictionaryClient-CcdcYaa2.js",
+    "name": "_virtual_mf-localSharedImportMap___mfe_internal__dictionaryClient",
+    "src": "virtual:mf-localSharedImportMap:__mfe_internal__dictionaryClient",
+    "isDynamicEntry": true
+  },
+  "virtual:mf:__mfe_internal__dictionaryClient__H_A_I__hostAutoInit__H_A_I__.js": {
+    "file": "assets/hostInit-CHmlpzlR.js",
+    "name": "hostInit",
+    "src": "virtual:mf:__mfe_internal__dictionaryClient__H_A_I__hostAutoInit__H_A_I__.js",
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "_virtual_mf-REMOTE_ENTRY_ID___mfe_internal__dictionaryClient__remoteEntry_js-anOcJREW.js",
+      "virtual:mf-localSharedImportMap:__mfe_internal__dictionaryClient"
+    ]
+  }
+}

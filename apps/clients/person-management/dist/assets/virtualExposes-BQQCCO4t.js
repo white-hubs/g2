@@ -1,0 +1,1 @@
+import{t as e}from"./virtual_mf-exposes___mfe_internal__personManagementClient__remoteEntry_js-DgJDGCWb.js";export{e as default};

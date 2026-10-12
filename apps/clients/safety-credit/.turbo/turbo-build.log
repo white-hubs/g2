@@ -1,0 +1,23 @@
+$ bun --bun vite build
+vite v8.1.5 building client environment for production...
+[2Ktransforming...✓ 11 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                                                                                         0.61 kB │ gzip: 0.33 kB
+dist/mf-manifest.json                                                                                   0.62 kB │ gzip: 0.27 kB
+dist/assets/mf-entry-bootstrap-0-e3bdda6b.js                                                            1.35 kB
+dist/mf-stats.json                                                                                      2.11 kB │ gzip: 0.64 kB
+dist/.vite/manifest.json                                                                                4.14 kB │ gzip: 0.58 kB
+dist/assets/_virtual_mf-localSharedImportMap___mfe_internal__safetyCreditClient-CcdcYaa2.js             0.11 kB │ gzip: 0.11 kB
+dist/assets/virtualExposes-aNhro_cG.js                                                                  0.12 kB │ gzip: 0.12 kB
+dist/remoteEntry.js                                                                                     0.14 kB │ gzip: 0.14 kB
+dist/assets/virtual_mf-exposes-ssr___mfe_internal__safetyCreditClient__remoteEntry_js-BF7T89VB.js       0.25 kB │ gzip: 0.22 kB
+dist/assets/index-DcC4K5L6.js                                                                           0.27 kB │ gzip: 0.19 kB
+dist/assets/virtual_mf-exposes___mfe_internal__safetyCreditClient__remoteEntry_js-DUl3PVCP.js           0.94 kB │ gzip: 0.58 kB
+dist/remoteEntry.ssr.js                                                                                 1.01 kB │ gzip: 0.58 kB
+dist/assets/vite-preload-helper-7P2xnrDv.js                                                             1.41 kB │ gzip: 0.75 kB
+dist/assets/hostInit-D-pgG_vI.js                                                                        2.30 kB │ gzip: 1.09 kB
+dist/assets/client-C98UtbnZ.js                                                                          7.12 kB │ gzip: 1.58 kB
+dist/assets/virtual_mf-REMOTE_ENTRY_ID___mfe_internal__safetyCreditClient__remoteEntry_js-DcT9tXUq.js  14.10 kB │ gzip: 4.73 kB
+
+✓ built in 2.32s

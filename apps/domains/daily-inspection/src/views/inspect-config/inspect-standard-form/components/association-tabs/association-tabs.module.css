@@ -1,0 +1,17 @@
+.assoc-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+}
+
+.hint {
+  color: rgba(0, 0, 0, 0.45);
+  font-size: 12px;
+}

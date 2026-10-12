@@ -1,0 +1,1 @@
+import{S as e,b as t}from"./_virtual_mf___mfe_internal__warehouseSafety__loadShare__vue__loadShare__.js-D01h0nBB.js";import{t as n}from"./resource-page-B4q88Cza.js";var r=e({name:`WarehousePage`,setup:()=>()=>t(n,{type:`warehouse`},null)});export{r as WarehousePage};

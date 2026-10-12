@@ -1,0 +1,1 @@
+import"./virtual_mf-exposes___mfe_internal__safetyPersonnelClient__remoteEntry_js-CgfXWP4J.js";import"./virtual_mf-REMOTE_ENTRY_ID___mfe_internal__safetyPersonnelClient__remoteEntry_js-Dow3SopY.js";var e=document.querySelector(`#app`);e&&(e.textContent=`@g2-client/safety-personnel`);

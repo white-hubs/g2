@@ -1,0 +1,1 @@
+var e={label:`pc-alarm-charts`};export{e as default,e as platformModule};

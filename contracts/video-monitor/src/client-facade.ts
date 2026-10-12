@@ -1,0 +1,32 @@
+export interface VideoMonitorClient {
+  createCameraAuth: (params) => Promise<unknown>;
+  updateCameraAuth: (id, params) => Promise<unknown>;
+  deleteCameraAuth: (id) => Promise<unknown>;
+  getCameraAuth: (id) => Promise<unknown>;
+  listAuthGroup: (params) => Promise<unknown>;
+  listVideoMonitorGroup: (params) => Promise<unknown>;
+  listVideoMonitorDeviceOfRule: (params) => Promise<unknown>;
+  listVideoMonitorDevice: (params) => Promise<unknown>;
+  queryVideoMonitorDeviceByAreaOrGroupAndTag: (params) => Promise<unknown>;
+  listAiInspectionCameraOptions: (params) => Promise<unknown>;
+  getAiInspectionCameraOptionsByIds: (params) => Promise<unknown>;
+  listAiInspectionAlgorithms: () => Promise<unknown>;
+  listAiInspectionPlans: (params) => Promise<unknown>;
+  getAiInspectionPlan: (id) => Promise<unknown>;
+  pageAiInspectionPlanCameras: (id, params) => Promise<unknown>;
+  listAiInspectionPlanActionRules: (id, params) => Promise<unknown>;
+  createAiInspectionPlan: (params) => Promise<unknown>;
+  patchAiInspectionPlan: (id, params) => Promise<unknown>;
+  updateAiInspectionPlanEnabled: (id, enabled) => Promise<unknown>;
+  deleteAiInspectionPlan: (id) => Promise<unknown>;
+  runAiInspectionPlanOnce: (id) => Promise<unknown>;
+  listAiInspectionTasks: (params) => Promise<unknown>;
+  getAiInspectionTask: (id) => Promise<unknown>;
+  listAiInspectionEvents: (params) => Promise<unknown>;
+  getAiInspectionEvent: (id) => Promise<unknown>;
+  ignoreAiInspectionEvent: (id, params) => Promise<unknown>;
+  generateAiInspectionEventAction: (id, params) => Promise<unknown>;
+  listAiInspectionEmergencyRules: (params) => Promise<unknown>;
+  listAiInspectionWorkOrderTemplates: (params) => Promise<unknown>;
+  getAiInspectionWorkOrderTemplate: (id) => Promise<unknown>;
+}

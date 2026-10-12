@@ -1,0 +1,72 @@
+.titleCell {
+  display: inline-block;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  vertical-align: middle;
+  color: #94a3b8;
+}
+
+.restoreBtn {
+  color: #0d9488 !important;
+}
+
+.detail {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.detailTitle {
+  margin: 0 0 8px;
+  color: #1e293b;
+  font-size: 18px;
+  font-weight: 600;
+  word-break: break-all;
+}
+
+.detailRow {
+  display: flex;
+  gap: 12px;
+  color: #334155;
+  font-size: 14px;
+  line-height: 1.6;
+  word-break: break-word;
+
+  > span:first-child {
+    flex-shrink: 0;
+    width: 80px;
+    color: #64748b;
+  }
+
+  a {
+    color: #0d9488;
+    word-break: break-all;
+  }
+}
+
+.detailContent {
+  margin-top: 8px;
+}
+
+.detailLabel {
+  margin-bottom: 8px;
+  color: #64748b;
+  font-weight: 500;
+}
+
+.contentPre {
+  max-height: 300px;
+  padding: 12px 16px;
+  margin: 0;
+  overflow-y: auto;
+  font-family: inherit;
+  font-size: 14px;
+  line-height: 1.6;
+  white-space: pre-wrap;
+  word-break: break-word;
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+}

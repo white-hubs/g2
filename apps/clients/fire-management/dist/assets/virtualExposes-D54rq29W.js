@@ -1,0 +1,1 @@
+import{t as e}from"./virtual_mf-exposes___mfe_internal__fireManagementClient__remoteEntry_js-C3cRHdcm.js";export{e as default};

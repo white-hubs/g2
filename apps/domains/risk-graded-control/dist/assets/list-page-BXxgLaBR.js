@@ -1,0 +1,1 @@
+function e(e=10){return{pageNumber:1,pageSize:e,total:0}}export{e as t};

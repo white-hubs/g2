@@ -1,0 +1,1 @@
+var e=`/gw-bff/daily-task-api`,t=[`/daily-task/`,`/mdata/`,`/bracing/`,`/message2/`,`/loose-works/`,`/device-center/`,`/property/`,`/dictionary/`,`/maintain/`,`/tag/`,`/identity/`];export{t as DAILY_TASK_ALLOWED_UPSTREAM_PREFIXES,e as DAILY_TASK_BFF_BASE_PATH};

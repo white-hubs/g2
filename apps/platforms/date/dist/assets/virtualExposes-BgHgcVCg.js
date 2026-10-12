@@ -1,0 +1,1 @@
+import{t as e}from"./virtual_mf-exposes___mfe_internal__datePlatform__remoteEntry_js-Djdhs7gP.js";export{e as default};

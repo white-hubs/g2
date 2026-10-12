@@ -1,0 +1,1 @@
+import{t as e}from"./_virtual_mf___mfe_internal__attendance__loadShare__vue_mf_2_router__loadShare__.js-DsZaCDik.js";function t(){let t=e(),n=String(t.meta.title??`考勤管理`);return{pageTitle:n,title:n}}export{t};

@@ -1,0 +1,22 @@
+.pcTable :global(td .ant-btn) {
+  padding: 0 !important;
+  padding-right: 12px !important;
+}
+
+/* scroll.y 时保留 body 纵向滚动条，与 thead 占位列对齐，避免表头表体错位 */
+.pcTable :global(.pc-alias-table--scroll-y [class$="-table-body"]) {
+  overflow-y: scroll !important;
+}
+
+.pcTable :global([class$="-table-thead"] th:nth-last-child(2)) {
+  overflow: visible !important;
+}
+
+/* 树形表格的展开列与业务序号列视觉连续：展开列仍独立，避免挤占序号宽度。 */
+.pcTable :global(.pc-alias-table--tree-expand .ant-table-row-expand-icon-cell) {
+  border-inline-end: 0;
+}
+
+.pcTable :global(.pc-alias-table--tree-expand .ant-table-row-expand-icon-cell + td) {
+  border-inline-start: 0;
+}

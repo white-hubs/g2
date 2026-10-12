@@ -1,0 +1,163 @@
+.safety-duty-domain {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  min-width: 0;
+  min-height: 0;
+}
+.safety-duty-domain > * {
+  min-width: 0;
+}
+.safety-duty-domain .toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  flex-shrink: 0;
+  margin-bottom: 16px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+.safety-duty-domain .toolbar .ant-form-item,
+.safety-duty-domain .toolbar .safety-duty-form-item {
+  padding-right: 0 !important;
+  margin-right: 8px !important;
+  margin-bottom: 8px !important;
+}
+.safety-duty-domain .toolbar .ant-form-item-label,
+.safety-duty-domain .toolbar .safety-duty-form-item-label {
+  padding-right: 4px;
+}
+
+/*
+ * Query filters: use compact flex instead of auto-fill minmax(280px, 1fr),
+ * which stretches few fields across the row and creates uneven gaps.
+ */
+.safety-duty-domain .pc-query-form-header,
+.safety-duty-compact-form .pc-query-form-header {
+  align-items: center;
+  gap: 12px;
+}
+
+.safety-duty-domain .pc-query-form-container,
+.safety-duty-compact-form .pc-query-form-container {
+  display: flex !important;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px 16px;
+  padding: 16px 0 12px !important;
+  grid-template-columns: none !important;
+}
+
+.safety-duty-domain .pc-query-form-container > .pc-design-form-item,
+.safety-duty-domain .pc-query-form-container > .ant-form-item,
+.safety-duty-compact-form .pc-query-form-container > .pc-design-form-item,
+.safety-duty-compact-form .pc-query-form-container > .ant-form-item {
+  flex: 0 0 auto;
+  max-width: none;
+  margin-bottom: 0 !important;
+  margin-inline-end: 0 !important;
+}
+
+.safety-duty-domain .pc-query-form-container .ant-form-item-row,
+.safety-duty-compact-form .pc-query-form-container .ant-form-item-row {
+  flex-wrap: nowrap;
+  align-items: center;
+  gap: 8px;
+}
+
+.safety-duty-domain .pc-query-form-container .ant-form-item-label > label,
+.safety-duty-compact-form .pc-query-form-container .ant-form-item-label > label {
+  height: 32px;
+  margin-inline-end: 0;
+  line-height: 32px;
+}
+
+.safety-duty-domain .pc-query-form-container .ant-form-item-control,
+.safety-duty-compact-form .pc-query-form-container .ant-form-item-control {
+  max-width: none;
+  min-width: 0;
+  flex: 0 1 auto !important;
+}
+
+.safety-duty-domain .pc-query-form-container .ant-input-affix-wrapper,
+.safety-duty-domain .pc-query-form-container .ant-input,
+.safety-duty-domain .pc-query-form-container .ant-select,
+.safety-duty-domain .pc-query-form-container .ant-picker,
+.safety-duty-domain .pc-query-form-container .ant-input-number,
+.safety-duty-domain .pc-query-form-container .ant-cascader-picker,
+.safety-duty-domain .pc-query-form-container .ant-tree-select,
+.safety-duty-compact-form .pc-query-form-container .ant-input-affix-wrapper,
+.safety-duty-compact-form .pc-query-form-container .ant-input,
+.safety-duty-compact-form .pc-query-form-container .ant-select,
+.safety-duty-compact-form .pc-query-form-container .ant-picker,
+.safety-duty-compact-form .pc-query-form-container .ant-input-number,
+.safety-duty-compact-form .pc-query-form-container .ant-cascader-picker,
+.safety-duty-compact-form .pc-query-form-container .ant-tree-select {
+  width: auto;
+}
+
+.safety-duty-domain .pc-query-form-container .ant-radio-group,
+.safety-duty-compact-form .pc-query-form-container .ant-radio-group {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 0 4px;
+}
+
+.safety-duty-domain .tableWrap {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+  flex: 1;
+  min-height: 0;
+  overflow: auto;
+}
+.safety-duty-domain .tableWrap .safety-duty-table,
+.safety-duty-domain .tableWrap .ant-table-wrapper {
+  max-width: 100%;
+}
+.safety-duty-domain .statGrid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 12px;
+  margin-bottom: 16px;
+}
+.safety-duty-domain .statCard {
+  border: 1px solid #edf0f5;
+  border-radius: 4px;
+  padding: 14px 16px;
+  background: #fff;
+}
+.safety-duty-domain .statLabel {
+  color: #6b7280;
+  font-size: 13px;
+}
+.safety-duty-domain .statValue {
+  margin-top: 8px;
+  color: #1f2937;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.2;
+}
+.safety-duty-domain .sectionTitle {
+  margin: 0 0 12px;
+  color: #1f2937;
+  font-size: 16px;
+  font-weight: 600;
+}
+.safety-duty-domain .ellipsis {
+  display: inline-block;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  vertical-align: bottom;
+  white-space: nowrap;
+}
+@media (max-width: 1100px) {
+  .safety-duty-domain .statGrid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}

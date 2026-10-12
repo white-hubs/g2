@@ -1,0 +1,38 @@
+{
+  "name": "@g2-domain/risk-graded-control",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "bun ../../../tooling/dev-link/cli.ts",
+    "dev:serve": "bun --bun vite --port 5072 --strictPort",
+    "build": "bun --bun vite build",
+    "preview": "bun --bun vite preview --port 5072 --strictPort",
+    "test": "bun test",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  },
+  "dependencies": {
+    "@g2-client/file": "workspace:*",
+    "@g2-client/ouaa": "workspace:*",
+    "@g2-client/risk-graded-control": "workspace:*",
+    "@g2-composition/contract": "workspace:*",
+    "@g2-contract/ouaa": "workspace:*",
+    "@g2-contract/risk-graded-control": "workspace:*",
+    "@g2-runtime/common-loader": "workspace:*",
+    "ant-design-vue": "catalog:antdv",
+    "dayjs": "catalog:libs",
+    "echarts": "catalog:libs",
+    "leaflet": "^1.9.4",
+    "vue": "catalog:vue",
+    "vue-router": "catalog:vue"
+  },
+  "devDependencies": {
+    "@g2-platform/pc-map": "workspace:*",
+    "@g2-platform/pc-ui": "workspace:*",
+    "@g2-tooling/mf-vite": "workspace:*",
+    "@types/leaflet": "^1.9.21",
+    "@vitejs/plugin-vue-jsx": "catalog:vite",
+    "typescript": "catalog:typescript",
+    "vite": "catalog:vite"
+  }
+}

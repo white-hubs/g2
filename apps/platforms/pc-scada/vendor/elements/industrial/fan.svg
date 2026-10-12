@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:scada="http://cube-scada.io/ns/v1"
+     viewBox="0 0 100 100">
+  <metadata>
+    <scada:element>
+      <scada:meta type="fan" label="离心风机" category="工业设备" version="1.0.0"/>
+      <scada:props>
+        <scada:prop name="running" type="boolean" label="运行中" default="false" domain="observe" semantic="status.running" required="false" bindable="true" controllable="false"/>
+        <scada:prop name="color" type="color" label="运行色" default="#52c41a" domain="observe" semantic="style.color" required="false" bindable="true" controllable="false"/>
+        <scada:prop name="speed" type="number" label="旋转周期(ms)" default="1000" domain="observe" semantic="status.speed" unit="ms" required="false" bindable="true" controllable="false"/>
+        <scada:prop name="commandStart" type="boolean" label="启动命令" default="false" domain="control" semantic="command.start" required="false" bindable="false" controllable="true"/>
+        <scada:prop name="commandStop" type="boolean" label="停止命令" default="false" domain="control" semantic="command.stop" required="false" bindable="false" controllable="true"/>
+      </scada:props>
+      <scada:mappings>
+        <!-- When running: use the configurable color; when stopped: show inactive gray -->
+        <scada:map prop="running" selector=".fan-blade" attr="fill" transform="value === true ? (props.color || '#52c41a') : '#bbbbbb'"/>
+        <scada:map prop="running" selector="#fan-frame" attr="stroke" transform="value === true ? (props.color || '#52c41a') : '#bbbbbb'"/>
+      </scada:mappings>
+      <scada:animations>
+        <scada:animation
+          id="spin"
+          triggerProp="running"
+          triggerCondition="value === true"
+          target="#fan-blades"
+          keyframes='[{"transform":"rotate(0deg)"},{"transform":"rotate(360deg)"}]'
+          duration="1000"
+          iterations="Infinity"
+          easing="linear"/>
+      </scada:animations>
+    </scada:element>
+  </metadata>
+
+  <!-- Outer Frame (default: stopped/inactive color) -->
+  <circle id="fan-frame" cx="50" cy="50" r="45" fill="none" stroke="#bbbbbb" stroke-width="4"/>
+  
+  <!-- Blades Group -->
+  <g id="fan-blades" style="transform-origin: 50px 50px">
+    <!-- 8 Blades -->
+    <path class="fan-blade" fill="#bbbbbb" d="M50,50 Q65,25 85,35 Q75,55 50,50 Z" transform="rotate(0, 50, 50)"/>
+    <path class="fan-blade" fill="#bbbbbb" d="M50,50 Q65,25 85,35 Q75,55 50,50 Z" transform="rotate(45, 50, 50)"/>
+    <path class="fan-blade" fill="#bbbbbb" d="M50,50 Q65,25 85,35 Q75,55 50,50 Z" transform="rotate(90, 50, 50)"/>
+    <path class="fan-blade" fill="#bbbbbb" d="M50,50 Q65,25 85,35 Q75,55 50,50 Z" transform="rotate(135, 50, 50)"/>
+    <path class="fan-blade" fill="#bbbbbb" d="M50,50 Q65,25 85,35 Q75,55 50,50 Z" transform="rotate(180, 50, 50)"/>
+    <path class="fan-blade" fill="#bbbbbb" d="M50,50 Q65,25 85,35 Q75,55 50,50 Z" transform="rotate(225, 50, 50)"/>
+    <path class="fan-blade" fill="#bbbbbb" d="M50,50 Q65,25 85,35 Q75,55 50,50 Z" transform="rotate(270, 50, 50)"/>
+    <path class="fan-blade" fill="#bbbbbb" d="M50,50 Q65,25 85,35 Q75,55 50,50 Z" transform="rotate(315, 50, 50)"/>
+    
+    <!-- Center Hub -->
+    <circle cx="50" cy="50" r="10" fill="none" stroke="#bbbbbb" stroke-width="2"/>
+    <circle cx="50" cy="50" r="8" fill="#ffffff" stroke="#bbbbbb" stroke-width="1"/>
+  </g>
+</svg>

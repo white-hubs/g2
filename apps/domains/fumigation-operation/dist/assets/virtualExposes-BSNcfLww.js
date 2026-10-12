@@ -1,0 +1,1 @@
+import{t as e}from"./virtual_mf-exposes___mfe_internal__fumigationOperation__remoteEntry_js-DVRPTqOs.js";export{e as default};

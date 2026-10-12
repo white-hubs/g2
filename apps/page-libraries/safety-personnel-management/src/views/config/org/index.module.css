@@ -1,0 +1,28 @@
+.searchBar {
+  margin-bottom: 16px;
+}
+
+.searchInput {
+  width: 200px;
+  flex: 0 0 auto;
+}
+
+.tableWrap {
+  :global(.ant-table-tbody > tr > td:first-child) {
+    align-items: center;
+  }
+}
+
+.orgTable {
+  :global(.ant-table-title) {
+    padding-top: 0;
+  }
+
+  :global(.ant-table-placeholder) {
+    border-bottom: none;
+  }
+}
+
+.memberCell {
+  color: rgba(0, 0, 0, 0.65);
+}

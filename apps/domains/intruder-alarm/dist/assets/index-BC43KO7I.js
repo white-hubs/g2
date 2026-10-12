@@ -1,0 +1,1 @@
+import"./virtual_mf-exposes___mfe_internal__intruderAlarm__remoteEntry_js-Dz_W3rOp.js";import"./virtual_mf-REMOTE_ENTRY_ID___mfe_internal__intruderAlarm__remoteEntry_js-D9p__Q5q.js";document.querySelector(`#app`).textContent=`@g2-domain/intruder-alarm build shell`;

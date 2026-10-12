@@ -1,0 +1,100 @@
+{
+  "_virtual_mf-REMOTE_ENTRY_ID___mfe_internal__formAuditClient__remoteEntry_js-Bx5w9wQe.js": {
+    "file": "assets/virtual_mf-REMOTE_ENTRY_ID___mfe_internal__formAuditClient__remoteEntry_js-Bx5w9wQe.js",
+    "name": "virtual_mf-REMOTE_ENTRY_ID___mfe_internal__formAuditClient__remoteEntry_js",
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "virtual:mf-localSharedImportMap:__mfe_internal__formAuditClient",
+      "_virtual_mf-exposes___mfe_internal__formAuditClient__remoteEntry_js-C44z-oWb.js"
+    ]
+  },
+  "_virtual_mf-exposes___mfe_internal__formAuditClient__remoteEntry_js-C44z-oWb.js": {
+    "file": "assets/virtual_mf-exposes___mfe_internal__formAuditClient__remoteEntry_js-C44z-oWb.js",
+    "name": "virtual_mf-exposes___mfe_internal__formAuditClient__remoteEntry_js",
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "src/client.ts"
+    ]
+  },
+  "_vite-preload-helper-7P2xnrDv.js": {
+    "file": "assets/vite-preload-helper-7P2xnrDv.js",
+    "name": "vite-preload-helper"
+  },
+  "index.html": {
+    "file": "assets/index-C_MqtMWG.js",
+    "name": "index",
+    "src": "index.html",
+    "isEntry": true,
+    "imports": [
+      "_virtual_mf-exposes___mfe_internal__formAuditClient__remoteEntry_js-C44z-oWb.js",
+      "_virtual_mf-REMOTE_ENTRY_ID___mfe_internal__formAuditClient__remoteEntry_js-Bx5w9wQe.js"
+    ]
+  },
+  "src/client.ts": {
+    "file": "assets/client-C260vJ9D.js",
+    "name": "client",
+    "src": "src/client.ts",
+    "isEntry": true
+  },
+  "virtual:mf-REMOTE_ENTRY_ID:__mfe_internal__formAuditClient__remoteEntry_js": {
+    "file": "remoteEntry.js",
+    "name": "remoteEntry",
+    "src": "virtual:mf-REMOTE_ENTRY_ID:__mfe_internal__formAuditClient__remoteEntry_js",
+    "imports": [
+      "_virtual_mf-REMOTE_ENTRY_ID___mfe_internal__formAuditClient__remoteEntry_js-Bx5w9wQe.js"
+    ]
+  },
+  "virtual:mf-REMOTE_ENTRY_SSR_ID:__mfe_internal__formAuditClient__remoteEntry_js": {
+    "file": "remoteEntry.ssr.js",
+    "name": "ssrRemoteEntry",
+    "src": "virtual:mf-REMOTE_ENTRY_SSR_ID:__mfe_internal__formAuditClient__remoteEntry_js",
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "virtual:mf-exposes-ssr:__mfe_internal__formAuditClient__remoteEntry_js"
+    ]
+  },
+  "virtual:mf-exposes-ssr:__mfe_internal__formAuditClient__remoteEntry_js": {
+    "file": "assets/virtual_mf-exposes-ssr___mfe_internal__formAuditClient__remoteEntry_js-Bfvs9-7O.js",
+    "name": "virtual_mf-exposes-ssr___mfe_internal__formAuditClient__remoteEntry_js",
+    "src": "virtual:mf-exposes-ssr:__mfe_internal__formAuditClient__remoteEntry_js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "src/client.ts"
+    ]
+  },
+  "virtual:mf-exposes:__mfe_internal__formAuditClient__remoteEntry_js": {
+    "file": "assets/virtualExposes-BlZzc6mg.js",
+    "name": "virtualExposes",
+    "src": "virtual:mf-exposes:__mfe_internal__formAuditClient__remoteEntry_js",
+    "imports": [
+      "_virtual_mf-exposes___mfe_internal__formAuditClient__remoteEntry_js-C44z-oWb.js"
+    ]
+  },
+  "virtual:mf-localSharedImportMap:__mfe_internal__formAuditClient": {
+    "file": "assets/_virtual_mf-localSharedImportMap___mfe_internal__formAuditClient-CcdcYaa2.js",
+    "name": "_virtual_mf-localSharedImportMap___mfe_internal__formAuditClient",
+    "src": "virtual:mf-localSharedImportMap:__mfe_internal__formAuditClient",
+    "isDynamicEntry": true
+  },
+  "virtual:mf:__mfe_internal__formAuditClient__H_A_I__hostAutoInit__H_A_I__.js": {
+    "file": "assets/hostInit-B-NBzvq0.js",
+    "name": "hostInit",
+    "src": "virtual:mf:__mfe_internal__formAuditClient__H_A_I__hostAutoInit__H_A_I__.js",
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "_virtual_mf-REMOTE_ENTRY_ID___mfe_internal__formAuditClient__remoteEntry_js-Bx5w9wQe.js",
+      "virtual:mf-localSharedImportMap:__mfe_internal__formAuditClient"
+    ]
+  }
+}

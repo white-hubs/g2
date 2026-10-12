@@ -1,0 +1,1 @@
+var e,t;function n(n,r){e=n,t=r}function r(){if(!e)throw Error(`资产管理领域尚未安装`);return e}function i(){if(!t)throw Error(`资产管理 Client 尚未初始化`);return t}function a(){return r().ensureClient(`fileClient`)}export{n as i,r as n,a as r,i as t};

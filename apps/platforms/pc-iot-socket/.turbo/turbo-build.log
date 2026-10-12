@@ -1,0 +1,46 @@
+$ bun --bun vite build
+vite v8.1.5 building client environment for production...
+[2Ktransforming...✓ 133 modules transformed.
+rendering chunks...
+[ Module Federation DTS ] tempTsConfigJsonPath: /Users/quan/Desktop/主应用/g2/apps/platforms/pc-iot-socket/node_modules/.federation/tsconfig.909682cdb0fe91a2c0d6739b481b0089.json Stack trace:
+    at <anonymous> (/Users/quan/.bun/install/cache/links/@module-federation+dts-plugin@2.8.0+7524df1edfed9f02-7099747e722643af/node_modules/@module-federation/dts-plugin/dist/esm/expose-rpc-B0rqtOKP.mjs:630:11)
+    at generateTypes (/Users/quan/.bun/install/cache/links/@module-federation+dts-plugin@2.8.0+7524df1edfed9f02-7099747e722643af/node_modules/@module-federation/dts-plugin/dist/esm/expose-rpc-B0rqtOKP.mjs:912:10)
+    at processTicksAndRejections (native:7:39)
+[ Module Federation DTS ] Federated types created correctly Stack trace:
+    at generateTypes (/Users/quan/.bun/install/cache/links/@module-federation+dts-plugin@2.8.0+7524df1edfed9f02-7099747e722643af/node_modules/@module-federation/dts-plugin/dist/esm/expose-rpc-B0rqtOKP.mjs:928:13)
+    at processTicksAndRejections (native:7:39)
+computing gzip size...
+dist/index.html                                                                                   1.16 kB │ gzip:  0.53 kB
+dist/mf-manifest.json                                                                             1.27 kB │ gzip:  0.48 kB
+dist/assets/mf-entry-bootstrap-5-cbbd6d43.js                                                      1.35 kB
+dist/assets/mf-entry-bootstrap-0-57ef98e4.js                                                      1.36 kB
+dist/assets/mf-entry-bootstrap-1-c50a8a3f.js                                                      1.36 kB
+dist/assets/mf-entry-bootstrap-3-971c5187.js                                                      1.38 kB
+dist/assets/mf-entry-bootstrap-2-562e9862.js                                                      1.40 kB
+dist/assets/mf-entry-bootstrap-4-59be7aa4.js                                                      1.41 kB
+dist/mf-stats.json                                                                                4.05 kB │ gzip:  0.94 kB
+dist/.vite/manifest.json                                                                          4.93 kB │ gzip:  0.70 kB
+dist/assets/src-C6jebRZY.js                                                                       0.06 kB │ gzip:  0.07 kB
+dist/assets/platform-module-BNTLheUn.js                                                           0.07 kB │ gzip:  0.08 kB
+dist/assets/virtualExposes-UPWtIHNw.js                                                            0.11 kB │ gzip:  0.12 kB
+dist/remoteEntry.js                                                                               0.14 kB │ gzip:  0.14 kB
+dist/assets/rolldown-runtime-DK3Fl9T5.js                                                          0.15 kB │ gzip:  0.15 kB
+dist/assets/virtual_mf-exposes-ssr___mfe_internal__pcIotSocket__remoteEntry_js-DCdM_Ii-.js        0.43 kB │ gzip:  0.25 kB
+dist/assets/_virtual_mf-localSharedImportMap___mfe_internal__pcIotSocket-RKZ-vLBB.js              0.64 kB │ gzip:  0.44 kB
+dist/remoteEntry.ssr.js                                                                           0.99 kB │ gzip:  0.58 kB
+dist/assets/virtual_mf-exposes___mfe_internal__pcIotSocket__remoteEntry_js-B5Im7Qly.js            1.25 kB │ gzip:  0.62 kB
+dist/assets/vite-preload-helper-7P2xnrDv.js                                                       1.41 kB │ gzip:  0.75 kB
+dist/assets/hostInit-CXNCMoBw.js                                                                  2.29 kB │ gzip:  1.09 kB
+dist/assets/main-2D_8MxTT.js                                                                     37.46 kB │ gzip: 14.73 kB
+dist/assets/virtual_mf-REMOTE_ENTRY_ID___mfe_internal__pcIotSocket__remoteEntry_js-SxvCwA7t.js   39.01 kB │ gzip: 12.92 kB
+dist/assets/_virtual_mf___mfe_internal__pcIotSocket__prebuild__vue__prebuild__-Ie5Mnuj2.js      116.68 kB │ gzip: 43.97 kB
+
+[33m[PLUGIN_TIMINGS] [0mYour build spent significant time in plugins. Here is a breakdown:
+  - module-federation-dts-build (62%)
+  - vite:module-federation-virtual-modules (4%)
+  - proxyPreBuildShared:tree-shaking-graph (4%)
+  - mf:ssr-remote-entry:pre (3%)
+  - proxyRemoteEntry (3%)
+See https://rolldown.rs/reference/InputOptions.checks#plugintimings for more details.
+
+✓ built in 35.91s

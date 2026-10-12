@@ -1,0 +1,13 @@
+<!--
+  构建入口壳（Vite 默认 client entry），不是独立可运行产品。
+  Host / Profile 只消费 remoteEntry.js + mf-manifest.json。
+  当前约定未设 build.rollupOptions.input，删除会导致 vite build 失败。
+  见 apps/platforms/README.md 与 docs/adr/0010-module-federation-vite.md
+-->
+<!doctype html>
+<html>
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

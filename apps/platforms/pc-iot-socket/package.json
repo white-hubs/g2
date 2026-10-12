@@ -1,0 +1,29 @@
+{
+  "name": "@g2-platform/pc-iot-socket",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts",
+    "./platform": "./src/platform-module.ts"
+  },
+  "scripts": {
+    "dev": "bun ../../../tooling/dev-link/cli.ts",
+    "dev:serve": "bun --bun vite --port 5053 --strictPort",
+    "build": "bun --bun vite build",
+    "preview": "bun --bun vite preview --port 5053 --strictPort",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "bun test"
+  },
+  "dependencies": {
+    "@g2-composition/contract": "workspace:*",
+    "axios": "1.7.2",
+    "vue": "catalog:vue"
+  },
+  "devDependencies": {
+    "@g2-tooling/mf-vite": "workspace:*",
+    "@vitejs/plugin-vue-jsx": "catalog:vite",
+    "typescript": "catalog:typescript",
+    "vite": "catalog:vite"
+  }
+}

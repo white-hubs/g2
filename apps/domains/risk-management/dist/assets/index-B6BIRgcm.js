@@ -1,0 +1,1 @@
+import"./virtual_mf-exposes___mfe_internal__riskManagement__remoteEntry_js-Bh2n9hrN.js";import"./virtual_mf-REMOTE_ENTRY_ID___mfe_internal__riskManagement__remoteEntry_js-DF2OtRYI.js";document.querySelector(`#app`).textContent=`@g2-domain/risk-management build shell`;

@@ -1,0 +1,36 @@
+.result-item-container {
+  margin-bottom: 16px;
+}
+
+.title {
+  margin-bottom: 8px;
+  color: rgba(0, 0, 0, 0.85);
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.result-item {
+  display: flex;
+  gap: 4px;
+  margin-bottom: 8px;
+}
+
+.first-index {
+  margin-right: 8px;
+}
+
+.item-content {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.normal-value {
+  margin-left: 12px;
+  color: #07c160;
+}
+
+.error-value {
+  margin-left: 12px;
+  color: #ff4158;
+}

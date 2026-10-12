@@ -1,0 +1,1 @@
+import{C as e,S as t,x as n}from"./_virtual_mf___mfe_internal__shellPc__loadShare__pinia__loadShare__.js-BmX8p98f.js";var r={root:`_root_1vvoo_1`},i=e({name:`PocInlineView`,setup(){return()=>t(`section`,{class:r.root,"data-domain":`poc-inline-pc`},[n(`POC inline domain`)])}});export{i as default};

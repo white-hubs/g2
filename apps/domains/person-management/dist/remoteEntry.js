@@ -1,0 +1,1 @@
+import{n as e,t}from"./assets/virtual_mf-REMOTE_ENTRY_ID___mfe_internal__personManagement__remoteEntry_js-BJb6xHLg.js";export{t as get,e as init};

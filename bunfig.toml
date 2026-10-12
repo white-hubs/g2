@@ -1,0 +1,4 @@
+# bunfig.toml
+[install]
+globalStore = true
+# Prefer project .npmrc scoped registry for @cube-ai (Nexus npm-group).

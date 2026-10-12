@@ -1,0 +1,159 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  max-height: 100%;
+  overflow: hidden;
+  background: var(--g2-color-page-bg, #f5f7fa);
+  color: var(--g2-color-text, rgba(0, 0, 0, 0.85));
+}
+
+.fullPage {
+  background: transparent;
+  overflow: auto;
+}
+
+.fullPageBody {
+  display: flex;
+  flex: 1;
+  min-height: 0;
+  overflow: hidden;
+  position: relative;
+}
+
+.fullPageContent {
+  background: transparent;
+  overflow: auto;
+}
+
+.body {
+  display: flex;
+  flex: 1;
+  min-height: 0;
+  overflow: hidden;
+  position: relative;
+}
+
+.navLoading {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background-color: var(--g2-color-surface-bg, #ffffff);
+  z-index: 2;
+  color: var(--g2-color-text-secondary, #595959);
+  font-size: 14px;
+}
+
+.side {
+  width: auto;
+  flex-shrink: 0;
+  height: 100%;
+  min-height: 0;
+  background: var(--g2-color-side-menu-bg, var(--g2-color-navigation-bg, #ffffff));
+  border-right: 1px solid var(--g2-color-border, #eef0f3);
+  overflow: hidden;
+  display: flex;
+}
+
+.content {
+  flex: 1;
+  min-width: 0;
+  min-height: 0;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  /* 四边留白与灰底由 Shell 内容区承载，PageLayout 只负责左右 padding。 */
+  padding: 16px;
+  background: var(--g2-color-page-bg, #ffffff);
+  overflow: hidden;
+}
+
+.content > :global(#pc-layout-container),
+.content > :global(.energy-page-shell),
+.content > :global(.classify-settings-page),
+.content > :global(.energy-page-root) {
+  flex: 1;
+  min-height: 0;
+  overflow: hidden;
+}
+
+/* 能碳总览：滚动发生在内容区，标题留在页内不随滚 */
+.content > :global(.energy-page-shell--scrollable) {
+  overflow: hidden;
+}
+
+.content.fullPageContent {
+  overflow: auto;
+  padding: 0;
+  background: transparent;
+}
+
+/**
+ * MF 工作台（`/d/workbench*`）内容挂在 RouterView，不再进入 `#workbench-container`。
+ * 旧 qiankun 宿主靠 hostContainer 的 overflow:auto 滚动；此处补回同一滚动层。
+ */
+.contentScroll {
+  overflow: auto;
+}
+
+.hostContainer {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+  background: var(--g2-color-page-bg, #ffffff);
+}
+
+.hostContainer > :global(div) {
+  height: 100%;
+  width: 100%;
+}
+
+.hostActive {
+  display: block;
+}
+
+.hostIdle {
+  display: none;
+}
+
+.appStatus {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background-color: var(--g2-color-surface-bg, #ffffff);
+  color: var(--g2-color-text-secondary, #595959);
+  z-index: 1;
+}
+
+.spinner {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  border: 3px solid #e5e5e5;
+  border-top-color: #1677ff;
+  border-radius: 50%;
+  animation: shell-pc-spin 0.8s linear infinite;
+}
+
+@keyframes shell-pc-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.errorReload {
+  padding: 4px 16px;
+  cursor: pointer;
+}

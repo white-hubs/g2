@@ -1,0 +1,188 @@
+# g2 — local web release verify stack (MinIO + BFF + main-site gateway + CDN edge)
+#
+# Topology mirrors prod:
+#   bff (:3000)      — @g2-server/bff (/gw-bff/*); gateway proxies here by default
+#   gateway (:8080)  — main site: Profile + shell reverse-proxy + /api + /gw-bff
+#   cdn (:8081)      — release CDN origin (webReleaseBase), independent of gateway
+#
+# Usage (repo root) — local verify only (not production):
+#   bun run web-release:up
+#   bun run web-release:rebuild    # release:publish + gateway nginx reload
+#   open http://localhost:8080
+#   curl -I http://localhost:8081/pcAuth/<ver>/mf-manifest.json
+#   curl http://localhost:3030/health
+#
+# BFF image build: secrets.npmrc → repo .npmrc (registry scopes; override with NPMRC_FILE).
+
+name: g2-web-release
+
+services:
+  bff:
+    build:
+      context: ../..
+      dockerfile: bff/Dockerfile
+      # Do not re-resolve base from Docker Hub when the image is already local
+      # (auth.docker.io i/o timeout is common on restricted networks).
+      pull: false
+      args:
+        # DaoCloud mirror by default for local verify; set BFF_BASE_IMAGE=oven/bun:1.3.14 for Docker Hub
+        BUN_BASE_IMAGE: ${BFF_BASE_IMAGE:-docker.m.daocloud.io/oven/bun:1.3.14}
+      secrets:
+        - npmrc
+    image: g2-bff:local
+    pull_policy: missing
+    container_name: g2-bff
+    restart: unless-stopped
+    environment:
+      PORT: "3000"
+      HOSTNAME: "0.0.0.0"
+      LOG_LEVEL: "${BFF_LOG_LEVEL:-info}"
+      # Downstream (defaults align with cube-test; override in .env)
+      OUAA_URL: "${BFF_OUAA_URL:-http://gateway/api/ouaa}"
+      METADATA_URL: "${BFF_METADATA_URL:-https://cube-test.guhecloud.com:3200/mdata}"
+      DEVICE_CENTER_URL: "${BFF_DEVICE_CENTER_URL:-http://gateway/api/device-center}"
+      DICTIONARY_URL: "${BFF_DICTIONARY_URL:-https://cube-test.guhecloud.com:3200/dictionary}"
+      DISPATCH_URL: "${BFF_DISPATCH_URL:-http://gateway/api/dispatch}"
+      FUSION_COMMUNICATE_URL: "${BFF_FUSION_COMMUNICATE_URL:-http://gateway/api/fusion-communicate}"
+      # 风险管控必须指向实际开河服务根地址；BFF 会在其后拼接 `/risk-control/*`。
+      # 不能使用 gateway 站点根地址，否则会命中 Shell fallback HTML。
+      RISK_CONTROL_URL: "${BFF_RISK_CONTROL_URL:-}"
+      FILE_SERVICE_URL: "${BFF_FILE_SERVICE_URL:-https://cube-test.guhecloud.com:3200/file}"
+      DAILY_TASK_URL: "${BFF_DAILY_TASK_URL:-https://cube-test.guhecloud.com:3200}"
+      SECURITY_MONITOR_URL: "${BFF_SECURITY_MONITOR_URL:-http://gateway/api}"
+      # 本地未运行 video-monitor 后端时，复用测试环境已部署的视频监控 BFF。
+      VIDEO_MONITOR_URL: "${BFF_VIDEO_MONITOR_URL:-https://cube-test.guhecloud.com:3000/gw-bff/video-monitor}"
+      OAUTH_CLIENT_ID: "${OAUTH_CLIENT_ID:-client_2}"
+      OAUTH_CLIENT_SECRET: "${OAUTH_CLIENT_SECRET:-}"
+      OAUTH_CLIENT_MAP: "${OAUTH_CLIENT_MAP:-}"
+    ports:
+      # Host 3000 often taken; container still listens on 3000 (gateway uses http://bff:3000)
+      - "${BFF_HOST_PORT:-3030}:3000"
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    healthcheck:
+      test: ["CMD", "bun", "-e", "fetch('http://127.0.0.1:3000/health').then(r=>process.exit(r.ok?0:1)).catch(()=>process.exit(1))"]
+      interval: 5s
+      timeout: 5s
+      retries: 12
+      start_period: 30s
+
+  minio:
+    # 钉死 2022-07-17 社区版（多架构含 arm64）；其后社区版能力不足，禁止升 latest
+    # 同日 .fips 仅 amd64，本机 arm64 用非 FIPS 构建（能力与该日社区版一致）
+    image: minio/minio:RELEASE.2022-07-17T15-43-14Z
+    pull_policy: missing
+    container_name: g2-minio
+    restart: unless-stopped
+    command: server /data --console-address ":9001"
+    environment:
+      MINIO_ROOT_USER: "${MINIO_ROOT_USER:-minioadmin}"
+      MINIO_ROOT_PASSWORD: "${MINIO_ROOT_PASSWORD:-minioadmin}"
+    ports:
+      - "${MINIO_HOST_PORT:-9000}:9000"
+      - "${MINIO_CONSOLE_HOST_PORT:-9001}:9001"
+    volumes:
+      - minio-data:/data
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:9000/minio/health/live"]
+      interval: 5s
+      timeout: 5s
+      retries: 12
+      start_period: 15s
+
+  minio-setup:
+    # 与上述 MinIO 同期 mc，避免 CLI 与服务端漂移
+    image: minio/mc:RELEASE.2022-07-15T09-20-55Z
+    pull_policy: missing
+    container_name: g2-minio-setup
+    restart: "no"
+    depends_on:
+      minio:
+        condition: service_healthy
+    environment:
+      MINIO_ROOT_USER: "${MINIO_ROOT_USER:-minioadmin}"
+      MINIO_ROOT_PASSWORD: "${MINIO_ROOT_PASSWORD:-minioadmin}"
+    entrypoint:
+      - /bin/sh
+      - -c
+      - |
+        set -eu
+        i=0
+        until mc alias set local http://minio:9000 "$$MINIO_ROOT_USER" "$$MINIO_ROOT_PASSWORD" >/dev/null 2>&1 \
+          && mc ls local >/dev/null 2>&1; do
+          i=$((i + 1))
+          if [ "$$i" -gt 60 ]; then
+            echo 'minio not ready after 60 attempts' >&2
+            exit 1
+          fi
+          echo "waiting minio ready ($$i)..."
+          sleep 2
+        done
+        mc mb -p local/g2-web-release || true
+        mc anonymous set download local/g2-web-release
+        echo 'minio bucket g2-web-release ready (anonymous download)'
+
+  # Public release CDN edge (prod analogue: c.kaiheai.com). Serves bucket at URL root.
+  cdn:
+    image: nginx:1.27-alpine
+    pull_policy: missing
+    container_name: g2-cdn
+    restart: unless-stopped
+    depends_on:
+      minio:
+        condition: service_healthy
+      minio-setup:
+        condition: service_completed_successfully
+    ports:
+      - "${CDN_HOST_PORT:-8081}:80"
+    volumes:
+      - ../nginx/cdn.conf:/etc/nginx/conf.d/default.conf:ro
+
+  gateway:
+    image: nginx:1.27-alpine
+    pull_policy: missing
+    container_name: g2-gateway
+    restart: unless-stopped
+    # Avoid host proxy Fake-IP DNS addresses, which are not routable from Docker.
+    # Docker's embedded resolver still resolves compose service names.
+    dns:
+      - "${GATEWAY_DNS:-223.5.5.5}"
+    depends_on:
+      minio:
+        condition: service_healthy
+      minio-setup:
+        condition: service_completed_successfully
+      bff:
+        condition: service_healthy
+    ports:
+      - "${GATEWAY_HOST_PORT:-8080}:80"
+    environment:
+      # Set in deploy/docker-compose/.env (not committed). Placeholder defaults only.
+      API_UPSTREAM: "${API_UPSTREAM:-http://host.docker.internal:3000}"
+      API_UPSTREAM_HOST: "${API_UPSTREAM_HOST:-host.docker.internal}"
+      # Default: in-compose @g2-server/bff. Override to现网 if needed.
+      BFF_UPSTREAM: "${BFF_UPSTREAM:-http://bff:3000}"
+      BFF_UPSTREAM_HOST: "${BFF_UPSTREAM_HOST:-bff}"
+    volumes:
+      - ../nginx/default.conf:/etc/nginx/templates/default.conf.template:ro
+      # ADR-0055: generate output (registry.yaml / resolved.json / shell-location.conf)
+      - ../../.deploy-out/prod:/var/www/deploy-out:ro
+      # Vite/dev resolved profile only (dev.pc.resolved.json)
+      - ../compositions/.resolved:/var/www/compositions:ro
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    command:
+      - /bin/sh
+      - -c
+      - >
+        envsubst '$$API_UPSTREAM $$API_UPSTREAM_HOST $$BFF_UPSTREAM $$BFF_UPSTREAM_HOST' < /etc/nginx/templates/default.conf.template
+        > /etc/nginx/conf.d/default.conf
+        && nginx -g 'daemon off;'
+
+volumes:
+  minio-data:
+
+secrets:
+  # Project .npmrc only (scoped registry; do not mount host ~/.npmrc tokens)
+  npmrc:
+    file: ${NPMRC_FILE:-../../.npmrc}

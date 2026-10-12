@@ -1,0 +1,132 @@
+.safety-credit-merchant {
+  width: 100%;
+  color: #1f2a44;
+
+  .toolbar {
+    padding: 16px 0 10px;
+    margin: 0;
+    background: transparent;
+    border: 0;
+    border-radius: 0;
+  }
+
+  .merchant-search-item {
+    margin-right: 12px;
+    margin-bottom: 10px;
+    padding-right: 0;
+
+    .cube-input {
+      width: 180px;
+    }
+
+    .cube-select {
+      width: 180px;
+    }
+  }
+
+  .merchant-search-action {
+    margin-bottom: 10px;
+    padding-right: 0;
+  }
+
+  .merchant-reset-button {
+    margin-left: 10px;
+  }
+
+  .table-wrap {
+    background: #fff;
+    border: 0;
+    border-radius: 0;
+    overflow: auto;
+  }
+}
+
+.hidden-file-input {
+  display: none;
+}
+
+.merchant-form {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  column-gap: 18px;
+  row-gap: 14px;
+  align-items: flex-start;
+
+  .merchant-form-item {
+    min-width: 0;
+    margin-bottom: 0;
+
+    &.wide {
+      grid-column: 1 / -1;
+    }
+
+    .cube-form-item-control {
+      min-width: 0;
+    }
+
+    .cube-input,
+    .cube-textarea,
+    .cube-select {
+      width: 100%;
+    }
+
+    .cube-textarea {
+      min-height: 88px;
+    }
+  }
+
+  .merchant-account-config {
+    grid-column: 1 / -1;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    column-gap: 18px;
+    row-gap: 14px;
+    min-width: 0;
+    padding-top: 2px;
+
+    .account-config-header {
+      grid-column: 1 / -1;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      min-width: 0;
+
+      h3 {
+        margin: 0;
+        padding-left: 8px;
+        border-left: 3px solid #1677ff;
+        color: #1f2a44;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 20px;
+      }
+
+      span {
+        color: #8c8c8c;
+        font-size: 12px;
+        line-height: 20px;
+      }
+    }
+  }
+}
+
+.import-result {
+  .result-summary {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 12px;
+    font-weight: 600;
+  }
+
+  ul {
+    max-height: 260px;
+    margin: 0;
+    padding-left: 20px;
+    overflow: auto;
+  }
+
+  li {
+    margin-bottom: 6px;
+    color: #c2410c;
+  }
+}

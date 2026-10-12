@@ -1,0 +1,1 @@
+import{t as e}from"./virtual_mf-exposes___mfe_internal__gasManagement__remoteEntry_js-BNtLrBbd.js";export{e as default};

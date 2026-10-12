@@ -1,0 +1,32 @@
+$ bun --bun vite build
+vite v8.1.5 building client environment for production...
+[2Ktransforming...✓ 11 modules transformed.
+rendering chunks...
+[ Module Federation DTS ] tempTsConfigJsonPath: /Users/quan/Desktop/主应用/g2/apps/clients/warehouse-safety/node_modules/.federation/tsconfig.df101ffaaef2ed094281627e8b938486.json Stack trace:
+    at <anonymous> (/Users/quan/.bun/install/cache/links/@module-federation+dts-plugin@2.8.0+7524df1edfed9f02-7099747e722643af/node_modules/@module-federation/dts-plugin/dist/esm/expose-rpc-B0rqtOKP.mjs:630:11)
+    at generateTypes (/Users/quan/.bun/install/cache/links/@module-federation+dts-plugin@2.8.0+7524df1edfed9f02-7099747e722643af/node_modules/@module-federation/dts-plugin/dist/esm/expose-rpc-B0rqtOKP.mjs:912:10)
+    at processTicksAndRejections (native:7:39)
+[ Module Federation DTS ] Federated types created correctly Stack trace:
+    at generateTypes (/Users/quan/.bun/install/cache/links/@module-federation+dts-plugin@2.8.0+7524df1edfed9f02-7099747e722643af/node_modules/@module-federation/dts-plugin/dist/esm/expose-rpc-B0rqtOKP.mjs:928:13)
+    at processTicksAndRejections (native:7:39)
+computing gzip size...
+dist/index.html                                                                                            0.62 kB │ gzip: 0.33 kB
+dist/mf-manifest.json                                                                                      0.69 kB │ gzip: 0.29 kB
+dist/assets/mf-entry-bootstrap-0-51954107.js                                                               1.35 kB
+dist/mf-stats.json                                                                                         2.18 kB │ gzip: 0.67 kB
+dist/.vite/manifest.json                                                                                   4.24 kB │ gzip: 0.59 kB
+dist/assets/_virtual_mf-localSharedImportMap___mfe_internal__warehouseSafetyClient-CcdcYaa2.js             0.11 kB │ gzip: 0.11 kB
+dist/assets/virtualExposes-7KW3oESR.js                                                                     0.12 kB │ gzip: 0.12 kB
+dist/remoteEntry.js                                                                                        0.15 kB │ gzip: 0.15 kB
+dist/assets/virtual_mf-exposes-ssr___mfe_internal__warehouseSafetyClient__remoteEntry_js-DH3Qf0Lv.js       0.25 kB │ gzip: 0.22 kB
+dist/assets/index-nB-ivYgm.js                                                                              0.28 kB │ gzip: 0.20 kB
+dist/assets/virtual_mf-exposes___mfe_internal__warehouseSafetyClient__remoteEntry_js-CB5fTr6v.js           0.94 kB │ gzip: 0.58 kB
+dist/remoteEntry.ssr.js                                                                                    1.02 kB │ gzip: 0.58 kB
+dist/assets/vite-preload-helper-7P2xnrDv.js                                                                1.41 kB │ gzip: 0.75 kB
+dist/assets/client-Cm2IZk-M.js                                                                             1.93 kB │ gzip: 0.60 kB
+dist/assets/hostInit-D-RumLQ4.js                                                                           2.30 kB │ gzip: 1.09 kB
+dist/assets/virtual_mf-REMOTE_ENTRY_ID___mfe_internal__warehouseSafetyClient__remoteEntry_js-BwYl7BLb.js  14.10 kB │ gzip: 4.74 kB
+
+[33m[PLUGIN_TIMINGS] [0mYour build spent significant time in plugin `module-federation-dts-build`. See https://rolldown.rs/reference/InputOptions.checks#plugintimings for more details.
+
+✓ built in 27.93s

@@ -1,0 +1,52 @@
+.queryForm {
+  gap: 12px 0;
+}
+
+.queryInput {
+  width: 220px;
+}
+
+.callType {
+  width: 180px;
+}
+
+.buttons {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.error {
+  margin-bottom: 16px;
+}
+
+.modalSearch {
+  margin: 8px 0 16px;
+}
+
+.modalFooter {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding-top: 16px;
+}
+
+.selectionCount {
+  color: #646a73;
+}
+
+.levelInput {
+  width: 200px;
+}
+
+.rowActions {
+  white-space: nowrap;
+}
+
+@media (max-width: 760px) {
+  .queryInput {
+    width: 180px;
+  }
+}

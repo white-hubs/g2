@@ -1,0 +1,45 @@
+$ bun --bun vite build
+vite v8.1.5 building client environment for production...
+[2Ktransforming...✓ 1772 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                                                                                                      1.07 kB │ gzip:  0.54 kB
+dist/mf-manifest.json                                                                                                1.33 kB │ gzip:  0.49 kB
+dist/assets/mf-entry-bootstrap-0-85cf4213.js                                                                         1.35 kB
+dist/mf-stats.json                                                                                                   4.75 kB │ gzip:  1.07 kB
+dist/.vite/manifest.json                                                                                             8.53 kB │ gzip:  1.04 kB
+dist/assets/domain-CdRLo9CM.css                                                                                      0.30 kB │ gzip:  0.19 kB
+dist/assets/page-title-BNWviNAs.css                                                                                  2.57 kB │ gzip:  0.87 kB
+dist/assets/resource-list-ODfoQh4u.css                                                                               3.94 kB │ gzip:  1.10 kB
+dist/assets/evacuation-route-config-CfNQNnPn.css                                                                     6.08 kB │ gzip:  1.58 kB
+dist/assets/evacuation-command-DZWXzX7i.css                                                                         12.48 kB │ gzip:  3.13 kB
+dist/assets/virtualExposes-J1yfguKh.js                                                                               0.12 kB │ gzip:  0.12 kB
+dist/remoteEntry.js                                                                                                  0.14 kB │ gzip:  0.15 kB
+dist/assets/index-Bi80IsMj.js                                                                                        0.27 kB │ gzip:  0.19 kB
+dist/assets/virtual_mf-exposes-ssr___mfe_internal__emergencyDispatch__remoteEntry_js-DF0KPudb.js                     0.37 kB │ gzip:  0.29 kB
+dist/assets/unwrap-Dfyz8-A_.js                                                                                       0.64 kB │ gzip:  0.30 kB
+dist/assets/rolldown-runtime-QTnfLwEv.js                                                                             0.69 kB │ gzip:  0.42 kB
+dist/remoteEntry.ssr.js                                                                                              1.01 kB │ gzip:  0.58 kB
+dist/assets/virtual_mf-exposes___mfe_internal__emergencyDispatch__remoteEntry_js-Cr0_Y4fF.js                         1.07 kB │ gzip:  0.65 kB
+dist/assets/_virtual_mf-localSharedImportMap___mfe_internal__emergencyDispatch-zSzAYdEz.js                           1.23 kB │ gzip:  0.53 kB
+dist/assets/vite-preload-helper-7P2xnrDv.js                                                                          1.41 kB │ gzip:  0.75 kB
+dist/assets/domain-context-8tZa6ngc.js                                                                               1.55 kB │ gzip:  0.76 kB
+dist/assets/hostInit-Uec0OXrR.js                                                                                     2.33 kB │ gzip:  1.10 kB
+dist/assets/domain-DLBFOKSK.js                                                                                       3.23 kB │ gzip:  1.45 kB
+dist/assets/resource-list-BgdtkWyK.js                                                                                7.88 kB │ gzip:  3.03 kB
+dist/assets/evacuation-route-config-B13PLPQa.js                                                                     21.44 kB │ gzip:  7.30 kB
+dist/assets/_virtual_mf___mfe_internal__emergencyDispatch__loadShare__vue_mf_2_router__loadShare__.js-DF9CTV3d.js   30.53 kB │ gzip: 11.36 kB
+dist/assets/virtual_mf-REMOTE_ENTRY_ID___mfe_internal__emergencyDispatch__remoteEntry_js-B1VPz685.js                39.04 kB │ gzip: 12.94 kB
+dist/assets/evacuation-command-U02PDvxu.js                                                                          56.97 kB │ gzip: 20.61 kB
+dist/assets/_virtual_mf___mfe_internal__emergencyDispatch__loadShare__vue__loadShare__.js-Os62NcMY.js              121.78 kB │ gzip: 45.40 kB
+dist/assets/page-title-COT7srtm.js                                                                                 178.94 kB │ gzip: 54.51 kB
+
+[33m[PLUGIN_TIMINGS] [0mYour build spent significant time in plugins. Here is a breakdown:
+  - proxyPreBuildShared:resolve-shared-loadShare (12%)
+  - g2-mf-runtime-remote-external (11%)
+  - vite:module-federation-virtual-modules (10%)
+  - proxyRemotes (9%)
+  - proxyRemoteEntry (6%)
+See https://rolldown.rs/reference/InputOptions.checks#plugintimings for more details.
+
+✓ built in 9.05s

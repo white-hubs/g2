@@ -1,0 +1,15 @@
+{
+  "name": "@g2-contract/factory-management",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/main.ts"
+  },
+  "scripts": {
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  },
+  "devDependencies": {
+    "typescript": "catalog:typescript"
+  }
+}

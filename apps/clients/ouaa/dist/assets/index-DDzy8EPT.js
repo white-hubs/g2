@@ -1,0 +1,1 @@
+import"./virtual_mf-exposes___mfe_internal__ouaaClient__remoteEntry_js-DvtSVER1.js";import"./virtual_mf-REMOTE_ENTRY_ID___mfe_internal__ouaaClient__remoteEntry_js-Cv1xC8kH.js";var e=document.querySelector(`#app`);e&&(e.textContent=`@g2-client/ouaa (service client remote, no UI)`);

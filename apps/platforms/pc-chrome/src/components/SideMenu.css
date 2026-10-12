@@ -1,0 +1,133 @@
+.pc-chrome-side-menu-shell {
+    width: 210px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background: var(--g2-color-side-menu-bg, var(--g2-color-navigation-bg, var(--g2-color-surface-bg, #fff)));
+    transition: width 0.2s ease;
+  }
+
+.pc-chrome-side-menu-shell--collapsed {
+  width: 64px;
+}
+
+.pc-chrome-side-menu {
+    width: 100%;
+    flex: 1;
+    min-height: 0;
+    overflow: auto;
+    border-inline-end: none !important;
+    background: var(--g2-color-side-menu-bg, var(--g2-color-navigation-bg, var(--g2-color-surface-bg, #fff)));
+    /* 侧栏可滚动但不显示滚动条 */
+    scrollbar-width: none;
+  }
+
+.pc-chrome-side-menu::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+  display: none;
+}
+
+.pc-chrome-side-menu-title {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  min-width: 0;
+}
+
+.pc-chrome-side-menu-label {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.pc-chrome-side-menu-shell--collapsed .pc-chrome-side-menu-label {
+  display: none;
+}
+
+.pc-chrome-side-menu-icon {
+  width: 16px;
+  height: 16px;
+  border-radius: 4px;
+  flex-shrink: 0;
+  object-fit: contain;
+}
+
+.pc-chrome-side-menu-icon--image {
+  background: transparent;
+}
+
+.pc-chrome-side-menu .ant-menu-item,
+.pc-chrome-side-menu .ant-menu-submenu-title {
+    margin-inline: 8px;
+    width: calc(100% - 16px);
+    border-radius: 4px;
+    color: var(--g2-color-side-menu-text, var(--g2-color-text, #172033)) !important;
+}
+
+.pc-chrome-side-menu .ant-menu,
+.pc-chrome-side-menu .ant-menu-sub {
+    background: transparent !important;
+}
+
+.pc-chrome-side-menu .ant-menu-item:hover,
+.pc-chrome-side-menu .ant-menu-submenu-title:hover {
+    color: var(--g2-color-side-menu-text, var(--g2-color-text, #172033)) !important;
+    background: var(--g2-color-side-menu-hover-bg) !important;
+}
+
+.pc-chrome-side-menu-shell--collapsed .ant-menu-item,
+.pc-chrome-side-menu-shell--collapsed .ant-menu-submenu-title {
+  margin-inline: 4px;
+  width: calc(100% - 8px);
+  padding-inline: 12px !important;
+  justify-content: center;
+}
+
+.pc-chrome-side-menu-group--active > .ant-menu-submenu-title {
+    color: var(--g2-color-side-menu-active-text, var(--g2-color-primary, #1578ff)) !important;
+    background: var(--g2-color-side-menu-active-bg) !important;
+    font-weight: 500;
+  }
+
+.pc-chrome-side-menu .ant-menu-item-selected,
+.pc-chrome-side-menu-item--active {
+    color: var(--g2-color-side-menu-active-text, var(--g2-color-primary, #1578ff)) !important;
+    background: var(--g2-color-side-menu-active-bg) !important;
+    font-weight: 500;
+  }
+
+.pc-chrome-side-menu-fold {
+    flex-shrink: 0;
+    height: 40px;
+    border: none;
+    border-top: 1px solid var(--g2-color-border, #eef0f3);
+    background: var(--g2-color-side-menu-bg, var(--g2-color-navigation-bg, var(--g2-color-surface-bg, #fff)));
+    color: var(--g2-color-side-menu-text, var(--g2-color-text-secondary, #bfbfbf));
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0 16px;
+  }
+
+.pc-chrome-side-menu-fold:hover {
+    color: var(--g2-color-side-menu-text, var(--g2-color-text-secondary, #bfbfbf));
+    background: var(--g2-color-side-menu-hover-bg);
+  }
+
+.pc-chrome-side-menu-fold--collapsed {
+  justify-content: center;
+  padding: 0;
+}
+
+.pc-chrome-side-menu-fold__icon {
+  width: 16px;
+  height: 16px;
+  display: block;
+  transition: transform 0.2s ease;
+}
+
+.pc-chrome-side-menu-fold--collapsed .pc-chrome-side-menu-fold__icon {
+  transform: rotate(180deg);
+}

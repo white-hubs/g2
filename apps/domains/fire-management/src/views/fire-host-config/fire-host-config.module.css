@@ -1,0 +1,137 @@
+.page {
+  display: flex;
+  min-height: 0;
+  flex: 1;
+  flex-direction: column;
+  width: 100%;
+}
+
+.statistics-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1px;
+  overflow: hidden;
+  margin-bottom: 16px;
+  border: 1px solid #e5e6eb;
+  border-radius: 10px;
+  background: #e5e6eb;
+  box-shadow: 0 2px 8px rgb(29 33 41 / 4%);
+}
+
+.statistics-card {
+  display: flex;
+  min-width: 0;
+  min-height: 88px;
+  align-items: center;
+  gap: 14px;
+  padding: 14px 20px;
+  background: #fff;
+  transition: background-color 0.2s ease;
+}
+
+.statistics-card:hover {
+  background: #fafcff;
+}
+
+.statistics-content {
+  min-width: 0;
+}
+
+.statistics-label {
+  overflow: hidden;
+  color: #86909c;
+  font-size: 13px;
+  line-height: 20px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.statistics-icon {
+  display: inline-flex;
+  flex: 0 0 42px;
+  align-items: center;
+  justify-content: center;
+  width: 42px;
+  height: 42px;
+  border-radius: 12px;
+  color: #165dff;
+  background: #e8f0ff;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.statistics-main {
+  display: flex;
+  align-items: baseline;
+  margin-top: 2px;
+  line-height: 1;
+}
+
+.statistics-value {
+  color: #1d2129;
+  font-size: 26px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+.statistics-unit {
+  margin-left: 6px;
+  color: #86909c;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.statistics-card-info .statistics-icon {
+  color: #0e9f9a;
+  background: #e8fffb;
+}
+
+.statistics-card-danger .statistics-icon {
+  color: #f53f3f;
+  background: #fff1f0;
+}
+
+.statistics-card-danger .statistics-value {
+  color: #f53f3f;
+}
+
+.statistics-card-warning .statistics-icon {
+  color: #ff7d00;
+  background: #fff7e8;
+}
+
+.statistics-card-warning .statistics-value {
+  color: #ff7d00;
+}
+
+.modal-section-title {
+  margin-bottom: 10px;
+  color: #1d2129;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.password-form {
+  :global(.ant-form .ant-form-item .ant-form-item-row .ant-form-item-label) {
+    width: 200px !important;
+  }
+}
+
+.password-tip {
+  margin-top: 10px;
+  color: #86909c;
+  font-size: 12px;
+  line-height: 1.6;
+}
+
+@media (max-width: 1200px) {
+  .statistics-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 760px) {
+  .statistics-grid {
+    grid-template-columns: 1fr;
+  }
+}

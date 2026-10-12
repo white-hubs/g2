@@ -1,0 +1,11 @@
+$ tsc -p tsconfig.json --noEmit
+src/client-facade.ts(2,22): error TS7006: Parameter 'query' implicitly has an 'any' type.
+src/client-facade.ts(3,24): error TS7006: Parameter 'id' implicitly has an 'any' type.
+src/client-facade.ts(4,19): error TS7006: Parameter 'payload' implicitly has an 'any' type.
+src/client-facade.ts(4,28): error TS7006: Parameter 'id' implicitly has an 'any' type.
+src/client-facade.ts(5,21): error TS7006: Parameter 'id' implicitly has an 'any' type.
+src/client-facade.ts(7,30): error TS7006: Parameter 'query' implicitly has an 'any' type.
+src/client-facade.ts(8,35): error TS7006: Parameter 'id' implicitly has an 'any' type.
+src/client-facade.ts(10,34): error TS7006: Parameter 'storeId' implicitly has an 'any' type.
+src/client-facade.ts(13,41): error TS7006: Parameter 'unitCode' implicitly has an 'any' type.
+src/client-facade.ts(16,36): error TS7006: Parameter 'alarmId' implicitly has an 'any' type.

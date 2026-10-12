@@ -1,0 +1,1 @@
+import{t as e}from"./virtual_mf-exposes___mfe_internal__pocRemotePc__remoteEntry_js-CSoFDwfy.js";export{e as default};

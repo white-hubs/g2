@@ -1,0 +1,67 @@
+.pageContent {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  height: 100%;
+  min-height: 0;
+}
+
+.pageContent > :last-child {
+  flex: 1;
+  min-height: 0;
+}
+
+.filterRow {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  margin-top: 12px;
+  min-width: 0;
+}
+
+.filterRow :global(.ant-radio-group) {
+  flex: 0 0 auto;
+}
+
+.filterRow :global(.pc-query-form) {
+  flex: 1 1 0;
+  min-width: 0;
+}
+
+.filterRow :global(.pc-query-form-header) {
+  flex-wrap: nowrap;
+}
+
+.filterRow :global(.pc-query-form-container) {
+  grid-template-columns: minmax(140px, 0.7fr) minmax(230px, 1.3fr);
+  padding: 0;
+}
+
+.filterRow :global(.pc-query-form-container) > :only-child {
+  grid-column: 1 / -1;
+}
+
+.filterRow :global(.pc-query-form-header > .pc-design-form-item) {
+  padding-top: 0;
+}
+
+@media (max-width: 1100px) {
+  .filterRow {
+    flex-wrap: wrap;
+  }
+
+  .filterRow :global(.pc-query-form) {
+    flex-basis: 100%;
+  }
+
+  .filterRow :global(.pc-query-form-header) {
+    flex-wrap: wrap;
+  }
+}
+
+.footerActions {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 16px;
+}

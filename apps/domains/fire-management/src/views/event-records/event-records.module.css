@@ -1,0 +1,31 @@
+.page {
+  display: flex;
+  min-height: 0;
+  flex: 1;
+  flex-direction: column;
+}
+
+.categoryTag {
+  min-width: 38px;
+  margin: 0;
+  text-align: center;
+}
+
+.location {
+  color: #2468d6;
+  font-weight: 500;
+}
+
+.location::before {
+  margin-right: 6px;
+  color: #ef4b51;
+  content: "●";
+  font-size: 8px;
+  vertical-align: 1px;
+}
+
+.footer {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+}

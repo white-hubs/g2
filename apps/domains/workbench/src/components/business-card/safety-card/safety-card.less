@@ -1,0 +1,94 @@
+.alarmOverview-container {
+  height: 100%;
+  min-height: 0;
+  overflow-x: hidden;
+  overflow-y: auto;
+
+  .alarmOverview {
+    display: flex;
+    height: calc(100% - 120px);
+    min-height: 200px;
+  }
+
+  .alarm {
+    margin-top: 10px;
+    width: 40%;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+
+    .num {
+      text-align: center;
+      line-height: 40px;
+      width: 45%;
+      background: var(--g2-color-fill-secondary, #fafafa);
+      color: var(--g2-color-text-tertiary, #999999);
+      border-radius: 6px;
+      height: 80px;
+
+      div {
+        font-weight: 900;
+        color: var(--g2-color-text, #000);
+      }
+    }
+  }
+
+  .alarmOverview-chart {
+    width: 78%;
+    height: 250px;
+  }
+}
+
+.fire {
+  display: flex;
+  justify-content: space-between;
+
+  .num {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    text-align: center;
+    line-height: 40px;
+    width: 18%;
+    background: var(--g2-color-fill-secondary, #fafafa);
+    color: var(--g2-color-text-tertiary, #999999);
+    border-radius: 6px;
+    height: 80px;
+
+    div {
+      font-weight: 900;
+      color: var(--g2-color-text, #000);
+    }
+  }
+
+  .one {
+    background: linear-gradient(50deg, #f4fffc 4%, rgba(240, 253, 250, 0.22) 37%, #f4faf9 100%) !important;
+  }
+
+  .two {
+    background: linear-gradient(50deg, #fdf9f3 0%, rgba(255, 251, 244, 0.22) 37%, #fffbf5 100%) !important;
+  }
+
+  .three {
+    background: linear-gradient(50deg, #fff8f8 0%, rgba(255, 244, 244, 0.22) 37%, #fff8f8 99%) !important;
+  }
+
+  .four {
+    background: linear-gradient(
+      50deg,
+      var(--cube-theme-var--primary-1, #f7faff) 0%,
+      rgba(245, 249, 255, 0.22) 37%,
+      var(--cube-theme-var--primary-1, #f7faff) 100%
+    ) !important;
+  }
+
+  .five {
+    background: linear-gradient(
+      50deg,
+      var(--cube-theme-var--primary-1, #f7faff) 0%,
+      rgba(245, 249, 255, 0.22) 37%,
+      var(--cube-theme-var--primary-1, #f7faff) 100%
+    ) !important;
+  }
+}

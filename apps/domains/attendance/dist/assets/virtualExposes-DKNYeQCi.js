@@ -1,0 +1,1 @@
+import{t as e}from"./virtual_mf-exposes___mfe_internal__attendance__remoteEntry_js-bihNYdNH.js";export{e as default};

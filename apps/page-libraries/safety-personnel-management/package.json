@@ -1,0 +1,34 @@
+{
+  "name": "@g2-pages/safety-personnel-management",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "bun test",
+    "test:ui": "vitest run"
+  },
+  "dependencies": {
+    "@g2-client/alarm-center": "workspace:*",
+    "@g2-client/safety-personnel": "workspace:*",
+    "@g2-contract/file": "workspace:*",
+    "@g2-contract/ouaa": "workspace:*",
+    "@g2-contract/safety-personnel": "workspace:*",
+    "@g2-platform/pc-chart": "workspace:*",
+    "@g2-platform/pc-map": "workspace:*",
+    "@g2-platform/pc-ui": "workspace:*",
+    "vue": "catalog:vue",
+    "vue-router": "catalog:vue"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue-jsx": "catalog:vite",
+    "@vue/test-utils": "catalog:vite",
+    "jsdom": "catalog:vite",
+    "typescript": "catalog:typescript",
+    "vite": "catalog:vite",
+    "vitest": "catalog:vite"
+  }
+}

@@ -1,0 +1,205 @@
+{
+  "__virtual_mf___mfe_internal__personManagement__loadShare__vue__loadShare__.js-BGbqwWW1.js": {
+    "file": "assets/_virtual_mf___mfe_internal__personManagement__loadShare__vue__loadShare__.js-BGbqwWW1.js",
+    "name": "_virtual_mf___mfe_internal__personManagement__loadShare__vue__loadShare__.js",
+    "imports": [
+      "_rolldown-runtime-DK3Fl9T5.js"
+    ]
+  },
+  "__virtual_mf___mfe_internal__personManagement__loadShare__vue_mf_2_router__loadShare__.js-DfZJwR4a.js": {
+    "file": "assets/_virtual_mf___mfe_internal__personManagement__loadShare__vue_mf_2_router__loadShare__.js-DfZJwR4a.js",
+    "name": "_virtual_mf___mfe_internal__personManagement__loadShare__vue_mf_2_router__loadShare__.js",
+    "imports": [
+      "_rolldown-runtime-DK3Fl9T5.js",
+      "__virtual_mf___mfe_internal__personManagement__loadShare__vue__loadShare__.js-BGbqwWW1.js"
+    ]
+  },
+  "_domain-KPZysLLc.js": {
+    "file": "assets/domain-KPZysLLc.js",
+    "name": "domain",
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js",
+      "__virtual_mf___mfe_internal__personManagement__loadShare__vue__loadShare__.js-BGbqwWW1.js",
+      "__virtual_mf___mfe_internal__personManagement__loadShare__vue_mf_2_router__loadShare__.js-DfZJwR4a.js"
+    ],
+    "dynamicImports": [
+      "src/views/roster/index.tsx",
+      "src/views/personnel-statistics-page.tsx",
+      "src/views/person-type-page.tsx",
+      "src/views/workflows/index.ts",
+      "src/views/field-config/index.tsx"
+    ]
+  },
+  "_fields-CW87BIeE.js": {
+    "file": "assets/fields-CW87BIeE.js",
+    "name": "fields"
+  },
+  "_rolldown-runtime-DK3Fl9T5.js": {
+    "file": "assets/rolldown-runtime-DK3Fl9T5.js",
+    "name": "rolldown-runtime"
+  },
+  "_virtual_mf-REMOTE_ENTRY_ID___mfe_internal__personManagement__remoteEntry_js-BJb6xHLg.js": {
+    "file": "assets/virtual_mf-REMOTE_ENTRY_ID___mfe_internal__personManagement__remoteEntry_js-BJb6xHLg.js",
+    "name": "virtual_mf-REMOTE_ENTRY_ID___mfe_internal__personManagement__remoteEntry_js",
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "virtual:mf-localSharedImportMap:__mfe_internal__personManagement",
+      "_virtual_mf-exposes___mfe_internal__personManagement__remoteEntry_js-CsV1JGXp.js"
+    ]
+  },
+  "_virtual_mf-exposes___mfe_internal__personManagement__remoteEntry_js-CsV1JGXp.js": {
+    "file": "assets/virtual_mf-exposes___mfe_internal__personManagement__remoteEntry_js-CsV1JGXp.js",
+    "name": "virtual_mf-exposes___mfe_internal__personManagement__remoteEntry_js",
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "_domain-KPZysLLc.js"
+    ]
+  },
+  "_vite-preload-helper-7P2xnrDv.js": {
+    "file": "assets/vite-preload-helper-7P2xnrDv.js",
+    "name": "vite-preload-helper"
+  },
+  "src/domain.ts": {
+    "file": "assets/domain-Cl4EASXF.js",
+    "name": "domain",
+    "src": "src/domain.ts",
+    "isEntry": true,
+    "imports": [
+      "_domain-KPZysLLc.js"
+    ]
+  },
+  "src/views/field-config/index.tsx": {
+    "file": "assets/field-config-DO9RmdUL.js",
+    "name": "field-config",
+    "src": "src/views/field-config/index.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_domain-KPZysLLc.js",
+      "__virtual_mf___mfe_internal__personManagement__loadShare__vue__loadShare__.js-BGbqwWW1.js",
+      "_fields-CW87BIeE.js"
+    ],
+    "css": [
+      "assets/field-config-CVm1ZDj7.css"
+    ]
+  },
+  "src/views/person-type-page.tsx": {
+    "file": "assets/person-type-page-wdHMNVHb.js",
+    "name": "person-type-page",
+    "src": "src/views/person-type-page.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_domain-KPZysLLc.js",
+      "__virtual_mf___mfe_internal__personManagement__loadShare__vue__loadShare__.js-BGbqwWW1.js"
+    ]
+  },
+  "src/views/personnel-statistics-page.tsx": {
+    "file": "assets/personnel-statistics-page-DAgH7QrA.js",
+    "name": "personnel-statistics-page",
+    "src": "src/views/personnel-statistics-page.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_domain-KPZysLLc.js",
+      "__virtual_mf___mfe_internal__personManagement__loadShare__vue__loadShare__.js-BGbqwWW1.js"
+    ],
+    "css": [
+      "assets/personnel-statistics-page-D49mCsDA.css"
+    ]
+  },
+  "src/views/roster/index.tsx": {
+    "file": "assets/roster-svJ56vX5.js",
+    "name": "roster",
+    "src": "src/views/roster/index.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_domain-KPZysLLc.js",
+      "__virtual_mf___mfe_internal__personManagement__loadShare__vue__loadShare__.js-BGbqwWW1.js",
+      "__virtual_mf___mfe_internal__personManagement__loadShare__vue_mf_2_router__loadShare__.js-DfZJwR4a.js",
+      "_fields-CW87BIeE.js"
+    ],
+    "css": [
+      "assets/roster-bdMymcAB.css"
+    ]
+  },
+  "src/views/workflows/index.ts": {
+    "file": "assets/workflows-D5GDIgr7.js",
+    "name": "workflows",
+    "src": "src/views/workflows/index.ts",
+    "isDynamicEntry": true,
+    "imports": [
+      "_domain-KPZysLLc.js",
+      "__virtual_mf___mfe_internal__personManagement__loadShare__vue__loadShare__.js-BGbqwWW1.js",
+      "__virtual_mf___mfe_internal__personManagement__loadShare__vue_mf_2_router__loadShare__.js-DfZJwR4a.js"
+    ],
+    "css": [
+      "assets/workflows-CFNv3qga.css"
+    ]
+  },
+  "virtual:mf-REMOTE_ENTRY_ID:__mfe_internal__personManagement__remoteEntry_js": {
+    "file": "remoteEntry.js",
+    "name": "remoteEntry",
+    "src": "virtual:mf-REMOTE_ENTRY_ID:__mfe_internal__personManagement__remoteEntry_js",
+    "imports": [
+      "_virtual_mf-REMOTE_ENTRY_ID___mfe_internal__personManagement__remoteEntry_js-BJb6xHLg.js"
+    ]
+  },
+  "virtual:mf-REMOTE_ENTRY_SSR_ID:__mfe_internal__personManagement__remoteEntry_js": {
+    "file": "remoteEntry.ssr.js",
+    "name": "ssrRemoteEntry",
+    "src": "virtual:mf-REMOTE_ENTRY_SSR_ID:__mfe_internal__personManagement__remoteEntry_js",
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "virtual:mf-exposes-ssr:__mfe_internal__personManagement__remoteEntry_js"
+    ]
+  },
+  "virtual:mf-exposes-ssr:__mfe_internal__personManagement__remoteEntry_js": {
+    "file": "assets/virtual_mf-exposes-ssr___mfe_internal__personManagement__remoteEntry_js-CQjkhnhe.js",
+    "name": "virtual_mf-exposes-ssr___mfe_internal__personManagement__remoteEntry_js",
+    "src": "virtual:mf-exposes-ssr:__mfe_internal__personManagement__remoteEntry_js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "_domain-KPZysLLc.js"
+    ]
+  },
+  "virtual:mf-exposes:__mfe_internal__personManagement__remoteEntry_js": {
+    "file": "assets/virtualExposes-FZB0yzRh.js",
+    "name": "virtualExposes",
+    "src": "virtual:mf-exposes:__mfe_internal__personManagement__remoteEntry_js",
+    "imports": [
+      "_virtual_mf-exposes___mfe_internal__personManagement__remoteEntry_js-CsV1JGXp.js"
+    ]
+  },
+  "virtual:mf-localSharedImportMap:__mfe_internal__personManagement": {
+    "file": "assets/_virtual_mf-localSharedImportMap___mfe_internal__personManagement-nk6Zm7XF.js",
+    "name": "_virtual_mf-localSharedImportMap___mfe_internal__personManagement",
+    "src": "virtual:mf-localSharedImportMap:__mfe_internal__personManagement",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "__virtual_mf___mfe_internal__personManagement__loadShare__vue__loadShare__.js-BGbqwWW1.js",
+      "__virtual_mf___mfe_internal__personManagement__loadShare__vue_mf_2_router__loadShare__.js-DfZJwR4a.js"
+    ]
+  },
+  "virtual:mf:__mfe_internal__personManagement__H_A_I__hostAutoInit__H_A_I__.js": {
+    "file": "assets/hostInit-Bpnrzjt_.js",
+    "name": "hostInit",
+    "src": "virtual:mf:__mfe_internal__personManagement__H_A_I__hostAutoInit__H_A_I__.js",
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "_virtual_mf-REMOTE_ENTRY_ID___mfe_internal__personManagement__remoteEntry_js-BJb6xHLg.js",
+      "virtual:mf-localSharedImportMap:__mfe_internal__personManagement"
+    ]
+  }
+}

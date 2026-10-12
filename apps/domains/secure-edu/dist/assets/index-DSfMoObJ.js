@@ -1,0 +1,1 @@
+import"./virtual_mf-exposes___mfe_internal__secureEduHead__remoteEntry_js-CjtJa2Tw.js";import"./virtual_mf-REMOTE_ENTRY_ID___mfe_internal__secureEduHead__remoteEntry_js-TSIxUU59.js";document.querySelector(`#app`).textContent=`@g2-domain/secure-edu`;

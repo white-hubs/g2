@@ -1,0 +1,1 @@
+var e={label:`date`};export{e as default,e as platformModule};

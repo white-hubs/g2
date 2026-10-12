@@ -1,0 +1,17 @@
+{
+  "name": "@g2-contract/workbench",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/main.ts"
+  },
+  "scripts": {
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "bun test"
+  },
+  "devDependencies": {
+    "@g2-contract/base": "workspace:*",
+    "typescript": "catalog:typescript"
+  }
+}

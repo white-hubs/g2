@@ -1,0 +1,186 @@
+.pageContent {
+  display: flex;
+  min-height: 0;
+  height: 100%;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.toolbarRow {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.modalGrid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0 18px;
+}
+
+.modalFull {
+  grid-column: 1 / -1;
+}
+
+.modalSpin,
+.modalSpin :global(.ant-spin-container) {
+  width: 100%;
+}
+
+.timeRangePicker {
+  width: 100%;
+  max-width: 360px;
+}
+
+.inlinePicker {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  gap: 8px;
+}
+
+.inlinePicker > :last-child {
+  flex: 1;
+}
+
+.reservationLegend {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  color: #606b7b;
+  font-size: 13px;
+}
+
+.legendItem {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.legendDot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+}
+
+.slotCell {
+  display: flex;
+  min-height: 30px;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 12px;
+  transition: all 0.18s ease;
+}
+
+.slotCell:hover,
+.slotSelected {
+  border-color: #1677ff;
+  box-shadow: 0 0 0 2px rgb(22 119 255 / 10%);
+}
+
+.slotReservable {
+  color: #1f8f5f;
+  background: #edf9f3;
+}
+
+.slotReserved {
+  color: #1677ff;
+  background: #eaf3ff;
+}
+
+.slotApproval {
+  color: #d48806;
+  background: #fff7e6;
+}
+
+.slotUsed {
+  color: #722ed1;
+  background: #f4eeff;
+}
+
+.slotDisabled {
+  color: #8c8c8c;
+  background: #f5f5f5;
+  cursor: default;
+}
+
+.statisticsContent {
+  display: grid;
+  min-height: 0;
+  height: 100%;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-rows: minmax(280px, 1fr) minmax(300px, 1fr);
+  gap: 12px;
+  overflow: auto;
+}
+
+.wideCard {
+  grid-column: 1 / -1;
+}
+
+.chartCard,
+.chartCard :global(.ant-card-body) {
+  height: 100%;
+}
+
+.chartCard :global(.ant-card-body) {
+  display: flex;
+  min-height: 0;
+  flex-direction: column;
+}
+
+.chartHost {
+  min-height: 220px;
+  flex: 1;
+}
+
+.metricRow {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  margin-bottom: 4px;
+  color: #5e6878;
+}
+
+.metricValue {
+  color: #1677ff;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.detailGrid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px 24px;
+}
+
+.detailItem {
+  display: grid;
+  grid-template-columns: 112px minmax(0, 1fr);
+  gap: 8px;
+}
+
+.detailLabel {
+  color: #86909c;
+  text-align: right;
+}
+
+.deviceSelectionHint {
+  color: #86909c;
+  font-size: 13px;
+}
+
+@media (max-width: 1100px) {
+  .modalGrid,
+  .statisticsContent {
+    grid-template-columns: 1fr;
+  }
+
+  .wideCard {
+    grid-column: auto;
+  }
+}

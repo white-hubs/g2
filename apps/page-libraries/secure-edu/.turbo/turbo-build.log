@@ -1,0 +1,33 @@
+$ bun --bun vite build
+vite v8.1.5 building client environment for production...
+[2Ktransforming...✓ 109 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                                                                                                   0.90 kB │ gzip:  0.41 kB
+dist/mf-manifest.json                                                                                             1.21 kB │ gzip:  0.44 kB
+dist/assets/mf-entry-bootstrap-0-92dfc9ec.js                                                                      1.35 kB
+dist/mf-stats.json                                                                                                4.21 kB │ gzip:  0.99 kB
+dist/.vite/manifest.json                                                                                          7.90 kB │ gzip:  0.95 kB
+dist/assets/styles-BD7yotdW.css                                                                                   1.97 kB │ gzip:  0.70 kB
+dist/assets/virtualExposes-6VhIyvou.js                                                                            0.12 kB │ gzip:  0.12 kB
+dist/remoteEntry.js                                                                                               0.14 kB │ gzip:  0.14 kB
+dist/assets/rolldown-runtime-DK3Fl9T5.js                                                                          0.15 kB │ gzip:  0.15 kB
+dist/assets/index-CSWLMQZc.js                                                                                     0.25 kB │ gzip:  0.18 kB
+dist/assets/virtual_mf-exposes-ssr___mfe_internal__secureEduPages__remoteEntry_js-8Cj2OOxp.js                     0.25 kB │ gzip:  0.22 kB
+dist/assets/src-C_Y8AsN4.js                                                                                       0.53 kB │ gzip:  0.40 kB
+dist/assets/context-Dk8ewcTV.js                                                                                   0.62 kB │ gzip:  0.39 kB
+dist/assets/_virtual_mf___mfe_internal__secureEduPages__prebuild__vue_mf_2_router__prebuild__-7JRx12EG.js         0.77 kB │ gzip:  0.41 kB
+dist/assets/virtual_mf-exposes___mfe_internal__secureEduPages__remoteEntry_js-B0SikMph.js                         0.94 kB │ gzip:  0.58 kB
+dist/remoteEntry.ssr.js                                                                                           0.99 kB │ gzip:  0.58 kB
+dist/assets/_virtual_mf-localSharedImportMap___mfe_internal__secureEduPages-CW2MMqWo.js                           1.19 kB │ gzip:  0.52 kB
+dist/assets/vite-preload-helper-D6lZCLzY.js                                                                       1.38 kB │ gzip:  0.74 kB
+dist/assets/hostInit-BFbPlSkL.js                                                                                  2.27 kB │ gzip:  1.08 kB
+dist/assets/_virtual_mf___mfe_internal__secureEduPages__prebuild__vue__prebuild__-S9E-TfFT.js                     4.80 kB │ gzip:  2.10 kB
+dist/assets/styles.module-CfxKe_v8.js                                                                            11.54 kB │ gzip:  3.87 kB
+dist/assets/pages-FnH-Qy39.js                                                                                    20.32 kB │ gzip:  7.58 kB
+dist/assets/editor-BZCz5dt8.js                                                                                   23.77 kB │ gzip:  8.36 kB
+dist/assets/_virtual_mf___mfe_internal__secureEduPages__loadShare__vue_mf_2_router__loadShare__.js-CVXRqKeg.js   30.64 kB │ gzip: 11.42 kB
+dist/assets/virtual_mf-REMOTE_ENTRY_ID___mfe_internal__secureEduPages__remoteEntry_js-DYIUvojA.js                37.39 kB │ gzip: 12.53 kB
+dist/assets/_virtual_mf___mfe_internal__secureEduPages__loadShare__vue__loadShare__.js-SYn2VhUO.js              123.15 kB │ gzip: 46.14 kB
+
+✓ built in 1.42s

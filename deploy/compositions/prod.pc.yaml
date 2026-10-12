@@ -1,0 +1,752 @@
+facade: pc
+env: prod
+coreRuntime:
+  - name: datePlatform
+    logicalName: datePlatform
+    apiVersion: "1.x"
+  - name: loggerPlatform
+    logicalName: loggerPlatform
+    apiVersion: "1.x"
+  - name: resourcePlatform
+    logicalName: resourcePlatform
+    apiVersion: "1.x"
+  - name: httpPlatform
+    logicalName: httpPlatform
+    apiVersion: "1.x"
+  - name: pcUi
+    logicalName: pcUi
+    apiVersion: "1.x"
+  - name: pcChart
+    logicalName: pcChart
+    apiVersion: "1.x"
+  - name: pcAlarmCharts
+    logicalName: pcAlarmCharts
+    apiVersion: "1.x"
+  - name: pcPlayer
+    logicalName: pcPlayer
+    apiVersion: "1.x"
+  - name: pcRtc
+    logicalName: pcRtc
+    apiVersion: "1.x"
+  - name: pcMap
+    logicalName: pcMap
+    apiVersion: "1.x"
+  - name: pcGraphEditor
+    logicalName: pcGraphEditor
+    apiVersion: "1.x"
+  - name: pcScada
+    logicalName: pcScada
+    apiVersion: "1.x"
+  - name: pcVisualSdk
+    logicalName: pcVisualSdk
+    apiVersion: "1.x"
+  - name: pcChrome
+    logicalName: pcChrome
+    apiVersion: "1.x"
+  - name: pcMessaging
+    logicalName: pcMessaging
+    apiVersion: "1.x"
+  - name: pcAlarmPopup
+    logicalName: pcAlarmPopup
+    apiVersion: "1.x"
+  - name: pcAiAssistant
+    logicalName: pcAiAssistant
+    apiVersion: "1.x"
+client:
+  - name: assetManagementClient
+    logicalName: assetManagementClient
+  - name: workReportClient
+    logicalName: workReportClient
+  - name: meetRoomClient
+    logicalName: meetRoomClient
+  - name: governmentManagementClient
+    logicalName: governmentManagementClient
+  - name: consumptionManagementClient
+    logicalName: consumptionManagementClient
+  - name: personManagementClient
+    logicalName: personManagementClient
+  - name: factoryManagementClient
+    logicalName: factoryManagementClient
+  - name: knowledgeDocumentClient
+    logicalName: knowledgeDocumentClient
+  - name: todoCenterClient
+    logicalName: todoCenterClient
+  - name: technicalBulletinClient
+    logicalName: technicalBulletinClient
+  - name: electronicPatrolClient
+    logicalName: electronicPatrolClient
+  - name: workOrderCenterClient
+    logicalName: workOrderCenterClient
+  - name: formAuditClient
+    logicalName: formAuditClient
+  - name: electricalSafetyClient
+    logicalName: electricalSafetyClient
+  - name: safetyCreditClient
+    logicalName: safetyCreditClient
+  - name: commandDispatchClient
+    logicalName: commandDispatchClient
+  - name: userCenterClient
+    logicalName: userCenterClient
+  - name: resourceManagementClient
+    logicalName: resourceManagementClient
+  - name: secureEduClient
+    logicalName: secureEduClient
+  - name: messageClient
+    logicalName: messageClient
+  - name: authClient
+    logicalName: authClient
+  - name: ouaaClient
+    logicalName: ouaaClient
+  - name: fileClient
+    logicalName: fileClient
+  - name: mdataClient
+    logicalName: mdataClient
+  - name: deviceCenterClient
+    logicalName: deviceCenterClient
+  - name: accessControlClient
+    logicalName: accessControlClient
+  - name: dailyTaskClient
+    logicalName: dailyTaskClient
+  - name: securityMonitorClient
+    logicalName: securityMonitorClient
+  - name: safetyManagementClient
+    logicalName: safetyManagementClient
+  - name: alarmCenterClient
+    logicalName: alarmCenterClient
+  - name: headquartersMarketClient
+    logicalName: headquartersMarketClient
+  - name: coldStorageClient
+    logicalName: coldStorageClient
+  - name: dictionaryClient
+    logicalName: dictionaryClient
+  - name: emergencyDispatchClient
+    logicalName: emergencyDispatchClient
+  - name: energyConsumptionClient
+    logicalName: energyConsumptionClient
+  - name: lineLossManagementClient
+    logicalName: lineLossManagementClient
+  - name: workbenchClient
+    logicalName: workbenchClient
+  - name: broadcastCenterClient
+    logicalName: broadcastCenterClient
+  - name: emergencySuppliesClient
+    logicalName: emergencySuppliesClient
+  - name: fireManagementClient
+    logicalName: fireManagementClient
+  - name: emergencyManagementClient
+    logicalName: emergencyManagementClient
+  - name: dailyInspectionClient
+    logicalName: dailyInspectionClient
+  - name: fumigationOperationClient
+    logicalName: fumigationOperationClient
+  - name: hazardGovernanceClient
+    logicalName: hazardGovernanceClient
+  - name: attendanceClient
+    logicalName: attendanceClient
+  - name: problemsClient
+    logicalName: problemsClient
+  - name: faultRepairClient
+    logicalName: faultRepairClient
+  - name: maintenanceClient
+    logicalName: maintenanceClient
+  - name: outsourceRepairClient
+    logicalName: outsourceRepairClient
+  - name: renovationClient
+    logicalName: renovationClient
+  - name: smallEngineeringClient
+    logicalName: smallEngineeringClient
+  - name: streamEngineClient
+    logicalName: streamEngineClient
+  - name: inspectionAiClient
+    logicalName: inspectionAiClient
+  - name: intelligentGrainClient
+    logicalName: intelligentGrainClient
+  - name: metadataClient
+    logicalName: metadataClient
+  - name: processEngineClient
+    logicalName: processEngineClient
+  - name: riskGradedControlClient
+    logicalName: riskGradedControlClient
+  - name: riskManagementClient
+    logicalName: riskManagementClient
+  - name: safetyPersonnelClient
+    logicalName: safetyPersonnelClient
+  - name: securityOpinionClient
+    logicalName: securityOpinionClient
+  - name: templateDemoClient
+    logicalName: templateDemoClient
+  - name: videoMonitorClient
+    logicalName: videoMonitorClient
+  - name: warehouseSafetyClient
+    logicalName: warehouseSafetyClient
+  - name: workPermitClient
+    logicalName: workPermitClient
+  - name: businessConfigClient
+    logicalName: businessConfigClient
+  - name: linkageControlClient
+    logicalName: linkageControlClient
+platform:
+  - name: datePlatform
+    logicalName: datePlatform
+  - name: loggerPlatform
+    logicalName: loggerPlatform
+  - name: resourcePlatform
+    logicalName: resourcePlatform
+  - name: httpPlatform
+    logicalName: httpPlatform
+  - name: pcChrome
+    logicalName: pcChrome
+  - name: pcAuth
+    logicalName: pcAuth
+    config:
+      strategies: ["standard", "cas-sso"]
+  - name: pcUi
+    logicalName: pcUi
+  - name: pcChart
+    logicalName: pcChart
+  - name: pcIotSocket
+    logicalName: pcIotSocket
+  - name: pcMap
+    logicalName: pcMap
+  - name: pcAlarmCharts
+    logicalName: pcAlarmCharts
+  - name: pcVisualSdk
+    logicalName: pcVisualSdk
+  - name: pcPlayer
+    logicalName: pcPlayer
+  - name: pcGraphEditor
+    logicalName: pcGraphEditor
+  - name: pcScada
+    logicalName: pcScada
+  - name: pcMessaging
+    logicalName: pcMessaging
+  - name: pcRtc
+    logicalName: pcRtc
+  - name: pcAlarmPopup
+    logicalName: pcAlarmPopup
+    config:
+      intentCodes:
+        - DOORMANAGE
+        - ACCESS_CONTROL
+        - FIRECONTROL
+        - FIRE_MANAGEMENT
+        - ROTATINGMANAGE
+      showLocateButton: false
+  - name: pcAiAssistant
+    logicalName: pcAiAssistant
+inline:
+  - name: poc-inline-pc
+    package: "@g2-domain/poc-inline-pc"
+    basePath: /poc-inline
+pageLibrary:
+  - name: secureEduPages
+    logicalName: secureEduPages
+  - name: genericEquipmentMonitorPages
+    logicalName: genericEquipmentMonitorPages
+  - name: streamEnginePages
+    logicalName: streamEnginePages
+remotes:
+  - name: assetManagement
+    logicalName: assetManagement
+    basePath: /d/asset-management
+    config:
+      applicationCode: PROPERTY_MANAGEMENT
+      navigateCodes: [PROPERTY_MANAGEMENT]
+      intentCodes: [PROPERTY_MANAGEMENT]
+  - name: workReport
+    logicalName: workReport
+    basePath: /d/work-report
+    config:
+      applicationCode: WORK_REPORT
+      navigateCodes: [WORK_REPORT]
+      intentCodes: [WORK_REPORT]
+  - name: meetRoom
+    logicalName: meetRoom
+    basePath: /d/meet-room
+    config:
+      applicationCode: MEETING_ROOM_MANAGEM
+      navigateCodes: [MEETING_ROOM_MANAGEM]
+      intentCodes: [MEETING_ROOM_MANAGEM]
+  - name: governmentManagement
+    logicalName: governmentManagement
+    basePath: /d/government-management
+    config:
+      applicationCode: OFFICIAL_MANAGEMENT
+      navigateCodes: [OFFICIAL_MANAGEMENT]
+      intentCodes: [OFFICIAL_MANAGEMENT]
+  - name: consumptionManagement
+    logicalName: consumptionManagement
+    basePath: /d/consumption-management
+    config:
+      applicationCode: ONE_CARD
+      navigateCodes: [ONE_CARD]
+      intentCodes: [ONE_CARD]
+  - name: personManagement
+    logicalName: personManagement
+    basePath: /d/person-management
+    config:
+      applicationCode: PERSONNELMANAGEMENT
+      navigateCodes: [PERSONNELMANAGEMENT]
+      intentCodes: [PERSONNELMANAGEMENT]
+  - name: factoryManagement
+    logicalName: factoryManagement
+    basePath: /d/factory-management
+    config:
+      applicationCode: FACTORYMANAGEMENT
+      navigateCodes: [FACTORYMANAGEMENT]
+      intentCodes: [FACTORYMANAGEMENT]
+  - name: knowledgeDocument
+    logicalName: knowledgeDocument
+    basePath: /d/knowledge-document
+    config:
+      applicationCode: KNOWLEDGE_DOCUMENT
+      navigateCodes: [KNOWLEDGE_DOCUMENT]
+      intentCodes: [KNOWLEDGE_DOCUMENT]
+  - name: todoCenter
+    logicalName: todoCenter
+    basePath: /d/todo-center
+    config:
+      applicationCode: AGENCY_CENTER
+      navigateCodes: [AGENCY_CENTER]
+      intentCodes: [AGENCY_CENTER]
+  - name: technicalBulletin
+    logicalName: technicalBulletin
+    basePath: /d/technical-bulletin
+    config:
+      applicationCode: TECHNICAL_BULLETIN
+      navigateCodes: [TECHNICAL_BULLETIN]
+      intentCodes: [TECHNICAL_BULLETIN]
+  - name: electronicPatrol
+    logicalName: electronicPatrol
+    basePath: /d/electronic-patrol
+    config:
+      applicationCode: ELECTRONIC_PATROL
+      navigateCodes: [ELECTRONIC_PATROL]
+      intentCodes: [ELECTRONIC_PATROL]
+  - name: workOrderCenter
+    logicalName: workOrderCenter
+    basePath: /d/work-order-center
+    config:
+      applicationCode: WORKORDER_CENTER
+      navigateCodes: [WORKORDER_CENTER]
+      intentCodes: [WORKORDER_CENTER]
+  - name: formAudit
+    logicalName: formAudit
+    basePath: /d/form-audit
+    config:
+      applicationCode: FORM_ASSESSMENT
+      navigateCodes: [FORM_ASSESSMENT]
+      intentCodes: [FORM_ASSESSMENT]
+  - name: electricalSafety
+    logicalName: electricalSafety
+    basePath: /d/electrical-safety
+    config:
+      applicationCode: ELECTRICAL_SAFETY
+      navigateCodes: [ELECTRICAL_SAFETY]
+      intentCodes: [ELECTRICAL_SAFETY]
+  - name: safetyCredit
+    logicalName: safetyCredit
+    basePath: /d/safety-credit
+    config:
+      applicationCode: SAFETY_CREDIT
+      navigateCodes: [SAFETY_CREDIT]
+      intentCodes: [SAFETY_CREDIT]
+  - name: commandDispatch
+    logicalName: commandDispatch
+    basePath: /d/command-dispatch
+    config:
+      applicationCode: COMMAND_DISPATCH
+      navigateCodes:
+        - COMMAND_DISPATCH
+      intentCodes:
+        - COMMAND_DISPATCH
+  - name: userCenter
+    logicalName: userCenter
+    basePath: /d/user-center
+    config:
+      applicationCode: USER_CENTER
+      navigateCodes: [USER_CENTER]
+      intentCodes: [USER_CENTER]
+  - name: logManagement
+    logicalName: logManagement
+    basePath: /d/log-management
+    config:
+      applicationCode: LOGMANAGEMENT
+      navigateCodes: [LOGMANAGEMENT]
+      intentCodes: [LOGMANAGEMENT]
+  - name: resourceManagement
+    logicalName: resourceManagement
+    basePath: /d/resource-management
+    config:
+      applicationCode: RESOURCE_MANAGE
+      navigateCodes: [RESOURCE_MANAGE]
+      intentCodes: [RESOURCE_MANAGE]
+  - name: businessConfig
+    logicalName: businessConfig
+    basePath: /d/business-config
+    config:
+      applicationCode: BUSINESS_CONFIG
+      navigateCodes: [BUSINESS_CONFIG]
+      intentCodes: [BUSINESS_CONFIG]
+  - name: linkageControl
+    logicalName: linkageControl
+    basePath: /d/linkage-control
+    config:
+      applicationCode: LINKAGE_STRATEGY
+      navigateCodes: [LINKAGE_STRATEGY]
+      intentCodes: [LINKAGE_STRATEGY]
+      menuContributionRoots:
+        BUSINESS_CONFIG: 业务设置
+  - name: secureEdu
+    logicalName: secureEdu
+    basePath: /d/secure-edu
+    config:
+      applicationCode: SECURE_EDU
+      navigateCodes: [SECURE_EDU]
+      intentCodes: [SECURE_EDU]
+  - name: secureEduHead
+    logicalName: secureEduHead
+    basePath: /d/secure-edu-head
+    config:
+      applicationCode: SECURE_EDU_HEAD
+      navigateCodes:
+        - SECURE_EDU_HEAD
+      intentCodes:
+        - SECURE_EDU_HEAD
+  - name: accessControl
+    logicalName: accessControl
+    basePath: /d/access-control
+    config:
+      # 与 243 OUAA / securitymanagement 监测接口一致（getDeviceMonitoringPage/:applicationCode）。
+      # 视觉对照消防有数据页时，可临时改为 FIRECONTROL 后 publish（禁止用 URL query 传 applicationCode）。
+      applicationCode: DOORMANAGE
+      # 菜单归属码：剥 OUAA portal 叶子，改挂 Domain menuContribution（ADR-0062）。
+      navigateCodes:
+        - DOORMANAGE
+        - ACCESS_CONTROL
+      # Intent 可跳码：navigate-intent 解析；不剥侧栏。门禁匹配集与菜单归属一致。
+      intentCodes:
+        - DOORMANAGE
+        - ACCESS_CONTROL
+  - name: intruderAlarm
+    logicalName: intruderAlarm
+    basePath: /d/intruder-alarm
+    config:
+      applicationCode: INTRUDER_ALARM
+      navigateCodes:
+        - INTRUDER_ALARM
+      intentCodes:
+        - INTRUDER_ALARM
+  - name: gasManagement
+    logicalName: gasManagement
+    basePath: /d/gas-management
+    config:
+      applicationCode: GAS_MANAGEMENT
+      navigateCodes:
+        - GAS_MANAGEMENT
+      intentCodes:
+        - GAS_MANAGEMENT
+  - name: riskManagement
+    logicalName: riskManagement
+    basePath: /d/risk-management
+    config:
+      applicationCode: RISK_SOURCE
+      navigateCodes:
+        - RISK_SOURCE
+      intentCodes:
+        - RISK_SOURCE
+  - name: dailyTask
+    logicalName: dailyTask
+    basePath: /d/daily-task
+    config:
+      navigateCodes:
+        - DAILY_TASK
+        - DAILY_INSPECTION
+      intentCodes:
+        - DAILY_TASK
+        - DAILY_INSPECTION
+      menuContributionRoots:
+        DAILY_TASK: 日常任务
+        DAILY_INSPECTION: 日常巡检新
+      menuLabels:
+        DAILY_INSPECTION: 日常巡检新
+  - name: securityMonitor
+    logicalName: securityMonitor
+    basePath: /d/security-monitor
+    config:
+      applicationCode: SECURITY_MONITORING
+      navigateCodes:
+        - SECURITY_MONITORING
+        - SECURITY_MONITOR
+      intentCodes:
+        - SECURITY_MONITORING
+        - SECURITY_MONITOR
+        - video-monitor-auth
+  - name: safetyManagementHead
+    logicalName: safetyManagementHead
+    basePath: /d/safety-management-head
+    config:
+      applicationCode: SAFETY_MANAGE_HEAD
+      navigateCodes:
+        - SAFETY_MANAGE_HEAD
+      intentCodes:
+        - SAFETY_MANAGE_HEAD
+        - safety-manage-head
+  - name: safetyPersonnelManagement
+    logicalName: safetyPersonnelManagement
+    basePath: /d/safety-personnel-management
+    config:
+      applicationCode: SAFETY_PERSONNEL
+      navigateCodes:
+        - SAFETY_PERSONNEL
+      intentCodes:
+        - SAFETY_PERSONNEL
+        - safety-personnel-management
+  - name: securityOpinionMonitoring
+    logicalName: securityOpinionMonitoring
+    basePath: /d/security-opinion-monitoring
+    config:
+      applicationCode: SECURITY_OPINION_MONITORING
+      navigateCodes:
+        - SECURITY_OPINION_MONITORING
+        - SECURITY_OPINION
+      intentCodes:
+        - SECURITY_OPINION_MONITORING
+        - SECURITY_OPINION
+        - security-opinion-monitoring
+  - name: safetyManagement
+    logicalName: safetyManagement
+    basePath: /d/safety-management
+    config:
+      applicationCode: SAFETY_MANAGE_MARKET
+      navigateCodes:
+        - SAFETY_MANAGE_MARKET
+      intentCodes:
+        - SAFETY_MANAGE_MARKET
+        - safety-manage-market
+  - name: rotatingManagement
+    logicalName: rotatingManagement
+    basePath: /d/rotating-management
+    config:
+      applicationCode: ROTATINGMANAGE
+      navigateCodes:
+        - ROTATINGMANAGE
+      intentCodes:
+        - ROTATINGMANAGE
+  - name: fireManagement
+    logicalName: fireManagement
+    basePath: /d/fire-management
+    config:
+      applicationCode: FIRECONTROL
+      navigateCodes:
+        - FIRECONTROL
+        - FIRE_MANAGEMENT
+      intentCodes:
+        - FIRECONTROL
+        - FIRE_MANAGEMENT
+  - name: emergencyManagement
+    logicalName: emergencyManagement
+    basePath: /d/emergency-management
+    config:
+      navigateCodes:
+        - EMERGENCY_CENTER
+        - EMERGENCY_MANAGEMENT
+      intentCodes:
+        - EMERGENCY_CENTER
+        - EMERGENCY_MANAGEMENT
+  - name: emergencyDispatch
+    logicalName: emergencyDispatch
+    basePath: /d/emergency-dispatch
+    config:
+      applicationCode: EMERGENCY_DISPATCH
+      navigateCodes:
+        - EMERGENCY_DISPATCH
+      intentCodes:
+        - EMERGENCY_DISPATCH
+  - name: emergencySupplies
+    logicalName: emergencySupplies
+    basePath: /d/emergency-supplies
+    config:
+      applicationCode: EMERGENCY_SUPPLIES
+      navigateCodes:
+        - EMERGENCY_SUPPLIES
+      intentCodes:
+        - EMERGENCY_SUPPLIES
+  - name: fumigationOperation
+    logicalName: fumigationOperation
+    basePath: /d/fumigation-operation
+    config:
+      applicationCode: FUMIGATION_OPERATION
+      navigateCodes:
+        - FUMIGATION_OPERATION
+      intentCodes:
+        - FUMIGATION_OPERATION
+  - name: hazardGovernance
+    logicalName: hazardGovernance
+    basePath: /d/hazard-governance
+    config:
+      navigateCodes:
+        - HAZARD_GOVERNANCE
+      intentCodes:
+        - HAZARD_GOVERNANCE
+  - name: problems
+    logicalName: problems
+    basePath: /d/problems
+    config:
+      applicationCode: HIDDENDANGER
+      navigateCodes:
+        - HIDDENDANGER
+      intentCodes:
+        - HIDDENDANGER
+  - name: faultRepair
+    logicalName: faultRepair
+    basePath: /d/fault-repair
+    config:
+      applicationCode: FAULT
+      navigateCodes:
+        - FAULT
+      intentCodes:
+        - FAULT
+  - name: maintenance
+    logicalName: maintenance
+    basePath: /d/maintenance
+    config:
+      # 线上 OUAA 应用码即为 MAINTENACE（历史拼写），不可纠正。
+      applicationCode: MAINTENACE
+      navigateCodes:
+        - MAINTENACE
+        - maintenance
+        - MAINTENANCE
+      intentCodes:
+        - MAINTENACE
+        - maintenance
+        - MAINTENANCE
+  - name: outsourceRepair
+    logicalName: outsourceRepair
+    basePath: /d/outsource-repair
+    config:
+      applicationCode: OUTSOURCE_REPAIR
+      navigateCodes:
+        - OUTSOURCE_REPAIR
+      intentCodes:
+        - OUTSOURCE_REPAIR
+  - name: renovation
+    logicalName: renovation
+    basePath: /d/renovation
+    config:
+      applicationCode: RETROFIT
+      navigateCodes:
+        - RETROFIT
+      intentCodes:
+        - RETROFIT
+  - name: smallEngineering
+    logicalName: smallEngineering
+    basePath: /d/small-engineering
+    config:
+      applicationCode: SMALLENFINEERING
+      navigateCodes:
+        - SMALLENFINEERING
+      intentCodes:
+        - SMALLENFINEERING
+  # 投诉建议与故障报修共用 Client / 页面实现，仅 OUAA 码与菜单子集不同。
+  - name: complaint
+    logicalName: complaint
+    basePath: /d/complaint
+    config:
+      applicationCode: COMPLAINT
+      navigateCodes:
+        - COMPLAINT
+      intentCodes:
+        - COMPLAINT
+  - name: streamEngine
+    logicalName: streamEngine
+    basePath: /d/stream-engine
+    config:
+      applicationCode: stream-engine
+      navigateCodes:
+        - stream-engine
+      intentCodes:
+        - stream-engine
+  - name: riskGradedControl
+    logicalName: riskGradedControl
+    basePath: /d/risk-graded-control
+    config:
+      navigateCodes:
+        - RISK_GRADED_CONTROL
+      intentCodes:
+        - RISK_GRADED_CONTROL
+  - name: warehouseSafety
+    logicalName: warehouseSafety
+    basePath: /d/warehouse-safety
+    config:
+      applicationCode: WAREHOUSE_SAFETY
+      navigateCodes:
+        - WAREHOUSE_SAFETY
+      intentCodes:
+        - WAREHOUSE_SAFETY
+  - name: dailyInspection
+    logicalName: dailyInspection
+    basePath: /d/daily-inspection
+    config:
+      navigateCodes:
+        - INSPECTION
+        - INSPECTION_MANAGEMENT
+      intentCodes:
+        - INSPECTION
+        - INSPECTION_MANAGEMENT
+  - name: safetyDuty
+    logicalName: safetyDuty
+    basePath: /d/safety-duty
+    config:
+      navigateCodes:
+        - SAFETY_DUTY
+      intentCodes:
+        - SAFETY_DUTY
+  - name: energyConsumption
+    logicalName: energyConsumption
+    basePath: /d/energy-consumption
+    config:
+      applicationCode: ENERGY_CONSUMPTION
+      navigateCodes:
+        - ENERGY_CONSUMPTION
+        - ENERGYMANAGEMENT
+      intentCodes:
+        - ENERGY_CONSUMPTION
+        - ENERGYMANAGEMENT
+  - name: lineLossManagement
+    logicalName: lineLossManagement
+    basePath: /d/line-loss-management
+    config:
+      applicationCode: LINE_LOSS_MANAGEMENT
+      navigateCodes:
+        - LINE_LOSS_MANAGEMENT
+      intentCodes:
+        - LINE_LOSS_MANAGEMENT
+  - name: attendance
+    logicalName: attendance
+    basePath: /d/attendance
+    config:
+      applicationCode: ATTENDANCE_MANAGEMENT
+      navigateCodes:
+        - ATTENDANCE_MANAGEMENT
+      intentCodes:
+        - ATTENDANCE_MANAGEMENT
+  - name: workbench
+    logicalName: workbench
+    basePath: /d/workbench
+    config:
+      applicationCode: workbench
+  - name: broadcastCenter
+    logicalName: broadcastCenter
+    basePath: /d/broadcast-center
+    config:
+      applicationCode: BROADCAST_CENTER
+      navigateCodes:
+        - BROADCASTCENTER
+        - BROADCAST_CENTER
+      intentCodes:
+        - BROADCASTCENTER
+        - BROADCAST_CENTER
+  - name: pocRemotePc
+    logicalName: pocRemotePc
+    basePath: /poc-remote

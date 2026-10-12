@@ -1,0 +1,1 @@
+import"./virtual_mf-exposes___mfe_internal__headquartersMarketClient__remoteEntry_js-Bx_R-Jvg.js";import"./virtual_mf-REMOTE_ENTRY_ID___mfe_internal__headquartersMarketClient__remoteEntry_js-DcFDNpmH.js";var e=document.querySelector(`#app`);e&&(e.textContent=`@g2-client/headquarters-market`);

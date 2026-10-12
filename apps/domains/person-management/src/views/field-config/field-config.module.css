@@ -1,0 +1,30 @@
+.content {
+  height: 100%;
+  min-height: 0;
+}
+
+.content :global(.ant-tabs) {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.content :global(.ant-tabs-content-holder) {
+  flex: 1;
+  min-height: 0;
+}
+
+.content :global(.ant-tabs-content),
+.content :global(.ant-tabs-tabpane) {
+  height: 100%;
+}
+
+.aliasEditor,
+.aliasValue {
+  width: 100%;
+  justify-content: center;
+}
+
+.aliasEditor :global(.ant-input) {
+  max-width: 220px;
+}

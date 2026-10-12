@@ -1,0 +1,1 @@
+import{a as e}from"./domain-context-DOCR1LtJ.js";var t=(...t)=>e().listDeviceManagementPage(...t),n=(...t)=>e().listDeviceProducts(...t),r=(...t)=>e().getAlarmRecordPage(...t),i=(...t)=>e().getAlarmStatisticsLevel(...t),a=(...t)=>e().listAllArea(...t),o=(...t)=>e().listUsers(...t);export{n as a,t as i,i as n,o,a as r,r as t};

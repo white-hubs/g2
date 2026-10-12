@@ -1,0 +1,49 @@
+.hazard-workbench {
+  width: 100%;
+  height: 100%;
+
+  .hazard-stat-grid {
+    gap: 12px;
+  }
+
+  .hazard-stat {
+    display: grid;
+    grid-template-areas:
+      "label label"
+      "value hint";
+    grid-template-columns: auto minmax(0, 1fr);
+    min-height: 76px;
+    padding: 10px 14px;
+    border-left: 1px solid #edf0f5;
+    background: #fff;
+    column-gap: 12px;
+    row-gap: 4px;
+  }
+
+  .hazard-stat-button-active .hazard-stat {
+    border-color: var(--cube-theme-var--primary-3, #91caff);
+    background: var(--cube-theme-var--primary-1, #eaf3ff);
+    box-shadow: none;
+  }
+
+  .hazard-stat-label {
+    grid-area: label;
+  }
+
+  .hazard-stat-value {
+    grid-area: value;
+    margin-top: 0;
+    font-size: 22px;
+  }
+
+  .hazard-stat-hint {
+    grid-area: hint;
+    align-self: center;
+    margin-top: 0;
+    overflow: hidden;
+    font-size: 12px;
+    text-align: right;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+}

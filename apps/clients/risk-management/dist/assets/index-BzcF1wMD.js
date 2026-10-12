@@ -1,0 +1,1 @@
+import"./virtual_mf-exposes___mfe_internal__riskManagementClient__remoteEntry_js-CGeSRlJE.js";import"./virtual_mf-REMOTE_ENTRY_ID___mfe_internal__riskManagementClient__remoteEntry_js-CYLUnLdZ.js";var e=document.querySelector(`#app`);e&&(e.textContent=`@g2-client/risk-management`);

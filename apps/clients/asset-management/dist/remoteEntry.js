@@ -1,0 +1,1 @@
+import{n as e,t}from"./assets/virtual_mf-REMOTE_ENTRY_ID___mfe_internal__assetManagementClient__remoteEntry_js-Bmm9fFdL.js";export{t as get,e as init};

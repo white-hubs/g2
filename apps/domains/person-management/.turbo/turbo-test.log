@@ -1,0 +1,20 @@
+$ bun test
+bun test v1.3.14 (0d9b296a)
+
+src/domain.test.ts:
+(pass) @g2-domain/person-management > retains the supplied personnel menu hierarchy and order [7.31ms]
+(pass) @g2-domain/person-management > all hidden forms and detail pages keep their owning menu selected [9.87ms]
+
+src/views/field-config/load-field-config.test.ts:
+(pass) 字段配置页面加载 > 已有完整字典时只读取，不写回 [1.73ms]
+(pass) 字段配置页面加载 > 已有字典缺字段时只补齐缺失字段并保留原设置 [0.83ms]
+(pass) 字段配置页面加载 > 字典项和 roster 不存在时才创建，并重新查询 [1.98ms]
+
+src/views/field-config/fields.test.ts:
+(pass) 员工字段字典迁移 > 保留服务端顺序与设置，并补齐新增字段 [0.57ms]
+(pass) 员工字段字典迁移 > 拒绝损坏的已保存配置，避免覆盖原始数据 [0.27ms]
+
+ 7 pass
+ 0 fail
+ 29 expect() calls
+Ran 7 tests across 3 files. [3.39s]

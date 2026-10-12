@@ -1,0 +1,37 @@
+{
+  "name": "@g2-platform/pc-chrome",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "bun ../../../tooling/dev-link/cli.ts",
+    "dev:serve": "bun --bun vite --port 5011 --strictPort",
+    "build": "bun --bun vite build",
+    "preview": "bun --bun vite preview --port 5011 --strictPort",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "bun test",
+    "test:ui": "vitest run"
+  },
+  "dependencies": {
+    "@g2-composition/contract": "workspace:*",
+    "@g2-platform/theme-contract": "workspace:*",
+    "dayjs": "catalog:libs",
+    "pinyin-pro": "catalog:libs",
+    "vue": "catalog:vue",
+    "vue-router": "catalog:vue"
+  },
+  "devDependencies": {
+    "@g2-platform/pc-ui": "workspace:*",
+    "@g2-platform/resource": "workspace:*",
+    "@g2-shell/pc": "workspace:*",
+    "@g2-tooling/mf-vite": "workspace:*",
+    "@tailwindcss/vite": "catalog:vite",
+    "@vitejs/plugin-vue-jsx": "catalog:vite",
+    "@vue/test-utils": "catalog:vite",
+    "jsdom": "catalog:vite",
+    "tailwindcss": "catalog:vite",
+    "typescript": "catalog:typescript",
+    "vite": "catalog:vite",
+    "vitest": "catalog:vite"
+  }
+}

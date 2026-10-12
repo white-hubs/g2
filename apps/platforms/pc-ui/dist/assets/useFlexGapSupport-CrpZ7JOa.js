@@ -1,0 +1,1 @@
+import{N as e,m as t}from"./_virtual_mf___mfe_internal__pcUi__loadShare__vue__loadShare__.js-pr0wfuk8.js";import{n}from"./styleChecker-BJ8l1bpY.js";var r=(()=>{let r=e(!1);return t(()=>{r.value=n()}),r});export{r as t};

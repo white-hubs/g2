@@ -1,0 +1,94 @@
+.pc-graph-line-loss {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 440px;
+  gap: 12px;
+  height: 100%;
+  min-height: 0;
+}
+
+.pc-graph-line-loss__canvas {
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+  overflow: auto;
+  background: #fff;
+  border-radius: 2px;
+}
+
+.pc-graph-line-loss__edges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  padding: 12px 16px 16px;
+}
+
+.pc-graph-line-loss__edge {
+  padding: 6px 10px;
+  border: 1px solid #d9d9d9;
+  border-radius: 3px;
+  background: #fff;
+  cursor: pointer;
+}
+
+.pc-graph-line-loss__edge.is-active {
+  border-color: #1677ff;
+  color: #1677ff;
+  background: #e6f4ff;
+}
+
+.pc-graph-line-loss__panel {
+  min-height: 0;
+  overflow: auto;
+  background: #fff;
+  border-radius: 2px;
+}
+
+.pc-graph-line-loss__section {
+  padding: 16px;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.pc-graph-line-loss__title {
+  margin-bottom: 12px;
+  padding-left: 8px;
+  border-left: 3px solid #1677ff;
+  color: #262626;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.pc-graph-line-loss__title-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.pc-graph-line-loss__title-row .pc-graph-line-loss__title {
+  margin-bottom: 0;
+}
+
+.pc-graph-line-loss__field {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 10px;
+  color: #595959;
+}
+
+.pc-graph-line-loss__field span {
+  width: 72px;
+  flex: none;
+}
+
+.pc-graph-line-loss__field strong {
+  color: #262626;
+  font-weight: 400;
+  word-break: break-all;
+}
+
+@media (max-width: 1100px) {
+  .pc-graph-line-loss {
+    grid-template-columns: 1fr;
+  }
+}

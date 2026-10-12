@@ -1,0 +1,215 @@
+{
+  "../../../../../../.bun/install/cache/links/canvg@3.0.11-40ab337afcf5b510/node_modules/canvg/lib/index.es.js": {
+    "file": "assets/index.es-DIZuKxaM.js",
+    "name": "index.es",
+    "src": "../../../../../../.bun/install/cache/links/canvg@3.0.11-40ab337afcf5b510/node_modules/canvg/lib/index.es.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-aKtaBQYM.js",
+      "_defineProperty-CHyAdSol.js"
+    ]
+  },
+  "../../../../../../.bun/install/cache/links/dompurify@2.5.9-6aa173e3d4d0ffb4/node_modules/dompurify/dist/purify.js": {
+    "file": "assets/purify-C7ANg3ZP.js",
+    "name": "purify",
+    "src": "../../../../../../.bun/install/cache/links/dompurify@2.5.9-6aa173e3d4d0ffb4/node_modules/dompurify/dist/purify.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-aKtaBQYM.js"
+    ]
+  },
+  "../../../../../../.bun/install/cache/links/html2canvas@1.4.1-d608a3ed0e3cd872/node_modules/html2canvas/dist/html2canvas.js": {
+    "file": "assets/html2canvas-BE71QQUP.js",
+    "name": "html2canvas",
+    "src": "../../../../../../.bun/install/cache/links/html2canvas@1.4.1-d608a3ed0e3cd872/node_modules/html2canvas/dist/html2canvas.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-aKtaBQYM.js"
+    ]
+  },
+  "../../../../../../.bun/install/cache/links/jspdf@2.5.1-36496aaf874c95f5/node_modules/jspdf/dist/jspdf.es.min.js": {
+    "file": "assets/jspdf.es.min-DEfKpcFb.js",
+    "name": "jspdf.es.min",
+    "src": "../../../../../../.bun/install/cache/links/jspdf@2.5.1-36496aaf874c95f5/node_modules/jspdf/dist/jspdf.es.min.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-aKtaBQYM.js",
+      "_vite-preload-helper-7P2xnrDv.js",
+      "_typeof-B5XbjTb1.js"
+    ],
+    "dynamicImports": [
+      "../../../../../../.bun/install/cache/links/html2canvas@1.4.1-d608a3ed0e3cd872/node_modules/html2canvas/dist/html2canvas.js",
+      "../../../../../../.bun/install/cache/links/dompurify@2.5.9-6aa173e3d4d0ffb4/node_modules/dompurify/dist/purify.js",
+      "../../../../../../.bun/install/cache/links/canvg@3.0.11-40ab337afcf5b510/node_modules/canvg/lib/index.es.js"
+    ]
+  },
+  "../../../../../../.bun/install/cache/links/jszip@3.10.2-1a0b44744dd648bd/node_modules/jszip/dist/jszip.min.js": {
+    "file": "assets/jszip.min-Dp_1_Sdh.js",
+    "name": "jszip.min",
+    "src": "../../../../../../.bun/install/cache/links/jszip@3.10.2-1a0b44744dd648bd/node_modules/jszip/dist/jszip.min.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-aKtaBQYM.js"
+    ]
+  },
+  "../../../../../../.bun/install/cache/links/wangeditor@4.7.15-fa0b0283863b61ee/node_modules/wangeditor/dist/wangEditor.js": {
+    "file": "assets/wangEditor-BhiTPIvQ.js",
+    "name": "wangEditor",
+    "src": "../../../../../../.bun/install/cache/links/wangeditor@4.7.15-fa0b0283863b61ee/node_modules/wangeditor/dist/wangEditor.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-aKtaBQYM.js"
+    ]
+  },
+  "__virtual_mf___mfe_internal__safetyManagement__loadShare__vue__loadShare__.js-DXCIXNvO.js": {
+    "file": "assets/_virtual_mf___mfe_internal__safetyManagement__loadShare__vue__loadShare__.js-DXCIXNvO.js",
+    "name": "_virtual_mf___mfe_internal__safetyManagement__loadShare__vue__loadShare__.js",
+    "imports": [
+      "_rolldown-runtime-aKtaBQYM.js"
+    ]
+  },
+  "__virtual_mf___mfe_internal__safetyManagement__loadShare__vue_mf_2_router__loadShare__.js-MOyYGLpl.js": {
+    "file": "assets/_virtual_mf___mfe_internal__safetyManagement__loadShare__vue_mf_2_router__loadShare__.js-MOyYGLpl.js",
+    "name": "_virtual_mf___mfe_internal__safetyManagement__loadShare__vue_mf_2_router__loadShare__.js",
+    "imports": [
+      "_rolldown-runtime-aKtaBQYM.js",
+      "__virtual_mf___mfe_internal__safetyManagement__loadShare__vue__loadShare__.js-DXCIXNvO.js"
+    ]
+  },
+  "_defineProperty-CHyAdSol.js": {
+    "file": "assets/defineProperty-CHyAdSol.js",
+    "name": "defineProperty",
+    "imports": [
+      "_typeof-B5XbjTb1.js"
+    ]
+  },
+  "_rolldown-runtime-aKtaBQYM.js": {
+    "file": "assets/rolldown-runtime-aKtaBQYM.js",
+    "name": "rolldown-runtime"
+  },
+  "_typeof-B5XbjTb1.js": {
+    "file": "assets/typeof-B5XbjTb1.js",
+    "name": "typeof"
+  },
+  "_virtual_mf-REMOTE_ENTRY_ID___mfe_internal__safetyManagement__remoteEntry_js-D9K3ffLL.js": {
+    "file": "assets/virtual_mf-REMOTE_ENTRY_ID___mfe_internal__safetyManagement__remoteEntry_js-D9K3ffLL.js",
+    "name": "virtual_mf-REMOTE_ENTRY_ID___mfe_internal__safetyManagement__remoteEntry_js",
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "virtual:mf-localSharedImportMap:__mfe_internal__safetyManagement",
+      "_virtual_mf-exposes___mfe_internal__safetyManagement__remoteEntry_js-BaiOcfih.js"
+    ]
+  },
+  "_virtual_mf-exposes___mfe_internal__safetyManagement__remoteEntry_js-BaiOcfih.js": {
+    "file": "assets/virtual_mf-exposes___mfe_internal__safetyManagement__remoteEntry_js-BaiOcfih.js",
+    "name": "virtual_mf-exposes___mfe_internal__safetyManagement__remoteEntry_js",
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "src/domain.ts"
+    ]
+  },
+  "_vite-preload-helper-7P2xnrDv.js": {
+    "file": "assets/vite-preload-helper-7P2xnrDv.js",
+    "name": "vite-preload-helper"
+  },
+  "index.html": {
+    "file": "assets/index-BuezrQsx.js",
+    "name": "index",
+    "src": "index.html",
+    "isEntry": true,
+    "imports": [
+      "_virtual_mf-exposes___mfe_internal__safetyManagement__remoteEntry_js-BaiOcfih.js",
+      "_virtual_mf-REMOTE_ENTRY_ID___mfe_internal__safetyManagement__remoteEntry_js-D9K3ffLL.js"
+    ]
+  },
+  "src/domain.ts": {
+    "file": "assets/domain-Boe2Ba0d.js",
+    "name": "domain",
+    "src": "src/domain.ts",
+    "isEntry": true,
+    "imports": [
+      "_rolldown-runtime-aKtaBQYM.js",
+      "_vite-preload-helper-7P2xnrDv.js",
+      "__virtual_mf___mfe_internal__safetyManagement__loadShare__vue__loadShare__.js-DXCIXNvO.js",
+      "__virtual_mf___mfe_internal__safetyManagement__loadShare__vue_mf_2_router__loadShare__.js-MOyYGLpl.js",
+      "_defineProperty-CHyAdSol.js"
+    ],
+    "dynamicImports": [
+      "../../../../../../.bun/install/cache/links/html2canvas@1.4.1-d608a3ed0e3cd872/node_modules/html2canvas/dist/html2canvas.js",
+      "../../../../../../.bun/install/cache/links/jspdf@2.5.1-36496aaf874c95f5/node_modules/jspdf/dist/jspdf.es.min.js",
+      "../../../../../../.bun/install/cache/links/wangeditor@4.7.15-fa0b0283863b61ee/node_modules/wangeditor/dist/wangEditor.js",
+      "../../../../../../.bun/install/cache/links/jszip@3.10.2-1a0b44744dd648bd/node_modules/jszip/dist/jszip.min.js"
+    ],
+    "css": [
+      "assets/domain-BJESqILP.css"
+    ]
+  },
+  "virtual:mf-REMOTE_ENTRY_ID:__mfe_internal__safetyManagement__remoteEntry_js": {
+    "file": "remoteEntry.js",
+    "name": "remoteEntry",
+    "src": "virtual:mf-REMOTE_ENTRY_ID:__mfe_internal__safetyManagement__remoteEntry_js",
+    "imports": [
+      "_virtual_mf-REMOTE_ENTRY_ID___mfe_internal__safetyManagement__remoteEntry_js-D9K3ffLL.js"
+    ]
+  },
+  "virtual:mf-REMOTE_ENTRY_SSR_ID:__mfe_internal__safetyManagement__remoteEntry_js": {
+    "file": "remoteEntry.ssr.js",
+    "name": "ssrRemoteEntry",
+    "src": "virtual:mf-REMOTE_ENTRY_SSR_ID:__mfe_internal__safetyManagement__remoteEntry_js",
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "virtual:mf-exposes-ssr:__mfe_internal__safetyManagement__remoteEntry_js"
+    ]
+  },
+  "virtual:mf-exposes-ssr:__mfe_internal__safetyManagement__remoteEntry_js": {
+    "file": "assets/virtual_mf-exposes-ssr___mfe_internal__safetyManagement__remoteEntry_js-whC2mlbX.js",
+    "name": "virtual_mf-exposes-ssr___mfe_internal__safetyManagement__remoteEntry_js",
+    "src": "virtual:mf-exposes-ssr:__mfe_internal__safetyManagement__remoteEntry_js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "src/domain.ts"
+    ]
+  },
+  "virtual:mf-exposes:__mfe_internal__safetyManagement__remoteEntry_js": {
+    "file": "assets/virtualExposes-B9v1BdZO.js",
+    "name": "virtualExposes",
+    "src": "virtual:mf-exposes:__mfe_internal__safetyManagement__remoteEntry_js",
+    "imports": [
+      "_virtual_mf-exposes___mfe_internal__safetyManagement__remoteEntry_js-BaiOcfih.js"
+    ]
+  },
+  "virtual:mf-localSharedImportMap:__mfe_internal__safetyManagement": {
+    "file": "assets/_virtual_mf-localSharedImportMap___mfe_internal__safetyManagement-BmDXhXTJ.js",
+    "name": "_virtual_mf-localSharedImportMap___mfe_internal__safetyManagement",
+    "src": "virtual:mf-localSharedImportMap:__mfe_internal__safetyManagement",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "__virtual_mf___mfe_internal__safetyManagement__loadShare__vue__loadShare__.js-DXCIXNvO.js",
+      "__virtual_mf___mfe_internal__safetyManagement__loadShare__vue_mf_2_router__loadShare__.js-MOyYGLpl.js"
+    ]
+  },
+  "virtual:mf:__mfe_internal__safetyManagement__H_A_I__hostAutoInit__H_A_I__.js": {
+    "file": "assets/hostInit-CS7SnAa4.js",
+    "name": "hostInit",
+    "src": "virtual:mf:__mfe_internal__safetyManagement__H_A_I__hostAutoInit__H_A_I__.js",
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "_virtual_mf-REMOTE_ENTRY_ID___mfe_internal__safetyManagement__remoteEntry_js-D9K3ffLL.js",
+      "virtual:mf-localSharedImportMap:__mfe_internal__safetyManagement"
+    ]
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "../../../contracts/asset-management/src/main.ts": {
+    "file": "assets/main-BvRk9kiK.js",
+    "name": "main",
+    "src": "../../../contracts/asset-management/src/main.ts",
+    "isDynamicEntry": true
+  },
+  "../../../packages/composition-contract/src/index.ts": {
+    "file": "assets/src-cEcQdaRR.js",
+    "name": "src",
+    "src": "../../../packages/composition-contract/src/index.ts",
+    "isDynamicEntry": true
+  },
+  "_client-C_RTgmWS.js": {
+    "file": "assets/client-C_RTgmWS.js",
+    "name": "client"
+  },
+  "_virtual_mf-REMOTE_ENTRY_ID___mfe_internal__assetManagementClient__remoteEntry_js-Bmm9fFdL.js": {
+    "file": "assets/virtual_mf-REMOTE_ENTRY_ID___mfe_internal__assetManagementClient__remoteEntry_js-Bmm9fFdL.js",
+    "name": "virtual_mf-REMOTE_ENTRY_ID___mfe_internal__assetManagementClient__remoteEntry_js",
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "virtual:mf-localSharedImportMap:__mfe_internal__assetManagementClient",
+      "_virtual_mf-exposes___mfe_internal__assetManagementClient__remoteEntry_js-ZLaJie5w.js"
+    ]
+  },
+  "_virtual_mf-exposes___mfe_internal__assetManagementClient__remoteEntry_js-ZLaJie5w.js": {
+    "file": "assets/virtual_mf-exposes___mfe_internal__assetManagementClient__remoteEntry_js-ZLaJie5w.js",
+    "name": "virtual_mf-exposes___mfe_internal__assetManagementClient__remoteEntry_js",
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "_client-C_RTgmWS.js"
+    ]
+  },
+  "_vite-preload-helper-7P2xnrDv.js": {
+    "file": "assets/vite-preload-helper-7P2xnrDv.js",
+    "name": "vite-preload-helper"
+  },
+  "src/client.ts": {
+    "file": "assets/client-CJz9lySd.js",
+    "name": "client",
+    "src": "src/client.ts",
+    "isEntry": true,
+    "imports": [
+      "_client-C_RTgmWS.js"
+    ]
+  },
+  "virtual:mf-REMOTE_ENTRY_ID:__mfe_internal__assetManagementClient__remoteEntry_js": {
+    "file": "remoteEntry.js",
+    "name": "remoteEntry",
+    "src": "virtual:mf-REMOTE_ENTRY_ID:__mfe_internal__assetManagementClient__remoteEntry_js",
+    "imports": [
+      "_virtual_mf-REMOTE_ENTRY_ID___mfe_internal__assetManagementClient__remoteEntry_js-Bmm9fFdL.js"
+    ]
+  },
+  "virtual:mf-REMOTE_ENTRY_SSR_ID:__mfe_internal__assetManagementClient__remoteEntry_js": {
+    "file": "remoteEntry.ssr.js",
+    "name": "ssrRemoteEntry",
+    "src": "virtual:mf-REMOTE_ENTRY_SSR_ID:__mfe_internal__assetManagementClient__remoteEntry_js",
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "virtual:mf-exposes-ssr:__mfe_internal__assetManagementClient__remoteEntry_js"
+    ]
+  },
+  "virtual:mf-exposes-ssr:__mfe_internal__assetManagementClient__remoteEntry_js": {
+    "file": "assets/virtual_mf-exposes-ssr___mfe_internal__assetManagementClient__remoteEntry_js-I-LuLmuM.js",
+    "name": "virtual_mf-exposes-ssr___mfe_internal__assetManagementClient__remoteEntry_js",
+    "src": "virtual:mf-exposes-ssr:__mfe_internal__assetManagementClient__remoteEntry_js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "_client-C_RTgmWS.js"
+    ]
+  },
+  "virtual:mf-exposes:__mfe_internal__assetManagementClient__remoteEntry_js": {
+    "file": "assets/virtualExposes-Ds70K3HD.js",
+    "name": "virtualExposes",
+    "src": "virtual:mf-exposes:__mfe_internal__assetManagementClient__remoteEntry_js",
+    "imports": [
+      "_virtual_mf-exposes___mfe_internal__assetManagementClient__remoteEntry_js-ZLaJie5w.js"
+    ]
+  },
+  "virtual:mf-localSharedImportMap:__mfe_internal__assetManagementClient": {
+    "file": "assets/_virtual_mf-localSharedImportMap___mfe_internal__assetManagementClient-B8ET-VqY.js",
+    "name": "_virtual_mf-localSharedImportMap___mfe_internal__assetManagementClient",
+    "src": "virtual:mf-localSharedImportMap:__mfe_internal__assetManagementClient",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "../../../packages/composition-contract/src/index.ts",
+      "../../../contracts/asset-management/src/main.ts"
+    ]
+  },
+  "virtual:mf:__mfe_internal__assetManagementClient__H_A_I__hostAutoInit__H_A_I__.js": {
+    "file": "assets/hostInit-CkJ59_05.js",
+    "name": "hostInit",
+    "src": "virtual:mf:__mfe_internal__assetManagementClient__H_A_I__hostAutoInit__H_A_I__.js",
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "_virtual_mf-REMOTE_ENTRY_ID___mfe_internal__assetManagementClient__remoteEntry_js-Bmm9fFdL.js",
+      "virtual:mf-localSharedImportMap:__mfe_internal__assetManagementClient"
+    ]
+  }
+}

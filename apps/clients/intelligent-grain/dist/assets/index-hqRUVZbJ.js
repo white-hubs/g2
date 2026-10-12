@@ -1,0 +1,1 @@
+import"./virtual_mf-exposes___mfe_internal__intelligentGrainClient__remoteEntry_js-oH5c1j2X.js";import"./virtual_mf-REMOTE_ENTRY_ID___mfe_internal__intelligentGrainClient__remoteEntry_js-D3y0UT7m.js";var e=document.querySelector(`#app`);e&&(e.textContent=`@g2-client/intelligent-grain`);

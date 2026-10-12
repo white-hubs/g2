@@ -1,0 +1,14 @@
+<link rel="modulepreload" crossorigin href="/assets/hostInit-DCVbOknc.js"><link rel="modulepreload" crossorigin href="/assets/index-DB1hvd11.js"><link rel="modulepreload" crossorigin href="/remoteEntry.js"><link rel="modulepreload" crossorigin href="/assets/_virtual_mf-localSharedImportMap___mfe_internal__pcRtc-D3-GDCdG.js"><link rel="modulepreload" crossorigin href="/assets/_virtual_mf___mfe_internal__pcRtc__loadShare__vue__loadShare__.js-Cmv8L1QI.js"><!--
+  构建入口壳（Vite 默认 client entry），不是独立可运行产品。
+  Host / Profile 只消费 remoteEntry.js + mf-manifest.json。
+  当前约定未设 build.rollupOptions.input，删除会导致 vite build 失败。
+  见 apps/platforms/README.md 与 docs/adr/0010-module-federation-vite.md
+-->
+<!doctype html>
+<html>
+  <script type="module" crossorigin src="/assets/mf-entry-bootstrap-0-71917ef1.js"></script>
+
+  <body>
+    <div id="app"></div>
+  </body>
+</html>

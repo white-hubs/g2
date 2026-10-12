@@ -1,0 +1,19 @@
+$ bun --bun vite build
+vite v8.1.5 building client environment for production...
+[2Ktransforming...✓ 10 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                                                                                         0.29 kB │ gzip: 0.18 kB
+dist/mf-manifest.json                                                                                   0.65 kB │ gzip: 0.27 kB
+dist/mf-stats.json                                                                                      1.66 kB │ gzip: 0.54 kB
+dist/.vite/manifest.json                                                                                3.03 kB │ gzip: 0.48 kB
+dist/assets/_virtual_mf-localSharedImportMap___mfe_internal__safetyManagementClient-CcdcYaa2.js         0.11 kB │ gzip: 0.11 kB
+dist/assets/virtual_mf-exposes-ssr___mfe_internal__safetyManagementClient__remoteEntry_js-BxHVmi4V.js   0.25 kB │ gzip: 0.22 kB
+dist/assets/virtualExposes-BRLJB0Hv.js                                                                  0.95 kB │ gzip: 0.58 kB
+dist/remoteEntry.ssr.js                                                                                 1.02 kB │ gzip: 0.59 kB
+dist/assets/vite-preload-helper-7P2xnrDv.js                                                             1.41 kB │ gzip: 0.75 kB
+dist/assets/hostInit-DINc65rt.js                                                                        2.31 kB │ gzip: 1.09 kB
+dist/assets/client-DII4NHPr.js                                                                          8.00 kB │ gzip: 2.22 kB
+dist/remoteEntry.js                                                                                    14.13 kB │ gzip: 4.75 kB
+
+✓ built in 1.21s

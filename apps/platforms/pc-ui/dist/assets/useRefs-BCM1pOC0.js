@@ -1,0 +1,1 @@
+import{f as e,j as t}from"./_virtual_mf___mfe_internal__pcUi__loadShare__vue__loadShare__.js-pr0wfuk8.js";var n=()=>{let n=t(new Map);return e(()=>{n.value=new Map}),[e=>t=>{n.value.set(e,t)},n]};export{n as t};

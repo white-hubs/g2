@@ -1,0 +1,1 @@
+import"./virtual_mf-exposes___mfe_internal__pocRemotePc__remoteEntry_js-CSoFDwfy.js";import"./virtual_mf-REMOTE_ENTRY_ID___mfe_internal__pocRemotePc__remoteEntry_js-De6mr1I3.js";import{l as e}from"./_virtual_mf___mfe_internal__pocRemotePc__loadShare__vue__loadShare__.js-LGfStR7y.js";e({template:`<p>POC remote domain remote entry host</p>`}).mount(`#app`);

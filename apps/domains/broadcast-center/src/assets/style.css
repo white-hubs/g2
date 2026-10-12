@@ -1,0 +1,63 @@
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mt-10 {
+  margin-top: 10px;
+}
+.mt-20 {
+  margin-top: 20px;
+}
+.mb-10 {
+  margin-bottom: 10px;
+}
+.pd-10 {
+  padding: 10px;
+}
+.pb-10 {
+  padding-bottom: 10px;
+}
+.pd-20 {
+  padding: 20px;
+}
+.ml-10 {
+  margin-left: 10px;
+}
+.mr-10 {
+  margin-right: 10px;
+}
+.mr-16 {
+  margin-right: 16px;
+}
+.ml-100 {
+  margin-left: 100px;
+}
+.del {
+  color: var(--cube-theme-var--primary-color, #1677ff) !important;
+}
+.w-150-deep {
+  width: 150px !important;
+}
+
+/* 规则详情分区标题竖线 */
+.verticalLine {
+  position: relative;
+  display: inline-block;
+  padding-left: 10px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #000;
+  line-height: 1.4;
+}
+.verticalLine.primary-color-before::before,
+.verticalLine::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 2px;
+  bottom: 2px;
+  width: 3px;
+  border-radius: 1px;
+  background: var(--cube-theme-var--primary-color, #1677ff);
+}

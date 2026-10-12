@@ -1,0 +1,72 @@
+$ bun --bun vite build
+vite v8.1.5 building client environment for production...
+[2Ktransforming...✓ 176 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                                                                                              0.87 kB │ gzip:  0.38 kB
+dist/assets/mf-entry-bootstrap-0-9e8c9c5a.js                                                                 1.35 kB
+dist/mf-manifest.json                                                                                        1.72 kB │ gzip:  0.66 kB
+dist/mf-stats.json                                                                                           7.96 kB │ gzip:  1.59 kB
+dist/.vite/manifest.json                                                                                    20.44 kB │ gzip:  1.90 kB
+dist/assets/standard-result-item-CHxONEed.css                                                                0.08 kB │ gzip:  0.09 kB
+dist/assets/domain-C9eZcvho.css                                                                              0.29 kB │ gzip:  0.15 kB
+dist/assets/task-list-CYVhGP7a.css                                                                           0.29 kB │ gzip:  0.21 kB
+dist/assets/result-item-BYgaXlGn.css                                                                         0.34 kB │ gzip:  0.18 kB
+dist/assets/standard-item-form-Yj13PaZt.css                                                                  0.37 kB │ gzip:  0.22 kB
+dist/assets/message-config-BaRNBO9I.css                                                                      0.42 kB │ gzip:  0.20 kB
+dist/assets/target-content-view-zK-7XqAj.css                                                                 0.55 kB │ gzip:  0.25 kB
+dist/assets/task-record-DidNklYp.css                                                                         0.92 kB │ gzip:  0.42 kB
+dist/assets/record-info-ILgirLkA.css                                                                         1.57 kB │ gzip:  0.48 kB
+dist/assets/task-plan-edit-BVOzcXfD.css                                                                      1.78 kB │ gzip:  0.53 kB
+dist/assets/task-edit-DGSXG2c-.css                                                                           5.95 kB │ gzip:  1.53 kB
+dist/assets/virtualExposes-NUVwAIuj.js                                                                       0.11 kB │ gzip:  0.12 kB
+dist/remoteEntry.js                                                                                          0.13 kB │ gzip:  0.14 kB
+dist/assets/rolldown-runtime-DK3Fl9T5.js                                                                     0.15 kB │ gzip:  0.15 kB
+dist/assets/page-title-Z_qoOl6L.js                                                                           0.22 kB │ gzip:  0.19 kB
+dist/assets/index-0KDeH88B.js                                                                                0.25 kB │ gzip:  0.18 kB
+dist/assets/server-7kbZiAVf.js                                                                               0.26 kB │ gzip:  0.21 kB
+dist/assets/virtual_mf-exposes-ssr___mfe_internal__dailyTask__remoteEntry_js-BRm9sz8H.js                     0.37 kB │ gzip:  0.29 kB
+dist/assets/client-DQvLhxAn.js                                                                               0.52 kB │ gzip:  0.32 kB
+dist/assets/standard-result-item-C0J0PDZq.js                                                                 0.69 kB │ gzip:  0.43 kB
+dist/remoteEntry.ssr.js                                                                                      0.98 kB │ gzip:  0.58 kB
+dist/assets/virtual_mf-exposes___mfe_internal__dailyTask__remoteEntry_js-Dv0QvmMY.js                         1.07 kB │ gzip:  0.64 kB
+dist/assets/_virtual_mf-localSharedImportMap___mfe_internal__dailyTask-DOdX2cbJ.js                           1.20 kB │ gzip:  0.52 kB
+dist/assets/vite-preload-helper-7P2xnrDv.js                                                                  1.41 kB │ gzip:  0.75 kB
+dist/assets/result-item-DrWXaaPx.js                                                                          1.42 kB │ gzip:  0.75 kB
+dist/assets/types-CfHDgKe7.js                                                                                1.45 kB │ gzip:  0.72 kB
+dist/assets/task-target-info-CKGHRWR2.js                                                                     1.47 kB │ gzip:  0.86 kB
+dist/assets/pc-ui-runtime-DuxKhGP6.js                                                                        1.79 kB │ gzip:  0.89 kB
+dist/assets/hostInit-DMHplJfC.js                                                                             2.32 kB │ gzip:  1.10 kB
+dist/assets/daily-task-edit-common-BDKEuj5W.js                                                               2.68 kB │ gzip:  1.15 kB
+dist/assets/task-type-CvX5-_m8.js                                                                            3.40 kB │ gzip:  1.71 kB
+dist/assets/standard-item-BSiIWm_K.js                                                                        3.52 kB │ gzip:  1.55 kB
+dist/assets/task-record-Ck2J-zfy.js                                                                          3.57 kB │ gzip:  1.57 kB
+dist/assets/task-drafts-BhE43OL0.js                                                                          3.93 kB │ gzip:  1.62 kB
+dist/assets/urgency-level-Tofq_5mk.js                                                                        4.01 kB │ gzip:  1.91 kB
+dist/assets/task-result-FvARp0HM.js                                                                          4.10 kB │ gzip:  1.88 kB
+dist/assets/task-standard-2pk3Xz24.js                                                                        4.12 kB │ gzip:  1.78 kB
+dist/assets/standard-item-form-KbAtMczu.js                                                                   4.52 kB │ gzip:  1.95 kB
+dist/assets/task-cycle-TYS1c_LT.js                                                                           4.74 kB │ gzip:  2.12 kB
+dist/assets/record-info-CP89DJSO.js                                                                          5.16 kB │ gzip:  2.00 kB
+dist/assets/domain-CXrNpSbN.js                                                                               5.52 kB │ gzip:  1.60 kB
+dist/assets/task-list-CWYwu9o_.js                                                                            5.62 kB │ gzip:  2.24 kB
+dist/assets/task-plan-q0N3dPdj.js                                                                            5.66 kB │ gzip:  2.16 kB
+dist/assets/message-config-BSdaAE0T.js                                                                       9.00 kB │ gzip:  2.84 kB
+dist/assets/daily-task-widgets-CtOMWmTV.js                                                                  12.91 kB │ gzip:  4.54 kB
+dist/assets/task-standard-form-DfssYZ0r.js                                                                  13.49 kB │ gzip:  3.82 kB
+dist/assets/task-plan-edit-BgJAqv5k.js                                                                      16.18 kB │ gzip:  5.48 kB
+dist/assets/target-content-view-CpFrALuN.js                                                                 18.15 kB │ gzip:  5.58 kB
+dist/assets/_virtual_mf___mfe_internal__dailyTask__loadShare__vue_mf_2_router__loadShare__.js-Db3b-lcr.js   30.51 kB │ gzip: 11.33 kB
+dist/assets/virtual_mf-REMOTE_ENTRY_ID___mfe_internal__dailyTask__remoteEntry_js-DgrngdMS.js                39.02 kB │ gzip: 12.93 kB
+dist/assets/task-edit-CesgBx3c.js                                                                           41.07 kB │ gzip: 12.02 kB
+dist/assets/_virtual_mf___mfe_internal__dailyTask__loadShare__vue__loadShare__.js-CvLiz_fH.js              121.78 kB │ gzip: 45.41 kB
+
+[33m[PLUGIN_TIMINGS] [0mYour build spent significant time in plugins. Here is a breakdown:
+  - vite:vue-jsx (38%)
+  - add-entry (8%)
+  - generateLocalSharedImportMap (8%)
+  - g2-mf-runtime-remote-external (6%)
+  - proxyRemoteEntry (6%)
+See https://rolldown.rs/reference/InputOptions.checks#plugintimings for more details.
+
+✓ built in 5.20s

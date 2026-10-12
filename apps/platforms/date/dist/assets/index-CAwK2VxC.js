@@ -1,0 +1,1 @@
+import"./virtual_mf-exposes___mfe_internal__datePlatform__remoteEntry_js-Djdhs7gP.js";import"./virtual_mf-REMOTE_ENTRY_ID___mfe_internal__datePlatform__remoteEntry_js-CztM1kOQ.js";import{t as e}from"./_virtual_mf___mfe_internal__datePlatform__loadShare__vue__loadShare__.js-NhX0Raar.js";e({template:`<p>@g2-platform/date (library remote, no UI)</p>`}).mount(`#app`);

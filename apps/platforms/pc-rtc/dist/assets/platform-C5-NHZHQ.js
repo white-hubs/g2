@@ -1,0 +1,1 @@
+function e(e){e.subscribe(`rtc-call-received`,t=>{e.publish(`rtc:incoming-call`,t)}),e.subscribe(`rtc-call-end`,()=>{e.publish(`rtc:call-ended`,void 0)})}var t={label:`pc-rtc`,install:async(t,n,r)=>{e(r.bus)}};export{t as default,t as platformModule};

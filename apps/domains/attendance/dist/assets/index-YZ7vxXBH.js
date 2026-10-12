@@ -1,0 +1,1 @@
+import"./virtual_mf-exposes___mfe_internal__attendance__remoteEntry_js-bihNYdNH.js";import"./virtual_mf-REMOTE_ENTRY_ID___mfe_internal__attendance__remoteEntry_js-WpJ3h35n.js";var e=document.querySelector(`#app`);e&&(e.textContent=`@g2-domain/attendance`);

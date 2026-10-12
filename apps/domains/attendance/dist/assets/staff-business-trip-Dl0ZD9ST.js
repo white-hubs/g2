@@ -1,0 +1,1 @@
+import{t as e}from"./client-DtOTO6As.js";var t=async t=>(await e()).businessTripRulesPage(t),n=async t=>(await e()).businessTripRulesDetail(t),r=async t=>(await e()).businessTripRulesDelete(t),i=async t=>(await e()).businessTripRulesInsert(t),a=async t=>(await e()).businessTripRulesUpdate(t);export{a,t as i,n,i as r,r as t};

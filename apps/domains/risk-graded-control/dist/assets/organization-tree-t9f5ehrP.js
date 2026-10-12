@@ -1,0 +1,1 @@
+function e(t){return t.filter(e=>e.id!=null).map(t=>{var n;return{value:String(t.id),title:t.name??``,children:(n=t.children)!=null&&n.length?e(t.children):void 0}})}export{e as t};

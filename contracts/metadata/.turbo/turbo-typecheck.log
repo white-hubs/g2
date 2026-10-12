@@ -1,0 +1,2 @@
+$ tsc -p tsconfig.json --noEmit
+src/main.ts(3,1): error TS2308: Module "./request" has already exported a member named 'emptyModule'. Consider explicitly re-exporting to resolve the ambiguity.

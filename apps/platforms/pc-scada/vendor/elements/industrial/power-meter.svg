@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:scada="http://cube-scada.io/ns/v1" viewBox="0 0 100 100" width="100" height="100">
+  <metadata>
+    <scada:element>
+      <scada:meta type="power-meter" label="&#x7528;&#x7535;&#x91CF;&#x4EEA;&#x8868;" category="industrial" version="1.0.0"/>
+      <scada:props>
+        <scada:prop name="powerUsage" type="number" label="&#x7528;&#x7535;&#x91CF;" default="12.5" min="0" max="9999" unit="kWh" domain="observe" semantic="status.value" required="false" bindable="true" controllable="false"/>
+        <scada:prop name="highLoad" type="boolean" label="&#x9AD8;&#x8D1F;&#x8F7D;&#x544A;&#x8B66;" default="false" domain="observe" semantic="status.state" required="false" bindable="true" controllable="false"/>
+        <scada:prop name="bodyColor" type="color" label="&#x9762;&#x677F;&#x989C;&#x8272;" default="#fffbeb" domain="observe" semantic="style.bodyColor" required="false" bindable="true" controllable="false"/>
+      </scada:props>
+      <scada:mappings>
+        <scada:map prop="bodyColor" selector="#panel" attr="fill"/>
+        <scada:map prop="powerUsage" selector="#value-text" attr="textContent" transform="(Math.round(Number(value ?? 0) * 10) / 10).toFixed(1) + ' kWh'"/>
+        <scada:map prop="powerUsage" selector="#fill-bar" attr="width" transform="String(Math.max(0, Math.min(100, Number(value ?? 0) / 100 * 64)))"/>
+        <scada:map prop="highLoad" selector="#status-lamp" attr="fill" transform="value ? '#ef4444' : '#22c55e'"/>
+      </scada:mappings>
+      <scada:animations>
+        <scada:animation id="high-load-pulse" triggerProp="highLoad" triggerCondition="value === true" target="#status-lamp" keyframes='[{"opacity":1},{"opacity":0.35},{"opacity":1}]' duration="900" iterations="Infinity" easing="ease-in-out"/>
+      </scada:animations>
+    </scada:element>
+  </metadata>
+
+  <rect id="panel" x="8" y="8" width="84" height="84" rx="12" fill="#fffbeb" stroke="#92400e" stroke-width="2"/>
+  <text x="50" y="22" text-anchor="middle" font-size="11" fill="#78350f">&#x7528;&#x7535;&#x91CF;</text>
+
+  <rect x="18" y="40" width="64" height="12" rx="6" fill="#fde68a" stroke="#d97706" stroke-width="1"/>
+  <rect id="fill-bar" x="18" y="40" width="8" height="12" rx="6" fill="#f59e0b"/>
+
+  <path d="M56 30 L48 46 H56 L46 64 L52 50 H44 Z" fill="#f59e0b" stroke="#b45309" stroke-width="1"/>
+
+  <text id="value-text" x="50" y="76" text-anchor="middle" font-size="11" fill="#78350f">12.5 kWh</text>
+  <circle id="status-lamp" cx="82" cy="18" r="5" fill="#22c55e" stroke="#14532d" stroke-width="1"/>
+</svg>

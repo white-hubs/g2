@@ -1,0 +1,33 @@
+.panelRefBox {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.panelRefBoxLeft {
+  width: 240px;
+  height: 200px;
+  border: 1px solid #ebebeb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.panelRefBoxLeft img {
+  width: 170px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+
+.panelRefBoxRight {
+  width: 50%;
+}
+
+.panelRefBoxBottom {
+  display: flex;
+  justify-content: flex-start;
+}

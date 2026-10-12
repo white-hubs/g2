@@ -1,0 +1,1 @@
+import{n as e,t}from"./assets/virtual_mf-REMOTE_ENTRY_ID___mfe_internal__todoCenter__remoteEntry_js-C1HiOsCM.js";export{t as get,e as init};

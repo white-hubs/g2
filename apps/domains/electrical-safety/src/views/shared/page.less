@@ -1,0 +1,150 @@
+.electrical-page {
+  min-height: 100%;
+
+  .page-toolbar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    align-items: center;
+    padding: 16px 0;
+    margin-bottom: 16px;
+  }
+
+  .page-toolbar .cube-picker-range {
+    width: 280px;
+  }
+
+  .toolbar-spacer {
+    flex: 1;
+  }
+
+  .stats-grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(160px, 1fr));
+    gap: 16px;
+    margin-bottom: 16px;
+  }
+
+  .stat-card {
+    padding: 18px 20px;
+    background: #fff;
+    border: 1px solid #f0f0f0;
+    border-radius: 6px;
+  }
+
+  .stat-label {
+    margin-bottom: 6px;
+    color: #8c8c8c;
+    font-size: 13px;
+  }
+
+  .stat-value {
+    color: #262626;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 1.2;
+  }
+
+  .stat-suffix {
+    margin-left: 4px;
+    color: #8c8c8c;
+    font-size: 13px;
+    font-weight: 400;
+  }
+
+  .content-card {
+    padding: 0;
+  }
+
+  .section-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 32px;
+    margin-bottom: 16px;
+    color: #262626;
+    font-size: 15px;
+    font-weight: 600;
+  }
+
+  .muted {
+    color: #8c8c8c;
+  }
+
+  .danger-text {
+    color: #ff4d4f;
+  }
+
+  .empty-copy {
+    padding: 48px 0;
+    color: #8c8c8c;
+    text-align: center;
+  }
+
+  .scada-placeholder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    height: 100%;
+    min-height: 360px;
+    background: #fff;
+    border-radius: 6px;
+
+    .scada-placeholder-copy {
+      color: #bfbfbf;
+      font-size: 12px;
+    }
+  }
+
+  .scada-runtime-host {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    min-height: 360px;
+    overflow: hidden;
+    background: #fff;
+    border-radius: 6px;
+  }
+
+  .scada-runtime-view {
+    flex: 1;
+    width: 100%;
+    min-height: 0;
+    height: 100%;
+
+    .cube-scada-page-status {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+  }
+
+  .modal-tip {
+    padding: 10px 12px;
+    margin-bottom: 16px;
+    color: #595959;
+    background: #f6f8fa;
+    border-radius: 4px;
+  }
+}
+
+.electrical-modal-form-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  column-gap: 20px;
+}
+
+.electrical-modal-form-full {
+  grid-column: 1 / -1;
+}
+
+@media (max-width: 1180px) {
+  .electrical-page .stats-grid {
+    grid-template-columns: repeat(2, minmax(160px, 1fr));
+  }
+}

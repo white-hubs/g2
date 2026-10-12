@@ -1,0 +1,1 @@
+var e={label:`pc-scada`};export{e as default,e as platformModule};

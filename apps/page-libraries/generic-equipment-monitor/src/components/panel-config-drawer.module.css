@@ -1,0 +1,106 @@
+.drawerBody {
+  display: flex;
+  height: calc(100vh - 48px);
+  min-height: 480px;
+}
+
+.preview {
+  flex: 1;
+  min-width: 0;
+  padding: 16px;
+  border-right: 1px solid var(--g2-color-border, #f0f0f0);
+  overflow: auto;
+}
+
+.config {
+  width: 420px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+}
+
+.configTitle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.title {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--g2-color-text, rgba(0, 0, 0, 0.85));
+}
+
+.tipClose {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: color-mix(in srgb, var(--g2-color-text, rgba(0, 0, 0, 0.85)) 55%, transparent);
+  font-size: 12px;
+}
+
+.closeBtn {
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 1;
+}
+
+.line {
+  height: 1px;
+  background: var(--g2-color-border, #f0f0f0);
+  margin-bottom: 12px;
+}
+
+.configContent {
+  display: flex;
+  gap: 12px;
+  min-height: 0;
+  flex: 1;
+}
+
+.productTypeList {
+  width: 140px;
+  overflow: auto;
+  border-right: 1px solid var(--g2-color-border, #f0f0f0);
+  padding-right: 8px;
+}
+
+.listItem {
+  padding: 8px 10px;
+  cursor: pointer;
+  border-radius: 4px;
+  margin-bottom: 4px;
+  color: color-mix(in srgb, var(--g2-color-text, rgba(0, 0, 0, 0.85)) 76%, transparent);
+}
+
+.listItemActive {
+  background: var(--cube-theme-var--primary-1, #e6f4ff);
+  color: var(--g2-color-primary, #1677ff);
+  font-weight: 600;
+}
+
+.attrConfig {
+  flex: 1;
+  overflow: auto;
+  padding-left: 8px;
+}
+
+.checkboxItem {
+  margin-bottom: 8px;
+}
+
+.actions {
+  margin-top: 12px;
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+}
+
+.previewHint {
+  color: color-mix(in srgb, var(--g2-color-text, rgba(0, 0, 0, 0.85)) 55%, transparent);
+  margin-bottom: 12px;
+}

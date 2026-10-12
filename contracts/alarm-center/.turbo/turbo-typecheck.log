@@ -1,0 +1,23 @@
+$ tsc -p tsconfig.json --noEmit
+src/client-facade.ts(2,24): error TS7006: Parameter 'query' implicitly has an 'any' type.
+src/client-facade.ts(3,24): error TS7006: Parameter 'payload' implicitly has an 'any' type.
+src/client-facade.ts(4,25): error TS7006: Parameter 'id' implicitly has an 'any' type.
+src/client-facade.ts(4,29): error TS7006: Parameter 'payload' implicitly has an 'any' type.
+src/client-facade.ts(5,23): error TS7006: Parameter 'id' implicitly has an 'any' type.
+src/client-facade.ts(5,27): error TS7006: Parameter 'payload' implicitly has an 'any' type.
+src/client-facade.ts(6,24): error TS7006: Parameter 'id' implicitly has an 'any' type.
+src/client-facade.ts(6,28): error TS7006: Parameter 'payload' implicitly has an 'any' type.
+src/client-facade.ts(7,23): error TS7006: Parameter 'id' implicitly has an 'any' type.
+src/client-facade.ts(7,27): error TS7006: Parameter 'payload' implicitly has an 'any' type.
+src/client-facade.ts(8,24): error TS7006: Parameter 'id' implicitly has an 'any' type.
+src/client-facade.ts(9,22): error TS7006: Parameter 'payload' implicitly has an 'any' type.
+src/client-facade.ts(10,21): error TS7006: Parameter 'businessKey' implicitly has an 'any' type.
+src/client-facade.ts(11,26): error TS7006: Parameter 'id' implicitly has an 'any' type.
+src/client-facade.ts(12,29): error TS7006: Parameter 'id' implicitly has an 'any' type.
+src/client-facade.ts(13,23): error TS7006: Parameter 'payload' implicitly has an 'any' type.
+src/client-facade.ts(14,24): error TS7006: Parameter 'id' implicitly has an 'any' type.
+src/client-facade.ts(16,28): error TS7006: Parameter 'eventId' implicitly has an 'any' type.
+src/client-facade.ts(17,35): error TS7006: Parameter 'eventId' implicitly has an 'any' type.
+src/client-facade.ts(18,25): error TS7006: Parameter 'payload' implicitly has an 'any' type.
+src/client-facade.ts(19,31): error TS7006: Parameter 'eventId' implicitly has an 'any' type.
+src/client-facade.ts(20,27): error TS7006: Parameter 'query' implicitly has an 'any' type.

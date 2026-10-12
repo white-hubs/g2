@@ -1,0 +1,37 @@
+{
+  "name": "@g2-domain/small-engineering",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    "./domain": "./src/domain.ts"
+  },
+  "scripts": {
+    "dev": "bun ../../../tooling/dev-link/cli.ts",
+    "dev:serve": "bun --bun vite --port 5125 --strictPort",
+    "build": "bun --bun vite build",
+    "preview": "bun --bun vite preview --port 5125 --strictPort",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "bun test"
+  },
+  "dependencies": {
+    "@g2-client/daily-inspection": "workspace:*",
+    "@g2-client/small-engineering": "workspace:*",
+    "@g2-client/stream-engine": "workspace:*",
+    "@g2-composition/contract": "workspace:*",
+    "@g2-contract/daily-inspection": "workspace:*",
+    "@g2-contract/file": "workspace:*",
+    "@g2-contract/message": "workspace:*",
+    "@g2-contract/ouaa": "workspace:*",
+    "exceljs": "4.4.0",
+    "vue": "catalog:vue",
+    "vue-router": "catalog:vue"
+  },
+  "devDependencies": {
+    "@g2-platform/pc-ui": "workspace:*",
+    "@g2-tooling/mf-vite": "workspace:*",
+    "@vitejs/plugin-vue-jsx": "catalog:vite",
+    "typescript": "catalog:typescript",
+    "vite": "catalog:vite"
+  }
+}

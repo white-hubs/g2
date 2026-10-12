@@ -1,0 +1,5 @@
+# Address keys only — values come from same-named env vars (ADR-0055).
+# Non-empty values in this file are rejected by `release generate`.
+webReleaseBase:
+backendApi:
+staticResourceBase:

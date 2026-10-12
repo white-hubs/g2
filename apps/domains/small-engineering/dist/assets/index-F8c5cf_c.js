@@ -1,0 +1,1 @@
+import"./virtual_mf-exposes___mfe_internal__smallEngineering__remoteEntry_js-BGKDUudU.js";import"./virtual_mf-REMOTE_ENTRY_ID___mfe_internal__smallEngineering__remoteEntry_js-DyMvcg8Q.js";var e=document.querySelector(`#app`);e&&(e.textContent=`@g2-domain/small-engineering`);

@@ -1,0 +1,8 @@
+/* 旧页计划状态色：启用为正常色，其余为异常色。 */
+.normal {
+  color: #00ba8b;
+}
+
+.abnormal {
+  color: #ff4d4f;
+}

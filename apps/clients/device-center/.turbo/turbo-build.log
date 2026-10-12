@@ -1,0 +1,23 @@
+$ bun --bun vite build
+vite v8.1.5 building client environment for production...
+[2Ktransforming...✓ 11 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/mf-manifest.json                                                                                   0.62 kB │ gzip: 0.27 kB
+dist/index.html                                                                                         0.76 kB │ gzip: 0.48 kB
+dist/assets/mf-entry-bootstrap-0-1f35ab34.js                                                            1.35 kB
+dist/mf-stats.json                                                                                      2.11 kB │ gzip: 0.64 kB
+dist/.vite/manifest.json                                                                                4.14 kB │ gzip: 0.58 kB
+dist/assets/_virtual_mf-localSharedImportMap___mfe_internal__deviceCenterClient-CcdcYaa2.js             0.11 kB │ gzip: 0.11 kB
+dist/assets/virtualExposes-DGz-q7n6.js                                                                  0.12 kB │ gzip: 0.12 kB
+dist/remoteEntry.js                                                                                     0.14 kB │ gzip: 0.15 kB
+dist/assets/virtual_mf-exposes-ssr___mfe_internal__deviceCenterClient__remoteEntry_js-GDb5GHLv.js       0.25 kB │ gzip: 0.22 kB
+dist/assets/index-DrPBa3EA.js                                                                           0.27 kB │ gzip: 0.19 kB
+dist/assets/virtual_mf-exposes___mfe_internal__deviceCenterClient__remoteEntry_js-D7RsDXOf.js           0.94 kB │ gzip: 0.58 kB
+dist/remoteEntry.ssr.js                                                                                 1.01 kB │ gzip: 0.58 kB
+dist/assets/vite-preload-helper-7P2xnrDv.js                                                             1.41 kB │ gzip: 0.75 kB
+dist/assets/hostInit-By7uGYLs.js                                                                        2.30 kB │ gzip: 1.09 kB
+dist/assets/client-W-EShsIC.js                                                                          4.56 kB │ gzip: 1.35 kB
+dist/assets/virtual_mf-REMOTE_ENTRY_ID___mfe_internal__deviceCenterClient__remoteEntry_js-CL6TZYUB.js  14.10 kB │ gzip: 4.73 kB
+
+✓ built in 1.11s

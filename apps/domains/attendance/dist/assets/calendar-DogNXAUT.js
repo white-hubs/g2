@@ -1,0 +1,1 @@
+import{I as e}from"./domain-context-BmWJk_n_.js";function t(e){return[`周日`,`周一`,`周二`,`周三`,`周四`,`周五`,`周六`][e]}var n=(n,r)=>{let i=[],a=e(r).diff(n,`day`);for(let r=0;r<=a;r++){let a=e(n).add(r,`day`).format(`YYYY-MM-DD`),o=e(a).day();i.push({date:a,weekday:o,weekdayChinese:t(o)})}return i};export{n,t};

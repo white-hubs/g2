@@ -1,0 +1,285 @@
+.page {
+  min-height: 100%;
+  color: var(--g2-color-text, rgba(0, 0, 0, 0.85));
+  background: var(--g2-color-page-bg, #f0f2f5);
+}
+
+.grid {
+  display: flex;
+  min-height: 100%;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  gap: 16px 1%;
+  padding: 16px;
+}
+
+.statCard,
+.smallCard,
+.wideCard {
+  border-radius: 6px;
+  background: var(--g2-color-surface-bg, #fff);
+}
+
+.statCard {
+  display: flex;
+  height: 121px;
+  align-items: center;
+  justify-content: center;
+  padding: 16px 0;
+}
+
+.patrolCard,
+.smallCard {
+  width: 33%;
+}
+
+.alarmCard,
+.wideCard {
+  width: 66%;
+}
+
+.areaCard {
+  width: 49%;
+}
+
+.deviceCard {
+  width: 50%;
+}
+
+.icon {
+  display: flex;
+  width: 60px;
+  height: 60px;
+  flex: 0 0 60px;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px;
+  border-radius: 12px;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.icon :global(svg) {
+  display: block;
+}
+
+.orange {
+  color: #fba33f;
+  background: #fff1e1;
+}
+
+.red {
+  color: #f53f3f;
+  background: #ffeeee;
+}
+
+.body span {
+  display: block;
+  color: var(--g2-color-text-secondary, #536177);
+  font-size: 14px;
+}
+
+.body strong {
+  display: block;
+  margin-top: 4px;
+  color: var(--g2-color-text, #1d2b42);
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.inlineStat {
+  min-width: 64px;
+  margin-left: 18px;
+  text-align: center;
+}
+
+.inlineStat span {
+  display: inline-flex;
+  align-items: center;
+  color: #fba33f;
+  font-size: 14px;
+}
+
+.inlineStat strong {
+  display: block;
+  margin-top: 4px;
+  color: var(--g2-color-text, #1d2b42);
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.ratio {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  margin-top: 2px;
+  color: var(--g2-color-text, #333);
+  font-size: 12px;
+}
+
+.ratioLabel {
+  color: var(--g2-color-text-secondary, #8c8c8c);
+}
+
+.ratioUp {
+  color: #3f8600;
+}
+
+.ratioDown {
+  color: #f53f3f;
+}
+
+.alarmCard {
+  justify-content: flex-start;
+}
+
+.alarmLeft {
+  display: flex;
+  height: 100%;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+}
+
+.statusList {
+  display: flex;
+  height: 100%;
+  flex: 2;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.statusItem {
+  width: 25%;
+  text-align: center;
+}
+
+.statusItem span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--g2-color-text-secondary, #536177);
+  font-size: 14px;
+}
+
+.statusDot {
+  position: relative;
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  margin-right: 6px;
+  border-radius: 50%;
+}
+
+.statusDot::before,
+.statusDot::after,
+.statusIcon::before,
+.statusIcon::after {
+  position: absolute;
+  display: block;
+  border: 2px solid currentColor;
+  border-radius: 50%;
+  content: "";
+}
+
+.statusDot::before,
+.statusIcon::before {
+  inset: 1px;
+}
+
+.statusDot::after,
+.statusIcon::after {
+  top: 6px;
+  left: 6px;
+  width: 6px;
+  height: 6px;
+  border: 0;
+  background: currentColor;
+}
+
+.statusIcon {
+  position: relative;
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  margin-right: 6px;
+  color: #00ba8b;
+}
+
+.inlineStat .statusIcon {
+  color: #00ba8b;
+}
+
+.inlineStat .deviceStatusOffline .statusIcon {
+  color: #fba33f;
+}
+
+.deviceStatusOnline,
+.deviceStatusOffline {
+  color: #fba33f;
+}
+
+.statusItem strong {
+  display: block;
+  margin-top: 8px;
+  color: var(--g2-color-text, #1d2b42);
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.smallCard,
+.wideCard {
+  display: flex;
+  min-height: 350px;
+  flex-direction: column;
+}
+
+.rankCell {
+  display: inline-flex;
+  width: 25px;
+  height: 25px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  color: #fff;
+  background: #dcdcdc;
+}
+
+.rank1 {
+  background: #ff4070;
+}
+.rank2 {
+  background: #fba33f;
+}
+.rank3 {
+  background: #3662ec;
+}
+
+.links {
+  display: flex;
+  gap: 8px;
+  padding: 0 16px 16px;
+}
+
+@media (max-width: 960px) {
+  .patrolCard,
+  .alarmCard,
+  .smallCard,
+  .wideCard,
+  .areaCard,
+  .deviceCard {
+    width: 100%;
+  }
+
+  .alarmCard {
+    height: auto;
+    flex-direction: column;
+    gap: 16px;
+    padding: 16px;
+  }
+
+  .alarmLeft,
+  .statusList {
+    width: 100%;
+  }
+}

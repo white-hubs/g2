@@ -1,0 +1,14 @@
+$ bun test
+bun test v1.3.14 (0d9b296a)
+
+src/domain-context.test.ts:
+(pass) factory-management domain context > reads the current tenant from the live G2 auth headers [0.91ms]
+
+src/domain.test.ts:
+(pass) @g2-domain/factory-management > keeps the supplied park menu hierarchy and order [2.40ms]
+(pass) @g2-domain/factory-management > keeps all record forms hidden while preserving their owning menu [0.38ms]
+
+ 3 pass
+ 0 fail
+ 7 expect() calls
+Ran 3 tests across 2 files. [258.00ms]

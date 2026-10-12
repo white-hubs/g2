@@ -1,0 +1,14 @@
+.editContent {
+  padding: 12px 0;
+}
+
+.title {
+  width: fit-content;
+  height: 30px;
+  margin-bottom: 12px;
+  padding: 0 6px;
+  border-bottom: 2px solid var(--g2-color-primary, var(--cube-theme-var--primary-color, #1890ff));
+  color: var(--g2-color-primary, var(--cube-theme-var--primary-color, #1890ff));
+  font-size: 14px;
+  text-align: center;
+}

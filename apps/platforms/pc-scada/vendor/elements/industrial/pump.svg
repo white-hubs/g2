@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:scada="http://cube-scada.io/ns/v1"
+     viewBox="0 0 100 100">
+  <metadata>
+    <scada:element>
+      <scada:meta type="pump" label="水泵" category="流体控制" version="1.0.0"/>
+      <scada:props>
+        <scada:prop name="running" type="boolean" label="运行中" default="false" domain="observe" semantic="status.running" required="false" bindable="true" controllable="false"/>
+        <scada:prop name="label"   type="string"  label="标签" default="泵" domain="observe" semantic="display.label" required="false" bindable="true" controllable="false"/>
+        <scada:prop name="fill"    type="color"   label="填充色" default="#1890ff" domain="observe" semantic="style.fill" required="false" bindable="true" controllable="false"/>
+        <scada:prop name="commandStart" type="boolean" label="启动命令" default="false" domain="control" semantic="command.start" required="false" bindable="false" controllable="true"/>
+        <scada:prop name="commandStop"  type="boolean" label="停止命令" default="false" domain="control" semantic="command.stop" required="false" bindable="false" controllable="true"/>
+        <scada:prop name="confirmRequired" type="boolean" label="控制需确认" default="true" domain="control" semantic="command.confirmRequired" required="false" bindable="false" controllable="true"/>
+      </scada:props>
+      <scada:mappings>
+        <scada:map prop="running" selector="#pump-body" attr="fill"
+          transform="value ? '#52c41a' : '#1890ff'"/>
+        <scada:map prop="label"   selector="#label-text" attr="textContent"/>
+      </scada:mappings>
+      <scada:animations>
+        <scada:animation
+          id="rotate"
+          triggerProp="running"
+          triggerCondition="value === true"
+          target="#impeller"
+          keyframes='[{"transform":"rotate(0deg)"},{"transform":"rotate(360deg)"}]'
+          duration="1000"
+          iterations="Infinity"
+          easing="linear"/>
+      </scada:animations>
+    </scada:element>
+  </metadata>
+  <circle id="pump-body" cx="50" cy="45" r="30" fill="#1890ff" stroke="#333" stroke-width="2"/>
+  <g id="impeller" style="transform-origin:50px 45px">
+    <line x1="50" y1="20" x2="50" y2="70" stroke="#fff" stroke-width="2"/>
+    <line x1="25" y1="45" x2="75" y2="45" stroke="#fff" stroke-width="2"/>
+    <line x1="32" y1="27" x2="68" y2="63" stroke="#fff" stroke-width="2"/>
+    <line x1="68" y1="27" x2="32" y2="63" stroke="#fff" stroke-width="2"/>
+  </g>
+  <rect x="15" y="72" width="10" height="12" fill="#666" rx="1"/>
+  <rect x="75" y="72" width="10" height="12" fill="#666" rx="1"/>
+  <text id="label-text" x="50" y="96" text-anchor="middle" font-size="10" fill="#333">泵</text>
+</svg>

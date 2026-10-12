@@ -1,0 +1,1 @@
+import{n as e,t}from"./assets/virtual_mf-REMOTE_ENTRY_ID___mfe_internal__intruderAlarm__remoteEntry_js-D9p__Q5q.js";export{t as get,e as init};

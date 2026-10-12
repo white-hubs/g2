@@ -1,0 +1,54 @@
+.section {
+  margin: 16px 0 28px;
+}
+
+.sectionTitle {
+  padding: 0 0 12px;
+  margin: 0 0 18px;
+  border-bottom: 1px solid #e8edf3;
+  color: #1f2937;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.fieldGrid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 4px 20px;
+}
+
+.fieldGrid :global(.ant-form-item) {
+  margin-bottom: 16px;
+}
+
+.detailField {
+  display: flex;
+  min-height: 40px;
+  align-items: start;
+  gap: 8px;
+  padding: 8px 0;
+  color: #6b7280;
+}
+
+.detailField span {
+  min-width: 112px;
+  text-align: right;
+}
+
+.detailField strong {
+  color: #1f2937;
+  font-weight: 400;
+  overflow-wrap: anywhere;
+}
+
+.footer {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+}
+
+@media (max-width: 1280px) {
+  .fieldGrid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}

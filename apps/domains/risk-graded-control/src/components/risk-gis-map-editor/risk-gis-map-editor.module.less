@@ -1,0 +1,82 @@
+.wrap {
+  width: 100%;
+}
+
+.map {
+  width: 100%;
+  border: 1px solid #f0f0f0;
+  border-radius: 4px;
+}
+
+.hint {
+  margin-top: 8px;
+  color: #666;
+  font-size: 12px;
+}
+
+.unitPopup {
+  min-width: 220px;
+  font-size: 12px;
+  line-height: 1.6;
+}
+
+.unitPopupTitle {
+  margin-bottom: 8px;
+  color: #262626;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.unitPopupRow {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 4px;
+}
+
+.unitPopupLabel {
+  flex-shrink: 0;
+  color: #8c8c8c;
+}
+
+.unitPopupValue {
+  color: #262626;
+  text-align: right;
+}
+
+.unitPopupActions {
+  display: flex;
+  gap: 8px;
+  justify-content: flex-end;
+  margin-top: 10px;
+}
+
+.unitPopupBtn {
+  padding: 2px 10px;
+  color: var(--cube-theme-var--primary-color, #1677ff);
+  font-size: 12px;
+  background: #fff;
+  border: 1px solid var(--cube-theme-var--primary-color, #1677ff);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.unitPopupLink {
+  padding: 2px 4px;
+  color: var(--cube-theme-var--primary-color, #1677ff);
+  font-size: 12px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+:global(.risk-gis-unit-popup) {
+  .leaflet-popup-content-wrapper {
+    border-radius: 8px;
+  }
+
+  .leaflet-popup-content {
+    margin: 12px 14px;
+  }
+}

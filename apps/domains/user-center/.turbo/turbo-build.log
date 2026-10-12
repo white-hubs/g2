@@ -1,0 +1,33 @@
+$ bun --bun vite build
+vite v8.1.5 building client environment for production...
+[2Ktransforming...✓ 104 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                                                                                               0.84 kB │ gzip:  0.38 kB
+dist/mf-manifest.json                                                                                         1.24 kB │ gzip:  0.46 kB
+dist/assets/mf-entry-bootstrap-0-62288801.js                                                                  1.35 kB
+dist/mf-stats.json                                                                                            4.17 kB │ gzip:  0.98 kB
+dist/.vite/manifest.json                                                                                      7.19 kB │ gzip:  0.94 kB
+dist/assets/user-list-OXQ8N9Hm.js                                                                             0.06 kB │ gzip:  0.08 kB
+dist/assets/group-list-DNsrnyfy.js                                                                            0.06 kB │ gzip:  0.08 kB
+dist/assets/reader-list-C5s-SuMF.js                                                                           0.06 kB │ gzip:  0.08 kB
+dist/assets/virtualExposes-WK-1e4c_.js                                                                        0.11 kB │ gzip:  0.12 kB
+dist/assets/domain-context-DHdqcZfn.js                                                                        0.12 kB │ gzip:  0.13 kB
+dist/remoteEntry.js                                                                                           0.14 kB │ gzip:  0.14 kB
+dist/assets/rolldown-runtime-DK3Fl9T5.js                                                                      0.15 kB │ gzip:  0.15 kB
+dist/assets/virtual_mf-exposes-ssr___mfe_internal__userCenter__remoteEntry_js-geA0UWsU.js                     0.25 kB │ gzip:  0.22 kB
+dist/assets/index-DxkfXqJn.js                                                                                 0.25 kB │ gzip:  0.19 kB
+dist/assets/user-role-DFfLvLV9.js                                                                             0.92 kB │ gzip:  0.61 kB
+dist/assets/virtual_mf-exposes___mfe_internal__userCenter__remoteEntry_js-B8Qd7T8t.js                         0.94 kB │ gzip:  0.58 kB
+dist/assets/pc-ui-runtime-DS_6gHiT.js                                                                         0.95 kB │ gzip:  0.56 kB
+dist/remoteEntry.ssr.js                                                                                       0.99 kB │ gzip:  0.58 kB
+dist/assets/_virtual_mf-localSharedImportMap___mfe_internal__userCenter-tUhW7h20.js                           1.20 kB │ gzip:  0.52 kB
+dist/assets/vite-preload-helper-7P2xnrDv.js                                                                   1.41 kB │ gzip:  0.75 kB
+dist/assets/domain-DYpGuhn4.js                                                                                1.48 kB │ gzip:  0.60 kB
+dist/assets/hostInit-B_2ZHS9f.js                                                                              2.32 kB │ gzip:  1.10 kB
+dist/assets/list-pages-c9al4sHS.js                                                                            9.24 kB │ gzip:  4.43 kB
+dist/assets/_virtual_mf___mfe_internal__userCenter__loadShare__vue_mf_2_router__loadShare__.js-CmyPzcX5.js   30.52 kB │ gzip: 11.33 kB
+dist/assets/virtual_mf-REMOTE_ENTRY_ID___mfe_internal__userCenter__remoteEntry_js-CIOTBbqm.js                39.02 kB │ gzip: 12.93 kB
+dist/assets/_virtual_mf___mfe_internal__userCenter__loadShare__vue__loadShare__.js-Dn1_brPs.js              121.73 kB │ gzip: 45.37 kB
+
+✓ built in 1.89s

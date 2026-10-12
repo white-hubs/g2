@@ -1,0 +1,56 @@
+.device-list-layout {
+  min-height: 0;
+  height: 100%;
+  flex-wrap: nowrap;
+
+  :deep(.layout-content) {
+    min-height: 0;
+    height: auto;
+    flex: 1;
+  }
+
+  :deep(.content-right),
+  :deep(.content-table) {
+    min-height: 0;
+  }
+
+  :deep(.content-table) {
+    overflow: hidden;
+  }
+}
+
+.device-list-layout .device-list-tabs {
+  display: flex;
+  flex-direction: column;
+  height: calc(100% - 100px);
+  margin: 10px;
+
+  :deep(.ant-tabs-nav) {
+    flex: none;
+  }
+
+  :deep(.ant-tabs-content-holder) {
+    min-height: 0;
+    height: auto;
+    flex: 1;
+    overflow: hidden;
+  }
+
+  :deep(.ant-tabs-content),
+  :deep(.ant-tabs-tabpane) {
+    min-height: 0;
+    height: 100%;
+  }
+}
+
+.device-list-pane {
+  min-height: 0;
+  height: 100%;
+}
+
+.topology-pane {
+  min-height: 0;
+  height: 100%;
+  padding-bottom: 20px;
+  box-sizing: border-box;
+}

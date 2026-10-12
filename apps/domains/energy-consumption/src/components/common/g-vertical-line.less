@@ -1,0 +1,21 @@
+.energy-vertical-line {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 500;
+  color: #000000;
+  font-family:
+    PingFang SC-Medium,
+    PingFang SC,
+    sans-serif;
+
+  &::before {
+    content: "";
+    display: inline-block;
+    width: 3px;
+    height: 18px;
+    margin-right: 8px;
+    vertical-align: middle;
+    background-color: var(--cube-theme-var--primary-color, #1890ff);
+  }
+}

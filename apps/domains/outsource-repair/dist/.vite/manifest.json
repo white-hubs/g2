@@ -1,0 +1,265 @@
+{
+  "__virtual_mf___mfe_internal__outsourceRepair__loadShare__vue__loadShare__.js-BfRGbiax.js": {
+    "file": "assets/_virtual_mf___mfe_internal__outsourceRepair__loadShare__vue__loadShare__.js-BfRGbiax.js",
+    "name": "_virtual_mf___mfe_internal__outsourceRepair__loadShare__vue__loadShare__.js",
+    "imports": [
+      "_rolldown-runtime-DK3Fl9T5.js"
+    ]
+  },
+  "__virtual_mf___mfe_internal__outsourceRepair__loadShare__vue_mf_2_router__loadShare__.js-DhK7znBI.js": {
+    "file": "assets/_virtual_mf___mfe_internal__outsourceRepair__loadShare__vue_mf_2_router__loadShare__.js-DhK7znBI.js",
+    "name": "_virtual_mf___mfe_internal__outsourceRepair__loadShare__vue_mf_2_router__loadShare__.js",
+    "imports": [
+      "_rolldown-runtime-DK3Fl9T5.js",
+      "__virtual_mf___mfe_internal__outsourceRepair__loadShare__vue__loadShare__.js-BfRGbiax.js"
+    ]
+  },
+  "_domain-context-CuqqrHa9.js": {
+    "file": "assets/domain-context-CuqqrHa9.js",
+    "name": "domain-context"
+  },
+  "_form-value-kCJ2tMsy.js": {
+    "file": "assets/form-value-kCJ2tMsy.js",
+    "name": "form-value"
+  },
+  "_pc-ui-proxy-DUHzgAXw.js": {
+    "file": "assets/pc-ui-proxy-DUHzgAXw.js",
+    "name": "pc-ui-proxy"
+  },
+  "_product-category-DGdL5CB8.js": {
+    "file": "assets/product-category-DGdL5CB8.js",
+    "name": "product-category",
+    "imports": [
+      "_domain-context-CuqqrHa9.js"
+    ]
+  },
+  "_response-nh8Z9CX9.js": {
+    "file": "assets/response-nh8Z9CX9.js",
+    "name": "response"
+  },
+  "_rolldown-runtime-DK3Fl9T5.js": {
+    "file": "assets/rolldown-runtime-DK3Fl9T5.js",
+    "name": "rolldown-runtime"
+  },
+  "_virtual_mf-REMOTE_ENTRY_ID___mfe_internal__outsourceRepair__remoteEntry_js-DSx1fK8y.js": {
+    "file": "assets/virtual_mf-REMOTE_ENTRY_ID___mfe_internal__outsourceRepair__remoteEntry_js-DSx1fK8y.js",
+    "name": "virtual_mf-REMOTE_ENTRY_ID___mfe_internal__outsourceRepair__remoteEntry_js",
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "virtual:mf-localSharedImportMap:__mfe_internal__outsourceRepair",
+      "_virtual_mf-exposes___mfe_internal__outsourceRepair__remoteEntry_js-DN3uMZ4L.js"
+    ]
+  },
+  "_virtual_mf-exposes___mfe_internal__outsourceRepair__remoteEntry_js-DN3uMZ4L.js": {
+    "file": "assets/virtual_mf-exposes___mfe_internal__outsourceRepair__remoteEntry_js-DN3uMZ4L.js",
+    "name": "virtual_mf-exposes___mfe_internal__outsourceRepair__remoteEntry_js",
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "src/domain.ts"
+    ]
+  },
+  "_vite-preload-helper-7P2xnrDv.js": {
+    "file": "assets/vite-preload-helper-7P2xnrDv.js",
+    "name": "vite-preload-helper"
+  },
+  "index.html": {
+    "file": "assets/index-CuI0EUf3.js",
+    "name": "index",
+    "src": "index.html",
+    "isEntry": true,
+    "imports": [
+      "_virtual_mf-exposes___mfe_internal__outsourceRepair__remoteEntry_js-DN3uMZ4L.js",
+      "_virtual_mf-REMOTE_ENTRY_ID___mfe_internal__outsourceRepair__remoteEntry_js-DSx1fK8y.js"
+    ]
+  },
+  "src/domain.ts": {
+    "file": "assets/domain-97nKrmM8.js",
+    "name": "domain",
+    "src": "src/domain.ts",
+    "isEntry": true,
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js",
+      "__virtual_mf___mfe_internal__outsourceRepair__loadShare__vue__loadShare__.js-BfRGbiax.js",
+      "__virtual_mf___mfe_internal__outsourceRepair__loadShare__vue_mf_2_router__loadShare__.js-DhK7znBI.js",
+      "_domain-context-CuqqrHa9.js"
+    ],
+    "dynamicImports": [
+      "src/views/flow-list.tsx",
+      "src/views/mode.tsx",
+      "src/views/company.tsx",
+      "src/views/device.tsx",
+      "src/views/traffic.tsx",
+      "src/views/message-notice.tsx"
+    ]
+  },
+  "src/views/company.tsx": {
+    "file": "assets/company-B00wziB9.js",
+    "name": "company",
+    "src": "src/views/company.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__outsourceRepair__loadShare__vue__loadShare__.js-BfRGbiax.js",
+      "_pc-ui-proxy-DUHzgAXw.js",
+      "_domain-context-CuqqrHa9.js",
+      "_form-value-kCJ2tMsy.js",
+      "_product-category-DGdL5CB8.js"
+    ]
+  },
+  "src/views/device.tsx": {
+    "file": "assets/device-BpKIjY7c.js",
+    "name": "device",
+    "src": "src/views/device.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__outsourceRepair__loadShare__vue__loadShare__.js-BfRGbiax.js",
+      "_pc-ui-proxy-DUHzgAXw.js",
+      "_domain-context-CuqqrHa9.js",
+      "_form-value-kCJ2tMsy.js",
+      "_product-category-DGdL5CB8.js",
+      "_response-nh8Z9CX9.js"
+    ]
+  },
+  "src/views/flow-list.tsx": {
+    "file": "assets/flow-list-Bkg-fgEM.js",
+    "name": "flow-list",
+    "src": "src/views/flow-list.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__outsourceRepair__loadShare__vue__loadShare__.js-BfRGbiax.js",
+      "__virtual_mf___mfe_internal__outsourceRepair__loadShare__vue_mf_2_router__loadShare__.js-DhK7znBI.js",
+      "_pc-ui-proxy-DUHzgAXw.js",
+      "_domain-context-CuqqrHa9.js"
+    ],
+    "css": [
+      "assets/flow-list-BiVO5fD7.css"
+    ]
+  },
+  "src/views/message-notice.tsx": {
+    "file": "assets/message-notice-BGvr89ut.js",
+    "name": "message-notice",
+    "src": "src/views/message-notice.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__outsourceRepair__loadShare__vue__loadShare__.js-BfRGbiax.js",
+      "_pc-ui-proxy-DUHzgAXw.js",
+      "_domain-context-CuqqrHa9.js",
+      "_form-value-kCJ2tMsy.js"
+    ],
+    "css": [
+      "assets/message-notice-Davs77jt.css"
+    ]
+  },
+  "src/views/mode.tsx": {
+    "file": "assets/mode-Co9jegBu.js",
+    "name": "mode",
+    "src": "src/views/mode.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__outsourceRepair__loadShare__vue__loadShare__.js-BfRGbiax.js",
+      "_pc-ui-proxy-DUHzgAXw.js",
+      "_domain-context-CuqqrHa9.js"
+    ]
+  },
+  "src/views/traffic.tsx": {
+    "file": "assets/traffic-CxxZJ4tF.js",
+    "name": "traffic",
+    "src": "src/views/traffic.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__outsourceRepair__loadShare__vue__loadShare__.js-BfRGbiax.js",
+      "_pc-ui-proxy-DUHzgAXw.js",
+      "_domain-context-CuqqrHa9.js",
+      "_form-value-kCJ2tMsy.js",
+      "_response-nh8Z9CX9.js"
+    ],
+    "css": [
+      "assets/traffic-C5lakqpr.css"
+    ]
+  },
+  "virtual:mf-REMOTE_ENTRY_ID:__mfe_internal__outsourceRepair__remoteEntry_js": {
+    "file": "remoteEntry.js",
+    "name": "remoteEntry",
+    "src": "virtual:mf-REMOTE_ENTRY_ID:__mfe_internal__outsourceRepair__remoteEntry_js",
+    "imports": [
+      "_virtual_mf-REMOTE_ENTRY_ID___mfe_internal__outsourceRepair__remoteEntry_js-DSx1fK8y.js"
+    ]
+  },
+  "virtual:mf-REMOTE_ENTRY_SSR_ID:__mfe_internal__outsourceRepair__remoteEntry_js": {
+    "file": "remoteEntry.ssr.js",
+    "name": "ssrRemoteEntry",
+    "src": "virtual:mf-REMOTE_ENTRY_SSR_ID:__mfe_internal__outsourceRepair__remoteEntry_js",
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "virtual:mf-exposes-ssr:__mfe_internal__outsourceRepair__remoteEntry_js"
+    ]
+  },
+  "virtual:mf-exposes-ssr:__mfe_internal__outsourceRepair__remoteEntry_js": {
+    "file": "assets/virtual_mf-exposes-ssr___mfe_internal__outsourceRepair__remoteEntry_js-CDuBwj2n.js",
+    "name": "virtual_mf-exposes-ssr___mfe_internal__outsourceRepair__remoteEntry_js",
+    "src": "virtual:mf-exposes-ssr:__mfe_internal__outsourceRepair__remoteEntry_js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "src/domain.ts"
+    ]
+  },
+  "virtual:mf-exposes:__mfe_internal__outsourceRepair__remoteEntry_js": {
+    "file": "assets/virtualExposes-C4dG77Kb.js",
+    "name": "virtualExposes",
+    "src": "virtual:mf-exposes:__mfe_internal__outsourceRepair__remoteEntry_js",
+    "imports": [
+      "_virtual_mf-exposes___mfe_internal__outsourceRepair__remoteEntry_js-DN3uMZ4L.js"
+    ]
+  },
+  "virtual:mf-localSharedImportMap:__mfe_internal__outsourceRepair": {
+    "file": "assets/_virtual_mf-localSharedImportMap___mfe_internal__outsourceRepair-CVvi0F_i.js",
+    "name": "_virtual_mf-localSharedImportMap___mfe_internal__outsourceRepair",
+    "src": "virtual:mf-localSharedImportMap:__mfe_internal__outsourceRepair",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "__virtual_mf___mfe_internal__outsourceRepair__loadShare__vue__loadShare__.js-BfRGbiax.js",
+      "__virtual_mf___mfe_internal__outsourceRepair__loadShare__vue_mf_2_router__loadShare__.js-DhK7znBI.js"
+    ]
+  },
+  "virtual:mf:__mfe_internal__outsourceRepair__H_A_I__hostAutoInit__H_A_I__.js": {
+    "file": "assets/hostInit-CIyz84zF.js",
+    "name": "hostInit",
+    "src": "virtual:mf:__mfe_internal__outsourceRepair__H_A_I__hostAutoInit__H_A_I__.js",
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "_virtual_mf-REMOTE_ENTRY_ID___mfe_internal__outsourceRepair__remoteEntry_js-DSx1fK8y.js",
+      "virtual:mf-localSharedImportMap:__mfe_internal__outsourceRepair"
+    ]
+  },
+  "virtual:mf:__mfe_internal__outsourceRepair__prebuild__vue__prebuild__.js": {
+    "file": "assets/_virtual_mf___mfe_internal__outsourceRepair__prebuild__vue__prebuild__-CTLfJdm9.js",
+    "name": "_virtual_mf___mfe_internal__outsourceRepair__prebuild__vue__prebuild__",
+    "src": "virtual:mf:__mfe_internal__outsourceRepair__prebuild__vue__prebuild__.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__outsourceRepair__loadShare__vue__loadShare__.js-BfRGbiax.js"
+    ]
+  },
+  "virtual:mf:__mfe_internal__outsourceRepair__prebuild__vue_mf_2_router__prebuild__.js": {
+    "file": "assets/_virtual_mf___mfe_internal__outsourceRepair__prebuild__vue_mf_2_router__prebuild__-CTTAJFiY.js",
+    "name": "_virtual_mf___mfe_internal__outsourceRepair__prebuild__vue_mf_2_router__prebuild__",
+    "src": "virtual:mf:__mfe_internal__outsourceRepair__prebuild__vue_mf_2_router__prebuild__.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__outsourceRepair__loadShare__vue_mf_2_router__loadShare__.js-DhK7znBI.js"
+    ]
+  }
+}

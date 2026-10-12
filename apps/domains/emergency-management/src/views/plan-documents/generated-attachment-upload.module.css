@@ -1,0 +1,84 @@
+.generatedAttachmentUpload {
+  width: 100%;
+  padding: 16px 18px;
+  background: #f9fafb;
+  border: 1px solid #e5e7eb;
+}
+
+.attachmentHeader,
+.attachmentActions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.attachmentHeader h3 {
+  margin: 0 0 3px;
+  color: #1f2937;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.attachmentHeader p,
+.attachmentActions span {
+  margin: 0;
+  color: #6b7280;
+  font-size: 12px;
+}
+
+.uploadButton {
+  color: #1e92b8;
+  border-color: #1e92b8;
+}
+
+.attachmentList {
+  display: grid;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+.attachmentItem {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-width: 0;
+  padding: 9px 12px;
+  background: #fff;
+  border: 1px solid #e5e7eb;
+}
+
+.fileIcon {
+  flex: none;
+  color: #1e92b8;
+  font-size: 18px;
+}
+
+.attachmentThumbnail {
+  flex: none;
+  width: 44px;
+  height: 34px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.fileName {
+  overflow: hidden;
+  color: #374151;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.removeButton {
+  flex: none;
+  margin-left: auto;
+  color: #6b7280;
+  font-size: 18px;
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+}
+
+.removeButton:hover {
+  color: #ef4444;
+}

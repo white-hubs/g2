@@ -1,0 +1,1 @@
+import{D as e,T as t}from"./_virtual_mf___mfe_internal__attendance__loadShare__vue__loadShare__.js-Du1-xnCP.js";var n=e({props:{title:{type:String,default:``}},setup:e=>()=>t(`span`,{class:`verticalLine primary-color-before`},[e.title])});export{n as t};

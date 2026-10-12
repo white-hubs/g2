@@ -1,0 +1,3 @@
+
+    export type RemoteKeys = 'REMOTE_ALIAS_IDENTIFIER/info' | 'REMOTE_ALIAS_IDENTIFIER/index' | 'REMOTE_ALIAS_IDENTIFIER/chart' | 'REMOTE_ALIAS_IDENTIFIER/platform';
+    type PackageType<T> = T extends 'REMOTE_ALIAS_IDENTIFIER/platform' ? typeof import('REMOTE_ALIAS_IDENTIFIER/platform') :T extends 'REMOTE_ALIAS_IDENTIFIER/chart' ? typeof import('REMOTE_ALIAS_IDENTIFIER/chart') :T extends 'REMOTE_ALIAS_IDENTIFIER/index' ? typeof import('REMOTE_ALIAS_IDENTIFIER/index') :T extends 'REMOTE_ALIAS_IDENTIFIER/info' ? typeof import('REMOTE_ALIAS_IDENTIFIER/info') :any;

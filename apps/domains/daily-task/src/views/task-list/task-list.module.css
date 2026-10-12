@@ -1,0 +1,17 @@
+.badge {
+  display: inline-block;
+  margin-right: 6px;
+  padding: 0 4px;
+  height: 18px;
+  line-height: 18px;
+  border-radius: 4px;
+  font-size: 12px;
+  color: #fff;
+  vertical-align: middle;
+}
+.badge-main {
+  background-color: var(--cube-theme-var--primary-color, #1677ff);
+}
+.badge-sub {
+  background-color: #52c41a;
+}

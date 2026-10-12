@@ -1,0 +1,67 @@
+.classes-manage-form {
+  .dynamic-form-item:last-child {
+    display: block !important;
+  }
+
+  .clock-in-time-range {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    .item {
+      align-items: center;
+      display: flex;
+      white-space: nowrap;
+      width: 50%;
+
+      .label {
+        margin: 0 10px;
+      }
+    }
+  }
+  .work-time-picker {
+    position: relative;
+    .next-day-tag {
+      position: absolute;
+      right: -60px;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+  }
+
+  .rest-time-range {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    width: 100%;
+    max-width: 360px;
+
+    .cube-time-picker,
+    .ant-picker {
+      width: 100%;
+    }
+
+    .rest-time-range-separator {
+      color: rgba(0, 0, 0, 0.45);
+      flex-shrink: 0;
+    }
+
+    .rest-time-range-start,
+    .rest-time-range-end {
+      flex: 1 1 0;
+      min-width: 0;
+      position: relative;
+    }
+
+    .rest-time-range-end {
+      .next-day-tag {
+        position: absolute;
+        right: -60px;
+        top: 50%;
+        transform: translateY(-50%);
+      }
+    }
+  }
+}
+.block {
+  display: block !important;
+}

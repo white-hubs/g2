@@ -1,0 +1,23 @@
+.pc-chrome-tenant-logo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 0 18px 0 20px;
+    height: 100%;
+    color: var(--g2-color-navigation-text, #fff);
+    flex-shrink: 0;
+    /* 品牌区属于顶栏本身，不能套用“当前导航项”的高亮背景。 */
+    background: transparent;
+  }
+
+.pc-chrome-tenant-logo-img {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+}
+
+.pc-chrome-tenant-logo-name {
+  font-size: 16px;
+  font-weight: 600;
+  white-space: nowrap;
+}

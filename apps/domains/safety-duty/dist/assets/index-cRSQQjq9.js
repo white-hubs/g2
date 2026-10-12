@@ -1,0 +1,1 @@
+import"./virtual_mf-exposes___mfe_internal__safetyDuty__remoteEntry_js-I7uKI5am.js";import"./virtual_mf-REMOTE_ENTRY_ID___mfe_internal__safetyDuty__remoteEntry_js-D1UEv27_.js";document.querySelector(`#app`).textContent=`@g2-domain/safety-duty build shell`;

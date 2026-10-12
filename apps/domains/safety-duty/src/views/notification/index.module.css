@@ -1,0 +1,38 @@
+.content {
+  display: flex;
+  flex: 1;
+  min-height: 0;
+  flex-direction: column;
+}
+.dispatchPanel {
+  border: 1px solid #edf0f5;
+  border-radius: 4px;
+  background: #fff;
+  padding: 18px 20px;
+}
+.dispatchSettings {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 18px;
+}
+.settingRow {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-height: 32px;
+}
+.settingLabel {
+  width: 100px;
+  color: #4b5563;
+  font-size: 14px;
+}
+.actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+.muted {
+  color: #9ca3af;
+  font-size: 12px;
+}

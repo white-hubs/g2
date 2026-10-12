@@ -1,0 +1,1120 @@
+{
+  "__virtual_mf___mfe_internal__attendance__loadShare__vue__loadShare__.js-Du1-xnCP.js": {
+    "file": "assets/_virtual_mf___mfe_internal__attendance__loadShare__vue__loadShare__.js-Du1-xnCP.js",
+    "name": "_virtual_mf___mfe_internal__attendance__loadShare__vue__loadShare__.js",
+    "imports": [
+      "_rolldown-runtime-DK3Fl9T5.js"
+    ]
+  },
+  "__virtual_mf___mfe_internal__attendance__loadShare__vue_mf_2_router__loadShare__.js-DsZaCDik.js": {
+    "file": "assets/_virtual_mf___mfe_internal__attendance__loadShare__vue_mf_2_router__loadShare__.js-DsZaCDik.js",
+    "name": "_virtual_mf___mfe_internal__attendance__loadShare__vue_mf_2_router__loadShare__.js",
+    "imports": [
+      "_rolldown-runtime-DK3Fl9T5.js",
+      "__virtual_mf___mfe_internal__attendance__loadShare__vue__loadShare__.js-Du1-xnCP.js"
+    ]
+  },
+  "_attendance-group-CZQHqFF-.js": {
+    "file": "assets/attendance-group-CZQHqFF-.js",
+    "name": "attendance-group",
+    "imports": [
+      "_client-DtOTO6As.js"
+    ]
+  },
+  "_attendance-group-select-mUjkh1bN.js": {
+    "file": "assets/attendance-group-select-mUjkh1bN.js",
+    "name": "attendance-group-select",
+    "imports": [
+      "__virtual_mf___mfe_internal__attendance__loadShare__vue__loadShare__.js-Du1-xnCP.js",
+      "_domain-context-BmWJk_n_.js",
+      "_attendance-group-CZQHqFF-.js"
+    ]
+  },
+  "_attendance-ledger-DvrT4YGo.js": {
+    "file": "assets/attendance-ledger-DvrT4YGo.js",
+    "name": "attendance-ledger",
+    "imports": [
+      "_client-DtOTO6As.js",
+      "_store-B8q_esUn.js"
+    ]
+  },
+  "_attendance-record-Blrq7Rzk.js": {
+    "file": "assets/attendance-record-Blrq7Rzk.js",
+    "name": "attendance-record",
+    "imports": [
+      "_client-DtOTO6As.js"
+    ]
+  },
+  "_calendar-DogNXAUT.js": {
+    "file": "assets/calendar-DogNXAUT.js",
+    "name": "calendar",
+    "imports": [
+      "_domain-context-BmWJk_n_.js"
+    ]
+  },
+  "_classes-DFJN0rys.js": {
+    "file": "assets/classes-DFJN0rys.js",
+    "name": "classes"
+  },
+  "_classes-manage-Dga2sKHS.js": {
+    "file": "assets/classes-manage-Dga2sKHS.js",
+    "name": "classes-manage",
+    "imports": [
+      "_client-DtOTO6As.js"
+    ]
+  },
+  "_classes-select-modal-BBPyGc_Q.js": {
+    "file": "assets/classes-select-modal-BBPyGc_Q.js",
+    "name": "classes-select-modal",
+    "imports": [
+      "__virtual_mf___mfe_internal__attendance__loadShare__vue__loadShare__.js-Du1-xnCP.js",
+      "_domain-context-BmWJk_n_.js",
+      "_classes-manage-Dga2sKHS.js",
+      "_department-select-BTW34hzt.js"
+    ]
+  },
+  "_classes-type-select-DlSPiCeT.js": {
+    "file": "assets/classes-type-select-DlSPiCeT.js",
+    "name": "classes-type-select",
+    "imports": [
+      "__virtual_mf___mfe_internal__attendance__loadShare__vue__loadShare__.js-Du1-xnCP.js",
+      "_domain-context-BmWJk_n_.js"
+    ]
+  },
+  "_client-DtOTO6As.js": {
+    "file": "assets/client-DtOTO6As.js",
+    "name": "client",
+    "imports": [
+      "_domain-context-BmWJk_n_.js"
+    ]
+  },
+  "_clock-in-rule-setting-machine-select-table-_gsjTCfI.js": {
+    "file": "assets/clock-in-rule-setting-machine-select-table-_gsjTCfI.js",
+    "name": "clock-in-rule-setting-machine-select-table",
+    "imports": [
+      "__virtual_mf___mfe_internal__attendance__loadShare__vue__loadShare__.js-Du1-xnCP.js",
+      "_domain-context-BmWJk_n_.js",
+      "_client-DtOTO6As.js",
+      "_keyword-alias-CndvxdJr.js",
+      "_department-select-BTW34hzt.js",
+      "_selection-BtGv8W2x.js"
+    ]
+  },
+  "_department-select-BTW34hzt.js": {
+    "file": "assets/department-select-BTW34hzt.js",
+    "name": "department-select",
+    "imports": [
+      "__virtual_mf___mfe_internal__attendance__loadShare__vue__loadShare__.js-Du1-xnCP.js",
+      "_domain-context-BmWJk_n_.js"
+    ]
+  },
+  "_domain-context-BmWJk_n_.js": {
+    "file": "assets/domain-context-BmWJk_n_.js",
+    "name": "domain-context",
+    "imports": [
+      "__virtual_mf___mfe_internal__attendance__loadShare__vue__loadShare__.js-Du1-xnCP.js"
+    ]
+  },
+  "_flow-table-hmILqsCk.js": {
+    "file": "assets/flow-table-hmILqsCk.js",
+    "name": "flow-table",
+    "imports": [
+      "__virtual_mf___mfe_internal__attendance__loadShare__vue__loadShare__.js-Du1-xnCP.js",
+      "__virtual_mf___mfe_internal__attendance__loadShare__vue_mf_2_router__loadShare__.js-DsZaCDik.js",
+      "_domain-context-BmWJk_n_.js",
+      "_client-DtOTO6As.js",
+      "_department-select-BTW34hzt.js",
+      "_permission-CLSWD4DQ.js"
+    ]
+  },
+  "_function-dictionary-Bsu_0J3u.js": {
+    "file": "assets/function-dictionary-Bsu_0J3u.js",
+    "name": "function-dictionary"
+  },
+  "_keyword-alias-CndvxdJr.js": {
+    "file": "assets/keyword-alias-CndvxdJr.js",
+    "name": "keyword-alias",
+    "imports": [
+      "__virtual_mf___mfe_internal__attendance__loadShare__vue__loadShare__.js-Du1-xnCP.js",
+      "_domain-context-BmWJk_n_.js"
+    ]
+  },
+  "_logger-CGRfLarE.js": {
+    "file": "assets/logger-CGRfLarE.js",
+    "name": "logger"
+  },
+  "_permission-CLSWD4DQ.js": {
+    "file": "assets/permission-CLSWD4DQ.js",
+    "name": "permission",
+    "imports": [
+      "_domain-context-BmWJk_n_.js"
+    ]
+  },
+  "_rolldown-runtime-DK3Fl9T5.js": {
+    "file": "assets/rolldown-runtime-DK3Fl9T5.js",
+    "name": "rolldown-runtime"
+  },
+  "_scheduling-manage-DxWBQqf1.js": {
+    "file": "assets/scheduling-manage-DxWBQqf1.js",
+    "name": "scheduling-manage",
+    "imports": [
+      "_client-DtOTO6As.js"
+    ]
+  },
+  "_scheduling-rules-limit-BIZziZpK.css": {
+    "file": "assets/scheduling-rules-limit-BIZziZpK.css",
+    "src": "_scheduling-rules-limit-BIZziZpK.css"
+  },
+  "_scheduling-rules-limit-COMnAqts.js": {
+    "file": "assets/scheduling-rules-limit-COMnAqts.js",
+    "name": "scheduling-rules-limit",
+    "imports": [
+      "__virtual_mf___mfe_internal__attendance__loadShare__vue__loadShare__.js-Du1-xnCP.js",
+      "_domain-context-BmWJk_n_.js",
+      "_staff-clock-in-rEm-LHAG.js",
+      "_classes-select-modal-BBPyGc_Q.js",
+      "_classes-type-select-DlSPiCeT.js",
+      "_style.module-BbMFoDoS.js"
+    ],
+    "css": [
+      "assets/scheduling-rules-limit-BIZziZpK.css"
+    ]
+  },
+  "_selection-BtGv8W2x.js": {
+    "file": "assets/selection-BtGv8W2x.js",
+    "name": "selection",
+    "imports": [
+      "_client-DtOTO6As.js"
+    ]
+  },
+  "_staff-business-trip-Dl0ZD9ST.js": {
+    "file": "assets/staff-business-trip-Dl0ZD9ST.js",
+    "name": "staff-business-trip",
+    "imports": [
+      "_client-DtOTO6As.js"
+    ]
+  },
+  "_staff-clock-in-rEm-LHAG.js": {
+    "file": "assets/staff-clock-in-rEm-LHAG.js",
+    "name": "staff-clock-in",
+    "imports": [
+      "_client-DtOTO6As.js"
+    ]
+  },
+  "_staff-leave-DaViOovS.js": {
+    "file": "assets/staff-leave-DaViOovS.js",
+    "name": "staff-leave",
+    "imports": [
+      "_client-DtOTO6As.js"
+    ]
+  },
+  "_staff-off-duty-DTJj12Cs.js": {
+    "file": "assets/staff-off-duty-DTJj12Cs.js",
+    "name": "staff-off-duty",
+    "imports": [
+      "_client-DtOTO6As.js"
+    ]
+  },
+  "_staff-overtime-C4CZ10mt.js": {
+    "file": "assets/staff-overtime-C4CZ10mt.js",
+    "name": "staff-overtime",
+    "imports": [
+      "_client-DtOTO6As.js"
+    ]
+  },
+  "_staff-supplement-xbqZU_4g.js": {
+    "file": "assets/staff-supplement-xbqZU_4g.js",
+    "name": "staff-supplement",
+    "imports": [
+      "_client-DtOTO6As.js"
+    ]
+  },
+  "_store-B8q_esUn.js": {
+    "file": "assets/store-B8q_esUn.js",
+    "name": "store",
+    "imports": [
+      "__virtual_mf___mfe_internal__attendance__loadShare__vue__loadShare__.js-Du1-xnCP.js"
+    ]
+  },
+  "_style-CkG_GwF3.css": {
+    "file": "assets/style-CkG_GwF3.css",
+    "src": "_style-CkG_GwF3.css"
+  },
+  "_style.module-BbMFoDoS.js": {
+    "file": "assets/style.module-BbMFoDoS.js",
+    "name": "style.module",
+    "css": [
+      "assets/style-CkG_GwF3.css"
+    ]
+  },
+  "_use-ctrl-event-DenKnN8U.js": {
+    "file": "assets/use-ctrl-event-DenKnN8U.js",
+    "name": "use-ctrl-event",
+    "imports": [
+      "__virtual_mf___mfe_internal__attendance__loadShare__vue__loadShare__.js-Du1-xnCP.js"
+    ]
+  },
+  "_use-page-name-Cr8ATElD.js": {
+    "file": "assets/use-page-name-Cr8ATElD.js",
+    "name": "use-page-name",
+    "imports": [
+      "__virtual_mf___mfe_internal__attendance__loadShare__vue_mf_2_router__loadShare__.js-DsZaCDik.js"
+    ]
+  },
+  "_user-picker-modal-CPCdmdQb.js": {
+    "file": "assets/user-picker-modal-CPCdmdQb.js",
+    "name": "user-picker-modal",
+    "imports": [
+      "__virtual_mf___mfe_internal__attendance__loadShare__vue__loadShare__.js-Du1-xnCP.js",
+      "_domain-context-BmWJk_n_.js",
+      "_selection-BtGv8W2x.js"
+    ]
+  },
+  "_vacation-type-CLyg1k36.js": {
+    "file": "assets/vacation-type-CLyg1k36.js",
+    "name": "vacation-type"
+  },
+  "_vertical-line-Dmbru2LJ.js": {
+    "file": "assets/vertical-line-Dmbru2LJ.js",
+    "name": "vertical-line",
+    "imports": [
+      "__virtual_mf___mfe_internal__attendance__loadShare__vue__loadShare__.js-Du1-xnCP.js"
+    ]
+  },
+  "_virtual_mf-REMOTE_ENTRY_ID___mfe_internal__attendance__remoteEntry_js-WpJ3h35n.js": {
+    "file": "assets/virtual_mf-REMOTE_ENTRY_ID___mfe_internal__attendance__remoteEntry_js-WpJ3h35n.js",
+    "name": "virtual_mf-REMOTE_ENTRY_ID___mfe_internal__attendance__remoteEntry_js",
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "virtual:mf-localSharedImportMap:__mfe_internal__attendance",
+      "_virtual_mf-exposes___mfe_internal__attendance__remoteEntry_js-bihNYdNH.js"
+    ]
+  },
+  "_virtual_mf-exposes___mfe_internal__attendance__remoteEntry_js-bihNYdNH.js": {
+    "file": "assets/virtual_mf-exposes___mfe_internal__attendance__remoteEntry_js-bihNYdNH.js",
+    "name": "virtual_mf-exposes___mfe_internal__attendance__remoteEntry_js",
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "src/domain.ts"
+    ]
+  },
+  "_vite-preload-helper-7P2xnrDv.js": {
+    "file": "assets/vite-preload-helper-7P2xnrDv.js",
+    "name": "vite-preload-helper"
+  },
+  "index.html": {
+    "file": "assets/index-YZ7vxXBH.js",
+    "name": "index",
+    "src": "index.html",
+    "isEntry": true,
+    "imports": [
+      "_virtual_mf-exposes___mfe_internal__attendance__remoteEntry_js-bihNYdNH.js",
+      "_virtual_mf-REMOTE_ENTRY_ID___mfe_internal__attendance__remoteEntry_js-WpJ3h35n.js"
+    ]
+  },
+  "src/domain.ts": {
+    "file": "assets/domain-iR-XDqdz.js",
+    "name": "domain",
+    "src": "src/domain.ts",
+    "isEntry": true,
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js",
+      "__virtual_mf___mfe_internal__attendance__loadShare__vue__loadShare__.js-Du1-xnCP.js",
+      "__virtual_mf___mfe_internal__attendance__loadShare__vue_mf_2_router__loadShare__.js-DsZaCDik.js",
+      "_domain-context-BmWJk_n_.js"
+    ],
+    "dynamicImports": [
+      "src/views/attendance-record/index.tsx",
+      "src/views/attendance-group/attendance-group.tsx",
+      "src/views/attendance-group/attendance-group-form.tsx",
+      "src/views/attendance-ledger/summary.tsx",
+      "src/views/attendance-ledger/day.tsx",
+      "src/views/attendance-pre-statistics/index.tsx",
+      "src/views/classes-manage/classes-manage.tsx",
+      "src/views/classes-manage/classes-manage-form.tsx",
+      "src/views/handle-record/index.tsx",
+      "src/views/message/index.tsx",
+      "src/views/scheduling-manage/scheduling-rules.tsx",
+      "src/views/scheduling-manage/scheduling-rules-form.tsx",
+      "src/views/scheduling-manage/staff-scheduling.tsx",
+      "src/views/scheduling-manage/staff-duty.tsx",
+      "src/views/staff-business-trip/business-trip-rules.tsx",
+      "src/views/staff-business-trip/business-trip-rules-form.tsx",
+      "src/views/staff-business-trip/approve-business-trip.tsx",
+      "src/views/staff-change/approve-change.tsx",
+      "src/views/staff-change/change-ledger.tsx",
+      "src/views/staff-clock-in/clock-in-rules.tsx",
+      "src/views/staff-clock-in/clock-in-rules-form.tsx",
+      "src/views/staff-clock-in/clock-in-record.tsx",
+      "src/views/staff-clock-in/clock-in-ledger.tsx",
+      "src/views/staff-leave/leave-rules.tsx",
+      "src/views/staff-leave/leave-rules-form.tsx",
+      "src/views/staff-leave/vacation-balance.tsx",
+      "src/views/staff-leave/approve-leave.tsx",
+      "src/views/staff-leave/approve-dispose-leave.tsx",
+      "src/views/staff-leave/vacation-balance-detail.tsx",
+      "src/views/staff-off-duty/approve-off-duty.tsx",
+      "src/views/staff-off-duty/off-duty-rules.tsx",
+      "src/views/staff-off-duty/off-duty-rules-form.tsx",
+      "src/views/staff-overtime/overtime-rules.tsx",
+      "src/views/staff-overtime/approve-overtime.tsx",
+      "src/views/staff-overtime/overtime-rules-form.tsx",
+      "src/views/staff-overtime/overtime-ledger-detail.tsx",
+      "src/views/staff-supplement/supplement-rules.tsx",
+      "src/views/staff-supplement/supplement-rules-form.tsx",
+      "src/views/staff-supplement/approve-supplement.tsx",
+      "src/views/staff-supplement/supplement-ledger-detail.tsx",
+      "src/views/flow-approval-record/index.tsx",
+      "src/views/attendance-ledger/state.tsx",
+      "src/initialize.ts"
+    ],
+    "css": [
+      "assets/domain-CXOCrdSz.css"
+    ]
+  },
+  "src/initialize.ts": {
+    "file": "assets/initialize-Djzdqk-b.js",
+    "name": "initialize",
+    "src": "src/initialize.ts",
+    "isDynamicEntry": true,
+    "imports": [
+      "_domain-context-BmWJk_n_.js",
+      "_client-DtOTO6As.js",
+      "_keyword-alias-CndvxdJr.js",
+      "_function-dictionary-Bsu_0J3u.js"
+    ]
+  },
+  "src/views/attendance-group/attendance-group-form.tsx": {
+    "file": "assets/attendance-group-form-BMlE1Kc7.js",
+    "name": "attendance-group-form",
+    "src": "src/views/attendance-group/attendance-group-form.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__attendance__loadShare__vue__loadShare__.js-Du1-xnCP.js",
+      "__virtual_mf___mfe_internal__attendance__loadShare__vue_mf_2_router__loadShare__.js-DsZaCDik.js",
+      "_domain-context-BmWJk_n_.js",
+      "_function-dictionary-Bsu_0J3u.js",
+      "_attendance-group-CZQHqFF-.js",
+      "_scheduling-manage-DxWBQqf1.js",
+      "_staff-clock-in-rEm-LHAG.js",
+      "_staff-business-trip-Dl0ZD9ST.js",
+      "_classes-select-modal-BBPyGc_Q.js",
+      "_clock-in-rule-setting-machine-select-table-_gsjTCfI.js",
+      "_staff-leave-DaViOovS.js",
+      "_staff-off-duty-DTJj12Cs.js",
+      "_staff-overtime-C4CZ10mt.js",
+      "_scheduling-rules-limit-COMnAqts.js",
+      "_style.module-BbMFoDoS.js",
+      "_staff-supplement-xbqZU_4g.js",
+      "_user-picker-modal-CPCdmdQb.js",
+      "_vertical-line-Dmbru2LJ.js",
+      "_logger-CGRfLarE.js"
+    ]
+  },
+  "src/views/attendance-group/attendance-group.tsx": {
+    "file": "assets/attendance-group-CjqX67e-.js",
+    "name": "attendance-group",
+    "src": "src/views/attendance-group/attendance-group.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__attendance__loadShare__vue__loadShare__.js-Du1-xnCP.js",
+      "__virtual_mf___mfe_internal__attendance__loadShare__vue_mf_2_router__loadShare__.js-DsZaCDik.js",
+      "_domain-context-BmWJk_n_.js",
+      "_attendance-group-CZQHqFF-.js",
+      "_logger-CGRfLarE.js",
+      "_use-page-name-Cr8ATElD.js",
+      "_permission-CLSWD4DQ.js"
+    ]
+  },
+  "src/views/attendance-ledger/day.tsx": {
+    "file": "assets/day-hc11cTVa.js",
+    "name": "day",
+    "src": "src/views/attendance-ledger/day.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__attendance__loadShare__vue__loadShare__.js-Du1-xnCP.js",
+      "_domain-context-BmWJk_n_.js",
+      "_keyword-alias-CndvxdJr.js",
+      "_department-select-BTW34hzt.js",
+      "_style.module-BbMFoDoS.js",
+      "_logger-CGRfLarE.js",
+      "_use-page-name-Cr8ATElD.js",
+      "_permission-CLSWD4DQ.js",
+      "_attendance-ledger-DvrT4YGo.js",
+      "_calendar-DogNXAUT.js",
+      "_classes-DFJN0rys.js"
+    ]
+  },
+  "src/views/attendance-ledger/state.tsx": {
+    "file": "assets/state-BE9RpThR.js",
+    "name": "state",
+    "src": "src/views/attendance-ledger/state.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__attendance__loadShare__vue__loadShare__.js-Du1-xnCP.js",
+      "_domain-context-BmWJk_n_.js",
+      "_keyword-alias-CndvxdJr.js",
+      "_department-select-BTW34hzt.js",
+      "_logger-CGRfLarE.js",
+      "_attendance-ledger-DvrT4YGo.js"
+    ],
+    "css": [
+      "assets/overtime-ledger-detail-BnI0Yrwa.css"
+    ]
+  },
+  "src/views/attendance-ledger/summary.tsx": {
+    "file": "assets/summary-CI5Ls3g4.js",
+    "name": "summary",
+    "src": "src/views/attendance-ledger/summary.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__attendance__loadShare__vue__loadShare__.js-Du1-xnCP.js",
+      "__virtual_mf___mfe_internal__attendance__loadShare__vue_mf_2_router__loadShare__.js-DsZaCDik.js",
+      "_domain-context-BmWJk_n_.js",
+      "_keyword-alias-CndvxdJr.js",
+      "_department-select-BTW34hzt.js",
+      "_logger-CGRfLarE.js",
+      "_use-page-name-Cr8ATElD.js",
+      "_permission-CLSWD4DQ.js",
+      "_attendance-ledger-DvrT4YGo.js"
+    ],
+    "css": [
+      "assets/overtime-ledger-detail-BnI0Yrwa.css"
+    ]
+  },
+  "src/views/attendance-pre-statistics/index.tsx": {
+    "file": "assets/attendance-pre-statistics-C5Z4ZMGk.js",
+    "name": "attendance-pre-statistics",
+    "src": "src/views/attendance-pre-statistics/index.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__attendance__loadShare__vue__loadShare__.js-Du1-xnCP.js",
+      "__virtual_mf___mfe_internal__attendance__loadShare__vue_mf_2_router__loadShare__.js-DsZaCDik.js",
+      "_domain-context-BmWJk_n_.js",
+      "_client-DtOTO6As.js",
+      "_keyword-alias-CndvxdJr.js",
+      "_department-select-BTW34hzt.js",
+      "_logger-CGRfLarE.js",
+      "_use-page-name-Cr8ATElD.js",
+      "_permission-CLSWD4DQ.js",
+      "_store-B8q_esUn.js"
+    ]
+  },
+  "src/views/attendance-record/index.tsx": {
+    "file": "assets/attendance-record-mdqMHGQ9.js",
+    "name": "attendance-record",
+    "src": "src/views/attendance-record/index.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__attendance__loadShare__vue__loadShare__.js-Du1-xnCP.js",
+      "__virtual_mf___mfe_internal__attendance__loadShare__vue_mf_2_router__loadShare__.js-DsZaCDik.js",
+      "_domain-context-BmWJk_n_.js",
+      "_attendance-record-Blrq7Rzk.js"
+    ],
+    "css": [
+      "assets/attendance-record-rqU6T4J0.css"
+    ]
+  },
+  "src/views/classes-manage/classes-manage-form.tsx": {
+    "file": "assets/classes-manage-form-D28-GqHC.js",
+    "name": "classes-manage-form",
+    "src": "src/views/classes-manage/classes-manage-form.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__attendance__loadShare__vue__loadShare__.js-Du1-xnCP.js",
+      "__virtual_mf___mfe_internal__attendance__loadShare__vue_mf_2_router__loadShare__.js-DsZaCDik.js",
+      "_domain-context-BmWJk_n_.js",
+      "_classes-manage-Dga2sKHS.js",
+      "_department-select-BTW34hzt.js",
+      "_classes-type-select-DlSPiCeT.js",
+      "_logger-CGRfLarE.js"
+    ],
+    "css": [
+      "assets/classes-manage-form-CPXqXru1.css"
+    ]
+  },
+  "src/views/classes-manage/classes-manage.tsx": {
+    "file": "assets/classes-manage-CZ12cGV2.js",
+    "name": "classes-manage",
+    "src": "src/views/classes-manage/classes-manage.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__attendance__loadShare__vue__loadShare__.js-Du1-xnCP.js",
+      "__virtual_mf___mfe_internal__attendance__loadShare__vue_mf_2_router__loadShare__.js-DsZaCDik.js",
+      "_domain-context-BmWJk_n_.js",
+      "_classes-manage-Dga2sKHS.js",
+      "_logger-CGRfLarE.js",
+      "_use-page-name-Cr8ATElD.js",
+      "_permission-CLSWD4DQ.js"
+    ]
+  },
+  "src/views/flow-approval-record/index.tsx": {
+    "file": "assets/flow-approval-record-B12mBtMp.js",
+    "name": "flow-approval-record",
+    "src": "src/views/flow-approval-record/index.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__attendance__loadShare__vue__loadShare__.js-Du1-xnCP.js",
+      "__virtual_mf___mfe_internal__attendance__loadShare__vue_mf_2_router__loadShare__.js-DsZaCDik.js",
+      "_domain-context-BmWJk_n_.js",
+      "_department-select-BTW34hzt.js",
+      "_logger-CGRfLarE.js",
+      "_use-page-name-Cr8ATElD.js",
+      "_permission-CLSWD4DQ.js",
+      "_attendance-record-Blrq7Rzk.js",
+      "_vacation-type-CLyg1k36.js"
+    ]
+  },
+  "src/views/handle-record/index.tsx": {
+    "file": "assets/handle-record-CxxUNmlg.js",
+    "name": "handle-record",
+    "src": "src/views/handle-record/index.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__attendance__loadShare__vue__loadShare__.js-Du1-xnCP.js",
+      "__virtual_mf___mfe_internal__attendance__loadShare__vue_mf_2_router__loadShare__.js-DsZaCDik.js",
+      "_domain-context-BmWJk_n_.js",
+      "_client-DtOTO6As.js",
+      "_logger-CGRfLarE.js",
+      "_use-page-name-Cr8ATElD.js",
+      "_permission-CLSWD4DQ.js"
+    ]
+  },
+  "src/views/message/index.tsx": {
+    "file": "assets/message-BWGdZXIo.js",
+    "name": "message",
+    "src": "src/views/message/index.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__attendance__loadShare__vue__loadShare__.js-Du1-xnCP.js",
+      "_domain-context-BmWJk_n_.js",
+      "_client-DtOTO6As.js",
+      "_use-page-name-Cr8ATElD.js"
+    ]
+  },
+  "src/views/scheduling-manage/scheduling-rules-form.tsx": {
+    "file": "assets/scheduling-rules-form-DaiPinOI.js",
+    "name": "scheduling-rules-form",
+    "src": "src/views/scheduling-manage/scheduling-rules-form.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__attendance__loadShare__vue__loadShare__.js-Du1-xnCP.js",
+      "__virtual_mf___mfe_internal__attendance__loadShare__vue_mf_2_router__loadShare__.js-DsZaCDik.js",
+      "_domain-context-BmWJk_n_.js",
+      "_keyword-alias-CndvxdJr.js",
+      "_scheduling-manage-DxWBQqf1.js",
+      "_scheduling-rules-limit-COMnAqts.js",
+      "_style.module-BbMFoDoS.js",
+      "_vertical-line-Dmbru2LJ.js",
+      "_logger-CGRfLarE.js"
+    ]
+  },
+  "src/views/scheduling-manage/scheduling-rules.tsx": {
+    "file": "assets/scheduling-rules-DuOtD07b.js",
+    "name": "scheduling-rules",
+    "src": "src/views/scheduling-manage/scheduling-rules.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__attendance__loadShare__vue__loadShare__.js-Du1-xnCP.js",
+      "__virtual_mf___mfe_internal__attendance__loadShare__vue_mf_2_router__loadShare__.js-DsZaCDik.js",
+      "_domain-context-BmWJk_n_.js",
+      "_scheduling-manage-DxWBQqf1.js",
+      "_logger-CGRfLarE.js",
+      "_use-page-name-Cr8ATElD.js",
+      "_permission-CLSWD4DQ.js",
+      "_classes-DFJN0rys.js"
+    ]
+  },
+  "src/views/scheduling-manage/staff-duty.tsx": {
+    "file": "assets/staff-duty-ycTZ8wTN.js",
+    "name": "staff-duty",
+    "src": "src/views/scheduling-manage/staff-duty.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__attendance__loadShare__vue__loadShare__.js-Du1-xnCP.js",
+      "_domain-context-BmWJk_n_.js",
+      "_keyword-alias-CndvxdJr.js",
+      "_scheduling-manage-DxWBQqf1.js",
+      "_classes-select-modal-BBPyGc_Q.js",
+      "_style.module-BbMFoDoS.js",
+      "_user-picker-modal-CPCdmdQb.js",
+      "_logger-CGRfLarE.js",
+      "_use-page-name-Cr8ATElD.js",
+      "_permission-CLSWD4DQ.js",
+      "_calendar-DogNXAUT.js",
+      "_classes-DFJN0rys.js",
+      "_use-ctrl-event-DenKnN8U.js"
+    ]
+  },
+  "src/views/scheduling-manage/staff-scheduling.tsx": {
+    "file": "assets/staff-scheduling-CJ1GNjVp.js",
+    "name": "staff-scheduling",
+    "src": "src/views/scheduling-manage/staff-scheduling.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__attendance__loadShare__vue__loadShare__.js-Du1-xnCP.js",
+      "_domain-context-BmWJk_n_.js",
+      "_keyword-alias-CndvxdJr.js",
+      "_scheduling-manage-DxWBQqf1.js",
+      "_staff-clock-in-rEm-LHAG.js",
+      "_classes-select-modal-BBPyGc_Q.js",
+      "_style.module-BbMFoDoS.js",
+      "_logger-CGRfLarE.js",
+      "_use-page-name-Cr8ATElD.js",
+      "_permission-CLSWD4DQ.js",
+      "_calendar-DogNXAUT.js",
+      "_classes-DFJN0rys.js",
+      "_use-ctrl-event-DenKnN8U.js",
+      "_attendance-group-select-mUjkh1bN.js"
+    ]
+  },
+  "src/views/staff-business-trip/approve-business-trip.tsx": {
+    "file": "assets/approve-business-trip-C4dr_W2M.js",
+    "name": "approve-business-trip",
+    "src": "src/views/staff-business-trip/approve-business-trip.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__attendance__loadShare__vue__loadShare__.js-Du1-xnCP.js",
+      "_use-page-name-Cr8ATElD.js",
+      "_permission-CLSWD4DQ.js",
+      "_flow-table-hmILqsCk.js"
+    ]
+  },
+  "src/views/staff-business-trip/business-trip-rules-form.tsx": {
+    "file": "assets/business-trip-rules-form-DMIRd1iw.js",
+    "name": "business-trip-rules-form",
+    "src": "src/views/staff-business-trip/business-trip-rules-form.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__attendance__loadShare__vue__loadShare__.js-Du1-xnCP.js",
+      "__virtual_mf___mfe_internal__attendance__loadShare__vue_mf_2_router__loadShare__.js-DsZaCDik.js",
+      "_domain-context-BmWJk_n_.js",
+      "_staff-business-trip-Dl0ZD9ST.js",
+      "_vertical-line-Dmbru2LJ.js",
+      "_logger-CGRfLarE.js"
+    ]
+  },
+  "src/views/staff-business-trip/business-trip-rules.tsx": {
+    "file": "assets/business-trip-rules-BBhSni8w.js",
+    "name": "business-trip-rules",
+    "src": "src/views/staff-business-trip/business-trip-rules.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__attendance__loadShare__vue__loadShare__.js-Du1-xnCP.js",
+      "__virtual_mf___mfe_internal__attendance__loadShare__vue_mf_2_router__loadShare__.js-DsZaCDik.js",
+      "_domain-context-BmWJk_n_.js",
+      "_staff-business-trip-Dl0ZD9ST.js",
+      "_logger-CGRfLarE.js",
+      "_use-page-name-Cr8ATElD.js",
+      "_permission-CLSWD4DQ.js"
+    ]
+  },
+  "src/views/staff-change/approve-change.tsx": {
+    "file": "assets/approve-change-BIxAJEj8.js",
+    "name": "approve-change",
+    "src": "src/views/staff-change/approve-change.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__attendance__loadShare__vue__loadShare__.js-Du1-xnCP.js",
+      "_use-page-name-Cr8ATElD.js",
+      "_permission-CLSWD4DQ.js",
+      "_flow-table-hmILqsCk.js"
+    ]
+  },
+  "src/views/staff-change/change-ledger.tsx": {
+    "file": "assets/change-ledger-CqrvE-Bu.js",
+    "name": "change-ledger",
+    "src": "src/views/staff-change/change-ledger.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__attendance__loadShare__vue__loadShare__.js-Du1-xnCP.js",
+      "_domain-context-BmWJk_n_.js",
+      "_keyword-alias-CndvxdJr.js"
+    ],
+    "css": [
+      "assets/overtime-ledger-detail-BnI0Yrwa.css"
+    ]
+  },
+  "src/views/staff-clock-in/clock-in-ledger.tsx": {
+    "file": "assets/clock-in-ledger-DxyDorB-.js",
+    "name": "clock-in-ledger",
+    "src": "src/views/staff-clock-in/clock-in-ledger.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__attendance__loadShare__vue__loadShare__.js-Du1-xnCP.js",
+      "_domain-context-BmWJk_n_.js",
+      "_keyword-alias-CndvxdJr.js",
+      "_staff-clock-in-rEm-LHAG.js",
+      "_department-select-BTW34hzt.js",
+      "_style.module-BbMFoDoS.js",
+      "_logger-CGRfLarE.js",
+      "_use-page-name-Cr8ATElD.js",
+      "_permission-CLSWD4DQ.js",
+      "_calendar-DogNXAUT.js",
+      "_classes-DFJN0rys.js"
+    ]
+  },
+  "src/views/staff-clock-in/clock-in-record.tsx": {
+    "file": "assets/clock-in-record-BzCDosfI.js",
+    "name": "clock-in-record",
+    "src": "src/views/staff-clock-in/clock-in-record.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__attendance__loadShare__vue__loadShare__.js-Du1-xnCP.js",
+      "__virtual_mf___mfe_internal__attendance__loadShare__vue_mf_2_router__loadShare__.js-DsZaCDik.js",
+      "_domain-context-BmWJk_n_.js",
+      "_keyword-alias-CndvxdJr.js",
+      "_staff-clock-in-rEm-LHAG.js",
+      "_department-select-BTW34hzt.js",
+      "_style.module-BbMFoDoS.js",
+      "_user-picker-modal-CPCdmdQb.js",
+      "_logger-CGRfLarE.js",
+      "_use-page-name-Cr8ATElD.js",
+      "_permission-CLSWD4DQ.js",
+      "_classes-DFJN0rys.js"
+    ]
+  },
+  "src/views/staff-clock-in/clock-in-rules-form.tsx": {
+    "file": "assets/clock-in-rules-form-D9M9E6Z1.js",
+    "name": "clock-in-rules-form",
+    "src": "src/views/staff-clock-in/clock-in-rules-form.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__attendance__loadShare__vue__loadShare__.js-Du1-xnCP.js",
+      "__virtual_mf___mfe_internal__attendance__loadShare__vue_mf_2_router__loadShare__.js-DsZaCDik.js",
+      "_domain-context-BmWJk_n_.js",
+      "_staff-clock-in-rEm-LHAG.js",
+      "_clock-in-rule-setting-machine-select-table-_gsjTCfI.js",
+      "_style.module-BbMFoDoS.js",
+      "_vertical-line-Dmbru2LJ.js",
+      "_logger-CGRfLarE.js"
+    ]
+  },
+  "src/views/staff-clock-in/clock-in-rules.tsx": {
+    "file": "assets/clock-in-rules-BquEAJNI.js",
+    "name": "clock-in-rules",
+    "src": "src/views/staff-clock-in/clock-in-rules.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__attendance__loadShare__vue__loadShare__.js-Du1-xnCP.js",
+      "__virtual_mf___mfe_internal__attendance__loadShare__vue_mf_2_router__loadShare__.js-DsZaCDik.js",
+      "_domain-context-BmWJk_n_.js",
+      "_staff-clock-in-rEm-LHAG.js",
+      "_logger-CGRfLarE.js",
+      "_use-page-name-Cr8ATElD.js",
+      "_permission-CLSWD4DQ.js"
+    ]
+  },
+  "src/views/staff-leave/approve-dispose-leave.tsx": {
+    "file": "assets/approve-dispose-leave-B5hUUykc.js",
+    "name": "approve-dispose-leave",
+    "src": "src/views/staff-leave/approve-dispose-leave.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__attendance__loadShare__vue__loadShare__.js-Du1-xnCP.js",
+      "_use-page-name-Cr8ATElD.js",
+      "_permission-CLSWD4DQ.js",
+      "_flow-table-hmILqsCk.js"
+    ]
+  },
+  "src/views/staff-leave/approve-leave.tsx": {
+    "file": "assets/approve-leave-Dkf32oxV.js",
+    "name": "approve-leave",
+    "src": "src/views/staff-leave/approve-leave.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__attendance__loadShare__vue__loadShare__.js-Du1-xnCP.js",
+      "_use-page-name-Cr8ATElD.js",
+      "_permission-CLSWD4DQ.js",
+      "_flow-table-hmILqsCk.js"
+    ]
+  },
+  "src/views/staff-leave/leave-rules-form.tsx": {
+    "file": "assets/leave-rules-form-CMl6STcJ.js",
+    "name": "leave-rules-form",
+    "src": "src/views/staff-leave/leave-rules-form.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__attendance__loadShare__vue__loadShare__.js-Du1-xnCP.js",
+      "__virtual_mf___mfe_internal__attendance__loadShare__vue_mf_2_router__loadShare__.js-DsZaCDik.js",
+      "_domain-context-BmWJk_n_.js",
+      "_staff-leave-DaViOovS.js",
+      "_logger-CGRfLarE.js"
+    ],
+    "css": [
+      "assets/leave-rules-form-CI3Ybsh4.css"
+    ]
+  },
+  "src/views/staff-leave/leave-rules.tsx": {
+    "file": "assets/leave-rules-DrPbUNUJ.js",
+    "name": "leave-rules",
+    "src": "src/views/staff-leave/leave-rules.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__attendance__loadShare__vue__loadShare__.js-Du1-xnCP.js",
+      "__virtual_mf___mfe_internal__attendance__loadShare__vue_mf_2_router__loadShare__.js-DsZaCDik.js",
+      "_domain-context-BmWJk_n_.js",
+      "_staff-leave-DaViOovS.js",
+      "_logger-CGRfLarE.js",
+      "_use-page-name-Cr8ATElD.js",
+      "_permission-CLSWD4DQ.js"
+    ]
+  },
+  "src/views/staff-leave/vacation-balance-detail.tsx": {
+    "file": "assets/vacation-balance-detail-QUdeLFY0.js",
+    "name": "vacation-balance-detail",
+    "src": "src/views/staff-leave/vacation-balance-detail.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__attendance__loadShare__vue__loadShare__.js-Du1-xnCP.js",
+      "__virtual_mf___mfe_internal__attendance__loadShare__vue_mf_2_router__loadShare__.js-DsZaCDik.js",
+      "_domain-context-BmWJk_n_.js",
+      "_staff-leave-DaViOovS.js",
+      "_logger-CGRfLarE.js",
+      "_vacation-type-CLyg1k36.js"
+    ]
+  },
+  "src/views/staff-leave/vacation-balance.tsx": {
+    "file": "assets/vacation-balance-B8NMBxE0.js",
+    "name": "vacation-balance",
+    "src": "src/views/staff-leave/vacation-balance.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__attendance__loadShare__vue__loadShare__.js-Du1-xnCP.js",
+      "__virtual_mf___mfe_internal__attendance__loadShare__vue_mf_2_router__loadShare__.js-DsZaCDik.js",
+      "_domain-context-BmWJk_n_.js",
+      "_keyword-alias-CndvxdJr.js",
+      "_department-select-BTW34hzt.js",
+      "_staff-leave-DaViOovS.js",
+      "_logger-CGRfLarE.js",
+      "_use-page-name-Cr8ATElD.js",
+      "_permission-CLSWD4DQ.js",
+      "_attendance-group-select-mUjkh1bN.js"
+    ],
+    "css": [
+      "assets/vacation-balance-BL384dQI.css"
+    ]
+  },
+  "src/views/staff-off-duty/approve-off-duty.tsx": {
+    "file": "assets/approve-off-duty-CIzRleWR.js",
+    "name": "approve-off-duty",
+    "src": "src/views/staff-off-duty/approve-off-duty.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__attendance__loadShare__vue__loadShare__.js-Du1-xnCP.js",
+      "_use-page-name-Cr8ATElD.js",
+      "_permission-CLSWD4DQ.js",
+      "_flow-table-hmILqsCk.js"
+    ]
+  },
+  "src/views/staff-off-duty/off-duty-rules-form.tsx": {
+    "file": "assets/off-duty-rules-form-BzG7mq3Y.js",
+    "name": "off-duty-rules-form",
+    "src": "src/views/staff-off-duty/off-duty-rules-form.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__attendance__loadShare__vue__loadShare__.js-Du1-xnCP.js",
+      "__virtual_mf___mfe_internal__attendance__loadShare__vue_mf_2_router__loadShare__.js-DsZaCDik.js",
+      "_domain-context-BmWJk_n_.js",
+      "_staff-off-duty-DTJj12Cs.js",
+      "_vertical-line-Dmbru2LJ.js",
+      "_logger-CGRfLarE.js"
+    ]
+  },
+  "src/views/staff-off-duty/off-duty-rules.tsx": {
+    "file": "assets/off-duty-rules-Bow1iCmr.js",
+    "name": "off-duty-rules",
+    "src": "src/views/staff-off-duty/off-duty-rules.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__attendance__loadShare__vue__loadShare__.js-Du1-xnCP.js",
+      "__virtual_mf___mfe_internal__attendance__loadShare__vue_mf_2_router__loadShare__.js-DsZaCDik.js",
+      "_domain-context-BmWJk_n_.js",
+      "_staff-off-duty-DTJj12Cs.js",
+      "_logger-CGRfLarE.js",
+      "_use-page-name-Cr8ATElD.js",
+      "_permission-CLSWD4DQ.js"
+    ]
+  },
+  "src/views/staff-overtime/approve-overtime.tsx": {
+    "file": "assets/approve-overtime-BkOvPZyq.js",
+    "name": "approve-overtime",
+    "src": "src/views/staff-overtime/approve-overtime.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__attendance__loadShare__vue__loadShare__.js-Du1-xnCP.js",
+      "_use-page-name-Cr8ATElD.js",
+      "_permission-CLSWD4DQ.js",
+      "_flow-table-hmILqsCk.js"
+    ]
+  },
+  "src/views/staff-overtime/overtime-ledger-detail.tsx": {
+    "file": "assets/overtime-ledger-detail-Cq5Tqu1O.js",
+    "name": "overtime-ledger-detail",
+    "src": "src/views/staff-overtime/overtime-ledger-detail.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__attendance__loadShare__vue__loadShare__.js-Du1-xnCP.js",
+      "__virtual_mf___mfe_internal__attendance__loadShare__vue_mf_2_router__loadShare__.js-DsZaCDik.js",
+      "_domain-context-BmWJk_n_.js",
+      "_keyword-alias-CndvxdJr.js",
+      "_staff-overtime-C4CZ10mt.js"
+    ],
+    "css": [
+      "assets/overtime-ledger-detail-BnI0Yrwa.css"
+    ]
+  },
+  "src/views/staff-overtime/overtime-rules-form.tsx": {
+    "file": "assets/overtime-rules-form-i1FJqmlw.js",
+    "name": "overtime-rules-form",
+    "src": "src/views/staff-overtime/overtime-rules-form.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__attendance__loadShare__vue__loadShare__.js-Du1-xnCP.js",
+      "__virtual_mf___mfe_internal__attendance__loadShare__vue_mf_2_router__loadShare__.js-DsZaCDik.js",
+      "_domain-context-BmWJk_n_.js",
+      "_staff-overtime-C4CZ10mt.js",
+      "_vertical-line-Dmbru2LJ.js",
+      "_logger-CGRfLarE.js"
+    ]
+  },
+  "src/views/staff-overtime/overtime-rules.tsx": {
+    "file": "assets/overtime-rules-BGsJnCwF.js",
+    "name": "overtime-rules",
+    "src": "src/views/staff-overtime/overtime-rules.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__attendance__loadShare__vue__loadShare__.js-Du1-xnCP.js",
+      "__virtual_mf___mfe_internal__attendance__loadShare__vue_mf_2_router__loadShare__.js-DsZaCDik.js",
+      "_domain-context-BmWJk_n_.js",
+      "_staff-overtime-C4CZ10mt.js",
+      "_logger-CGRfLarE.js",
+      "_use-page-name-Cr8ATElD.js",
+      "_permission-CLSWD4DQ.js"
+    ]
+  },
+  "src/views/staff-supplement/approve-supplement.tsx": {
+    "file": "assets/approve-supplement-DJzooqxI.js",
+    "name": "approve-supplement",
+    "src": "src/views/staff-supplement/approve-supplement.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__attendance__loadShare__vue__loadShare__.js-Du1-xnCP.js",
+      "_use-page-name-Cr8ATElD.js",
+      "_permission-CLSWD4DQ.js",
+      "_flow-table-hmILqsCk.js"
+    ]
+  },
+  "src/views/staff-supplement/supplement-ledger-detail.tsx": {
+    "file": "assets/supplement-ledger-detail-tTnMFo2J.js",
+    "name": "supplement-ledger-detail",
+    "src": "src/views/staff-supplement/supplement-ledger-detail.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__attendance__loadShare__vue__loadShare__.js-Du1-xnCP.js",
+      "__virtual_mf___mfe_internal__attendance__loadShare__vue_mf_2_router__loadShare__.js-DsZaCDik.js",
+      "_domain-context-BmWJk_n_.js",
+      "_keyword-alias-CndvxdJr.js",
+      "_staff-supplement-xbqZU_4g.js",
+      "_logger-CGRfLarE.js",
+      "_use-page-name-Cr8ATElD.js"
+    ]
+  },
+  "src/views/staff-supplement/supplement-rules-form.tsx": {
+    "file": "assets/supplement-rules-form-Dv-N7Aou.js",
+    "name": "supplement-rules-form",
+    "src": "src/views/staff-supplement/supplement-rules-form.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__attendance__loadShare__vue__loadShare__.js-Du1-xnCP.js",
+      "__virtual_mf___mfe_internal__attendance__loadShare__vue_mf_2_router__loadShare__.js-DsZaCDik.js",
+      "_domain-context-BmWJk_n_.js",
+      "_staff-supplement-xbqZU_4g.js",
+      "_vertical-line-Dmbru2LJ.js",
+      "_logger-CGRfLarE.js"
+    ]
+  },
+  "src/views/staff-supplement/supplement-rules.tsx": {
+    "file": "assets/supplement-rules-BTjes6i7.js",
+    "name": "supplement-rules",
+    "src": "src/views/staff-supplement/supplement-rules.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__attendance__loadShare__vue__loadShare__.js-Du1-xnCP.js",
+      "__virtual_mf___mfe_internal__attendance__loadShare__vue_mf_2_router__loadShare__.js-DsZaCDik.js",
+      "_domain-context-BmWJk_n_.js",
+      "_staff-supplement-xbqZU_4g.js",
+      "_logger-CGRfLarE.js",
+      "_use-page-name-Cr8ATElD.js",
+      "_permission-CLSWD4DQ.js"
+    ]
+  },
+  "virtual:mf-REMOTE_ENTRY_ID:__mfe_internal__attendance__remoteEntry_js": {
+    "file": "remoteEntry.js",
+    "name": "remoteEntry",
+    "src": "virtual:mf-REMOTE_ENTRY_ID:__mfe_internal__attendance__remoteEntry_js",
+    "imports": [
+      "_virtual_mf-REMOTE_ENTRY_ID___mfe_internal__attendance__remoteEntry_js-WpJ3h35n.js"
+    ]
+  },
+  "virtual:mf-REMOTE_ENTRY_SSR_ID:__mfe_internal__attendance__remoteEntry_js": {
+    "file": "remoteEntry.ssr.js",
+    "name": "ssrRemoteEntry",
+    "src": "virtual:mf-REMOTE_ENTRY_SSR_ID:__mfe_internal__attendance__remoteEntry_js",
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "virtual:mf-exposes-ssr:__mfe_internal__attendance__remoteEntry_js"
+    ]
+  },
+  "virtual:mf-exposes-ssr:__mfe_internal__attendance__remoteEntry_js": {
+    "file": "assets/virtual_mf-exposes-ssr___mfe_internal__attendance__remoteEntry_js--nUTOC6e.js",
+    "name": "virtual_mf-exposes-ssr___mfe_internal__attendance__remoteEntry_js",
+    "src": "virtual:mf-exposes-ssr:__mfe_internal__attendance__remoteEntry_js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "src/domain.ts"
+    ]
+  },
+  "virtual:mf-exposes:__mfe_internal__attendance__remoteEntry_js": {
+    "file": "assets/virtualExposes-DKNYeQCi.js",
+    "name": "virtualExposes",
+    "src": "virtual:mf-exposes:__mfe_internal__attendance__remoteEntry_js",
+    "imports": [
+      "_virtual_mf-exposes___mfe_internal__attendance__remoteEntry_js-bihNYdNH.js"
+    ]
+  },
+  "virtual:mf-localSharedImportMap:__mfe_internal__attendance": {
+    "file": "assets/_virtual_mf-localSharedImportMap___mfe_internal__attendance-7QRVDBPl.js",
+    "name": "_virtual_mf-localSharedImportMap___mfe_internal__attendance",
+    "src": "virtual:mf-localSharedImportMap:__mfe_internal__attendance",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "__virtual_mf___mfe_internal__attendance__loadShare__vue__loadShare__.js-Du1-xnCP.js",
+      "__virtual_mf___mfe_internal__attendance__loadShare__vue_mf_2_router__loadShare__.js-DsZaCDik.js"
+    ]
+  },
+  "virtual:mf:__mfe_internal__attendance__H_A_I__hostAutoInit__H_A_I__.js": {
+    "file": "assets/hostInit-B-AOykYq.js",
+    "name": "hostInit",
+    "src": "virtual:mf:__mfe_internal__attendance__H_A_I__hostAutoInit__H_A_I__.js",
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "_virtual_mf-REMOTE_ENTRY_ID___mfe_internal__attendance__remoteEntry_js-WpJ3h35n.js",
+      "virtual:mf-localSharedImportMap:__mfe_internal__attendance"
+    ]
+  }
+}

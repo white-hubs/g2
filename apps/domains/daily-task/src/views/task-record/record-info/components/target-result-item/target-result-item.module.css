@@ -1,0 +1,13 @@
+.container {
+  padding: 12px;
+}
+.title {
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+.target-item-container {
+  padding: 12px;
+  margin-bottom: 12px;
+  border: 1px solid #f0f0f0;
+  border-radius: 4px;
+}

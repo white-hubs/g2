@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:scada="http://cube-scada.io/ns/v1" viewBox="0 0 100 100" width="100" height="100">
+  <metadata>
+    <scada:element>
+      <scada:meta type="smoke-sensor-gauge" label="&#x70DF;&#x611F;&#x4EEA;&#x8868;" category="industrial" version="1.0.0"/>
+      <scada:props>
+        <scada:prop name="smokeLevel" type="number" label="&#x70DF;&#x611F;&#x6D53;&#x5EA6;" default="0" min="0" max="100" unit="%" domain="observe" semantic="status.value" required="false" bindable="true" controllable="false"/>
+        <scada:prop name="alarm" type="boolean" label="&#x544A;&#x8B66;&#x72B6;&#x6001;" default="false" domain="observe" semantic="status.state" required="false" bindable="true" controllable="false"/>
+        <scada:prop name="bodyColor" type="color" label="&#x9762;&#x677F;&#x989C;&#x8272;" default="#f8fafc" domain="observe" semantic="style.bodyColor" required="false" bindable="true" controllable="false"/>
+        <scada:prop name="label" type="string" label="&#x6807;&#x9898;" default="&#x70DF;&#x611F;" domain="observe" semantic="display.label" required="false" bindable="true" controllable="false"/>
+      </scada:props>
+      <scada:mappings>
+        <scada:map prop="bodyColor" selector="#panel" attr="fill"/>
+        <scada:map prop="label" selector="#title" attr="textContent"/>
+        <scada:map prop="smokeLevel" selector="#value-text" attr="textContent" transform="String(Math.round(value ?? 0)) + '%'"/>
+        <scada:map prop="smokeLevel" selector="#needle" attr="transform" transform="'rotate(' + (Math.max(0, Math.min(100, Number(value ?? 0))) * 1.8 - 90) + ', 50, 52)'"/>
+        <scada:map prop="alarm" selector="#status-lamp" attr="fill" transform="value ? '#ef4444' : '#22c55e'"/>
+      </scada:mappings>
+      <scada:animations>
+        <scada:animation id="alarm-pulse" triggerProp="alarm" triggerCondition="value === true" target="#status-lamp" keyframes='[{"opacity":1},{"opacity":0.35},{"opacity":1}]' duration="900" iterations="Infinity" easing="ease-in-out"/>
+      </scada:animations>
+    </scada:element>
+  </metadata>
+
+  <rect id="panel" x="8" y="8" width="84" height="84" rx="12" fill="#f8fafc" stroke="#475569" stroke-width="2"/>
+  <text id="title" x="50" y="22" text-anchor="middle" font-size="11" fill="#1f2937">&#x70DF;&#x611F;</text>
+
+  <path d="M20 52 A30 30 0 0 1 80 52" fill="none" stroke="#cbd5e1" stroke-width="3" stroke-linecap="round"/>
+  <path d="M24 52 A26 26 0 0 1 76 52" fill="none" stroke="#94a3b8" stroke-width="1.5" stroke-dasharray="2 3"/>
+
+  <line id="needle" x1="50" y1="52" x2="50" y2="25" stroke="#2563eb" stroke-width="2.2" stroke-linecap="round" transform="rotate(-90, 50, 52)"/>
+  <circle cx="50" cy="52" r="3.5" fill="#334155"/>
+
+  <text x="50" y="67" text-anchor="middle" font-size="7" fill="#64748b">&#x70DF;&#x611F;</text>
+  <text id="value-text" x="50" y="78" text-anchor="middle" font-size="12" fill="#0f172a">0%</text>
+
+  <circle id="status-lamp" cx="82" cy="18" r="5" fill="#22c55e" stroke="#14532d" stroke-width="1"/>
+</svg>

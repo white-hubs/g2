@@ -1,0 +1,2 @@
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["assets/poc-remote-view-C2vXnYmr.css"])))=>i.map(i=>d[i]);
+import{t as e}from"./vite-preload-helper-7P2xnrDv.js";var t={routes:[{path:`/poc-remote`,name:`poc-remote`,component:()=>e(()=>import(`./poc-remote-view-DJ6qgrSf.js`),__vite__mapDeps([0]))}]};export{t as default};

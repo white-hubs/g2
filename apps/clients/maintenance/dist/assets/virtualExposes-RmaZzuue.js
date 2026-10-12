@@ -1,0 +1,1 @@
+import{t as e}from"./virtual_mf-exposes___mfe_internal__maintenanceClient__remoteEntry_js-CJR6NaYe.js";export{e as default};

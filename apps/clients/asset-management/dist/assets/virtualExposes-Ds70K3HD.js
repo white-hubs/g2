@@ -1,0 +1,1 @@
+import{t as e}from"./virtual_mf-exposes___mfe_internal__assetManagementClient__remoteEntry_js-ZLaJie5w.js";export{e as default};

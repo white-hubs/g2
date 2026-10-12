@@ -1,0 +1,152 @@
+/**
+ * 与 Client remote 对齐的门面类型；具体 URL/实现见 @g2-client/energy-consumption/client。
+ * 方法名与旧仓 api 导出保持 1:1，入参保持宽松以便领域迁移。
+ */
+export type EnergyConsumptionClient = {
+  // energyOverview
+  EnergyUsagePage: (...args: any[]) => Promise<unknown>;
+  AddUsageSetting: (...args: any[]) => Promise<unknown>;
+  EditUsageSetting: (...args: any[]) => Promise<unknown>;
+  DelUsageSetting: (...args: any[]) => Promise<unknown>;
+  Comprehensive: (...args: any[]) => Promise<unknown>;
+  EnergyTrend: (...args: any[]) => Promise<unknown>;
+  EnergyUnityTrend: (...args: any[]) => Promise<unknown>;
+  EnergyProportionStatistics: (...args: any[]) => Promise<unknown>;
+  CarbonStatisticsData: (...args: any[]) => Promise<unknown>;
+  CarbonClassifyStatisticsData: (...args: any[]) => Promise<unknown>;
+  EnergyConsumptionTrend: (...args: any[]) => Promise<unknown>;
+  EnergyDirection: (...args: any[]) => Promise<unknown>;
+  PeakValleyPeriods: (...args: any[]) => Promise<unknown>;
+  EnergyCollectPeriodItype: (...args: any[]) => Promise<unknown>;
+  EnergyCollectConfigList: (...args: any[]) => Promise<unknown>;
+  ClassifySettingsPage: (...args: any[]) => Promise<unknown>;
+  FuelListPage: (...args: any[]) => Promise<unknown>;
+  UpdateClassifySettings: (...args: any[]) => Promise<unknown>;
+  AreaProjectTree: (...args: any[]) => Promise<unknown>;
+  AreaProjectAdd: (...args: any[]) => Promise<unknown>;
+  AreaProjectUpdate: (...args: any[]) => Promise<unknown>;
+  AreaProjectDelete: (...args: any[]) => Promise<unknown>;
+  SubItemPage: (...args: any[]) => Promise<unknown>;
+  SubItemTreePage: (...args: any[]) => Promise<unknown>;
+  SubItemList: (...args: any[]) => Promise<unknown>;
+  DeviceList: (...args: any[]) => Promise<unknown>;
+  EnergyProjectAdd: (...args: any[]) => Promise<unknown>;
+  EnergyProjectUpdate: (...args: any[]) => Promise<unknown>;
+  EnergyProjectDelete: (...args: any[]) => Promise<unknown>;
+  EnergyProjectTree: (...args: any[]) => Promise<unknown>;
+  SubItemReferDevice: (...args: any[]) => Promise<unknown>;
+  AreaReferDevice: (...args: any[]) => Promise<unknown>;
+  AreaReferDeviceById: (...args: any[]) => Promise<unknown>;
+  SubItemReferDeviceById: (...args: any[]) => Promise<unknown>;
+  deviceReadUpdate: (...args: any[]) => Promise<unknown>;
+  TableRecordUpdate: (...args: any[]) => Promise<unknown>;
+  ReadRecordPage: (...args: any[]) => Promise<unknown>;
+  ReadRecordUpdate: (...args: any[]) => Promise<unknown>;
+  ReadRecordDelete: (...args: any[]) => Promise<unknown>;
+  deviceDetail: (...args: any[]) => Promise<unknown>;
+  meterDeviceBatchUpdate: (...args: any[]) => Promise<unknown>;
+  classifyEnergyPage: (...args: any[]) => Promise<unknown>;
+  subItemEnergyPage: (...args: any[]) => Promise<unknown>;
+  classifyExport: (...args: any[]) => Promise<unknown>;
+  readLogExport: (...args: any[]) => Promise<unknown>;
+  readRecordTemplateExport: (...args: any[]) => Promise<unknown>;
+  readRecordImport: (...args: any[]) => Promise<unknown>;
+  subItemExport: (...args: any[]) => Promise<unknown>;
+  templateExport: (...args: any[]) => Promise<unknown>;
+  classifyimport: (...args: any[]) => Promise<unknown>;
+  EnergySituation: (...args: any[]) => Promise<unknown>;
+  UsageTrend: (...args: any[]) => Promise<unknown>;
+  UsageSubItemTrend: (...args: any[]) => Promise<unknown>;
+  UsageSubItemProperty: (...args: any[]) => Promise<unknown>;
+  EnergyFlowDirection: (...args: any[]) => Promise<unknown>;
+  SearchDevice: (...args: any[]) => Promise<unknown>;
+  getMeterDeviceList: (...args: any[]) => Promise<unknown>;
+  getDeviceUseTrend: (...args: any[]) => Promise<unknown>;
+  getDeviceUseRanking: (...args: any[]) => Promise<unknown>;
+  // feeManage
+  saveChargeConfig: (...args: any[]) => Promise<unknown>;
+  getChargeConfig: (...args: any[]) => Promise<unknown>;
+  getAreaTree: (...args: any[]) => Promise<unknown>;
+  getChargeAreaQoq: (...args: any[]) => Promise<unknown>;
+  getChargeTrend: (...args: any[]) => Promise<unknown>;
+  getChargeTrend1: (...args: any[]) => Promise<unknown>;
+  getChargeArea: (...args: any[]) => Promise<unknown>;
+  areaExcel: (...args: any[]) => Promise<unknown>;
+  getChargeAreaTotal: (...args: any[]) => Promise<unknown>;
+  getTypeAmount: (...args: any[]) => Promise<unknown>;
+  getTrendByfpg: (...args: any[]) => Promise<unknown>;
+  getFpgAmoutQoq: (...args: any[]) => Promise<unknown>;
+  getAmountWithRatio: (...args: any[]) => Promise<unknown>;
+  getEnergyChargeRules: (...args: any[]) => Promise<unknown>;
+  deleteEnergyChargeRules: (...args: any[]) => Promise<unknown>;
+  addEnergyChargeRules: (...args: any[]) => Promise<unknown>;
+  editEnergyChargeRules: (...args: any[]) => Promise<unknown>;
+  getEnergyReportTotal: (...args: any[]) => Promise<unknown>;
+  getEnergyReportElectricity: (...args: any[]) => Promise<unknown>;
+  getEnergyReportOther: (...args: any[]) => Promise<unknown>;
+  exportReportTotal: (...args: any[]) => Promise<unknown>;
+  exportReportElectric: (...args: any[]) => Promise<unknown>;
+  exportReportOther: (...args: any[]) => Promise<unknown>;
+  getComprehensiveRatioCost: (...args: any[]) => Promise<unknown>;
+  getReportChargeTrend: (...args: any[]) => Promise<unknown>;
+  getReportPieChart: (...args: any[]) => Promise<unknown>;
+  getChargeBathTrend: (...args: any[]) => Promise<unknown>;
+  // dosageAnalysis
+  GetDetails: (...args: any[]) => Promise<unknown>;
+  EetailsExcel: (...args: any[]) => Promise<unknown>;
+  EnergyAnalysis: (...args: any[]) => Promise<unknown>;
+  EnergyAnalysisg: (...args: any[]) => Promise<unknown>;
+  EnergyRanking: (...args: any[]) => Promise<unknown>;
+  DosageAnalysis: (...args: any[]) => Promise<unknown>;
+  MeterArea: (...args: any[]) => Promise<unknown>;
+  RouteTree: (...args: any[]) => Promise<unknown>;
+  AreaTree: (...args: any[]) => Promise<unknown>;
+  Distribution: (...args: any[]) => Promise<unknown>;
+  iotDistribution: (...args: any[]) => Promise<unknown>;
+  // loadPrediction
+  getOccupancy: (...args: any[]) => Promise<unknown>;
+  EnergyGateList: (...args: any[]) => Promise<unknown>;
+  EnergyGate: (...args: any[]) => Promise<unknown>;
+  LoadforecastionTrand: (...args: any[]) => Promise<unknown>;
+  LoadforecastionExport: (...args: any[]) => Promise<unknown>;
+  // energyStatistics
+  CarboEmissionStatistics: (...args: any[]) => Promise<unknown>;
+  CarboEmissionTrends: (...args: any[]) => Promise<unknown>;
+  ProportionOfCarbonEmissions: (...args: any[]) => Promise<unknown>;
+  EnergyArea: (...args: any[]) => Promise<unknown>;
+  // device
+  deviceList: (...args: any[]) => Promise<unknown>;
+  devices: (...args: any[]) => Promise<unknown>;
+  deleteDevices: (...args: any[]) => Promise<unknown>;
+  batchDelete: (...args: any[]) => Promise<unknown>;
+  meterAdd: (...args: any[]) => Promise<unknown>;
+  TableRecordPage: (...args: any[]) => Promise<unknown>;
+  setParentDevice: (...args: any[]) => Promise<unknown>;
+  getParentList: (...args: any[]) => Promise<unknown>;
+  getTopologyDiagram: (...args: any[]) => Promise<unknown>;
+  // cycle
+  putCycle: (...args: any[]) => Promise<unknown>;
+  setCycle: (...args: any[]) => Promise<unknown>;
+  metterReade: (...args: any[]) => Promise<unknown>;
+  cycleList: (...args: any[]) => Promise<unknown>;
+  // access
+  meterType: (...args: any[]) => Promise<unknown>;
+  getproject: (...args: any[]) => Promise<unknown>;
+  deleteproject: (...args: any[]) => Promise<unknown>;
+  getDviceAreaArr: (...args: any[]) => Promise<unknown>;
+  projectgape: (...args: any[]) => Promise<unknown>;
+  addproject: (...args: any[]) => Promise<unknown>;
+  putproject: (...args: any[]) => Promise<unknown>;
+  areaList: (...args: any[]) => Promise<unknown>;
+  // record
+  getAreaList: (...args: any[]) => Promise<unknown>;
+  metterDevice: (...args: any[]) => Promise<unknown>;
+  meterReading: (...args: any[]) => Promise<unknown>;
+  meterStatistics: (...args: any[]) => Promise<unknown>;
+  totalUsage: (...args: any[]) => Promise<unknown>;
+  energyUsage: (...args: any[]) => Promise<unknown>;
+  // alarm
+  alarmStatisticsStatusGroup: (...args: any[]) => Promise<unknown>;
+  alarmStatisticsLevel: (...args: any[]) => Promise<unknown>;
+  alarmRecords: (...args: any[]) => Promise<unknown>;
+};

@@ -1,0 +1,157 @@
+$ bun --bun vite build
+vite v8.1.5 building client environment for production...
+[2Ktransforming...✓ 3489 modules transformed.
+rendering chunks...
+[ Module Federation DTS ] tempTsConfigJsonPath: /Users/quan/Desktop/主应用/g2/apps/platforms/pc-ui/node_modules/.federation/tsconfig.1331281de5353f51db4bff001d751e85.json Stack trace:
+    at <anonymous> (/Users/quan/.bun/install/cache/links/@module-federation+dts-plugin@2.8.0+7524df1edfed9f02-7099747e722643af/node_modules/@module-federation/dts-plugin/dist/esm/expose-rpc-B0rqtOKP.mjs:630:11)
+    at generateTypes (/Users/quan/.bun/install/cache/links/@module-federation+dts-plugin@2.8.0+7524df1edfed9f02-7099747e722643af/node_modules/@module-federation/dts-plugin/dist/esm/expose-rpc-B0rqtOKP.mjs:912:10)
+    at processTicksAndRejections (native:7:39)
+[ Module Federation DTS ] Federated types created correctly Stack trace:
+    at generateTypes (/Users/quan/.bun/install/cache/links/@module-federation+dts-plugin@2.8.0+7524df1edfed9f02-7099747e722643af/node_modules/@module-federation/dts-plugin/dist/esm/expose-rpc-B0rqtOKP.mjs:928:13)
+    at processTicksAndRejections (native:7:39)
+computing gzip size...
+dist/index.html                                                                                         1.18 kB │ gzip:   0.64 kB
+dist/assets/mf-entry-bootstrap-0-86038ac1.js                                                            1.35 kB
+dist/mf-manifest.json                                                                                   4.91 kB │ gzip:   1.12 kB
+dist/mf-stats.json                                                                                     19.80 kB │ gzip:   3.64 kB
+dist/.vite/manifest.json                                                                               44.79 kB │ gzip:   5.18 kB
+dist/assets/use-pc-table-DZavLMiO.css                                                                   1.87 kB │ gzip:   0.76 kB
+dist/assets/page-layout-Dd129ESl.css                                                                    1.90 kB │ gzip:   0.65 kB
+dist/assets/src-8Nu9EeGX.css                                                                            3.06 kB │ gzip:   1.17 kB
+dist/assets/use-pc-form-o1fwbb24.css                                                                    3.26 kB │ gzip:   0.77 kB
+dist/assets/card-BJcTmMBf.js                                                                            0.05 kB │ gzip:   0.07 kB
+dist/assets/image-Dq9AfmCQ.js                                                                           0.05 kB │ gzip:   0.07 kB
+dist/assets/input-C3J-224n.js                                                                           0.05 kB │ gzip:   0.07 kB
+dist/assets/modal-BkfmDrYk.js                                                                           0.05 kB │ gzip:   0.07 kB
+dist/assets/space-BfUv_f5S.js                                                                           0.05 kB │ gzip:   0.07 kB
+dist/assets/table-Cg5dhAka.js                                                                           0.05 kB │ gzip:   0.07 kB
+dist/assets/button-D3JUcNJf.js                                                                          0.06 kB │ gzip:   0.07 kB
+dist/assets/select-BVyxZe4p.js                                                                          0.06 kB │ gzip:   0.07 kB
+dist/assets/platform-module-BmlNZxda.js                                                                 0.06 kB │ gzip:   0.07 kB
+dist/assets/cascader-BMhxPeRT.js                                                                        0.06 kB │ gzip:   0.07 kB
+dist/assets/message-_DB2WiVZ.js                                                                         0.07 kB │ gzip:   0.08 kB
+dist/assets/steps-5BGINl7T.js                                                                           0.07 kB │ gzip:   0.07 kB
+dist/assets/form-DAtGsGE0.js                                                                            0.07 kB │ gzip:   0.08 kB
+dist/assets/popover-DcB2z0LY.js                                                                         0.07 kB │ gzip:   0.08 kB
+dist/assets/radio-B4xyJg-p.js                                                                           0.07 kB │ gzip:   0.08 kB
+dist/assets/devWarning-DlchpATv.js                                                                      0.10 kB │ gzip:   0.12 kB
+dist/assets/virtualExposes-DxJ0YpXS.js                                                                  0.11 kB │ gzip:   0.12 kB
+dist/assets/motionUtil-BeNb4tZl.js                                                                      0.11 kB │ gzip:   0.12 kB
+dist/remoteEntry.js                                                                                     0.13 kB │ gzip:   0.13 kB
+dist/assets/info-Bssuo-Hw.js                                                                            0.13 kB │ gzip:   0.12 kB
+dist/assets/omit-Dgz_Tk_4.js                                                                            0.14 kB │ gzip:   0.14 kB
+dist/assets/firstNotUndefined-aK5HbgpO.js                                                               0.15 kB │ gzip:   0.13 kB
+dist/assets/date-picker-Cwz7p-zL.js                                                                     0.16 kB │ gzip:   0.12 kB
+dist/assets/warning-BLl3S_cO.js                                                                         0.17 kB │ gzip:   0.12 kB
+dist/assets/useState-qLi4fvOJ.js                                                                        0.19 kB │ gzip:   0.16 kB
+dist/assets/Keyframes-K60KFfv3.js                                                                       0.20 kB │ gzip:   0.16 kB
+dist/assets/useMemo-ByhoPBtt.js                                                                         0.21 kB │ gzip:   0.17 kB
+dist/assets/useRefs-BCM1pOC0.js                                                                         0.21 kB │ gzip:   0.17 kB
+dist/assets/useFlexGapSupport-CrpZ7JOa.js                                                               0.21 kB │ gzip:   0.18 kB
+dist/assets/isVisible-B1N4qR6W.js                                                                       0.23 kB │ gzip:   0.14 kB
+dist/assets/zh_CN-kZl6yT-1.js                                                                           0.23 kB │ gzip:   0.16 kB
+dist/assets/initDefaultProps-DibMaJdV.js                                                                0.25 kB │ gzip:   0.21 kB
+dist/assets/typeof-B5XbjTb1.js                                                                          0.27 kB │ gzip:   0.16 kB
+dist/assets/statusUtils-Dh38DSjb.js                                                                     0.29 kB │ gzip:   0.19 kB
+dist/assets/useBreakpoint-aGmjbaeo.js                                                                   0.30 kB │ gzip:   0.23 kB
+dist/assets/createContext-GXMjZG16.js                                                                   0.32 kB │ gzip:   0.25 kB
+dist/assets/index-DytT2Oc5.js                                                                           0.35 kB │ gzip:   0.24 kB
+dist/assets/isPlainObject-scmHTGn9.js                                                                   0.43 kB │ gzip:   0.29 kB
+dist/assets/raf-CR9Bw2Uc.js                                                                             0.45 kB │ gzip:   0.29 kB
+dist/assets/defineProperty-CHyAdSol.js                                                                  0.49 kB │ gzip:   0.33 kB
+dist/assets/css-BflejRyY.js                                                                             0.50 kB │ gzip:   0.28 kB
+dist/assets/useMergedState-C7gGY_X7.js                                                                  0.52 kB │ gzip:   0.32 kB
+dist/assets/shallowequal-NnQ_2K9X.js                                                                    0.56 kB │ gzip:   0.34 kB
+dist/assets/isObjectLike-BNu43IiG.js                                                                    0.65 kB │ gzip:   0.35 kB
+dist/assets/rolldown-runtime-QTnfLwEv.js                                                                0.69 kB │ gzip:   0.42 kB
+dist/assets/defineProperty-BbfpZ9Tg.js                                                                  0.70 kB │ gzip:   0.39 kB
+dist/assets/styleChecker-BJ8l1bpY.js                                                                    0.78 kB │ gzip:   0.38 kB
+dist/assets/compact-item-D8ZE5VfM.js                                                                    0.95 kB │ gzip:   0.49 kB
+dist/assets/vnode-B0_W5l8b.js                                                                           0.96 kB │ gzip:   0.49 kB
+dist/remoteEntry.ssr.js                                                                                 0.97 kB │ gzip:   0.58 kB
+dist/assets/CheckOutlined-jKnHXkg6.js                                                                   1.04 kB │ gzip:   0.66 kB
+dist/assets/ExclamationCircleFilled-nE932LT3.js                                                         1.10 kB │ gzip:   0.67 kB
+dist/assets/responsiveObserve-BON_GLjS.js                                                               1.11 kB │ gzip:   0.58 kB
+dist/assets/vc-resize-observer-ClhzQEYt.js                                                              1.12 kB │ gzip:   0.64 kB
+dist/assets/FormItemContext-F7VHCm0g.js                                                                 1.14 kB │ gzip:   0.59 kB
+dist/assets/CheckCircleFilled-CXPIa1Xc.js                                                               1.14 kB │ gzip:   0.71 kB
+dist/assets/LoadingOutlined-C2mqoRYw.js                                                                 1.18 kB │ gzip:   0.72 kB
+dist/assets/_virtual_mf-localSharedImportMap___mfe_internal__pcUi-DiQZ6Md3.js                           1.18 kB │ gzip:   0.52 kB
+dist/assets/rich-text-editor-Ba0KBMGY.js                                                                1.30 kB │ gzip:   0.77 kB
+dist/assets/zh_CN-zZYIiP83.js                                                                           1.32 kB │ gzip:   0.63 kB
+dist/assets/EyeOutlined-CiqhVAkL.js                                                                     1.33 kB │ gzip:   0.79 kB
+dist/assets/ActionButton-BpRBdX17.js                                                                    1.36 kB │ gzip:   0.73 kB
+dist/assets/vite-preload-helper-7P2xnrDv.js                                                             1.41 kB │ gzip:   0.75 kB
+dist/assets/colors-D2lCKLKX.js                                                                          1.49 kB │ gzip:   0.84 kB
+dist/assets/CloseOutlined-3B57eTs4.js                                                                   1.51 kB │ gzip:   0.80 kB
+dist/assets/debounce-fCXtl4d3.js                                                                        1.59 kB │ gzip:   0.83 kB
+dist/assets/CloseCircleFilled-BVQKP-SY.js                                                               1.59 kB │ gzip:   0.86 kB
+dist/assets/slide-Dcgt7l-h.js                                                                           1.92 kB │ gzip:   0.51 kB
+dist/assets/LeftOutlined-Dxg0P7uV.js                                                                    1.94 kB │ gzip:   0.81 kB
+dist/assets/move-K824JQtW.js                                                                            1.96 kB │ gzip:   0.47 kB
+dist/assets/KeyCode-DNtAKsAc.js                                                                         2.00 kB │ gzip:   1.05 kB
+dist/assets/space-BrVfC5lI.js                                                                           2.13 kB │ gzip:   1.14 kB
+dist/assets/page-DII5D9DA.js                                                                            2.17 kB │ gzip:   0.99 kB
+dist/assets/pickAttrs-B_1brjw4.js                                                                       2.19 kB │ gzip:   1.15 kB
+dist/assets/Portal-Bw0-xaac.js                                                                          2.21 kB │ gzip:   0.92 kB
+dist/assets/hostInit-DaZh2vkp.js                                                                        2.31 kB │ gzip:   1.10 kB
+dist/assets/collapseMotion-8SRpvKg8.js                                                                  2.31 kB │ gzip:   0.98 kB
+dist/assets/zoom-DcliNIsH.js                                                                            2.37 kB │ gzip:   0.59 kB
+dist/assets/zh_CN-DY3YTcFf.js                                                                           2.46 kB │ gzip:   1.37 kB
+dist/assets/Compact-CYMwpUSP.js                                                                         3.03 kB │ gzip:   1.31 kB
+dist/assets/hasIn-BAlclas8.js                                                                           3.24 kB │ gzip:   1.57 kB
+dist/assets/popover-DP-IwtPv.js                                                                         3.29 kB │ gzip:   1.61 kB
+dist/assets/_getTag--_ZeUy7b.js                                                                         3.72 kB │ gzip:   1.62 kB
+dist/assets/motion-D6DAM0Gl.js                                                                          4.33 kB │ gzip:   1.96 kB
+dist/assets/virtual_mf-exposes-ssr___mfe_internal__pcUi__remoteEntry_js-BJxiPNoy.js                     4.52 kB │ gzip:   0.79 kB
+dist/assets/popconfirm-DCZETwmv.js                                                                      4.62 kB │ gzip:   2.16 kB
+dist/assets/SearchOutlined-sYOaGWNF.js                                                                  4.93 kB │ gzip:   1.90 kB
+dist/assets/ResizeObserver.es-DUbNFVKw.js                                                               7.60 kB │ gzip:   2.47 kB
+dist/assets/virtual_mf-exposes___mfe_internal__pcUi__remoteEntry_js-DtKpCBlA.js                         8.21 kB │ gzip:   1.28 kB
+dist/assets/page-layout-W0KSbmXN.js                                                                     8.27 kB │ gzip:   3.03 kB
+dist/assets/isMobile-C8LeeKL_.js                                                                        8.60 kB │ gzip:   3.87 kB
+dist/assets/zh-cn-CuhiB_Uo.js                                                                           8.61 kB │ gzip:   3.75 kB
+dist/assets/AntdIcon-DYMAiOda.js                                                                        9.70 kB │ gzip:   3.29 kB
+dist/assets/modal-D8FDd0ZA.js                                                                           9.73 kB │ gzip:   3.76 kB
+dist/assets/style-BMrQeyL8.js                                                                          11.95 kB │ gzip:   4.42 kB
+dist/assets/radio-03yu9FaI.js                                                                          12.73 kB │ gzip:   4.33 kB
+dist/assets/style-rDhtS0uh.js                                                                          12.86 kB │ gzip:   3.33 kB
+dist/assets/style-CKcZsiHF.js                                                                          14.06 kB │ gzip:   4.80 kB
+dist/assets/tooltip-BqV_dVw7.js                                                                        14.37 kB │ gzip:   4.73 kB
+dist/assets/use-pc-table-Dg_6ZfCH.js                                                                   15.33 kB │ gzip:   5.70 kB
+dist/assets/button-CCV7gSQB.js                                                                         15.89 kB │ gzip:   5.61 kB
+dist/assets/cascader-C8RH2lgZ.js                                                                       20.20 kB │ gzip:   7.91 kB
+dist/assets/purify-CR-I5lb8.js                                                                         20.79 kB │ gzip:   8.66 kB
+dist/assets/image-al20DbGK.js                                                                          22.99 kB │ gzip:   8.02 kB
+dist/assets/input-B753u1D2.js                                                                          25.99 kB │ gzip:   8.95 kB
+dist/assets/select-B7W8E-N8.js                                                                         28.95 kB │ gzip:  10.41 kB
+dist/assets/pagination-DaE7SHPN.js                                                                     29.26 kB │ gzip:   7.84 kB
+dist/assets/use-pc-form-BakLmgnI.js                                                                    29.33 kB │ gzip:  10.71 kB
+dist/assets/_virtual_mf___mfe_internal__pcUi__loadShare__vue_mf_2_router__loadShare__.js-CaqfNcK2.js   30.50 kB │ gzip:  11.32 kB
+dist/assets/steps-emPj9cxR.js                                                                          36.99 kB │ gzip:  10.68 kB
+dist/assets/config-provider-C6dmX0qI.js                                                                37.83 kB │ gzip:  11.66 kB
+dist/assets/vc-dropdown-BUP-lwoy.js                                                                    37.98 kB │ gzip:  12.16 kB
+dist/assets/virtual_mf-REMOTE_ENTRY_ID___mfe_internal__pcUi__remoteEntry_js-BokwmPaq.js                39.01 kB │ gzip:  12.93 kB
+dist/assets/style-BZYzv8jC.js                                                                          39.10 kB │ gzip:  12.14 kB
+dist/assets/vc-trigger-D1SNnbkq.js                                                                     41.54 kB │ gzip:  14.20 kB
+dist/assets/card-DHgiQ0mG.js                                                                           51.66 kB │ gzip:  15.63 kB
+dist/assets/form-XtS7x-Ro.js                                                                           63.71 kB │ gzip:  21.80 kB
+dist/assets/vue-types-OLz3dbV4.js                                                                      74.41 kB │ gzip:  27.06 kB
+dist/assets/date-picker-BZ7gFMcF.js                                                                   106.66 kB │ gzip:  31.82 kB
+dist/assets/_virtual_mf___mfe_internal__pcUi__loadShare__vue__loadShare__.js-pr0wfuk8.js              122.08 kB │ gzip:  45.58 kB
+dist/assets/index.es-qe7u43La.js                                                                      151.11 kB │ gzip:  48.83 kB
+dist/assets/table-BVhxqRWp.js                                                                         156.46 kB │ gzip:  47.57 kB
+dist/assets/html2canvas-febzLBPO.js                                                                   199.59 kB │ gzip:  46.79 kB
+dist/assets/wangEditor-CdMbqML5.js                                                                    262.37 kB │ gzip:  73.64 kB
+dist/assets/src-mMyF_zYR.js                                                                           267.61 kB │ gzip:  86.83 kB
+dist/assets/jspdf.es.min-CVnsUI-6.js                                                                  340.10 kB │ gzip: 111.38 kB
+
+[33m[PLUGIN_TIMINGS] [0mYour build spent significant time in plugins. Here is a breakdown:
+  - proxyPreBuildShared:resolve-shared-loadShare (13%)
+  - vite:module-federation-virtual-modules (11%)
+  - mf:ssr-remote-entry:pre (11%)
+  - g2-mf-runtime-remote-external (9%)
+  - proxyPreBuildShared:tree-shaking-graph (9%)
+See https://rolldown.rs/reference/InputOptions.checks#plugintimings for more details.
+
+✓ built in 17.09s

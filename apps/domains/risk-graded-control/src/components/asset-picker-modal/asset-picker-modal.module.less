@@ -1,0 +1,48 @@
+.modalBody {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  height: 560px;
+}
+
+.toolbar {
+  display: flex;
+  flex-shrink: 0;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.keywordInput {
+  width: 220px;
+}
+
+.tableWrap {
+  flex: 1;
+  min-height: 0;
+  min-width: 0;
+  overflow: hidden;
+
+  :global(.asset-picker-table table) {
+    width: 100%;
+    table-layout: fixed;
+  }
+
+  :global(.asset-picker-table [class*="table-body"]) {
+    box-sizing: border-box;
+  }
+}
+
+.pagination {
+  display: flex;
+  flex-shrink: 0;
+  justify-content: flex-end;
+  margin-top: 16px;
+}
+
+.modalFooter {
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+}

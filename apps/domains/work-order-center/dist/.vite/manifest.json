@@ -1,0 +1,186 @@
+{
+  "__virtual_mf___mfe_internal__workOrderCenter__loadShare__vue__loadShare__.js-BP3AEyJB.js": {
+    "file": "assets/_virtual_mf___mfe_internal__workOrderCenter__loadShare__vue__loadShare__.js-BP3AEyJB.js",
+    "name": "_virtual_mf___mfe_internal__workOrderCenter__loadShare__vue__loadShare__.js",
+    "imports": [
+      "_rolldown-runtime-DK3Fl9T5.js"
+    ]
+  },
+  "_date-runtime-CpOlIoWi.js": {
+    "file": "assets/date-runtime-CpOlIoWi.js",
+    "name": "date-runtime"
+  },
+  "_rolldown-runtime-DK3Fl9T5.js": {
+    "file": "assets/rolldown-runtime-DK3Fl9T5.js",
+    "name": "rolldown-runtime"
+  },
+  "_styles-BngOE017.css": {
+    "file": "assets/styles-BngOE017.css",
+    "src": "_styles-BngOE017.css"
+  },
+  "_styles.module-DfL641cr.js": {
+    "file": "assets/styles.module-DfL641cr.js",
+    "name": "styles.module",
+    "imports": [
+      "_rolldown-runtime-DK3Fl9T5.js",
+      "_date-runtime-CpOlIoWi.js"
+    ],
+    "css": [
+      "assets/styles-BngOE017.css"
+    ]
+  },
+  "_virtual_mf-REMOTE_ENTRY_ID___mfe_internal__workOrderCenter__remoteEntry_js-BAWkEvc6.js": {
+    "file": "assets/virtual_mf-REMOTE_ENTRY_ID___mfe_internal__workOrderCenter__remoteEntry_js-BAWkEvc6.js",
+    "name": "virtual_mf-REMOTE_ENTRY_ID___mfe_internal__workOrderCenter__remoteEntry_js",
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "virtual:mf-localSharedImportMap:__mfe_internal__workOrderCenter",
+      "_virtual_mf-exposes___mfe_internal__workOrderCenter__remoteEntry_js-CegS-aRI.js"
+    ]
+  },
+  "_virtual_mf-exposes___mfe_internal__workOrderCenter__remoteEntry_js-CegS-aRI.js": {
+    "file": "assets/virtual_mf-exposes___mfe_internal__workOrderCenter__remoteEntry_js-CegS-aRI.js",
+    "name": "virtual_mf-exposes___mfe_internal__workOrderCenter__remoteEntry_js",
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "src/domain.ts"
+    ]
+  },
+  "_vite-preload-helper-7P2xnrDv.js": {
+    "file": "assets/vite-preload-helper-7P2xnrDv.js",
+    "name": "vite-preload-helper"
+  },
+  "index.html": {
+    "file": "assets/index-DX1BzYuM.js",
+    "name": "index",
+    "src": "index.html",
+    "isEntry": true,
+    "imports": [
+      "_virtual_mf-exposes___mfe_internal__workOrderCenter__remoteEntry_js-CegS-aRI.js",
+      "_virtual_mf-REMOTE_ENTRY_ID___mfe_internal__workOrderCenter__remoteEntry_js-BAWkEvc6.js"
+    ]
+  },
+  "src/domain.ts": {
+    "file": "assets/domain-GnT2D-Uw.js",
+    "name": "domain",
+    "src": "src/domain.ts",
+    "isEntry": true,
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js",
+      "_date-runtime-CpOlIoWi.js"
+    ],
+    "dynamicImports": [
+      "src/views/work-order-list.tsx",
+      "src/views/work-order-statistics.tsx"
+    ]
+  },
+  "src/views/work-order-list.tsx": {
+    "file": "assets/work-order-list-IHj4f8ig.js",
+    "name": "work-order-list",
+    "src": "src/views/work-order-list.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__workOrderCenter__loadShare__vue__loadShare__.js-BP3AEyJB.js",
+      "_date-runtime-CpOlIoWi.js",
+      "_styles.module-DfL641cr.js"
+    ]
+  },
+  "src/views/work-order-statistics.tsx": {
+    "file": "assets/work-order-statistics-RbM9UWcv.js",
+    "name": "work-order-statistics",
+    "src": "src/views/work-order-statistics.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__workOrderCenter__loadShare__vue__loadShare__.js-BP3AEyJB.js",
+      "_date-runtime-CpOlIoWi.js",
+      "_styles.module-DfL641cr.js"
+    ]
+  },
+  "virtual:mf-REMOTE_ENTRY_ID:__mfe_internal__workOrderCenter__remoteEntry_js": {
+    "file": "remoteEntry.js",
+    "name": "remoteEntry",
+    "src": "virtual:mf-REMOTE_ENTRY_ID:__mfe_internal__workOrderCenter__remoteEntry_js",
+    "imports": [
+      "_virtual_mf-REMOTE_ENTRY_ID___mfe_internal__workOrderCenter__remoteEntry_js-BAWkEvc6.js"
+    ]
+  },
+  "virtual:mf-REMOTE_ENTRY_SSR_ID:__mfe_internal__workOrderCenter__remoteEntry_js": {
+    "file": "remoteEntry.ssr.js",
+    "name": "ssrRemoteEntry",
+    "src": "virtual:mf-REMOTE_ENTRY_SSR_ID:__mfe_internal__workOrderCenter__remoteEntry_js",
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "virtual:mf-exposes-ssr:__mfe_internal__workOrderCenter__remoteEntry_js"
+    ]
+  },
+  "virtual:mf-exposes-ssr:__mfe_internal__workOrderCenter__remoteEntry_js": {
+    "file": "assets/virtual_mf-exposes-ssr___mfe_internal__workOrderCenter__remoteEntry_js-COwfhyU0.js",
+    "name": "virtual_mf-exposes-ssr___mfe_internal__workOrderCenter__remoteEntry_js",
+    "src": "virtual:mf-exposes-ssr:__mfe_internal__workOrderCenter__remoteEntry_js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "src/domain.ts"
+    ]
+  },
+  "virtual:mf-exposes:__mfe_internal__workOrderCenter__remoteEntry_js": {
+    "file": "assets/virtualExposes-D0WHzh1p.js",
+    "name": "virtualExposes",
+    "src": "virtual:mf-exposes:__mfe_internal__workOrderCenter__remoteEntry_js",
+    "imports": [
+      "_virtual_mf-exposes___mfe_internal__workOrderCenter__remoteEntry_js-CegS-aRI.js"
+    ]
+  },
+  "virtual:mf-localSharedImportMap:__mfe_internal__workOrderCenter": {
+    "file": "assets/_virtual_mf-localSharedImportMap___mfe_internal__workOrderCenter-C1r3MRUK.js",
+    "name": "_virtual_mf-localSharedImportMap___mfe_internal__workOrderCenter",
+    "src": "virtual:mf-localSharedImportMap:__mfe_internal__workOrderCenter",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "__virtual_mf___mfe_internal__workOrderCenter__loadShare__vue__loadShare__.js-BP3AEyJB.js",
+      "virtual:mf:__mfe_internal__workOrderCenter__prebuild__vue_mf_2_router__prebuild__.js"
+    ]
+  },
+  "virtual:mf:__mfe_internal__workOrderCenter__H_A_I__hostAutoInit__H_A_I__.js": {
+    "file": "assets/hostInit-4-Sjjq28.js",
+    "name": "hostInit",
+    "src": "virtual:mf:__mfe_internal__workOrderCenter__H_A_I__hostAutoInit__H_A_I__.js",
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "_virtual_mf-REMOTE_ENTRY_ID___mfe_internal__workOrderCenter__remoteEntry_js-BAWkEvc6.js",
+      "virtual:mf-localSharedImportMap:__mfe_internal__workOrderCenter"
+    ]
+  },
+  "virtual:mf:__mfe_internal__workOrderCenter__prebuild__vue__prebuild__.js": {
+    "file": "assets/_virtual_mf___mfe_internal__workOrderCenter__prebuild__vue__prebuild__-DkJDbCqp.js",
+    "name": "_virtual_mf___mfe_internal__workOrderCenter__prebuild__vue__prebuild__",
+    "src": "virtual:mf:__mfe_internal__workOrderCenter__prebuild__vue__prebuild__.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__workOrderCenter__loadShare__vue__loadShare__.js-BP3AEyJB.js"
+    ]
+  },
+  "virtual:mf:__mfe_internal__workOrderCenter__prebuild__vue_mf_2_router__prebuild__.js": {
+    "file": "assets/_virtual_mf___mfe_internal__workOrderCenter__prebuild__vue_mf_2_router__prebuild__-n94uVJRu.js",
+    "name": "_virtual_mf___mfe_internal__workOrderCenter__prebuild__vue_mf_2_router__prebuild__",
+    "src": "virtual:mf:__mfe_internal__workOrderCenter__prebuild__vue_mf_2_router__prebuild__.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-DK3Fl9T5.js",
+      "__virtual_mf___mfe_internal__workOrderCenter__loadShare__vue__loadShare__.js-BP3AEyJB.js"
+    ]
+  }
+}

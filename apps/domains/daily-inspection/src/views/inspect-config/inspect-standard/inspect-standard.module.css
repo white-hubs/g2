@@ -1,0 +1,115 @@
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.default-switch :global(.ant-switch) {
+  min-width: 44px;
+  width: 44px;
+}
+
+.page-flex {
+  display: flex;
+  height: 100%;
+}
+
+.page-left {
+  width: 300px;
+  flex: 0 0 300px;
+  height: 100%;
+  overflow: hidden;
+  padding: 8px 18px 0 0;
+  border-right: 1px solid #f3f3f3;
+  box-sizing: border-box;
+}
+
+.page-right {
+  flex: 1;
+  min-width: 0;
+  padding-left: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.object-panel {
+  height: 100%;
+  overflow: hidden;
+}
+
+.left-search {
+  width: 280px;
+  margin-bottom: 12px;
+}
+
+.object-tabs {
+  height: calc(100% - 44px);
+  overflow: hidden;
+}
+
+.object-tabs :global(.ant-tabs-nav) {
+  margin: 0 0 12px;
+}
+
+.object-tabs :global(.ant-tabs-tab) {
+  padding: 9px 16px 10px;
+}
+
+.object-tabs :global(.ant-tabs-content-holder) {
+  height: calc(100% - 46px);
+  overflow-y: auto;
+}
+
+.section-title {
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 52px;
+  padding-left: 12px;
+  border-bottom: 1px solid #f0f0f0;
+  box-sizing: border-box;
+  color: #1f1f1f;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.section-title::before {
+  position: absolute;
+  left: 0;
+  width: 3px;
+  height: 18px;
+  background: var(--cube-theme-var--primary-color, #1677ff);
+  content: "";
+}
+
+.table-search {
+  padding: 16px 0;
+}
+
+.object-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.object-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 32px;
+  cursor: pointer;
+}
+
+.object-item:hover,
+.active {
+  background: #f5f7fa;
+}
+
+.object-name {
+  flex: 1;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}

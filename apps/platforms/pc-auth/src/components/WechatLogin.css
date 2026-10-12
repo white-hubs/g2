@@ -1,0 +1,41 @@
+.pc-auth-wechat-login {
+  text-align: center;
+}
+
+.pc-auth-wechat-login__title {
+  margin: 0 0 12px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.pc-auth-wechat-login__qr {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+  background: var(--g2-color-surface-bg, #fff);
+  overflow: hidden;
+}
+
+.pc-auth-wechat-login__qr-frame {
+  width: 300px;
+  height: 300px;
+  border: none;
+}
+
+.pc-auth-wechat-login__hint {
+  margin: 8px 0 0;
+  color: var(--g2-color-text-tertiary, #8c8c8c);
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.pc-auth-wechat-login__back {
+  margin-top: 16px;
+  text-align: right;
+  color: var(--g2-color-primary, #1578ff);
+  cursor: pointer;
+  font-size: 14px;
+}

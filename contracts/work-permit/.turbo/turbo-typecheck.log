@@ -1,0 +1,10 @@
+$ tsc -p tsconfig.json --noEmit
+src/client-facade.ts(2,25): error TS7006: Parameter 'params' implicitly has an 'any' type.
+src/client-facade.ts(3,29): error TS7006: Parameter 'id' implicitly has an 'any' type.
+src/client-facade.ts(4,26): error TS7006: Parameter 'payload' implicitly has an 'any' type.
+src/client-facade.ts(5,26): error TS7006: Parameter 'id' implicitly has an 'any' type.
+src/client-facade.ts(5,30): error TS7006: Parameter 'payload' implicitly has an 'any' type.
+src/client-facade.ts(6,26): error TS7006: Parameter 'id' implicitly has an 'any' type.
+src/client-facade.ts(7,26): error TS7006: Parameter 'params' implicitly has an 'any' type.
+src/client-facade.ts(8,27): error TS7006: Parameter 'params' implicitly has an 'any' type.
+src/client-facade.ts(9,43): error TS7006: Parameter 'payload' implicitly has an 'any' type.

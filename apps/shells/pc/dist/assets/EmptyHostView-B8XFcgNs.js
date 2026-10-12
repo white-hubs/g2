@@ -1,0 +1,1 @@
+import{C as e}from"./_virtual_mf___mfe_internal__shellPc__loadShare__pinia__loadShare__.js-BmX8p98f.js";var t=e({name:`EmptyHostView`,setup(){return()=>null}});export{t as default};

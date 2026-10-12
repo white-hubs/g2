@@ -1,0 +1,93 @@
+.pageBody,
+.dashboard {
+  min-height: 100%;
+  padding: 16px 0 20px;
+  background: #fff;
+}
+
+.filterCard {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 12px;
+  padding: 14px 16px;
+  border: 1px solid #edf0f5;
+  border-radius: 4px;
+  background: #f8fafc;
+}
+
+.filterFields {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px 12px;
+}
+
+.tableCard,
+.treeCard,
+.statCard,
+.dashboardGrid > :global(.ant-card) {
+  border: 1px solid #edf0f5;
+  border-radius: 4px;
+  box-shadow: none;
+}
+
+.tableCard :global(.ant-card-body) {
+  padding: 0;
+}
+
+.tableCard :global(.ant-table-thead > tr > th) {
+  background: #f7f9fc;
+  color: rgba(0, 0, 0, 0.85);
+  font-weight: 500;
+}
+
+.pagination {
+  display: flex;
+  justify-content: flex-end;
+  padding: 14px 16px;
+  border-top: 1px solid #f0f0f0;
+}
+
+.treeCard {
+  min-height: 560px;
+}
+
+.statGrid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.statCard :global(.ant-card-body) {
+  display: flex;
+  min-height: 121px;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px 24px;
+}
+
+.statCard span {
+  color: rgba(0, 0, 0, 0.45);
+  font-size: 14px;
+}
+
+.statCard strong {
+  margin-top: 8px;
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.dashboardGrid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+}
+
+@media (max-width: 960px) {
+  .filterCard { align-items: flex-start; flex-direction: column; }
+  .statGrid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .dashboardGrid { grid-template-columns: 1fr; }
+}

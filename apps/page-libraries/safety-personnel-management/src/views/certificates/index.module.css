@@ -1,0 +1,25 @@
+.searchForm {
+  margin-bottom: 16px;
+
+  :global(.ant-form-item) {
+    padding-right: 0 !important;
+    margin-right: 8px !important;
+    margin-bottom: 8px !important;
+  }
+
+  :global(.ant-form-item-label) {
+    padding-right: 4px;
+  }
+}
+
+.searchItem {
+  padding-right: 0 !important;
+  margin-right: 8px !important;
+  margin-bottom: 8px !important;
+}
+
+.certTable {
+  :global(.ant-table-thead > tr > th) {
+    white-space: nowrap;
+  }
+}

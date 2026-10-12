@@ -1,0 +1,1 @@
+import"./virtual_mf-exposes___mfe_internal__pcScada__remoteEntry_js-0UsVlJ5a.js";import"./virtual_mf-REMOTE_ENTRY_ID___mfe_internal__pcScada__remoteEntry_js-Dw3kuoRl.js";document.querySelector(`#app`).textContent=`@g2-platform/pc-scada build shell`;

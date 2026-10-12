@@ -1,0 +1,100 @@
+{
+  "_virtual_mf-REMOTE_ENTRY_ID___mfe_internal__safetyCreditClient__remoteEntry_js-DcT9tXUq.js": {
+    "file": "assets/virtual_mf-REMOTE_ENTRY_ID___mfe_internal__safetyCreditClient__remoteEntry_js-DcT9tXUq.js",
+    "name": "virtual_mf-REMOTE_ENTRY_ID___mfe_internal__safetyCreditClient__remoteEntry_js",
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "virtual:mf-localSharedImportMap:__mfe_internal__safetyCreditClient",
+      "_virtual_mf-exposes___mfe_internal__safetyCreditClient__remoteEntry_js-DUl3PVCP.js"
+    ]
+  },
+  "_virtual_mf-exposes___mfe_internal__safetyCreditClient__remoteEntry_js-DUl3PVCP.js": {
+    "file": "assets/virtual_mf-exposes___mfe_internal__safetyCreditClient__remoteEntry_js-DUl3PVCP.js",
+    "name": "virtual_mf-exposes___mfe_internal__safetyCreditClient__remoteEntry_js",
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "src/client.ts"
+    ]
+  },
+  "_vite-preload-helper-7P2xnrDv.js": {
+    "file": "assets/vite-preload-helper-7P2xnrDv.js",
+    "name": "vite-preload-helper"
+  },
+  "index.html": {
+    "file": "assets/index-DcC4K5L6.js",
+    "name": "index",
+    "src": "index.html",
+    "isEntry": true,
+    "imports": [
+      "_virtual_mf-exposes___mfe_internal__safetyCreditClient__remoteEntry_js-DUl3PVCP.js",
+      "_virtual_mf-REMOTE_ENTRY_ID___mfe_internal__safetyCreditClient__remoteEntry_js-DcT9tXUq.js"
+    ]
+  },
+  "src/client.ts": {
+    "file": "assets/client-C98UtbnZ.js",
+    "name": "client",
+    "src": "src/client.ts",
+    "isEntry": true
+  },
+  "virtual:mf-REMOTE_ENTRY_ID:__mfe_internal__safetyCreditClient__remoteEntry_js": {
+    "file": "remoteEntry.js",
+    "name": "remoteEntry",
+    "src": "virtual:mf-REMOTE_ENTRY_ID:__mfe_internal__safetyCreditClient__remoteEntry_js",
+    "imports": [
+      "_virtual_mf-REMOTE_ENTRY_ID___mfe_internal__safetyCreditClient__remoteEntry_js-DcT9tXUq.js"
+    ]
+  },
+  "virtual:mf-REMOTE_ENTRY_SSR_ID:__mfe_internal__safetyCreditClient__remoteEntry_js": {
+    "file": "remoteEntry.ssr.js",
+    "name": "ssrRemoteEntry",
+    "src": "virtual:mf-REMOTE_ENTRY_SSR_ID:__mfe_internal__safetyCreditClient__remoteEntry_js",
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "virtual:mf-exposes-ssr:__mfe_internal__safetyCreditClient__remoteEntry_js"
+    ]
+  },
+  "virtual:mf-exposes-ssr:__mfe_internal__safetyCreditClient__remoteEntry_js": {
+    "file": "assets/virtual_mf-exposes-ssr___mfe_internal__safetyCreditClient__remoteEntry_js-BF7T89VB.js",
+    "name": "virtual_mf-exposes-ssr___mfe_internal__safetyCreditClient__remoteEntry_js",
+    "src": "virtual:mf-exposes-ssr:__mfe_internal__safetyCreditClient__remoteEntry_js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "src/client.ts"
+    ]
+  },
+  "virtual:mf-exposes:__mfe_internal__safetyCreditClient__remoteEntry_js": {
+    "file": "assets/virtualExposes-aNhro_cG.js",
+    "name": "virtualExposes",
+    "src": "virtual:mf-exposes:__mfe_internal__safetyCreditClient__remoteEntry_js",
+    "imports": [
+      "_virtual_mf-exposes___mfe_internal__safetyCreditClient__remoteEntry_js-DUl3PVCP.js"
+    ]
+  },
+  "virtual:mf-localSharedImportMap:__mfe_internal__safetyCreditClient": {
+    "file": "assets/_virtual_mf-localSharedImportMap___mfe_internal__safetyCreditClient-CcdcYaa2.js",
+    "name": "_virtual_mf-localSharedImportMap___mfe_internal__safetyCreditClient",
+    "src": "virtual:mf-localSharedImportMap:__mfe_internal__safetyCreditClient",
+    "isDynamicEntry": true
+  },
+  "virtual:mf:__mfe_internal__safetyCreditClient__H_A_I__hostAutoInit__H_A_I__.js": {
+    "file": "assets/hostInit-D-pgG_vI.js",
+    "name": "hostInit",
+    "src": "virtual:mf:__mfe_internal__safetyCreditClient__H_A_I__hostAutoInit__H_A_I__.js",
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "_virtual_mf-REMOTE_ENTRY_ID___mfe_internal__safetyCreditClient__remoteEntry_js-DcT9tXUq.js",
+      "virtual:mf-localSharedImportMap:__mfe_internal__safetyCreditClient"
+    ]
+  }
+}

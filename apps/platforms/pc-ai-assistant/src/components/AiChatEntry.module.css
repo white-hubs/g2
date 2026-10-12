@@ -1,0 +1,42 @@
+/* 对齐旧仓 ai-chat-drawer-entry：实盒 inline-flex，勿用 display:contents（会丢交叉轴对齐盒） */
+.root {
+  display: inline-flex;
+  align-items: center;
+  height: 100%;
+  padding: 0 10px;
+}
+
+:global(.pc-ai-assistant-entry__trigger) {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  padding: 0;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  color: inherit;
+  box-shadow: none;
+}
+
+:global(.pc-ai-assistant-entry__icon) {
+  width: 30px;
+  height: 30px;
+  display: block;
+  object-fit: contain;
+  pointer-events: none;
+}
+
+:global(.pc-ai-assistant-drawer) {
+  position: fixed;
+  top: 50px;
+  right: 0;
+  width: 360px;
+  height: calc(100vh - 50px);
+  background: #fff;
+  color: #1f2329;
+  box-shadow: -2px 0 12px rgba(0, 0, 0, 0.12);
+  z-index: 1000;
+  padding: 16px;
+}

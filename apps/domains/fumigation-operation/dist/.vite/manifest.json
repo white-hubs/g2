@@ -1,0 +1,335 @@
+{
+  "__virtual_mf___mfe_internal__fumigationOperation__loadShare__vue__loadShare__.js-D-8Q9uQ5.js": {
+    "file": "assets/_virtual_mf___mfe_internal__fumigationOperation__loadShare__vue__loadShare__.js-D-8Q9uQ5.js",
+    "name": "_virtual_mf___mfe_internal__fumigationOperation__loadShare__vue__loadShare__.js",
+    "imports": [
+      "_rolldown-runtime-QTnfLwEv.js"
+    ]
+  },
+  "__virtual_mf___mfe_internal__fumigationOperation__loadShare__vue_mf_2_router__loadShare__.js-BfuGMKHL.js": {
+    "file": "assets/_virtual_mf___mfe_internal__fumigationOperation__loadShare__vue_mf_2_router__loadShare__.js-BfuGMKHL.js",
+    "name": "_virtual_mf___mfe_internal__fumigationOperation__loadShare__vue_mf_2_router__loadShare__.js",
+    "imports": [
+      "_rolldown-runtime-QTnfLwEv.js",
+      "__virtual_mf___mfe_internal__fumigationOperation__loadShare__vue__loadShare__.js-D-8Q9uQ5.js"
+    ]
+  },
+  "_approval-timeline-utils-DHT2oCKP.js": {
+    "file": "assets/approval-timeline-utils-DHT2oCKP.js",
+    "name": "approval-timeline-utils",
+    "imports": [
+      "_fumigation-Cv1DRCjh.js"
+    ]
+  },
+  "_archive-document-view-DkS6zerv.js": {
+    "file": "assets/archive-document-view-DkS6zerv.js",
+    "name": "archive-document-view",
+    "imports": [
+      "_rolldown-runtime-QTnfLwEv.js",
+      "__virtual_mf___mfe_internal__fumigationOperation__loadShare__vue__loadShare__.js-D-8Q9uQ5.js",
+      "_fumigation-Cv1DRCjh.js",
+      "_components-CD52y829.js"
+    ]
+  },
+  "_components-CD52y829.js": {
+    "file": "assets/components-CD52y829.js",
+    "name": "components",
+    "imports": [
+      "__virtual_mf___mfe_internal__fumigationOperation__loadShare__vue__loadShare__.js-D-8Q9uQ5.js",
+      "_fumigation-Cv1DRCjh.js",
+      "_domain-context-CbqqktE7.js"
+    ]
+  },
+  "_domain-context-CbqqktE7.js": {
+    "file": "assets/domain-context-CbqqktE7.js",
+    "name": "domain-context"
+  },
+  "_fumigation-Cv1DRCjh.js": {
+    "file": "assets/fumigation-Cv1DRCjh.js",
+    "name": "fumigation",
+    "imports": [
+      "_rolldown-runtime-QTnfLwEv.js",
+      "__virtual_mf___mfe_internal__fumigationOperation__loadShare__vue__loadShare__.js-D-8Q9uQ5.js",
+      "_domain-context-CbqqktE7.js"
+    ],
+    "css": [
+      "assets/fumigation-HJisGiOZ.css"
+    ]
+  },
+  "_fumigation-HJisGiOZ.css": {
+    "file": "assets/fumigation-HJisGiOZ.css",
+    "src": "_fumigation-HJisGiOZ.css"
+  },
+  "_navigation-utils-RPuWSTEq.js": {
+    "file": "assets/navigation-utils-RPuWSTEq.js",
+    "name": "navigation-utils"
+  },
+  "_rolldown-runtime-QTnfLwEv.js": {
+    "file": "assets/rolldown-runtime-QTnfLwEv.js",
+    "name": "rolldown-runtime"
+  },
+  "_virtual_mf-REMOTE_ENTRY_ID___mfe_internal__fumigationOperation__remoteEntry_js-CzamuiF7.js": {
+    "file": "assets/virtual_mf-REMOTE_ENTRY_ID___mfe_internal__fumigationOperation__remoteEntry_js-CzamuiF7.js",
+    "name": "virtual_mf-REMOTE_ENTRY_ID___mfe_internal__fumigationOperation__remoteEntry_js",
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "virtual:mf-localSharedImportMap:__mfe_internal__fumigationOperation",
+      "_virtual_mf-exposes___mfe_internal__fumigationOperation__remoteEntry_js-DVRPTqOs.js"
+    ]
+  },
+  "_virtual_mf-exposes___mfe_internal__fumigationOperation__remoteEntry_js-DVRPTqOs.js": {
+    "file": "assets/virtual_mf-exposes___mfe_internal__fumigationOperation__remoteEntry_js-DVRPTqOs.js",
+    "name": "virtual_mf-exposes___mfe_internal__fumigationOperation__remoteEntry_js",
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "src/domain.ts"
+    ]
+  },
+  "_vite-preload-helper-7P2xnrDv.js": {
+    "file": "assets/vite-preload-helper-7P2xnrDv.js",
+    "name": "vite-preload-helper"
+  },
+  "_worker-utils-CEzEXB8M.css": {
+    "file": "assets/worker-utils-CEzEXB8M.css",
+    "src": "_worker-utils-CEzEXB8M.css"
+  },
+  "_worker-utils-CW-nSleK.js": {
+    "file": "assets/worker-utils-CW-nSleK.js",
+    "name": "worker-utils",
+    "imports": [
+      "__virtual_mf___mfe_internal__fumigationOperation__loadShare__vue__loadShare__.js-D-8Q9uQ5.js",
+      "_fumigation-Cv1DRCjh.js",
+      "_components-CD52y829.js"
+    ],
+    "css": [
+      "assets/worker-utils-CEzEXB8M.css"
+    ]
+  },
+  "index.html": {
+    "file": "assets/index-lIo_VB2Q.js",
+    "name": "index",
+    "src": "index.html",
+    "isEntry": true,
+    "imports": [
+      "_virtual_mf-exposes___mfe_internal__fumigationOperation__remoteEntry_js-DVRPTqOs.js",
+      "_virtual_mf-REMOTE_ENTRY_ID___mfe_internal__fumigationOperation__remoteEntry_js-CzamuiF7.js"
+    ]
+  },
+  "src/domain.ts": {
+    "file": "assets/domain-CDr_rHmR.js",
+    "name": "domain",
+    "src": "src/domain.ts",
+    "isEntry": true,
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js",
+      "__virtual_mf___mfe_internal__fumigationOperation__loadShare__vue__loadShare__.js-D-8Q9uQ5.js",
+      "__virtual_mf___mfe_internal__fumigationOperation__loadShare__vue_mf_2_router__loadShare__.js-BfuGMKHL.js",
+      "_domain-context-CbqqktE7.js"
+    ],
+    "dynamicImports": [
+      "src/views/fumigation/work-list.tsx",
+      "src/views/fumigation/work-form.tsx",
+      "src/views/fumigation/approval-detail.tsx",
+      "src/views/fumigation/precheck.tsx",
+      "src/views/fumigation/monitor-board.tsx",
+      "src/views/fumigation/realtime-situation.tsx",
+      "src/views/fumigation/compliance-archive.tsx",
+      "src/views/fumigation/archive-document.tsx"
+    ]
+  },
+  "src/views/fumigation/approval-detail.tsx": {
+    "file": "assets/approval-detail-BeK30yUZ.js",
+    "name": "approval-detail",
+    "src": "src/views/fumigation/approval-detail.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__fumigationOperation__loadShare__vue__loadShare__.js-D-8Q9uQ5.js",
+      "__virtual_mf___mfe_internal__fumigationOperation__loadShare__vue_mf_2_router__loadShare__.js-BfuGMKHL.js",
+      "_fumigation-Cv1DRCjh.js",
+      "_worker-utils-CW-nSleK.js",
+      "_approval-timeline-utils-DHT2oCKP.js",
+      "_components-CD52y829.js",
+      "_navigation-utils-RPuWSTEq.js"
+    ]
+  },
+  "src/views/fumigation/archive-document.tsx": {
+    "file": "assets/archive-document-BT2ljGMO.js",
+    "name": "archive-document",
+    "src": "src/views/fumigation/archive-document.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__fumigationOperation__loadShare__vue__loadShare__.js-D-8Q9uQ5.js",
+      "__virtual_mf___mfe_internal__fumigationOperation__loadShare__vue_mf_2_router__loadShare__.js-BfuGMKHL.js",
+      "_fumigation-Cv1DRCjh.js",
+      "_archive-document-view-DkS6zerv.js"
+    ]
+  },
+  "src/views/fumigation/compliance-archive.tsx": {
+    "file": "assets/compliance-archive-WpQn-Jls.js",
+    "name": "compliance-archive",
+    "src": "src/views/fumigation/compliance-archive.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__fumigationOperation__loadShare__vue__loadShare__.js-D-8Q9uQ5.js",
+      "__virtual_mf___mfe_internal__fumigationOperation__loadShare__vue_mf_2_router__loadShare__.js-BfuGMKHL.js",
+      "_fumigation-Cv1DRCjh.js",
+      "_worker-utils-CW-nSleK.js",
+      "_components-CD52y829.js",
+      "_navigation-utils-RPuWSTEq.js",
+      "_archive-document-view-DkS6zerv.js"
+    ]
+  },
+  "src/views/fumigation/monitor-board.tsx": {
+    "file": "assets/monitor-board-CJV7CJ8v.js",
+    "name": "monitor-board",
+    "src": "src/views/fumigation/monitor-board.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-QTnfLwEv.js",
+      "__virtual_mf___mfe_internal__fumigationOperation__loadShare__vue__loadShare__.js-D-8Q9uQ5.js",
+      "__virtual_mf___mfe_internal__fumigationOperation__loadShare__vue_mf_2_router__loadShare__.js-BfuGMKHL.js",
+      "_fumigation-Cv1DRCjh.js",
+      "_domain-context-CbqqktE7.js",
+      "_worker-utils-CW-nSleK.js",
+      "_components-CD52y829.js",
+      "_navigation-utils-RPuWSTEq.js"
+    ]
+  },
+  "src/views/fumigation/precheck.tsx": {
+    "file": "assets/precheck-Duo-JnHA.js",
+    "name": "precheck",
+    "src": "src/views/fumigation/precheck.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__fumigationOperation__loadShare__vue__loadShare__.js-D-8Q9uQ5.js",
+      "__virtual_mf___mfe_internal__fumigationOperation__loadShare__vue_mf_2_router__loadShare__.js-BfuGMKHL.js",
+      "_fumigation-Cv1DRCjh.js",
+      "_worker-utils-CW-nSleK.js",
+      "_approval-timeline-utils-DHT2oCKP.js",
+      "_components-CD52y829.js",
+      "_navigation-utils-RPuWSTEq.js"
+    ]
+  },
+  "src/views/fumigation/realtime-situation.tsx": {
+    "file": "assets/realtime-situation-DM1DNlqs.js",
+    "name": "realtime-situation",
+    "src": "src/views/fumigation/realtime-situation.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__fumigationOperation__loadShare__vue__loadShare__.js-D-8Q9uQ5.js",
+      "_fumigation-Cv1DRCjh.js"
+    ]
+  },
+  "src/views/fumigation/work-form.tsx": {
+    "file": "assets/work-form-DaXCDtSJ.js",
+    "name": "work-form",
+    "src": "src/views/fumigation/work-form.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-QTnfLwEv.js",
+      "__virtual_mf___mfe_internal__fumigationOperation__loadShare__vue__loadShare__.js-D-8Q9uQ5.js",
+      "__virtual_mf___mfe_internal__fumigationOperation__loadShare__vue_mf_2_router__loadShare__.js-BfuGMKHL.js",
+      "_fumigation-Cv1DRCjh.js",
+      "_components-CD52y829.js"
+    ]
+  },
+  "src/views/fumigation/work-list.tsx": {
+    "file": "assets/work-list-CFNP6aEz.js",
+    "name": "work-list",
+    "src": "src/views/fumigation/work-list.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__fumigationOperation__loadShare__vue__loadShare__.js-D-8Q9uQ5.js",
+      "__virtual_mf___mfe_internal__fumigationOperation__loadShare__vue_mf_2_router__loadShare__.js-BfuGMKHL.js",
+      "_fumigation-Cv1DRCjh.js",
+      "_components-CD52y829.js",
+      "_navigation-utils-RPuWSTEq.js"
+    ]
+  },
+  "virtual:mf-REMOTE_ENTRY_ID:__mfe_internal__fumigationOperation__remoteEntry_js": {
+    "file": "remoteEntry.js",
+    "name": "remoteEntry",
+    "src": "virtual:mf-REMOTE_ENTRY_ID:__mfe_internal__fumigationOperation__remoteEntry_js",
+    "imports": [
+      "_virtual_mf-REMOTE_ENTRY_ID___mfe_internal__fumigationOperation__remoteEntry_js-CzamuiF7.js"
+    ]
+  },
+  "virtual:mf-REMOTE_ENTRY_SSR_ID:__mfe_internal__fumigationOperation__remoteEntry_js": {
+    "file": "remoteEntry.ssr.js",
+    "name": "ssrRemoteEntry",
+    "src": "virtual:mf-REMOTE_ENTRY_SSR_ID:__mfe_internal__fumigationOperation__remoteEntry_js",
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "virtual:mf-exposes-ssr:__mfe_internal__fumigationOperation__remoteEntry_js"
+    ]
+  },
+  "virtual:mf-exposes-ssr:__mfe_internal__fumigationOperation__remoteEntry_js": {
+    "file": "assets/virtual_mf-exposes-ssr___mfe_internal__fumigationOperation__remoteEntry_js-Dg928eif.js",
+    "name": "virtual_mf-exposes-ssr___mfe_internal__fumigationOperation__remoteEntry_js",
+    "src": "virtual:mf-exposes-ssr:__mfe_internal__fumigationOperation__remoteEntry_js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "src/domain.ts"
+    ]
+  },
+  "virtual:mf-exposes:__mfe_internal__fumigationOperation__remoteEntry_js": {
+    "file": "assets/virtualExposes-BSNcfLww.js",
+    "name": "virtualExposes",
+    "src": "virtual:mf-exposes:__mfe_internal__fumigationOperation__remoteEntry_js",
+    "imports": [
+      "_virtual_mf-exposes___mfe_internal__fumigationOperation__remoteEntry_js-DVRPTqOs.js"
+    ]
+  },
+  "virtual:mf-localSharedImportMap:__mfe_internal__fumigationOperation": {
+    "file": "assets/_virtual_mf-localSharedImportMap___mfe_internal__fumigationOperation-DFtKOI1j.js",
+    "name": "_virtual_mf-localSharedImportMap___mfe_internal__fumigationOperation",
+    "src": "virtual:mf-localSharedImportMap:__mfe_internal__fumigationOperation",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "__virtual_mf___mfe_internal__fumigationOperation__loadShare__vue__loadShare__.js-D-8Q9uQ5.js",
+      "__virtual_mf___mfe_internal__fumigationOperation__loadShare__vue_mf_2_router__loadShare__.js-BfuGMKHL.js"
+    ]
+  },
+  "virtual:mf:__mfe_internal__fumigationOperation__H_A_I__hostAutoInit__H_A_I__.js": {
+    "file": "assets/hostInit-C7Dk1uYD.js",
+    "name": "hostInit",
+    "src": "virtual:mf:__mfe_internal__fumigationOperation__H_A_I__hostAutoInit__H_A_I__.js",
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "_virtual_mf-REMOTE_ENTRY_ID___mfe_internal__fumigationOperation__remoteEntry_js-CzamuiF7.js",
+      "virtual:mf-localSharedImportMap:__mfe_internal__fumigationOperation"
+    ]
+  },
+  "virtual:mf:__mfe_internal__fumigationOperation__prebuild__vue__prebuild__.js": {
+    "file": "assets/_virtual_mf___mfe_internal__fumigationOperation__prebuild__vue__prebuild__-BHNKj4Mr.js",
+    "name": "_virtual_mf___mfe_internal__fumigationOperation__prebuild__vue__prebuild__",
+    "src": "virtual:mf:__mfe_internal__fumigationOperation__prebuild__vue__prebuild__.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__fumigationOperation__loadShare__vue__loadShare__.js-D-8Q9uQ5.js"
+    ]
+  },
+  "virtual:mf:__mfe_internal__fumigationOperation__prebuild__vue_mf_2_router__prebuild__.js": {
+    "file": "assets/_virtual_mf___mfe_internal__fumigationOperation__prebuild__vue_mf_2_router__prebuild__-s433Ku-9.js",
+    "name": "_virtual_mf___mfe_internal__fumigationOperation__prebuild__vue_mf_2_router__prebuild__",
+    "src": "virtual:mf:__mfe_internal__fumigationOperation__prebuild__vue_mf_2_router__prebuild__.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__fumigationOperation__loadShare__vue_mf_2_router__loadShare__.js-BfuGMKHL.js"
+    ]
+  }
+}

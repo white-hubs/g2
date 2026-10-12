@@ -1,0 +1,1 @@
+import"./virtual_mf-exposes___mfe_internal__deviceCenterClient__remoteEntry_js-D7RsDXOf.js";import"./virtual_mf-REMOTE_ENTRY_ID___mfe_internal__deviceCenterClient__remoteEntry_js-CL6TZYUB.js";document.querySelector(`#app`).textContent=`@g2-client/device-center build shell`;

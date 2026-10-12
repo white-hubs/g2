@@ -1,0 +1,100 @@
+{
+  "_virtual_mf-REMOTE_ENTRY_ID___mfe_internal__accessControlClient__remoteEntry_js-CbJ8i1Qf.js": {
+    "file": "assets/virtual_mf-REMOTE_ENTRY_ID___mfe_internal__accessControlClient__remoteEntry_js-CbJ8i1Qf.js",
+    "name": "virtual_mf-REMOTE_ENTRY_ID___mfe_internal__accessControlClient__remoteEntry_js",
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "virtual:mf-localSharedImportMap:__mfe_internal__accessControlClient",
+      "_virtual_mf-exposes___mfe_internal__accessControlClient__remoteEntry_js-DDu1N43n.js"
+    ]
+  },
+  "_virtual_mf-exposes___mfe_internal__accessControlClient__remoteEntry_js-DDu1N43n.js": {
+    "file": "assets/virtual_mf-exposes___mfe_internal__accessControlClient__remoteEntry_js-DDu1N43n.js",
+    "name": "virtual_mf-exposes___mfe_internal__accessControlClient__remoteEntry_js",
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "src/client.ts"
+    ]
+  },
+  "_vite-preload-helper-7P2xnrDv.js": {
+    "file": "assets/vite-preload-helper-7P2xnrDv.js",
+    "name": "vite-preload-helper"
+  },
+  "index.html": {
+    "file": "assets/index-DrD0_J8_.js",
+    "name": "index",
+    "src": "index.html",
+    "isEntry": true,
+    "imports": [
+      "_virtual_mf-exposes___mfe_internal__accessControlClient__remoteEntry_js-DDu1N43n.js",
+      "_virtual_mf-REMOTE_ENTRY_ID___mfe_internal__accessControlClient__remoteEntry_js-CbJ8i1Qf.js"
+    ]
+  },
+  "src/client.ts": {
+    "file": "assets/client-C-DaFdhD.js",
+    "name": "client",
+    "src": "src/client.ts",
+    "isEntry": true
+  },
+  "virtual:mf-REMOTE_ENTRY_ID:__mfe_internal__accessControlClient__remoteEntry_js": {
+    "file": "remoteEntry.js",
+    "name": "remoteEntry",
+    "src": "virtual:mf-REMOTE_ENTRY_ID:__mfe_internal__accessControlClient__remoteEntry_js",
+    "imports": [
+      "_virtual_mf-REMOTE_ENTRY_ID___mfe_internal__accessControlClient__remoteEntry_js-CbJ8i1Qf.js"
+    ]
+  },
+  "virtual:mf-REMOTE_ENTRY_SSR_ID:__mfe_internal__accessControlClient__remoteEntry_js": {
+    "file": "remoteEntry.ssr.js",
+    "name": "ssrRemoteEntry",
+    "src": "virtual:mf-REMOTE_ENTRY_SSR_ID:__mfe_internal__accessControlClient__remoteEntry_js",
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "virtual:mf-exposes-ssr:__mfe_internal__accessControlClient__remoteEntry_js"
+    ]
+  },
+  "virtual:mf-exposes-ssr:__mfe_internal__accessControlClient__remoteEntry_js": {
+    "file": "assets/virtual_mf-exposes-ssr___mfe_internal__accessControlClient__remoteEntry_js-Bvt0vikE.js",
+    "name": "virtual_mf-exposes-ssr___mfe_internal__accessControlClient__remoteEntry_js",
+    "src": "virtual:mf-exposes-ssr:__mfe_internal__accessControlClient__remoteEntry_js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "src/client.ts"
+    ]
+  },
+  "virtual:mf-exposes:__mfe_internal__accessControlClient__remoteEntry_js": {
+    "file": "assets/virtualExposes-DNbaWiWx.js",
+    "name": "virtualExposes",
+    "src": "virtual:mf-exposes:__mfe_internal__accessControlClient__remoteEntry_js",
+    "imports": [
+      "_virtual_mf-exposes___mfe_internal__accessControlClient__remoteEntry_js-DDu1N43n.js"
+    ]
+  },
+  "virtual:mf-localSharedImportMap:__mfe_internal__accessControlClient": {
+    "file": "assets/_virtual_mf-localSharedImportMap___mfe_internal__accessControlClient-CcdcYaa2.js",
+    "name": "_virtual_mf-localSharedImportMap___mfe_internal__accessControlClient",
+    "src": "virtual:mf-localSharedImportMap:__mfe_internal__accessControlClient",
+    "isDynamicEntry": true
+  },
+  "virtual:mf:__mfe_internal__accessControlClient__H_A_I__hostAutoInit__H_A_I__.js": {
+    "file": "assets/hostInit-BSmLyici.js",
+    "name": "hostInit",
+    "src": "virtual:mf:__mfe_internal__accessControlClient__H_A_I__hostAutoInit__H_A_I__.js",
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "_virtual_mf-REMOTE_ENTRY_ID___mfe_internal__accessControlClient__remoteEntry_js-CbJ8i1Qf.js",
+      "virtual:mf-localSharedImportMap:__mfe_internal__accessControlClient"
+    ]
+  }
+}

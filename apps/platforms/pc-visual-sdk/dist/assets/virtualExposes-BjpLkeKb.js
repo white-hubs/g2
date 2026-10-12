@@ -1,0 +1,1 @@
+import{t as e}from"./virtual_mf-exposes___mfe_internal__pcVisualSdk__remoteEntry_js--Qw54SrJ.js";export{e as default};

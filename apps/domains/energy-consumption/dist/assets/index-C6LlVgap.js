@@ -1,0 +1,1 @@
+import"./virtual_mf-exposes___mfe_internal__energyConsumption__remoteEntry_js-Dg-ehEk1.js";import"./virtual_mf-REMOTE_ENTRY_ID___mfe_internal__energyConsumption__remoteEntry_js-CYp7OesS.js";document.querySelector(`#app`).textContent=`@g2-domain/energy-consumption build shell`;

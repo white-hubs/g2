@@ -1,0 +1,1 @@
+import{n as e,t}from"./domain-KPZysLLc.js";export{t as PERSON_MANAGEMENT_BASE,e as default};

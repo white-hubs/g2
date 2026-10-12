@@ -1,0 +1,91 @@
+.searchForm {
+  margin-bottom: 16px;
+
+  :global(.ant-form-item),
+  :global(.security-opinion-monitoring-form-item) {
+    padding-right: 0 !important;
+    margin-right: 8px !important;
+    margin-bottom: 8px !important;
+  }
+
+  :global(.ant-form-item-label),
+  :global(.security-opinion-monitoring-form-item-label) {
+    padding-right: 4px;
+  }
+}
+
+.searchItem {
+  padding-right: 0 !important;
+  margin-right: 8px !important;
+  margin-bottom: 8px !important;
+}
+
+.opinionTable {
+  :global(.ant-table-thead > tr > th),
+  :global(.security-opinion-monitoring-table-thead > tr > th) {
+    white-space: nowrap;
+  }
+}
+
+.titleCell {
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.detail {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.detailTitle {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0 0 8px;
+  color: #1e293b;
+}
+
+.detailRow {
+  display: flex;
+  gap: 12px;
+  font-size: 14px;
+  line-height: 1.6;
+
+  > span:first-child {
+    flex-shrink: 0;
+    width: 80px;
+    color: #64748b;
+  }
+
+  a {
+    color: #0d9488;
+    word-break: break-all;
+  }
+}
+
+.detailContent {
+  margin-top: 8px;
+}
+
+.detailLabel {
+  font-weight: 500;
+  margin-bottom: 8px;
+  color: #64748b;
+}
+
+.contentPre {
+  white-space: pre-wrap;
+  word-break: break-word;
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  padding: 12px 16px;
+  margin: 0;
+  font-family: inherit;
+  font-size: 14px;
+  line-height: 1.6;
+  max-height: 300px;
+  overflow-y: auto;
+}

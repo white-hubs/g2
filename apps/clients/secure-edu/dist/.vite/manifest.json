@@ -1,0 +1,100 @@
+{
+  "_virtual_mf-REMOTE_ENTRY_ID___mfe_internal__secureEduClient__remoteEntry_js-BH3z61eJ.js": {
+    "file": "assets/virtual_mf-REMOTE_ENTRY_ID___mfe_internal__secureEduClient__remoteEntry_js-BH3z61eJ.js",
+    "name": "virtual_mf-REMOTE_ENTRY_ID___mfe_internal__secureEduClient__remoteEntry_js",
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "virtual:mf-localSharedImportMap:__mfe_internal__secureEduClient",
+      "_virtual_mf-exposes___mfe_internal__secureEduClient__remoteEntry_js-BXjaNr59.js"
+    ]
+  },
+  "_virtual_mf-exposes___mfe_internal__secureEduClient__remoteEntry_js-BXjaNr59.js": {
+    "file": "assets/virtual_mf-exposes___mfe_internal__secureEduClient__remoteEntry_js-BXjaNr59.js",
+    "name": "virtual_mf-exposes___mfe_internal__secureEduClient__remoteEntry_js",
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "src/client.ts"
+    ]
+  },
+  "_vite-preload-helper-7P2xnrDv.js": {
+    "file": "assets/vite-preload-helper-7P2xnrDv.js",
+    "name": "vite-preload-helper"
+  },
+  "index.html": {
+    "file": "assets/index-gxwKPjWi.js",
+    "name": "index",
+    "src": "index.html",
+    "isEntry": true,
+    "imports": [
+      "_virtual_mf-exposes___mfe_internal__secureEduClient__remoteEntry_js-BXjaNr59.js",
+      "_virtual_mf-REMOTE_ENTRY_ID___mfe_internal__secureEduClient__remoteEntry_js-BH3z61eJ.js"
+    ]
+  },
+  "src/client.ts": {
+    "file": "assets/client-hosZDwJH.js",
+    "name": "client",
+    "src": "src/client.ts",
+    "isEntry": true
+  },
+  "virtual:mf-REMOTE_ENTRY_ID:__mfe_internal__secureEduClient__remoteEntry_js": {
+    "file": "remoteEntry.js",
+    "name": "remoteEntry",
+    "src": "virtual:mf-REMOTE_ENTRY_ID:__mfe_internal__secureEduClient__remoteEntry_js",
+    "imports": [
+      "_virtual_mf-REMOTE_ENTRY_ID___mfe_internal__secureEduClient__remoteEntry_js-BH3z61eJ.js"
+    ]
+  },
+  "virtual:mf-REMOTE_ENTRY_SSR_ID:__mfe_internal__secureEduClient__remoteEntry_js": {
+    "file": "remoteEntry.ssr.js",
+    "name": "ssrRemoteEntry",
+    "src": "virtual:mf-REMOTE_ENTRY_SSR_ID:__mfe_internal__secureEduClient__remoteEntry_js",
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "virtual:mf-exposes-ssr:__mfe_internal__secureEduClient__remoteEntry_js"
+    ]
+  },
+  "virtual:mf-exposes-ssr:__mfe_internal__secureEduClient__remoteEntry_js": {
+    "file": "assets/virtual_mf-exposes-ssr___mfe_internal__secureEduClient__remoteEntry_js-Dzt2Fse4.js",
+    "name": "virtual_mf-exposes-ssr___mfe_internal__secureEduClient__remoteEntry_js",
+    "src": "virtual:mf-exposes-ssr:__mfe_internal__secureEduClient__remoteEntry_js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "src/client.ts"
+    ]
+  },
+  "virtual:mf-exposes:__mfe_internal__secureEduClient__remoteEntry_js": {
+    "file": "assets/virtualExposes-GMVmSi8s.js",
+    "name": "virtualExposes",
+    "src": "virtual:mf-exposes:__mfe_internal__secureEduClient__remoteEntry_js",
+    "imports": [
+      "_virtual_mf-exposes___mfe_internal__secureEduClient__remoteEntry_js-BXjaNr59.js"
+    ]
+  },
+  "virtual:mf-localSharedImportMap:__mfe_internal__secureEduClient": {
+    "file": "assets/_virtual_mf-localSharedImportMap___mfe_internal__secureEduClient-CcdcYaa2.js",
+    "name": "_virtual_mf-localSharedImportMap___mfe_internal__secureEduClient",
+    "src": "virtual:mf-localSharedImportMap:__mfe_internal__secureEduClient",
+    "isDynamicEntry": true
+  },
+  "virtual:mf:__mfe_internal__secureEduClient__H_A_I__hostAutoInit__H_A_I__.js": {
+    "file": "assets/hostInit-Dj9SpdS0.js",
+    "name": "hostInit",
+    "src": "virtual:mf:__mfe_internal__secureEduClient__H_A_I__hostAutoInit__H_A_I__.js",
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "_virtual_mf-REMOTE_ENTRY_ID___mfe_internal__secureEduClient__remoteEntry_js-BH3z61eJ.js",
+      "virtual:mf-localSharedImportMap:__mfe_internal__secureEduClient"
+    ]
+  }
+}

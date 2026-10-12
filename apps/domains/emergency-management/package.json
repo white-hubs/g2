@@ -1,0 +1,34 @@
+{
+  "name": "@g2-domain/emergency-management",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "bun ../../../tooling/dev-link/cli.ts",
+    "dev:serve": "bun --bun vite --port 5068 --strictPort",
+    "build": "bun --bun vite build",
+    "preview": "bun --bun vite preview --port 5068 --strictPort",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "bun test"
+  },
+  "dependencies": {
+    "@ant-design/icons-vue": "^7.0.1",
+    "@g2-client/emergency-management": "workspace:*",
+    "@g2-composition/contract": "workspace:*",
+    "@g2-contract/emergency-management": "workspace:*",
+    "ant-design-vue": "catalog:antdv",
+    "file-saver": "^2.0.5",
+    "jszip": "^3.10.1",
+    "vue": "catalog:vue",
+    "vue-router": "catalog:vue",
+    "wangeditor": "^4.7.15"
+  },
+  "devDependencies": {
+    "@g2-platform/pc-ui": "workspace:*",
+    "@g2-tooling/mf-vite": "workspace:*",
+    "@types/file-saver": "^2.0.7",
+    "@vitejs/plugin-vue-jsx": "catalog:vite",
+    "typescript": "catalog:typescript",
+    "vite": "catalog:vite"
+  }
+}

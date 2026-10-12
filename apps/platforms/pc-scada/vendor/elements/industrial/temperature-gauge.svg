@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:scada="http://cube-scada.io/ns/v1" viewBox="0 0 100 100" width="100" height="100">
+  <metadata>
+    <scada:element>
+      <scada:meta type="temperature-gauge" label="&#x6E29;&#x5EA6;&#x4EEA;&#x8868;" category="industrial" version="1.0.0"/>
+      <scada:props>
+        <scada:prop name="minValue" type="number" label="&#x6700;&#x5C0F;&#x503C;" default="0" domain="observe" semantic="status.min" required="false" bindable="true" controllable="false"/>
+        <scada:prop name="maxValue" type="number" label="&#x6700;&#x5927;&#x503C;" default="100" domain="observe" semantic="status.max" required="false" bindable="true" controllable="false"/>
+        <scada:prop name="temperature" type="number" label="&#x6E29;&#x5EA6;" default="50" unit="&#x6444;&#x6C0F;&#x5EA6;" domain="observe" semantic="status.value" required="false" bindable="true" controllable="false"/>
+        <scada:prop name="highTempAlarm" type="boolean" label="&#x9AD8;&#x6E29;&#x544A;&#x8B66;" default="false" domain="observe" semantic="status.state" required="false" bindable="true" controllable="false"/>
+        <scada:prop name="bodyColor" type="color" label="&#x9762;&#x677F;&#x989C;&#x8272;" default="#fff7ed" domain="observe" semantic="style.bodyColor" required="false" bindable="true" controllable="false"/>
+        <scada:prop name="label" type="string" label="&#x6807;&#x9898;" default="&#x6E29;&#x5EA6;" domain="observe" semantic="display.label" required="false" bindable="true" controllable="false"/>
+      </scada:props>
+      <scada:mappings>
+        <scada:map prop="bodyColor" selector="#panel" attr="fill"/>
+        <scada:map prop="label" selector="#title" attr="textContent"/>
+        <scada:map prop="temperature" selector="#value-text" attr="textContent" transform="String(Math.round(value ?? 0)) + '&#x00B0;C'"/>
+        <scada:map prop="highTempAlarm" selector="#status-lamp" attr="fill" transform="value ? '#ef4444' : '#22c55e'"/>
+      </scada:mappings>
+      <scada:animations>
+        <scada:animation id="high-temp-pulse" triggerProp="highTempAlarm" triggerCondition="value === true" target="#status-lamp" keyframes='[{"opacity":1},{"opacity":0.35},{"opacity":1}]' duration="900" iterations="Infinity" easing="ease-in-out"/>
+      </scada:animations>
+      <scada:script type="render"><![CDATA[
+        const needle = svg.querySelector('#needle');
+        if (!needle) return;
+        const minVal = Number(props.minValue ?? 0);
+        const maxVal = Number(props.maxValue ?? 100);
+        const v = Number(props.temperature ?? ((minVal + maxVal) / 2));
+        const low = Math.min(minVal, maxVal);
+        const high = Math.max(minVal, maxVal);
+        const safeSpan = Math.max(1e-6, high - low);
+        const clamped = Math.max(low, Math.min(high, v));
+        const ratio = (clamped - low) / safeSpan;
+        const angle = -90 + ratio * 180;
+        needle.setAttribute('transform', `rotate(${angle}, 50, 52)`);
+      ]]></scada:script>
+    </scada:element>
+  </metadata>
+
+  <defs>
+    <linearGradient id="danger-arc-gradient" x1="75" y1="26" x2="74" y2="78" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#fde047"/>
+      <stop offset="45%" stop-color="#fb923c"/>
+      <stop offset="100%" stop-color="#dc2626"/>
+    </linearGradient>
+    <filter id="soft-shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="1.2" stdDeviation="1.2" flood-color="#000000" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+
+  <!-- Outer disk -->
+  <circle id="panel" cx="50" cy="50" r="44" fill="#f8f5f4" stroke="#e7e1df" stroke-width="1.5"/>
+  <text id="title" x="50" y="16" text-anchor="middle" font-size="8.5" fill="#7c2d12">&#x6E29;&#x5EA6;&#x4EEA;&#x8868;</text>
+
+  <!-- Ring base -->
+  <circle cx="50" cy="52" r="31" fill="none" stroke="#f2ecea" stroke-width="10"/>
+
+  <!-- Gray scale ticks -->
+  <g stroke="#8f8784" stroke-linecap="round" opacity="0.9">
+    <line x1="50" y1="18" x2="50" y2="26" stroke-width="2" transform="rotate(-150, 50, 52)"/>
+    <line x1="50" y1="18" x2="50" y2="26" stroke-width="2" transform="rotate(-135, 50, 52)"/>
+    <line x1="50" y1="18" x2="50" y2="26" stroke-width="2" transform="rotate(-120, 50, 52)"/>
+    <line x1="50" y1="18" x2="50" y2="26" stroke-width="2" transform="rotate(-105, 50, 52)"/>
+    <line x1="50" y1="18" x2="50" y2="26" stroke-width="2" transform="rotate(-90, 50, 52)"/>
+    <line x1="50" y1="18" x2="50" y2="26" stroke-width="2" transform="rotate(-75, 50, 52)"/>
+    <line x1="50" y1="18" x2="50" y2="26" stroke-width="2" transform="rotate(-60, 50, 52)"/>
+    <line x1="50" y1="18" x2="50" y2="26" stroke-width="2" transform="rotate(-45, 50, 52)"/>
+    <line x1="50" y1="18" x2="50" y2="26" stroke-width="2" transform="rotate(-30, 50, 52)"/>
+    <line x1="50" y1="18" x2="50" y2="26" stroke-width="2" transform="rotate(-15, 50, 52)"/>
+    <line x1="50" y1="18" x2="50" y2="26" stroke-width="2" transform="rotate(0, 50, 52)"/>
+    <line x1="50" y1="18" x2="50" y2="26" stroke-width="2" transform="rotate(15, 50, 52)"/>
+    <line x1="50" y1="18" x2="50" y2="26" stroke-width="2" transform="rotate(30, 50, 52)"/>
+    <line x1="50" y1="18" x2="50" y2="26" stroke-width="2" transform="rotate(45, 50, 52)"/>
+    <line x1="50" y1="18" x2="50" y2="26" stroke-width="2" transform="rotate(60, 50, 52)"/>
+    <line x1="50" y1="18" x2="50" y2="26" stroke-width="2" transform="rotate(75, 50, 52)"/>
+    <line x1="50" y1="18" x2="50" y2="26" stroke-width="2" transform="rotate(90, 50, 52)"/>
+    <line x1="50" y1="18" x2="50" y2="26" stroke-width="2" transform="rotate(105, 50, 52)"/>
+    <line x1="50" y1="18" x2="50" y2="26" stroke-width="2" transform="rotate(120, 50, 52)"/>
+    <line x1="50" y1="18" x2="50" y2="26" stroke-width="2" transform="rotate(135, 50, 52)"/>
+    <line x1="50" y1="18" x2="50" y2="26" stroke-width="2" transform="rotate(150, 50, 52)"/>
+  </g>
+
+  <!-- Right hot zone -->
+  <path d="M70.6 22.5 A36 36 0 0 1 70.6 81.5 L64.9 73.3 A26 26 0 0 0 64.9 30.7 Z" fill="url(#danger-arc-gradient)" filter="url(#soft-shadow)"/>
+  <g stroke="#fef9e7" stroke-linecap="round">
+    <line x1="50" y1="20.2" x2="50" y2="25.8" stroke-width="1.5" transform="rotate(18, 50, 52)"/>
+    <line x1="50" y1="20.2" x2="50" y2="25.8" stroke-width="1.5" transform="rotate(35, 50, 52)"/>
+    <line x1="50" y1="20.2" x2="50" y2="25.8" stroke-width="1.5" transform="rotate(52, 50, 52)"/>
+    <line x1="50" y1="20.2" x2="50" y2="25.8" stroke-width="1.5" transform="rotate(69, 50, 52)"/>
+  </g>
+
+  <!-- Inner dial -->
+  <circle cx="50" cy="52" r="23.5" fill="#fbf9f8" stroke="#ece7e5" stroke-width="1"/>
+  <g id="needle" transform="rotate(0, 50, 52)" filter="url(#soft-shadow)">
+    <polygon points="50,28 47.8,52 52.2,52" fill="#ef1f1f" stroke="#d71818" stroke-width="0.8"/>
+  </g>
+  <circle cx="50" cy="52" r="4.6" fill="#ef1f1f" stroke="#d71818" stroke-width="1"/>
+
+  <text id="value-text" x="50" y="82.5" text-anchor="middle" font-size="9" fill="#7c2d12">25&#x00B0;C</text>
+  <circle id="status-lamp" cx="82" cy="18" r="3.5" fill="#22c55e" stroke="#14532d" stroke-width="0.8"/>
+</svg>

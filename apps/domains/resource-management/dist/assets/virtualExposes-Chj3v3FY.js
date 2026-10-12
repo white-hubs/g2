@@ -1,0 +1,1 @@
+import{t as e}from"./virtual_mf-exposes___mfe_internal__resourceManagement__remoteEntry_js-DK_GzELZ.js";export{e as default};

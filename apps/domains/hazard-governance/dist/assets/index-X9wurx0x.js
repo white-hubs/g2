@@ -1,0 +1,1 @@
+import"./virtual_mf-exposes___mfe_internal__hazardGovernance__remoteEntry_js-BO7XMxWk.js";import"./virtual_mf-REMOTE_ENTRY_ID___mfe_internal__hazardGovernance__remoteEntry_js-BxO5Ql15.js";document.querySelector(`#app`).textContent=`@g2-domain/hazard-governance build shell`;

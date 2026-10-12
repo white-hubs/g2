@@ -1,0 +1,1 @@
+import"./virtual_mf-exposes___mfe_internal__workOrderCenter__remoteEntry_js-CegS-aRI.js";import"./virtual_mf-REMOTE_ENTRY_ID___mfe_internal__workOrderCenter__remoteEntry_js-BAWkEvc6.js";var e=document.querySelector(`#app`);e&&(e.textContent=`@g2-domain/work-order-center`);

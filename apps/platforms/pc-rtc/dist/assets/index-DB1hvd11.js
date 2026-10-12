@@ -1,0 +1,1 @@
+import{n as e,t}from"./_virtual_mf___mfe_internal__pcRtc__loadShare__vue__loadShare__.js-Cmv8L1QI.js";import"./virtual_mf-exposes___mfe_internal__pcRtc__remoteEntry_js-BFd3hz42.js";import"./virtual_mf-REMOTE_ENTRY_ID___mfe_internal__pcRtc__remoteEntry_js-CPzQ3Y2Y.js";e({setup(){return()=>t(`p`,`@g2-platform/pc-rtc (no visible UI yet, event routing only)`)}}).mount(`#app`);

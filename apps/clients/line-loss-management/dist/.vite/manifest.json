@@ -1,0 +1,76 @@
+{
+  "_vite-preload-helper-7P2xnrDv.js": {
+    "file": "assets/vite-preload-helper-7P2xnrDv.js",
+    "name": "vite-preload-helper"
+  },
+  "src/client.ts": {
+    "file": "assets/client-CmEmARP0.js",
+    "name": "client",
+    "src": "src/client.ts",
+    "isEntry": true
+  },
+  "virtual:mf-REMOTE_ENTRY_ID:__mfe_internal__lineLossManagementClient__remoteEntry_js": {
+    "file": "remoteEntry.js",
+    "name": "remoteEntry",
+    "src": "virtual:mf-REMOTE_ENTRY_ID:__mfe_internal__lineLossManagementClient__remoteEntry_js",
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "virtual:mf-localSharedImportMap:__mfe_internal__lineLossManagementClient",
+      "virtual:mf-exposes:__mfe_internal__lineLossManagementClient__remoteEntry_js"
+    ]
+  },
+  "virtual:mf-REMOTE_ENTRY_SSR_ID:__mfe_internal__lineLossManagementClient__remoteEntry_js": {
+    "file": "remoteEntry.ssr.js",
+    "name": "ssrRemoteEntry",
+    "src": "virtual:mf-REMOTE_ENTRY_SSR_ID:__mfe_internal__lineLossManagementClient__remoteEntry_js",
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "virtual:mf-exposes-ssr:__mfe_internal__lineLossManagementClient__remoteEntry_js"
+    ]
+  },
+  "virtual:mf-exposes-ssr:__mfe_internal__lineLossManagementClient__remoteEntry_js": {
+    "file": "assets/virtual_mf-exposes-ssr___mfe_internal__lineLossManagementClient__remoteEntry_js-Of83xwHO.js",
+    "name": "virtual_mf-exposes-ssr___mfe_internal__lineLossManagementClient__remoteEntry_js",
+    "src": "virtual:mf-exposes-ssr:__mfe_internal__lineLossManagementClient__remoteEntry_js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "src/client.ts"
+    ]
+  },
+  "virtual:mf-exposes:__mfe_internal__lineLossManagementClient__remoteEntry_js": {
+    "file": "assets/virtualExposes-DTB0PHUb.js",
+    "name": "virtualExposes",
+    "src": "virtual:mf-exposes:__mfe_internal__lineLossManagementClient__remoteEntry_js",
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "src/client.ts"
+    ]
+  },
+  "virtual:mf-localSharedImportMap:__mfe_internal__lineLossManagementClient": {
+    "file": "assets/_virtual_mf-localSharedImportMap___mfe_internal__lineLossManagementClient-CcdcYaa2.js",
+    "name": "_virtual_mf-localSharedImportMap___mfe_internal__lineLossManagementClient",
+    "src": "virtual:mf-localSharedImportMap:__mfe_internal__lineLossManagementClient",
+    "isDynamicEntry": true
+  },
+  "virtual:mf:__mfe_internal__lineLossManagementClient__H_A_I__hostAutoInit__H_A_I__.js": {
+    "file": "assets/hostInit-nRIp8-qa.js",
+    "name": "hostInit",
+    "src": "virtual:mf:__mfe_internal__lineLossManagementClient__H_A_I__hostAutoInit__H_A_I__.js",
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "virtual:mf-REMOTE_ENTRY_ID:__mfe_internal__lineLossManagementClient__remoteEntry_js",
+      "virtual:mf-localSharedImportMap:__mfe_internal__lineLossManagementClient"
+    ]
+  }
+}

@@ -1,0 +1,1 @@
+import"./virtual_mf-exposes___mfe_internal__emergencyDispatchClient__remoteEntry_js-5x2PiJmE.js";import"./virtual_mf-REMOTE_ENTRY_ID___mfe_internal__emergencyDispatchClient__remoteEntry_js-mXtzhQWM.js";var e=document.querySelector(`#app`);e&&(e.textContent=`@g2-client/emergency-dispatch`);

@@ -1,0 +1,1 @@
+import"./virtual_mf-exposes___mfe_internal__electricalSafety__remoteEntry_js-CcRvGIqN.js";import"./virtual_mf-REMOTE_ENTRY_ID___mfe_internal__electricalSafety__remoteEntry_js-xQE4z5C2.js";var e=document.querySelector(`#app`);e&&(e.textContent=`@g2-domain/electrical-safety`);

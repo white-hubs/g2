@@ -1,0 +1,116 @@
+{
+  "../../../contracts/electronic-patrol/src/main.ts": {
+    "file": "assets/main-BvRk9kiK.js",
+    "name": "main",
+    "src": "../../../contracts/electronic-patrol/src/main.ts",
+    "isDynamicEntry": true
+  },
+  "../../../packages/composition-contract/src/index.ts": {
+    "file": "assets/src-cEcQdaRR.js",
+    "name": "src",
+    "src": "../../../packages/composition-contract/src/index.ts",
+    "isDynamicEntry": true
+  },
+  "_client-Bmeqloko.js": {
+    "file": "assets/client-Bmeqloko.js",
+    "name": "client"
+  },
+  "_virtual_mf-REMOTE_ENTRY_ID___mfe_internal__electronicPatrolClient__remoteEntry_js-C0QinOqh.js": {
+    "file": "assets/virtual_mf-REMOTE_ENTRY_ID___mfe_internal__electronicPatrolClient__remoteEntry_js-C0QinOqh.js",
+    "name": "virtual_mf-REMOTE_ENTRY_ID___mfe_internal__electronicPatrolClient__remoteEntry_js",
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "virtual:mf-localSharedImportMap:__mfe_internal__electronicPatrolClient",
+      "_virtual_mf-exposes___mfe_internal__electronicPatrolClient__remoteEntry_js-BdfZxNWx.js"
+    ]
+  },
+  "_virtual_mf-exposes___mfe_internal__electronicPatrolClient__remoteEntry_js-BdfZxNWx.js": {
+    "file": "assets/virtual_mf-exposes___mfe_internal__electronicPatrolClient__remoteEntry_js-BdfZxNWx.js",
+    "name": "virtual_mf-exposes___mfe_internal__electronicPatrolClient__remoteEntry_js",
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "_client-Bmeqloko.js"
+    ]
+  },
+  "_vite-preload-helper-7P2xnrDv.js": {
+    "file": "assets/vite-preload-helper-7P2xnrDv.js",
+    "name": "vite-preload-helper"
+  },
+  "src/client.ts": {
+    "file": "assets/client-B11ZpzuA.js",
+    "name": "client",
+    "src": "src/client.ts",
+    "isEntry": true,
+    "imports": [
+      "_client-Bmeqloko.js"
+    ]
+  },
+  "virtual:mf-REMOTE_ENTRY_ID:__mfe_internal__electronicPatrolClient__remoteEntry_js": {
+    "file": "remoteEntry.js",
+    "name": "remoteEntry",
+    "src": "virtual:mf-REMOTE_ENTRY_ID:__mfe_internal__electronicPatrolClient__remoteEntry_js",
+    "imports": [
+      "_virtual_mf-REMOTE_ENTRY_ID___mfe_internal__electronicPatrolClient__remoteEntry_js-C0QinOqh.js"
+    ]
+  },
+  "virtual:mf-REMOTE_ENTRY_SSR_ID:__mfe_internal__electronicPatrolClient__remoteEntry_js": {
+    "file": "remoteEntry.ssr.js",
+    "name": "ssrRemoteEntry",
+    "src": "virtual:mf-REMOTE_ENTRY_SSR_ID:__mfe_internal__electronicPatrolClient__remoteEntry_js",
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "virtual:mf-exposes-ssr:__mfe_internal__electronicPatrolClient__remoteEntry_js"
+    ]
+  },
+  "virtual:mf-exposes-ssr:__mfe_internal__electronicPatrolClient__remoteEntry_js": {
+    "file": "assets/virtual_mf-exposes-ssr___mfe_internal__electronicPatrolClient__remoteEntry_js-CVMEywoR.js",
+    "name": "virtual_mf-exposes-ssr___mfe_internal__electronicPatrolClient__remoteEntry_js",
+    "src": "virtual:mf-exposes-ssr:__mfe_internal__electronicPatrolClient__remoteEntry_js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "_client-Bmeqloko.js"
+    ]
+  },
+  "virtual:mf-exposes:__mfe_internal__electronicPatrolClient__remoteEntry_js": {
+    "file": "assets/virtualExposes-Kl1jgiZ2.js",
+    "name": "virtualExposes",
+    "src": "virtual:mf-exposes:__mfe_internal__electronicPatrolClient__remoteEntry_js",
+    "imports": [
+      "_virtual_mf-exposes___mfe_internal__electronicPatrolClient__remoteEntry_js-BdfZxNWx.js"
+    ]
+  },
+  "virtual:mf-localSharedImportMap:__mfe_internal__electronicPatrolClient": {
+    "file": "assets/_virtual_mf-localSharedImportMap___mfe_internal__electronicPatrolClient-BUm2pSUR.js",
+    "name": "_virtual_mf-localSharedImportMap___mfe_internal__electronicPatrolClient",
+    "src": "virtual:mf-localSharedImportMap:__mfe_internal__electronicPatrolClient",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "../../../packages/composition-contract/src/index.ts",
+      "../../../contracts/electronic-patrol/src/main.ts"
+    ]
+  },
+  "virtual:mf:__mfe_internal__electronicPatrolClient__H_A_I__hostAutoInit__H_A_I__.js": {
+    "file": "assets/hostInit-cTbJO_Up.js",
+    "name": "hostInit",
+    "src": "virtual:mf:__mfe_internal__electronicPatrolClient__H_A_I__hostAutoInit__H_A_I__.js",
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "_virtual_mf-REMOTE_ENTRY_ID___mfe_internal__electronicPatrolClient__remoteEntry_js-C0QinOqh.js",
+      "virtual:mf-localSharedImportMap:__mfe_internal__electronicPatrolClient"
+    ]
+  }
+}

@@ -1,0 +1,1 @@
+import{t as e}from"./virtual_mf-exposes___mfe_internal__inspectionAiClient__remoteEntry_js-CwDrvaDp.js";export{e as default};

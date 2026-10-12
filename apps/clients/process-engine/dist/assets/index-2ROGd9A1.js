@@ -1,0 +1,1 @@
+import"./virtual_mf-exposes___mfe_internal__processEngineClient__remoteEntry_js-DRrnzTSV.js";import"./virtual_mf-REMOTE_ENTRY_ID___mfe_internal__processEngineClient__remoteEntry_js-CvqgKsa0.js";var e=document.querySelector(`#app`);e&&(e.textContent=`@g2-client/process-engine`);

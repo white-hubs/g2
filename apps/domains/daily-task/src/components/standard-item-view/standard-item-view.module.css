@@ -1,0 +1,20 @@
+.tableActions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+.rich-text-content {
+  max-width: 480px;
+  max-height: 360px;
+  overflow: auto;
+  text-align: left;
+  word-break: break-word;
+}
+.rich-text-content :global(img) {
+  max-width: 100%;
+  height: auto;
+}
+.rich-text-content :global(table) {
+  max-width: 100%;
+}

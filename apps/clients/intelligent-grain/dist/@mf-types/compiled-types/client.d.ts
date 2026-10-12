@@ -1,0 +1,60 @@
+import type { PlatformContext } from "@g2-composition/contract";
+interface HttpClient {
+    get: (url: string) => Promise<unknown>;
+    post: (url: string, body?: unknown) => Promise<unknown>;
+    put: (url: string, body?: unknown) => Promise<unknown>;
+    delete: (url: string) => Promise<unknown>;
+}
+export type IntelligentGrainClient = {
+    getIntelligentGrainDashboard: (params?: unknown) => Promise<unknown>;
+    listIntelligentGrainWarehouseOptions: (params?: unknown) => Promise<unknown>;
+    pageIntelligentGrainWarehouses: (params?: unknown) => Promise<unknown>;
+    getIntelligentGrainWarehouse: (warehouseId?: unknown) => Promise<unknown>;
+    createIntelligentGrainWarehouse: (payload?: unknown) => Promise<unknown>;
+    updateIntelligentGrainWarehouse: (warehouseId?: unknown, payload?: unknown) => Promise<unknown>;
+    deleteIntelligentGrainWarehouse: (warehouseId?: unknown) => Promise<unknown>;
+    listIntelligentGrainVarietyOptions: (warehouseId?: unknown) => Promise<unknown>;
+    listIntelligentGrainGlobalVarietyOptions: (params?: unknown, _arg?: unknown) => Promise<unknown>;
+    pageIntelligentGrainVarieties: (params?: unknown) => Promise<unknown>;
+    getIntelligentGrainVariety: (varietyId?: unknown) => Promise<unknown>;
+    createIntelligentGrainVariety: (payload?: unknown) => Promise<unknown>;
+    updateIntelligentGrainVariety: (varietyId?: unknown, payload?: unknown) => Promise<unknown>;
+    deleteIntelligentGrainVariety: (varietyId?: unknown) => Promise<unknown>;
+    exportIntelligentGrainVarieties: (params?: unknown) => Promise<unknown>;
+    pageIntelligentGrainQualityRecords: (params?: unknown) => Promise<unknown>;
+    getIntelligentGrainQualityRecord: (recordId?: unknown) => Promise<unknown>;
+    createIntelligentGrainQualityRecord: (payload?: unknown) => Promise<unknown>;
+    updateIntelligentGrainQualityRecord: (recordId?: unknown, payload?: unknown, _arg?: unknown) => Promise<unknown>;
+    deleteIntelligentGrainQualityRecord: (recordId?: unknown) => Promise<unknown>;
+    exportIntelligentGrainQualityRecords: (params?: unknown) => Promise<unknown>;
+    getIntelligentGrainArchive: (warehouseId?: unknown) => Promise<unknown>;
+    getIntelligentGrainArchiveTrend: (warehouseId?: unknown, params?: unknown) => Promise<unknown>;
+    pageIntelligentGrainArchiveRecords: (warehouseId?: unknown, params?: unknown, _arg?: unknown) => Promise<unknown>;
+    exportIntelligentGrainArchiveRecords: (warehouseId?: unknown, params?: unknown, _arg?: unknown) => Promise<unknown>;
+    batchWriteIntelligentGrainMetricSamples: (payload?: unknown, _arg?: unknown) => Promise<unknown>;
+    getIntelligentGrainGlobalRules: () => Promise<unknown>;
+    saveIntelligentGrainGlobalRules: (payload?: unknown) => Promise<unknown>;
+    restoreIntelligentGrainFactoryDefaults: () => Promise<unknown>;
+    pageIntelligentGrainWarehouseRules: (params?: unknown) => Promise<unknown>;
+    getIntelligentGrainWarehouseRules: (warehouseId?: unknown) => Promise<unknown>;
+    saveIntelligentGrainWarehouseRules: (warehouseId?: unknown, payload?: unknown, _arg?: unknown) => Promise<unknown>;
+    deleteIntelligentGrainWarehouseRules: (warehouseId?: unknown, _arg?: unknown) => Promise<unknown>;
+    getIntelligentGrainRuleEngineConstants: () => Promise<unknown>;
+    pageIntelligentGrainAlerts: (params?: unknown) => Promise<unknown>;
+    getIntelligentGrainAlert: (id?: unknown) => Promise<unknown>;
+    getIntelligentGrainAlertTracking: (id?: unknown) => Promise<unknown>;
+    judgeIntelligentGrainAlertReal: (id?: unknown, payload?: unknown) => Promise<unknown>;
+    markIntelligentGrainAlertMistake: (id?: unknown, payload?: unknown) => Promise<unknown>;
+    saveIntelligentGrainDisposalDraft: (id?: unknown, payload?: unknown) => Promise<unknown>;
+    submitIntelligentGrainDisposal: (id?: unknown, payload?: unknown) => Promise<unknown>;
+    acceptIntelligentGrainAlert: (id?: unknown, payload?: unknown) => Promise<unknown>;
+    rejectIntelligentGrainAlert: (id?: unknown, payload?: unknown) => Promise<unknown>;
+    exportIntelligentGrainAlerts: (params?: unknown) => Promise<unknown>;
+    getIntelligentGrainMobileSummary: (params?: unknown) => Promise<unknown>;
+    pageMyIntelligentGrainAlerts: (params?: unknown) => Promise<unknown>;
+};
+export declare function createIntelligentGrainClient(http: HttpClient): IntelligentGrainClient;
+/** MF `./client` 入口：自持 http 编排（ADR-0057）。 */
+export declare function create(ctx: PlatformContext): Promise<IntelligentGrainClient>;
+export {};
+//# sourceMappingURL=client.d.ts.map

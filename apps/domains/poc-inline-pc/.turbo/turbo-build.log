@@ -1,0 +1,6 @@
+$ bun build ./src/domain.ts --outdir ./dist --target browser
+Bundled 9 modules in 409ms
+
+  domain.js   45.45 KB  (entry point)
+  domain.css  72 bytes  (asset)
+

@@ -1,0 +1,120 @@
+/* 内部纵向布局；视口居中见 fire-management-common.css 的 .fire-device-select-modal */
+.device-select-modal :global(.ant-modal) {
+  display: flex;
+  height: min(720px, calc(100vh - 48px));
+  max-height: calc(100vh - 48px);
+  flex-direction: column;
+}
+
+.device-select-modal :global(.ant-modal-content) {
+  display: flex;
+  height: 100%;
+  min-height: 0;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.device-select-modal :global(.ant-modal-header),
+.device-select-footer {
+  flex: 0 0 auto;
+}
+
+.device-select-modal :global(.ant-modal-body) {
+  display: flex;
+  min-height: 0;
+  flex: 1;
+  overflow: hidden;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.device-select-content {
+  display: flex;
+  width: 100%;
+  min-height: 0;
+  flex: 1;
+  flex-direction: column;
+  overflow: hidden;
+  gap: 4px;
+}
+
+.device-select-form {
+  flex: 0 0 auto;
+}
+
+.device-select-form :global(.pc-query-form-header),
+.device-select-form :global([class*="pcQueryFormHeader"]) {
+  align-items: flex-start;
+}
+
+.device-select-form :global(.pc-query-form-container),
+.device-select-form :global([class*="pcQueryFormContainer"]) {
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  column-gap: 16px;
+  row-gap: 8px;
+  align-items: end;
+  padding: 8px 4px 0;
+}
+
+.device-select-form :global([class*="pcQueryFormActions"]) {
+  margin-bottom: 12px !important;
+}
+
+.device-select-form :global(.ant-form-item) {
+  margin-bottom: 12px !important;
+}
+
+.device-select-form :global(.ant-form-item-label),
+.device-select-form :global(.ant-form-item-label > label) {
+  text-align: left !important;
+  justify-content: flex-start !important;
+}
+
+.device-select-table {
+  min-height: 0;
+  flex: 1 1 auto;
+  overflow: hidden;
+}
+
+.device-select-table :global(.ant-table-body) {
+  overflow-y: auto !important;
+}
+
+.device-select-pagination {
+  display: flex;
+  min-height: 52px;
+  flex: 0 0 auto;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  border-top: 1px solid #f3f3f3;
+  padding-top: 8px;
+}
+
+.device-select-summary {
+  flex: 0 0 auto;
+  white-space: nowrap;
+  color: #4e5969;
+}
+
+.device-select-footer {
+  display: flex;
+  width: 100%;
+  min-width: 0;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 16px;
+  margin-top: 8px;
+  padding-top: 12px;
+  border-top: 1px solid #f3f3f3;
+}
+
+.device-select-footer-tip {
+  min-width: 0;
+  margin-right: auto;
+  overflow: hidden;
+  color: #86909c;
+  font-size: 12px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}

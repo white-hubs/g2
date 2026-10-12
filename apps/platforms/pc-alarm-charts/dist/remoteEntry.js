@@ -1,0 +1,1 @@
+import{n as e,t}from"./assets/virtual_mf-REMOTE_ENTRY_ID___mfe_internal__pcAlarmCharts__remoteEntry_js-Z2Flh-EA.js";export{t as get,e as init};

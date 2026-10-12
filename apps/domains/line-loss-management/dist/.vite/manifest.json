@@ -1,0 +1,255 @@
+{
+  "__virtual_mf___mfe_internal__lineLossManagement__loadShare__vue__loadShare__.js-CapqREIz.js": {
+    "file": "assets/_virtual_mf___mfe_internal__lineLossManagement__loadShare__vue__loadShare__.js-CapqREIz.js",
+    "name": "_virtual_mf___mfe_internal__lineLossManagement__loadShare__vue__loadShare__.js",
+    "imports": [
+      "_rolldown-runtime-QTnfLwEv.js"
+    ]
+  },
+  "__virtual_mf___mfe_internal__lineLossManagement__loadShare__vue_mf_2_router__loadShare__.js-IJZGEiiB.js": {
+    "file": "assets/_virtual_mf___mfe_internal__lineLossManagement__loadShare__vue_mf_2_router__loadShare__.js-IJZGEiiB.js",
+    "name": "_virtual_mf___mfe_internal__lineLossManagement__loadShare__vue_mf_2_router__loadShare__.js",
+    "imports": [
+      "_rolldown-runtime-QTnfLwEv.js",
+      "__virtual_mf___mfe_internal__lineLossManagement__loadShare__vue__loadShare__.js-CapqREIz.js"
+    ]
+  },
+  "_api-CUMmPA1t.js": {
+    "file": "assets/api-CUMmPA1t.js",
+    "name": "api",
+    "imports": [
+      "__virtual_mf___mfe_internal__lineLossManagement__loadShare__vue__loadShare__.js-CapqREIz.js",
+      "_domain-context-jGD-lYD8.js"
+    ]
+  },
+  "_dayjs.min-DwFf_CCC.js": {
+    "file": "assets/dayjs.min-DwFf_CCC.js",
+    "name": "dayjs.min",
+    "imports": [
+      "_rolldown-runtime-QTnfLwEv.js"
+    ]
+  },
+  "_domain-context-jGD-lYD8.js": {
+    "file": "assets/domain-context-jGD-lYD8.js",
+    "name": "domain-context"
+  },
+  "_pc-ui-proxy-CQzRe-qO.js": {
+    "file": "assets/pc-ui-proxy-CQzRe-qO.js",
+    "name": "pc-ui-proxy"
+  },
+  "_rolldown-runtime-QTnfLwEv.js": {
+    "file": "assets/rolldown-runtime-QTnfLwEv.js",
+    "name": "rolldown-runtime"
+  },
+  "_virtual_mf-REMOTE_ENTRY_ID___mfe_internal__lineLossManagement__remoteEntry_js-ByXzf0In.js": {
+    "file": "assets/virtual_mf-REMOTE_ENTRY_ID___mfe_internal__lineLossManagement__remoteEntry_js-ByXzf0In.js",
+    "name": "virtual_mf-REMOTE_ENTRY_ID___mfe_internal__lineLossManagement__remoteEntry_js",
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "virtual:mf-localSharedImportMap:__mfe_internal__lineLossManagement",
+      "_virtual_mf-exposes___mfe_internal__lineLossManagement__remoteEntry_js-BPGwLez4.js"
+    ]
+  },
+  "_virtual_mf-exposes___mfe_internal__lineLossManagement__remoteEntry_js-BPGwLez4.js": {
+    "file": "assets/virtual_mf-exposes___mfe_internal__lineLossManagement__remoteEntry_js-BPGwLez4.js",
+    "name": "virtual_mf-exposes___mfe_internal__lineLossManagement__remoteEntry_js",
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "src/domain.ts"
+    ]
+  },
+  "_vite-preload-helper-7P2xnrDv.js": {
+    "file": "assets/vite-preload-helper-7P2xnrDv.js",
+    "name": "vite-preload-helper"
+  },
+  "index.html": {
+    "file": "assets/index-B-L98Yz1.js",
+    "name": "index",
+    "src": "index.html",
+    "isEntry": true,
+    "imports": [
+      "_virtual_mf-exposes___mfe_internal__lineLossManagement__remoteEntry_js-BPGwLez4.js",
+      "_virtual_mf-REMOTE_ENTRY_ID___mfe_internal__lineLossManagement__remoteEntry_js-ByXzf0In.js"
+    ]
+  },
+  "src/domain.ts": {
+    "file": "assets/domain-BEG-tnYm.js",
+    "name": "domain",
+    "src": "src/domain.ts",
+    "isEntry": true,
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js",
+      "__virtual_mf___mfe_internal__lineLossManagement__loadShare__vue__loadShare__.js-CapqREIz.js",
+      "__virtual_mf___mfe_internal__lineLossManagement__loadShare__vue_mf_2_router__loadShare__.js-IJZGEiiB.js",
+      "_domain-context-jGD-lYD8.js"
+    ],
+    "dynamicImports": [
+      "src/views/power-relation.tsx",
+      "src/views/drawing-management.tsx",
+      "src/views/drawing-management-edit.tsx",
+      "src/views/collection-cycle.tsx",
+      "src/views/collection-record.tsx",
+      "src/views/loss-statistics.tsx"
+    ],
+    "css": [
+      "assets/domain-CU9C0L1e.css"
+    ]
+  },
+  "src/views/collection-cycle.tsx": {
+    "file": "assets/collection-cycle-c8Z-lDuB.js",
+    "name": "collection-cycle",
+    "src": "src/views/collection-cycle.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__lineLossManagement__loadShare__vue__loadShare__.js-CapqREIz.js",
+      "_pc-ui-proxy-CQzRe-qO.js",
+      "_api-CUMmPA1t.js"
+    ]
+  },
+  "src/views/collection-record.tsx": {
+    "file": "assets/collection-record-CFh9kP3R.js",
+    "name": "collection-record",
+    "src": "src/views/collection-record.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-QTnfLwEv.js",
+      "__virtual_mf___mfe_internal__lineLossManagement__loadShare__vue__loadShare__.js-CapqREIz.js",
+      "_pc-ui-proxy-CQzRe-qO.js",
+      "_domain-context-jGD-lYD8.js",
+      "_api-CUMmPA1t.js",
+      "_dayjs.min-DwFf_CCC.js"
+    ]
+  },
+  "src/views/drawing-management-edit.tsx": {
+    "file": "assets/drawing-management-edit-C3R4Q6_a.js",
+    "name": "drawing-management-edit",
+    "src": "src/views/drawing-management-edit.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__lineLossManagement__loadShare__vue__loadShare__.js-CapqREIz.js",
+      "__virtual_mf___mfe_internal__lineLossManagement__loadShare__vue_mf_2_router__loadShare__.js-IJZGEiiB.js",
+      "_pc-ui-proxy-CQzRe-qO.js"
+    ]
+  },
+  "src/views/drawing-management.tsx": {
+    "file": "assets/drawing-management-CzUicouH.js",
+    "name": "drawing-management",
+    "src": "src/views/drawing-management.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__lineLossManagement__loadShare__vue__loadShare__.js-CapqREIz.js",
+      "__virtual_mf___mfe_internal__lineLossManagement__loadShare__vue_mf_2_router__loadShare__.js-IJZGEiiB.js",
+      "_pc-ui-proxy-CQzRe-qO.js"
+    ]
+  },
+  "src/views/loss-statistics.tsx": {
+    "file": "assets/loss-statistics-DOzJc-uo.js",
+    "name": "loss-statistics",
+    "src": "src/views/loss-statistics.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-QTnfLwEv.js",
+      "__virtual_mf___mfe_internal__lineLossManagement__loadShare__vue__loadShare__.js-CapqREIz.js",
+      "_pc-ui-proxy-CQzRe-qO.js",
+      "_api-CUMmPA1t.js",
+      "_dayjs.min-DwFf_CCC.js"
+    ]
+  },
+  "src/views/power-relation.tsx": {
+    "file": "assets/power-relation-BZ-7i-Ou.js",
+    "name": "power-relation",
+    "src": "src/views/power-relation.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__lineLossManagement__loadShare__vue__loadShare__.js-CapqREIz.js",
+      "_pc-ui-proxy-CQzRe-qO.js",
+      "_api-CUMmPA1t.js"
+    ]
+  },
+  "virtual:mf-REMOTE_ENTRY_ID:__mfe_internal__lineLossManagement__remoteEntry_js": {
+    "file": "remoteEntry.js",
+    "name": "remoteEntry",
+    "src": "virtual:mf-REMOTE_ENTRY_ID:__mfe_internal__lineLossManagement__remoteEntry_js",
+    "imports": [
+      "_virtual_mf-REMOTE_ENTRY_ID___mfe_internal__lineLossManagement__remoteEntry_js-ByXzf0In.js"
+    ]
+  },
+  "virtual:mf-REMOTE_ENTRY_SSR_ID:__mfe_internal__lineLossManagement__remoteEntry_js": {
+    "file": "remoteEntry.ssr.js",
+    "name": "ssrRemoteEntry",
+    "src": "virtual:mf-REMOTE_ENTRY_SSR_ID:__mfe_internal__lineLossManagement__remoteEntry_js",
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "virtual:mf-exposes-ssr:__mfe_internal__lineLossManagement__remoteEntry_js"
+    ]
+  },
+  "virtual:mf-exposes-ssr:__mfe_internal__lineLossManagement__remoteEntry_js": {
+    "file": "assets/virtual_mf-exposes-ssr___mfe_internal__lineLossManagement__remoteEntry_js-Y7V6Jr44.js",
+    "name": "virtual_mf-exposes-ssr___mfe_internal__lineLossManagement__remoteEntry_js",
+    "src": "virtual:mf-exposes-ssr:__mfe_internal__lineLossManagement__remoteEntry_js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "src/domain.ts"
+    ]
+  },
+  "virtual:mf-exposes:__mfe_internal__lineLossManagement__remoteEntry_js": {
+    "file": "assets/virtualExposes-CYFo6_W9.js",
+    "name": "virtualExposes",
+    "src": "virtual:mf-exposes:__mfe_internal__lineLossManagement__remoteEntry_js",
+    "imports": [
+      "_virtual_mf-exposes___mfe_internal__lineLossManagement__remoteEntry_js-BPGwLez4.js"
+    ]
+  },
+  "virtual:mf-localSharedImportMap:__mfe_internal__lineLossManagement": {
+    "file": "assets/_virtual_mf-localSharedImportMap___mfe_internal__lineLossManagement-6qqQVigg.js",
+    "name": "_virtual_mf-localSharedImportMap___mfe_internal__lineLossManagement",
+    "src": "virtual:mf-localSharedImportMap:__mfe_internal__lineLossManagement",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "__virtual_mf___mfe_internal__lineLossManagement__loadShare__vue__loadShare__.js-CapqREIz.js",
+      "__virtual_mf___mfe_internal__lineLossManagement__loadShare__vue_mf_2_router__loadShare__.js-IJZGEiiB.js"
+    ]
+  },
+  "virtual:mf:__mfe_internal__lineLossManagement__H_A_I__hostAutoInit__H_A_I__.js": {
+    "file": "assets/hostInit-D3fkLKMz.js",
+    "name": "hostInit",
+    "src": "virtual:mf:__mfe_internal__lineLossManagement__H_A_I__hostAutoInit__H_A_I__.js",
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "_virtual_mf-REMOTE_ENTRY_ID___mfe_internal__lineLossManagement__remoteEntry_js-ByXzf0In.js",
+      "virtual:mf-localSharedImportMap:__mfe_internal__lineLossManagement"
+    ]
+  },
+  "virtual:mf:__mfe_internal__lineLossManagement__prebuild__vue__prebuild__.js": {
+    "file": "assets/_virtual_mf___mfe_internal__lineLossManagement__prebuild__vue__prebuild__-kxsF3R4M.js",
+    "name": "_virtual_mf___mfe_internal__lineLossManagement__prebuild__vue__prebuild__",
+    "src": "virtual:mf:__mfe_internal__lineLossManagement__prebuild__vue__prebuild__.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__lineLossManagement__loadShare__vue__loadShare__.js-CapqREIz.js"
+    ]
+  },
+  "virtual:mf:__mfe_internal__lineLossManagement__prebuild__vue_mf_2_router__prebuild__.js": {
+    "file": "assets/_virtual_mf___mfe_internal__lineLossManagement__prebuild__vue_mf_2_router__prebuild__-LhvVcawd.js",
+    "name": "_virtual_mf___mfe_internal__lineLossManagement__prebuild__vue_mf_2_router__prebuild__",
+    "src": "virtual:mf:__mfe_internal__lineLossManagement__prebuild__vue_mf_2_router__prebuild__.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__lineLossManagement__loadShare__vue_mf_2_router__loadShare__.js-IJZGEiiB.js"
+    ]
+  }
+}

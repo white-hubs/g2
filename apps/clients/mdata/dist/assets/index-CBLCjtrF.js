@@ -1,0 +1,1 @@
+import"./virtual_mf-exposes___mfe_internal__mdataClient__remoteEntry_js-CSMJE2jU.js";import"./virtual_mf-REMOTE_ENTRY_ID___mfe_internal__mdataClient__remoteEntry_js-BOwPt1J_.js";var e=document.querySelector(`#app`);e&&(e.textContent=`@g2-client/mdata (service client remote, no UI)`);

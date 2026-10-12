@@ -1,0 +1,1 @@
+import{Dt as e}from"./vue-types-OLz3dbV4.js";var t=(t,n)=>{let r=e({},t);return Object.keys(n).forEach(e=>{let t=r[e];if(t)t.type||t.default?t.default=n[e]:t.def?t.def(n[e]):r[e]={type:t,default:n[e]};else throw Error(`not have ${e} prop`)}),r};export{t};

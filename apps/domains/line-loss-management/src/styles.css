@@ -1,0 +1,219 @@
+.line-loss-page {
+  height: 100%;
+  min-height: 0;
+}
+.line-loss-section {
+  background: #fff;
+  padding: 16px;
+  border-radius: 2px;
+}
+.line-loss-section + .line-loss-section {
+  margin-top: 12px;
+}
+.line-loss-section-title {
+  margin-bottom: 14px;
+  padding-left: 9px;
+  border-left: 3px solid #1677ff;
+  color: #262626;
+  font-size: 14px;
+  font-weight: 600;
+}
+.line-loss-form-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(280px, 1fr));
+  gap: 0 24px;
+}
+.line-loss-dashboard {
+  display: grid;
+  grid-template-columns: 260px minmax(0, 1fr);
+  gap: 12px;
+  height: 100%;
+  min-height: 0;
+}
+.line-loss-sidebar {
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+  padding: 12px;
+  background: #fff;
+}
+.line-loss-sidebar .ant-tree {
+  flex: 1;
+  min-height: 0;
+  margin-top: 12px;
+  overflow: auto;
+}
+.line-loss-detail {
+  min-width: 0;
+  overflow: auto;
+}
+.line-loss-empty {
+  display: flex;
+  height: 100%;
+  min-height: 280px;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+}
+.line-loss-cycle {
+  box-sizing: border-box;
+  height: 100%;
+  min-height: 220px;
+  padding: 24px;
+  background: #fff;
+}
+.line-loss-cycle-form {
+  display: flex;
+  align-items: flex-start;
+}
+.line-loss-cycle-label {
+  width: 100px;
+  flex: 0 0 100px;
+  margin-right: 16px;
+  padding-top: 6px;
+  color: #333;
+  text-align: right;
+}
+.line-loss-cycle-label span {
+  margin-right: 4px;
+  color: #ff4d4f;
+}
+.line-loss-cycle-content {
+  min-width: 0;
+  flex: 1;
+}
+.line-loss-cycle-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 20px;
+  color: #333;
+}
+.line-loss-cycle-row .ant-picker,
+.line-loss-cycle-row .ant-select {
+  width: 100px;
+}
+.line-loss-record {
+  display: grid;
+  grid-template-columns: 260px minmax(0, 1fr);
+  gap: 12px;
+  height: 100%;
+  min-height: 0;
+  overflow: hidden;
+}
+.line-loss-record-sidebar {
+  display: flex;
+  min-height: 0;
+  flex-direction: column;
+  padding: 12px 8px;
+  overflow: hidden;
+  border: 1px solid #f0f0f0;
+  background: #fff;
+}
+.line-loss-record-sidebar > .ant-input-affix-wrapper {
+  flex: 0 0 auto;
+  margin-bottom: 10px;
+}
+.line-loss-record-sidebar > .ant-spin-nested-loading {
+  min-height: 0;
+  flex: 1;
+}
+.line-loss-record-sidebar .ant-spin-container {
+  height: 100%;
+}
+.line-loss-record-devices {
+  box-sizing: border-box;
+  height: 100%;
+  padding-right: 8px;
+  overflow: auto;
+}
+.line-loss-record-device {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 10px;
+  border-radius: 4px;
+  color: rgb(0 0 0 / 85%);
+  cursor: pointer;
+  user-select: none;
+}
+.line-loss-record-device:hover {
+  background: rgb(0 0 0 / 3%);
+}
+.line-loss-record-device.is-selected {
+  color: #1677ff;
+  background: rgb(24 144 255 / 10%);
+}
+.line-loss-record-end {
+  padding: 10px 0;
+  color: rgb(0 0 0 / 45%);
+  text-align: center;
+}
+.line-loss-record-main {
+  display: flex;
+  min-width: 0;
+  min-height: 0;
+  flex-direction: column;
+  overflow: hidden;
+  border: 1px solid #f0f0f0;
+  background: #fff;
+}
+.line-loss-record-usage {
+  font-size: 16px;
+  font-weight: 600;
+}
+.line-loss-trend-table {
+  margin-top: 12px;
+}
+.line-loss-topology {
+  position: relative;
+  min-height: 220px;
+  padding: 22px;
+  overflow: auto;
+  background: linear-gradient(#f0f2f5 1px, transparent 1px), linear-gradient(90deg, #f0f2f5 1px, transparent 1px);
+  background-size: 20px 20px;
+}
+.line-loss-node-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 28px;
+  align-items: center;
+}
+.line-loss-node {
+  min-width: 150px;
+  padding: 14px 16px;
+  border: 1px solid #91caff;
+  border-radius: 4px;
+  background: #fff;
+  box-shadow: 0 2px 8px rgb(0 0 0 / 8%);
+  text-align: center;
+}
+.line-loss-edge-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 20px;
+}
+.line-loss-edge {
+  padding: 6px 10px;
+  border: 1px solid #d9d9d9;
+  border-radius: 3px;
+  background: #fff;
+  cursor: pointer;
+}
+.line-loss-edge.active {
+  border-color: #1677ff;
+  color: #1677ff;
+  background: #e6f4ff;
+}
+.line-loss-muted {
+  color: #8c8c8c;
+}
+@media (max-width: 900px) {
+  .line-loss-dashboard {
+    grid-template-columns: 220px minmax(0, 1fr);
+  }
+  .line-loss-form-grid {
+    grid-template-columns: 1fr;
+  }
+}

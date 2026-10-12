@@ -1,0 +1,329 @@
+.muted {
+  color: #8c8c8c;
+}
+
+.fileUpload {
+  width: 100%;
+}
+
+.fileList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.fileItem {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  max-width: 300px;
+  padding: 6px 8px;
+  border: 1px solid #e5e7eb;
+  border-radius: 6px;
+  background: #fafafa;
+
+  > span {
+    overflow: hidden;
+    flex: 1;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  :global(.ant-image-img) {
+    height: 54px;
+    border-radius: 4px;
+    object-fit: cover;
+  }
+}
+
+.formPage {
+  min-height: 100%;
+  padding-top: 12px;
+}
+
+.sectionTitle {
+  margin-bottom: 18px;
+  padding-left: 10px;
+  border-left: 3px solid #1677ff;
+  color: #1f2937;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+}
+
+.detailFormGrid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0 24px;
+
+  :global(.ant-form-item) {
+    min-width: 0;
+    margin-bottom: 20px;
+  }
+
+  :global(.ant-picker),
+  :global(.ant-select),
+  :global(.ant-cascader),
+  :global(.ant-input-number) {
+    width: 100%;
+  }
+}
+
+.formFull {
+  grid-column: 1 / -1;
+}
+
+.detailText {
+  display: inline-flex;
+  min-height: 32px;
+  align-items: center;
+  color: #262626;
+  line-height: 1.6;
+  white-space: pre-wrap;
+}
+
+.overviewPage {
+  display: flex;
+  min-height: 100%;
+  flex-direction: column;
+  gap: 16px;
+  padding: 12px 0 16px;
+}
+
+.parkSummary {
+  display: grid;
+  min-height: 320px;
+  grid-template-columns: minmax(320px, 36%) 1fr;
+  overflow: hidden;
+  border: 1px solid #edf0f5;
+  border-radius: 10px;
+  background: #fff;
+}
+
+.parkImageWrap {
+  min-height: 320px;
+  background: #f5f7fa;
+
+  :global(.ant-image),
+  :global(.ant-image-img) {
+    width: 100%;
+    height: 100%;
+  }
+
+  :global(.ant-image-img) {
+    object-fit: cover;
+  }
+}
+
+.parkInfo {
+  display: flex;
+  min-width: 0;
+  flex-direction: column;
+  padding: 30px 32px;
+}
+
+.metrics {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 24px;
+}
+
+.metricCard {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 18px;
+  border-radius: 10px;
+  background: #fafbfc;
+
+  > div {
+    display: flex;
+    min-width: 0;
+    align-items: baseline;
+    gap: 8px;
+    flex-wrap: wrap;
+  }
+
+  span:not(.metricIcon) {
+    width: 100%;
+    color: #667085;
+  }
+
+  strong {
+    color: #1f2937;
+    font-size: 30px;
+    line-height: 1.2;
+  }
+
+  small {
+    color: #8c8c8c;
+  }
+}
+
+.metricIcon {
+  display: inline-flex;
+  width: 56px;
+  height: 56px;
+  flex: 0 0 56px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+  background: #fff1e8;
+  color: #fa8c16;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.metricBlue {
+  background: #e8f7ff;
+  color: #1677ff;
+}
+
+.parkRemark {
+  overflow: auto;
+  flex: 1;
+  margin-top: 24px;
+  padding: 20px;
+  border-radius: 8px;
+  background: #fafafa;
+  color: #475467;
+  font-size: 14px;
+  line-height: 1.9;
+  text-indent: 2em;
+}
+
+.chartGrid {
+  display: grid;
+  min-height: 390px;
+  grid-template-columns: minmax(320px, 32%) 1fr;
+  gap: 16px;
+}
+
+.chartCard {
+  display: flex;
+  min-width: 0;
+  flex-direction: column;
+  border: 1px solid #edf0f5;
+  border-radius: 10px;
+  background: #fff;
+
+  header {
+    display: flex;
+    min-height: 52px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    border-bottom: 1px solid #f0f0f0;
+    color: #1f2937;
+    font-size: 16px;
+    font-weight: 600;
+  }
+
+  header b {
+    color: #1677ff;
+    font-size: 14px;
+    font-weight: 500;
+  }
+}
+
+.pieChart,
+.barChart {
+  width: 100%;
+  min-height: 320px;
+  flex: 1;
+}
+
+.rateCard :global(.ant-empty) {
+  margin: auto;
+}
+
+.monitorWorkspace {
+  display: grid;
+  height: 100%;
+  min-height: 520px;
+  grid-template-columns: 260px minmax(0, 1fr);
+  overflow: hidden;
+  border: 1px solid #edf0f5;
+  border-radius: 8px;
+}
+
+.monitorSidebar {
+  overflow: auto;
+  border-right: 1px solid #edf0f5;
+  background: #fafbfc;
+}
+
+.sidebarHeading {
+  position: sticky;
+  z-index: 1;
+  top: 0;
+  padding: 16px;
+  border-bottom: 1px solid #edf0f5;
+  background: #fff;
+  color: #1f2937;
+  font-weight: 600;
+}
+
+.monitorList {
+  padding: 8px;
+}
+
+.monitorItem {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 4px;
+  padding: 7px 8px 7px 12px;
+  border: 0;
+  border-radius: 6px;
+  background: transparent;
+  color: #344054;
+  cursor: pointer;
+  text-align: left;
+
+  > span {
+    overflow: hidden;
+    min-width: 0;
+    flex: 1;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  &:hover {
+    background: #eef5ff;
+  }
+}
+
+.monitorItemActive {
+  background: #e6f4ff;
+  color: #1677ff;
+  font-weight: 500;
+}
+
+.monitorFrame {
+  display: flex;
+  min-width: 0;
+  min-height: 0;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+
+  iframe {
+    width: 100%;
+    height: 100%;
+    border: 0;
+  }
+}
+
+@media (max-width: 1200px) {
+  .detailFormGrid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .parkSummary,
+  .chartGrid {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,140 @@
+/* 抽屉高度随视口自适应：body 内滚动，footer 由 ant-drawer-footer 固定贴底 */
+:global(.safety-personnel-key-personnel-detail-drawer) {
+  .safety-personnel-management-drawer-content-wrapper {
+    height: 100%;
+  }
+
+  .safety-personnel-management-drawer-content {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+
+  .safety-personnel-management-drawer-header {
+    flex-shrink: 0;
+  }
+
+  .safety-personnel-management-drawer-body {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    min-height: 0;
+    overflow: hidden;
+    padding: 0;
+  }
+
+  .safety-personnel-management-drawer-footer {
+    border-top: 1px solid #f0f0f0;
+    flex-shrink: 0;
+    padding: 12px 16px 16px;
+    text-align: right;
+  }
+}
+
+.drawerFooter {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+
+  :global(.safety-personnel-management-pagination) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    margin: 0;
+    margin-inline-start: auto;
+  }
+}
+
+.drawerBodyWrap {
+  box-sizing: border-box;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  height: 100%;
+  min-height: 0;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.loadingMask {
+  position: absolute;
+  inset: 0;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.65);
+}
+
+.drawerMain {
+  flex: 1;
+  min-height: 0;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.drawerInner {
+  box-sizing: border-box;
+  padding: 16px 16px 0;
+}
+
+.topBlock {
+  flex-shrink: 0;
+}
+
+.reportSection {
+  margin-top: 8px;
+}
+
+.profile {
+  background: #eff6ff;
+  border-radius: 12px;
+  padding: 16px;
+  margin-bottom: 16px;
+}
+
+.avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto 12px;
+  border: 2px solid #e5e7eb;
+}
+
+.avatarPlaceholder {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background: #3b82f6;
+  margin: 0 auto 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 1;
+  border: 2px solid #e5e7eb;
+  user-select: none;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+  font-size: 14px;
+}
+
+.full {
+  grid-column: 1 / -1;
+}
+
+.attachmentList {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin-top: 4px;
+}

@@ -1,0 +1,1 @@
+var e=null,t=null;function n(n,r){e=n,t=r}function r(){if(!e)throw Error(`safety-credit domain not installed`);return e}function i(){if(!t)throw Error(`safety-credit client not installed`);return t}function a(){return r().ensureClient(`fileClient`)}export{i as n,n as r,a as t};

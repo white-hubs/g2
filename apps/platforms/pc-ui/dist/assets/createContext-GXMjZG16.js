@@ -1,0 +1,1 @@
+import{A as e,_ as t,i as n,x as r}from"./_virtual_mf___mfe_internal__pcUi__loadShare__vue__loadShare__.js-pr0wfuk8.js";import{Dt as i}from"./vue-types-OLz3dbV4.js";function a(a){let o=Symbol(`contextKey`);return{useProvide:(n,a)=>{let s=e({});return t(o,s),r(()=>{i(s,n,a||{})}),s},useInject:()=>n(o,a)||{}}}export{a as t};

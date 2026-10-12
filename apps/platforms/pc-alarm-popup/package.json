@@ -1,0 +1,28 @@
+{
+  "name": "@g2-platform/pc-alarm-popup",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "bun ../../../tooling/dev-link/cli.ts",
+    "dev:serve": "bun --bun vite --port 5062 --strictPort",
+    "build": "bun --bun vite build",
+    "preview": "bun --bun vite preview --port 5062 --strictPort",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "bun test"
+  },
+  "dependencies": {
+    "@g2-composition/contract": "workspace:*",
+    "@g2-contract/headquarters-market": "workspace:*",
+    "@g2-runtime/common-loader": "workspace:*",
+    "dayjs": "catalog:libs",
+    "vue": "catalog:vue"
+  },
+  "devDependencies": {
+    "@g2-platform/pc-ui": "workspace:*",
+    "@g2-tooling/mf-vite": "workspace:*",
+    "@vitejs/plugin-vue-jsx": "catalog:vite",
+    "typescript": "catalog:typescript",
+    "vite": "catalog:vite"
+  }
+}

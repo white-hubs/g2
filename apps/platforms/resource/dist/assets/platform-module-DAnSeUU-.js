@@ -1,0 +1,1 @@
+var e={label:`resource`};export{e as default,e as platformModule};

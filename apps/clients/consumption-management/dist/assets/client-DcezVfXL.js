@@ -1,0 +1,1 @@
+import{n as e,t}from"./client-wutl2BL-.js";export{t as create,e as createConsumptionManagementClient};

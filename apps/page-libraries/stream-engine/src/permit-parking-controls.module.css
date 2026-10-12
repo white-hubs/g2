@@ -1,0 +1,25 @@
+.items { width: 100%; }
+.summary { display: flex; align-items: center; justify-content: space-between; gap: 8px; margin-bottom: 8px; color: #1677ff; font-size: 12px; }
+.rows { min-height: 80px; }
+.row { display: flex; align-items: flex-start; gap: 8px; padding: 8px 10px; margin-bottom: 6px; border: 1px solid #e5e6eb; border-radius: 4px; background: #fff; }
+.checked { border-color: #91caff; background: #f0f7ff; }
+.manual { border-style: dashed; }
+.index { flex: 0 0 24px; height: 24px; border: 1px solid #d9d9d9; border-radius: 50%; color: #666; font-size: 12px; line-height: 22px; text-align: center; }
+.rowBody { flex: 1; min-width: 0; overflow-wrap: anywhere; }
+.aiBadge { display: inline-block; margin-left: 6px; padding: 0 6px; border: 1px solid #91caff; border-radius: 3px; color: #1677ff; font-size: 12px; }
+.confirmDetail { margin-top: 8px; padding: 8px 10px; border-radius: 4px; background: #f7fbff; color: #4b5563; font-size: 12px; line-height: 20px; }
+.images { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 8px; }
+.images img { width: 56px; height: 56px; border: 1px solid #e5e6eb; border-radius: 4px; object-fit: cover; }
+.aiStatus { color: #8a5a00; }
+.confirmForm { display: grid; gap: 16px; }
+.confirmForm label { display: grid; grid-template-columns: 48px minmax(0, 1fr); align-items: start; gap: 12px; }
+.uploadLine { display: flex; align-items: center; gap: 12px; }
+.attachmentList { display: grid; gap: 4px; padding-left: 60px; }
+.attachmentList > div { display: flex; align-items: center; justify-content: space-between; gap: 8px; }
+.attachmentList a { min-width: 0; overflow-wrap: anywhere; }
+@media (max-width: 600px) {
+  .summary { align-items: flex-start; flex-direction: column; }
+  .row { flex-wrap: wrap; }
+  .confirmForm label { grid-template-columns: 1fr; gap: 4px; }
+  .attachmentList { padding-left: 0; }
+}

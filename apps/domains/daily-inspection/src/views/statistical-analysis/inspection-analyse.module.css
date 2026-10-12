@@ -1,0 +1,224 @@
+.analysisBox {
+  background-color: #eef2f5;
+  position: relative;
+  width: 100%;
+}
+
+.contenBox {
+  background: #fff;
+  width: 100%;
+  z-index: 10;
+  margin-bottom: 10px;
+  padding-right: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  height: 56px;
+  font-size: 16px;
+  color: #333;
+  padding: 17px;
+  font-weight: bold;
+  border-bottom: 1px solid #f3f3f3;
+}
+
+.headerBtn {
+  right: 20px;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.radioGroup {
+  margin-right: 10px;
+}
+
+.radioGroup :global(.ant-radio-button-wrapper) {
+  margin-right: 10px;
+}
+
+.Box {
+  width: 100%;
+  background-color: #eef2f5;
+  position: relative;
+  height: calc(100vh - 230px);
+  overflow-y: auto;
+}
+
+.taskAnalysis {
+  background-color: #fff;
+  border-radius: 6px;
+  padding: 16px;
+  width: 100%;
+  overflow-x: auto;
+}
+
+.sectionTitle {
+  height: 56px;
+  font-size: 16px;
+  color: #333;
+  padding: 17px 0;
+  font-weight: bold;
+  border-bottom: 1px solid #f3f3f3;
+}
+
+.taskAnalysisBox {
+  display: flex;
+}
+
+.taskAnalysisLeft {
+  width: 580px;
+}
+
+.taskAnalysisRight {
+  flex: 1;
+  margin-left: 20px;
+}
+
+.taskAnalysisBottom {
+  padding: 0 50px;
+  display: flex;
+}
+
+.barChar {
+  width: 190px;
+  height: 159px;
+  margin-right: 30px;
+}
+
+.pieChar {
+  width: 160px;
+  height: 160px;
+}
+
+.contentBox {
+  display: flex;
+  align-items: center;
+}
+
+.lineChar {
+  margin-top: 10px;
+  height: 260px;
+}
+
+.taskAnalysisTop {
+  min-height: 56px;
+  background: #fcfcfc;
+  border-radius: 6px;
+  padding: 16px;
+}
+
+.performanceAnalysis {
+  margin-top: 10px;
+  background-color: #fff;
+  border-radius: 6px;
+  padding: 16px;
+}
+
+.inspectInfo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.inspectInfoTop {
+  min-height: 64px;
+  background: linear-gradient(50deg, #f7faff 0%, rgb(245 249 255 / 22%) 37%, #f7faff 100%);
+  border-radius: 6px;
+  padding: 10px 16px;
+  margin-bottom: 12px;
+}
+
+.inspectInfoLeft,
+.inspectInfoRight {
+  width: 710px;
+}
+
+.PatrolObjects {
+  margin-top: 10px;
+  background-color: #fff;
+  border-radius: 6px;
+  padding: 16px;
+}
+
+.inspectType {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.inspectTypeItem {
+  padding: 10px;
+  width: 280px;
+  border: 1px solid;
+}
+
+.inspectTypeItemTitle {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.inspectTypeItemContent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.inspectTypeItemContentRight {
+  min-width: 150px;
+  text-align: left;
+}
+
+.PatrolObjectsBox {
+  display: flex;
+  justify-content: space-between;
+}
+
+.PatrolObjectsList {
+  width: 820px;
+  position: relative;
+}
+
+.columBox {
+  height: 260px;
+}
+
+.blue1 {
+  color: #1890ff;
+}
+
+.green1 {
+  color: #2fc539;
+}
+
+.red1 {
+  color: #e64141;
+}
+
+.textNum {
+  font-size: 16px;
+}
+
+.taskCharts {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 250px;
+}
+
+.columnBox {
+  height: 260px;
+}
+
+.tableTitle {
+  font-size: 14px;
+  font-weight: bold;
+  color: #333;
+  margin: 10px 0;
+}

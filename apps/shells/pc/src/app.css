@@ -1,0 +1,100 @@
+html,
+body,
+#app {
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
+/* 启动阶段（Vue mount 前）全屏状态：与壳层 spinner 视觉对齐 */
+.shell-pc-bootstrap {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  min-height: 100%;
+  padding: 24px;
+  background: #f7f8fa;
+  color: #1f1f1f;
+  font-family:
+    -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "PingFang SC", "Microsoft YaHei",
+    sans-serif;
+}
+
+.shell-pc-bootstrap__spinner {
+  display: inline-block;
+  width: 28px;
+  height: 28px;
+  border: 3px solid #e5e5e5;
+  border-top-color: #1677ff;
+  border-radius: 50%;
+  animation: shell-pc-bootstrap-spin 0.8s linear infinite;
+}
+
+.shell-pc-bootstrap[data-kind="error"] .shell-pc-bootstrap__spinner {
+  display: none;
+}
+
+.shell-pc-bootstrap__title {
+  margin: 0;
+  font-size: 15px;
+  line-height: 1.5;
+  font-weight: 500;
+  color: #262626;
+}
+
+.shell-pc-bootstrap[data-kind="error"] .shell-pc-bootstrap__title {
+  color: #a8071a;
+}
+
+.shell-pc-bootstrap__detail {
+  margin: 0;
+  max-width: 36rem;
+  font-size: 12px;
+  line-height: 1.5;
+  color: #8c8c8c;
+  text-align: center;
+  word-break: break-word;
+}
+
+.shell-pc-bootstrap[data-kind="error"] .shell-pc-bootstrap__detail {
+  color: #cf1322;
+  white-space: pre-wrap;
+}
+
+.shell-pc-bootstrap__runtime-diagnostics {
+  width: min(680px, calc(100vw - 48px));
+  margin-top: 8px;
+  color: #475569;
+  font-size: 12px;
+  text-align: left;
+}
+
+.shell-pc-bootstrap__runtime-diagnostics summary {
+  cursor: pointer;
+  color: #334155;
+}
+
+.shell-pc-bootstrap__runtime-diagnostics ul {
+  max-height: 220px;
+  margin: 8px 0 0;
+  padding-left: 22px;
+  overflow: auto;
+  overflow-wrap: anywhere;
+}
+
+@keyframes shell-pc-bootstrap-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .shell-pc-bootstrap__spinner {
+    animation: none;
+    border-top-color: #e5e5e5;
+    border-right-color: #1677ff;
+  }
+}

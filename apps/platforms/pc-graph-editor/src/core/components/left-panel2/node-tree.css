@@ -1,0 +1,138 @@
+.node-tree {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background-color: #ffffff;
+}
+
+/* 搜索框 */
+.node-tree__search {
+  padding: 12px;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.node-tree__search-input {
+  width: 100%;
+  padding: 6px 12px;
+  border: 1px solid #d9d9d9;
+  border-radius: 4px;
+  font-size: 13px;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+.node-tree__search-input:focus {
+  border-color: #1890ff;
+}
+
+/* 树列表容器 */
+.node-tree__list {
+  flex: 1;
+  overflow-y: auto;
+}
+
+/* 树节点 */
+.node-tree__node {
+  position: relative;
+}
+
+/* 节点内容 */
+.node-tree__node-content {
+  display: flex;
+  align-items: center;
+  padding: 6px 12px;
+  cursor: pointer;
+  user-select: none;
+  transition: background-color 0.3s;
+  position: relative;
+}
+
+.node-tree__node-content:hover {
+  background-color: #f5f5f5;
+}
+
+.node-tree__node-content.is-selected {
+  background-color: #e6f7ff;
+}
+
+.node-tree__node-content[draggable="true"] {
+  cursor: move;
+}
+
+/* 展开/折叠箭头 */
+.node-tree__node-arrow {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 16px;
+  height: 16px;
+  margin-right: 4px;
+  font-size: 10px;
+  transition: transform 0.3s;
+  color: #999;
+  flex-shrink: 0;
+}
+
+.node-tree__node-arrow.is-expanded {
+  transform: rotate(90deg);
+}
+
+/* 占位符（无子节点时） */
+.node-tree__node-spacer {
+  width: 16px;
+  height: 16px;
+  margin-right: 4px;
+  flex-shrink: 0;
+}
+
+/* 节点名称 */
+.node-tree__node-name {
+  flex: 1;
+  font-size: 13px;
+  color: #333;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* 节点类型标签 */
+.node-tree__node-type {
+  margin-left: 8px;
+  padding: 2px 6px;
+  font-size: 11px;
+  color: #999;
+  background-color: #f0f0f0;
+  border-radius: 2px;
+  flex-shrink: 0;
+}
+
+/* 子节点容器 */
+.node-tree__children {
+  position: relative;
+}
+
+/* 空状态 */
+.node-tree__empty {
+  padding: 40px 20px;
+  text-align: center;
+  color: #999;
+  font-size: 13px;
+}
+
+/* 滚动条样式 */
+.node-tree__list::-webkit-scrollbar {
+  width: 6px;
+}
+
+.node-tree__list::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 3px;
+}
+
+.node-tree__list::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.node-tree__list::-webkit-scrollbar-track {
+  background-color: transparent;
+}

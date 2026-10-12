@@ -1,0 +1,25 @@
+.container {
+  padding: 12px 0;
+}
+.container .item-title {
+  height: auto !important;
+  text-align: left;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  color: #000000d9;
+}
+.container .item-content {
+  display: flex;
+  align-items: center;
+}
+.container .item-content label {
+  font-size: 14px;
+  min-width: 105px;
+  text-align: right;
+  margin-right: 10px;
+}
+.container .item-content span {
+  font-size: 14px;
+  color: #000000d9;
+}

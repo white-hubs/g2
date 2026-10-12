@@ -1,0 +1,178 @@
+{
+  "__virtual_mf___mfe_internal__technicalBulletin__loadShare__vue__loadShare__.js-CL-rKgoA.js": {
+    "file": "assets/_virtual_mf___mfe_internal__technicalBulletin__loadShare__vue__loadShare__.js-CL-rKgoA.js",
+    "name": "_virtual_mf___mfe_internal__technicalBulletin__loadShare__vue__loadShare__.js",
+    "imports": [
+      "_rolldown-runtime-DK3Fl9T5.js"
+    ]
+  },
+  "__virtual_mf___mfe_internal__technicalBulletin__loadShare__vue_mf_2_router__loadShare__.js-metJ5W4a.js": {
+    "file": "assets/_virtual_mf___mfe_internal__technicalBulletin__loadShare__vue_mf_2_router__loadShare__.js-metJ5W4a.js",
+    "name": "_virtual_mf___mfe_internal__technicalBulletin__loadShare__vue_mf_2_router__loadShare__.js",
+    "imports": [
+      "_rolldown-runtime-DK3Fl9T5.js",
+      "__virtual_mf___mfe_internal__technicalBulletin__loadShare__vue__loadShare__.js-CL-rKgoA.js"
+    ]
+  },
+  "_domain-BPVOfHGK.js": {
+    "file": "assets/domain-BPVOfHGK.js",
+    "name": "domain",
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js",
+      "__virtual_mf___mfe_internal__technicalBulletin__loadShare__vue__loadShare__.js-CL-rKgoA.js"
+    ],
+    "dynamicImports": [
+      "src/views/notice-pages.tsx",
+      "src/views/announcement-form.tsx",
+      "src/views/model-type-page.tsx"
+    ]
+  },
+  "_rolldown-runtime-DK3Fl9T5.js": {
+    "file": "assets/rolldown-runtime-DK3Fl9T5.js",
+    "name": "rolldown-runtime"
+  },
+  "_styles-DxC-kE0X.css": {
+    "file": "assets/styles-DxC-kE0X.css",
+    "src": "_styles-DxC-kE0X.css"
+  },
+  "_styles.module-ChER4P5R.js": {
+    "file": "assets/styles.module-ChER4P5R.js",
+    "name": "styles.module",
+    "css": [
+      "assets/styles-DxC-kE0X.css"
+    ]
+  },
+  "_virtual_mf-REMOTE_ENTRY_ID___mfe_internal__technicalBulletin__remoteEntry_js-CLCMblNK.js": {
+    "file": "assets/virtual_mf-REMOTE_ENTRY_ID___mfe_internal__technicalBulletin__remoteEntry_js-CLCMblNK.js",
+    "name": "virtual_mf-REMOTE_ENTRY_ID___mfe_internal__technicalBulletin__remoteEntry_js",
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "virtual:mf-localSharedImportMap:__mfe_internal__technicalBulletin",
+      "_virtual_mf-exposes___mfe_internal__technicalBulletin__remoteEntry_js-4lzLCxNC.js"
+    ]
+  },
+  "_virtual_mf-exposes___mfe_internal__technicalBulletin__remoteEntry_js-4lzLCxNC.js": {
+    "file": "assets/virtual_mf-exposes___mfe_internal__technicalBulletin__remoteEntry_js-4lzLCxNC.js",
+    "name": "virtual_mf-exposes___mfe_internal__technicalBulletin__remoteEntry_js",
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "_domain-BPVOfHGK.js"
+    ]
+  },
+  "_vite-preload-helper-7P2xnrDv.js": {
+    "file": "assets/vite-preload-helper-7P2xnrDv.js",
+    "name": "vite-preload-helper"
+  },
+  "src/domain.ts": {
+    "file": "assets/domain-tO_jORes.js",
+    "name": "domain",
+    "src": "src/domain.ts",
+    "isEntry": true,
+    "imports": [
+      "_domain-BPVOfHGK.js"
+    ]
+  },
+  "src/views/announcement-form.tsx": {
+    "file": "assets/announcement-form-BS8m55cr.js",
+    "name": "announcement-form",
+    "src": "src/views/announcement-form.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_domain-BPVOfHGK.js",
+      "__virtual_mf___mfe_internal__technicalBulletin__loadShare__vue__loadShare__.js-CL-rKgoA.js",
+      "__virtual_mf___mfe_internal__technicalBulletin__loadShare__vue_mf_2_router__loadShare__.js-metJ5W4a.js",
+      "_styles.module-ChER4P5R.js"
+    ]
+  },
+  "src/views/model-type-page.tsx": {
+    "file": "assets/model-type-page-DRc0PNck.js",
+    "name": "model-type-page",
+    "src": "src/views/model-type-page.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_domain-BPVOfHGK.js",
+      "__virtual_mf___mfe_internal__technicalBulletin__loadShare__vue__loadShare__.js-CL-rKgoA.js",
+      "_styles.module-ChER4P5R.js"
+    ]
+  },
+  "src/views/notice-pages.tsx": {
+    "file": "assets/notice-pages-o5RC_jZD.js",
+    "name": "notice-pages",
+    "src": "src/views/notice-pages.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_domain-BPVOfHGK.js",
+      "__virtual_mf___mfe_internal__technicalBulletin__loadShare__vue__loadShare__.js-CL-rKgoA.js",
+      "__virtual_mf___mfe_internal__technicalBulletin__loadShare__vue_mf_2_router__loadShare__.js-metJ5W4a.js",
+      "_styles.module-ChER4P5R.js"
+    ]
+  },
+  "virtual:mf-REMOTE_ENTRY_ID:__mfe_internal__technicalBulletin__remoteEntry_js": {
+    "file": "remoteEntry.js",
+    "name": "remoteEntry",
+    "src": "virtual:mf-REMOTE_ENTRY_ID:__mfe_internal__technicalBulletin__remoteEntry_js",
+    "imports": [
+      "_virtual_mf-REMOTE_ENTRY_ID___mfe_internal__technicalBulletin__remoteEntry_js-CLCMblNK.js"
+    ]
+  },
+  "virtual:mf-REMOTE_ENTRY_SSR_ID:__mfe_internal__technicalBulletin__remoteEntry_js": {
+    "file": "remoteEntry.ssr.js",
+    "name": "ssrRemoteEntry",
+    "src": "virtual:mf-REMOTE_ENTRY_SSR_ID:__mfe_internal__technicalBulletin__remoteEntry_js",
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "virtual:mf-exposes-ssr:__mfe_internal__technicalBulletin__remoteEntry_js"
+    ]
+  },
+  "virtual:mf-exposes-ssr:__mfe_internal__technicalBulletin__remoteEntry_js": {
+    "file": "assets/virtual_mf-exposes-ssr___mfe_internal__technicalBulletin__remoteEntry_js-Yt1BaD1B.js",
+    "name": "virtual_mf-exposes-ssr___mfe_internal__technicalBulletin__remoteEntry_js",
+    "src": "virtual:mf-exposes-ssr:__mfe_internal__technicalBulletin__remoteEntry_js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "_domain-BPVOfHGK.js"
+    ]
+  },
+  "virtual:mf-exposes:__mfe_internal__technicalBulletin__remoteEntry_js": {
+    "file": "assets/virtualExposes-B51XRmod.js",
+    "name": "virtualExposes",
+    "src": "virtual:mf-exposes:__mfe_internal__technicalBulletin__remoteEntry_js",
+    "imports": [
+      "_virtual_mf-exposes___mfe_internal__technicalBulletin__remoteEntry_js-4lzLCxNC.js"
+    ]
+  },
+  "virtual:mf-localSharedImportMap:__mfe_internal__technicalBulletin": {
+    "file": "assets/_virtual_mf-localSharedImportMap___mfe_internal__technicalBulletin-Dgd7ACEt.js",
+    "name": "_virtual_mf-localSharedImportMap___mfe_internal__technicalBulletin",
+    "src": "virtual:mf-localSharedImportMap:__mfe_internal__technicalBulletin",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "__virtual_mf___mfe_internal__technicalBulletin__loadShare__vue__loadShare__.js-CL-rKgoA.js",
+      "__virtual_mf___mfe_internal__technicalBulletin__loadShare__vue_mf_2_router__loadShare__.js-metJ5W4a.js"
+    ]
+  },
+  "virtual:mf:__mfe_internal__technicalBulletin__H_A_I__hostAutoInit__H_A_I__.js": {
+    "file": "assets/hostInit-Jrwutb88.js",
+    "name": "hostInit",
+    "src": "virtual:mf:__mfe_internal__technicalBulletin__H_A_I__hostAutoInit__H_A_I__.js",
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "_virtual_mf-REMOTE_ENTRY_ID___mfe_internal__technicalBulletin__remoteEntry_js-CLCMblNK.js",
+      "virtual:mf-localSharedImportMap:__mfe_internal__technicalBulletin"
+    ]
+  }
+}

@@ -1,0 +1,84 @@
+.intro {
+  margin-bottom: 16px;
+  color: #4e5969;
+  font-size: 13px;
+  line-height: 1.7;
+}
+
+.templateRow {
+  margin-bottom: 16px;
+}
+
+.templateButton {
+  display: inline-flex;
+  height: 36px;
+  align-items: center;
+  gap: 8px;
+  padding: 0 16px;
+  border-color: var(--cube-theme-var--primary-3, #91caff);
+  background: #f7fbff;
+  color: var(--cube-theme-var--primary-color, #1677ff);
+  font-size: 14px;
+}
+
+.templateButton :global(.anticon) {
+  font-size: 16px;
+}
+
+.templateButton:hover,
+.templateButton:focus {
+  border-color: var(--cube-theme-var--primary-color, #1677ff);
+  background: var(--cube-theme-var--primary-1, #eaf3ff);
+  color: #0958d9;
+}
+
+.upload {
+  width: 100%;
+}
+
+.upload :global(.ant-upload-wrapper),
+.upload :global(.ant-upload-drag) {
+  width: 100%;
+}
+
+.upload :global(.ant-upload-drag) {
+  padding: 28px 16px;
+  border: 1px dashed #c9cdd4;
+  border-radius: 8px;
+  background: #fafbfc;
+  color: #1d2129;
+}
+
+.upload :global(.ant-upload-drag:hover) {
+  border-color: #165dff;
+}
+
+.upload :global(.ant-upload-btn) {
+  background: transparent;
+}
+
+.uploadIconWrap {
+  margin-bottom: 12px;
+}
+
+.uploadIcon {
+  display: block;
+  color: var(--cube-theme-var--primary-color, #1677ff);
+  font-size: 40px;
+  line-height: 1;
+}
+
+.uploadText {
+  margin: 0;
+  color: #1d2129;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.uploadHint {
+  margin: 8px 0 0;
+  color: #86909c;
+  font-size: 13px;
+  line-height: 20px;
+}

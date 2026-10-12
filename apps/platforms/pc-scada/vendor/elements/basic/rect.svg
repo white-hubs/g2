@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:scada="http://cube-scada.io/ns/v1"
+     viewBox="0 0 100 60">
+  <metadata>
+    <scada:element>
+      <scada:meta type="rect" label="矩形" category="基础图形" version="1.0.0"/>
+      <scada:props>
+        <scada:prop name="fill"        type="color"  label="填充色" default="#4096ff" domain="observe" semantic="style.fill" required="false" bindable="true" controllable="false"/>
+        <scada:prop name="stroke"      type="color"  label="边框色" default="#333333" domain="observe" semantic="style.stroke" required="false" bindable="true" controllable="false"/>
+        <scada:prop name="strokeWidth" type="number" label="边框宽度" default="2" min="0" max="10" domain="observe" semantic="style.strokeWidth" required="false" bindable="true" controllable="false"/>
+        <scada:prop name="rx"          type="number" label="圆角" default="4" min="0" max="30" domain="observe" semantic="style.cornerRadius" required="false" bindable="true" controllable="false"/>
+        <scada:prop name="label"       type="string" label="标签" default="" domain="observe" semantic="display.label" required="false" bindable="true" controllable="false"/>
+      </scada:props>
+      <scada:mappings>
+        <scada:map prop="fill"        selector="#body" attr="fill"/>
+        <scada:map prop="stroke"      selector="#body" attr="stroke"/>
+        <scada:map prop="strokeWidth" selector="#body" attr="stroke-width"/>
+        <scada:map prop="rx"          selector="#body" attr="rx"/>
+        <scada:map prop="label"       selector="#label-text" attr="textContent"/>
+      </scada:mappings>
+      <scada:animations/>
+    </scada:element>
+  </metadata>
+  <rect id="body" x="2" y="2" width="96" height="56" rx="4" fill="#4096ff" stroke="#333" stroke-width="2"/>
+  <text id="label-text" x="50" y="35" text-anchor="middle" font-size="12" fill="#fff"></text>
+</svg>

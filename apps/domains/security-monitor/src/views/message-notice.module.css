@@ -1,0 +1,71 @@
+.content {
+  display: flex;
+  height: 100%;
+  min-height: 0;
+  flex-direction: column;
+  overflow: auto;
+  color: var(--g2-color-text, rgba(0, 0, 0, 0.85));
+  background: var(--g2-color-page-bg, #f5f7fa);
+}
+
+.sectionTitle {
+  flex: 0 0 auto;
+  margin: 4px 0 12px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.tabs {
+  min-height: 0;
+  flex: 1;
+}
+
+.toolbar {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 16px 30px 10px;
+  color: var(--g2-color-text-secondary, #96981d);
+}
+
+.configList {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.configCard {
+  display: flex;
+  width: min(100%, 1000px);
+  box-sizing: border-box;
+  align-items: flex-start;
+  gap: 16px;
+  padding: 20px 24px;
+  border: 1px solid var(--g2-color-border, var(--ant-color-border, #d9d9d9));
+  background: var(--g2-color-surface-bg, #fff);
+}
+
+.form {
+  min-width: 0;
+  flex: 1;
+}
+
+.form :global(.ant-form-item) {
+  margin-bottom: 18px;
+}
+
+.form :global(.ant-form-item:last-child) {
+  margin-bottom: 0;
+}
+
+.form :global(.ant-checkbox-wrapper) {
+  margin-inline-end: 12px;
+}
+
+.emptyMethod {
+  color: var(--g2-color-text-secondary, var(--ant-color-text-secondary, #8c8c8c));
+}
+
+.configCount {
+  display: none;
+}

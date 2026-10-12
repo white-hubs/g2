@@ -1,0 +1,28 @@
+.loading {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  min-height: min(60vh, 480px);
+}
+.layout { display: flex; height: 100%; min-height: 0; }
+.sidebar { flex: 0 0 256px; min-width: 0; overflow: auto; border-right: 1px solid #edf0f5; padding: 8px 5px 0 0; }
+.businessType { display: block; width: 100%; min-height: 40px; padding: 8px 16px; border: 0; border-radius: 7px; background: transparent; color: rgba(0, 0, 0, 0.85); text-align: left; font-size: 14px; cursor: pointer; }
+.businessType:hover { background: var(--cube-theme-var--primary-1, #e8f3ff); }
+.selected, .businessType.selected:hover {
+  background: var(--cube-theme-var--primary-1, #e8f3ff);
+  color: var(--g2-color-primary, var(--cube-theme-var--primary-color, #1578ff));
+  font-weight: 500;
+}
+.main { flex: 1; min-width: 0; min-height: 0; display: flex; flex-direction: column; }
+.flowBar { flex: none; display: flex; align-items: center; gap: 8px; min-height: 52px; padding: 0 6px; }
+.flowLabel::before { content: "*"; color: #ff4d4f; margin-right: 4px; }
+.flowSelect { width: 220px; }
+.tableArea { flex: 1; min-height: 0; overflow: hidden; }
+.tableArea > :global(.ant-spin-nested-loading),
+.tableArea > :global(.ant-spin-nested-loading) > :global(.ant-spin-container) { height: 100%; min-height: 240px; }
+.tableArea :global(.ant-spin-nested-loading > div > .ant-spin) { max-height: none; }
+.tableArea :global(.ant-table-thead > tr > th) { background: var(--cube-theme-var--primary-1, #f7faff); }
+.tableArea :global(.ant-table-tbody > tr > td) { height: 64px; }
+.fieldSelect { width: 184px; }
+.required { color: #ff4d4f; margin-right: 4px; }

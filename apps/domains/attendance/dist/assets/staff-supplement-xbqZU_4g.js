@@ -1,0 +1,1 @@
+import{t as e}from"./client-DtOTO6As.js";var t=async t=>(await e()).supplementRulesPage(t),n=async t=>(await e()).supplementRulesDetail(t),r=async t=>(await e()).supplementRulesDelete(t),i=async t=>(await e()).supplementRulesPost(t),a=async t=>(await e()).supplementLedgerDetail(t),o=async t=>(await e()).supplementLedgerDetailExport(t);export{t as a,n as i,o as n,i as o,r,a as t};

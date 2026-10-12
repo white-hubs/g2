@@ -1,0 +1,1 @@
+function e(e){return{analyzeInspectionImage:async t=>e.post(`/gw-bff/inspection/image/analyze`,{...t})}}async function t(t){return e((await t.loadPlatform(`httpPlatform`,`client`)).createHttpClientForPlatform(t))}export{t as create,e as createInspectionAiClient};

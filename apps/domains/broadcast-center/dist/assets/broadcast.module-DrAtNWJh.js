@@ -1,0 +1,1 @@
+var e={"upload-tip":`_upload-tip_jggoz_1`,from:`_from_jggoz_7`,"rule-config":`_rule-config_jggoz_11`,"broadcast-template":`_broadcast-template_jggoz_11`,"top-operate":`_top-operate_jggoz_16`,title:`_title_jggoz_22`,"template-table":`_template-table_jggoz_28`};export{e as t};

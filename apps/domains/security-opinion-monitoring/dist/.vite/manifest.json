@@ -1,0 +1,199 @@
+{
+  "../../../../../../.bun/install/cache/links/canvg@3.0.11-40ab337afcf5b510/node_modules/canvg/lib/index.es.js": {
+    "file": "assets/index.es-fAw2JAol.js",
+    "name": "index.es",
+    "src": "../../../../../../.bun/install/cache/links/canvg@3.0.11-40ab337afcf5b510/node_modules/canvg/lib/index.es.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-QTnfLwEv.js",
+      "_domain-BbY4MZZy.js"
+    ]
+  },
+  "../../../../../../.bun/install/cache/links/dompurify@2.5.9-6aa173e3d4d0ffb4/node_modules/dompurify/dist/purify.js": {
+    "file": "assets/purify-CR-I5lb8.js",
+    "name": "purify",
+    "src": "../../../../../../.bun/install/cache/links/dompurify@2.5.9-6aa173e3d4d0ffb4/node_modules/dompurify/dist/purify.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-QTnfLwEv.js"
+    ]
+  },
+  "../../../../../../.bun/install/cache/links/html2canvas@1.4.1-d608a3ed0e3cd872/node_modules/html2canvas/dist/html2canvas.js": {
+    "file": "assets/html2canvas-febzLBPO.js",
+    "name": "html2canvas",
+    "src": "../../../../../../.bun/install/cache/links/html2canvas@1.4.1-d608a3ed0e3cd872/node_modules/html2canvas/dist/html2canvas.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-QTnfLwEv.js"
+    ]
+  },
+  "../../../../../../.bun/install/cache/links/jspdf@2.5.1-36496aaf874c95f5/node_modules/jspdf/dist/jspdf.es.min.js": {
+    "file": "assets/jspdf.es.min-bCrTU7c6.js",
+    "name": "jspdf.es.min",
+    "src": "../../../../../../.bun/install/cache/links/jspdf@2.5.1-36496aaf874c95f5/node_modules/jspdf/dist/jspdf.es.min.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-QTnfLwEv.js",
+      "_vite-preload-helper-7P2xnrDv.js",
+      "_typeof-B5XbjTb1.js"
+    ],
+    "dynamicImports": [
+      "../../../../../../.bun/install/cache/links/html2canvas@1.4.1-d608a3ed0e3cd872/node_modules/html2canvas/dist/html2canvas.js",
+      "../../../../../../.bun/install/cache/links/dompurify@2.5.9-6aa173e3d4d0ffb4/node_modules/dompurify/dist/purify.js",
+      "../../../../../../.bun/install/cache/links/canvg@3.0.11-40ab337afcf5b510/node_modules/canvg/lib/index.es.js"
+    ]
+  },
+  "../../../../../../.bun/install/cache/links/wangeditor@4.7.15-fa0b0283863b61ee/node_modules/wangeditor/dist/wangEditor.js": {
+    "file": "assets/wangEditor-CdMbqML5.js",
+    "name": "wangEditor",
+    "src": "../../../../../../.bun/install/cache/links/wangeditor@4.7.15-fa0b0283863b61ee/node_modules/wangeditor/dist/wangEditor.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-QTnfLwEv.js"
+    ]
+  },
+  "__virtual_mf___mfe_internal__securityOpinionMonitoring__loadShare__vue__loadShare__.js-BKhEBkvU.js": {
+    "file": "assets/_virtual_mf___mfe_internal__securityOpinionMonitoring__loadShare__vue__loadShare__.js-BKhEBkvU.js",
+    "name": "_virtual_mf___mfe_internal__securityOpinionMonitoring__loadShare__vue__loadShare__.js",
+    "imports": [
+      "_rolldown-runtime-QTnfLwEv.js"
+    ]
+  },
+  "__virtual_mf___mfe_internal__securityOpinionMonitoring__loadShare__vue_mf_2_router__loadShare__.js-BpOxER4F.js": {
+    "file": "assets/_virtual_mf___mfe_internal__securityOpinionMonitoring__loadShare__vue_mf_2_router__loadShare__.js-BpOxER4F.js",
+    "name": "_virtual_mf___mfe_internal__securityOpinionMonitoring__loadShare__vue_mf_2_router__loadShare__.js",
+    "imports": [
+      "_rolldown-runtime-QTnfLwEv.js",
+      "__virtual_mf___mfe_internal__securityOpinionMonitoring__loadShare__vue__loadShare__.js-BKhEBkvU.js"
+    ]
+  },
+  "_domain-BbY4MZZy.js": {
+    "file": "assets/domain-BbY4MZZy.js",
+    "name": "domain",
+    "imports": [
+      "_rolldown-runtime-QTnfLwEv.js",
+      "_vite-preload-helper-7P2xnrDv.js",
+      "__virtual_mf___mfe_internal__securityOpinionMonitoring__loadShare__vue__loadShare__.js-BKhEBkvU.js",
+      "_typeof-B5XbjTb1.js",
+      "__virtual_mf___mfe_internal__securityOpinionMonitoring__loadShare__vue_mf_2_router__loadShare__.js-BpOxER4F.js"
+    ],
+    "dynamicImports": [
+      "../../../../../../.bun/install/cache/links/html2canvas@1.4.1-d608a3ed0e3cd872/node_modules/html2canvas/dist/html2canvas.js",
+      "../../../../../../.bun/install/cache/links/jspdf@2.5.1-36496aaf874c95f5/node_modules/jspdf/dist/jspdf.es.min.js",
+      "../../../../../../.bun/install/cache/links/wangeditor@4.7.15-fa0b0283863b61ee/node_modules/wangeditor/dist/wangEditor.js"
+    ],
+    "css": [
+      "assets/domain-Ce0DQgVD.css"
+    ]
+  },
+  "_domain-Ce0DQgVD.css": {
+    "file": "assets/domain-Ce0DQgVD.css",
+    "src": "_domain-Ce0DQgVD.css"
+  },
+  "_rolldown-runtime-QTnfLwEv.js": {
+    "file": "assets/rolldown-runtime-QTnfLwEv.js",
+    "name": "rolldown-runtime"
+  },
+  "_typeof-B5XbjTb1.js": {
+    "file": "assets/typeof-B5XbjTb1.js",
+    "name": "typeof"
+  },
+  "_virtual_mf-REMOTE_ENTRY_ID___mfe_internal__securityOpinionMonitoring__remoteEntry_js-DSkzjnnF.js": {
+    "file": "assets/virtual_mf-REMOTE_ENTRY_ID___mfe_internal__securityOpinionMonitoring__remoteEntry_js-DSkzjnnF.js",
+    "name": "virtual_mf-REMOTE_ENTRY_ID___mfe_internal__securityOpinionMonitoring__remoteEntry_js",
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "virtual:mf-localSharedImportMap:__mfe_internal__securityOpinionMonitoring",
+      "_virtual_mf-exposes___mfe_internal__securityOpinionMonitoring__remoteEntry_js-E11zvBpI.js"
+    ]
+  },
+  "_virtual_mf-exposes___mfe_internal__securityOpinionMonitoring__remoteEntry_js-E11zvBpI.js": {
+    "file": "assets/virtual_mf-exposes___mfe_internal__securityOpinionMonitoring__remoteEntry_js-E11zvBpI.js",
+    "name": "virtual_mf-exposes___mfe_internal__securityOpinionMonitoring__remoteEntry_js",
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "_domain-BbY4MZZy.js"
+    ]
+  },
+  "_vite-preload-helper-7P2xnrDv.js": {
+    "file": "assets/vite-preload-helper-7P2xnrDv.js",
+    "name": "vite-preload-helper"
+  },
+  "src/domain.ts": {
+    "file": "assets/domain-CMgztkb3.js",
+    "name": "domain",
+    "src": "src/domain.ts",
+    "isEntry": true,
+    "imports": [
+      "_domain-BbY4MZZy.js"
+    ]
+  },
+  "virtual:mf-REMOTE_ENTRY_ID:__mfe_internal__securityOpinionMonitoring__remoteEntry_js": {
+    "file": "remoteEntry.js",
+    "name": "remoteEntry",
+    "src": "virtual:mf-REMOTE_ENTRY_ID:__mfe_internal__securityOpinionMonitoring__remoteEntry_js",
+    "imports": [
+      "_virtual_mf-REMOTE_ENTRY_ID___mfe_internal__securityOpinionMonitoring__remoteEntry_js-DSkzjnnF.js"
+    ]
+  },
+  "virtual:mf-REMOTE_ENTRY_SSR_ID:__mfe_internal__securityOpinionMonitoring__remoteEntry_js": {
+    "file": "remoteEntry.ssr.js",
+    "name": "ssrRemoteEntry",
+    "src": "virtual:mf-REMOTE_ENTRY_SSR_ID:__mfe_internal__securityOpinionMonitoring__remoteEntry_js",
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "virtual:mf-exposes-ssr:__mfe_internal__securityOpinionMonitoring__remoteEntry_js"
+    ]
+  },
+  "virtual:mf-exposes-ssr:__mfe_internal__securityOpinionMonitoring__remoteEntry_js": {
+    "file": "assets/virtual_mf-exposes-ssr___mfe_internal__securityOpinionMonitoring__remoteEntry_js-BeafohZx.js",
+    "name": "virtual_mf-exposes-ssr___mfe_internal__securityOpinionMonitoring__remoteEntry_js",
+    "src": "virtual:mf-exposes-ssr:__mfe_internal__securityOpinionMonitoring__remoteEntry_js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "_domain-BbY4MZZy.js"
+    ]
+  },
+  "virtual:mf-exposes:__mfe_internal__securityOpinionMonitoring__remoteEntry_js": {
+    "file": "assets/virtualExposes-Cg1ll3G0.js",
+    "name": "virtualExposes",
+    "src": "virtual:mf-exposes:__mfe_internal__securityOpinionMonitoring__remoteEntry_js",
+    "imports": [
+      "_virtual_mf-exposes___mfe_internal__securityOpinionMonitoring__remoteEntry_js-E11zvBpI.js"
+    ]
+  },
+  "virtual:mf-localSharedImportMap:__mfe_internal__securityOpinionMonitoring": {
+    "file": "assets/_virtual_mf-localSharedImportMap___mfe_internal__securityOpinionMonitoring-BPgYfpU4.js",
+    "name": "_virtual_mf-localSharedImportMap___mfe_internal__securityOpinionMonitoring",
+    "src": "virtual:mf-localSharedImportMap:__mfe_internal__securityOpinionMonitoring",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "__virtual_mf___mfe_internal__securityOpinionMonitoring__loadShare__vue__loadShare__.js-BKhEBkvU.js",
+      "__virtual_mf___mfe_internal__securityOpinionMonitoring__loadShare__vue_mf_2_router__loadShare__.js-BpOxER4F.js"
+    ]
+  },
+  "virtual:mf:__mfe_internal__securityOpinionMonitoring__H_A_I__hostAutoInit__H_A_I__.js": {
+    "file": "assets/hostInit-D5tKunVy.js",
+    "name": "hostInit",
+    "src": "virtual:mf:__mfe_internal__securityOpinionMonitoring__H_A_I__hostAutoInit__H_A_I__.js",
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "_virtual_mf-REMOTE_ENTRY_ID___mfe_internal__securityOpinionMonitoring__remoteEntry_js-DSkzjnnF.js",
+      "virtual:mf-localSharedImportMap:__mfe_internal__securityOpinionMonitoring"
+    ]
+  }
+}

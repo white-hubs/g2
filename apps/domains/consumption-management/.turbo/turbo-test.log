@@ -1,0 +1,20 @@
+$ bun test
+bun test v1.3.14 (0d9b296a)
+
+src/domain.test.ts:
+(pass) @g2-domain/consumption-management > 菜单保留旧系统顺序、编码及目标路由 [3.22ms]
+(pass) @g2-domain/consumption-management > 账户详情仍高亮账户管理菜单 [0.13ms]
+
+src/views/person-record-page.test.ts:
+(pass) 个人消费记录列表 > 悬浮提示保留完整内容，0 不被当作空值 [0.53ms]
+(pass) 个人消费记录列表 > 刷新账户信息时列表请求不等待账户接口 [0.50ms]
+
+src/views/change/change-page.test.ts:
+(pass) 消费变更明细请求 > 统计失败时仍保留成功的列表结果 [0.26ms]
+(pass) 消费变更明细请求 > 列表无需等待统计接口即可完成 [0.36ms]
+(pass) 消费变更明细请求 > 日期和交易类型草稿变化不会提前提交查询 [2.23ms]
+
+ 7 pass
+ 0 fail
+ 20 expect() calls
+Ran 7 tests across 3 files. [4.34s]

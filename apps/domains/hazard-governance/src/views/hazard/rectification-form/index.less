@@ -1,0 +1,145 @@
+.hazard-plan-page {
+  width: 100%;
+  max-width: 1180px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.hazard-plan-panel {
+  width: 100%;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: none;
+}
+
+.hazard-plan-panel {
+  padding: 22px 24px;
+}
+
+.hazard-plan-section-title {
+  margin-bottom: 18px;
+  color: #1f2937;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.hazard-plan-info-grid {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr 1.2fr;
+  gap: 18px 28px;
+}
+
+.hazard-plan-info-item {
+  min-width: 0;
+  display: flex;
+  align-items: center;
+  color: #4b5563;
+  line-height: 24px;
+}
+
+.hazard-plan-info-item span {
+  flex: none;
+  color: #8b95a5;
+}
+
+.hazard-plan-info-item strong {
+  min-width: 0;
+  color: #111827;
+  font-weight: 500;
+}
+
+.hazard-plan-info-item em {
+  margin-left: 6px;
+  color: var(--cube-theme-var--primary-color, #1677ff);
+  font-style: normal;
+  font-weight: 600;
+}
+
+.hazard-plan-info-item small {
+  margin-left: 14px;
+  color: #c2c8d1;
+  font-size: 12px;
+}
+
+.hazard-plan-info-wide {
+  grid-column: span 2;
+}
+
+.hazard-plan-muted {
+  margin-top: 16px;
+  color: #c2c8d1;
+  font-size: 12px;
+}
+
+.hazard-plan-safety {
+  margin-top: 10px;
+  color: #d97706;
+  font-size: 13px;
+}
+
+.hazard-plan-safety::before {
+  content: "⚠ ";
+}
+
+.hazard-plan-form-panel .ant-form-item {
+  margin-bottom: 20px;
+}
+
+.hazard-plan-form-panel textarea.ant-input {
+  resize: vertical;
+}
+
+.hazard-plan-help,
+.hazard-plan-help-inline {
+  margin-top: 8px;
+  color: #8b95a5;
+  font-size: 12px;
+}
+
+.hazard-plan-help-inline {
+  margin-top: 0;
+}
+
+.hazard-plan-required-note {
+  color: #d64f58;
+  font-style: normal;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.hazard-plan-upload-block {
+  margin-top: 8px;
+  margin-bottom: 22px;
+}
+
+.hazard-plan-field-title {
+  margin-bottom: 10px;
+  color: #1f2937;
+  font-weight: 500;
+}
+
+.hazard-plan-field-title span {
+  color: #8b95a5;
+  font-weight: 400;
+}
+
+.hazard-plan-field-title em {
+  font-style: normal;
+}
+
+.hazard-plan-field-title .hazard-plan-required-star,
+.hazard-plan-field-title .hazard-plan-required-note {
+  color: #d64f58;
+}
+
+@media (max-width: 900px) {
+  .hazard-plan-info-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .hazard-plan-info-wide {
+    grid-column: span 1;
+  }
+}

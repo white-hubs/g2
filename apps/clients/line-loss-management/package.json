@@ -1,0 +1,25 @@
+{
+  "name": "@g2-client/line-loss-management",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    "./client": "./src/client.ts"
+  },
+  "scripts": {
+    "dev": "bun --bun vite --port 5087 --strictPort",
+    "build": "bun --bun vite build",
+    "preview": "bun --bun vite preview --port 5087 --strictPort",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "bun test"
+  },
+  "dependencies": {
+    "@g2-composition/contract": "workspace:*",
+    "@g2-contract/line-loss-management": "workspace:*"
+  },
+  "devDependencies": {
+    "@g2-tooling/mf-vite": "workspace:*",
+    "typescript": "catalog:typescript",
+    "vite": "catalog:vite"
+  }
+}

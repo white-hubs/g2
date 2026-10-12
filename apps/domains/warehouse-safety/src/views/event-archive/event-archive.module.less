@@ -1,0 +1,266 @@
+.shell {
+  height: 100%;
+}
+
+.content {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  height: 100%;
+  min-height: 0;
+  padding: 10px 0 0;
+}
+
+.searchPanel {
+  flex: 0 0 auto;
+  padding: 0 0 6px;
+}
+
+.searchInput {
+  width: 260px;
+}
+
+.archiveLayout {
+  display: grid;
+  flex: 1 1 auto;
+  gap: 16px;
+  grid-template-columns: 320px minmax(0, 1fr);
+  min-height: 0;
+}
+
+.eventPanel,
+.playerPanel {
+  background: #fff;
+  border: 1px solid #e5e6eb;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+  overflow: hidden;
+}
+
+.panelHeader {
+  align-items: center;
+  border-bottom: 1px solid #eef0f4;
+  display: flex;
+  flex: 0 0 auto;
+  font-size: 15px;
+  font-weight: 600;
+  justify-content: space-between;
+  min-height: 48px;
+  padding: 0 16px;
+}
+
+.eventList {
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+}
+
+.eventItem {
+  align-items: center;
+  background: #fff;
+  border: 0;
+  border-bottom: 1px solid #eef0f4;
+  cursor: pointer;
+  display: flex;
+  gap: 12px;
+  min-width: 0;
+  padding: 12px 16px;
+  text-align: left;
+  transition: background 0.2s ease;
+  width: 100%;
+}
+
+.eventItem:hover,
+.eventItemActive {
+  background: #f0f7ff;
+}
+
+.eventItemActive {
+  box-shadow: inset 3px 0 0 #165dff;
+}
+
+.eventThumb {
+  align-items: center;
+  background: linear-gradient(135deg, #1f2937, #111827);
+  border-radius: 6px;
+  color: rgb(255 255 255 / 75%);
+  display: flex;
+  flex: 0 0 auto;
+  font-size: 22px;
+  height: 56px;
+  justify-content: center;
+  width: 90px;
+}
+
+.eventInfo {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+  gap: 4px;
+  min-width: 0;
+}
+
+.eventTitle {
+  color: #1d2129;
+  font-size: 13px;
+  font-weight: 600;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.eventMeta {
+  color: #86909c;
+  font-size: 12px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.playerActions {
+  align-items: center;
+  color: #86909c;
+  display: flex;
+  font-size: 12px;
+  font-weight: 400;
+  gap: 10px;
+  min-width: 0;
+}
+
+.playerActions span {
+  max-width: 360px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.videoPlayer {
+  background: radial-gradient(circle at 50% 30%, rgb(45 55 72 / 42%), transparent 42%), linear-gradient(135deg, #111827, #1f2937);
+  color: rgb(255 255 255 / 68%);
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 420px;
+  min-width: 0;
+  overflow: auto;
+  padding: 16px;
+  position: relative;
+}
+
+.videoGrid {
+  align-content: start;
+  display: grid;
+  gap: 16px;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  width: 100%;
+}
+
+.videoCard {
+  align-items: stretch;
+  background: rgb(15 23 42 / 86%);
+  border: 1px solid rgb(148 163 184 / 24%);
+  border-radius: 8px;
+  box-shadow: 0 14px 40px rgb(0 0 0 / 18%);
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  overflow: hidden;
+}
+
+.videoInfo {
+  color: rgb(255 255 255 / 76%);
+  font-size: 13px;
+  padding: 10px 12px;
+}
+
+.videoInfo span {
+  color: rgb(255 255 255 / 48%);
+  display: block;
+  font-size: 12px;
+  margin-top: 4px;
+}
+
+.videoViewport {
+  align-items: center;
+  background: #0f172a;
+  display: flex;
+  justify-content: center;
+  min-height: 420px;
+  overflow: hidden;
+  position: relative;
+}
+
+.videoBackdrop {
+  filter: blur(22px) saturate(1.15);
+  height: 100%;
+  inset: 0;
+  object-fit: cover;
+  opacity: 0.42;
+  position: absolute;
+  transform: scale(1.08);
+  width: 100%;
+}
+
+.videoViewport::after {
+  background: linear-gradient(90deg, rgb(15 23 42 / 42%), transparent 18%, transparent 82%, rgb(15 23 42 / 42%));
+  content: "";
+  inset: 0;
+  pointer-events: none;
+  position: absolute;
+}
+
+.videoElement {
+  background: #000;
+  display: block;
+  max-height: min(58vh, 560px);
+  max-width: 100%;
+  object-fit: contain;
+  object-position: center;
+  position: relative;
+  width: auto;
+  z-index: 1;
+}
+
+.videoEmpty {
+  align-self: center;
+  color: rgb(255 255 255 / 62%);
+  font-size: 15px;
+  text-align: center;
+}
+
+.videoEmpty span {
+  color: rgb(255 255 255 / 42%);
+  display: block;
+  font-size: 12px;
+  margin-top: 8px;
+}
+
+.detailGrid {
+  display: grid;
+  gap: 12px;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.detailItem {
+  background: #fafbfc;
+  border-radius: 8px;
+  min-width: 0;
+  padding: 12px;
+}
+
+.detailLabel {
+  color: #86909c;
+  font-size: 12px;
+  margin-bottom: 4px;
+}
+
+.detailValue {
+  color: #1d2129;
+  font-size: 14px;
+  font-weight: 500;
+  word-break: break-all;
+}

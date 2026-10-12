@@ -1,0 +1,269 @@
+// 全局布局与列表页公共样式（对齐 security-opinion-monitoring）
+
+:root {
+  --template-color-primary: rgb(24, 144, 255);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  box-sizing: border-box;
+  margin: 0;
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+#RiskGradedControl {
+  box-sizing: border-box;
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+  height: 100%;
+  min-height: 0;
+  min-width: 0;
+  width: 100%;
+  max-width: 100%;
+}
+
+#RiskGradedControl > * {
+  box-sizing: border-box;
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+  min-height: 0;
+  min-width: 0;
+  width: 100%;
+  max-width: 100%;
+}
+
+.page-route {
+  box-sizing: border-box;
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+  min-height: 0;
+  min-width: 0;
+  width: 100%;
+  max-width: 100%;
+}
+
+[data-layout-toolbar] {
+  flex-shrink: 0;
+  margin-bottom: 16px;
+
+  .ant-form-item,
+  .risk-graded-control-form-item {
+    padding-right: 0 !important;
+    margin-right: 8px !important;
+    margin-bottom: 8px !important;
+  }
+
+  .ant-form-item-label,
+  .risk-graded-control-form-item-label {
+    padding-right: 4px;
+  }
+
+  .toolbar-filter-item .ant-form-item-control,
+  .toolbar-filter-item .risk-graded-control-form-item-control {
+    flex: none;
+    width: auto;
+  }
+
+  .toolbar-filter-select,
+  .toolbar-filter-select.ant-select,
+  .toolbar-filter-select.risk-graded-control-select {
+    width: 160px !important;
+    min-width: 160px !important;
+  }
+}
+
+.listPageBody {
+  box-sizing: border-box;
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+  min-height: 0;
+  min-width: 0;
+  width: 100%;
+  max-width: 100%;
+}
+
+.toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+  margin-bottom: 16px;
+  padding-bottom: 4px;
+}
+
+.tableWrap {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+  flex: 1;
+  min-height: 0;
+  overflow: auto;
+  overscroll-behavior: contain;
+
+  .risk-graded-control-table,
+  .ant-table-wrapper {
+    max-width: 100%;
+  }
+}
+
+.listActionLink.ant-btn-link,
+.listActionLink.risk-graded-control-btn-link {
+  color: var(--template-color-primary);
+
+  &:hover,
+  &:focus {
+    color: var(--template-color-primary);
+    opacity: 0.85;
+  }
+
+  &:disabled,
+  &.ant-btn-disabled,
+  &.risk-graded-control-btn-disabled {
+    color: rgba(0, 0, 0, 0.25);
+    opacity: 1;
+  }
+}
+
+.statCardRow {
+  margin-bottom: 16px;
+}
+
+.statCardTitle {
+  font-size: 14px;
+  color: #666;
+}
+
+.statCardValue {
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.expandPanel {
+  padding: 12px 24px;
+  background: #fafafa;
+}
+
+.expandPanelTitle {
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+.expandPanelDesc {
+  margin-bottom: 8px;
+  color: #666;
+  font-size: 13px;
+}
+
+.expandSectionTitle {
+  margin: 12px 0 8px;
+  font-weight: 600;
+}
+
+.pickerInput {
+  cursor: pointer;
+}
+
+#cube-layout-content {
+  min-width: 0;
+  max-width: 100%;
+}
+
+/* Modal 默认挂到 body；wrapClassName 落在 ant-modal-wrap 上 */
+.risk-modal.ant-modal-wrap .ant-modal {
+  top: 40px;
+  padding-bottom: 0;
+  max-width: calc(100vw - 32px);
+}
+
+.risk-modal.ant-modal-wrap .ant-modal-content {
+  display: flex;
+  flex-direction: column;
+  max-height: calc(100vh - 80px);
+}
+
+.risk-modal.ant-modal-wrap .ant-modal-body {
+  flex: 1 1 auto;
+  max-height: calc(100vh - 220px);
+  overflow-y: auto;
+}
+
+.risk-modal.ant-modal-wrap .ant-modal-footer {
+  flex-shrink: 0;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* 对齐隐患治理列表页：PcLayout + usePcTable 内容区滚动。
+ * 表单与表格之间不加额外 gap——PcForm 自身已有 padding / form-item margin。 */
+.risk-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  width: 100%;
+}
+
+.risk-table-page {
+  height: 100%;
+  min-width: 0;
+  min-height: 0;
+  overflow: hidden;
+}
+
+.risk-table-page #pc-table {
+  flex: 1 1 auto;
+  width: 100%;
+  min-width: 0;
+  min-height: 0;
+  overflow: auto;
+  overscroll-behavior: contain;
+}
+
+.risk-table-page #pc-table > div {
+  min-width: 0;
+  width: 100%;
+}
+
+.risk-table-page #pc-table .ant-table-content {
+  overflow: visible !important;
+}
+
+.mt-10 {
+  margin-top: 10px;
+}
+.mt-20 {
+  margin-top: 20px;
+}
+.mb-10 {
+  margin-bottom: 10px;
+}
+.ml-10 {
+  margin-left: 10px;
+}
+.mr-10 {
+  margin-right: 10px;
+}
+.pd-10 {
+  padding: 10px;
+}
+.pd-20 {
+  padding: 20px;
+}

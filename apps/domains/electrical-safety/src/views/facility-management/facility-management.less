@@ -1,0 +1,178 @@
+.device-tabs-header {
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-top: 22px;
+
+  .cube-tabs,
+  .ant-tabs {
+    flex: 1;
+  }
+}
+
+.facility-info-title {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 12px;
+}
+
+.facility-detail-form {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px 24px;
+  padding: 16px;
+  background: #fafafa;
+  border-radius: 8px;
+
+  .ant-form-item {
+    min-width: 0;
+    margin: 0;
+  }
+
+  .ant-form-item-label {
+    color: var(--electrical-text-secondary);
+  }
+
+  .ant-form-item-control-input-content {
+    overflow: hidden;
+    color: var(--electrical-text-primary);
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .facility-detail-remark {
+    grid-column: 1 / -1;
+    min-width: 0;
+
+    &-label {
+      margin-bottom: 8px;
+      color: var(--electrical-text-secondary);
+    }
+
+    &-content {
+      min-width: 0;
+      color: var(--electrical-text-primary);
+      white-space: pre-wrap;
+      overflow-wrap: anywhere;
+      word-break: break-word;
+    }
+  }
+}
+
+.facility-detail-drawer-content {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  min-height: 0;
+  overflow: hidden;
+}
+
+.facility-device-table {
+  flex: 1;
+  min-height: 0;
+  overscroll-behavior: contain;
+  .table-content,
+  .cube-table-wrapper,
+  .cube-spin-nested-loading,
+  .cube-spin-container,
+  .cube-table,
+  .cube-table-container {
+    height: 100%;
+  }
+  .cube-table-body {
+    max-height: calc(100% - 40px) !important;
+  }
+}
+.page-header {
+  display: flex;
+  align-items: center;
+  .page-toolbar {
+    margin-right: 20px;
+  }
+}
+
+.electrical-ratio-input {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+  .cube-input,
+  .ant-input-affix-wrapper {
+    flex: 1;
+  }
+}
+
+.electrical-parameter-config-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 14px;
+}
+
+.environment-parameter-config-toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 12px;
+  color: var(--electrical-text-secondary);
+  font-size: 13px;
+}
+
+.environment-parameter-mapping-table-wrapper {
+  max-height: min(420px, calc(100vh - 340px));
+  overflow: auto;
+  overscroll-behavior: contain;
+}
+
+.environment-parameter-mapping-table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #f0f0f0;
+
+  th,
+  td {
+    padding: 10px 12px;
+    border: 1px solid #f0f0f0;
+    text-align: left;
+  }
+
+  th {
+    background: #fafafa;
+    color: #333;
+    font-weight: 500;
+  }
+
+  th:first-child,
+  td:first-child,
+  th:last-child,
+  td:last-child {
+    width: 72px;
+    text-align: center;
+  }
+
+  tbody tr:last-child td[colspan] {
+    color: var(--electrical-text-secondary);
+    text-align: center;
+  }
+}
+.table-content {
+  height: 100%;
+  min-height: 0;
+  overflow: auto;
+}
+
+.association-modal-content {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  height: min(600px, calc(100vh - 260px));
+  min-height: 0;
+}
+
+.association-modal-table {
+  flex: 1;
+  min-height: 0;
+  overflow: auto;
+  overscroll-behavior: contain;
+}

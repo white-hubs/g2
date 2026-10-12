@@ -1,0 +1,1 @@
+import{r as e}from"./config-provider-C6dmX0qI.js";export{e as message};

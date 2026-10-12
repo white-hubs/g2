@@ -1,0 +1,25 @@
+{
+  "name": "@g2-pages/security-opinion-monitoring",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "bun test"
+  },
+  "dependencies": {
+    "@g2-client/security-opinion": "workspace:*",
+    "@g2-contract/security-opinion": "workspace:*",
+    "@g2-platform/pc-ui": "workspace:*",
+    "dayjs": "catalog:libs",
+    "echarts": "catalog:libs",
+    "vue": "catalog:vue",
+    "vue-router": "catalog:vue"
+  },
+  "devDependencies": {
+    "typescript": "catalog:typescript"
+  }
+}

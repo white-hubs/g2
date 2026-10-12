@@ -1,0 +1,1 @@
+import"./virtual_mf-exposes___mfe_internal__streamEnginePages__remoteEntry_js-B9mLKPLw.js";import"./virtual_mf-REMOTE_ENTRY_ID___mfe_internal__streamEnginePages__remoteEntry_js-DZxfHrRK.js";document.querySelector(`#app`).textContent=`@g2-pages/stream-engine build shell`;

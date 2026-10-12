@@ -1,0 +1,4 @@
+/** Public runtime contract read by Shell before domains are allowed to mount. */
+export const runtimeVersion = "2026.09.22.1";
+export const apiVersion = "1.0.0";
+export const compatibility = { minConsumer: "1.0.0", maxConsumer: "1.x" };

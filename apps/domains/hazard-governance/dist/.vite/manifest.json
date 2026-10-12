@@ -1,0 +1,548 @@
+{
+  "__virtual_mf___mfe_internal__hazardGovernance__loadShare__vue__loadShare__.js-CjH1ja7z.js": {
+    "file": "assets/_virtual_mf___mfe_internal__hazardGovernance__loadShare__vue__loadShare__.js-CjH1ja7z.js",
+    "name": "_virtual_mf___mfe_internal__hazardGovernance__loadShare__vue__loadShare__.js",
+    "imports": [
+      "_rolldown-runtime-QTnfLwEv.js"
+    ]
+  },
+  "__virtual_mf___mfe_internal__hazardGovernance__loadShare__vue_mf_2_router__loadShare__.js-BSB1ENwy.js": {
+    "file": "assets/_virtual_mf___mfe_internal__hazardGovernance__loadShare__vue_mf_2_router__loadShare__.js-BSB1ENwy.js",
+    "name": "_virtual_mf___mfe_internal__hazardGovernance__loadShare__vue_mf_2_router__loadShare__.js",
+    "imports": [
+      "_rolldown-runtime-QTnfLwEv.js",
+      "__virtual_mf___mfe_internal__hazardGovernance__loadShare__vue__loadShare__.js-CjH1ja7z.js"
+    ]
+  },
+  "_actions-6gWrLCsF.js": {
+    "file": "assets/actions-6gWrLCsF.js",
+    "name": "actions",
+    "imports": [
+      "__virtual_mf___mfe_internal__hazardGovernance__loadShare__vue__loadShare__.js-CjH1ja7z.js",
+      "_data-hOMFTrxn.js",
+      "_domain-context-CMztrDkK.js"
+    ]
+  },
+  "_ai-rich-text-panel-9rTlpxDg.css": {
+    "file": "assets/ai-rich-text-panel-9rTlpxDg.css",
+    "src": "_ai-rich-text-panel-9rTlpxDg.css"
+  },
+  "_ai-rich-text-panel-J1RDjA-_.js": {
+    "file": "assets/ai-rich-text-panel-J1RDjA-_.js",
+    "name": "ai-rich-text-panel",
+    "imports": [
+      "__virtual_mf___mfe_internal__hazardGovernance__loadShare__vue__loadShare__.js-CjH1ja7z.js",
+      "_domain-context-CMztrDkK.js"
+    ],
+    "css": [
+      "assets/ai-rich-text-panel-9rTlpxDg.css"
+    ]
+  },
+  "_data-hOMFTrxn.js": {
+    "file": "assets/data-hOMFTrxn.js",
+    "name": "data"
+  },
+  "_domain-context-CMztrDkK.js": {
+    "file": "assets/domain-context-CMztrDkK.js",
+    "name": "domain-context",
+    "imports": [
+      "__virtual_mf___mfe_internal__hazardGovernance__loadShare__vue__loadShare__.js-CjH1ja7z.js"
+    ]
+  },
+  "_file-upload-D9GgTGMf.js": {
+    "file": "assets/file-upload-D9GgTGMf.js",
+    "name": "file-upload",
+    "imports": [
+      "__virtual_mf___mfe_internal__hazardGovernance__loadShare__vue__loadShare__.js-CjH1ja7z.js",
+      "_domain-context-CMztrDkK.js"
+    ]
+  },
+  "_format-time-Daj7AABi.js": {
+    "file": "assets/format-time-Daj7AABi.js",
+    "name": "format-time",
+    "imports": [
+      "_rolldown-runtime-QTnfLwEv.js"
+    ]
+  },
+  "_hazard-category-cascader-NvYz9idx.js": {
+    "file": "assets/hazard-category-cascader-NvYz9idx.js",
+    "name": "hazard-category-cascader",
+    "imports": [
+      "__virtual_mf___mfe_internal__hazardGovernance__loadShare__vue__loadShare__.js-CjH1ja7z.js",
+      "_domain-context-CMztrDkK.js",
+      "_server-Bhnb3o85.js"
+    ]
+  },
+  "_list-B2c6bf-j.js": {
+    "file": "assets/list-B2c6bf-j.js",
+    "name": "list"
+  },
+  "_misreport-hazard-modal-Cl4mMvGZ.css": {
+    "file": "assets/misreport-hazard-modal-Cl4mMvGZ.css",
+    "src": "_misreport-hazard-modal-Cl4mMvGZ.css"
+  },
+  "_misreport-hazard-modal-D93rPw51.js": {
+    "file": "assets/misreport-hazard-modal-D93rPw51.js",
+    "name": "misreport-hazard-modal",
+    "imports": [
+      "__virtual_mf___mfe_internal__hazardGovernance__loadShare__vue__loadShare__.js-CjH1ja7z.js",
+      "_data-hOMFTrxn.js",
+      "_domain-context-CMztrDkK.js",
+      "_server-Bhnb3o85.js",
+      "_file-upload-D9GgTGMf.js",
+      "_format-time-Daj7AABi.js",
+      "_actions-6gWrLCsF.js",
+      "_user-select-C-rpL0p8.js",
+      "_hazard-category-cascader-NvYz9idx.js"
+    ],
+    "css": [
+      "assets/misreport-hazard-modal-Cl4mMvGZ.css"
+    ]
+  },
+  "_readonly-file-upload-HvS6VO0_.js": {
+    "file": "assets/readonly-file-upload-HvS6VO0_.js",
+    "name": "readonly-file-upload",
+    "imports": [
+      "__virtual_mf___mfe_internal__hazardGovernance__loadShare__vue__loadShare__.js-CjH1ja7z.js",
+      "_file-upload-D9GgTGMf.js"
+    ]
+  },
+  "_rolldown-runtime-QTnfLwEv.js": {
+    "file": "assets/rolldown-runtime-QTnfLwEv.js",
+    "name": "rolldown-runtime"
+  },
+  "_server-Bhnb3o85.js": {
+    "file": "assets/server-Bhnb3o85.js",
+    "name": "server",
+    "imports": [
+      "__virtual_mf___mfe_internal__hazardGovernance__loadShare__vue_mf_2_router__loadShare__.js-BSB1ENwy.js",
+      "_domain-context-CMztrDkK.js"
+    ]
+  },
+  "_use-hazard-urge-Cf8jycUd.js": {
+    "file": "assets/use-hazard-urge-Cf8jycUd.js",
+    "name": "use-hazard-urge",
+    "imports": [
+      "__virtual_mf___mfe_internal__hazardGovernance__loadShare__vue__loadShare__.js-CjH1ja7z.js",
+      "_domain-context-CMztrDkK.js",
+      "_server-Bhnb3o85.js"
+    ]
+  },
+  "_user-select-C-rpL0p8.js": {
+    "file": "assets/user-select-C-rpL0p8.js",
+    "name": "user-select",
+    "imports": [
+      "__virtual_mf___mfe_internal__hazardGovernance__loadShare__vue__loadShare__.js-CjH1ja7z.js",
+      "_domain-context-CMztrDkK.js"
+    ]
+  },
+  "_virtual_mf-REMOTE_ENTRY_ID___mfe_internal__hazardGovernance__remoteEntry_js-BxO5Ql15.js": {
+    "file": "assets/virtual_mf-REMOTE_ENTRY_ID___mfe_internal__hazardGovernance__remoteEntry_js-BxO5Ql15.js",
+    "name": "virtual_mf-REMOTE_ENTRY_ID___mfe_internal__hazardGovernance__remoteEntry_js",
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "virtual:mf-localSharedImportMap:__mfe_internal__hazardGovernance",
+      "_virtual_mf-exposes___mfe_internal__hazardGovernance__remoteEntry_js-BO7XMxWk.js"
+    ]
+  },
+  "_virtual_mf-exposes___mfe_internal__hazardGovernance__remoteEntry_js-BO7XMxWk.js": {
+    "file": "assets/virtual_mf-exposes___mfe_internal__hazardGovernance__remoteEntry_js-BO7XMxWk.js",
+    "name": "virtual_mf-exposes___mfe_internal__hazardGovernance__remoteEntry_js",
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "src/domain.ts"
+    ]
+  },
+  "_vite-preload-helper-7P2xnrDv.js": {
+    "file": "assets/vite-preload-helper-7P2xnrDv.js",
+    "name": "vite-preload-helper"
+  },
+  "index.html": {
+    "file": "assets/index-X9wurx0x.js",
+    "name": "index",
+    "src": "index.html",
+    "isEntry": true,
+    "imports": [
+      "_virtual_mf-exposes___mfe_internal__hazardGovernance__remoteEntry_js-BO7XMxWk.js",
+      "_virtual_mf-REMOTE_ENTRY_ID___mfe_internal__hazardGovernance__remoteEntry_js-BxO5Ql15.js"
+    ]
+  },
+  "src/domain.ts": {
+    "file": "assets/domain-Vcdo26wA.js",
+    "name": "domain",
+    "src": "src/domain.ts",
+    "isEntry": true,
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js",
+      "_domain-context-CMztrDkK.js"
+    ],
+    "dynamicImports": [
+      "src/views/hazard/workbench/index.tsx",
+      "src/views/hazard/ledger/index.tsx",
+      "src/views/hazard/ledger-detail/index.tsx",
+      "src/views/hazard/rectification-tasks/index.tsx",
+      "src/views/hazard/rectification-form/index.tsx",
+      "src/views/hazard/rectification-progress/index.tsx",
+      "src/views/hazard/approval-list/index.tsx",
+      "src/views/hazard/approval-detail/index.tsx",
+      "src/views/hazard/acceptance-list/index.tsx",
+      "src/views/hazard/acceptance-detail/index.tsx",
+      "src/views/hazard/dashboard/index.tsx",
+      "src/views/hazard/root-cause-list/index.tsx",
+      "src/views/hazard/root-cause-detail/index.tsx",
+      "src/views/hazard/rule-config/index.tsx",
+      "src/views/hazard/approval-template-config/index.tsx"
+    ],
+    "css": [
+      "assets/domain-C2r4JAJE.css"
+    ]
+  },
+  "src/views/hazard/acceptance-detail/index.tsx": {
+    "file": "assets/acceptance-detail-BRTwAGf5.js",
+    "name": "acceptance-detail",
+    "src": "src/views/hazard/acceptance-detail/index.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__hazardGovernance__loadShare__vue__loadShare__.js-CjH1ja7z.js",
+      "__virtual_mf___mfe_internal__hazardGovernance__loadShare__vue_mf_2_router__loadShare__.js-BSB1ENwy.js",
+      "_data-hOMFTrxn.js",
+      "_domain-context-CMztrDkK.js",
+      "_ai-rich-text-panel-J1RDjA-_.js",
+      "_server-Bhnb3o85.js",
+      "_readonly-file-upload-HvS6VO0_.js",
+      "_format-time-Daj7AABi.js"
+    ],
+    "css": [
+      "assets/acceptance-detail-DhpoWoVW.css"
+    ]
+  },
+  "src/views/hazard/acceptance-list/index.tsx": {
+    "file": "assets/acceptance-list-ryTO8oUM.js",
+    "name": "acceptance-list",
+    "src": "src/views/hazard/acceptance-list/index.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__hazardGovernance__loadShare__vue__loadShare__.js-CjH1ja7z.js",
+      "__virtual_mf___mfe_internal__hazardGovernance__loadShare__vue_mf_2_router__loadShare__.js-BSB1ENwy.js",
+      "_data-hOMFTrxn.js",
+      "_domain-context-CMztrDkK.js",
+      "_server-Bhnb3o85.js",
+      "_format-time-Daj7AABi.js",
+      "_actions-6gWrLCsF.js",
+      "_list-B2c6bf-j.js"
+    ],
+    "css": [
+      "assets/acceptance-list-D5CtVcXW.css"
+    ]
+  },
+  "src/views/hazard/approval-detail/index.tsx": {
+    "file": "assets/approval-detail-DcGr54jv.js",
+    "name": "approval-detail",
+    "src": "src/views/hazard/approval-detail/index.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__hazardGovernance__loadShare__vue__loadShare__.js-CjH1ja7z.js",
+      "__virtual_mf___mfe_internal__hazardGovernance__loadShare__vue_mf_2_router__loadShare__.js-BSB1ENwy.js",
+      "_data-hOMFTrxn.js",
+      "_domain-context-CMztrDkK.js",
+      "_server-Bhnb3o85.js",
+      "_readonly-file-upload-HvS6VO0_.js",
+      "_format-time-Daj7AABi.js"
+    ],
+    "css": [
+      "assets/approval-detail-2m-2zAiB.css"
+    ]
+  },
+  "src/views/hazard/approval-list/index.tsx": {
+    "file": "assets/approval-list-CR5KYa7_.js",
+    "name": "approval-list",
+    "src": "src/views/hazard/approval-list/index.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__hazardGovernance__loadShare__vue__loadShare__.js-CjH1ja7z.js",
+      "__virtual_mf___mfe_internal__hazardGovernance__loadShare__vue_mf_2_router__loadShare__.js-BSB1ENwy.js",
+      "_data-hOMFTrxn.js",
+      "_domain-context-CMztrDkK.js",
+      "_server-Bhnb3o85.js",
+      "_format-time-Daj7AABi.js",
+      "_actions-6gWrLCsF.js",
+      "_list-B2c6bf-j.js"
+    ],
+    "css": [
+      "assets/approval-list-DVjvAJF0.css"
+    ]
+  },
+  "src/views/hazard/approval-template-config/index.tsx": {
+    "file": "assets/approval-template-config-WvmwLSAH.js",
+    "name": "approval-template-config",
+    "src": "src/views/hazard/approval-template-config/index.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__hazardGovernance__loadShare__vue__loadShare__.js-CjH1ja7z.js",
+      "_domain-context-CMztrDkK.js",
+      "_server-Bhnb3o85.js",
+      "_user-select-C-rpL0p8.js"
+    ],
+    "css": [
+      "assets/approval-template-config-ClrpNF8P.css"
+    ]
+  },
+  "src/views/hazard/dashboard/index.tsx": {
+    "file": "assets/dashboard-CmRyKhUO.js",
+    "name": "dashboard",
+    "src": "src/views/hazard/dashboard/index.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-QTnfLwEv.js",
+      "__virtual_mf___mfe_internal__hazardGovernance__loadShare__vue__loadShare__.js-CjH1ja7z.js",
+      "_data-hOMFTrxn.js",
+      "_domain-context-CMztrDkK.js",
+      "_server-Bhnb3o85.js"
+    ],
+    "css": [
+      "assets/dashboard-D3-ugi2d.css"
+    ]
+  },
+  "src/views/hazard/ledger-detail/index.tsx": {
+    "file": "assets/ledger-detail-BIrFxjlM.js",
+    "name": "ledger-detail",
+    "src": "src/views/hazard/ledger-detail/index.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__hazardGovernance__loadShare__vue__loadShare__.js-CjH1ja7z.js",
+      "__virtual_mf___mfe_internal__hazardGovernance__loadShare__vue_mf_2_router__loadShare__.js-BSB1ENwy.js",
+      "_data-hOMFTrxn.js",
+      "_domain-context-CMztrDkK.js",
+      "_ai-rich-text-panel-J1RDjA-_.js",
+      "_server-Bhnb3o85.js",
+      "_readonly-file-upload-HvS6VO0_.js",
+      "_format-time-Daj7AABi.js"
+    ],
+    "css": [
+      "assets/ledger-detail-CEcqkIhi.css"
+    ]
+  },
+  "src/views/hazard/ledger/index.tsx": {
+    "file": "assets/ledger-CktsipF7.js",
+    "name": "ledger",
+    "src": "src/views/hazard/ledger/index.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__hazardGovernance__loadShare__vue__loadShare__.js-CjH1ja7z.js",
+      "__virtual_mf___mfe_internal__hazardGovernance__loadShare__vue_mf_2_router__loadShare__.js-BSB1ENwy.js",
+      "_data-hOMFTrxn.js",
+      "_domain-context-CMztrDkK.js",
+      "_server-Bhnb3o85.js",
+      "_file-upload-D9GgTGMf.js",
+      "_format-time-Daj7AABi.js",
+      "_actions-6gWrLCsF.js",
+      "_list-B2c6bf-j.js",
+      "_misreport-hazard-modal-D93rPw51.js",
+      "_use-hazard-urge-Cf8jycUd.js",
+      "_hazard-category-cascader-NvYz9idx.js"
+    ],
+    "css": [
+      "assets/ledger-BgtI-o9S.css"
+    ]
+  },
+  "src/views/hazard/rectification-form/index.tsx": {
+    "file": "assets/rectification-form-C9JML9NJ.js",
+    "name": "rectification-form",
+    "src": "src/views/hazard/rectification-form/index.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__hazardGovernance__loadShare__vue__loadShare__.js-CjH1ja7z.js",
+      "__virtual_mf___mfe_internal__hazardGovernance__loadShare__vue_mf_2_router__loadShare__.js-BSB1ENwy.js",
+      "_data-hOMFTrxn.js",
+      "_domain-context-CMztrDkK.js",
+      "_ai-rich-text-panel-J1RDjA-_.js",
+      "_server-Bhnb3o85.js",
+      "_file-upload-D9GgTGMf.js",
+      "_format-time-Daj7AABi.js"
+    ],
+    "css": [
+      "assets/rectification-form-S8fU8QW0.css"
+    ]
+  },
+  "src/views/hazard/rectification-progress/index.tsx": {
+    "file": "assets/rectification-progress-ESi_EEaF.js",
+    "name": "rectification-progress",
+    "src": "src/views/hazard/rectification-progress/index.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__hazardGovernance__loadShare__vue__loadShare__.js-CjH1ja7z.js",
+      "__virtual_mf___mfe_internal__hazardGovernance__loadShare__vue_mf_2_router__loadShare__.js-BSB1ENwy.js",
+      "_data-hOMFTrxn.js",
+      "_domain-context-CMztrDkK.js",
+      "_server-Bhnb3o85.js",
+      "_file-upload-D9GgTGMf.js",
+      "_readonly-file-upload-HvS6VO0_.js",
+      "_format-time-Daj7AABi.js"
+    ],
+    "css": [
+      "assets/rectification-progress-CxwhpYJj.css"
+    ]
+  },
+  "src/views/hazard/rectification-tasks/index.tsx": {
+    "file": "assets/rectification-tasks-ivM4NEmV.js",
+    "name": "rectification-tasks",
+    "src": "src/views/hazard/rectification-tasks/index.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__hazardGovernance__loadShare__vue__loadShare__.js-CjH1ja7z.js",
+      "__virtual_mf___mfe_internal__hazardGovernance__loadShare__vue_mf_2_router__loadShare__.js-BSB1ENwy.js",
+      "_data-hOMFTrxn.js",
+      "_domain-context-CMztrDkK.js",
+      "_server-Bhnb3o85.js",
+      "_format-time-Daj7AABi.js",
+      "_actions-6gWrLCsF.js",
+      "_list-B2c6bf-j.js",
+      "_use-hazard-urge-Cf8jycUd.js"
+    ],
+    "css": [
+      "assets/rectification-tasks-Dk4gS6fn.css"
+    ]
+  },
+  "src/views/hazard/root-cause-detail/index.tsx": {
+    "file": "assets/root-cause-detail-DWzQpxsz.js",
+    "name": "root-cause-detail",
+    "src": "src/views/hazard/root-cause-detail/index.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__hazardGovernance__loadShare__vue__loadShare__.js-CjH1ja7z.js",
+      "__virtual_mf___mfe_internal__hazardGovernance__loadShare__vue_mf_2_router__loadShare__.js-BSB1ENwy.js",
+      "_data-hOMFTrxn.js",
+      "_domain-context-CMztrDkK.js",
+      "_ai-rich-text-panel-J1RDjA-_.js",
+      "_server-Bhnb3o85.js",
+      "_format-time-Daj7AABi.js"
+    ],
+    "css": [
+      "assets/root-cause-detail-TfNTAGjP.css"
+    ]
+  },
+  "src/views/hazard/root-cause-list/index.tsx": {
+    "file": "assets/root-cause-list-DxOPbs20.js",
+    "name": "root-cause-list",
+    "src": "src/views/hazard/root-cause-list/index.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__hazardGovernance__loadShare__vue__loadShare__.js-CjH1ja7z.js",
+      "__virtual_mf___mfe_internal__hazardGovernance__loadShare__vue_mf_2_router__loadShare__.js-BSB1ENwy.js",
+      "_data-hOMFTrxn.js",
+      "_domain-context-CMztrDkK.js",
+      "_server-Bhnb3o85.js",
+      "_format-time-Daj7AABi.js",
+      "_list-B2c6bf-j.js",
+      "_hazard-category-cascader-NvYz9idx.js"
+    ],
+    "css": [
+      "assets/root-cause-list-R43LDOl6.css"
+    ]
+  },
+  "src/views/hazard/rule-config/index.tsx": {
+    "file": "assets/rule-config-BYf1lUyq.js",
+    "name": "rule-config",
+    "src": "src/views/hazard/rule-config/index.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__hazardGovernance__loadShare__vue__loadShare__.js-CjH1ja7z.js",
+      "__virtual_mf___mfe_internal__hazardGovernance__loadShare__vue_mf_2_router__loadShare__.js-BSB1ENwy.js",
+      "_data-hOMFTrxn.js",
+      "_domain-context-CMztrDkK.js",
+      "_server-Bhnb3o85.js"
+    ],
+    "css": [
+      "assets/rule-config-3hVkFFlz.css"
+    ]
+  },
+  "src/views/hazard/workbench/index.tsx": {
+    "file": "assets/workbench-BCnxGvw2.js",
+    "name": "workbench",
+    "src": "src/views/hazard/workbench/index.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__hazardGovernance__loadShare__vue__loadShare__.js-CjH1ja7z.js",
+      "__virtual_mf___mfe_internal__hazardGovernance__loadShare__vue_mf_2_router__loadShare__.js-BSB1ENwy.js",
+      "_data-hOMFTrxn.js",
+      "_domain-context-CMztrDkK.js",
+      "_server-Bhnb3o85.js",
+      "_format-time-Daj7AABi.js",
+      "_actions-6gWrLCsF.js",
+      "_list-B2c6bf-j.js",
+      "_misreport-hazard-modal-D93rPw51.js",
+      "_use-hazard-urge-Cf8jycUd.js"
+    ],
+    "css": [
+      "assets/workbench-DEjY7kKp.css"
+    ]
+  },
+  "virtual:mf-REMOTE_ENTRY_ID:__mfe_internal__hazardGovernance__remoteEntry_js": {
+    "file": "remoteEntry.js",
+    "name": "remoteEntry",
+    "src": "virtual:mf-REMOTE_ENTRY_ID:__mfe_internal__hazardGovernance__remoteEntry_js",
+    "imports": [
+      "_virtual_mf-REMOTE_ENTRY_ID___mfe_internal__hazardGovernance__remoteEntry_js-BxO5Ql15.js"
+    ]
+  },
+  "virtual:mf-REMOTE_ENTRY_SSR_ID:__mfe_internal__hazardGovernance__remoteEntry_js": {
+    "file": "remoteEntry.ssr.js",
+    "name": "ssrRemoteEntry",
+    "src": "virtual:mf-REMOTE_ENTRY_SSR_ID:__mfe_internal__hazardGovernance__remoteEntry_js",
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "virtual:mf-exposes-ssr:__mfe_internal__hazardGovernance__remoteEntry_js"
+    ]
+  },
+  "virtual:mf-exposes-ssr:__mfe_internal__hazardGovernance__remoteEntry_js": {
+    "file": "assets/virtual_mf-exposes-ssr___mfe_internal__hazardGovernance__remoteEntry_js-DgJDUINJ.js",
+    "name": "virtual_mf-exposes-ssr___mfe_internal__hazardGovernance__remoteEntry_js",
+    "src": "virtual:mf-exposes-ssr:__mfe_internal__hazardGovernance__remoteEntry_js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "src/domain.ts"
+    ]
+  },
+  "virtual:mf-exposes:__mfe_internal__hazardGovernance__remoteEntry_js": {
+    "file": "assets/virtualExposes-fFtMN4GC.js",
+    "name": "virtualExposes",
+    "src": "virtual:mf-exposes:__mfe_internal__hazardGovernance__remoteEntry_js",
+    "imports": [
+      "_virtual_mf-exposes___mfe_internal__hazardGovernance__remoteEntry_js-BO7XMxWk.js"
+    ]
+  },
+  "virtual:mf-localSharedImportMap:__mfe_internal__hazardGovernance": {
+    "file": "assets/_virtual_mf-localSharedImportMap___mfe_internal__hazardGovernance-Co0Ue8rU.js",
+    "name": "_virtual_mf-localSharedImportMap___mfe_internal__hazardGovernance",
+    "src": "virtual:mf-localSharedImportMap:__mfe_internal__hazardGovernance",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "__virtual_mf___mfe_internal__hazardGovernance__loadShare__vue__loadShare__.js-CjH1ja7z.js",
+      "__virtual_mf___mfe_internal__hazardGovernance__loadShare__vue_mf_2_router__loadShare__.js-BSB1ENwy.js"
+    ]
+  },
+  "virtual:mf:__mfe_internal__hazardGovernance__H_A_I__hostAutoInit__H_A_I__.js": {
+    "file": "assets/hostInit-BtFJAqCX.js",
+    "name": "hostInit",
+    "src": "virtual:mf:__mfe_internal__hazardGovernance__H_A_I__hostAutoInit__H_A_I__.js",
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "_virtual_mf-REMOTE_ENTRY_ID___mfe_internal__hazardGovernance__remoteEntry_js-BxO5Ql15.js",
+      "virtual:mf-localSharedImportMap:__mfe_internal__hazardGovernance"
+    ]
+  }
+}

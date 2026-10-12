@@ -1,0 +1,102 @@
+.content {
+  display: flex;
+  flex: 1;
+  min-height: 0;
+  flex-direction: column;
+}
+.roleGrid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+  overflow: auto;
+  padding-right: 4px;
+}
+.roleCard {
+  border: 1px solid #edf0f5;
+  border-radius: 4px;
+  padding: 14px 16px;
+  background: #fff;
+}
+.roleHeader {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+}
+.roleTitle {
+  margin: 0;
+  color: #1f2937;
+  font-size: 16px;
+  font-weight: 600;
+}
+.roleMeta {
+  margin-top: 6px;
+  color: #6b7280;
+  font-size: 13px;
+  line-height: 1.5;
+}
+.userList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 12px;
+}
+.empty {
+  margin-top: 12px;
+  color: #9ca3af;
+}
+.candidateModal {
+  box-sizing: border-box;
+  display: flex;
+  height: 650px;
+  flex-direction: column;
+}
+.candidateToolbar {
+  display: flex;
+  flex-shrink: 0;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+.candidateToolbar :global(.pc-query-form) {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+.deptSelect {
+  width: 200px !important;
+  min-width: 200px;
+}
+.nameInput {
+  width: 200px !important;
+  min-width: 200px;
+}
+.tableWrap {
+  min-width: 0;
+  min-height: 0;
+  flex: 1;
+  overflow: hidden;
+}
+.tableWrap :global(.person-picker-table table) {
+  width: 100%;
+  table-layout: fixed;
+}
+.tableWrap :global(.person-picker-table [class*="table-body"]) {
+  box-sizing: border-box;
+}
+.candidateFooter {
+  display: flex;
+  flex-shrink: 0;
+  justify-content: flex-end;
+  margin-top: 16px;
+}
+.modalFooter {
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+}
+@media (max-width: 1200px) {
+  .roleGrid {
+    grid-template-columns: 1fr;
+  }
+}

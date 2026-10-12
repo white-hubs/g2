@@ -1,0 +1,469 @@
+{
+  "__virtual_mf___mfe_internal__genericEquipmentMonitorPages__loadShare__vue__loadShare__.js-BR2LWDBS.js": {
+    "file": "assets/_virtual_mf___mfe_internal__genericEquipmentMonitorPages__loadShare__vue__loadShare__.js-BR2LWDBS.js",
+    "name": "_virtual_mf___mfe_internal__genericEquipmentMonitorPages__loadShare__vue__loadShare__.js",
+    "imports": [
+      "_rolldown-runtime-DK3Fl9T5.js"
+    ]
+  },
+  "_alarm-scene-codes-BN1h3Dup.js": {
+    "file": "assets/alarm-scene-codes-BN1h3Dup.js",
+    "name": "alarm-scene-codes"
+  },
+  "_alarm-statistic-BBzXr17i.css": {
+    "file": "assets/alarm-statistic-BBzXr17i.css",
+    "src": "_alarm-statistic-BBzXr17i.css"
+  },
+  "_alarm-statistic-UCRHj9J-.js": {
+    "file": "assets/alarm-statistic-UCRHj9J-.js",
+    "name": "alarm-statistic",
+    "imports": [
+      "__virtual_mf___mfe_internal__genericEquipmentMonitorPages__loadShare__vue__loadShare__.js-BR2LWDBS.js",
+      "_page-keys-CnVtz73u.js",
+      "_pc-ui-runtime-DkAodhjZ.js",
+      "_statistics-data-TX734v7w.js"
+    ],
+    "css": [
+      "assets/alarm-statistic-BBzXr17i.css"
+    ]
+  },
+  "_alarm-suspend-modal-CiEcWeaQ.js": {
+    "file": "assets/alarm-suspend-modal-CiEcWeaQ.js",
+    "name": "alarm-suspend-modal",
+    "imports": [
+      "__virtual_mf___mfe_internal__genericEquipmentMonitorPages__loadShare__vue__loadShare__.js-BR2LWDBS.js",
+      "_pc-ui-runtime-DkAodhjZ.js",
+      "_normalize-page-CShkffG8.js",
+      "_alarm-scene-codes-BN1h3Dup.js"
+    ]
+  },
+  "_capability-B1PGXkQX.js": {
+    "file": "assets/capability-B1PGXkQX.js",
+    "name": "capability"
+  },
+  "_normalize-page-CShkffG8.js": {
+    "file": "assets/normalize-page-CShkffG8.js",
+    "name": "normalize-page"
+  },
+  "_page-keys-CnVtz73u.js": {
+    "file": "assets/page-keys-CnVtz73u.js",
+    "name": "page-keys"
+  },
+  "_pc-ui-runtime-DkAodhjZ.js": {
+    "file": "assets/pc-ui-runtime-DkAodhjZ.js",
+    "name": "pc-ui-runtime"
+  },
+  "_rolldown-runtime-DK3Fl9T5.js": {
+    "file": "assets/rolldown-runtime-DK3Fl9T5.js",
+    "name": "rolldown-runtime"
+  },
+  "_statistics-data-TX734v7w.js": {
+    "file": "assets/statistics-data-TX734v7w.js",
+    "name": "statistics-data",
+    "imports": [
+      "__virtual_mf___mfe_internal__genericEquipmentMonitorPages__loadShare__vue__loadShare__.js-BR2LWDBS.js",
+      "_pc-ui-runtime-DkAodhjZ.js"
+    ]
+  },
+  "_virtual_mf-REMOTE_ENTRY_ID___mfe_internal__genericEquipmentMonitorPages__remoteEntry_js-Boc1tvbu.js": {
+    "file": "assets/virtual_mf-REMOTE_ENTRY_ID___mfe_internal__genericEquipmentMonitorPages__remoteEntry_js-Boc1tvbu.js",
+    "name": "virtual_mf-REMOTE_ENTRY_ID___mfe_internal__genericEquipmentMonitorPages__remoteEntry_js",
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "virtual:mf-localSharedImportMap:__mfe_internal__genericEquipmentMonitorPages",
+      "_virtual_mf-exposes___mfe_internal__genericEquipmentMonitorPages__remoteEntry_js-DKf_PbT6.js"
+    ]
+  },
+  "_virtual_mf-exposes___mfe_internal__genericEquipmentMonitorPages__remoteEntry_js-DKf_PbT6.js": {
+    "file": "assets/virtual_mf-exposes___mfe_internal__genericEquipmentMonitorPages__remoteEntry_js-DKf_PbT6.js",
+    "name": "virtual_mf-exposes___mfe_internal__genericEquipmentMonitorPages__remoteEntry_js",
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "src/pages/over-view.tsx",
+      "src/pages/equipment-monitor-list.tsx",
+      "src/pages/equipment-monitor-detail.tsx",
+      "src/pages/alarm-record.tsx",
+      "src/pages/alarm-detail.tsx",
+      "src/pages/alarm-record-safety.tsx",
+      "src/pages/alarm-safety-detail.tsx",
+      "src/pages/alarm-config-list.tsx",
+      "src/pages/alarm-config-energy.tsx",
+      "src/pages/alarm-configure-add.tsx",
+      "_alarm-statistic-UCRHj9J-.js",
+      "src/pages/alarm-handle-statistics.tsx",
+      "src/pages/alarm-analysis.tsx",
+      "src/pages/application-equipment.tsx",
+      "src/pages/equipment-association.tsx",
+      "src/pages/configuration.tsx",
+      "src/pages/message-notice.tsx",
+      "src/pages/alarm-handler-submit-config.tsx",
+      "_page-keys-CnVtz73u.js",
+      "src/contract-info.ts"
+    ]
+  },
+  "_vite-preload-helper-7P2xnrDv.js": {
+    "file": "assets/vite-preload-helper-7P2xnrDv.js",
+    "name": "vite-preload-helper"
+  },
+  "index.html": {
+    "file": "assets/index-BRSNvR1O.js",
+    "name": "index",
+    "src": "index.html",
+    "isEntry": true,
+    "imports": [
+      "_virtual_mf-exposes___mfe_internal__genericEquipmentMonitorPages__remoteEntry_js-DKf_PbT6.js",
+      "_virtual_mf-REMOTE_ENTRY_ID___mfe_internal__genericEquipmentMonitorPages__remoteEntry_js-Boc1tvbu.js"
+    ]
+  },
+  "src/contract-info.ts": {
+    "file": "assets/contract-info-D6De7KJ6.js",
+    "name": "contract-info",
+    "src": "src/contract-info.ts",
+    "isEntry": true
+  },
+  "src/page-keys.ts": {
+    "file": "assets/page-keys-Bmqvxmy5.js",
+    "name": "page-keys",
+    "src": "src/page-keys.ts",
+    "isEntry": true,
+    "imports": [
+      "_page-keys-CnVtz73u.js"
+    ]
+  },
+  "src/pages/alarm-analysis.tsx": {
+    "file": "assets/alarm-analysis-DyeKO1Dc.js",
+    "name": "alarm-analysis",
+    "src": "src/pages/alarm-analysis.tsx",
+    "isEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__genericEquipmentMonitorPages__loadShare__vue__loadShare__.js-BR2LWDBS.js",
+      "_pc-ui-runtime-DkAodhjZ.js",
+      "_statistics-data-TX734v7w.js"
+    ],
+    "css": [
+      "assets/alarm-analysis-CeS0BRJs.css"
+    ]
+  },
+  "src/pages/alarm-config-energy.tsx": {
+    "file": "assets/alarm-config-energy-CnCOoL0A.js",
+    "name": "alarm-config-energy",
+    "src": "src/pages/alarm-config-energy.tsx",
+    "isEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__genericEquipmentMonitorPages__loadShare__vue__loadShare__.js-BR2LWDBS.js",
+      "_page-keys-CnVtz73u.js",
+      "_pc-ui-runtime-DkAodhjZ.js",
+      "_normalize-page-CShkffG8.js"
+    ]
+  },
+  "src/pages/alarm-config-list.tsx": {
+    "file": "assets/alarm-config-list-BpupsOs7.js",
+    "name": "alarm-config-list",
+    "src": "src/pages/alarm-config-list.tsx",
+    "isEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__genericEquipmentMonitorPages__loadShare__vue__loadShare__.js-BR2LWDBS.js",
+      "_page-keys-CnVtz73u.js",
+      "_pc-ui-runtime-DkAodhjZ.js",
+      "_normalize-page-CShkffG8.js"
+    ]
+  },
+  "src/pages/alarm-configure-add.tsx": {
+    "file": "assets/alarm-configure-add-Btaqbm4H.js",
+    "name": "alarm-configure-add",
+    "src": "src/pages/alarm-configure-add.tsx",
+    "isEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__genericEquipmentMonitorPages__loadShare__vue__loadShare__.js-BR2LWDBS.js",
+      "_page-keys-CnVtz73u.js",
+      "_pc-ui-runtime-DkAodhjZ.js",
+      "_normalize-page-CShkffG8.js"
+    ]
+  },
+  "src/pages/alarm-detail.tsx": {
+    "file": "assets/alarm-detail-DNVUy-1e.js",
+    "name": "alarm-detail",
+    "src": "src/pages/alarm-detail.tsx",
+    "isEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__genericEquipmentMonitorPages__loadShare__vue__loadShare__.js-BR2LWDBS.js",
+      "_page-keys-CnVtz73u.js",
+      "_pc-ui-runtime-DkAodhjZ.js",
+      "_normalize-page-CShkffG8.js",
+      "_alarm-suspend-modal-CiEcWeaQ.js"
+    ],
+    "css": [
+      "assets/alarm-detail-2JBhWeOc.css"
+    ]
+  },
+  "src/pages/alarm-handle-statistics.tsx": {
+    "file": "assets/alarm-handle-statistics-D9r5T8LY.js",
+    "name": "alarm-handle-statistics",
+    "src": "src/pages/alarm-handle-statistics.tsx",
+    "isEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__genericEquipmentMonitorPages__loadShare__vue__loadShare__.js-BR2LWDBS.js",
+      "_alarm-statistic-UCRHj9J-.js"
+    ]
+  },
+  "src/pages/alarm-handler-submit-config.tsx": {
+    "file": "assets/alarm-handler-submit-config-rCk57wE5.js",
+    "name": "alarm-handler-submit-config",
+    "src": "src/pages/alarm-handler-submit-config.tsx",
+    "isEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__genericEquipmentMonitorPages__loadShare__vue__loadShare__.js-BR2LWDBS.js",
+      "_pc-ui-runtime-DkAodhjZ.js",
+      "_alarm-scene-codes-BN1h3Dup.js"
+    ]
+  },
+  "src/pages/alarm-record-safety.tsx": {
+    "file": "assets/alarm-record-safety-CTyBySM8.js",
+    "name": "alarm-record-safety",
+    "src": "src/pages/alarm-record-safety.tsx",
+    "isEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__genericEquipmentMonitorPages__loadShare__vue__loadShare__.js-BR2LWDBS.js",
+      "_page-keys-CnVtz73u.js",
+      "_pc-ui-runtime-DkAodhjZ.js",
+      "_normalize-page-CShkffG8.js"
+    ]
+  },
+  "src/pages/alarm-record.tsx": {
+    "file": "assets/alarm-record-BltDs1o1.js",
+    "name": "alarm-record",
+    "src": "src/pages/alarm-record.tsx",
+    "isEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__genericEquipmentMonitorPages__loadShare__vue__loadShare__.js-BR2LWDBS.js",
+      "_page-keys-CnVtz73u.js",
+      "_pc-ui-runtime-DkAodhjZ.js",
+      "_normalize-page-CShkffG8.js",
+      "_alarm-suspend-modal-CiEcWeaQ.js",
+      "_capability-B1PGXkQX.js"
+    ]
+  },
+  "src/pages/alarm-safety-detail.tsx": {
+    "file": "assets/alarm-safety-detail-ZP_dDe1e.js",
+    "name": "alarm-safety-detail",
+    "src": "src/pages/alarm-safety-detail.tsx",
+    "isEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__genericEquipmentMonitorPages__loadShare__vue__loadShare__.js-BR2LWDBS.js",
+      "_page-keys-CnVtz73u.js",
+      "_pc-ui-runtime-DkAodhjZ.js",
+      "_normalize-page-CShkffG8.js"
+    ]
+  },
+  "src/pages/alarm-statistic.tsx": {
+    "file": "assets/alarm-statistic-BAy2wPSM.js",
+    "name": "alarm-statistic",
+    "src": "src/pages/alarm-statistic.tsx",
+    "isEntry": true,
+    "imports": [
+      "_alarm-statistic-UCRHj9J-.js"
+    ]
+  },
+  "src/pages/application-equipment.tsx": {
+    "file": "assets/application-equipment-BuOuzlCF.js",
+    "name": "application-equipment",
+    "src": "src/pages/application-equipment.tsx",
+    "isEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__genericEquipmentMonitorPages__loadShare__vue__loadShare__.js-BR2LWDBS.js",
+      "_pc-ui-runtime-DkAodhjZ.js",
+      "_normalize-page-CShkffG8.js"
+    ]
+  },
+  "src/pages/configuration.tsx": {
+    "file": "assets/configuration-C5vWkZEs.js",
+    "name": "configuration",
+    "src": "src/pages/configuration.tsx",
+    "isEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__genericEquipmentMonitorPages__loadShare__vue__loadShare__.js-BR2LWDBS.js",
+      "_pc-ui-runtime-DkAodhjZ.js"
+    ],
+    "css": [
+      "assets/configuration-DK9AYad1.css"
+    ]
+  },
+  "src/pages/equipment-association.tsx": {
+    "file": "assets/equipment-association-ByJk9lNo.js",
+    "name": "equipment-association",
+    "src": "src/pages/equipment-association.tsx",
+    "isEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__genericEquipmentMonitorPages__loadShare__vue__loadShare__.js-BR2LWDBS.js",
+      "_pc-ui-runtime-DkAodhjZ.js",
+      "_normalize-page-CShkffG8.js"
+    ],
+    "css": [
+      "assets/equipment-association-Dl0CK_aU.css"
+    ]
+  },
+  "src/pages/equipment-monitor-detail.tsx": {
+    "file": "assets/equipment-monitor-detail-CRU_VCS3.js",
+    "name": "equipment-monitor-detail",
+    "src": "src/pages/equipment-monitor-detail.tsx",
+    "isEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__genericEquipmentMonitorPages__loadShare__vue__loadShare__.js-BR2LWDBS.js",
+      "_page-keys-CnVtz73u.js",
+      "_pc-ui-runtime-DkAodhjZ.js"
+    ],
+    "css": [
+      "assets/equipment-monitor-detail-Bcwzflk1.css"
+    ]
+  },
+  "src/pages/equipment-monitor-list.tsx": {
+    "file": "assets/equipment-monitor-list-YS9O2ciL.js",
+    "name": "equipment-monitor-list",
+    "src": "src/pages/equipment-monitor-list.tsx",
+    "isEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__genericEquipmentMonitorPages__loadShare__vue__loadShare__.js-BR2LWDBS.js",
+      "_page-keys-CnVtz73u.js",
+      "_pc-ui-runtime-DkAodhjZ.js",
+      "_normalize-page-CShkffG8.js"
+    ],
+    "css": [
+      "assets/equipment-monitor-list-C989wEjp.css"
+    ]
+  },
+  "src/pages/message-notice.tsx": {
+    "file": "assets/message-notice-ADKg9IKQ.js",
+    "name": "message-notice",
+    "src": "src/pages/message-notice.tsx",
+    "isEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__genericEquipmentMonitorPages__loadShare__vue__loadShare__.js-BR2LWDBS.js",
+      "_pc-ui-runtime-DkAodhjZ.js"
+    ],
+    "css": [
+      "assets/message-notice-Cqf3O3-L.css"
+    ]
+  },
+  "src/pages/over-view.tsx": {
+    "file": "assets/over-view-DpVYQO4N.js",
+    "name": "over-view",
+    "src": "src/pages/over-view.tsx",
+    "isEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__genericEquipmentMonitorPages__loadShare__vue__loadShare__.js-BR2LWDBS.js",
+      "_page-keys-CnVtz73u.js",
+      "_pc-ui-runtime-DkAodhjZ.js",
+      "_statistics-data-TX734v7w.js",
+      "_capability-B1PGXkQX.js"
+    ],
+    "css": [
+      "assets/over-view-D-3XgiSN.css"
+    ]
+  },
+  "virtual:mf-REMOTE_ENTRY_ID:__mfe_internal__genericEquipmentMonitorPages__remoteEntry_js": {
+    "file": "remoteEntry.js",
+    "name": "remoteEntry",
+    "src": "virtual:mf-REMOTE_ENTRY_ID:__mfe_internal__genericEquipmentMonitorPages__remoteEntry_js",
+    "imports": [
+      "_virtual_mf-REMOTE_ENTRY_ID___mfe_internal__genericEquipmentMonitorPages__remoteEntry_js-Boc1tvbu.js"
+    ]
+  },
+  "virtual:mf-REMOTE_ENTRY_SSR_ID:__mfe_internal__genericEquipmentMonitorPages__remoteEntry_js": {
+    "file": "remoteEntry.ssr.js",
+    "name": "ssrRemoteEntry",
+    "src": "virtual:mf-REMOTE_ENTRY_SSR_ID:__mfe_internal__genericEquipmentMonitorPages__remoteEntry_js",
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "virtual:mf-exposes-ssr:__mfe_internal__genericEquipmentMonitorPages__remoteEntry_js"
+    ]
+  },
+  "virtual:mf-exposes-ssr:__mfe_internal__genericEquipmentMonitorPages__remoteEntry_js": {
+    "file": "assets/virtual_mf-exposes-ssr___mfe_internal__genericEquipmentMonitorPages__remoteEntry_js-BjmjGAGU.js",
+    "name": "virtual_mf-exposes-ssr___mfe_internal__genericEquipmentMonitorPages__remoteEntry_js",
+    "src": "virtual:mf-exposes-ssr:__mfe_internal__genericEquipmentMonitorPages__remoteEntry_js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "src/pages/over-view.tsx",
+      "src/pages/equipment-monitor-list.tsx",
+      "src/pages/equipment-monitor-detail.tsx",
+      "src/pages/alarm-record.tsx",
+      "src/pages/alarm-detail.tsx",
+      "src/pages/alarm-record-safety.tsx",
+      "src/pages/alarm-safety-detail.tsx",
+      "src/pages/alarm-config-list.tsx",
+      "src/pages/alarm-config-energy.tsx",
+      "src/pages/alarm-configure-add.tsx",
+      "_alarm-statistic-UCRHj9J-.js",
+      "src/pages/alarm-handle-statistics.tsx",
+      "src/pages/alarm-analysis.tsx",
+      "src/pages/application-equipment.tsx",
+      "src/pages/equipment-association.tsx",
+      "src/pages/configuration.tsx",
+      "src/pages/message-notice.tsx",
+      "src/pages/alarm-handler-submit-config.tsx",
+      "_page-keys-CnVtz73u.js",
+      "src/contract-info.ts"
+    ]
+  },
+  "virtual:mf-exposes:__mfe_internal__genericEquipmentMonitorPages__remoteEntry_js": {
+    "file": "assets/virtualExposes-Bw_wb-xk.js",
+    "name": "virtualExposes",
+    "src": "virtual:mf-exposes:__mfe_internal__genericEquipmentMonitorPages__remoteEntry_js",
+    "imports": [
+      "_virtual_mf-exposes___mfe_internal__genericEquipmentMonitorPages__remoteEntry_js-DKf_PbT6.js"
+    ]
+  },
+  "virtual:mf-localSharedImportMap:__mfe_internal__genericEquipmentMonitorPages": {
+    "file": "assets/_virtual_mf-localSharedImportMap___mfe_internal__genericEquipmentMonitorPages-CmUPj1bx.js",
+    "name": "_virtual_mf-localSharedImportMap___mfe_internal__genericEquipmentMonitorPages",
+    "src": "virtual:mf-localSharedImportMap:__mfe_internal__genericEquipmentMonitorPages",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "__virtual_mf___mfe_internal__genericEquipmentMonitorPages__loadShare__vue__loadShare__.js-BR2LWDBS.js",
+      "virtual:mf:__mfe_internal__genericEquipmentMonitorPages__prebuild__vue_mf_2_router__prebuild__.js"
+    ]
+  },
+  "virtual:mf:__mfe_internal__genericEquipmentMonitorPages__H_A_I__hostAutoInit__H_A_I__.js": {
+    "file": "assets/hostInit-a6jVKWw_.js",
+    "name": "hostInit",
+    "src": "virtual:mf:__mfe_internal__genericEquipmentMonitorPages__H_A_I__hostAutoInit__H_A_I__.js",
+    "imports": [
+      "_vite-preload-helper-7P2xnrDv.js"
+    ],
+    "dynamicImports": [
+      "_virtual_mf-REMOTE_ENTRY_ID___mfe_internal__genericEquipmentMonitorPages__remoteEntry_js-Boc1tvbu.js",
+      "virtual:mf-localSharedImportMap:__mfe_internal__genericEquipmentMonitorPages"
+    ]
+  },
+  "virtual:mf:__mfe_internal__genericEquipmentMonitorPages__prebuild__vue__prebuild__.js": {
+    "file": "assets/_virtual_mf___mfe_internal__genericEquipmentMonitorPages__prebuild__vue__prebuild__-DH-kqQLe.js",
+    "name": "_virtual_mf___mfe_internal__genericEquipmentMonitorPages__prebuild__vue__prebuild__",
+    "src": "virtual:mf:__mfe_internal__genericEquipmentMonitorPages__prebuild__vue__prebuild__.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "__virtual_mf___mfe_internal__genericEquipmentMonitorPages__loadShare__vue__loadShare__.js-BR2LWDBS.js"
+    ]
+  },
+  "virtual:mf:__mfe_internal__genericEquipmentMonitorPages__prebuild__vue_mf_2_router__prebuild__.js": {
+    "file": "assets/_virtual_mf___mfe_internal__genericEquipmentMonitorPages__prebuild__vue_mf_2_router__prebuild__-Bq73595r.js",
+    "name": "_virtual_mf___mfe_internal__genericEquipmentMonitorPages__prebuild__vue_mf_2_router__prebuild__",
+    "src": "virtual:mf:__mfe_internal__genericEquipmentMonitorPages__prebuild__vue_mf_2_router__prebuild__.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-DK3Fl9T5.js",
+      "__virtual_mf___mfe_internal__genericEquipmentMonitorPages__loadShare__vue__loadShare__.js-BR2LWDBS.js"
+    ]
+  }
+}

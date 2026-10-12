@@ -1,0 +1,1 @@
+import{t as e}from"./virtual_mf-exposes___mfe_internal__lineLossManagement__remoteEntry_js-BPGwLez4.js";export{e as default};

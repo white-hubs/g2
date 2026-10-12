@@ -1,0 +1,66 @@
+.detailForm {
+  width: 100%;
+  text-align: left;
+}
+
+.sectionTitle {
+  position: relative;
+  margin: 8px 0 16px;
+  padding-left: 10px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.sectionTitle::before {
+  position: absolute;
+  top: 3px;
+  left: 0;
+  width: 3px;
+  height: 16px;
+  background: var(--pc-primary-color, #00ba8b);
+  content: "";
+}
+
+.fieldGrid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(240px, 1fr));
+  gap: 12px 24px;
+  margin-bottom: 16px;
+}
+
+.fieldItem {
+  display: flex;
+  gap: 8px;
+  line-height: 22px;
+}
+
+.fieldLabel {
+  flex: 0 0 auto;
+  color: #8c8c8c;
+}
+
+.fieldValue {
+  flex: 1 1 auto;
+  word-break: break-all;
+}
+
+.stepItem {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin-bottom: 12px;
+}
+
+.imageRow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.imageThumb {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 4px;
+}

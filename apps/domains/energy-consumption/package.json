@@ -1,0 +1,47 @@
+{
+  "name": "@g2-domain/energy-consumption",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "bun ../../../tooling/dev-link/cli.ts",
+    "dev:serve": "bun --bun vite --port 5076 --strictPort",
+    "build": "bun --bun vite build",
+    "preview": "bun --bun vite preview --port 5076 --strictPort",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "bun test"
+  },
+  "dependencies": {
+    "@ant-design/icons-vue": "^7.0.1",
+    "@g2-client/alarm-center": "workspace:*",
+    "@g2-client/device-center": "workspace:*",
+    "@g2-client/energy-consumption": "workspace:*",
+    "@g2-client/file": "workspace:*",
+    "@g2-client/mdata": "workspace:*",
+    "@g2-client/ouaa": "workspace:*",
+    "@g2-composition/contract": "workspace:*",
+    "@g2-contract/energy-consumption": "workspace:*",
+    "@g2-pages/generic-equipment-monitor": "workspace:*",
+    "@g2-platform/pc-chart": "workspace:*",
+    "@g2-platform/pc-iot-socket": "workspace:*",
+    "@g2-runtime/common-loader": "workspace:*",
+    "ant-design-vue": "catalog:antdv",
+    "dayjs": "catalog:libs",
+    "echarts": "catalog:libs",
+    "lodash-es": "^4.17.21",
+    "vue": "catalog:vue",
+    "vue-router": "catalog:vue",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@g2-platform/pc-chart": "workspace:*",
+    "@g2-platform/pc-player": "workspace:*",
+    "@g2-platform/pc-ui": "workspace:*",
+    "@g2-tooling/mf-vite": "workspace:*",
+    "@types/lodash-es": "^4.17.12",
+    "@vitejs/plugin-vue-jsx": "catalog:vite",
+    "less": "^4.8.1",
+    "typescript": "catalog:typescript",
+    "vite": "catalog:vite"
+  }
+}

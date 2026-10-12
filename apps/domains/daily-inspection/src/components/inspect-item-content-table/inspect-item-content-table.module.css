@@ -1,0 +1,76 @@
+.error-msg {
+  color: red;
+  font-size: 12px;
+  position: absolute;
+  left: 0;
+  bottom: -8px;
+}
+
+.input-wrap {
+  position: relative;
+  padding: 10px 0 12px 0;
+}
+
+.input-wrapper,
+.text-wrapper {
+  padding: 0 10px;
+  position: relative;
+  min-width: 60px;
+  min-height: 20px;
+}
+
+.input-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.editable-cell-icon,
+.editable-cell-icon-check {
+  position: absolute;
+  right: 0;
+  width: 20px;
+  cursor: pointer;
+}
+
+.editable-cell-icon-check {
+  line-height: 28px;
+  right: -24px;
+}
+
+.operating-room-tabs-tab-btn,
+:global(.tabs-tab-btn) {
+  min-height: 20px;
+}
+
+.editable-cell-icon {
+  margin-top: 4px;
+  display: none;
+  margin-right: 0;
+  right: -24px;
+}
+
+.editable-cell-icon:hover,
+.editable-cell-icon-check:hover {
+  color: var(--cube-theme-var--primary-color, #1890ff);
+}
+
+.text-wrapper:hover .editable-cell-icon {
+  display: inline-block;
+}
+
+.ml-16 {
+  margin-left: 16px;
+}
+
+.mb-16 {
+  margin-bottom: 16px;
+}
+
+.stable-table :global(table) {
+  table-layout: fixed !important;
+}
+
+.stable-table :global(.ant-select),
+.stable-table :global([class$="-select"]) {
+  width: 100%;
+}

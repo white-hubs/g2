@@ -1,0 +1,1 @@
+import"./virtual_mf-exposes___mfe_internal__broadcastCenter__remoteEntry_js-BBnTgsNV.js";import"./virtual_mf-REMOTE_ENTRY_ID___mfe_internal__broadcastCenter__remoteEntry_js-hPcukB-f.js";document.querySelector(`#app`).textContent=`@g2-domain/broadcast-center build shell`;
